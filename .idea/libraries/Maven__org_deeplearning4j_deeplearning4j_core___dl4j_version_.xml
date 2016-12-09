@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.deeplearning4j:deeplearning4j-core:${dl4j.version}">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/deeplearning4j/deeplearning4j-core/${dl4j.version}/deeplearning4j-core-${dl4j.version}.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/deeplearning4j/deeplearning4j-core/${dl4j.version}/deeplearning4j-core-${dl4j.version}-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/deeplearning4j/deeplearning4j-core/${dl4j.version}/deeplearning4j-core-${dl4j.version}-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
