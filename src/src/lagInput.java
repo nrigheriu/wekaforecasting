@@ -1,3 +1,5 @@
+package src;
+
 import java.io.*;
 
 import java.text.DecimalFormat;
@@ -106,33 +108,12 @@ public class lagInput {
             evaluation.evaluateForecaster(forecaster);
             System.out.println(evaluation.toSummaryString());*/
             //plotting
-            buildErrorGraph(testData, forecaster, forecast, stepNumber);
+            buildErrorGraph.buildErrorGraph(testData, forecaster, forecast, stepNumber);
         } catch (Exception ex) {
             ex.printStackTrace();
         }
     }
-    public static void buildErrorGraph(Instances data, WekaForecaster forecaster,List<List<NumericPrediction>> forecast, int stepNumber){
-        JFreeChartDriver graph = new JFreeChartDriver();
-        String[] targetNames = new String[1];
-        targetNames[0] = "sum";
-//        List<Integer> steps = new ArrayList<>();
-//        steps.add(100);
-        ErrorModule errorModule = new ErrorModule();
-        errorModule.setTargetFields(Arrays.asList(targetNames));
-        List<ErrorModule> errorModuleList = new ArrayList<>();
-        try {
-            for (int i = 0; i< stepNumber; i++){
-                Instance instance = data.get(i);
-                errorModule.evaluateForInstance(forecast.get(i), instance);
-                System.out.println(errorModule.toSummaryString());
-                errorModuleList.add(errorModule);
-            }
-            JPanel panel2 = graph.getGraphPanelTargets(forecaster, errorModule, Arrays.asList(targetNames), 0, 1, data);
-            graph.saveChartToFile(panel2, "file1", 1000, 1000);
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-    }
+
     public static Instances selectAttributes(Instances data){
         AttributeSelection filter = new AttributeSelection();
         WrapperSubsetEval eval = new WrapperSubsetEval();

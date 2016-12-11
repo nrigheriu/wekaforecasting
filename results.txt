@@ -1,0 +1,233 @@
+Transformed training data:
+
+              sum
+              Date-remapped
+              Lag_sum+0
+              Lag_sum-1
+              Lag_sum-2
+              Lag_sum-3
+              Lag_sum-4
+
+sum:
+AttributeSelectedClassifier:
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 1 sum):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.4017  3 Lag_sum+0
+ 0.2404  2 Date-remapped
+ 0.1893  4 Lag_sum-1
+ 0.0623  5 Lag_sum-2
+ 0       6 Lag_sum-3
+ 0       7 Lag_sum-4
+
+Selected attributes: 3,2,4,5,6,7 : 6
+
+
+Header of reduced data:
+@relation 'Date_numbers-weka.filters.unsupervised.attribute.Add-NDate-remapped-Clast-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_sum-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I0-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_sum-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-1-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_sum-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-2-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_sum-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-3-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_sum-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-4-weka.filters.unsupervised.attribute.RemoveType-Tdate-weka.filters.unsupervised.attribute.Remove-V-R3,2,4-7,1'
+
+@attribute Lag_sum+0 numeric
+@attribute Date-remapped numeric
+@attribute Lag_sum-1 numeric
+@attribute Lag_sum-2 numeric
+@attribute Lag_sum-3 numeric
+@attribute Lag_sum-4 numeric
+@attribute sum numeric
+
+@data
+
+
+Classifier Model
+
+Linear Regression Model
+
+sum =
+
+      0.3548 * Lag_sum+0 +
+      6.7096 * Date-remapped +
+      0.3754 * Lag_sum-1 +
+      0.5718 * Lag_sum-2 +
+      0.8387 * Lag_sum-3 +
+    -13.4191
+
+Step: 0 Prediction:84.67 Actual: 128.0 MAE: 43.33 RMSE:43.33 MAPE:33.852
+Step: 1 Prediction:130.856 Actual: 256.0 MAE: 84.237 RMSE:62.572 MAPE:41.368
+Step: 2 Prediction:193.561 Actual: 512.0 MAE: 162.304 RMSE:106.146 MAPE:48.31
+Step: 3 Prediction:267.554 Actual: 1024.0 MAE: 310.84 RMSE:189.112 MAPE:54.701
+Time taken: 934
+Transformed training data:
+
+              sum
+              Date-remapped
+              Lag_sum+0
+              Lag_sum-1
+              Lag_sum-2
+              Lag_sum-3
+              Lag_sum-4
+              Date-remapped^2
+              Date-remapped^3
+              Date-remapped*Lag_sum+0
+              Date-remapped*Lag_sum-1
+              Date-remapped*Lag_sum-2
+              Date-remapped*Lag_sum-3
+              Date-remapped*Lag_sum-4
+
+sum:
+AttributeSelectedClassifier:
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 1 sum):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.4432  10 Date-remapped*Lag_sum+0
+ 0.4392   9 Date-remapped^3
+ 0.4017   3 Lag_sum+0
+ 0.3739   8 Date-remapped^2
+ 0.2404   2 Date-remapped
+ 0.2023  11 Date-remapped*Lag_sum-1
+ 0.1893   4 Lag_sum-1
+ 0.0656  12 Date-remapped*Lag_sum-2
+ 0.0623   5 Lag_sum-2
+ 0       13 Date-remapped*Lag_sum-3
+ 0        6 Lag_sum-3
+ 0        7 Lag_sum-4
+ 0       14 Date-remapped*Lag_sum-4
+
+Selected attributes: 10,9,3,8,2,11,4,12,5,13,6,7,14 : 13
+
+
+Header of reduced data:
+@relation 'Date_numbers-weka.filters.unsupervised.attribute.Add-NDate-remapped-Clast-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_sum-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I0-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_sum-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-1-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_sum-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-2-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_sum-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-3-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_sum-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-4-weka.filters.unsupervised.attribute.AddExpression-Ea3^2-NDate-remapped^2-weka.filters.unsupervised.attribute.AddExpression-Ea3^3-NDate-remapped^3-weka.filters.unsupervised.attribute.AddExpression-Ea3*a4-NDate-remapped*Lag_sum+0-weka.filters.unsupervised.attribute.AddExpression-Ea3*a5-NDate-remapped*Lag_sum-1-weka.filters.unsupervised.attribute.AddExpression-Ea3*a6-NDate-remapped*Lag_sum-2-weka.filters.unsupervised.attribute.AddExpression-Ea3*a7-NDate-remapped*Lag_sum-3-weka.filters.unsupervised.attribute.AddExpression-Ea3*a8-NDate-remapped*Lag_sum-4-weka.filters.unsupervised.attribute.RemoveType-Tdate-weka.filters.unsupervised.attribute.Remove-V-R10,9,3,8,2,11,4,12,5,13,6-7,14,1'
+
+@attribute Date-remapped*Lag_sum+0 numeric
+@attribute Date-remapped^3 numeric
+@attribute Lag_sum+0 numeric
+@attribute Date-remapped^2 numeric
+@attribute Date-remapped numeric
+@attribute Date-remapped*Lag_sum-1 numeric
+@attribute Lag_sum-1 numeric
+@attribute Date-remapped*Lag_sum-2 numeric
+@attribute Lag_sum-2 numeric
+@attribute Date-remapped*Lag_sum-3 numeric
+@attribute Lag_sum-3 numeric
+@attribute Lag_sum-4 numeric
+@attribute Date-remapped*Lag_sum-4 numeric
+@attribute sum numeric
+
+@data
+
+
+Classifier Model
+
+Linear Regression Model
+
+sum =
+
+      0.0359 * Date-remapped*Lag_sum+0 +
+      0.1427 * Date-remapped^3 +
+      0.175  * Lag_sum+0 +
+      0.6815 * Date-remapped^2 +
+      3.7024 * Date-remapped +
+      0.0159 * Date-remapped*Lag_sum-1 +
+      0.0724 * Lag_sum-1 +
+      0.0302 * Date-remapped*Lag_sum-2 +
+      0.1431 * Lag_sum-2 +
+      0.0531 * Date-remapped*Lag_sum-3 +
+      0.2653 * Lag_sum-3 +
+     -3.6277
+
+Step: 0 Prediction:84.545 Actual: 128.0 MAE: 43.455 RMSE:43.455 MAPE:33.949
+Step: 1 Prediction:134.731 Actual: 256.0 MAE: 82.362 RMSE:60.635 MAPE:40.66
+Step: 2 Prediction:207.285 Actual: 512.0 MAE: 156.48 RMSE:101.572 MAPE:46.945
+Step: 3 Prediction:301.4 Actual: 1024.0 MAE: 298.01 RMSE:180.65 MAPE:52.85
+Time taken: 949
+Transformed training data:
+
+              sum
+              Date-remapped
+              Lag_sum-1
+
+sum:
+AttributeSelectedClassifier:
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 1 sum):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.24   2 Date-remapped
+ 0.189  3 Lag_sum-1
+
+Selected attributes: 2,3 : 2
+
+
+Header of reduced data:
+@relation 'Date_numbers-weka.filters.unsupervised.attribute.Add-NDate-remapped-Clast-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_sum-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-1-weka.filters.unsupervised.attribute.RemoveType-Tdate-weka.filters.unsupervised.attribute.Remove-V-R2-3,1'
+
+@attribute Date-remapped numeric
+@attribute Lag_sum-1 numeric
+@attribute sum numeric
+
+@data
+
+
+Classifier Model
+
+Linear Regression Model
+
+sum =
+
+      9.6296 * Date-remapped +
+      1.037  * Lag_sum-1 +
+    -10.0148
+
+Step: 0 Prediction:104.504 Actual: 128.0 MAE: 23.496 RMSE:23.496 MAPE:18.356
+Step: 1 Prediction:156.137 Actual: 256.0 MAE: 61.68 RMSE:49.931 MAPE:28.683
+Step: 2 Prediction:219.313 Actual: 512.0 MAE: 138.682 RMSE:97.562 MAPE:38.177
+Step: 3 Prediction:294.458 Actual: 1024.0 MAE: 286.397 RMSE:182.386 MAPE:46.444
+@relation 'Date_numbers-weka.filters.unsupervised.attribute.Add-NDate-remapped-Clast-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_sum-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-1'
+
+@attribute Date date yyyy-MM
+@attribute sum numeric
+@attribute Date-remapped numeric
+@attribute Lag_sum-1 numeric
+
+@data
+1949-01,4,0,?
+1949-02,8,1,4
+1949-03,16,2,8
+1949-04,32,3,16
+1949-05,64,4,32
+
+Time taken: 1026
