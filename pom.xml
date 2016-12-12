@@ -50,17 +50,6 @@
             <artifactId>multisearch-weka-package</artifactId>
             <version>${multisearch.version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.deeplearning4j</groupId>
-            <artifactId>deeplearning4j-core</artifactId>
-            <version>${dl4j.version}</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>commons-io</artifactId>
-                    <groupId>commons-io</groupId>
-                </exclusion>
-            </exclusions>
-        </dependency>
 
         <!--<dependency>-->
         <!--<groupId>ca.ubc.cs.autoweka</groupId>-->
@@ -69,17 +58,6 @@
         <!--</dependency>-->
     </dependencies>
     <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>${compiler.plugin.version}</version>
-                <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
-                </configuration>
-            </plugin>
-        </plugins>
         <testResources>
             <testResource>
                 <directory>${project.basedir}/src/test/resources</directory>

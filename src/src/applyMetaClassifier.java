@@ -24,7 +24,10 @@ public class applyMetaClassifier {
             ReliefFAttributeEval reliefFAttributeEval = new ReliefFAttributeEval();
             //PrincipalComponents principalComponents = new PrincipalComponents();
             SMOreg smOreg = new SMOreg();
-            Ranker ranker = new Ranker();
+            Ranker ranker = new Ranker();                                                                               //TODO:automatically extract first x ranked attributes
+            //reliefFAttributeEval.setOptions(weka.core.Utils.splitOptions("-K 1"));
+            //ranker.setOptions(weka.core.Utils.splitOptions("-N 387"));
+            //reliefFAttributeEval.listOptions();
             LinearRegression linearRegression = new LinearRegression();
             MultilayerPerceptron multilayerPerceptron = new MultilayerPerceptron();
             MLPRegressor mlpRegressor = new MLPRegressor();
@@ -34,7 +37,6 @@ public class applyMetaClassifier {
             linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1"));
             //linearRegression.buildClassifier(trainData);
             //wrapperSubsetEval.setOptions(weka.core.Utils.splitOptions("-F 0 -B weka.classifiers.functions.MLPRegressor"));
-
             //wrapperSubsetEval.setClassifier(linearRegression);
             //wrapperSubsetEval.buildEvaluator(trainData);
             BestFirst bestFirstsearch = new BestFirst();
@@ -43,7 +45,6 @@ public class applyMetaClassifier {
             attributeSelectedClassifier.setEvaluator(reliefFAttributeEval);
             attributeSelectedClassifier.setClassifier(linearRegression);
 
-            //attributeSelectedClassifier.buildClassifier(trainData);
             return attributeSelectedClassifier;
         } catch (Exception e) {
             e.printStackTrace();
