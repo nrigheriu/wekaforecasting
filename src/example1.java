@@ -13,11 +13,21 @@ import java.io.IOException;
  */
 public class example1 {
     public static void main(String[] args){
-        String separatedRun = "50, 49, 48,  1, 47, 34, 35, 33, 46, 32, 36, 45, 37, 31, 38, 39, 30, 44, 29, 40," +
-                    "100, 99, 98, 97, 96, 95, 94, 93, 92, 91, 81, 82, 80, 90, 79, 83, 78, 84, 85, 88";
-        String atOnceRun = "100, 99, 98, 97, 96, 95, 94, 93, " +
-                "92, 91, 90, 89, 88, 87, 86, 85, 84, 83, 82, 81, 80, 79, 78, 77, 76,  1, 75, 74, 73, 72, 71, 70, 69, 68, 64, 63, 66, 67, 65, 62";
-
-        System.out.println(separatedRun.split(",")  );
+        String separatedRun = "172, 173, 171, 174, 175, 170, 176, 169, 168, 177, 167, 178, 166, 179, 165, 164, 180, 121, 122, 163, 123, 120, 124, 181, 125, 119, 162, 126, 118, 127, 117, 128, 129, 131, 130, 161, 133, 132, 136, 134, 135, 182, 116, 137, 138, 192, 160, 139, 115, 183, 114, 191, 140, 159, 184, 113, 190, 141, 185, 112, 189, 158, 142, 188, 186, 187, 111, 143, 157, 110, 144, 109, 156, 145, 108, 155, 146, 107, 147, 154, 148, 153, 106, 149, 152, 150, 151, 105, 96, 104";
+        String firstpartexcludedRun = "192, 191, 190, 189, 188, 187, 159, 158, 160, 157, 161, 156, 162, 155, 186, 154, 164, 163, 165, 153, 168, 167, 166, 185, 169, 152, 170, 151, 184, 171, 150, 172, 173, 174, 149, 183, 175, 148, 182, 176, 181, 147, 177, 180, 178, 179, 146, 145, 139, 144, 134, 138, 143, 142, 140, 133, 132, 137, 136, 135, 141, 131, 130, 129, 128, 127, 126, 125, 124, 123, 122, 121, 120, 119, 118, 117, 116, 115, 114, 113, 112, 111, 110, 104, 103, 105, 107, 106, 102, 98";
+        String[] separatedRunList = separatedRun.split(",");
+        String[] atOnceList = firstpartexcludedRun.split(",");
+        firstpartexcludedRun = firstpartexcludedRun.replace(",", " ");
+        separatedRun = separatedRun.replace(",", " ");
+        for (String i:separatedRunList){
+            if(!firstpartexcludedRun.contains(i)){
+                System.out.println("Contained in separated, not in all@Once: " + i);
+            }
+        }
+        for(String i:atOnceList){
+            if (!separatedRun.contains(i)) {
+                System.out.println("Contained in @once, not in separated" + i);
+            }
+        }
     }
 }

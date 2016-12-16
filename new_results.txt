@@ -1,8 +1,535 @@
+Time taken for all attributes ranked@once: 42540
+Time taken for all attributes ranked separately: 49625Time taken for ranking w/linReg: 12632
+Time taken for ranking w/MLPReg: 14223
+Time taken for ranking w/simpleLinReg: 12435  
+Time taken: 1388
+Time taken to pick from 330 lags at once: 87526
+Step: 0 Prediction:455.655 Actual: 476.0 MAE: 20.345 RMSE:20.345 MAPE:4.274
+Step: 1 Prediction:449.391 Actual: 469.0 MAE: 19.977 RMSE:9.805 MAPE:4.228
+Step: 2 Prediction:429.178 Actual: 444.0 MAE: 18.259 RMSE:4.941 MAPE:3.931
+Step: 3 Prediction:427.709 Actual: 443.0 MAE: 17.517 RMSE:3.823 MAPE:3.811
+Step: 4 Prediction:424.061 Actual: 432.0 MAE: 15.601 RMSE:1.588 MAPE:3.417
+Step: 5 Prediction:420.703 Actual: 436.0 MAE: 15.551 RMSE:2.549 MAPE:3.432
+Step: 6 Prediction:416.539 Actual: 424.0 MAE: 14.395 RMSE:1.066 MAPE:3.193
+Step: 7 Prediction:413.269 Actual: 421.0 MAE: 13.562 RMSE:0.966 MAPE:3.023
+Step: 8 Prediction:413.156 Actual: 394.0 MAE: 14.183 RMSE:2.128 MAPE:3.228
+Step: 9 Prediction:413.517 Actual: 395.0 MAE: 14.617 RMSE:1.852 MAPE:3.374
+Step: 10 Prediction:411.248 Actual: 393.0 MAE: 14.947 RMSE:1.659 MAPE:3.489
+Step: 11 Prediction:412.504 Actual: 361.0 MAE: 17.993 RMSE:4.292 MAPE:4.387
+Step: 12 Prediction:410.631 Actual: 350.0 MAE: 21.273 RMSE:4.664 MAPE:5.382
+Step: 13 Prediction:409.457 Actual: 360.0 MAE: 23.286 RMSE:3.533 MAPE:5.979
+Step: 14 Prediction:409.381 Actual: 357.0 MAE: 25.226 RMSE:3.492 MAPE:6.559
+Step: 15 Prediction:408.986 Actual: 363.0 MAE: 26.523 RMSE:2.874 MAPE:6.941
+Step: 16 Prediction:408.532 Actual: 388.0 MAE: 26.171 RMSE:1.208 MAPE:6.844
+Step: 17 Prediction:408.361 Actual: 349.0 MAE: 28.015 RMSE:3.298 MAPE:7.408
+Step: 18 Prediction:408.276 Actual: 335.0 MAE: 30.397 RMSE:3.857 MAPE:8.17
+Step: 19 Prediction:408.232 Actual: 331.0 MAE: 32.739 RMSE:3.862 MAPE:8.928
+Step: 20 Prediction:408.157 Actual: 339.0 MAE: 34.473 RMSE:3.293 MAPE:9.474
+Step: 21 Prediction:408.246 Actual: 368.0 MAE: 34.735 RMSE:1.829 MAPE:9.541
+Step: 22 Prediction:408.166 Actual: 384.0 MAE: 34.276 RMSE:1.051 MAPE:9.399
+Step: 23 Prediction:407.916 Actual: 367.0 MAE: 34.553 RMSE:1.705 MAPE:9.472
+Time taken for 90 picked lags of 330 w/mlpreg: 7119
+Step: 0 Prediction:488.317 Actual: 476.0 MAE: 12.317 RMSE:12.317 MAPE:2.588
+Step: 1 Prediction:488.781 Actual: 469.0 MAE: 16.049 RMSE:9.89 MAPE:3.403
+Step: 2 Prediction:463.347 Actual: 444.0 MAE: 17.148 RMSE:6.449 MAPE:3.721
+Step: 3 Prediction:459.334 Actual: 443.0 MAE: 16.945 RMSE:4.083 MAPE:3.712
+Step: 4 Prediction:445.933 Actual: 432.0 MAE: 16.342 RMSE:2.787 MAPE:3.615
+Step: 5 Prediction:438.035 Actual: 436.0 MAE: 13.958 RMSE:0.339 MAPE:3.09
+Step: 6 Prediction:434.225 Actual: 424.0 MAE: 13.424 RMSE:1.461 MAPE:2.993
+Step: 7 Prediction:420.107 Actual: 421.0 MAE: 11.858 RMSE:0.112 MAPE:2.646
+Step: 8 Prediction:414.906 Actual: 394.0 MAE: 12.863 RMSE:2.323 MAPE:2.941
+Step: 9 Prediction:411.641 Actual: 395.0 MAE: 13.241 RMSE:1.664 MAPE:3.068
+Step: 10 Prediction:410.867 Actual: 393.0 MAE: 13.662 RMSE:1.624 MAPE:3.203
+Step: 11 Prediction:412.053 Actual: 361.0 MAE: 16.778 RMSE:4.254 MAPE:4.114
+Step: 12 Prediction:407.325 Actual: 350.0 MAE: 19.897 RMSE:4.41 MAPE:5.058
+Step: 13 Prediction:404.17 Actual: 360.0 MAE: 21.63 RMSE:3.155 MAPE:5.573
+Step: 14 Prediction:402.854 Actual: 357.0 MAE: 23.245 RMSE:3.057 MAPE:6.058
+Step: 15 Prediction:402.362 Actual: 363.0 MAE: 24.253 RMSE:2.46 MAPE:6.357
+Step: 16 Prediction:399.88 Actual: 388.0 MAE: 23.525 RMSE:0.699 MAPE:6.163
+Step: 17 Prediction:397.86 Actual: 349.0 MAE: 24.932 RMSE:2.714 MAPE:6.598
+Step: 18 Prediction:395.921 Actual: 335.0 MAE: 26.826 RMSE:3.206 MAPE:7.208
+Step: 19 Prediction:394.886 Actual: 331.0 MAE: 28.679 RMSE:3.194 MAPE:7.813
+Step: 20 Prediction:393.446 Actual: 339.0 MAE: 29.906 RMSE:2.593 MAPE:8.206
+Step: 21 Prediction:393.719 Actual: 368.0 MAE: 29.716 RMSE:1.169 MAPE:8.15
+Step: 22 Prediction:393.362 Actual: 384.0 MAE: 28.831 RMSE:0.407 MAPE:7.902
+Step: 23 Prediction:391.628 Actual: 367.0 MAE: 28.656 RMSE:1.026 MAPE:7.852
+Time taken for 90 picked lags of 330 w/mlpreg, 1 hidden unit: 2688
+Time taken to pick lags separated in 2 of 330 w/simplelin: 38532
+Step: 0 Prediction:496.272 Actual: 476.0 MAE: 20.272 RMSE:20.272 MAPE:4.259
+Step: 1 Prediction:484.455 Actual: 469.0 MAE: 17.864 RMSE:7.728 MAPE:3.777
+Step: 2 Prediction:463.187 Actual: 444.0 MAE: 18.305 RMSE:6.396 MAPE:3.959
+Step: 3 Prediction:452.748 Actual: 443.0 MAE: 16.166 RMSE:2.437 MAPE:3.519
+Step: 4 Prediction:448.191 Actual: 432.0 MAE: 16.171 RMSE:3.238 MAPE:3.565
+Step: 5 Prediction:435.845 Actual: 436.0 MAE: 13.501 RMSE:0.026 MAPE:2.977
+Step: 6 Prediction:425.375 Actual: 424.0 MAE: 11.769 RMSE:0.196 MAPE:2.598
+Step: 7 Prediction:424.113 Actual: 421.0 MAE: 10.687 RMSE:0.389 MAPE:2.365
+Step: 8 Prediction:422.458 Actual: 394.0 MAE: 12.662 RMSE:3.162 MAPE:2.905
+Step: 9 Prediction:418.841 Actual: 395.0 MAE: 13.78 RMSE:2.384 MAPE:3.218
+Step: 10 Prediction:416.002 Actual: 393.0 MAE: 14.618 RMSE:2.091 MAPE:3.458
+Step: 11 Prediction:415.745 Actual: 361.0 MAE: 17.962 RMSE:4.562 MAPE:4.433
+Step: 12 Prediction:414.103 Actual: 350.0 MAE: 21.511 RMSE:4.931 MAPE:5.501
+Step: 13 Prediction:414.187 Actual: 360.0 MAE: 23.845 RMSE:3.871 MAPE:6.183
+Step: 14 Prediction:414.18 Actual: 357.0 MAE: 26.067 RMSE:3.812 MAPE:6.839
+Step: 15 Prediction:411.542 Actual: 363.0 MAE: 27.472 RMSE:3.034 MAPE:7.247
+Step: 16 Prediction:410.591 Actual: 388.0 MAE: 27.185 RMSE:1.329 MAPE:7.163
+Step: 17 Prediction:412.537 Actual: 349.0 MAE: 29.205 RMSE:3.53 MAPE:7.777
+Step: 18 Prediction:410.905 Actual: 335.0 MAE: 31.663 RMSE:3.995 MAPE:8.56
+Step: 19 Prediction:410.246 Actual: 331.0 MAE: 34.042 RMSE:3.962 MAPE:9.329
+Step: 20 Prediction:408.929 Actual: 339.0 MAE: 35.751 RMSE:3.33 MAPE:9.867
+Step: 21 Prediction:408.627 Actual: 368.0 MAE: 35.972 RMSE:1.847 MAPE:9.921
+Step: 22 Prediction:407.851 Actual: 384.0 MAE: 35.445 RMSE:1.037 MAPE:9.759
+Step: 23 Prediction:407.217 Actual: 367.0 MAE: 35.644 RMSE:1.676 MAPE:9.809
+Time taken for mlpreg on 89 picked lags from 330 separated, 1 hidden unit: 2939
+Step: 0 Prediction:478.332 Actual: 476.0 MAE: 2.332 RMSE:2.332 MAPE:0.49
+Step: 1 Prediction:448.311 Actual: 469.0 MAE: 11.51 RMSE:10.344 MAPE:2.451
+Step: 2 Prediction:414.992 Actual: 444.0 MAE: 17.343 RMSE:9.669 MAPE:3.811
+Step: 3 Prediction:393.157 Actual: 443.0 MAE: 25.468 RMSE:12.461 MAPE:5.671
+Step: 4 Prediction:386.874 Actual: 432.0 MAE: 29.399 RMSE:9.025 MAPE:6.626
+Step: 5 Prediction:382.943 Actual: 436.0 MAE: 33.342 RMSE:8.843 MAPE:7.55
+Step: 6 Prediction:377.377 Actual: 424.0 MAE: 35.24 RMSE:6.66 MAPE:8.042
+Step: 7 Prediction:377.181 Actual: 421.0 MAE: 36.312 RMSE:5.477 MAPE:8.338
+Step: 8 Prediction:377.203 Actual: 394.0 MAE: 34.144 RMSE:1.866 MAPE:7.885
+Step: 9 Prediction:374.845 Actual: 395.0 MAE: 32.745 RMSE:2.015 MAPE:7.607
+Step: 10 Prediction:374.932 Actual: 393.0 MAE: 31.41 RMSE:1.643 MAPE:7.333
+Step: 11 Prediction:374.737 Actual: 361.0 MAE: 29.938 RMSE:1.145 MAPE:7.039
+Step: 12 Prediction:372.662 Actual: 350.0 MAE: 29.378 RMSE:1.743 MAPE:6.996
+Step: 13 Prediction:372.903 Actual: 360.0 MAE: 28.201 RMSE:0.922 MAPE:6.752
+Step: 14 Prediction:372.065 Actual: 357.0 MAE: 27.326 RMSE:1.004 MAPE:6.583
+Step: 15 Prediction:371.621 Actual: 363.0 MAE: 26.157 RMSE:0.539 MAPE:6.32
+Step: 16 Prediction:370.793 Actual: 388.0 MAE: 25.63 RMSE:1.012 MAPE:6.21
+Step: 17 Prediction:371.284 Actual: 349.0 MAE: 25.444 RMSE:1.238 MAPE:6.219
+Step: 18 Prediction:370.849 Actual: 335.0 MAE: 25.992 RMSE:1.887 MAPE:6.455
+Step: 19 Prediction:370.414 Actual: 331.0 MAE: 26.663 RMSE:1.971 MAPE:6.728
+Step: 20 Prediction:369.888 Actual: 339.0 MAE: 26.864 RMSE:1.471 MAPE:6.841
+Step: 21 Prediction:369.988 Actual: 368.0 MAE: 25.733 RMSE:0.09 MAPE:6.555
+Step: 22 Prediction:369.605 Actual: 384.0 MAE: 25.24 RMSE:0.626 MAPE:6.433
+Step: 23 Prediction:369.606 Actual: 367.0 MAE: 24.297 RMSE:0.109 MAPE:6.194
+Time taken for mlpreg on 89 picked lags from 330 separated, 2 hidden unit: 13340
+Time taken to select 495 lags separated in 4 forecasters: 56279
+Step: 0 Prediction:483.395 Actual: 476.0 MAE: 7.395 RMSE:7.395 MAPE:1.554
+Step: 1 Prediction:482.092 Actual: 469.0 MAE: 10.244 RMSE:6.546 MAPE:2.173
+Step: 2 Prediction:476.809 Actual: 444.0 MAE: 17.765 RMSE:10.936 MAPE:3.912
+Step: 3 Prediction:467.988 Actual: 443.0 MAE: 19.571 RMSE:6.247 MAPE:4.344
+Step: 4 Prediction:467.364 Actual: 432.0 MAE: 22.73 RMSE:7.073 MAPE:5.112
+Step: 5 Prediction:472.556 Actual: 436.0 MAE: 25.034 RMSE:6.093 MAPE:5.658
+Step: 6 Prediction:459.926 Actual: 424.0 MAE: 26.59 RMSE:5.132 MAPE:6.06
+Step: 7 Prediction:437.461 Actual: 421.0 MAE: 25.324 RMSE:2.058 MAPE:5.791
+Step: 8 Prediction:418.299 Actual: 394.0 MAE: 25.21 RMSE:2.7 MAPE:5.833
+Step: 9 Prediction:418.97 Actual: 395.0 MAE: 25.086 RMSE:2.397 MAPE:5.856
+Step: 10 Prediction:409.634 Actual: 393.0 MAE: 24.318 RMSE:1.512 MAPE:5.709
+Step: 11 Prediction:412.998 Actual: 361.0 MAE: 26.624 RMSE:4.333 MAPE:6.433
+Step: 12 Prediction:407.976 Actual: 350.0 MAE: 29.036 RMSE:4.46 MAPE:7.213
+Step: 13 Prediction:397.617 Actual: 360.0 MAE: 29.649 RMSE:2.687 MAPE:7.444
+Step: 14 Prediction:403.21 Actual: 357.0 MAE: 30.753 RMSE:3.081 MAPE:7.811
+Step: 15 Prediction:405.102 Actual: 363.0 MAE: 31.462 RMSE:2.631 MAPE:8.047
+Step: 16 Prediction:397.729 Actual: 388.0 MAE: 30.184 RMSE:0.572 MAPE:7.721
+Step: 17 Prediction:395.663 Actual: 349.0 MAE: 31.099 RMSE:2.592 MAPE:8.035
+Step: 18 Prediction:393.443 Actual: 335.0 MAE: 32.539 RMSE:3.076 MAPE:8.531
+Step: 19 Prediction:388.178 Actual: 331.0 MAE: 33.771 RMSE:2.859 MAPE:8.968
+Step: 20 Prediction:388.411 Actual: 339.0 MAE: 34.515 RMSE:2.353 MAPE:9.235
+Step: 21 Prediction:400.199 Actual: 368.0 MAE: 34.41 RMSE:1.464 MAPE:9.213
+Step: 22 Prediction:412.335 Actual: 384.0 MAE: 34.146 RMSE:1.232 MAPE:9.133
+Step: 23 Prediction:406.04 Actual: 367.0 MAE: 34.35 RMSE:1.627 MAPE:9.196
+Time taken for mlpReg w/90 attr picked from 495: 15954
+Time taken to select 495 lags separated in 3 forecasters from reduced data set: 28430
+Step: 0 Prediction:514.229 Actual: 476.0 MAE: 38.229 RMSE:38.229 MAPE:8.031
+Step: 1 Prediction:495.593 Actual: 469.0 MAE: 32.411 RMSE:13.296 MAPE:6.851
+Step: 2 Prediction:425.508 Actual: 444.0 MAE: 27.771 RMSE:6.164 MAPE:5.955
+Step: 3 Prediction:365.798 Actual: 443.0 MAE: 40.129 RMSE:19.301 MAPE:8.823
+Step: 4 Prediction:377.851 Actual: 432.0 MAE: 42.933 RMSE:10.83 MAPE:9.566
+Step: 5 Prediction:331.213 Actual: 436.0 MAE: 53.242 RMSE:17.465 MAPE:11.977
+Step: 6 Prediction:260.733 Actual: 424.0 MAE: 68.96 RMSE:23.324 MAPE:15.767
+Step: 7 Prediction:297.242 Actual: 421.0 MAE: 75.81 RMSE:15.47 MAPE:17.471
+Step: 8 Prediction:324.335 Actual: 394.0 MAE: 75.127 RMSE:7.741 MAPE:17.494
+Step: 9 Prediction:292.885 Actual: 395.0 MAE: 77.826 RMSE:10.212 MAPE:18.33
+Step: 10 Prediction:276.099 Actual: 393.0 MAE: 81.378 RMSE:10.627 MAPE:19.368
+Step: 11 Prediction:297.837 Actual: 361.0 MAE: 79.86 RMSE:5.264 MAPE:19.212
+Step: 12 Prediction:246.982 Actual: 350.0 MAE: 81.642 RMSE:7.924 MAPE:19.998
+Step: 13 Prediction:272.755 Actual: 360.0 MAE: 82.042 RMSE:6.232 MAPE:20.301
+Step: 14 Prediction:280.747 Actual: 357.0 MAE: 81.656 RMSE:5.084 MAPE:20.371
+Step: 15 Prediction:251.281 Actual: 363.0 MAE: 83.535 RMSE:6.982 MAPE:21.022
+Step: 16 Prediction:261.533 Actual: 388.0 MAE: 86.06 RMSE:7.439 MAPE:21.702
+Step: 17 Prediction:267.483 Actual: 349.0 MAE: 85.808 RMSE:4.529 MAPE:21.794
+Step: 18 Prediction:270.933 Actual: 335.0 MAE: 84.664 RMSE:3.372 MAPE:21.654
+Step: 19 Prediction:325.056 Actual: 331.0 MAE: 80.728 RMSE:0.297 MAPE:20.661
+Step: 20 Prediction:277.302 Actual: 339.0 MAE: 79.821 RMSE:2.938 MAPE:20.544
+Step: 21 Prediction:304.118 Actual: 368.0 MAE: 79.097 RMSE:2.904 MAPE:20.399
+Step: 22 Prediction:229.036 Actual: 384.0 MAE: 82.395 RMSE:6.738 MAPE:21.267
+Step: 23 Prediction:243.015 Actual: 367.0 MAE: 84.128 RMSE:5.166 MAPE:21.788
+Time taken for mlpReg w/90 of 495 picked from reduced training set: 5067
+Step: 0 Prediction:637.078 Actual: 476.0 MAE: 161.078 RMSE:161.078 MAPE:33.84
+Step: 1 Prediction:632.976 Actual: 469.0 MAE: 162.527 RMSE:81.988 MAPE:34.401
+Step: 2 Prediction:631.35 Actual: 444.0 MAE: 170.801 RMSE:62.45 MAPE:37
+Step: 3 Prediction:632.907 Actual: 443.0 MAE: 175.578 RMSE:47.477 MAPE:38.467
+Step: 4 Prediction:631.85 Actual: 432.0 MAE: 180.432 RMSE:39.97 MAPE:40.026
+Step: 5 Prediction:631.204 Actual: 436.0 MAE: 182.894 RMSE:32.534 MAPE:40.817
+Step: 6 Prediction:630.536 Actual: 424.0 MAE: 186.272 RMSE:29.505 MAPE:41.945
+Step: 7 Prediction:630.778 Actual: 421.0 MAE: 189.21 RMSE:26.222 MAPE:42.93
+Step: 8 Prediction:632.981 Actual: 394.0 MAE: 194.74 RMSE:26.553 MAPE:44.899
+Step: 9 Prediction:631.572 Actual: 395.0 MAE: 198.923 RMSE:23.657 MAPE:46.399
+Step: 10 Prediction:629.649 Actual: 393.0 MAE: 202.353 RMSE:21.514 MAPE:47.655
+Step: 11 Prediction:633.559 Actual: 361.0 MAE: 208.203 RMSE:22.713 MAPE:49.975
+Step: 12 Prediction:631.33 Actual: 350.0 MAE: 213.828 RMSE:21.641 MAPE:52.314
+Step: 13 Prediction:634.01 Actual: 360.0 MAE: 218.127 RMSE:19.572 MAPE:54.014
+Step: 14 Prediction:629.898 Actual: 357.0 MAE: 221.779 RMSE:18.193 MAPE:55.509
+Step: 15 Prediction:607.919 Actual: 363.0 MAE: 223.225 RMSE:15.307 MAPE:56.257
+Step: 16 Prediction:531.947 Actual: 388.0 MAE: 218.561 RMSE:8.467 MAPE:55.13
+Step: 17 Prediction:394.499 Actual: 349.0 MAE: 208.947 RMSE:2.528 MAPE:52.792
+Step: 18 Prediction:348.56 Actual: 335.0 MAE: 198.663 RMSE:0.714 MAPE:50.226
+Step: 19 Prediction:348.227 Actual: 331.0 MAE: 189.591 RMSE:0.861 MAPE:47.975
+Step: 20 Prediction:347.532 Actual: 339.0 MAE: 180.97 RMSE:0.406 MAPE:45.81
+Step: 21 Prediction:349.738 Actual: 368.0 MAE: 173.574 RMSE:0.83 MAPE:43.954
+Step: 22 Prediction:353.742 Actual: 384.0 MAE: 167.343 RMSE:1.316 MAPE:42.385
+Step: 23 Prediction:357.55 Actual: 367.0 MAE: 160.764 RMSE:0.394 MAPE:40.726
+Time taken for mlpReg w/90 of 660 picked separated in 4: 9.748
+Step: 0 Prediction:576.5 Actual: 476.0 MAE: 100.5 RMSE:100.5 MAPE:21.113
+Step: 1 Prediction:508.654 Actual: 469.0 MAE: 70.077 RMSE:19.827 MAPE:14.784
+Step: 2 Prediction:500.032 Actual: 444.0 MAE: 65.395 RMSE:18.677 MAPE:14.063
+Step: 3 Prediction:504.687 Actual: 443.0 MAE: 64.468 RMSE:15.422 MAPE:14.028
+Step: 4 Prediction:505.323 Actual: 432.0 MAE: 66.239 RMSE:14.665 MAPE:14.617
+Step: 5 Prediction:500.635 Actual: 436.0 MAE: 65.972 RMSE:10.772 MAPE:14.652
+Step: 6 Prediction:472.247 Actual: 424.0 MAE: 63.44 RMSE:6.892 MAPE:14.184
+Step: 7 Prediction:502.872 Actual: 421.0 MAE: 65.744 RMSE:10.234 MAPE:14.842
+Step: 8 Prediction:513.05 Actual: 394.0 MAE: 71.667 RMSE:13.228 MAPE:16.55
+Step: 9 Prediction:494.879 Actual: 395.0 MAE: 74.488 RMSE:9.988 MAPE:17.424
+Step: 10 Prediction:487.638 Actual: 393.0 MAE: 76.32 RMSE:8.603 MAPE:18.029
+Step: 11 Prediction:507.851 Actual: 361.0 MAE: 82.197 RMSE:12.238 MAPE:19.916
+Step: 12 Prediction:505.48 Actual: 350.0 MAE: 87.834 RMSE:11.96 MAPE:21.802
+Step: 13 Prediction:512.732 Actual: 360.0 MAE: 92.47 RMSE:10.909 MAPE:23.275
+Step: 14 Prediction:496.124 Actual: 357.0 MAE: 95.58 RMSE:9.275 MAPE:24.321
+Step: 15 Prediction:472.66 Actual: 363.0 MAE: 96.46 RMSE:6.854 MAPE:24.689
+Step: 16 Prediction:494.959 Actual: 388.0 MAE: 97.078 RMSE:6.292 MAPE:24.858
+Step: 17 Prediction:476.461 Actual: 349.0 MAE: 98.766 RMSE:7.081 MAPE:25.506
+Step: 18 Prediction:460.264 Actual: 335.0 MAE: 100.16 RMSE:6.593 MAPE:26.132
+Step: 19 Prediction:461.325 Actual: 331.0 MAE: 101.669 RMSE:6.516 MAPE:26.794
+Step: 20 Prediction:418.625 Actual: 339.0 MAE: 100.619 RMSE:3.792 MAPE:26.637
+Step: 21 Prediction:422.774 Actual: 368.0 MAE: 98.535 RMSE:2.49 MAPE:26.102
+Step: 22 Prediction:444.162 Actual: 384.0 MAE: 96.867 RMSE:2.616 MAPE:25.649
+Step: 23 Prediction:456.668 Actual: 367.0 MAE: 96.567 RMSE:3.736 MAPE:25.598
+Time taken for linReg w/90 of 660 picked separated in 4: 2.655
+
+
+Time taken for ranking w/half of lags included in start set: 9.123
+Time taken for ranking w/o half of lags included in start set: 9.093
+
 Transformed training data:
 
               sum
               local_15min-remapped
               Lag_sum-1
+              Lag_sum-2
+              Lag_sum-3
+              Lag_sum-4
+              Lag_sum-5
+              Lag_sum-6
+              Lag_sum-7
+              Lag_sum-8
+              Lag_sum-9
+              Lag_sum-10
+              Lag_sum-11
+              Lag_sum-12
+              Lag_sum-13
+              Lag_sum-14
+              Lag_sum-15
+              Lag_sum-16
+              Lag_sum-17
+              Lag_sum-18
+              Lag_sum-19
+              Lag_sum-20
+              Lag_sum-21
+              Lag_sum-22
+              Lag_sum-23
+              Lag_sum-24
+              Lag_sum-25
+              Lag_sum-26
+              Lag_sum-27
+              Lag_sum-28
+              Lag_sum-29
+              Lag_sum-30
+
+sum:
+AttributeSelectedClassifier:
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+	Ignored attributes: 2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
+
+Attribute Evaluator (supervised, Class (numeric): 1 sum):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.00585   32 Lag_sum-30
+ 0.0058    22 Lag_sum-20
+ 0.0057    23 Lag_sum-21
+ 0.00567   21 Lag_sum-19
+ 0.00562   24 Lag_sum-22
+ 0.0055    26 Lag_sum-24
+ 0.00547   29 Lag_sum-27
+ 0.00546   31 Lag_sum-29
+ 0.00545   25 Lag_sum-23
+ 0.00541   30 Lag_sum-28
+ 0.00535   28 Lag_sum-26
+ 0.00527   27 Lag_sum-25
+
+Selected attributes: 32,22,23,21,24,26,29,31,25,30,28,27 : 12
+
+
+Transformed training data:
+
+              sum
+              local_15min-remapped
+              Lag_sum-1
+              Lag_sum-2
+              Lag_sum-3
+              Lag_sum-4
+              Lag_sum-5
+              Lag_sum-6
+              Lag_sum-7
+              Lag_sum-8
+              Lag_sum-9
+              Lag_sum-10
+              Lag_sum-11
+              Lag_sum-12
+              Lag_sum-13
+              Lag_sum-14
+              Lag_sum-15
+              Lag_sum-16
+              Lag_sum-17
+              Lag_sum-18
+              Lag_sum-19
+              Lag_sum-20
+              Lag_sum-21
+              Lag_sum-22
+              Lag_sum-23
+              Lag_sum-24
+              Lag_sum-25
+              Lag_sum-26
+              Lag_sum-27
+              Lag_sum-28
+              Lag_sum-29
+              Lag_sum-30
+
+sum:
+AttributeSelectedClassifier:
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 1 sum):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.01738    3 Lag_sum-1
+ 0.01442    2 local_15min-remapped
+ 0.01333    4 Lag_sum-2
+ 0.01103    5 Lag_sum-3
+ 0.00911    6 Lag_sum-4
+ 0.00772    7 Lag_sum-5
+ 0.00691    8 Lag_sum-6
+ 0.00625    9 Lag_sum-7
+ 0.00599   19 Lag_sum-17
+ 0.00598   18 Lag_sum-16
+ 0.00585   32 Lag_sum-30
+ 0.00584   17 Lag_sum-15
+ 0.00582   20 Lag_sum-18
+ 0.00581   10 Lag_sum-8
+ 0.0058    22 Lag_sum-20
+ 0.00579   16 Lag_sum-14
+ 0.0057    23 Lag_sum-21
+ 0.00567   21 Lag_sum-19
+ 0.00562   24 Lag_sum-22
+ 0.0055    26 Lag_sum-24
+ 0.00547   29 Lag_sum-27
+ 0.00546   31 Lag_sum-29
+ 0.00546   15 Lag_sum-13
+ 0.00545   25 Lag_sum-23
+ 0.00541   30 Lag_sum-28
+ 0.00535   28 Lag_sum-26
+ 0.00534   11 Lag_sum-9
+ 0.00527   27 Lag_sum-25
+ 0.00519   14 Lag_sum-12
+ 0.00519   13 Lag_sum-11
+ 0.00517   12 Lag_sum-10
+
+Selected attributes: 3,2,4,5,6,7,8,9,19,18,32,17,20,10,22,16,23,21,24,26,29,31,15,25,30,28,11,27,14,13,12 : 31
+
+@attribute Lag_sum-1 numeric
+@attribute local_15min-remapped numeric
+@attribute Lag_sum-2 numeric
+@attribute Lag_sum-3 numeric
+@attribute Lag_sum-4 numeric
+@attribute Lag_sum-5 numeric
+@attribute Lag_sum-6 numeric
+@attribute Lag_sum-7 numeric
+@attribute Lag_sum-17 numeric
+@attribute Lag_sum-16 numeric
+@attribute Lag_sum-30 numeric
+@attribute Lag_sum-15 numeric
+@attribute Lag_sum-18 numeric
+@attribute Lag_sum-8 numeric
+@attribute Lag_sum-20 numeric
+@attribute Lag_sum-14 numeric
+@attribute Lag_sum-21 numeric
+@attribute Lag_sum-19 numeric
+@attribute Lag_sum-22 numeric
+@attribute Lag_sum-24 numeric
+@attribute Lag_sum-27 numeric
+@attribute Lag_sum-29 numeric
+@attribute Lag_sum-13 numeric
+@attribute Lag_sum-23 numeric
+@attribute Lag_sum-28 numeric
+@attribute Lag_sum-26 numeric
+@attribute Lag_sum-9 numeric
+@attribute Lag_sum-25 numeric
+@attribute Lag_sum-12 numeric
+@attribute Lag_sum-11 numeric
+@attribute Lag_sum-10 numeric
+@attribute sum numeric
+
+
+
+Step: 0 Prediction:287.808 Actual: 286.0 MAE: 1.808 RMSE:1.808 MAPE:0.632
+Step: 1 Prediction:314.365 Actual: 286.0 MAE: 15.087 RMSE:14.182 MAPE:5.275
+Step: 2 Prediction:355.313 Actual: 301.0 MAE: 28.162 RMSE:18.104 MAPE:9.531
+Step: 3 Prediction:368.77 Actual: 317.0 MAE: 34.064 RMSE:12.943 MAPE:11.231
+Step: 4 Prediction:398.025 Actual: 349.0 MAE: 37.056 RMSE:9.805 MAPE:11.795
+Step: 5 Prediction:430.946 Actual: 354.0 MAE: 43.705 RMSE:12.824 MAPE:13.451
+Step: 6 Prediction:457.817 Actual: 355.0 MAE: 52.149 RMSE:14.688 MAPE:15.667
+Step: 7 Prediction:472.66 Actual: 360.0 MAE: 59.713 RMSE:14.082 MAPE:17.621
+Step: 8 Prediction:510.506 Actual: 409.0 MAE: 64.357 RMSE:11.278 MAPE:18.42
+Step: 9 Prediction:533.412 Actual: 425.0 MAE: 68.762 RMSE:10.841 MAPE:19.129
+Step: 10 Prediction:573.566 Actual: 429.0 MAE: 75.653 RMSE:13.142 MAPE:20.454
+Step: 11 Prediction:593.104 Actual: 418.0 MAE: 83.941 RMSE:14.592 MAPE:22.24
+Step: 12 Prediction:620.434 Actual: 439.0 MAE: 91.44 RMSE:13.956 MAPE:23.709
+Step: 13 Prediction:658.593 Actual: 461.0 MAE: 99.023 RMSE:14.114 MAPE:25.077
+Step: 14 Prediction:675.373 Actual: 476.0 MAE: 105.713 RMSE:13.292 MAPE:26.197
+Step: 15 Prediction:700.909 Actual: 492.0 MAE: 112.162 RMSE:13.057 MAPE:27.214
+Step: 16 Prediction:720.075 Actual: 514.0 MAE: 117.687 RMSE:12.122 MAPE:27.971
+Step: 17 Prediction:737.652 Actual: 507.0 MAE: 123.963 RMSE:12.814 MAPE:28.945
+Step: 18 Prediction:766.006 Actual: 544.0 MAE: 129.123 RMSE:11.685 MAPE:29.569
+Step: 19 Prediction:790.931 Actual: 570.0 MAE: 133.713 RMSE:11.047 MAPE:30.029
+Step: 20 Prediction:815.604 Actual: 633.0 MAE: 136.041 RMSE:8.695 MAPE:29.972
+Step: 21 Prediction:845.525 Actual: 614.0 MAE: 140.382 RMSE:10.524 MAPE:30.324
+Step: 22 Prediction:887.093 Actual: 629.0 MAE: 145.499 RMSE:11.221 MAPE:30.79
+Step: 23 Prediction:906.949 Actual: 648.0 MAE: 150.226 RMSE:10.79 MAPE:31.172
+Step: 24 Prediction:953.538 Actual: 967.0 MAE: 144.756 RMSE:0.538 MAPE:29.981
+Step: 25 Prediction:955.544 Actual: 1023.0 MAE: 141.783 RMSE:2.594 MAPE:29.081
+Step: 26 Prediction:964.723 Actual: 1016.0 MAE: 138.431 RMSE:1.899 MAPE:28.191
+Step: 27 Prediction:962.554 Actual: 978.0 MAE: 134.038 RMSE:0.552 MAPE:27.241
+Step: 28 Prediction:966.442 Actual: 976.0 MAE: 129.746 RMSE:0.33 MAPE:26.335
+Step: 29 Prediction:971.689 Actual: 966.0 MAE: 125.611 RMSE:0.19 MAPE:25.477
+Step: 30 Prediction:981.971 Actual: 966.0 MAE: 122.074 RMSE:0.515 MAPE:24.708
+Step: 31 Prediction:989.379 Actual: 971.0 MAE: 118.834 RMSE:0.574 MAPE:23.995
+Step: 32 Prediction:994.722 Actual: 929.0 MAE: 117.224 RMSE:1.992 MAPE:23.483
+Step: 33 Prediction:1003.476 Actual: 932.0 MAE: 115.879 RMSE:2.102 MAPE:23.017
+Step: 34 Prediction:1006.352 Actual: 927.0 MAE: 114.835 RMSE:2.267 MAPE:22.604
+Step: 35 Prediction:1010.98 Actual: 914.0 MAE: 114.339 RMSE:2.694 MAPE:22.271
+Step: 36 Prediction:1024.596 Actual: 923.0 MAE: 113.995 RMSE:2.746 MAPE:21.967
+Step: 37 Prediction:1004.676 Actual: 870.0 MAE: 114.539 RMSE:3.544 MAPE:21.796
+Step: 38 Prediction:991.969 Actual: 827.0 MAE: 115.832 RMSE:4.23 MAPE:21.749
+Step: 39 Prediction:971.36 Actual: 793.0 MAE: 117.395 RMSE:4.459 MAPE:21.767
+Step: 40 Prediction:959.94 Actual: 807.0 MAE: 118.262 RMSE:3.73 MAPE:21.699
+Step: 41 Prediction:938.145 Actual: 725.0 MAE: 120.521 RMSE:5.075 MAPE:21.882
+Step: 42 Prediction:895.164 Actual: 711.0 MAE: 122.001 RMSE:4.283 MAPE:21.975
+Step: 43 Prediction:872.42 Actual: 703.0 MAE: 123.079 RMSE:3.85 MAPE:22.024
+Step: 44 Prediction:827.416 Actual: 654.0 MAE: 124.198 RMSE:3.854 MAPE:22.124
+Step: 45 Prediction:790.176 Actual: 643.0 MAE: 124.697 RMSE:3.199 MAPE:22.14
+Step: 46 Prediction:764.555 Actual: 599.0 MAE: 125.566 RMSE:3.522 MAPE:22.257
+Step: 47 Prediction:731.41 Actual: 549.0 MAE: 126.751 RMSE:3.8 MAPE:22.486
+Step: 48 Prediction:394.512 Actual: 415.0 MAE: 124.582 RMSE:0.418 MAPE:22.128
+Step: 49 Prediction:396.166 Actual: 399.0 MAE: 122.147 RMSE:0.057 MAPE:21.699
+Step: 50 Prediction:393.892 Actual: 369.0 MAE: 120.24 RMSE:0.488 MAPE:21.406
+Step: 51 Prediction:394.087 Actual: 401.0 MAE: 118.061 RMSE:0.133 MAPE:21.027
+Step: 52 Prediction:395.912 Actual: 380.0 MAE: 116.133 RMSE:0.3 MAPE:20.71
+Step: 53 Prediction:397.042 Actual: 387.0 MAE: 114.169 RMSE:0.186 MAPE:20.374
+Step: 54 Prediction:400.917 Actual: 417.0 MAE: 112.385 RMSE:0.292 MAPE:20.074
+Step: 55 Prediction:406.803 Actual: 441.0 MAE: 110.989 RMSE:0.611 MAPE:19.854
+Step: 56 Prediction:414.059 Actual: 443.0 MAE: 109.55 RMSE:0.508 MAPE:19.62
+Step: 57 Prediction:409.629 Actual: 460.0 MAE: 108.529 RMSE:0.868 MAPE:19.471
+Step: 58 Prediction:415.968 Actual: 475.0 MAE: 107.69 RMSE:1.001 MAPE:19.351
+Step: 59 Prediction:415.512 Actual: 483.0 MAE: 107.02 RMSE:1.125 MAPE:19.262
+Step: 60 Prediction:408.087 Actual: 459.0 MAE: 106.101 RMSE:0.835 MAPE:19.128
+Step: 61 Prediction:395.095 Actual: 447.0 MAE: 105.226 RMSE:0.837 MAPE:19.007
+Step: 62 Prediction:392.332 Actual: 432.0 MAE: 104.186 RMSE:0.63 MAPE:18.851
+Step: 63 Prediction:384.651 Actual: 431.0 MAE: 103.282 RMSE:0.724 MAPE:18.724
+Step: 64 Prediction:391.085 Actual: 434.0 MAE: 102.353 RMSE:0.66 MAPE:18.588
+Step: 65 Prediction:389.074 Actual: 397.0 MAE: 100.923 RMSE:0.12 MAPE:18.337
+Step: 66 Prediction:400.718 Actual: 404.0 MAE: 99.465 RMSE:0.049 MAPE:18.075
+Step: 67 Prediction:400.744 Actual: 426.0 MAE: 98.374 RMSE:0.371 MAPE:17.897
+Step: 68 Prediction:406.386 Actual: 402.0 MAE: 97.012 RMSE:0.064 MAPE:17.653
+Step: 69 Prediction:416.153 Actual: 418.0 MAE: 95.652 RMSE:0.026 MAPE:17.407
+Step: 70 Prediction:427.169 Actual: 436.0 MAE: 94.43 RMSE:0.124 MAPE:17.191
+Step: 71 Prediction:442.777 Actual: 456.0 MAE: 93.302 RMSE:0.184 MAPE:16.992
+Step: 72 Prediction:870.929 Actual: 875.0 MAE: 92.079 RMSE:0.056 MAPE:16.766
+Step: 73 Prediction:892.352 Actual: 904.0 MAE: 90.992 RMSE:0.157 MAPE:16.557
+Step: 74 Prediction:916.441 Actual: 939.0 MAE: 90.08 RMSE:0.301 MAPE:16.368
+Step: 75 Prediction:936.814 Actual: 919.0 MAE: 89.129 RMSE:0.234 MAPE:16.178
+Step: 76 Prediction:951.58 Actual: 965.0 MAE: 88.146 RMSE:0.174 MAPE:15.986
+Step: 77 Prediction:975.424 Actual: 1019.0 MAE: 87.575 RMSE:0.559 MAPE:15.836
+Step: 78 Prediction:991.201 Actual: 1072.0 MAE: 87.489 RMSE:1.023 MAPE:15.731
+Step: 79 Prediction:1004.693 Actual: 1135.0 MAE: 88.024 RMSE:1.629 MAPE:15.678
+Step: 80 Prediction:1024.456 Actual: 1139.0 MAE: 88.351 RMSE:1.414 MAPE:15.608
+Step: 81 Prediction:1029.144 Actual: 1137.0 MAE: 88.589 RMSE:1.315 MAPE:15.534
+Step: 82 Prediction:1032.167 Actual: 1133.0 MAE: 88.737 RMSE:1.215 MAPE:15.454
+Step: 83 Prediction:1029.204 Actual: 1148.0 MAE: 89.095 RMSE:1.414 MAPE:15.393
+Step: 84 Prediction:1022.077 Actual: 1132.0 MAE: 89.34 RMSE:1.293 MAPE:15.326
+Step: 85 Prediction:1016.893 Actual: 1094.0 MAE: 89.197 RMSE:0.897 MAPE:15.23
+Step: 86 Prediction:1021.234 Actual: 1113.0 MAE: 89.227 RMSE:1.055 MAPE:15.149
+Step: 87 Prediction:1026.37 Actual: 1106.0 MAE: 89.118 RMSE:0.905 MAPE:15.059
+Step: 88 Prediction:1026.253 Actual: 1052.0 MAE: 88.406 RMSE:0.289 MAPE:14.917
+Step: 89 Prediction:1030.241 Actual: 1054.0 MAE: 87.688 RMSE:0.264 MAPE:14.777
+Step: 90 Prediction:1023.356 Actual: 1074.0 MAE: 87.28 RMSE:0.557 MAPE:14.666
+Step: 91 Prediction:1019.03 Actual: 1057.0 MAE: 86.745 RMSE:0.413 MAPE:14.546
+Step: 92 Prediction:1024.714 Actual: 1041.0 MAE: 85.987 RMSE:0.175 MAPE:14.406
+Step: 93 Prediction:1034.697 Actual: 1037.0 MAE: 85.097 RMSE:0.024 MAPE:14.255
+Step: 94 Prediction:1020.515 Actual: 1042.0 MAE: 84.427 RMSE:0.226 MAPE:14.127
+Step: 95 Prediction:999.948 Actual: 980.0 MAE: 83.755 RMSE:0.208 MAPE:14.001
+Transformed training data:
+
+              sum
+              local_15min-remapped
+              Lag_sum-1
+              Lag_sum-2
+              Lag_sum-3
+              Lag_sum-4
+              Lag_sum-5
+              Lag_sum-6
+              Lag_sum-7
+              Lag_sum-8
+              Lag_sum-9
+              Lag_sum-10
+              Lag_sum-11
+              Lag_sum-12
+              Lag_sum-13
+              Lag_sum-14
+              Lag_sum-15
+              Lag_sum-16
+              Lag_sum-17
+              Lag_sum-18
+              Lag_sum-19
+              Lag_sum-20
+              Lag_sum-21
+              Lag_sum-22
+              Lag_sum-23
+              Lag_sum-24
+              Lag_sum-25
+              Lag_sum-26
+              Lag_sum-27
+              Lag_sum-28
               Lag_sum-29
               Lag_sum-30
               Lag_sum-31
@@ -15,6 +542,9 @@ Transformed training data:
               Lag_sum-38
               Lag_sum-39
               Lag_sum-40
+              Lag_sum-41
+              Lag_sum-42
+              Lag_sum-43
               Lag_sum-44
               Lag_sum-45
               Lag_sum-46
@@ -22,6 +552,33 @@ Transformed training data:
               Lag_sum-48
               Lag_sum-49
               Lag_sum-50
+              Lag_sum-51
+              Lag_sum-52
+              Lag_sum-53
+              Lag_sum-54
+              Lag_sum-55
+              Lag_sum-56
+              Lag_sum-57
+              Lag_sum-58
+              Lag_sum-59
+              Lag_sum-60
+              Lag_sum-61
+              Lag_sum-62
+              Lag_sum-63
+              Lag_sum-64
+              Lag_sum-65
+              Lag_sum-66
+              Lag_sum-67
+              Lag_sum-68
+              Lag_sum-69
+              Lag_sum-70
+              Lag_sum-71
+              Lag_sum-72
+              Lag_sum-73
+              Lag_sum-74
+              Lag_sum-75
+              Lag_sum-76
+              Lag_sum-77
               Lag_sum-78
               Lag_sum-79
               Lag_sum-80
@@ -30,7 +587,10 @@ Transformed training data:
               Lag_sum-83
               Lag_sum-84
               Lag_sum-85
+              Lag_sum-86
+              Lag_sum-87
               Lag_sum-88
+              Lag_sum-89
               Lag_sum-90
               Lag_sum-91
               Lag_sum-92
@@ -42,175 +602,555 @@ Transformed training data:
               Lag_sum-98
               Lag_sum-99
               Lag_sum-100
-              local_15min-remapped^2
-              local_15min-remapped^3
-              local_15min-remapped*Lag_sum-1
-              local_15min-remapped*Lag_sum-29
-              local_15min-remapped*Lag_sum-30
-              local_15min-remapped*Lag_sum-31
-              local_15min-remapped*Lag_sum-32
-              local_15min-remapped*Lag_sum-33
-              local_15min-remapped*Lag_sum-34
-              local_15min-remapped*Lag_sum-35
-              local_15min-remapped*Lag_sum-36
-              local_15min-remapped*Lag_sum-37
-              local_15min-remapped*Lag_sum-38
-              local_15min-remapped*Lag_sum-39
-              local_15min-remapped*Lag_sum-40
-              local_15min-remapped*Lag_sum-44
-              local_15min-remapped*Lag_sum-45
-              local_15min-remapped*Lag_sum-46
-              local_15min-remapped*Lag_sum-47
-              local_15min-remapped*Lag_sum-48
-              local_15min-remapped*Lag_sum-49
-              local_15min-remapped*Lag_sum-50
-              local_15min-remapped*Lag_sum-78
-              local_15min-remapped*Lag_sum-79
-              local_15min-remapped*Lag_sum-80
-              local_15min-remapped*Lag_sum-81
-              local_15min-remapped*Lag_sum-82
-              local_15min-remapped*Lag_sum-83
-              local_15min-remapped*Lag_sum-84
-              local_15min-remapped*Lag_sum-85
-              local_15min-remapped*Lag_sum-88
-              local_15min-remapped*Lag_sum-90
-              local_15min-remapped*Lag_sum-91
-              local_15min-remapped*Lag_sum-92
-              local_15min-remapped*Lag_sum-93
-              local_15min-remapped*Lag_sum-94
-              local_15min-remapped*Lag_sum-95
-              local_15min-remapped*Lag_sum-96
-              local_15min-remapped*Lag_sum-97
-              local_15min-remapped*Lag_sum-98
-              local_15min-remapped*Lag_sum-99
-              local_15min-remapped*Lag_sum-100
+              Lag_sum-101
+              Lag_sum-102
+              Lag_sum-103
+              Lag_sum-104
+              Lag_sum-105
+              Lag_sum-106
+              Lag_sum-107
+              Lag_sum-108
+              Lag_sum-109
+              Lag_sum-110
+              Lag_sum-111
+              Lag_sum-112
+              Lag_sum-113
+              Lag_sum-114
+              Lag_sum-115
+              Lag_sum-116
+              Lag_sum-117
+              Lag_sum-118
+              Lag_sum-119
+              Lag_sum-120
+              Lag_sum-121
+              Lag_sum-122
+              Lag_sum-123
+              Lag_sum-124
+              Lag_sum-125
+              Lag_sum-126
+              Lag_sum-127
+              Lag_sum-128
+              Lag_sum-129
+              Lag_sum-130
+              Lag_sum-131
+              Lag_sum-132
+              Lag_sum-133
+              Lag_sum-134
+              Lag_sum-135
+              Lag_sum-136
+              Lag_sum-137
+              Lag_sum-138
+              Lag_sum-139
+              Lag_sum-140
+              Lag_sum-141
+              Lag_sum-142
+              Lag_sum-143
+              Lag_sum-144
+              Lag_sum-145
+              Lag_sum-146
+              Lag_sum-147
+              Lag_sum-148
+              Lag_sum-149
+              Lag_sum-150
 
 sum:
-MPRegressor with ridge value 0.01 and 1 hidden units (useCGD=false)
+MPRegressor with ridge value 0.01 and 2 hidden units (useCGD=false)
 
-Output unit 0 weight for hidden unit 0: -7.83897595072349
+Output unit 0 weight for hidden unit 0: -7.79943180394029
 
 Hidden unit 0 weights:
 
-0.029883065466040304 local_15min-remapped
--0.5232820000896118 Lag_sum-1
-0.026241185664246543 Lag_sum-29
--0.03190996084140622 Lag_sum-30
-0.01543715746050016 Lag_sum-31
-5.458862424519972E-4 Lag_sum-32
-0.00350387861930443 Lag_sum-33
-0.011323159069455706 Lag_sum-34
-0.011538099720062171 Lag_sum-35
--0.014578196716159257 Lag_sum-36
--0.022969588584892293 Lag_sum-37
-0.008265719089489518 Lag_sum-38
-0.00723522490679227 Lag_sum-39
--0.011594697940715106 Lag_sum-40
-0.024306449677806537 Lag_sum-44
--0.03397382055577641 Lag_sum-45
-0.023307425939724274 Lag_sum-46
-8.667629428321625E-4 Lag_sum-47
--0.012351899473474396 Lag_sum-48
-0.011723510847871207 Lag_sum-49
--0.010039399903218053 Lag_sum-50
--0.019608753207394067 Lag_sum-78
-0.030817208369561856 Lag_sum-79
--0.02089546600684705 Lag_sum-80
-0.00465105950628517 Lag_sum-81
-0.010494758495000155 Lag_sum-82
--0.01885985970570442 Lag_sum-83
--0.005041399993673972 Lag_sum-84
-0.005985060322536688 Lag_sum-85
-0.0020495148599349237 Lag_sum-88
-0.003359959741385893 Lag_sum-90
--0.020244335077171792 Lag_sum-91
-0.026068328242158677 Lag_sum-92
--0.02158963909904699 Lag_sum-93
--0.016666210190927636 Lag_sum-94
--0.006839768588271027 Lag_sum-95
-0.032863992777066135 Lag_sum-96
--0.02215866661199721 Lag_sum-97
-0.007134523909862469 Lag_sum-98
--0.009624306508312813 Lag_sum-99
-0.03256637492277298 Lag_sum-100
--0.07807919674415799 local_15min-remapped^2
-0.0555749031162933 local_15min-remapped^3
-0.003419359042921672 local_15min-remapped*Lag_sum-1
--0.01703458323871733 local_15min-remapped*Lag_sum-29
-0.04129384040283594 local_15min-remapped*Lag_sum-30
--0.011430755689072602 local_15min-remapped*Lag_sum-31
-3.502345929816186E-4 local_15min-remapped*Lag_sum-32
--0.02876241858979476 local_15min-remapped*Lag_sum-33
--0.005553808785661633 local_15min-remapped*Lag_sum-34
--0.008399428187587469 local_15min-remapped*Lag_sum-35
--0.02697926808795083 local_15min-remapped*Lag_sum-36
-0.03177967926706948 local_15min-remapped*Lag_sum-37
-0.024881911140962644 local_15min-remapped*Lag_sum-38
--0.019101459296403236 local_15min-remapped*Lag_sum-39
-0.013231243118622397 local_15min-remapped*Lag_sum-40
--0.029427294730896413 local_15min-remapped*Lag_sum-44
-0.0446456392980966 local_15min-remapped*Lag_sum-45
--0.009106026911551298 local_15min-remapped*Lag_sum-46
--0.009056685427920364 local_15min-remapped*Lag_sum-47
-0.021885264480158262 local_15min-remapped*Lag_sum-48
-0.0013352523217089324 local_15min-remapped*Lag_sum-49
--0.008862529428191797 local_15min-remapped*Lag_sum-50
-0.012737770606437998 local_15min-remapped*Lag_sum-78
--0.05098572076562775 local_15min-remapped*Lag_sum-79
-0.0851299827597768 local_15min-remapped*Lag_sum-80
--0.08167573829477667 local_15min-remapped*Lag_sum-81
-0.003686489318348165 local_15min-remapped*Lag_sum-82
-0.03336228619838118 local_15min-remapped*Lag_sum-83
-0.002327551021243569 local_15min-remapped*Lag_sum-84
-0.00231903278515016 local_15min-remapped*Lag_sum-85
--0.016153155857857357 local_15min-remapped*Lag_sum-88
--0.021354279239740627 local_15min-remapped*Lag_sum-90
-0.0281599126536628 local_15min-remapped*Lag_sum-91
-6.38274901704897E-4 local_15min-remapped*Lag_sum-92
--0.02301747223972945 local_15min-remapped*Lag_sum-93
-0.020584287638694087 local_15min-remapped*Lag_sum-94
--0.017992155392650415 local_15min-remapped*Lag_sum-95
--0.04401865880106644 local_15min-remapped*Lag_sum-96
-0.043606702350311756 local_15min-remapped*Lag_sum-97
--0.003957931786331461 local_15min-remapped*Lag_sum-98
-0.026863308606778574 local_15min-remapped*Lag_sum-99
--0.011641552292265201 local_15min-remapped*Lag_sum-100
+0.0016882734890425256 local_15min-remapped
+-0.4291133228705098 Lag_sum-1
+-0.10725200967030986 Lag_sum-2
+-0.04095420334670958 Lag_sum-3
+0.009977180784376542 Lag_sum-4
+0.0017452680400417595 Lag_sum-5
+0.015448692874386475 Lag_sum-6
+0.0016259250971602352 Lag_sum-7
+0.010430337184453476 Lag_sum-8
+0.021513000764532084 Lag_sum-9
+-0.02050711319516825 Lag_sum-10
+0.005529545436047619 Lag_sum-11
+0.003538226245477893 Lag_sum-12
+-0.0031270389351695143 Lag_sum-13
+0.02583835128604766 Lag_sum-14
+-0.007053838419298271 Lag_sum-15
+0.0048373691189307405 Lag_sum-16
+-0.01539225488179006 Lag_sum-17
+0.015313811807239118 Lag_sum-18
+-0.018786152176464472 Lag_sum-19
+-0.010767127532621656 Lag_sum-20
+0.017480640166332363 Lag_sum-21
+-0.011250687243851924 Lag_sum-22
+0.025901682326871102 Lag_sum-23
+0.006038794666111918 Lag_sum-24
+-0.02043762261571913 Lag_sum-25
+0.005770352230776752 Lag_sum-26
+0.004103683643965663 Lag_sum-27
+0.0030103922703412496 Lag_sum-28
+-7.647188226508798E-4 Lag_sum-29
+-0.01325802843060978 Lag_sum-30
+0.002571171911974417 Lag_sum-31
+0.004688742600142821 Lag_sum-32
+0.002059003792163364 Lag_sum-33
+3.583494227749954E-4 Lag_sum-34
+0.014100959985789115 Lag_sum-35
+-0.016290721331906732 Lag_sum-36
+-0.00854497962568398 Lag_sum-37
+-0.004437740309369748 Lag_sum-38
+0.010475049671262702 Lag_sum-39
+0.002954799201795906 Lag_sum-40
+0.0045581492654942985 Lag_sum-41
+-0.010525106854273616 Lag_sum-42
+-0.017224463580702298 Lag_sum-43
+0.02124488314183006 Lag_sum-44
+0.002366975761930032 Lag_sum-45
+-0.0032029568891600102 Lag_sum-46
+0.013766460982421944 Lag_sum-47
+-5.585647120487018E-4 Lag_sum-48
+0.0013863351420410547 Lag_sum-49
+-0.01814322082154236 Lag_sum-50
+0.020731843724795185 Lag_sum-51
+-0.023842779675321564 Lag_sum-52
+-0.010923066131205033 Lag_sum-53
+-0.0018653842186331147 Lag_sum-54
+0.013670304670264267 Lag_sum-55
+0.001831761104080921 Lag_sum-56
+-0.019584036995136136 Lag_sum-57
+0.02923377774444006 Lag_sum-58
+0.01546580555686955 Lag_sum-59
+-0.008394196558011685 Lag_sum-60
+-0.01397129218995635 Lag_sum-61
+0.0033834586617330163 Lag_sum-62
+0.007502430382756008 Lag_sum-63
+0.016705024142424345 Lag_sum-64
+-0.01616822844818095 Lag_sum-65
+0.012730587847775659 Lag_sum-66
+-0.0135911427594125 Lag_sum-67
+0.011720090048738276 Lag_sum-68
+-0.01468778092480201 Lag_sum-69
+-0.004893338534185787 Lag_sum-70
+0.007454107357213549 Lag_sum-71
+-0.00816966086356916 Lag_sum-72
+-0.013249594805945054 Lag_sum-73
+0.02244437433117564 Lag_sum-74
+-0.019002975518886238 Lag_sum-75
+-0.006822304144395592 Lag_sum-76
+0.011023291344681574 Lag_sum-77
+-0.010087977591968915 Lag_sum-78
+0.007257012409178887 Lag_sum-79
+0.019943867947735897 Lag_sum-80
+-0.03812926014754288 Lag_sum-81
+0.015934767019979538 Lag_sum-82
+4.0459045342657133E-4 Lag_sum-83
+-0.01648600288490092 Lag_sum-84
+-5.7606910230170436E-5 Lag_sum-85
+0.019333737704408938 Lag_sum-86
+-0.013664086592402088 Lag_sum-87
+-0.005619689956511064 Lag_sum-88
+0.01397210175671603 Lag_sum-89
+-7.781256394411527E-4 Lag_sum-90
+-0.007712404950311308 Lag_sum-91
+0.013265779208766515 Lag_sum-92
+-0.031317194794094616 Lag_sum-93
+-0.005424924730822831 Lag_sum-94
+-0.006259601255460434 Lag_sum-95
+-2.923701726500655E-4 Lag_sum-96
+0.0034731637542115058 Lag_sum-97
+0.008287099758168728 Lag_sum-98
+0.0031654762227155023 Lag_sum-99
+0.02984933487047926 Lag_sum-100
+0.003935117534197918 Lag_sum-101
+0.0032366426979457946 Lag_sum-102
+4.672262946832737E-4 Lag_sum-103
+-0.016997556744591472 Lag_sum-104
+0.01800475058714714 Lag_sum-105
+0.008121007751975216 Lag_sum-106
+-0.012906991294755248 Lag_sum-107
+-7.83854369321911E-4 Lag_sum-108
+-0.016734346495732043 Lag_sum-109
+0.01729004539973095 Lag_sum-110
+-0.016065981702171005 Lag_sum-111
+-0.019451462924951018 Lag_sum-112
+0.019371095162070306 Lag_sum-113
+0.010307252146523518 Lag_sum-114
+0.004864626180567453 Lag_sum-115
+-0.016373735041178738 Lag_sum-116
+-0.025555046561686407 Lag_sum-117
+0.028269198631930233 Lag_sum-118
+0.009993853270253386 Lag_sum-119
+-0.015186386460973174 Lag_sum-120
+0.009167231669511942 Lag_sum-121
+-0.010272116950392474 Lag_sum-122
+0.019673739553110175 Lag_sum-123
+-0.01040507062808823 Lag_sum-124
+6.076316360027697E-4 Lag_sum-125
+-0.003819767123538896 Lag_sum-126
+0.008243793654323464 Lag_sum-127
+-0.006502708699016882 Lag_sum-128
+-0.0015227756251501817 Lag_sum-129
+-0.0072493142086977515 Lag_sum-130
+-0.0027721837454074763 Lag_sum-131
+0.012216995219496133 Lag_sum-132
+-0.003727651176112665 Lag_sum-133
+0.03281312142272058 Lag_sum-134
+-0.035143774922497185 Lag_sum-135
+0.004346217366797563 Lag_sum-136
+-0.009880552118382449 Lag_sum-137
+-0.005702579718838728 Lag_sum-138
+0.01608830246485711 Lag_sum-139
+3.429918271779283E-5 Lag_sum-140
+0.007711446527224174 Lag_sum-141
+0.0036275740381900515 Lag_sum-142
+-0.005301387477504279 Lag_sum-143
+-0.008684718514332106 Lag_sum-144
+-0.0017877371975884395 Lag_sum-145
+0.010151572373017378 Lag_sum-146
+0.0056569459941001494 Lag_sum-147
+0.010304399199297171 Lag_sum-148
+-0.013675571499252505 Lag_sum-149
+-0.007237798507572711 Lag_sum-150
 
-Hidden unit 0 bias: 0.19389995216361663
+Hidden unit 0 bias: 0.21039563240395018
 
-Output unit 0 bias: 4.282570147562033
+Output unit 0 weight for hidden unit 1: 0.03310249234945277
+
+Hidden unit 1 weights:
+
+0.15531333416685136 local_15min-remapped
+1.327362298593133 Lag_sum-1
+1.3220990636584924 Lag_sum-2
+1.0017665844672428 Lag_sum-3
+1.1387617219278912 Lag_sum-4
+0.9918101100216238 Lag_sum-5
+0.8524019011606999 Lag_sum-6
+0.7703961930480144 Lag_sum-7
+0.5246705011747008 Lag_sum-8
+0.6679534838637452 Lag_sum-9
+0.70280940951222 Lag_sum-10
+0.5484177828725586 Lag_sum-11
+0.42427012233097783 Lag_sum-12
+0.3195890858920665 Lag_sum-13
+0.46589902892978685 Lag_sum-14
+0.13649592369170724 Lag_sum-15
+-0.02208695486194906 Lag_sum-16
+0.04165332238836954 Lag_sum-17
+0.19450007248333115 Lag_sum-18
+0.3509374417054785 Lag_sum-19
+0.026539312577324028 Lag_sum-20
+0.17072713966712807 Lag_sum-21
+0.024715104276641482 Lag_sum-22
+0.030204798403932753 Lag_sum-23
+0.08023729770804802 Lag_sum-24
+-0.08559118608087833 Lag_sum-25
+-0.05138861375905456 Lag_sum-26
+-0.354636742239509 Lag_sum-27
+-0.13671450704684707 Lag_sum-28
+-0.1598714103645276 Lag_sum-29
+-0.09533936820030996 Lag_sum-30
+-0.17620378684200194 Lag_sum-31
+0.02335916639162505 Lag_sum-32
+-0.07014144967224813 Lag_sum-33
+-0.03855007458626954 Lag_sum-34
+0.02340783807235045 Lag_sum-35
+-0.09994236800753913 Lag_sum-36
+0.1596002143332639 Lag_sum-37
+0.3456307200927197 Lag_sum-38
+0.06598511658491309 Lag_sum-39
+0.20255194116326877 Lag_sum-40
+0.24285596365390177 Lag_sum-41
+0.2645722293378152 Lag_sum-42
+0.2954028989886276 Lag_sum-43
+0.49555808495120174 Lag_sum-44
+0.04250805740451604 Lag_sum-45
+0.2569786656880311 Lag_sum-46
+0.2132928636087278 Lag_sum-47
+0.18053006855513343 Lag_sum-48
+0.3755520429331138 Lag_sum-49
+0.17049506690698507 Lag_sum-50
+0.6091643820951825 Lag_sum-51
+0.37856060624046034 Lag_sum-52
+0.4293543099211394 Lag_sum-53
+0.317663828306756 Lag_sum-54
+0.27513949960652556 Lag_sum-55
+0.33508746817746476 Lag_sum-56
+0.32672294413697495 Lag_sum-57
+0.14688157891279954 Lag_sum-58
+0.07678549513815303 Lag_sum-59
+0.03253884801268913 Lag_sum-60
+0.19856268060476617 Lag_sum-61
+-0.021895238939910952 Lag_sum-62
+-0.2274084435487939 Lag_sum-63
+-0.18349337271748598 Lag_sum-64
+-0.3866224065604228 Lag_sum-65
+-0.36683777406154927 Lag_sum-66
+-0.15674521568498379 Lag_sum-67
+-0.46872162166800574 Lag_sum-68
+-0.46511100027751806 Lag_sum-69
+-0.4763077849748214 Lag_sum-70
+-0.39685373676552077 Lag_sum-71
+-0.48539483383403803 Lag_sum-72
+-0.24631017924819532 Lag_sum-73
+-0.6353748916000468 Lag_sum-74
+-0.5217599157622492 Lag_sum-75
+-0.34773185910765275 Lag_sum-76
+-0.3509372808971432 Lag_sum-77
+-0.4265854691182558 Lag_sum-78
+-0.38555332196069153 Lag_sum-79
+-0.3970321853683096 Lag_sum-80
+-0.35981770871165214 Lag_sum-81
+-0.5696978200219196 Lag_sum-82
+-0.4047554294786452 Lag_sum-83
+-0.3004222893651287 Lag_sum-84
+-0.22227373926529717 Lag_sum-85
+-0.35392106547778507 Lag_sum-86
+-0.18947406599658054 Lag_sum-87
+-0.2372144295473098 Lag_sum-88
+-0.27729801309690455 Lag_sum-89
+-0.06531899676388786 Lag_sum-90
+-0.037058390604396516 Lag_sum-91
+-0.1789176710922006 Lag_sum-92
+0.03394655480892281 Lag_sum-93
+-0.05238917373149222 Lag_sum-94
+-0.072730178259773 Lag_sum-95
+-0.06344572359502569 Lag_sum-96
+0.09553473571704965 Lag_sum-97
+0.17516666146585577 Lag_sum-98
+-0.09453795131086812 Lag_sum-99
+0.03427467774899633 Lag_sum-100
+0.0978430361706036 Lag_sum-101
+0.020341895564637207 Lag_sum-102
+0.1054163476720031 Lag_sum-103
+0.17554082303711316 Lag_sum-104
+0.260012099600157 Lag_sum-105
+-0.03425499179579549 Lag_sum-106
+-0.0024586582057049026 Lag_sum-107
+0.17342971350399608 Lag_sum-108
+0.01894407966507317 Lag_sum-109
+0.11394634897986759 Lag_sum-110
+0.2246756174048673 Lag_sum-111
+-0.008642756939984921 Lag_sum-112
+0.2123262962286311 Lag_sum-113
+-0.005940515869649604 Lag_sum-114
+0.060073323165326056 Lag_sum-115
+0.18305097628992167 Lag_sum-116
+0.16248722751062097 Lag_sum-117
+0.09383918529258053 Lag_sum-118
+0.06235947373421118 Lag_sum-119
+0.049699371502136866 Lag_sum-120
+-0.28073846142577163 Lag_sum-121
+-0.011692909149243483 Lag_sum-122
+0.15908414892628847 Lag_sum-123
+0.01869997182994017 Lag_sum-124
+-0.11518190925395884 Lag_sum-125
+-0.14724978642748732 Lag_sum-126
+-0.21124706536031088 Lag_sum-127
+-0.2083050016193528 Lag_sum-128
+-0.14970109119330524 Lag_sum-129
+0.07796994992855537 Lag_sum-130
+-0.017357946368230834 Lag_sum-131
+-0.12829125343661182 Lag_sum-132
+0.006527714576858085 Lag_sum-133
+0.07266738097496925 Lag_sum-134
+-0.09271321150499323 Lag_sum-135
+0.3011554309138348 Lag_sum-136
+0.23080762474045854 Lag_sum-137
+0.11876670358255856 Lag_sum-138
+0.12399494442659778 Lag_sum-139
+0.1879682741664159 Lag_sum-140
+0.03438958538733739 Lag_sum-141
+0.14619938447883762 Lag_sum-142
+0.10620449608127361 Lag_sum-143
+0.018654114456142654 Lag_sum-144
+0.21450484521580646 Lag_sum-145
+0.09799043954790725 Lag_sum-146
+0.12435044681819234 Lag_sum-147
+0.20028358395993737 Lag_sum-148
+-0.008925734489924855 Lag_sum-149
+0.11986491914126762 Lag_sum-150
+
+Hidden unit 1 bias: -1.6329386970290287
+
+Output unit 0 bias: 4.274924077756184
 
 
-Step: 0 Prediction:490.256 Actual: 476.0 MAE: 14.256 RMSE:14.256 MAPE:2.995
-Step: 1 Prediction:465.728 Actual: 469.0 MAE: 8.764 RMSE:1.636 MAPE:1.846
-Step: 2 Prediction:438.664 Actual: 444.0 MAE: 7.621 RMSE:1.779 MAPE:1.631
-Step: 3 Prediction:412.91 Actual: 443.0 MAE: 13.238 RMSE:7.522 MAPE:2.922
-Step: 4 Prediction:395.712 Actual: 432.0 MAE: 17.848 RMSE:7.258 MAPE:4.017
-Step: 5 Prediction:382.929 Actual: 436.0 MAE: 23.719 RMSE:8.845 MAPE:5.376
-Step: 6 Prediction:369.016 Actual: 424.0 MAE: 28.185 RMSE:7.855 MAPE:6.461
-Step: 7 Prediction:359.519 Actual: 421.0 MAE: 32.347 RMSE:7.685 MAPE:7.479
-Step: 8 Prediction:364.609 Actual: 394.0 MAE: 32.019 RMSE:3.266 MAPE:7.477
-Step: 9 Prediction:361.922 Actual: 395.0 MAE: 32.125 RMSE:3.308 MAPE:7.566
-Step: 10 Prediction:355.305 Actual: 393.0 MAE: 32.631 RMSE:3.427 MAPE:7.75
-Step: 11 Prediction:351.937 Actual: 361.0 MAE: 30.667 RMSE:0.755 MAPE:7.314
-Step: 12 Prediction:351.279 Actual: 350.0 MAE: 28.406 RMSE:0.098 MAPE:6.779
-Step: 13 Prediction:346.63 Actual: 360.0 MAE: 27.332 RMSE:0.955 MAPE:6.56
-Step: 14 Prediction:334.951 Actual: 357.0 MAE: 26.98 RMSE:1.47 MAPE:6.535
-Step: 15 Prediction:333.227 Actual: 363.0 MAE: 27.155 RMSE:1.861 MAPE:6.639
-Step: 16 Prediction:326.297 Actual: 388.0 MAE: 29.187 RMSE:3.63 MAPE:7.184
-Step: 17 Prediction:321.004 Actual: 349.0 MAE: 29.121 RMSE:1.555 MAPE:7.23
-Step: 18 Prediction:323.14 Actual: 335.0 MAE: 28.212 RMSE:0.624 MAPE:7.036
-Step: 19 Prediction:322.479 Actual: 331.0 MAE: 27.228 RMSE:0.426 MAPE:6.813
-Step: 20 Prediction:320.606 Actual: 339.0 MAE: 26.807 RMSE:0.876 MAPE:6.747
-Step: 21 Prediction:316.935 Actual: 368.0 MAE: 27.91 RMSE:2.321 MAPE:7.071
-Step: 22 Prediction:319.439 Actual: 384.0 MAE: 29.503 RMSE:2.807 MAPE:7.495
-Step: 23 Prediction:322.857 Actual: 367.0 MAE: 30.113 RMSE:1.839 MAPE:7.684
-Time taken: 1558
+Step: 0 Prediction:287.808 Actual: 286.0 MAE: 1.808 RMSE:1.808 MAPE:0.632
+Step: 1 Prediction:314.365 Actual: 286.0 MAE: 15.087 RMSE:14.182 MAPE:5.275
+Step: 2 Prediction:355.313 Actual: 301.0 MAE: 28.162 RMSE:18.104 MAPE:9.531
+Step: 3 Prediction:368.77 Actual: 317.0 MAE: 34.064 RMSE:12.943 MAPE:11.231
+Step: 4 Prediction:398.025 Actual: 349.0 MAE: 37.056 RMSE:9.805 MAPE:11.795
+Step: 5 Prediction:430.946 Actual: 354.0 MAE: 43.705 RMSE:12.824 MAPE:13.451
+Step: 6 Prediction:457.817 Actual: 355.0 MAE: 52.149 RMSE:14.688 MAPE:15.667
+Step: 7 Prediction:472.66 Actual: 360.0 MAE: 59.713 RMSE:14.082 MAPE:17.621
+Step: 8 Prediction:510.506 Actual: 409.0 MAE: 64.357 RMSE:11.278 MAPE:18.42
+Step: 9 Prediction:533.412 Actual: 425.0 MAE: 68.762 RMSE:10.841 MAPE:19.129
+Step: 10 Prediction:573.566 Actual: 429.0 MAE: 75.653 RMSE:13.142 MAPE:20.454
+Step: 11 Prediction:593.104 Actual: 418.0 MAE: 83.941 RMSE:14.592 MAPE:22.24
+Step: 12 Prediction:620.434 Actual: 439.0 MAE: 91.44 RMSE:13.956 MAPE:23.709
+Step: 13 Prediction:658.593 Actual: 461.0 MAE: 99.023 RMSE:14.114 MAPE:25.077
+Step: 14 Prediction:675.373 Actual: 476.0 MAE: 105.713 RMSE:13.292 MAPE:26.197
+Step: 15 Prediction:700.909 Actual: 492.0 MAE: 112.162 RMSE:13.057 MAPE:27.214
+Step: 16 Prediction:720.075 Actual: 514.0 MAE: 117.687 RMSE:12.122 MAPE:27.971
+Step: 17 Prediction:737.652 Actual: 507.0 MAE: 123.963 RMSE:12.814 MAPE:28.945
+Step: 18 Prediction:766.006 Actual: 544.0 MAE: 129.123 RMSE:11.685 MAPE:29.569
+Step: 19 Prediction:790.931 Actual: 570.0 MAE: 133.713 RMSE:11.047 MAPE:30.029
+Step: 20 Prediction:815.604 Actual: 633.0 MAE: 136.041 RMSE:8.695 MAPE:29.972
+Step: 21 Prediction:845.525 Actual: 614.0 MAE: 140.382 RMSE:10.524 MAPE:30.324
+Step: 22 Prediction:887.093 Actual: 629.0 MAE: 145.499 RMSE:11.221 MAPE:30.79
+Step: 23 Prediction:906.949 Actual: 648.0 MAE: 150.226 RMSE:10.79 MAPE:31.172
+Step: 24 Prediction:953.538 Actual: 967.0 MAE: 144.756 RMSE:0.538 MAPE:29.981
+Step: 25 Prediction:955.544 Actual: 1023.0 MAE: 141.783 RMSE:2.594 MAPE:29.081
+Step: 26 Prediction:964.723 Actual: 1016.0 MAE: 138.431 RMSE:1.899 MAPE:28.191
+Step: 27 Prediction:962.554 Actual: 978.0 MAE: 134.038 RMSE:0.552 MAPE:27.241
+Step: 28 Prediction:966.442 Actual: 976.0 MAE: 129.746 RMSE:0.33 MAPE:26.335
+Step: 29 Prediction:971.689 Actual: 966.0 MAE: 125.611 RMSE:0.19 MAPE:25.477
+Step: 30 Prediction:981.971 Actual: 966.0 MAE: 122.074 RMSE:0.515 MAPE:24.708
+Step: 31 Prediction:989.379 Actual: 971.0 MAE: 118.834 RMSE:0.574 MAPE:23.995
+Step: 32 Prediction:994.722 Actual: 929.0 MAE: 117.224 RMSE:1.992 MAPE:23.483
+Step: 33 Prediction:1003.476 Actual: 932.0 MAE: 115.879 RMSE:2.102 MAPE:23.017
+Step: 34 Prediction:1006.352 Actual: 927.0 MAE: 114.835 RMSE:2.267 MAPE:22.604
+Step: 35 Prediction:1010.98 Actual: 914.0 MAE: 114.339 RMSE:2.694 MAPE:22.271
+Step: 36 Prediction:1024.596 Actual: 923.0 MAE: 113.995 RMSE:2.746 MAPE:21.967
+Step: 37 Prediction:1004.676 Actual: 870.0 MAE: 114.539 RMSE:3.544 MAPE:21.796
+Step: 38 Prediction:991.969 Actual: 827.0 MAE: 115.832 RMSE:4.23 MAPE:21.749
+Step: 39 Prediction:971.36 Actual: 793.0 MAE: 117.395 RMSE:4.459 MAPE:21.767
+Step: 40 Prediction:959.94 Actual: 807.0 MAE: 118.262 RMSE:3.73 MAPE:21.699
+Step: 41 Prediction:938.145 Actual: 725.0 MAE: 120.521 RMSE:5.075 MAPE:21.882
+Step: 42 Prediction:895.164 Actual: 711.0 MAE: 122.001 RMSE:4.283 MAPE:21.975
+Step: 43 Prediction:872.42 Actual: 703.0 MAE: 123.079 RMSE:3.85 MAPE:22.024
+Step: 44 Prediction:827.416 Actual: 654.0 MAE: 124.198 RMSE:3.854 MAPE:22.124
+Step: 45 Prediction:790.176 Actual: 643.0 MAE: 124.697 RMSE:3.199 MAPE:22.14
+Step: 46 Prediction:764.555 Actual: 599.0 MAE: 125.566 RMSE:3.522 MAPE:22.257
+Step: 47 Prediction:731.41 Actual: 549.0 MAE: 126.751 RMSE:3.8 MAPE:22.486
+Step: 48 Prediction:394.512 Actual: 415.0 MAE: 124.582 RMSE:0.418 MAPE:22.128
+Step: 49 Prediction:396.166 Actual: 399.0 MAE: 122.147 RMSE:0.057 MAPE:21.699
+Step: 50 Prediction:393.892 Actual: 369.0 MAE: 120.24 RMSE:0.488 MAPE:21.406
+Step: 51 Prediction:394.087 Actual: 401.0 MAE: 118.061 RMSE:0.133 MAPE:21.027
+Step: 52 Prediction:395.912 Actual: 380.0 MAE: 116.133 RMSE:0.3 MAPE:20.71
+Step: 53 Prediction:397.042 Actual: 387.0 MAE: 114.169 RMSE:0.186 MAPE:20.374
+Step: 54 Prediction:400.917 Actual: 417.0 MAE: 112.385 RMSE:0.292 MAPE:20.074
+Step: 55 Prediction:406.803 Actual: 441.0 MAE: 110.989 RMSE:0.611 MAPE:19.854
+Step: 56 Prediction:414.059 Actual: 443.0 MAE: 109.55 RMSE:0.508 MAPE:19.62
+Step: 57 Prediction:409.629 Actual: 460.0 MAE: 108.529 RMSE:0.868 MAPE:19.471
+Step: 58 Prediction:415.968 Actual: 475.0 MAE: 107.69 RMSE:1.001 MAPE:19.351
+Step: 59 Prediction:415.512 Actual: 483.0 MAE: 107.02 RMSE:1.125 MAPE:19.262
+Step: 60 Prediction:408.087 Actual: 459.0 MAE: 106.101 RMSE:0.835 MAPE:19.128
+Step: 61 Prediction:395.095 Actual: 447.0 MAE: 105.226 RMSE:0.837 MAPE:19.007
+Step: 62 Prediction:392.332 Actual: 432.0 MAE: 104.186 RMSE:0.63 MAPE:18.851
+Step: 63 Prediction:384.651 Actual: 431.0 MAE: 103.282 RMSE:0.724 MAPE:18.724
+Step: 64 Prediction:391.085 Actual: 434.0 MAE: 102.353 RMSE:0.66 MAPE:18.588
+Step: 65 Prediction:389.074 Actual: 397.0 MAE: 100.923 RMSE:0.12 MAPE:18.337
+Step: 66 Prediction:400.718 Actual: 404.0 MAE: 99.465 RMSE:0.049 MAPE:18.075
+Step: 67 Prediction:400.744 Actual: 426.0 MAE: 98.374 RMSE:0.371 MAPE:17.897
+Step: 68 Prediction:406.386 Actual: 402.0 MAE: 97.012 RMSE:0.064 MAPE:17.653
+Step: 69 Prediction:416.153 Actual: 418.0 MAE: 95.652 RMSE:0.026 MAPE:17.407
+Step: 70 Prediction:427.169 Actual: 436.0 MAE: 94.43 RMSE:0.124 MAPE:17.191
+Step: 71 Prediction:442.777 Actual: 456.0 MAE: 93.302 RMSE:0.184 MAPE:16.992
+Step: 72 Prediction:870.929 Actual: 875.0 MAE: 92.079 RMSE:0.056 MAPE:16.766
+Step: 73 Prediction:892.352 Actual: 904.0 MAE: 90.992 RMSE:0.157 MAPE:16.557
+Step: 74 Prediction:916.441 Actual: 939.0 MAE: 90.08 RMSE:0.301 MAPE:16.368
+Step: 75 Prediction:936.814 Actual: 919.0 MAE: 89.129 RMSE:0.234 MAPE:16.178
+Step: 76 Prediction:951.58 Actual: 965.0 MAE: 88.146 RMSE:0.174 MAPE:15.986
+Step: 77 Prediction:975.424 Actual: 1019.0 MAE: 87.575 RMSE:0.559 MAPE:15.836
+Step: 78 Prediction:991.201 Actual: 1072.0 MAE: 87.489 RMSE:1.023 MAPE:15.731
+Step: 79 Prediction:1004.693 Actual: 1135.0 MAE: 88.024 RMSE:1.629 MAPE:15.678
+Step: 80 Prediction:1024.456 Actual: 1139.0 MAE: 88.351 RMSE:1.414 MAPE:15.608
+Step: 81 Prediction:1029.144 Actual: 1137.0 MAE: 88.589 RMSE:1.315 MAPE:15.534
+Step: 82 Prediction:1032.167 Actual: 1133.0 MAE: 88.737 RMSE:1.215 MAPE:15.454
+Step: 83 Prediction:1029.204 Actual: 1148.0 MAE: 89.095 RMSE:1.414 MAPE:15.393
+Step: 84 Prediction:1022.077 Actual: 1132.0 MAE: 89.34 RMSE:1.293 MAPE:15.326
+Step: 85 Prediction:1016.893 Actual: 1094.0 MAE: 89.197 RMSE:0.897 MAPE:15.23
+Step: 86 Prediction:1021.234 Actual: 1113.0 MAE: 89.227 RMSE:1.055 MAPE:15.149
+Step: 87 Prediction:1026.37 Actual: 1106.0 MAE: 89.118 RMSE:0.905 MAPE:15.059
+Step: 88 Prediction:1026.253 Actual: 1052.0 MAE: 88.406 RMSE:0.289 MAPE:14.917
+Step: 89 Prediction:1030.241 Actual: 1054.0 MAE: 87.688 RMSE:0.264 MAPE:14.777
+Step: 90 Prediction:1023.356 Actual: 1074.0 MAE: 87.28 RMSE:0.557 MAPE:14.666
+Step: 91 Prediction:1019.03 Actual: 1057.0 MAE: 86.745 RMSE:0.413 MAPE:14.546
+Step: 92 Prediction:1024.714 Actual: 1041.0 MAE: 85.987 RMSE:0.175 MAPE:14.406
+Step: 93 Prediction:1034.697 Actual: 1037.0 MAE: 85.097 RMSE:0.024 MAPE:14.255
+Step: 94 Prediction:1020.515 Actual: 1042.0 MAE: 84.427 RMSE:0.226 MAPE:14.127
+Step: 95 Prediction:999.948 Actual: 980.0 MAE: 83.755 RMSE:0.208 MAPE:14.001
+Step: 96 Prediction:528.634 Actual: 534.0 MAE: 82.947 RMSE:0.055 MAPE:13.867
+Step: 97 Prediction:516.339 Actual: 505.0 MAE: 82.217 RMSE:0.116 MAPE:13.748
+Step: 98 Prediction:513.656 Actual: 482.0 MAE: 81.706 RMSE:0.32 MAPE:13.676
+Step: 99 Prediction:495.513 Actual: 471.0 MAE: 81.134 RMSE:0.245 MAPE:13.591
+Step: 100 Prediction:483.673 Actual: 466.0 MAE: 80.506 RMSE:0.175 MAPE:13.494
+Step: 101 Prediction:469.492 Actual: 450.0 MAE: 79.907 RMSE:0.191 MAPE:13.404
+Step: 102 Prediction:451.011 Actual: 475.0 MAE: 79.365 RMSE:0.233 MAPE:13.323
+Step: 103 Prediction:440.162 Actual: 455.0 MAE: 78.744 RMSE:0.143 MAPE:13.226
+Step: 104 Prediction:425.49 Actual: 410.0 MAE: 78.142 RMSE:0.148 MAPE:13.137
+Step: 105 Prediction:411.197 Actual: 428.0 MAE: 77.563 RMSE:0.159 MAPE:13.05
+Step: 106 Prediction:406.141 Actual: 432.0 MAE: 77.08 RMSE:0.242 MAPE:12.984
+Step: 107 Prediction:391.361 Actual: 441.0 MAE: 76.826 RMSE:0.46 MAPE:12.968
+Step: 108 Prediction:384.191 Actual: 422.0 MAE: 76.468 RMSE:0.347 MAPE:12.931
+Step: 109 Prediction:376.794 Actual: 414.0 MAE: 76.111 RMSE:0.338 MAPE:12.895
+Step: 110 Prediction:379.001 Actual: 403.0 MAE: 75.641 RMSE:0.216 MAPE:12.832
+Step: 111 Prediction:389.505 Actual: 397.0 MAE: 75.033 RMSE:0.067 MAPE:12.735
+Step: 112 Prediction:395.341 Actual: 400.0 MAE: 74.41 RMSE:0.041 MAPE:12.632
+Step: 113 Prediction:408.034 Actual: 408.0 MAE: 73.758 RMSE:0 MAPE:12.522
+Step: 114 Prediction:411.814 Actual: 401.0 MAE: 73.21 RMSE:0.094 MAPE:12.436
+Step: 115 Prediction:417.255 Actual: 414.0 MAE: 72.607 RMSE:0.028 MAPE:12.336
+Step: 116 Prediction:419.89 Actual: 403.0 MAE: 72.131 RMSE:0.144 MAPE:12.266
+Step: 117 Prediction:425.364 Actual: 414.0 MAE: 71.616 RMSE:0.096 MAPE:12.185
+Step: 118 Prediction:413.453 Actual: 455.0 MAE: 71.363 RMSE:0.349 MAPE:12.16
+Step: 119 Prediction:408.908 Actual: 502.0 MAE: 71.544 RMSE:0.776 MAPE:12.213
+Step: 120 Prediction:875.406 Actual: 870.0 MAE: 70.998 RMSE:0.045 MAPE:12.117
+Step: 121 Prediction:898.046 Actual: 861.0 MAE: 70.72 RMSE:0.304 MAPE:12.053
+Step: 122 Prediction:925.255 Actual: 868.0 MAE: 70.61 RMSE:0.465 MAPE:12.009
+Step: 123 Prediction:956.676 Actual: 905.0 MAE: 70.457 RMSE:0.417 MAPE:11.958
+Step: 124 Prediction:975.991 Actual: 916.0 MAE: 70.374 RMSE:0.48 MAPE:11.915
+Step: 125 Prediction:995.352 Actual: 955.0 MAE: 70.135 RMSE:0.32 MAPE:11.854
+Step: 126 Prediction:1015.328 Actual: 986.0 MAE: 69.814 RMSE:0.231 MAPE:11.784
+Step: 127 Prediction:1025.76 Actual: 1014.0 MAE: 69.361 RMSE:0.092 MAPE:11.701
+Step: 128 Prediction:1041.025 Actual: 981.0 MAE: 69.288 RMSE:0.465 MAPE:11.657
+Step: 129 Prediction:1050.183 Actual: 1035.0 MAE: 68.872 RMSE:0.117 MAPE:11.579
+Step: 130 Prediction:1060.43 Actual: 1043.0 MAE: 68.479 RMSE:0.133 MAPE:11.503
+Step: 131 Prediction:1065.587 Actual: 1091.0 MAE: 68.153 RMSE:0.193 MAPE:11.434
+Step: 132 Prediction:1075.02 Actual: 1111.0 MAE: 67.911 RMSE:0.271 MAPE:11.372
+Step: 133 Prediction:1076.331 Actual: 1109.0 MAE: 67.648 RMSE:0.244 MAPE:11.309
+Step: 134 Prediction:1083.074 Actual: 1113.0 MAE: 67.369 RMSE:0.222 MAPE:11.246
+Step: 135 Prediction:1095.294 Actual: 1147.0 MAE: 67.254 RMSE:0.38 MAPE:11.196
+Step: 136 Prediction:1097.857 Actual: 1142.0 MAE: 67.085 RMSE:0.322 MAPE:11.143
+Step: 137 Prediction:1099.319 Actual: 1112.0 MAE: 66.691 RMSE:0.092 MAPE:11.07
+Step: 138 Prediction:1090.612 Actual: 1110.0 MAE: 66.35 RMSE:0.139 MAPE:11.003
+Step: 139 Prediction:1092.281 Actual: 1137.0 MAE: 66.196 RMSE:0.319 MAPE:10.953
+Step: 140 Prediction:1089.786 Actual: 1117.0 MAE: 65.919 RMSE:0.193 MAPE:10.892
+Step: 141 Prediction:1085.673 Actual: 1083.0 MAE: 65.474 RMSE:0.019 MAPE:10.817
+Step: 142 Prediction:1081.557 Actual: 1051.0 MAE: 65.23 RMSE:0.214 MAPE:10.762
+Step: 143 Prediction:1067.787 Actual: 1095.0 MAE: 64.966 RMSE:0.189 MAPE:10.704
 Transformed training data:
 
               sum
               local_15min-remapped
               Lag_sum-1
+              Lag_sum-2
+              Lag_sum-3
+              Lag_sum-4
+              Lag_sum-5
+              Lag_sum-6
+              Lag_sum-7
+              Lag_sum-8
+              Lag_sum-9
+              Lag_sum-10
+              Lag_sum-11
+              Lag_sum-12
+              Lag_sum-13
+              Lag_sum-14
+              Lag_sum-15
+              Lag_sum-16
+              Lag_sum-17
+              Lag_sum-18
+              Lag_sum-19
+              Lag_sum-20
+              Lag_sum-21
+              Lag_sum-22
+              Lag_sum-23
+              Lag_sum-24
+              Lag_sum-25
+              Lag_sum-26
+              Lag_sum-27
+              Lag_sum-28
               Lag_sum-29
               Lag_sum-30
               Lag_sum-31
@@ -223,6 +1163,9 @@ Transformed training data:
               Lag_sum-38
               Lag_sum-39
               Lag_sum-40
+              Lag_sum-41
+              Lag_sum-42
+              Lag_sum-43
               Lag_sum-44
               Lag_sum-45
               Lag_sum-46
@@ -230,6 +1173,33 @@ Transformed training data:
               Lag_sum-48
               Lag_sum-49
               Lag_sum-50
+              Lag_sum-51
+              Lag_sum-52
+              Lag_sum-53
+              Lag_sum-54
+              Lag_sum-55
+              Lag_sum-56
+              Lag_sum-57
+              Lag_sum-58
+              Lag_sum-59
+              Lag_sum-60
+              Lag_sum-61
+              Lag_sum-62
+              Lag_sum-63
+              Lag_sum-64
+              Lag_sum-65
+              Lag_sum-66
+              Lag_sum-67
+              Lag_sum-68
+              Lag_sum-69
+              Lag_sum-70
+              Lag_sum-71
+              Lag_sum-72
+              Lag_sum-73
+              Lag_sum-74
+              Lag_sum-75
+              Lag_sum-76
+              Lag_sum-77
               Lag_sum-78
               Lag_sum-79
               Lag_sum-80
@@ -238,7 +1208,10 @@ Transformed training data:
               Lag_sum-83
               Lag_sum-84
               Lag_sum-85
+              Lag_sum-86
+              Lag_sum-87
               Lag_sum-88
+              Lag_sum-89
               Lag_sum-90
               Lag_sum-91
               Lag_sum-92
@@ -250,9 +1223,86 @@ Transformed training data:
               Lag_sum-98
               Lag_sum-99
               Lag_sum-100
+              Lag_sum-101
+              Lag_sum-102
+              Lag_sum-103
+              Lag_sum-104
+              Lag_sum-105
+              Lag_sum-106
+              Lag_sum-107
+              Lag_sum-108
+              Lag_sum-109
+              Lag_sum-110
+              Lag_sum-111
+              Lag_sum-112
+              Lag_sum-113
+              Lag_sum-114
+              Lag_sum-115
+              Lag_sum-116
+              Lag_sum-117
+              Lag_sum-118
+              Lag_sum-119
+              Lag_sum-120
+              Lag_sum-121
+              Lag_sum-122
+              Lag_sum-123
+              Lag_sum-124
+              Lag_sum-125
+              Lag_sum-126
+              Lag_sum-127
+              Lag_sum-128
+              Lag_sum-129
+              Lag_sum-130
+              Lag_sum-131
+              Lag_sum-132
+              Lag_sum-133
+              Lag_sum-134
+              Lag_sum-135
+              Lag_sum-136
+              Lag_sum-137
+              Lag_sum-138
+              Lag_sum-139
+              Lag_sum-140
+              Lag_sum-141
+              Lag_sum-142
+              Lag_sum-143
+              Lag_sum-144
+              Lag_sum-145
+              Lag_sum-146
+              Lag_sum-147
+              Lag_sum-148
+              Lag_sum-149
+              Lag_sum-150
               local_15min-remapped^2
               local_15min-remapped^3
               local_15min-remapped*Lag_sum-1
+              local_15min-remapped*Lag_sum-2
+              local_15min-remapped*Lag_sum-3
+              local_15min-remapped*Lag_sum-4
+              local_15min-remapped*Lag_sum-5
+              local_15min-remapped*Lag_sum-6
+              local_15min-remapped*Lag_sum-7
+              local_15min-remapped*Lag_sum-8
+              local_15min-remapped*Lag_sum-9
+              local_15min-remapped*Lag_sum-10
+              local_15min-remapped*Lag_sum-11
+              local_15min-remapped*Lag_sum-12
+              local_15min-remapped*Lag_sum-13
+              local_15min-remapped*Lag_sum-14
+              local_15min-remapped*Lag_sum-15
+              local_15min-remapped*Lag_sum-16
+              local_15min-remapped*Lag_sum-17
+              local_15min-remapped*Lag_sum-18
+              local_15min-remapped*Lag_sum-19
+              local_15min-remapped*Lag_sum-20
+              local_15min-remapped*Lag_sum-21
+              local_15min-remapped*Lag_sum-22
+              local_15min-remapped*Lag_sum-23
+              local_15min-remapped*Lag_sum-24
+              local_15min-remapped*Lag_sum-25
+              local_15min-remapped*Lag_sum-26
+              local_15min-remapped*Lag_sum-27
+              local_15min-remapped*Lag_sum-28
               local_15min-remapped*Lag_sum-29
               local_15min-remapped*Lag_sum-30
               local_15min-remapped*Lag_sum-31
@@ -265,6 +1315,9 @@ Transformed training data:
               local_15min-remapped*Lag_sum-38
               local_15min-remapped*Lag_sum-39
               local_15min-remapped*Lag_sum-40
+              local_15min-remapped*Lag_sum-41
+              local_15min-remapped*Lag_sum-42
+              local_15min-remapped*Lag_sum-43
               local_15min-remapped*Lag_sum-44
               local_15min-remapped*Lag_sum-45
               local_15min-remapped*Lag_sum-46
@@ -272,6 +1325,33 @@ Transformed training data:
               local_15min-remapped*Lag_sum-48
               local_15min-remapped*Lag_sum-49
               local_15min-remapped*Lag_sum-50
+              local_15min-remapped*Lag_sum-51
+              local_15min-remapped*Lag_sum-52
+              local_15min-remapped*Lag_sum-53
+              local_15min-remapped*Lag_sum-54
+              local_15min-remapped*Lag_sum-55
+              local_15min-remapped*Lag_sum-56
+              local_15min-remapped*Lag_sum-57
+              local_15min-remapped*Lag_sum-58
+              local_15min-remapped*Lag_sum-59
+              local_15min-remapped*Lag_sum-60
+              local_15min-remapped*Lag_sum-61
+              local_15min-remapped*Lag_sum-62
+              local_15min-remapped*Lag_sum-63
+              local_15min-remapped*Lag_sum-64
+              local_15min-remapped*Lag_sum-65
+              local_15min-remapped*Lag_sum-66
+              local_15min-remapped*Lag_sum-67
+              local_15min-remapped*Lag_sum-68
+              local_15min-remapped*Lag_sum-69
+              local_15min-remapped*Lag_sum-70
+              local_15min-remapped*Lag_sum-71
+              local_15min-remapped*Lag_sum-72
+              local_15min-remapped*Lag_sum-73
+              local_15min-remapped*Lag_sum-74
+              local_15min-remapped*Lag_sum-75
+              local_15min-remapped*Lag_sum-76
+              local_15min-remapped*Lag_sum-77
               local_15min-remapped*Lag_sum-78
               local_15min-remapped*Lag_sum-79
               local_15min-remapped*Lag_sum-80
@@ -280,7 +1360,10 @@ Transformed training data:
               local_15min-remapped*Lag_sum-83
               local_15min-remapped*Lag_sum-84
               local_15min-remapped*Lag_sum-85
+              local_15min-remapped*Lag_sum-86
+              local_15min-remapped*Lag_sum-87
               local_15min-remapped*Lag_sum-88
+              local_15min-remapped*Lag_sum-89
               local_15min-remapped*Lag_sum-90
               local_15min-remapped*Lag_sum-91
               local_15min-remapped*Lag_sum-92
@@ -292,125 +1375,1452 @@ Transformed training data:
               local_15min-remapped*Lag_sum-98
               local_15min-remapped*Lag_sum-99
               local_15min-remapped*Lag_sum-100
+              local_15min-remapped*Lag_sum-101
+              local_15min-remapped*Lag_sum-102
+              local_15min-remapped*Lag_sum-103
+              local_15min-remapped*Lag_sum-104
+              local_15min-remapped*Lag_sum-105
+              local_15min-remapped*Lag_sum-106
+              local_15min-remapped*Lag_sum-107
+              local_15min-remapped*Lag_sum-108
+              local_15min-remapped*Lag_sum-109
+              local_15min-remapped*Lag_sum-110
+              local_15min-remapped*Lag_sum-111
+              local_15min-remapped*Lag_sum-112
+              local_15min-remapped*Lag_sum-113
+              local_15min-remapped*Lag_sum-114
+              local_15min-remapped*Lag_sum-115
+              local_15min-remapped*Lag_sum-116
+              local_15min-remapped*Lag_sum-117
+              local_15min-remapped*Lag_sum-118
+              local_15min-remapped*Lag_sum-119
+              local_15min-remapped*Lag_sum-120
+              local_15min-remapped*Lag_sum-121
+              local_15min-remapped*Lag_sum-122
+              local_15min-remapped*Lag_sum-123
+              local_15min-remapped*Lag_sum-124
+              local_15min-remapped*Lag_sum-125
+              local_15min-remapped*Lag_sum-126
+              local_15min-remapped*Lag_sum-127
+              local_15min-remapped*Lag_sum-128
+              local_15min-remapped*Lag_sum-129
+              local_15min-remapped*Lag_sum-130
+              local_15min-remapped*Lag_sum-131
+              local_15min-remapped*Lag_sum-132
+              local_15min-remapped*Lag_sum-133
+              local_15min-remapped*Lag_sum-134
+              local_15min-remapped*Lag_sum-135
+              local_15min-remapped*Lag_sum-136
+              local_15min-remapped*Lag_sum-137
+              local_15min-remapped*Lag_sum-138
+              local_15min-remapped*Lag_sum-139
+              local_15min-remapped*Lag_sum-140
+              local_15min-remapped*Lag_sum-141
+              local_15min-remapped*Lag_sum-142
+              local_15min-remapped*Lag_sum-143
+              local_15min-remapped*Lag_sum-144
+              local_15min-remapped*Lag_sum-145
+              local_15min-remapped*Lag_sum-146
+              local_15min-remapped*Lag_sum-147
+              local_15min-remapped*Lag_sum-148
+              local_15min-remapped*Lag_sum-149
+              local_15min-remapped*Lag_sum-150
 
 sum:
-MPRegressor with ridge value 0.01 and 1 hidden units (useCGD=false)
+MPRegressor with ridge value 0.01 and 2 hidden units (useCGD=false)
 
-Output unit 0 weight for hidden unit 0: -7.83897595072349
+Output unit 0 weight for hidden unit 0: 4.070464974859571
 
 Hidden unit 0 weights:
 
-0.029883065466040304 local_15min-remapped
--0.5232820000896118 Lag_sum-1
-0.026241185664246543 Lag_sum-29
--0.03190996084140622 Lag_sum-30
-0.01543715746050016 Lag_sum-31
-5.458862424519972E-4 Lag_sum-32
-0.00350387861930443 Lag_sum-33
-0.011323159069455706 Lag_sum-34
-0.011538099720062171 Lag_sum-35
--0.014578196716159257 Lag_sum-36
--0.022969588584892293 Lag_sum-37
-0.008265719089489518 Lag_sum-38
-0.00723522490679227 Lag_sum-39
--0.011594697940715106 Lag_sum-40
-0.024306449677806537 Lag_sum-44
--0.03397382055577641 Lag_sum-45
-0.023307425939724274 Lag_sum-46
-8.667629428321625E-4 Lag_sum-47
--0.012351899473474396 Lag_sum-48
-0.011723510847871207 Lag_sum-49
--0.010039399903218053 Lag_sum-50
--0.019608753207394067 Lag_sum-78
-0.030817208369561856 Lag_sum-79
--0.02089546600684705 Lag_sum-80
-0.00465105950628517 Lag_sum-81
-0.010494758495000155 Lag_sum-82
--0.01885985970570442 Lag_sum-83
--0.005041399993673972 Lag_sum-84
-0.005985060322536688 Lag_sum-85
-0.0020495148599349237 Lag_sum-88
-0.003359959741385893 Lag_sum-90
--0.020244335077171792 Lag_sum-91
-0.026068328242158677 Lag_sum-92
--0.02158963909904699 Lag_sum-93
--0.016666210190927636 Lag_sum-94
--0.006839768588271027 Lag_sum-95
-0.032863992777066135 Lag_sum-96
--0.02215866661199721 Lag_sum-97
-0.007134523909862469 Lag_sum-98
--0.009624306508312813 Lag_sum-99
-0.03256637492277298 Lag_sum-100
--0.07807919674415799 local_15min-remapped^2
-0.0555749031162933 local_15min-remapped^3
-0.003419359042921672 local_15min-remapped*Lag_sum-1
--0.01703458323871733 local_15min-remapped*Lag_sum-29
-0.04129384040283594 local_15min-remapped*Lag_sum-30
--0.011430755689072602 local_15min-remapped*Lag_sum-31
-3.502345929816186E-4 local_15min-remapped*Lag_sum-32
--0.02876241858979476 local_15min-remapped*Lag_sum-33
--0.005553808785661633 local_15min-remapped*Lag_sum-34
--0.008399428187587469 local_15min-remapped*Lag_sum-35
--0.02697926808795083 local_15min-remapped*Lag_sum-36
-0.03177967926706948 local_15min-remapped*Lag_sum-37
-0.024881911140962644 local_15min-remapped*Lag_sum-38
--0.019101459296403236 local_15min-remapped*Lag_sum-39
-0.013231243118622397 local_15min-remapped*Lag_sum-40
--0.029427294730896413 local_15min-remapped*Lag_sum-44
-0.0446456392980966 local_15min-remapped*Lag_sum-45
--0.009106026911551298 local_15min-remapped*Lag_sum-46
--0.009056685427920364 local_15min-remapped*Lag_sum-47
-0.021885264480158262 local_15min-remapped*Lag_sum-48
-0.0013352523217089324 local_15min-remapped*Lag_sum-49
--0.008862529428191797 local_15min-remapped*Lag_sum-50
-0.012737770606437998 local_15min-remapped*Lag_sum-78
--0.05098572076562775 local_15min-remapped*Lag_sum-79
-0.0851299827597768 local_15min-remapped*Lag_sum-80
--0.08167573829477667 local_15min-remapped*Lag_sum-81
-0.003686489318348165 local_15min-remapped*Lag_sum-82
-0.03336228619838118 local_15min-remapped*Lag_sum-83
-0.002327551021243569 local_15min-remapped*Lag_sum-84
-0.00231903278515016 local_15min-remapped*Lag_sum-85
--0.016153155857857357 local_15min-remapped*Lag_sum-88
--0.021354279239740627 local_15min-remapped*Lag_sum-90
-0.0281599126536628 local_15min-remapped*Lag_sum-91
-6.38274901704897E-4 local_15min-remapped*Lag_sum-92
--0.02301747223972945 local_15min-remapped*Lag_sum-93
-0.020584287638694087 local_15min-remapped*Lag_sum-94
--0.017992155392650415 local_15min-remapped*Lag_sum-95
--0.04401865880106644 local_15min-remapped*Lag_sum-96
-0.043606702350311756 local_15min-remapped*Lag_sum-97
--0.003957931786331461 local_15min-remapped*Lag_sum-98
-0.026863308606778574 local_15min-remapped*Lag_sum-99
--0.011641552292265201 local_15min-remapped*Lag_sum-100
+-0.1261832307481795 local_15min-remapped
+0.4699986028705444 Lag_sum-1
+0.23070588979751833 Lag_sum-2
+-0.061330692351794155 Lag_sum-3
+-0.05261558534551662 Lag_sum-4
+-0.02990683463505403 Lag_sum-5
+0.2029308416440845 Lag_sum-6
+-0.03954036963138393 Lag_sum-7
+-0.09124556978312102 Lag_sum-8
+-0.061143979523759245 Lag_sum-9
+-0.04199606758382576 Lag_sum-10
+0.028789638980869114 Lag_sum-11
+-0.03414547044194841 Lag_sum-12
+-0.10177275173200252 Lag_sum-13
+-0.03448985279530514 Lag_sum-14
+-0.02594376775148785 Lag_sum-15
+0.04148563859355928 Lag_sum-16
+0.21259596597983124 Lag_sum-17
+0.08018080061000568 Lag_sum-18
+-0.05806906233062694 Lag_sum-19
+0.0648343961689893 Lag_sum-20
+0.04473449941636896 Lag_sum-21
+-0.07689162316666327 Lag_sum-22
+-0.12246396241045651 Lag_sum-23
+-0.019336270728740595 Lag_sum-24
+0.1249344034865072 Lag_sum-25
+-0.07187515707459037 Lag_sum-26
+0.10179955823586995 Lag_sum-27
+-0.15417782897359217 Lag_sum-28
+-0.15673253521762942 Lag_sum-29
+0.06480438662320147 Lag_sum-30
+-0.18781266166918467 Lag_sum-31
+0.016433707322322664 Lag_sum-32
+0.1720018007624566 Lag_sum-33
+-0.04584141279459116 Lag_sum-34
+0.06880913896093885 Lag_sum-35
+0.056090218050235126 Lag_sum-36
+0.11639621409905355 Lag_sum-37
+0.05642630360011696 Lag_sum-38
+0.05777367063540146 Lag_sum-39
+-0.01482835199338263 Lag_sum-40
+-0.1452123898985735 Lag_sum-41
+-0.12370861597509918 Lag_sum-42
+-0.12241848899915654 Lag_sum-43
+0.04974461578804652 Lag_sum-44
+0.03484953320358788 Lag_sum-45
+-0.01073578909879453 Lag_sum-46
+-0.26790576880647043 Lag_sum-47
+0.0872782922965726 Lag_sum-48
+0.04402936340084828 Lag_sum-49
+-0.01342760829116334 Lag_sum-50
+0.3364245330864269 Lag_sum-51
+0.003256832924844097 Lag_sum-52
+-0.04286952132228898 Lag_sum-53
+0.13460900453709537 Lag_sum-54
+0.03939150978176329 Lag_sum-55
+-0.08710286517416725 Lag_sum-56
+-0.08349465335545218 Lag_sum-57
+-0.07303513414993888 Lag_sum-58
+-0.048477894591475404 Lag_sum-59
+0.13239510827934692 Lag_sum-60
+-0.09720318912690795 Lag_sum-61
+-0.048784810754494035 Lag_sum-62
+0.10982611850894666 Lag_sum-63
+-0.06817924953575016 Lag_sum-64
+0.07146443906820538 Lag_sum-65
+-0.015437221027165837 Lag_sum-66
+0.05106596841717944 Lag_sum-67
+-0.021981765386721145 Lag_sum-68
+0.05802592905965328 Lag_sum-69
+-0.17183847244216785 Lag_sum-70
+0.0025918011291620902 Lag_sum-71
+-0.0036593695345760345 Lag_sum-72
+0.046795985235125084 Lag_sum-73
+-0.07386470397897094 Lag_sum-74
+-0.07120164535787875 Lag_sum-75
+-0.14689676951354083 Lag_sum-76
+0.14462665371791783 Lag_sum-77
+0.024874140714968462 Lag_sum-78
+-0.10396141281865144 Lag_sum-79
+-0.002984728736576273 Lag_sum-80
+0.15587353397947337 Lag_sum-81
+0.15795179282537314 Lag_sum-82
+-0.061312887560324325 Lag_sum-83
+0.017935326062529584 Lag_sum-84
+0.07745026393936873 Lag_sum-85
+-0.024002471992367175 Lag_sum-86
+-0.05089597111933247 Lag_sum-87
+-0.21351642879605698 Lag_sum-88
+-0.15479840188717717 Lag_sum-89
+-0.18759480645251234 Lag_sum-90
+0.06796004145623366 Lag_sum-91
+0.10210143092376721 Lag_sum-92
+0.015621641354314597 Lag_sum-93
+-0.07198338148519592 Lag_sum-94
+0.002010033650154152 Lag_sum-95
+-0.07901448605207419 Lag_sum-96
+-0.06514561594128972 Lag_sum-97
+-0.04942553060926986 Lag_sum-98
+0.18030014458103852 Lag_sum-99
+0.15595519283057102 Lag_sum-100
+-0.1303320786570939 Lag_sum-101
+-0.12408788537198666 Lag_sum-102
+0.0786454836728388 Lag_sum-103
+0.107948898875119 Lag_sum-104
+-0.046133941160785535 Lag_sum-105
+0.04945176509516189 Lag_sum-106
+0.11096816716515336 Lag_sum-107
+0.10005316104305693 Lag_sum-108
+-0.006040224824979754 Lag_sum-109
+-0.08899358744330783 Lag_sum-110
+-0.009178705274209524 Lag_sum-111
+0.0027632987269957674 Lag_sum-112
+0.06880680504822415 Lag_sum-113
+0.08489856697966446 Lag_sum-114
+-0.048470304580005695 Lag_sum-115
+-0.04952690371159166 Lag_sum-116
+0.05145150755006594 Lag_sum-117
+-0.30949037103407495 Lag_sum-118
+0.2520382439070604 Lag_sum-119
+0.10347290126039344 Lag_sum-120
+0.056656117557348944 Lag_sum-121
+-0.13165757820045398 Lag_sum-122
+0.059353874284819884 Lag_sum-123
+0.08097207570174951 Lag_sum-124
+-0.020490731924309724 Lag_sum-125
+0.045310448092871075 Lag_sum-126
+0.018908598649426234 Lag_sum-127
+0.0828738299714856 Lag_sum-128
+-0.19836810904289978 Lag_sum-129
+0.08843396011375028 Lag_sum-130
+-0.10284095879012835 Lag_sum-131
+-0.19029788344701026 Lag_sum-132
+-0.051911347888797255 Lag_sum-133
+0.09921373378990282 Lag_sum-134
+-7.389737546325071E-4 Lag_sum-135
+0.10422329301601412 Lag_sum-136
+0.1286447189765458 Lag_sum-137
+0.18125684009435641 Lag_sum-138
+-0.12468438717206362 Lag_sum-139
+-0.2482148958561407 Lag_sum-140
+-0.010431582079275449 Lag_sum-141
+0.08705232546339814 Lag_sum-142
+-0.03298900805319291 Lag_sum-143
+0.0301429056335822 Lag_sum-144
+-0.1286890622199328 Lag_sum-145
+-0.036059527888547875 Lag_sum-146
+0.06200494119211601 Lag_sum-147
+0.06080861616591776 Lag_sum-148
+0.12442707123690623 Lag_sum-149
+-0.050163637941019086 Lag_sum-150
+-0.14032945460054905 local_15min-remapped^2
+-0.0600564933935644 local_15min-remapped^3
+-0.38723569227630783 local_15min-remapped*Lag_sum-1
+-0.24492180646797096 local_15min-remapped*Lag_sum-2
+-0.1598855697571098 local_15min-remapped*Lag_sum-3
+5.456822522049827E-4 local_15min-remapped*Lag_sum-4
+-0.0012386336295619068 local_15min-remapped*Lag_sum-5
+0.29834529285852673 local_15min-remapped*Lag_sum-6
+0.19719353005869608 local_15min-remapped*Lag_sum-7
+0.19876074459141033 local_15min-remapped*Lag_sum-8
+0.1639346557653551 local_15min-remapped*Lag_sum-9
+0.10659434090937533 local_15min-remapped*Lag_sum-10
+0.17414594028609962 local_15min-remapped*Lag_sum-11
+-0.20330323758782243 local_15min-remapped*Lag_sum-12
+-0.07077935356432409 local_15min-remapped*Lag_sum-13
+0.1750025654021424 local_15min-remapped*Lag_sum-14
+-0.05230308087932453 local_15min-remapped*Lag_sum-15
+-0.010839991832168687 local_15min-remapped*Lag_sum-16
+0.09547462452534648 local_15min-remapped*Lag_sum-17
+-0.08831586022586153 local_15min-remapped*Lag_sum-18
+-0.06632919561130682 local_15min-remapped*Lag_sum-19
+0.04833111943178928 local_15min-remapped*Lag_sum-20
+0.12628969296174467 local_15min-remapped*Lag_sum-21
+-0.02951249940881585 local_15min-remapped*Lag_sum-22
+-0.09932612065526664 local_15min-remapped*Lag_sum-23
+-0.02893741829517673 local_15min-remapped*Lag_sum-24
+-0.019811291753459914 local_15min-remapped*Lag_sum-25
+-0.026532037836916204 local_15min-remapped*Lag_sum-26
+-0.025585448512288795 local_15min-remapped*Lag_sum-27
+-0.09702155119523627 local_15min-remapped*Lag_sum-28
+-0.03258698724676573 local_15min-remapped*Lag_sum-29
+-0.10488506399129209 local_15min-remapped*Lag_sum-30
+0.05463573413795298 local_15min-remapped*Lag_sum-31
+0.039684701560547674 local_15min-remapped*Lag_sum-32
+0.11536247397507773 local_15min-remapped*Lag_sum-33
+0.04063769041464987 local_15min-remapped*Lag_sum-34
+0.021218999447346346 local_15min-remapped*Lag_sum-35
+0.07906610022882905 local_15min-remapped*Lag_sum-36
+0.017536550314045194 local_15min-remapped*Lag_sum-37
+0.018833930169568917 local_15min-remapped*Lag_sum-38
+0.05389106249700399 local_15min-remapped*Lag_sum-39
+0.015708391972754365 local_15min-remapped*Lag_sum-40
+-0.1475379584792219 local_15min-remapped*Lag_sum-41
+-0.01908752164960298 local_15min-remapped*Lag_sum-42
+-0.11148611739434945 local_15min-remapped*Lag_sum-43
+0.04389861136338906 local_15min-remapped*Lag_sum-44
+0.1324480856107105 local_15min-remapped*Lag_sum-45
+0.005701808224852895 local_15min-remapped*Lag_sum-46
+0.09786880540245402 local_15min-remapped*Lag_sum-47
+0.082707977187308 local_15min-remapped*Lag_sum-48
+0.1844510487610116 local_15min-remapped*Lag_sum-49
+-0.0011076064095027905 local_15min-remapped*Lag_sum-50
+0.12879364096329202 local_15min-remapped*Lag_sum-51
+0.0012128820988249103 local_15min-remapped*Lag_sum-52
+-0.16085402702454765 local_15min-remapped*Lag_sum-53
+0.09883699426835217 local_15min-remapped*Lag_sum-54
+0.03803510859822041 local_15min-remapped*Lag_sum-55
+-0.24851271057384466 local_15min-remapped*Lag_sum-56
+-0.1306496281969527 local_15min-remapped*Lag_sum-57
+-0.14048940547709762 local_15min-remapped*Lag_sum-58
+-0.12064917379279051 local_15min-remapped*Lag_sum-59
+0.12108084818454498 local_15min-remapped*Lag_sum-60
+-0.12522275208359698 local_15min-remapped*Lag_sum-61
+0.07407600645799017 local_15min-remapped*Lag_sum-62
+-0.07633340478413603 local_15min-remapped*Lag_sum-63
+0.04877110172570282 local_15min-remapped*Lag_sum-64
+0.165610802196773 local_15min-remapped*Lag_sum-65
+0.048200594550981454 local_15min-remapped*Lag_sum-66
+-0.1384064261483299 local_15min-remapped*Lag_sum-67
+0.15383791616974682 local_15min-remapped*Lag_sum-68
+-0.04862478561559773 local_15min-remapped*Lag_sum-69
+0.003693172991460556 local_15min-remapped*Lag_sum-70
+0.044585296291793794 local_15min-remapped*Lag_sum-71
+-0.01680365771145387 local_15min-remapped*Lag_sum-72
+0.01922823045105699 local_15min-remapped*Lag_sum-73
+-0.0650106688416795 local_15min-remapped*Lag_sum-74
+-0.056598238443670984 local_15min-remapped*Lag_sum-75
+0.09946094626091882 local_15min-remapped*Lag_sum-76
+-0.029213628998815487 local_15min-remapped*Lag_sum-77
+-0.054742021496378836 local_15min-remapped*Lag_sum-78
+0.1016044298970489 local_15min-remapped*Lag_sum-79
+0.009377106845463437 local_15min-remapped*Lag_sum-80
+0.16319070406769737 local_15min-remapped*Lag_sum-81
+0.1756574048814569 local_15min-remapped*Lag_sum-82
+2.7714857019067447E-4 local_15min-remapped*Lag_sum-83
+-0.06366950363319096 local_15min-remapped*Lag_sum-84
+-0.005333433933577928 local_15min-remapped*Lag_sum-85
+-0.05417391738835308 local_15min-remapped*Lag_sum-86
+-0.05535420182158284 local_15min-remapped*Lag_sum-87
+-0.04576021552561804 local_15min-remapped*Lag_sum-88
+-0.11849534733632543 local_15min-remapped*Lag_sum-89
+0.15552609240397794 local_15min-remapped*Lag_sum-90
+0.19637288961022736 local_15min-remapped*Lag_sum-91
+0.10713437396937585 local_15min-remapped*Lag_sum-92
+0.12375468290860131 local_15min-remapped*Lag_sum-93
+0.13206455243926246 local_15min-remapped*Lag_sum-94
+0.12029758164204693 local_15min-remapped*Lag_sum-95
+0.043819535885633705 local_15min-remapped*Lag_sum-96
+-0.022409990468927367 local_15min-remapped*Lag_sum-97
+-0.15268321292294937 local_15min-remapped*Lag_sum-98
+-0.05252201138824053 local_15min-remapped*Lag_sum-99
+-0.03498209063986298 local_15min-remapped*Lag_sum-100
+-0.17766756780954085 local_15min-remapped*Lag_sum-101
+-0.20341757279122 local_15min-remapped*Lag_sum-102
+-0.06931662940813023 local_15min-remapped*Lag_sum-103
+0.007840304346179432 local_15min-remapped*Lag_sum-104
+-0.09473941085478294 local_15min-remapped*Lag_sum-105
+-0.0899745911445877 local_15min-remapped*Lag_sum-106
+0.09247869757469307 local_15min-remapped*Lag_sum-107
+0.017471062606250417 local_15min-remapped*Lag_sum-108
+-0.08940113272631812 local_15min-remapped*Lag_sum-109
+-0.05494318206308664 local_15min-remapped*Lag_sum-110
+0.06712043432030283 local_15min-remapped*Lag_sum-111
+0.03777091059838553 local_15min-remapped*Lag_sum-112
+-0.0777580867626282 local_15min-remapped*Lag_sum-113
+0.21968964184312767 local_15min-remapped*Lag_sum-114
+-0.08351534380254184 local_15min-remapped*Lag_sum-115
+0.0033122866705775937 local_15min-remapped*Lag_sum-116
+-0.11315778673209817 local_15min-remapped*Lag_sum-117
+-0.12250628697598626 local_15min-remapped*Lag_sum-118
+-0.004238130891024767 local_15min-remapped*Lag_sum-119
+-0.024092633156539638 local_15min-remapped*Lag_sum-120
+0.1091148006470679 local_15min-remapped*Lag_sum-121
+-0.09473409722790024 local_15min-remapped*Lag_sum-122
+-0.1270526323776808 local_15min-remapped*Lag_sum-123
+0.10569675423520786 local_15min-remapped*Lag_sum-124
+-0.14666703663960773 local_15min-remapped*Lag_sum-125
+0.04326662451685072 local_15min-remapped*Lag_sum-126
+0.05487641706193905 local_15min-remapped*Lag_sum-127
+0.2033204065494161 local_15min-remapped*Lag_sum-128
+-0.10667080454886362 local_15min-remapped*Lag_sum-129
+0.03993949204904066 local_15min-remapped*Lag_sum-130
+-0.02345368840849172 local_15min-remapped*Lag_sum-131
+0.13440473059655444 local_15min-remapped*Lag_sum-132
+0.0037835362494512137 local_15min-remapped*Lag_sum-133
+-0.004246642791213264 local_15min-remapped*Lag_sum-134
+-0.05990427756641687 local_15min-remapped*Lag_sum-135
+0.03186299268907068 local_15min-remapped*Lag_sum-136
+0.05435145973512968 local_15min-remapped*Lag_sum-137
+0.12222408168054573 local_15min-remapped*Lag_sum-138
+0.14430497049992513 local_15min-remapped*Lag_sum-139
+0.025100773472685953 local_15min-remapped*Lag_sum-140
+-0.06108620278978823 local_15min-remapped*Lag_sum-141
+-0.10112437531263287 local_15min-remapped*Lag_sum-142
+-0.0827755965042452 local_15min-remapped*Lag_sum-143
+-0.02980767688571744 local_15min-remapped*Lag_sum-144
+-0.06846014110573087 local_15min-remapped*Lag_sum-145
+0.10244194746789705 local_15min-remapped*Lag_sum-146
+0.0016799698917112482 local_15min-remapped*Lag_sum-147
+-0.10242795268143443 local_15min-remapped*Lag_sum-148
+0.027392912809201198 local_15min-remapped*Lag_sum-149
+-0.060217442007914505 local_15min-remapped*Lag_sum-150
 
-Hidden unit 0 bias: 0.19389995216361663
+Hidden unit 0 bias: -0.13895460199708248
 
-Output unit 0 bias: 4.282570147562033
+Output unit 0 weight for hidden unit 1: -3.9473950796547617
+
+Hidden unit 1 weights:
+
+-0.08868561737697452 local_15min-remapped
+-0.3653553154291144 Lag_sum-1
+-0.024027463988972746 Lag_sum-2
+-0.11835455299699889 Lag_sum-3
+-0.017016669361905896 Lag_sum-4
+-0.09648263100120637 Lag_sum-5
+0.30703569152192 Lag_sum-6
+-0.022651062553625104 Lag_sum-7
+-0.10482766613173587 Lag_sum-8
+-0.03632427859221529 Lag_sum-9
+-0.05135875451883713 Lag_sum-10
+0.03400661558125283 Lag_sum-11
+-0.1115383958739143 Lag_sum-12
+-0.07802622915265656 Lag_sum-13
+0.04902745790388578 Lag_sum-14
+-0.03503503266367608 Lag_sum-15
+0.027745687485950507 Lag_sum-16
+0.21507289662884732 Lag_sum-17
+0.08438589937250997 Lag_sum-18
+-0.061997052103727114 Lag_sum-19
+0.01145454919030566 Lag_sum-20
+0.07727638060690777 Lag_sum-21
+-0.09511986810299627 Lag_sum-22
+-0.09851835537852614 Lag_sum-23
+0.015823224468655472 Lag_sum-24
+0.11495500837745606 Lag_sum-25
+-0.0512041324135949 Lag_sum-26
+0.0792938781529586 Lag_sum-27
+-0.1781345293434534 Lag_sum-28
+-0.1404280485897035 Lag_sum-29
+0.025460896383855753 Lag_sum-30
+-0.18779540460514516 Lag_sum-31
+0.016452809043819787 Lag_sum-32
+0.22201472001068775 Lag_sum-33
+-0.048241316164610575 Lag_sum-34
+0.09988562852876912 Lag_sum-35
+0.03894179454794806 Lag_sum-36
+0.09295301574737841 Lag_sum-37
+0.03652155041946114 Lag_sum-38
+0.1009421912483965 Lag_sum-39
+-0.011738396705327338 Lag_sum-40
+-0.16916917350206553 Lag_sum-41
+-0.14685872688617307 Lag_sum-42
+-0.20533653250003087 Lag_sum-43
+0.12004317272956828 Lag_sum-44
+0.02045556783856105 Lag_sum-45
+0.007491369310504371 Lag_sum-46
+-0.26445621249645546 Lag_sum-47
+0.0877140181107388 Lag_sum-48
+0.059128069035510766 Lag_sum-49
+-0.015801219778566307 Lag_sum-50
+0.3893278729190043 Lag_sum-51
+-0.03354105803517109 Lag_sum-52
+-0.08982032785678234 Lag_sum-53
+0.12996158320263998 Lag_sum-54
+0.09814337779390134 Lag_sum-55
+-0.09177323648405517 Lag_sum-56
+-0.12434621919586725 Lag_sum-57
+-0.06990240948140557 Lag_sum-58
+0.03840369744240527 Lag_sum-59
+0.1285890593919374 Lag_sum-60
+-0.1464357719520239 Lag_sum-61
+-0.0054796879337660484 Lag_sum-62
+0.0655955118903987 Lag_sum-63
+-0.06013117096271816 Lag_sum-64
+0.05206300713037737 Lag_sum-65
+0.042017159983366886 Lag_sum-66
+-0.03973372520211949 Lag_sum-67
+0.05238423886394214 Lag_sum-68
+-0.002397759798637245 Lag_sum-69
+-0.171669912024313 Lag_sum-70
+0.05176445962179337 Lag_sum-71
+-0.05600136303274298 Lag_sum-72
+0.005989362774591525 Lag_sum-73
+-0.006345687015828799 Lag_sum-74
+-0.12317678564990045 Lag_sum-75
+-0.13197909933024815 Lag_sum-76
+0.15845177801118698 Lag_sum-77
+0.008729692368943016 Lag_sum-78
+-0.06504276052563876 Lag_sum-79
+-0.007158246073114111 Lag_sum-80
+0.17615642909424725 Lag_sum-81
+0.1807233202851013 Lag_sum-82
+-0.08702769188853826 Lag_sum-83
+-0.03019281105882371 Lag_sum-84
+0.11743924644852537 Lag_sum-85
+-0.005512164142266506 Lag_sum-86
+-0.03382790905057406 Lag_sum-87
+-0.26663072368780394 Lag_sum-88
+-0.15099983402136388 Lag_sum-89
+-0.21536651387991881 Lag_sum-90
+0.010933399680019043 Lag_sum-91
+0.17663180950272622 Lag_sum-92
+-0.03516258657495743 Lag_sum-93
+-0.13046951090862446 Lag_sum-94
+-0.05000240805597146 Lag_sum-95
+-0.014868603472832292 Lag_sum-96
+-0.06952105285725886 Lag_sum-97
+-0.0340657190364176 Lag_sum-98
+0.19673160745638316 Lag_sum-99
+0.2401074137521222 Lag_sum-100
+-0.10219779571134155 Lag_sum-101
+-0.14343742683522165 Lag_sum-102
+0.08508243071997637 Lag_sum-103
+0.06845344929014627 Lag_sum-104
+-0.021776733930283072 Lag_sum-105
+0.0598251633802878 Lag_sum-106
+0.14450570812126626 Lag_sum-107
+0.07710097197349 Lag_sum-108
+-0.07433727939509698 Lag_sum-109
+-0.03256452709534798 Lag_sum-110
+-0.0488746706778296 Lag_sum-111
+-0.04921737624065081 Lag_sum-112
+0.09954280620774511 Lag_sum-113
+0.15894522128068056 Lag_sum-114
+-0.06228144431214589 Lag_sum-115
+-0.09296925740402646 Lag_sum-116
+-0.0030877780842566874 Lag_sum-117
+-0.23839257621971216 Lag_sum-118
+0.2518737653150078 Lag_sum-119
+0.06501037542126399 Lag_sum-120
+0.13540175389236173 Lag_sum-121
+-0.15832874210774023 Lag_sum-122
+0.09736935605432835 Lag_sum-123
+0.08108449745091624 Lag_sum-124
+-0.048128411080691685 Lag_sum-125
+0.07385697299493743 Lag_sum-126
+0.033729321579954674 Lag_sum-127
+0.040596267451479894 Lag_sum-128
+-0.2073361446973142 Lag_sum-129
+0.07750922180636238 Lag_sum-130
+-0.12593862835540062 Lag_sum-131
+-0.1487238484719531 Lag_sum-132
+-0.07151029485505231 Lag_sum-133
+0.18742192077238434 Lag_sum-134
+-0.0990916186833752 Lag_sum-135
+0.147409520347282 Lag_sum-136
+0.10480792219217236 Lag_sum-137
+0.1963670775720236 Lag_sum-138
+-0.09190443887152663 Lag_sum-139
+-0.2236429568591857 Lag_sum-140
+-0.050111300946241034 Lag_sum-141
+0.0843812375183163 Lag_sum-142
+-0.04361685258718575 Lag_sum-143
+-0.008777415484534588 Lag_sum-144
+-0.1598437920998198 Lag_sum-145
+0.008809072119118353 Lag_sum-146
+0.11261548455180717 Lag_sum-147
+0.052245460607928625 Lag_sum-148
+0.1052237340375063 Lag_sum-149
+-0.07313137580847627 Lag_sum-150
+-0.18445706409836424 local_15min-remapped^2
+-0.044794651388249854 local_15min-remapped^3
+-0.3369394393138151 local_15min-remapped*Lag_sum-1
+-0.19130464275043063 local_15min-remapped*Lag_sum-2
+-0.2578147582006511 local_15min-remapped*Lag_sum-3
+-0.0817060883572608 local_15min-remapped*Lag_sum-4
+0.09663298076071898 local_15min-remapped*Lag_sum-5
+0.20905780049947728 local_15min-remapped*Lag_sum-6
+0.16184770158765577 local_15min-remapped*Lag_sum-7
+0.2620204005154692 local_15min-remapped*Lag_sum-8
+0.20435731762348744 local_15min-remapped*Lag_sum-9
+0.025990794633388294 local_15min-remapped*Lag_sum-10
+0.21935676268109572 local_15min-remapped*Lag_sum-11
+-0.034533519892516996 local_15min-remapped*Lag_sum-12
+-0.1378425492204958 local_15min-remapped*Lag_sum-13
+0.10296348962341384 local_15min-remapped*Lag_sum-14
+-0.09983987825738419 local_15min-remapped*Lag_sum-15
+0.05331349575965552 local_15min-remapped*Lag_sum-16
+0.08263756435665655 local_15min-remapped*Lag_sum-17
+-0.022717257288142858 local_15min-remapped*Lag_sum-18
+-0.1858261864374072 local_15min-remapped*Lag_sum-19
+0.12958078333883324 local_15min-remapped*Lag_sum-20
+0.16918787227872858 local_15min-remapped*Lag_sum-21
+-0.06428337277651311 local_15min-remapped*Lag_sum-22
+-0.09635355743184533 local_15min-remapped*Lag_sum-23
+-0.05622371407674422 local_15min-remapped*Lag_sum-24
+-0.013245921765183874 local_15min-remapped*Lag_sum-25
+-0.058693033691850305 local_15min-remapped*Lag_sum-26
+0.04145281291714882 local_15min-remapped*Lag_sum-27
+-0.08011043080210817 local_15min-remapped*Lag_sum-28
+-0.10701031123257193 local_15min-remapped*Lag_sum-29
+-0.04581472777325922 local_15min-remapped*Lag_sum-30
+0.02349350021050376 local_15min-remapped*Lag_sum-31
+0.02908999147498798 local_15min-remapped*Lag_sum-32
+0.09335942650683976 local_15min-remapped*Lag_sum-33
+0.00410202489624851 local_15min-remapped*Lag_sum-34
+0.019044427797294566 local_15min-remapped*Lag_sum-35
+0.08845212103992041 local_15min-remapped*Lag_sum-36
+0.0713055192644299 local_15min-remapped*Lag_sum-37
+0.025406330931706064 local_15min-remapped*Lag_sum-38
+0.0538289892402715 local_15min-remapped*Lag_sum-39
+0.010378638231586688 local_15min-remapped*Lag_sum-40
+-0.14542135816097648 local_15min-remapped*Lag_sum-41
+-0.04054424343566028 local_15min-remapped*Lag_sum-42
+-0.07061512109249286 local_15min-remapped*Lag_sum-43
+-0.019118652662995915 local_15min-remapped*Lag_sum-44
+0.22818045091705944 local_15min-remapped*Lag_sum-45
+-0.019158610093898593 local_15min-remapped*Lag_sum-46
+0.08948360310836595 local_15min-remapped*Lag_sum-47
+0.11619846826604244 local_15min-remapped*Lag_sum-48
+0.20185748562866038 local_15min-remapped*Lag_sum-49
+-0.0608879515096548 local_15min-remapped*Lag_sum-50
+0.21518004262657497 local_15min-remapped*Lag_sum-51
+-0.05001873341919693 local_15min-remapped*Lag_sum-52
+-0.17507334360852614 local_15min-remapped*Lag_sum-53
+0.11418680137222045 local_15min-remapped*Lag_sum-54
+0.013757881469366354 local_15min-remapped*Lag_sum-55
+-0.2796194838259257 local_15min-remapped*Lag_sum-56
+-0.12442025560476552 local_15min-remapped*Lag_sum-57
+-0.0562777604775565 local_15min-remapped*Lag_sum-58
+-0.20578059071574312 local_15min-remapped*Lag_sum-59
+0.14708345831331082 local_15min-remapped*Lag_sum-60
+-0.11136413988075501 local_15min-remapped*Lag_sum-61
+-0.049946770096117594 local_15min-remapped*Lag_sum-62
+0.021899090198817906 local_15min-remapped*Lag_sum-63
+0.07974004854239476 local_15min-remapped*Lag_sum-64
+0.15601244650798593 local_15min-remapped*Lag_sum-65
+-0.022484148256831895 local_15min-remapped*Lag_sum-66
+-0.02061495610870555 local_15min-remapped*Lag_sum-67
+0.07839634178016609 local_15min-remapped*Lag_sum-68
+0.03954037378407604 local_15min-remapped*Lag_sum-69
+-0.022790352827616406 local_15min-remapped*Lag_sum-70
+-0.028005680600652148 local_15min-remapped*Lag_sum-71
+0.05177815394451345 local_15min-remapped*Lag_sum-72
+0.017961801812392403 local_15min-remapped*Lag_sum-73
+-0.10383535821202936 local_15min-remapped*Lag_sum-74
+-0.0441912137667369 local_15min-remapped*Lag_sum-75
+0.03491098561064656 local_15min-remapped*Lag_sum-76
+0.0012072521348015384 local_15min-remapped*Lag_sum-77
+-0.040235541902843036 local_15min-remapped*Lag_sum-78
+0.06494301347531665 local_15min-remapped*Lag_sum-79
+0.11078794206843999 local_15min-remapped*Lag_sum-80
+0.02459742606236781 local_15min-remapped*Lag_sum-81
+0.20302627725100164 local_15min-remapped*Lag_sum-82
+0.03717337801074764 local_15min-remapped*Lag_sum-83
+-0.045392263572078276 local_15min-remapped*Lag_sum-84
+-0.0278392328220216 local_15min-remapped*Lag_sum-85
+-0.01315377439173759 local_15min-remapped*Lag_sum-86
+-0.146991551178951 local_15min-remapped*Lag_sum-87
+-0.010308787365350553 local_15min-remapped*Lag_sum-88
+-0.1500370646020795 local_15min-remapped*Lag_sum-89
+0.192412444444391 local_15min-remapped*Lag_sum-90
+0.2996648920252411 local_15min-remapped*Lag_sum-91
+0.048890834330930985 local_15min-remapped*Lag_sum-92
+0.13096765451255896 local_15min-remapped*Lag_sum-93
+0.20291425335939905 local_15min-remapped*Lag_sum-94
+0.18064361773991083 local_15min-remapped*Lag_sum-95
+-0.105752523708242 local_15min-remapped*Lag_sum-96
+-0.01968804667820079 local_15min-remapped*Lag_sum-97
+-0.1492643274498104 local_15min-remapped*Lag_sum-98
+-0.03343451227865216 local_15min-remapped*Lag_sum-99
+-0.0381853290952712 local_15min-remapped*Lag_sum-100
+-0.2566022395270826 local_15min-remapped*Lag_sum-101
+-0.22474127944734215 local_15min-remapped*Lag_sum-102
+-0.01566840108964477 local_15min-remapped*Lag_sum-103
+0.06236931874348444 local_15min-remapped*Lag_sum-104
+-0.10599105407204758 local_15min-remapped*Lag_sum-105
+-0.08746250174721884 local_15min-remapped*Lag_sum-106
+-0.015563433457366002 local_15min-remapped*Lag_sum-107
+0.04945369917635689 local_15min-remapped*Lag_sum-108
+-0.04698390245142107 local_15min-remapped*Lag_sum-109
+-0.11843627383255871 local_15min-remapped*Lag_sum-110
+0.11183517817091795 local_15min-remapped*Lag_sum-111
+0.06150987198794633 local_15min-remapped*Lag_sum-112
+-0.07003916791372011 local_15min-remapped*Lag_sum-113
+0.16166112392677792 local_15min-remapped*Lag_sum-114
+-0.03936171041997589 local_15min-remapped*Lag_sum-115
+0.018798629449382393 local_15min-remapped*Lag_sum-116
+-0.11123950774514824 local_15min-remapped*Lag_sum-117
+-0.22056885292042563 local_15min-remapped*Lag_sum-118
+0.09463031238490516 local_15min-remapped*Lag_sum-119
+0.025977626761576535 local_15min-remapped*Lag_sum-120
+0.029486052395209593 local_15min-remapped*Lag_sum-121
+-0.13680015092524866 local_15min-remapped*Lag_sum-122
+-0.10898244605715417 local_15min-remapped*Lag_sum-123
+0.0842679226739832 local_15min-remapped*Lag_sum-124
+-0.11515828252978193 local_15min-remapped*Lag_sum-125
+-0.03159680134406334 local_15min-remapped*Lag_sum-126
+0.05806868382604122 local_15min-remapped*Lag_sum-127
+0.2934630632510078 local_15min-remapped*Lag_sum-128
+-0.1357007219407795 local_15min-remapped*Lag_sum-129
+0.04268842811943947 local_15min-remapped*Lag_sum-130
+-0.010533135615110696 local_15min-remapped*Lag_sum-131
+0.07886909741178091 local_15min-remapped*Lag_sum-132
+0.055819676549380956 local_15min-remapped*Lag_sum-133
+-0.003914308268884116 local_15min-remapped*Lag_sum-134
+-0.02058493442786334 local_15min-remapped*Lag_sum-135
+0.03048560190406962 local_15min-remapped*Lag_sum-136
+0.06849122999784009 local_15min-remapped*Lag_sum-137
+0.10359465407966914 local_15min-remapped*Lag_sum-138
+0.10278233408994061 local_15min-remapped*Lag_sum-139
+-0.08523730634271462 local_15min-remapped*Lag_sum-140
+0.02006580639389995 local_15min-remapped*Lag_sum-141
+-0.11070757757300137 local_15min-remapped*Lag_sum-142
+-0.07082977278347877 local_15min-remapped*Lag_sum-143
+0.006244146924266803 local_15min-remapped*Lag_sum-144
+-0.06381459438963033 local_15min-remapped*Lag_sum-145
+0.08995620206839551 local_15min-remapped*Lag_sum-146
+-0.04999907258458046 local_15min-remapped*Lag_sum-147
+-0.06556587752058796 local_15min-remapped*Lag_sum-148
+0.06995135178799729 local_15min-remapped*Lag_sum-149
+-0.09312904711935505 local_15min-remapped*Lag_sum-150
+
+Hidden unit 1 bias: 0.19101702564130366
+
+Output unit 0 bias: 0.24475296148891054
 
 
-Step: 0 Prediction:490.256 Actual: 476.0 MAE: 14.256 RMSE:14.256 MAPE:2.995
-Step: 1 Prediction:465.728 Actual: 469.0 MAE: 8.764 RMSE:1.636 MAPE:1.846
-Step: 2 Prediction:438.664 Actual: 444.0 MAE: 7.621 RMSE:1.779 MAPE:1.631
-Step: 3 Prediction:412.91 Actual: 443.0 MAE: 13.238 RMSE:7.522 MAPE:2.922
-Step: 4 Prediction:395.712 Actual: 432.0 MAE: 17.848 RMSE:7.258 MAPE:4.017
-Step: 5 Prediction:382.929 Actual: 436.0 MAE: 23.719 RMSE:8.845 MAPE:5.376
-Step: 6 Prediction:369.016 Actual: 424.0 MAE: 28.185 RMSE:7.855 MAPE:6.461
-Step: 7 Prediction:359.519 Actual: 421.0 MAE: 32.347 RMSE:7.685 MAPE:7.479
-Step: 8 Prediction:364.609 Actual: 394.0 MAE: 32.019 RMSE:3.266 MAPE:7.477
-Step: 9 Prediction:361.922 Actual: 395.0 MAE: 32.125 RMSE:3.308 MAPE:7.566
-Step: 10 Prediction:355.305 Actual: 393.0 MAE: 32.631 RMSE:3.427 MAPE:7.75
-Step: 11 Prediction:351.937 Actual: 361.0 MAE: 30.667 RMSE:0.755 MAPE:7.314
-Step: 12 Prediction:351.279 Actual: 350.0 MAE: 28.406 RMSE:0.098 MAPE:6.779
-Step: 13 Prediction:346.63 Actual: 360.0 MAE: 27.332 RMSE:0.955 MAPE:6.56
-Step: 14 Prediction:334.951 Actual: 357.0 MAE: 26.98 RMSE:1.47 MAPE:6.535
-Step: 15 Prediction:333.227 Actual: 363.0 MAE: 27.155 RMSE:1.861 MAPE:6.639
-Step: 16 Prediction:326.297 Actual: 388.0 MAE: 29.187 RMSE:3.63 MAPE:7.184
-Step: 17 Prediction:321.004 Actual: 349.0 MAE: 29.121 RMSE:1.555 MAPE:7.23
-Step: 18 Prediction:323.14 Actual: 335.0 MAE: 28.212 RMSE:0.624 MAPE:7.036
-Step: 19 Prediction:322.479 Actual: 331.0 MAE: 27.228 RMSE:0.426 MAPE:6.813
-Step: 20 Prediction:320.606 Actual: 339.0 MAE: 26.807 RMSE:0.876 MAPE:6.747
-Step: 21 Prediction:316.935 Actual: 368.0 MAE: 27.91 RMSE:2.321 MAPE:7.071
-Step: 22 Prediction:319.439 Actual: 384.0 MAE: 29.503 RMSE:2.807 MAPE:7.495
-Step: 23 Prediction:322.857 Actual: 367.0 MAE: 30.113 RMSE:1.839 MAPE:7.684
-Time taken: 1693
+Step: 0 Prediction:283.866 Actual: 286.0 MAE: 2.134 RMSE:2.134 MAPE:0.746
+Step: 1 Prediction:294.251 Actual: 286.0 MAE: 5.192 RMSE:4.125 MAPE:1.816
+Step: 2 Prediction:369.302 Actual: 301.0 MAE: 26.229 RMSE:22.767 MAPE:8.774
+Step: 3 Prediction:372.042 Actual: 317.0 MAE: 33.432 RMSE:13.761 MAPE:10.922
+Step: 4 Prediction:429.671 Actual: 349.0 MAE: 42.88 RMSE:16.134 MAPE:13.36
+Step: 5 Prediction:519.458 Actual: 354.0 MAE: 63.31 RMSE:27.576 MAPE:18.923
+Step: 6 Prediction:565.311 Actual: 355.0 MAE: 84.31 RMSE:30.044 MAPE:24.683
+Step: 7 Prediction:617.691 Actual: 360.0 MAE: 105.983 RMSE:32.211 MAPE:30.546
+Step: 8 Prediction:685.419 Actual: 409.0 MAE: 124.92 RMSE:30.713 MAPE:34.661
+Step: 9 Prediction:708.946 Actual: 425.0 MAE: 140.823 RMSE:28.395 MAPE:37.876
+Step: 10 Prediction:766.567 Actual: 429.0 MAE: 158.708 RMSE:30.688 MAPE:41.586
+Step: 11 Prediction:795.653 Actual: 418.0 MAE: 176.954 RMSE:31.471 MAPE:45.649
+Step: 12 Prediction:823.268 Actual: 439.0 MAE: 192.901 RMSE:29.559 MAPE:48.871
+Step: 13 Prediction:848.173 Actual: 461.0 MAE: 206.778 RMSE:27.655 MAPE:51.379
+Step: 14 Prediction:875.126 Actual: 476.0 MAE: 219.601 RMSE:26.608 MAPE:53.544
+Step: 15 Prediction:899.879 Actual: 492.0 MAE: 231.368 RMSE:25.492 MAPE:55.379
+Step: 16 Prediction:917.959 Actual: 514.0 MAE: 241.521 RMSE:23.762 MAPE:56.744
+Step: 17 Prediction:936.812 Actual: 507.0 MAE: 251.981 RMSE:23.878 MAPE:58.302
+Step: 18 Prediction:929.172 Actual: 544.0 MAE: 258.991 RMSE:20.272 MAPE:58.96
+Step: 19 Prediction:946.999 Actual: 570.0 MAE: 264.892 RMSE:18.85 MAPE:59.319
+Step: 20 Prediction:946.666 Actual: 633.0 MAE: 267.214 RMSE:14.936 MAPE:58.854
+Step: 21 Prediction:974.623 Actual: 614.0 MAE: 271.46 RMSE:16.392 MAPE:58.848
+Step: 22 Prediction:1005.891 Actual: 629.0 MAE: 276.044 RMSE:16.387 MAPE:58.895
+Step: 23 Prediction:1002.209 Actual: 648.0 MAE: 279.301 RMSE:14.759 MAPE:58.718
+Step: 24 Prediction:927.862 Actual: 967.0 MAE: 269.694 RMSE:1.566 MAPE:56.532
+Step: 25 Prediction:908.487 Actual: 1023.0 MAE: 263.726 RMSE:4.404 MAPE:54.788
+Step: 26 Prediction:896.048 Actual: 1016.0 MAE: 258.401 RMSE:4.443 MAPE:53.196
+Step: 27 Prediction:881.601 Actual: 978.0 MAE: 252.615 RMSE:3.443 MAPE:51.648
+Step: 28 Prediction:854.223 Actual: 976.0 MAE: 248.103 RMSE:4.199 MAPE:50.297
+Step: 29 Prediction:836.853 Actual: 966.0 MAE: 244.138 RMSE:4.305 MAPE:49.066
+Step: 30 Prediction:824.79 Actual: 966.0 MAE: 240.818 RMSE:4.555 MAPE:47.955
+Step: 31 Prediction:813.739 Actual: 971.0 MAE: 238.207 RMSE:4.914 MAPE:46.963
+Step: 32 Prediction:785.252 Actual: 929.0 MAE: 235.344 RMSE:4.356 MAPE:46.008
+Step: 33 Prediction:748.036 Actual: 932.0 MAE: 233.833 RMSE:5.411 MAPE:45.236
+Step: 34 Prediction:725.434 Actual: 927.0 MAE: 232.911 RMSE:5.759 MAPE:44.565
+Step: 35 Prediction:704.013 Actual: 914.0 MAE: 232.275 RMSE:5.833 MAPE:43.965
+Step: 36 Prediction:685.332 Actual: 923.0 MAE: 232.42 RMSE:6.423 MAPE:43.473
+Step: 37 Prediction:659.741 Actual: 870.0 MAE: 231.837 RMSE:5.533 MAPE:42.965
+Step: 38 Prediction:639.906 Actual: 827.0 MAE: 230.69 RMSE:4.797 MAPE:42.443
+Step: 39 Prediction:606.341 Actual: 793.0 MAE: 229.589 RMSE:4.666 MAPE:41.97
+Step: 40 Prediction:584.915 Actual: 807.0 MAE: 229.406 RMSE:5.417 MAPE:41.618
+Step: 41 Prediction:570.951 Actual: 725.0 MAE: 227.612 RMSE:3.668 MAPE:41.133
+Step: 42 Prediction:542.636 Actual: 711.0 MAE: 226.234 RMSE:3.915 MAPE:40.727
+Step: 43 Prediction:480.56 Actual: 703.0 MAE: 226.148 RMSE:5.055 MAPE:40.521
+Step: 44 Prediction:425.143 Actual: 654.0 MAE: 226.208 RMSE:5.086 MAPE:40.398
+Step: 45 Prediction:387.673 Actual: 643.0 MAE: 226.841 RMSE:5.551 MAPE:40.383
+Step: 46 Prediction:358.072 Actual: 599.0 MAE: 227.141 RMSE:5.126 MAPE:40.379
+Step: 47 Prediction:342.788 Actual: 549.0 MAE: 226.705 RMSE:4.296 MAPE:40.321
+Step: 48 Prediction:386.183 Actual: 415.0 MAE: 222.666 RMSE:0.588 MAPE:39.639
+Step: 49 Prediction:389.635 Actual: 399.0 MAE: 218.4 RMSE:0.187 MAPE:38.894
+Step: 50 Prediction:388.773 Actual: 369.0 MAE: 214.505 RMSE:0.388 MAPE:38.236
+Step: 51 Prediction:390.715 Actual: 401.0 MAE: 210.578 RMSE:0.198 MAPE:37.55
+Step: 52 Prediction:389.794 Actual: 380.0 MAE: 206.79 RMSE:0.185 MAPE:36.89
+Step: 53 Prediction:372.313 Actual: 387.0 MAE: 203.232 RMSE:0.272 MAPE:36.277
+Step: 54 Prediction:377.604 Actual: 417.0 MAE: 200.253 RMSE:0.716 MAPE:35.79
+Step: 55 Prediction:383.024 Actual: 441.0 MAE: 197.713 RMSE:1.035 MAPE:35.385
+Step: 56 Prediction:399.554 Actual: 443.0 MAE: 195.006 RMSE:0.762 MAPE:34.936
+Step: 57 Prediction:390.407 Actual: 460.0 MAE: 192.844 RMSE:1.2 MAPE:34.595
+Step: 58 Prediction:382.574 Actual: 475.0 MAE: 191.142 RMSE:1.567 MAPE:34.338
+Step: 59 Prediction:377.964 Actual: 483.0 MAE: 189.707 RMSE:1.751 MAPE:34.129
+Step: 60 Prediction:372.547 Actual: 459.0 MAE: 188.014 RMSE:1.417 MAPE:33.878
+Step: 61 Prediction:356.842 Actual: 447.0 MAE: 186.436 RMSE:1.454 MAPE:33.657
+Step: 62 Prediction:355.771 Actual: 432.0 MAE: 184.687 RMSE:1.21 MAPE:33.403
+Step: 63 Prediction:345.621 Actual: 431.0 MAE: 183.135 RMSE:1.334 MAPE:33.19
+Step: 64 Prediction:345.072 Actual: 434.0 MAE: 181.686 RMSE:1.368 MAPE:32.995
+Step: 65 Prediction:353.08 Actual: 397.0 MAE: 179.598 RMSE:0.665 MAPE:32.662
+Step: 66 Prediction:360.071 Actual: 404.0 MAE: 177.573 RMSE:0.656 MAPE:32.337
+Step: 67 Prediction:359.472 Actual: 426.0 MAE: 175.94 RMSE:0.978 MAPE:32.091
+Step: 68 Prediction:371.522 Actual: 402.0 MAE: 173.832 RMSE:0.442 MAPE:31.736
+Step: 69 Prediction:379.233 Actual: 418.0 MAE: 171.903 RMSE:0.554 MAPE:31.415
+Step: 70 Prediction:401.818 Actual: 436.0 MAE: 169.963 RMSE:0.481 MAPE:31.083
+Step: 71 Prediction:415.322 Actual: 456.0 MAE: 168.167 RMSE:0.565 MAPE:30.775
+Step: 72 Prediction:881.266 Actual: 875.0 MAE: 165.95 RMSE:0.086 MAPE:30.364
+Step: 73 Prediction:888.379 Actual: 904.0 MAE: 163.918 RMSE:0.211 MAPE:29.977
+Step: 74 Prediction:917.486 Actual: 939.0 MAE: 162.019 RMSE:0.287 MAPE:29.608
+Step: 75 Prediction:933.773 Actual: 919.0 MAE: 160.082 RMSE:0.194 MAPE:29.239
+Step: 76 Prediction:965.572 Actual: 965.0 MAE: 158.01 RMSE:0.007 MAPE:28.86
+Step: 77 Prediction:977.455 Actual: 1019.0 MAE: 156.517 RMSE:0.533 MAPE:28.542
+Step: 78 Prediction:1004.587 Actual: 1072.0 MAE: 155.389 RMSE:0.853 MAPE:28.261
+Step: 79 Prediction:1016.437 Actual: 1135.0 MAE: 154.929 RMSE:1.482 MAPE:28.038
+Step: 80 Prediction:1041.852 Actual: 1139.0 MAE: 154.216 RMSE:1.199 MAPE:27.797
+Step: 81 Prediction:1062.732 Actual: 1137.0 MAE: 153.241 RMSE:0.906 MAPE:27.538
+Step: 82 Prediction:1066.009 Actual: 1133.0 MAE: 152.201 RMSE:0.807 MAPE:27.277
+Step: 83 Prediction:1052.632 Actual: 1148.0 MAE: 151.525 RMSE:1.135 MAPE:27.051
+Step: 84 Prediction:1036.754 Actual: 1132.0 MAE: 150.863 RMSE:1.121 MAPE:26.832
+Step: 85 Prediction:1035.881 Actual: 1094.0 MAE: 149.784 RMSE:0.676 MAPE:26.582
+Step: 86 Prediction:1049.571 Actual: 1113.0 MAE: 148.792 RMSE:0.729 MAPE:26.342
+Step: 87 Prediction:1061.327 Actual: 1106.0 MAE: 147.609 RMSE:0.508 MAPE:26.089
+Step: 88 Prediction:1051.519 Actual: 1052.0 MAE: 145.955 RMSE:0.005 MAPE:25.796
+Step: 89 Prediction:1057.601 Actual: 1054.0 MAE: 144.374 RMSE:0.04 MAPE:25.513
+Step: 90 Prediction:1056.391 Actual: 1074.0 MAE: 142.981 RMSE:0.194 MAPE:25.251
+Step: 91 Prediction:1066.194 Actual: 1057.0 MAE: 141.527 RMSE:0.1 MAPE:24.986
+Step: 92 Prediction:1062.678 Actual: 1041.0 MAE: 140.238 RMSE:0.233 MAPE:24.739
+Step: 93 Prediction:1089.307 Actual: 1037.0 MAE: 139.302 RMSE:0.556 MAPE:24.53
+Step: 94 Prediction:1091.756 Actual: 1042.0 MAE: 138.36 RMSE:0.524 MAPE:24.322
+Step: 95 Prediction:1075.569 Actual: 980.0 MAE: 137.914 RMSE:0.996 MAPE:24.17
+Step: 96 Prediction:534.764 Actual: 534.0 MAE: 136.5 RMSE:0.008 MAPE:23.923
+Step: 97 Prediction:529.729 Actual: 505.0 MAE: 135.36 RMSE:0.252 MAPE:23.728
+Step: 98 Prediction:529.285 Actual: 482.0 MAE: 134.47 RMSE:0.478 MAPE:23.588
+Step: 99 Prediction:503.043 Actual: 471.0 MAE: 133.446 RMSE:0.32 MAPE:23.42
+Step: 100 Prediction:514.125 Actual: 466.0 MAE: 132.601 RMSE:0.476 MAPE:23.29
+Step: 101 Prediction:494.634 Actual: 450.0 MAE: 131.739 RMSE:0.438 MAPE:23.159
+Step: 102 Prediction:474.55 Actual: 475.0 MAE: 130.464 RMSE:0.004 MAPE:22.935
+Step: 103 Prediction:457.231 Actual: 455.0 MAE: 129.231 RMSE:0.021 MAPE:22.719
+Step: 104 Prediction:451.58 Actual: 410.0 MAE: 128.396 RMSE:0.396 MAPE:22.6
+Step: 105 Prediction:432.988 Actual: 428.0 MAE: 127.232 RMSE:0.047 MAPE:22.397
+Step: 106 Prediction:438.138 Actual: 432.0 MAE: 126.1 RMSE:0.057 MAPE:22.201
+Step: 107 Prediction:420.744 Actual: 441.0 MAE: 125.12 RMSE:0.188 MAPE:22.038
+Step: 108 Prediction:409.265 Actual: 422.0 MAE: 124.089 RMSE:0.117 MAPE:21.864
+Step: 109 Prediction:404.123 Actual: 414.0 MAE: 123.051 RMSE:0.09 MAPE:21.687
+Step: 110 Prediction:424.892 Actual: 403.0 MAE: 122.139 RMSE:0.197 MAPE:21.54
+Step: 111 Prediction:424.724 Actual: 397.0 MAE: 121.296 RMSE:0.248 MAPE:21.41
+Step: 112 Prediction:437.109 Actual: 400.0 MAE: 120.551 RMSE:0.328 MAPE:21.303
+Step: 113 Prediction:471.532 Actual: 408.0 MAE: 120.051 RMSE:0.557 MAPE:21.253
+Step: 114 Prediction:479.446 Actual: 401.0 MAE: 119.689 RMSE:0.682 MAPE:21.238
+Step: 115 Prediction:488.212 Actual: 414.0 MAE: 119.297 RMSE:0.64 MAPE:21.21
+Step: 116 Prediction:500.06 Actual: 403.0 MAE: 119.107 RMSE:0.83 MAPE:21.234
+Step: 117 Prediction:517.328 Actual: 414.0 MAE: 118.974 RMSE:0.876 MAPE:21.266
+Step: 118 Prediction:503.786 Actual: 455.0 MAE: 118.384 RMSE:0.41 MAPE:21.177
+Step: 119 Prediction:491.208 Actual: 502.0 MAE: 117.487 RMSE:0.09 MAPE:21.018
+Step: 120 Prediction:888.317 Actual: 870.0 MAE: 116.668 RMSE:0.151 MAPE:20.862
+Step: 121 Prediction:907.029 Actual: 861.0 MAE: 116.089 RMSE:0.377 MAPE:20.735
+Step: 122 Prediction:937.905 Actual: 868.0 MAE: 115.713 RMSE:0.568 MAPE:20.632
+Step: 123 Prediction:971.45 Actual: 905.0 MAE: 115.316 RMSE:0.536 MAPE:20.525
+Step: 124 Prediction:985.403 Actual: 916.0 MAE: 114.949 RMSE:0.555 MAPE:20.421
+Step: 125 Prediction:1004.351 Actual: 955.0 MAE: 114.428 RMSE:0.392 MAPE:20.3
+Step: 126 Prediction:1017.59 Actual: 986.0 MAE: 113.776 RMSE:0.249 MAPE:20.165
+Step: 127 Prediction:1024.383 Actual: 1014.0 MAE: 112.968 RMSE:0.081 MAPE:20.016
+Step: 128 Prediction:1014.8 Actual: 981.0 MAE: 112.354 RMSE:0.262 MAPE:19.887
+Step: 129 Prediction:1014.928 Actual: 1035.0 MAE: 111.644 RMSE:0.154 MAPE:19.749
+Step: 130 Prediction:1037.119 Actual: 1043.0 MAE: 110.837 RMSE:0.045 MAPE:19.603
+Step: 131 Prediction:1031.923 Actual: 1091.0 MAE: 110.445 RMSE:0.448 MAPE:19.495
+Step: 132 Prediction:1018.09 Actual: 1111.0 MAE: 110.313 RMSE:0.699 MAPE:19.412
+Step: 133 Prediction:1019.221 Actual: 1109.0 MAE: 110.16 RMSE:0.67 MAPE:19.327
+Step: 134 Prediction:1026.388 Actual: 1113.0 MAE: 109.985 RMSE:0.642 MAPE:19.242
+Step: 135 Prediction:1010.825 Actual: 1147.0 MAE: 110.178 RMSE:1.001 MAPE:19.188
+Step: 136 Prediction:1020.801 Actual: 1142.0 MAE: 110.258 RMSE:0.885 MAPE:19.125
+Step: 137 Prediction:1026.715 Actual: 1112.0 MAE: 110.077 RMSE:0.618 MAPE:19.042
+Step: 138 Prediction:1019.614 Actual: 1110.0 MAE: 109.936 RMSE:0.65 MAPE:18.964
+Step: 139 Prediction:998.379 Actual: 1137.0 MAE: 110.141 RMSE:0.99 MAPE:18.915
+Step: 140 Prediction:1009.16 Actual: 1117.0 MAE: 110.124 RMSE:0.765 MAPE:18.85
+Step: 141 Prediction:993.273 Actual: 1083.0 MAE: 109.981 RMSE:0.632 MAPE:18.775
+Step: 142 Prediction:978.065 Actual: 1051.0 MAE: 109.722 RMSE:0.51 MAPE:18.692
+Step: 143 Prediction:961.254 Actual: 1095.0 MAE: 109.888 RMSE:0.929 MAPE:18.647
+Transformed training data:
+
+              sum
+              local_15min-remapped
+              Lag_sum-1
+              Lag_sum-2
+              Lag_sum-3
+              Lag_sum-4
+              Lag_sum-5
+              Lag_sum-6
+              Lag_sum-7
+              Lag_sum-8
+              Lag_sum-9
+              Lag_sum-10
+              Lag_sum-11
+              Lag_sum-12
+              Lag_sum-13
+              Lag_sum-14
+              Lag_sum-15
+              Lag_sum-16
+              Lag_sum-17
+              Lag_sum-18
+              Lag_sum-19
+              Lag_sum-20
+              Lag_sum-21
+              Lag_sum-22
+              Lag_sum-23
+              Lag_sum-24
+              Lag_sum-25
+              Lag_sum-26
+              Lag_sum-27
+              Lag_sum-28
+              Lag_sum-29
+              Lag_sum-30
+              Lag_sum-31
+              Lag_sum-32
+              Lag_sum-33
+              Lag_sum-34
+              Lag_sum-35
+              Lag_sum-36
+              Lag_sum-37
+              Lag_sum-38
+              Lag_sum-39
+              Lag_sum-40
+              Lag_sum-41
+              Lag_sum-42
+              Lag_sum-43
+              Lag_sum-44
+              Lag_sum-45
+              Lag_sum-46
+              Lag_sum-47
+              Lag_sum-48
+              Lag_sum-49
+              Lag_sum-50
+              Lag_sum-51
+              Lag_sum-52
+              Lag_sum-53
+              Lag_sum-54
+              Lag_sum-55
+              Lag_sum-56
+              Lag_sum-57
+              Lag_sum-58
+              Lag_sum-59
+              Lag_sum-60
+              Lag_sum-61
+              Lag_sum-62
+              Lag_sum-63
+              Lag_sum-64
+              Lag_sum-65
+              Lag_sum-66
+              Lag_sum-67
+              Lag_sum-68
+              Lag_sum-69
+              Lag_sum-70
+              Lag_sum-71
+              Lag_sum-72
+              Lag_sum-73
+              Lag_sum-74
+              Lag_sum-75
+              Lag_sum-76
+              Lag_sum-77
+              Lag_sum-78
+              Lag_sum-79
+              Lag_sum-80
+              Lag_sum-81
+              Lag_sum-82
+              Lag_sum-83
+              Lag_sum-84
+              Lag_sum-85
+              Lag_sum-86
+              Lag_sum-87
+              Lag_sum-88
+              Lag_sum-89
+              Lag_sum-90
+              Lag_sum-91
+              Lag_sum-92
+              Lag_sum-93
+              Lag_sum-94
+              Lag_sum-95
+              Lag_sum-96
+              Lag_sum-97
+              Lag_sum-98
+              Lag_sum-99
+              Lag_sum-100
+              Lag_sum-101
+              Lag_sum-102
+              Lag_sum-103
+              Lag_sum-104
+              Lag_sum-105
+              Lag_sum-106
+              Lag_sum-107
+              Lag_sum-108
+              Lag_sum-109
+              Lag_sum-110
+              Lag_sum-111
+              Lag_sum-112
+              Lag_sum-113
+              Lag_sum-114
+              Lag_sum-115
+              Lag_sum-116
+              Lag_sum-117
+              Lag_sum-118
+              Lag_sum-119
+              Lag_sum-120
+              Lag_sum-121
+              Lag_sum-122
+              Lag_sum-123
+              Lag_sum-124
+              Lag_sum-125
+              Lag_sum-126
+              Lag_sum-127
+              Lag_sum-128
+              Lag_sum-129
+              Lag_sum-130
+              Lag_sum-131
+              Lag_sum-132
+              Lag_sum-133
+              Lag_sum-134
+              Lag_sum-135
+              Lag_sum-136
+              Lag_sum-137
+              Lag_sum-138
+              Lag_sum-139
+              Lag_sum-140
+              Lag_sum-141
+              Lag_sum-142
+              Lag_sum-143
+              Lag_sum-144
+              Lag_sum-145
+              Lag_sum-146
+              Lag_sum-147
+              Lag_sum-148
+              Lag_sum-149
+              Lag_sum-150
+              local_15min-remapped^2
+              local_15min-remapped^3
+
+sum:
+MPRegressor with ridge value 0.01 and 2 hidden units (useCGD=false)
+
+Output unit 0 weight for hidden unit 0: 5.728409643788433
+
+Hidden unit 0 weights:
+
+0.0073497763357682185 local_15min-remapped
+0.18427788771118792 Lag_sum-1
+0.0715822654849629 Lag_sum-2
+-0.05844242490198986 Lag_sum-3
+0.0024009688925072316 Lag_sum-4
+0.1792912835915094 Lag_sum-5
+0.20333885874591223 Lag_sum-6
+0.03849240288543185 Lag_sum-7
+-0.005523121004085539 Lag_sum-8
+-0.045183007267690097 Lag_sum-9
+-0.0239386680205475 Lag_sum-10
+0.05209467243160285 Lag_sum-11
+-0.13537357778238557 Lag_sum-12
+-0.024436415023208508 Lag_sum-13
+0.04674154167061655 Lag_sum-14
+-0.06605004177248892 Lag_sum-15
+0.05887419198838282 Lag_sum-16
+0.1789288562153834 Lag_sum-17
+-0.0036407541124029194 Lag_sum-18
+-0.04661591607983428 Lag_sum-19
+-8.555039449019977E-4 Lag_sum-20
+0.0971427500904605 Lag_sum-21
+-0.10844604403011573 Lag_sum-22
+-0.1329637175434936 Lag_sum-23
+0.06399427914355517 Lag_sum-24
+0.07767178545811312 Lag_sum-25
+-0.01483524811622585 Lag_sum-26
+-0.015171491268185245 Lag_sum-27
+-0.09202618587849636 Lag_sum-28
+-0.06661406299763306 Lag_sum-29
+-0.01804209905503576 Lag_sum-30
+-0.05766470450102792 Lag_sum-31
+0.02250656520396684 Lag_sum-32
+0.10181152718763954 Lag_sum-33
+-0.03565138106313951 Lag_sum-34
+0.016054357648613866 Lag_sum-35
+0.07159394201265282 Lag_sum-36
+0.077898378139355 Lag_sum-37
+-0.025994460023380347 Lag_sum-38
+0.1032651217495768 Lag_sum-39
+0.03945105408556442 Lag_sum-40
+-0.1234972635918948 Lag_sum-41
+-0.02668857225000907 Lag_sum-42
+-0.07043049953398677 Lag_sum-43
+0.03961954544206636 Lag_sum-44
+-0.012287676806695237 Lag_sum-45
+-0.028765839314602203 Lag_sum-46
+-0.10897381552323743 Lag_sum-47
+0.11040470244550825 Lag_sum-48
+0.06697314349346861 Lag_sum-49
+0.011429418287542206 Lag_sum-50
+0.16704179510030542 Lag_sum-51
+-0.003029874277016367 Lag_sum-52
+-0.07040895606453991 Lag_sum-53
+0.044001912088329584 Lag_sum-54
+0.02873191005842676 Lag_sum-55
+-0.13031150467166416 Lag_sum-56
+-0.051935141210732644 Lag_sum-57
+9.388633465823694E-4 Lag_sum-58
+0.02982921257033537 Lag_sum-59
+0.08677231179367058 Lag_sum-60
+-0.055258003466027876 Lag_sum-61
+-0.044923262989764214 Lag_sum-62
+0.10517175681178986 Lag_sum-63
+-0.11596535311340289 Lag_sum-64
+0.08573037429724831 Lag_sum-65
+-0.060117034932709666 Lag_sum-66
+-0.0019847860855701075 Lag_sum-67
+-0.048934232257052616 Lag_sum-68
+0.07674335137645422 Lag_sum-69
+-0.1085079655911388 Lag_sum-70
+-0.01566595091007183 Lag_sum-71
+0.027475850380632612 Lag_sum-72
+0.04313594950235212 Lag_sum-73
+-0.03956160018894418 Lag_sum-74
+-0.009893934526399256 Lag_sum-75
+-0.0699335031567163 Lag_sum-76
+0.11708635614990742 Lag_sum-77
+-0.01366352449173619 Lag_sum-78
+-0.11524766197098758 Lag_sum-79
+4.0151093472414693E-4 Lag_sum-80
+0.1231363086122177 Lag_sum-81
+0.13219252954716065 Lag_sum-82
+-0.038817193237355246 Lag_sum-83
+-0.06340374284779822 Lag_sum-84
+-0.0357436617768193 Lag_sum-85
+-0.17520562830951744 Lag_sum-86
+0.12804522133641455 Lag_sum-87
+0.004224279250454986 Lag_sum-88
+-0.09395773033993648 Lag_sum-89
+0.06369490107274237 Lag_sum-90
+0.0525240031619487 Lag_sum-91
+0.08206562827371051 Lag_sum-92
+0.09055084834328399 Lag_sum-93
+-0.0697318338033754 Lag_sum-94
+0.0010722624458912242 Lag_sum-95
+-0.05748822297589835 Lag_sum-96
+-0.08636323249836272 Lag_sum-97
+-0.11125814212948991 Lag_sum-98
+-0.014779265138363964 Lag_sum-99
+0.06345133295487211 Lag_sum-100
+-0.15454351982570025 Lag_sum-101
+0.025074448677475537 Lag_sum-102
+0.21971940117964778 Lag_sum-103
+3.049053156077239E-4 Lag_sum-104
+-0.041877411507523235 Lag_sum-105
+-0.07093563691263269 Lag_sum-106
+0.06217766189925307 Lag_sum-107
+-0.029920561934558613 Lag_sum-108
+0.02236307948013866 Lag_sum-109
+-0.10376517273213201 Lag_sum-110
+0.0627823197015382 Lag_sum-111
+0.09449493240372686 Lag_sum-112
+0.07896896865704141 Lag_sum-113
+-0.02912786141456834 Lag_sum-114
+-0.11412090192959398 Lag_sum-115
+-0.05749099021010008 Lag_sum-116
+0.13461375932242475 Lag_sum-117
+-0.13259533649892505 Lag_sum-118
+0.11447294857894913 Lag_sum-119
+0.08584794946667121 Lag_sum-120
+-0.014612740234083032 Lag_sum-121
+-0.14940485429030206 Lag_sum-122
+0.0759991703065354 Lag_sum-123
+0.07661469351816313 Lag_sum-124
+0.021523733201616643 Lag_sum-125
+0.015974720106223476 Lag_sum-126
+0.032544212900573764 Lag_sum-127
+-0.04734027461825013 Lag_sum-128
+-0.18077240516283472 Lag_sum-129
+0.08882685026266046 Lag_sum-130
+-0.10080182784078641 Lag_sum-131
+0.010741809176478273 Lag_sum-132
+0.10946944314648548 Lag_sum-133
+-0.02457300943195184 Lag_sum-134
+-0.10399066559096967 Lag_sum-135
+0.03687579059898909 Lag_sum-136
+0.04194162231738052 Lag_sum-137
+0.23078170572916532 Lag_sum-138
+-0.004024875881523868 Lag_sum-139
+-0.08592223575394606 Lag_sum-140
+-0.08413225276549509 Lag_sum-141
+-0.018867439448766506 Lag_sum-142
+-0.10983278973129013 Lag_sum-143
+0.05628782584474201 Lag_sum-144
+-0.1037289759983863 Lag_sum-145
+0.020736426298868245 Lag_sum-146
+0.057067347657892 Lag_sum-147
+9.301852537598067E-4 Lag_sum-148
+0.17419779404544075 Lag_sum-149
+-0.09500815391031889 Lag_sum-150
+0.034681614091774705 local_15min-remapped^2
+-0.04720450860204121 local_15min-remapped^3
+
+Hidden unit 0 bias: -0.15360213767546138
+
+Output unit 0 weight for hidden unit 1: -2.7454578037115467
+
+Hidden unit 1 weights:
+
+0.07532181680350136 local_15min-remapped
+-0.8734401425840456 Lag_sum-1
+-0.15387870637086976 Lag_sum-2
+-0.278428184580306 Lag_sum-3
+0.017916062169603626 Lag_sum-4
+0.4044859204522044 Lag_sum-5
+0.5107872373636166 Lag_sum-6
+0.0735116769678263 Lag_sum-7
+0.014695191044203863 Lag_sum-8
+-0.04899936738633706 Lag_sum-9
+-0.1170180431669612 Lag_sum-10
+0.13690276012708708 Lag_sum-11
+-0.30772269377872513 Lag_sum-12
+-0.054279780519817425 Lag_sum-13
+0.1972221773599076 Lag_sum-14
+-0.17203809978861048 Lag_sum-15
+0.15499203958812294 Lag_sum-16
+0.3698871880004966 Lag_sum-17
+0.03686353981992113 Lag_sum-18
+-0.18452919300759388 Lag_sum-19
+-0.02480511247930566 Lag_sum-20
+0.29866675027225303 Lag_sum-21
+-0.2978466670815577 Lag_sum-22
+-0.22879240966635364 Lag_sum-23
+0.17858181218605 Lag_sum-24
+0.12381257222288003 Lag_sum-25
+-0.01428271810625623 Lag_sum-26
+-0.034157093531231635 Lag_sum-27
+-0.22487657132062563 Lag_sum-28
+-0.15124475219750383 Lag_sum-29
+-0.07425020572664129 Lag_sum-30
+-0.1139866024600744 Lag_sum-31
+0.06799483808555817 Lag_sum-32
+0.2376379973220564 Lag_sum-33
+-0.09036880879959373 Lag_sum-34
+0.07819793311493838 Lag_sum-35
+0.11145276124334541 Lag_sum-36
+0.16221663224076566 Lag_sum-37
+-0.08063030454384207 Lag_sum-38
+0.28259067951033223 Lag_sum-39
+0.10594647842843594 Lag_sum-40
+-0.27857302568118836 Lag_sum-41
+-0.09276755303139753 Lag_sum-42
+-0.22837319939242182 Lag_sum-43
+0.15593393956575913 Lag_sum-44
+-0.03826535142773348 Lag_sum-45
+-0.07210768234569645 Lag_sum-46
+-0.21485923980478372 Lag_sum-47
+0.27229048708589654 Lag_sum-48
+0.16230455976674268 Lag_sum-49
+-0.018933843486159896 Lag_sum-50
+0.43223639532369984 Lag_sum-51
+-0.0908415860763436 Lag_sum-52
+-0.2105330987618826 Lag_sum-53
+0.10219495025607592 Lag_sum-54
+0.13270420335245092 Lag_sum-55
+-0.2869633319159709 Lag_sum-56
+-0.15610641897023045 Lag_sum-57
+0.07678659557061605 Lag_sum-58
+0.12578511063284534 Lag_sum-59
+0.17521227456150595 Lag_sum-60
+-0.18478264960710009 Lag_sum-61
+-0.11675991467697291 Lag_sum-62
+0.2553252093847337 Lag_sum-63
+-0.21995874617619532 Lag_sum-64
+0.15428652640159674 Lag_sum-65
+-0.08253372270553158 Lag_sum-66
+-0.05443887176107385 Lag_sum-67
+-0.07523251823743837 Lag_sum-68
+0.11866637860235586 Lag_sum-69
+-0.2825469408482082 Lag_sum-70
+-0.014278826476723202 Lag_sum-71
+0.03998480424422648 Lag_sum-72
+0.06311114926898838 Lag_sum-73
+1.8055417509573184E-4 Lag_sum-74
+-0.07361748118155902 Lag_sum-75
+-0.17004416311007114 Lag_sum-76
+0.3081642252708799 Lag_sum-77
+-0.05522159328808405 Lag_sum-78
+-0.2355021996729898 Lag_sum-79
+0.05721361742608185 Lag_sum-80
+0.1592743752352517 Lag_sum-81
+0.34070896495897196 Lag_sum-82
+-0.078050246306791 Lag_sum-83
+-0.19248107078131468 Lag_sum-84
+-0.07661116481044372 Lag_sum-85
+-0.333975447121108 Lag_sum-86
+0.27205711211531725 Lag_sum-87
+-0.017125222413740072 Lag_sum-88
+-0.17485837156854403 Lag_sum-89
+0.13364843410457633 Lag_sum-90
+0.09278437902154807 Lag_sum-91
+0.22906549083863037 Lag_sum-92
+0.11209930932985537 Lag_sum-93
+-0.17612364465405825 Lag_sum-94
+-0.019672250540794644 Lag_sum-95
+-0.1355508182009192 Lag_sum-96
+-0.1800627906270896 Lag_sum-97
+-0.22618844064290966 Lag_sum-98
+-0.03414033570422111 Lag_sum-99
+0.251545455739081 Lag_sum-100
+-0.3508731792283093 Lag_sum-101
+0.061159819064179145 Lag_sum-102
+0.5227372215954518 Lag_sum-103
+-0.06726613325426811 Lag_sum-104
+-0.038065808980773545 Lag_sum-105
+-0.16062952582636586 Lag_sum-106
+0.09865501758567019 Lag_sum-107
+-0.07058397723526673 Lag_sum-108
+0.007919647404688453 Lag_sum-109
+-0.18365419172433506 Lag_sum-110
+0.10645436908335171 Lag_sum-111
+0.16824848778465668 Lag_sum-112
+0.22856169121291778 Lag_sum-113
+-0.057425938009767974 Lag_sum-114
+-0.25669395190642463 Lag_sum-115
+-0.18881296251563937 Lag_sum-116
+0.23757060343589045 Lag_sum-117
+-0.21580943296994518 Lag_sum-118
+0.30483366463851097 Lag_sum-119
+0.16819391010058804 Lag_sum-120
+0.003924426646559016 Lag_sum-121
+-0.38585782332838137 Lag_sum-122
+0.27372582231956705 Lag_sum-123
+0.1478142674778109 Lag_sum-124
+0.04202149174961616 Lag_sum-125
+0.023636546461245772 Lag_sum-126
+0.09416669642461441 Lag_sum-127
+-0.13641038325013047 Lag_sum-128
+-0.4105336313206487 Lag_sum-129
+0.1762691449615616 Lag_sum-130
+-0.2723320579047641 Lag_sum-131
+0.07043599480744096 Lag_sum-132
+0.25079753140815625 Lag_sum-133
+0.05018124023280292 Lag_sum-134
+-0.36665680913680815 Lag_sum-135
+0.11915965236857609 Lag_sum-136
+0.03955198625522161 Lag_sum-137
+0.5298194406016766 Lag_sum-138
+0.03430711780749029 Lag_sum-139
+-0.2148729778976496 Lag_sum-140
+-0.1903506656949747 Lag_sum-141
+-0.02957928114597608 Lag_sum-142
+-0.2513732329706801 Lag_sum-143
+0.11430192786658191 Lag_sum-144
+-0.25984861362383116 Lag_sum-145
+0.08747841506349725 Lag_sum-146
+0.1554163734216437 Lag_sum-147
+0.029076597605248816 Lag_sum-148
+0.36251517751383994 Lag_sum-149
+-0.2471224954065382 Lag_sum-150
+-0.05072872173301869 local_15min-remapped^2
+-0.03134541499509933 local_15min-remapped^3
+
+Hidden unit 1 bias: 0.22790691066106047
+
+Output unit 0 bias: -1.1403726325871415
+
+
+Step: 0 Prediction:295.003 Actual: 286.0 MAE: 9.003 RMSE:9.003 MAPE:3.148
+Step: 1 Prediction:321.311 Actual: 286.0 MAE: 22.157 RMSE:17.656 MAPE:7.747
+Step: 2 Prediction:343.292 Actual: 301.0 MAE: 28.869 RMSE:14.097 MAPE:9.848
+Step: 3 Prediction:361.81 Actual: 317.0 MAE: 32.854 RMSE:11.203 MAPE:10.92
+Step: 4 Prediction:384.892 Actual: 349.0 MAE: 33.462 RMSE:7.178 MAPE:10.793
+Step: 5 Prediction:404.217 Actual: 354.0 MAE: 36.254 RMSE:8.369 MAPE:11.358
+Step: 6 Prediction:423.86 Actual: 355.0 MAE: 40.912 RMSE:9.837 MAPE:12.507
+Step: 7 Prediction:433.912 Actual: 360.0 MAE: 45.037 RMSE:9.239 MAPE:13.51
+Step: 8 Prediction:439.866 Actual: 409.0 MAE: 43.462 RMSE:3.43 MAPE:12.847
+Step: 9 Prediction:450.139 Actual: 425.0 MAE: 41.63 RMSE:2.514 MAPE:12.154
+Step: 10 Prediction:463.725 Actual: 429.0 MAE: 41.002 RMSE:3.157 MAPE:11.785
+Step: 11 Prediction:468.788 Actual: 418.0 MAE: 41.818 RMSE:4.232 MAPE:11.815
+Step: 12 Prediction:475.447 Actual: 439.0 MAE: 41.405 RMSE:2.804 MAPE:11.545
+Step: 13 Prediction:484.557 Actual: 461.0 MAE: 40.13 RMSE:1.683 MAPE:11.086
+Step: 14 Prediction:493.346 Actual: 476.0 MAE: 38.611 RMSE:1.156 MAPE:10.589
+Step: 15 Prediction:501.463 Actual: 492.0 MAE: 36.789 RMSE:0.591 MAPE:10.048
+Step: 16 Prediction:505.902 Actual: 514.0 MAE: 35.102 RMSE:0.476 MAPE:9.549
+Step: 17 Prediction:517.552 Actual: 507.0 MAE: 33.738 RMSE:0.586 MAPE:9.135
+Step: 18 Prediction:520.567 Actual: 544.0 MAE: 33.195 RMSE:1.233 MAPE:8.88
+Step: 19 Prediction:530.393 Actual: 570.0 MAE: 33.516 RMSE:1.98 MAPE:8.784
+Step: 20 Prediction:536.462 Actual: 633.0 MAE: 36.517 RMSE:4.597 MAPE:9.092
+Step: 21 Prediction:542.21 Actual: 614.0 MAE: 38.12 RMSE:3.263 MAPE:9.21
+Step: 22 Prediction:560.652 Actual: 629.0 MAE: 39.434 RMSE:2.972 MAPE:9.282
+Step: 23 Prediction:560.815 Actual: 648.0 MAE: 41.424 RMSE:3.633 MAPE:9.456
+Step: 24 Prediction:944.459 Actual: 967.0 MAE: 40.669 RMSE:0.902 MAPE:9.171
+Step: 25 Prediction:939.502 Actual: 1023.0 MAE: 42.316 RMSE:3.211 MAPE:9.132
+Step: 26 Prediction:941.462 Actual: 1016.0 MAE: 43.509 RMSE:2.761 MAPE:9.066
+Step: 27 Prediction:930.751 Actual: 978.0 MAE: 43.643 RMSE:1.687 MAPE:8.914
+Step: 28 Prediction:925.038 Actual: 976.0 MAE: 43.895 RMSE:1.757 MAPE:8.787
+Step: 29 Prediction:913.185 Actual: 966.0 MAE: 44.193 RMSE:1.761 MAPE:8.676
+Step: 30 Prediction:911.139 Actual: 966.0 MAE: 44.537 RMSE:1.77 MAPE:8.58
+Step: 31 Prediction:900.822 Actual: 971.0 MAE: 45.338 RMSE:2.193 MAPE:8.537
+Step: 32 Prediction:890.69 Actual: 929.0 MAE: 45.125 RMSE:1.161 MAPE:8.404
+Step: 33 Prediction:886.665 Actual: 932.0 MAE: 45.131 RMSE:1.333 MAPE:8.3
+Step: 34 Prediction:873.713 Actual: 927.0 MAE: 45.364 RMSE:1.522 MAPE:8.227
+Step: 35 Prediction:859.779 Actual: 914.0 MAE: 45.61 RMSE:1.506 MAPE:8.163
+Step: 36 Prediction:855.194 Actual: 923.0 MAE: 46.21 RMSE:1.833 MAPE:8.141
+Step: 37 Prediction:811.641 Actual: 870.0 MAE: 46.53 RMSE:1.536 MAPE:8.103
+Step: 38 Prediction:781.542 Actual: 827.0 MAE: 46.502 RMSE:1.166 MAPE:8.036
+Step: 39 Prediction:736.881 Actual: 793.0 MAE: 46.743 RMSE:1.403 MAPE:8.012
+Step: 40 Prediction:698.209 Actual: 807.0 MAE: 48.256 RMSE:2.653 MAPE:8.146
+Step: 41 Prediction:665.314 Actual: 725.0 MAE: 48.528 RMSE:1.421 MAPE:8.148
+Step: 42 Prediction:631.741 Actual: 711.0 MAE: 49.243 RMSE:1.843 MAPE:8.218
+Step: 43 Prediction:583.471 Actual: 703.0 MAE: 50.84 RMSE:2.717 MAPE:8.417
+Step: 44 Prediction:519.339 Actual: 654.0 MAE: 52.703 RMSE:2.992 MAPE:8.688
+Step: 45 Prediction:471.366 Actual: 643.0 MAE: 55.289 RMSE:3.731 MAPE:9.079
+Step: 46 Prediction:437.734 Actual: 599.0 MAE: 57.543 RMSE:3.431 MAPE:9.459
+Step: 47 Prediction:404.333 Actual: 549.0 MAE: 59.359 RMSE:3.014 MAPE:9.811
+Step: 48 Prediction:383.379 Actual: 415.0 MAE: 58.792 RMSE:0.645 MAPE:9.766
+Step: 49 Prediction:379.088 Actual: 399.0 MAE: 58.015 RMSE:0.398 MAPE:9.67
+Step: 50 Prediction:377.563 Actual: 369.0 MAE: 57.045 RMSE:0.168 MAPE:9.526
+Step: 51 Prediction:373.098 Actual: 401.0 MAE: 56.485 RMSE:0.537 MAPE:9.477
+Step: 52 Prediction:372.567 Actual: 380.0 MAE: 55.559 RMSE:0.14 MAPE:9.335
+Step: 53 Prediction:371.258 Actual: 387.0 MAE: 54.822 RMSE:0.292 MAPE:9.238
+Step: 54 Prediction:378.598 Actual: 417.0 MAE: 54.523 RMSE:0.698 MAPE:9.237
+Step: 55 Prediction:384.891 Actual: 441.0 MAE: 54.552 RMSE:1.002 MAPE:9.299
+Step: 56 Prediction:390.319 Actual: 443.0 MAE: 54.519 RMSE:0.924 MAPE:9.345
+Step: 57 Prediction:384.706 Actual: 460.0 MAE: 54.877 RMSE:1.298 MAPE:9.466
+Step: 58 Prediction:385.835 Actual: 475.0 MAE: 55.458 RMSE:1.511 MAPE:9.624
+Step: 59 Prediction:384.564 Actual: 483.0 MAE: 56.174 RMSE:1.641 MAPE:9.803
+Step: 60 Prediction:370.206 Actual: 459.0 MAE: 56.709 RMSE:1.456 MAPE:9.959
+Step: 61 Prediction:354.408 Actual: 447.0 MAE: 57.288 RMSE:1.493 MAPE:10.133
+Step: 62 Prediction:356.741 Actual: 432.0 MAE: 57.573 RMSE:1.195 MAPE:10.248
+Step: 63 Prediction:342.437 Actual: 431.0 MAE: 58.057 RMSE:1.384 MAPE:10.409
+Step: 64 Prediction:348.804 Actual: 434.0 MAE: 58.475 RMSE:1.311 MAPE:10.551
+Step: 65 Prediction:342.519 Actual: 397.0 MAE: 58.414 RMSE:0.825 MAPE:10.599
+Step: 66 Prediction:351.034 Actual: 404.0 MAE: 58.333 RMSE:0.791 MAPE:10.637
+Step: 67 Prediction:346.774 Actual: 426.0 MAE: 58.64 RMSE:1.165 MAPE:10.754
+Step: 68 Prediction:345.433 Actual: 402.0 MAE: 58.61 RMSE:0.82 MAPE:10.802
+Step: 69 Prediction:362.285 Actual: 418.0 MAE: 58.569 RMSE:0.796 MAPE:10.838
+Step: 70 Prediction:373.509 Actual: 436.0 MAE: 58.624 RMSE:0.88 MAPE:10.887
+Step: 71 Prediction:381.918 Actual: 456.0 MAE: 58.839 RMSE:1.029 MAPE:10.962
+Step: 72 Prediction:869.027 Actual: 875.0 MAE: 58.115 RMSE:0.082 MAPE:10.821
+Step: 73 Prediction:892.27 Actual: 904.0 MAE: 57.488 RMSE:0.159 MAPE:10.692
+Step: 74 Prediction:917.978 Actual: 939.0 MAE: 57.002 RMSE:0.28 MAPE:10.579
+Step: 75 Prediction:934.759 Actual: 919.0 MAE: 56.459 RMSE:0.207 MAPE:10.463
+Step: 76 Prediction:948.181 Actual: 965.0 MAE: 55.944 RMSE:0.218 MAPE:10.35
+Step: 77 Prediction:975.59 Actual: 1019.0 MAE: 55.783 RMSE:0.557 MAPE:10.271
+Step: 78 Prediction:992.683 Actual: 1072.0 MAE: 56.081 RMSE:1.004 MAPE:10.235
+Step: 79 Prediction:1006.89 Actual: 1135.0 MAE: 56.982 RMSE:1.601 MAPE:10.248
+Step: 80 Prediction:1019.399 Actual: 1139.0 MAE: 57.755 RMSE:1.477 MAPE:10.251
+Step: 81 Prediction:1031.621 Actual: 1137.0 MAE: 58.336 RMSE:1.285 MAPE:10.239
+Step: 82 Prediction:1040.127 Actual: 1133.0 MAE: 58.752 RMSE:1.119 MAPE:10.215
+Step: 83 Prediction:1045.547 Actual: 1148.0 MAE: 59.272 RMSE:1.22 MAPE:10.199
+Step: 84 Prediction:1046.33 Actual: 1132.0 MAE: 59.583 RMSE:1.008 MAPE:10.168
+Step: 85 Prediction:1042.893 Actual: 1094.0 MAE: 59.484 RMSE:0.594 MAPE:10.105
+Step: 86 Prediction:1047.113 Actual: 1113.0 MAE: 59.558 RMSE:0.757 MAPE:10.056
+Step: 87 Prediction:1053.072 Actual: 1106.0 MAE: 59.482 RMSE:0.601 MAPE:9.997
+Step: 88 Prediction:1055.041 Actual: 1052.0 MAE: 58.848 RMSE:0.034 MAPE:9.887
+Step: 89 Prediction:1056.563 Actual: 1054.0 MAE: 58.223 RMSE:0.028 MAPE:9.78
+Step: 90 Prediction:1046.724 Actual: 1074.0 MAE: 57.883 RMSE:0.3 MAPE:9.701
+Step: 91 Prediction:1038.567 Actual: 1057.0 MAE: 57.454 RMSE:0.2 MAPE:9.614
+Step: 92 Prediction:1041.062 Actual: 1041.0 MAE: 56.837 RMSE:0.001 MAPE:9.511
+Step: 93 Prediction:1049.729 Actual: 1037.0 MAE: 56.367 RMSE:0.135 MAPE:9.423
+Step: 94 Prediction:1033.52 Actual: 1042.0 MAE: 55.863 RMSE:0.089 MAPE:9.332
+Step: 95 Prediction:1002.195 Actual: 980.0 MAE: 55.513 RMSE:0.231 MAPE:9.259
+Step: 96 Prediction:536.913 Actual: 534.0 MAE: 54.97 RMSE:0.03 MAPE:9.169
+Step: 97 Prediction:529.126 Actual: 505.0 MAE: 54.656 RMSE:0.246 MAPE:9.124
+Step: 98 Prediction:525.65 Actual: 482.0 MAE: 54.545 RMSE:0.441 MAPE:9.123
+Step: 99 Prediction:513.028 Actual: 471.0 MAE: 54.419 RMSE:0.42 MAPE:9.121
+Step: 100 Prediction:508.684 Actual: 466.0 MAE: 54.303 RMSE:0.423 MAPE:9.122
+Step: 101 Prediction:498.799 Actual: 450.0 MAE: 54.249 RMSE:0.478 MAPE:9.139
+Step: 102 Prediction:483.135 Actual: 475.0 MAE: 53.801 RMSE:0.079 MAPE:9.066
+Step: 103 Prediction:474.342 Actual: 455.0 MAE: 53.47 RMSE:0.186 MAPE:9.02
+Step: 104 Prediction:459.485 Actual: 410.0 MAE: 53.432 RMSE:0.471 MAPE:9.049
+Step: 105 Prediction:445.905 Actual: 428.0 MAE: 53.097 RMSE:0.169 MAPE:9.003
+Step: 106 Prediction:439.434 Actual: 432.0 MAE: 52.67 RMSE:0.069 MAPE:8.935
+Step: 107 Prediction:428.175 Actual: 441.0 MAE: 52.301 RMSE:0.119 MAPE:8.879
+Step: 108 Prediction:421.17 Actual: 422.0 MAE: 51.829 RMSE:0.008 MAPE:8.8
+Step: 109 Prediction:417.736 Actual: 414.0 MAE: 51.392 RMSE:0.034 MAPE:8.728
+Step: 110 Prediction:426.758 Actual: 403.0 MAE: 51.143 RMSE:0.214 MAPE:8.702
+Step: 111 Prediction:443.784 Actual: 397.0 MAE: 51.104 RMSE:0.418 MAPE:8.73
+Step: 112 Prediction:454.979 Actual: 400.0 MAE: 51.138 RMSE:0.487 MAPE:8.774
+Step: 113 Prediction:470.261 Actual: 408.0 MAE: 51.236 RMSE:0.546 MAPE:8.831
+Step: 114 Prediction:473.879 Actual: 401.0 MAE: 51.424 RMSE:0.634 MAPE:8.912
+Step: 115 Prediction:479.483 Actual: 414.0 MAE: 51.545 RMSE:0.565 MAPE:8.972
+Step: 116 Prediction:480.587 Actual: 403.0 MAE: 51.768 RMSE:0.663 MAPE:9.06
+Step: 117 Prediction:485.493 Actual: 414.0 MAE: 51.935 RMSE:0.606 MAPE:9.129
+Step: 118 Prediction:472.229 Actual: 455.0 MAE: 51.643 RMSE:0.145 MAPE:9.085
+Step: 119 Prediction:468.453 Actual: 502.0 MAE: 51.493 RMSE:0.28 MAPE:9.065
+Step: 120 Prediction:878.649 Actual: 870.0 MAE: 51.138 RMSE:0.071 MAPE:8.998
+Step: 121 Prediction:903.292 Actual: 861.0 MAE: 51.066 RMSE:0.347 MAPE:8.964
+Step: 122 Prediction:931.107 Actual: 868.0 MAE: 51.164 RMSE:0.513 MAPE:8.951
+Step: 123 Prediction:963.69 Actual: 905.0 MAE: 51.225 RMSE:0.473 MAPE:8.931
+Step: 124 Prediction:979.032 Actual: 916.0 MAE: 51.319 RMSE:0.504 MAPE:8.914
+Step: 125 Prediction:996.28 Actual: 955.0 MAE: 51.239 RMSE:0.328 MAPE:8.878
+Step: 126 Prediction:1009.65 Actual: 986.0 MAE: 51.022 RMSE:0.186 MAPE:8.827
+Step: 127 Prediction:1008.87 Actual: 1014.0 MAE: 50.664 RMSE:0.04 MAPE:8.762
+Step: 128 Prediction:1024.6 Actual: 981.0 MAE: 50.609 RMSE:0.338 MAPE:8.728
+Step: 129 Prediction:1035.013 Actual: 1035.0 MAE: 50.22 RMSE:0 MAPE:8.661
+Step: 130 Prediction:1050.442 Actual: 1043.0 MAE: 49.893 RMSE:0.057 MAPE:8.601
+Step: 131 Prediction:1059.546 Actual: 1091.0 MAE: 49.753 RMSE:0.238 MAPE:8.557
+Step: 132 Prediction:1071.883 Actual: 1111.0 MAE: 49.673 RMSE:0.294 MAPE:8.519
+Step: 133 Prediction:1073.634 Actual: 1109.0 MAE: 49.567 RMSE:0.264 MAPE:8.48
+Step: 134 Prediction:1078.537 Actual: 1113.0 MAE: 49.455 RMSE:0.255 MAPE:8.44
+Step: 135 Prediction:1085.862 Actual: 1147.0 MAE: 49.541 RMSE:0.45 MAPE:8.417
+Step: 136 Prediction:1090.998 Actual: 1142.0 MAE: 49.551 RMSE:0.372 MAPE:8.388
+Step: 137 Prediction:1093.199 Actual: 1112.0 MAE: 49.329 RMSE:0.136 MAPE:8.339
+Step: 138 Prediction:1084.576 Actual: 1110.0 MAE: 49.157 RMSE:0.183 MAPE:8.296
+Step: 139 Prediction:1088.683 Actual: 1137.0 MAE: 49.151 RMSE:0.345 MAPE:8.267
+Step: 140 Prediction:1083.614 Actual: 1117.0 MAE: 49.039 RMSE:0.237 MAPE:8.23
+Step: 141 Prediction:1083.842 Actual: 1083.0 MAE: 48.699 RMSE:0.006 MAPE:8.172
+Step: 142 Prediction:1077.783 Actual: 1051.0 MAE: 48.546 RMSE:0.187 MAPE:8.133
+Step: 143 Prediction:1063.891 Actual: 1095.0 MAE: 48.425 RMSE:0.216 MAPE:8.096
+Time taken: 18.117
