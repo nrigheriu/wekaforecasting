@@ -1,54 +1,11 @@
 192 191 190 189 188 187 186 185 184 183 182 181 180 179 178 177 176 175 174 173 172 171 170 169 168 167 95 96 94 97 93 166 98 99 165 92 164 100 91 101 102 90 103 163 89 162 104 88 105 161 160 159 152 106 153 151 149 87 154 158 150 157 156 155 107 148 147 108 86 109 146 110 111 112 145 85 113 144 143 1 114 84 142 115 83 116 141 82 117 140
-
 first 45:96,95,94,93,92,91,90,89,88,87,1,86,85,84,83,82,81,80,79,2,78,77,76,3,75,74,4,73,72,5,71,70,63,62,64,61,60,65,68,69,66,6,67,59,58,57
 second 45: 166,167,169,168,170,165,164,163,174,173,171,172,162,161,160,175,159,158,177,157,176,156,155,178,154,153,192,179,180,182,181,152,183,151,191,184,150,190,185,149,189,186,188,187,148,110
-
 all @once:192,191,190,189,188,187,186,185,184,183,182,181,180,179,178,177,176,175,174,173,172,171,170,169,168,167,95,96,94,97,93,166,98,99,165,92,164,100,91,101,102, 90,103,163,89,162,104,88,105,161,160,159,152,106,153,151,149,87,154,158,150,157,156,155,107,148,147,108,86,109,146,110,111,112,145,85,113,144,143,1,114,84,142,115,83,116,141,82,117,140
-
-Contained in separated, not in all@Once: 50
-Contained in separated, not in all@Once:  49
-Contained in separated, not in all@Once:  48
-Contained in separated, not in all@Once:  47
-Contained in separated, not in all@Once:  34
-Contained in separated, not in all@Once:  35
-Contained in separated, not in all@Once:  33
-Contained in separated, not in all@Once:  46
-Contained in separated, not in all@Once:  32
-Contained in separated, not in all@Once:  36
-Contained in separated, not in all@Once:  45
-Contained in separated, not in all@Once:  37
-Contained in separated, not in all@Once:  31
-Contained in separated, not in all@Once:  38
-Contained in separated, not in all@Once:  39
-Contained in separated, not in all@Once:  30
-Contained in separated, not in all@Once:  44
-Contained in separated, not in all@Once:  29
-Contained in separated, not in all@Once:  40
-Contained in @once, not in separated 89
-Contained in @once, not in separated 87
-Contained in @once, not in separated 86
-Contained in @once, not in separated 77
-Contained in @once, not in separated 76
-Contained in @once, not in separated 75
-Contained in @once, not in separated 74
-Contained in @once, not in separated 73
-Contained in @once, not in separated 72
-Contained in @once, not in separated 71
-Contained in @once, not in separated 70
-Contained in @once, not in separated 69
-Contained in @once, not in separated 68
-Contained in @once, not in separated 64
-Contained in @once, not in separated 63
-Contained in @once, not in separated 66
-Contained in @once, not in separated 67
-Contained in @once, not in separated 65
-Contained in @once, not in separated 62
-
 all@once, 90 of 330:
 198,197,199,196,195,200,194,192,201,193,202,191,203,190,204,205,207,288,206,189,289,290,208,287,291,188,209,286,293,292,187,294,210,212,295,285,211,284,186,296,213,283,297,214,215,222,298,221,216,219,282,185,220,223,217,218,224,225,299,281,226,184,227,300,228,229,301,280,303,238,237,230,240,302,239,304,236,235,183,330,241,279,234,305,242,233,232,329,244,243
-
 separated in 3, 90 of 495:
 248, 249, 250, 247, 251, 246, 252, 245, 253, 254, 244, 255, 256, 257, 243, 258, 259, 260, 242, 262, 261, 263, 265, 264, 241, 266, 267, 240, 330, 416, 415, 414, 413, 417, 412, 418, 411, 268, 239, 419, 329, 410, 300, 299, 420, 298, 421, 301, 269, 422, 409, 238, 423, 302, 297, 424, 166, 425, 426, 328, 296, 427, 408, 303, 270, 429, 428, 237, 207, 206, 167, 331, 208, 205, 430, 304, 295, 209, 407, 204, 168, 210, 203, 431, 332, 327, 271, 211, 202, 294
-
 same as above w/reduced training data set:
 250, 249, 251, 252, 248, 253, 247, 254, 246, 255, 245, 256, 257, 258, 244, 259, 260, 262, 261, 263, 265, 243, 264, 266, 242, 267, 301, 300, 268, 241, 302, 299, 303, 298, 269, 304, 240, 297, 208, 207, 206, 166, 330, 305, 209, 205, 296, 210, 270, 204, 239, 167, 329, 211, 203, 212, 271, 306, 295, 213, 202, 168, 328, 238, 201, 294, 272, 214, 169, 200, 327, 307, 293, 215, 273, 170, 237, 199, 326, 171, 292, 274, 172, 216, 236, 325, 308, 198, 291, 173
+Lags now: 1, 2, 3, 4, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50

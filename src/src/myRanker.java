@@ -113,8 +113,6 @@ public class myRanker extends ASSearch implements RankedOutputSearch,
     /** Used to compute the number to select */
     private int m_calculatedNumToSelect = -1;
 
-    /** Set if to rank lags separated in more intervals to reduce ram usage */
-    private boolean m_separately = false;
 
     /**
      * Returns a string describing this search method
@@ -285,18 +283,6 @@ public class myRanker extends ASSearch implements RankedOutputSearch,
     @Override
     public String getStartSet() {
         return m_startRange.getRanges();
-    }
-
-    public void setRankSeparately(boolean separately){
-        if (separately){
-            m_separately = true;
-        }
-        else {
-            m_separately = false;
-        }
-    }
-    public boolean getRankSeparately(){
-        return m_separately;
     }
 
     /**
@@ -478,10 +464,6 @@ public class myRanker extends ASSearch implements RankedOutputSearch,
                 m_hasClass = true;
             }
         }
-        if (m_separately){
-            setStartSet("1-30");
-            System.out.println(getStartSet());
-        }
         m_startRange.setUpper(m_numAttribs - 1);
         if (!(getStartSet().equals(""))) {
             m_starting = m_startRange.getSelection();
@@ -516,13 +498,11 @@ public class myRanker extends ASSearch implements RankedOutputSearch,
         // add in those attributes not in the starting (omit list)
         for (i = 0, j = 0; i < m_numAttribs; i++) {
             if (!inStarting(i)) {
-                System.out.println(m_numAttribs + " i: " + i + " mattrList length: " + m_attributeList.length);
                 m_attributeList[j++] = i;
             }
         }
 
         AttributeEvaluator ASEvaluator = (AttributeEvaluator) ASEval;
-
         for (i = 0; i < m_attributeList.length; i++) {
             m_attributeMerit[i] = ASEvaluator.evaluateAttribute(m_attributeList[i]);
         }

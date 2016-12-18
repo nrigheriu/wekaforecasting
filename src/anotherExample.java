@@ -1,5 +1,7 @@
 import weka.core.Instances;
 import java.io.*;
+import java.util.ArrayList;
+
 import weka.classifiers.functions.LinearRegression;
 import weka.core.converters.ConverterUtils.DataSource;
 import weka.core.Instances;
@@ -13,12 +15,12 @@ public class anotherExample {
 
     public static void main(String[] args) {
         try {
-            Instances airlineData = DataSource.read("/home/cycle/workspace/airline.arff");
-            WekaForecaster forecaster = new WekaForecaster();
-            forecaster.setOptions(Utils.
-                    splitOptions("-F passenger_numbers -G Date -quarter -month -W \"weka.classifiers.meta.AttributeSelectedClassifier -W weka.classifiers.functions.LinearRegression\" -prime 12"));
-            forecaster.buildForecaster(airlineData, System.out);
-            System.out.println(forecaster);
+            ArrayList<Integer> array = new ArrayList<Integer>(3);
+            array.add(2);
+            array.add(3);
+            array.add(4);
+            String asd = array.toString();
+            System.out.println(array.toString().substring(1, array.toString().length()-1));
         } catch (Exception e) {
             e.printStackTrace();
         }

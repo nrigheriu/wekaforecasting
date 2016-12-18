@@ -31,37 +31,29 @@ import weka.core.Option;
 public class normalInput {
     public static void main(String[] args) {
         try {
-            String pathToTrainData = "/home/cycle/workspace/15_min_train.arff";
-            String pathToTestData = "/home/cycle/workspace/15_min_test.arff";
-            String pathPracticeData = "/home/cycle/workspace/tsdata.arff";
             String pathToWholeData = "/home/cycle/workspace/15_min_train+test.arff";
-            PrintWriter resultLog = new PrintWriter(new FileWriter("/home/cycle/workspace/wekaforecasting/new_results.txt", true));
+            String pathToHugeData = "/home/cycle/workspace/26_Load-Austin_15min_20121103-20160924.arff";
 
             // load the data
-            Instances trainData = new Instances(new BufferedReader(new FileReader(pathToTrainData)));
-            Instances testData = new Instances(new BufferedReader(new FileReader(pathToTestData)));
-            Instances practiceData = new Instances(new BufferedReader(new FileReader(pathPracticeData)));
-            Instances trainPractice = new Instances(practiceData, 0, 5);
-            Instances testPractice = new Instances(practiceData, trainPractice.size(), practiceData.size()-trainPractice.size());
             Instances wholeData  = new Instances(new BufferedReader(new FileReader(pathToWholeData)));
+            Instances hugeData = new Instances(new BufferedReader((new FileReader(pathToHugeData))));
 
-            trainData.setClassIndex(trainData.numAttributes()-1);
-            trainPractice.setClassIndex(practiceData.numAttributes()-1);
             wholeData.setClassIndex(wholeData.numAttributes()-1);
+            hugeData.setClassIndex(hugeData.numAttributes()-1);
             //select_Attributes(airlineData);
             //AttributeSelectedClassifier attributeSelectedClassifier = applyMetaClassifier.applyMetaClassifier(airlineData);
             AttributeSelectedClassifier attributeSelectedClassifier2 = new AttributeSelectedClassifier();
 
             LinearRegression linearRegression = new LinearRegression();
-            linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1"));
+            //linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1"));
             MLPRegressor mlpRegressor = new MLPRegressor();
             //mlpRegressor.setOptions(weka.core.Utils.splitOptions("-N 1"));
-            doForecasting.doForecasting(wholeData, resultLog, mlpRegressor);
+            doForecasting.doForecasting(wholeData, applyMetaClassifier.applyMetaClassifier(wholeData));
         } catch (Exception ex) {
             ex.printStackTrace();
         }
     }
-    public static Instances select_Attributes(Instances data){
+    public Instances select_Attributes(Instances data){
         weka.filters.supervised.attribute.AttributeSelection filter = new weka.filters.supervised.attribute.AttributeSelection();
         WrapperSubsetEval eval = new WrapperSubsetEval();
         ReliefFAttributeEval reliefFAttributeEval = new ReliefFAttributeEval();
@@ -83,7 +75,7 @@ public class normalInput {
         }
         return null;
     }
-    public static void returnSelectedAttributes(){
+    public void returnSelectedAttributes(){
              /*AttributeSelection attsel  =new AttributeSelection();
             CfsSubsetEval cfsSubsetEval = new CfsSubsetEval();
             GreedyStepwise search = new GreedyStepwise();
