@@ -1,0 +1,422 @@
+First run: all lags ranked at once, first 90 picked, then run mlpReg on it
+Second run:lags ranked in separate intervals 1-96, 97-192 then combined and only first 90 in hashmap picked, mlp run on them.
+Transformed training data:
+              sum
+              local_15min-remapped
+              Lag_sum-1
+              Lag_sum-82
+              Lag_sum-83
+              Lag_sum-84
+              Lag_sum-85
+              Lag_sum-86
+              Lag_sum-87
+              Lag_sum-88
+              Lag_sum-89
+              Lag_sum-90
+              Lag_sum-91
+              Lag_sum-92
+              Lag_sum-93
+              Lag_sum-94
+              Lag_sum-95
+              Lag_sum-96
+              Lag_sum-97
+              Lag_sum-98
+              Lag_sum-99
+              Lag_sum-100
+              Lag_sum-101
+              Lag_sum-102
+              Lag_sum-103
+              Lag_sum-104
+              Lag_sum-105
+              Lag_sum-106
+              Lag_sum-107
+              Lag_sum-108
+              Lag_sum-109
+              Lag_sum-110
+              Lag_sum-111
+              Lag_sum-112
+              Lag_sum-113
+              Lag_sum-114
+              Lag_sum-115
+              Lag_sum-116
+              Lag_sum-117
+              Lag_sum-140
+              Lag_sum-141
+              Lag_sum-142
+              Lag_sum-143
+              Lag_sum-144
+              Lag_sum-145
+              Lag_sum-146
+              Lag_sum-147
+              Lag_sum-148
+              Lag_sum-149
+              Lag_sum-150
+              Lag_sum-151
+              Lag_sum-152
+              Lag_sum-153
+              Lag_sum-154
+              Lag_sum-155
+              Lag_sum-156
+              Lag_sum-157
+              Lag_sum-158
+              Lag_sum-159
+              Lag_sum-160
+              Lag_sum-161
+              Lag_sum-162
+              Lag_sum-163
+              Lag_sum-164
+              Lag_sum-165
+              Lag_sum-166
+              Lag_sum-167
+              Lag_sum-168
+              Lag_sum-169
+              Lag_sum-170
+              Lag_sum-171
+              Lag_sum-172
+              Lag_sum-173
+              Lag_sum-174
+              Lag_sum-175
+              Lag_sum-176
+              Lag_sum-177
+              Lag_sum-178
+              Lag_sum-179
+              Lag_sum-180
+              Lag_sum-181
+              Lag_sum-182
+              Lag_sum-183
+              Lag_sum-184
+              Lag_sum-185
+              Lag_sum-186
+              Lag_sum-187
+              Lag_sum-188
+              Lag_sum-189
+              Lag_sum-190
+              Lag_sum-191
+              Lag_sum-192
+              local_15min-remapped^2
+              local_15min-remapped^3
+              local_15min-remapped*Lag_sum-1
+              local_15min-remapped*Lag_sum-82
+              local_15min-remapped*Lag_sum-83
+              local_15min-remapped*Lag_sum-84
+              local_15min-remapped*Lag_sum-85
+              local_15min-remapped*Lag_sum-86
+              local_15min-remapped*Lag_sum-87
+              local_15min-remapped*Lag_sum-88
+              local_15min-remapped*Lag_sum-89
+              local_15min-remapped*Lag_sum-90
+              local_15min-remapped*Lag_sum-91
+              local_15min-remapped*Lag_sum-92
+              local_15min-remapped*Lag_sum-93
+              local_15min-remapped*Lag_sum-94
+              local_15min-remapped*Lag_sum-95
+              local_15min-remapped*Lag_sum-96
+              local_15min-remapped*Lag_sum-97
+              local_15min-remapped*Lag_sum-98
+              local_15min-remapped*Lag_sum-99
+              local_15min-remapped*Lag_sum-100
+              local_15min-remapped*Lag_sum-101
+              local_15min-remapped*Lag_sum-102
+              local_15min-remapped*Lag_sum-103
+              local_15min-remapped*Lag_sum-104
+              local_15min-remapped*Lag_sum-105
+              local_15min-remapped*Lag_sum-106
+              local_15min-remapped*Lag_sum-107
+              local_15min-remapped*Lag_sum-108
+              local_15min-remapped*Lag_sum-109
+              local_15min-remapped*Lag_sum-110
+              local_15min-remapped*Lag_sum-111
+              local_15min-remapped*Lag_sum-112
+              local_15min-remapped*Lag_sum-113
+              local_15min-remapped*Lag_sum-114
+              local_15min-remapped*Lag_sum-115
+              local_15min-remapped*Lag_sum-116
+              local_15min-remapped*Lag_sum-117
+              local_15min-remapped*Lag_sum-140
+              local_15min-remapped*Lag_sum-141
+              local_15min-remapped*Lag_sum-142
+              local_15min-remapped*Lag_sum-143
+              local_15min-remapped*Lag_sum-144
+              local_15min-remapped*Lag_sum-145
+              local_15min-remapped*Lag_sum-146
+              local_15min-remapped*Lag_sum-147
+              local_15min-remapped*Lag_sum-148
+              local_15min-remapped*Lag_sum-149
+              local_15min-remapped*Lag_sum-150
+              local_15min-remapped*Lag_sum-151
+              local_15min-remapped*Lag_sum-152
+              local_15min-remapped*Lag_sum-153
+              local_15min-remapped*Lag_sum-154
+              local_15min-remapped*Lag_sum-155
+              local_15min-remapped*Lag_sum-156
+              local_15min-remapped*Lag_sum-157
+              local_15min-remapped*Lag_sum-158
+              local_15min-remapped*Lag_sum-159
+              local_15min-remapped*Lag_sum-160
+              local_15min-remapped*Lag_sum-161
+              local_15min-remapped*Lag_sum-162
+              local_15min-remapped*Lag_sum-163
+              local_15min-remapped*Lag_sum-164
+              local_15min-remapped*Lag_sum-165
+              local_15min-remapped*Lag_sum-166
+              local_15min-remapped*Lag_sum-167
+              local_15min-remapped*Lag_sum-168
+              local_15min-remapped*Lag_sum-169
+              local_15min-remapped*Lag_sum-170
+              local_15min-remapped*Lag_sum-171
+              local_15min-remapped*Lag_sum-172
+              local_15min-remapped*Lag_sum-173
+              local_15min-remapped*Lag_sum-174
+              local_15min-remapped*Lag_sum-175
+              local_15min-remapped*Lag_sum-176
+              local_15min-remapped*Lag_sum-177
+              local_15min-remapped*Lag_sum-178
+              local_15min-remapped*Lag_sum-179
+              local_15min-remapped*Lag_sum-180
+              local_15min-remapped*Lag_sum-181
+              local_15min-remapped*Lag_sum-182
+              local_15min-remapped*Lag_sum-183
+              local_15min-remapped*Lag_sum-184
+              local_15min-remapped*Lag_sum-185
+              local_15min-remapped*Lag_sum-186
+              local_15min-remapped*Lag_sum-187
+              local_15min-remapped*Lag_sum-188
+              local_15min-remapped*Lag_sum-189
+              local_15min-remapped*Lag_sum-190
+              local_15min-remapped*Lag_sum-191
+              local_15min-remapped*Lag_sum-192
+Step: 0 Prediction:491.685 Actual: 476.0 MAE: 15.685 RMSE:15.685 MAPE:3.295
+Step: 1 Prediction:459.147 Actual: 469.0 MAE: 12.769 RMSE:4.927 MAPE:2.698
+Step: 2 Prediction:436.309 Actual: 444.0 MAE: 11.077 RMSE:2.564 MAPE:2.376
+Step: 3 Prediction:413.768 Actual: 443.0 MAE: 15.615 RMSE:7.308 MAPE:3.432
+Step: 4 Prediction:398.684 Actual: 432.0 MAE: 19.156 RMSE:6.663 MAPE:4.288
+Step: 5 Prediction:389.71 Actual: 436.0 MAE: 23.678 RMSE:7.715 MAPE:5.343
+Step: 6 Prediction:378.705 Actual: 424.0 MAE: 26.766 RMSE:6.471 MAPE:6.106
+Step: 7 Prediction:367.589 Actual: 421.0 MAE: 30.097 RMSE:6.676 MAPE:6.928
+Step: 8 Prediction:366.419 Actual: 394.0 MAE: 29.817 RMSE:3.065 MAPE:6.936
+Step: 9 Prediction:359.111 Actual: 395.0 MAE: 30.424 RMSE:3.589 MAPE:7.151
+Step: 10 Prediction:354.662 Actual: 393.0 MAE: 31.144 RMSE:3.485 MAPE:7.388
+Step: 11 Prediction:346.361 Actual: 361.0 MAE: 29.768 RMSE:1.22 MAPE:7.11
+Step: 12 Prediction:336.59 Actual: 350.0 MAE: 28.51 RMSE:1.032 MAPE:6.858
+Step: 13 Prediction:336.146 Actual: 360.0 MAE: 28.178 RMSE:1.704 MAPE:6.841
+Step: 14 Prediction:333.029 Actual: 357.0 MAE: 27.897 RMSE:1.598 MAPE:6.833
+Step: 15 Prediction:333.078 Actual: 363.0 MAE: 28.024 RMSE:1.87 MAPE:6.921
+Step: 16 Prediction:337.765 Actual: 388.0 MAE: 29.33 RMSE:2.955 MAPE:7.276
+Step: 17 Prediction:335.777 Actual: 349.0 MAE: 28.435 RMSE:0.735 MAPE:7.082
+Step: 18 Prediction:337.819 Actual: 335.0 MAE: 27.087 RMSE:0.148 MAPE:6.753
+Step: 19 Prediction:340.677 Actual: 331.0 MAE: 26.217 RMSE:0.484 MAPE:6.562
+Step: 20 Prediction:347.348 Actual: 339.0 MAE: 25.366 RMSE:0.398 MAPE:6.367
+Step: 21 Prediction:342.998 Actual: 368.0 MAE: 25.349 RMSE:1.136 MAPE:6.386
+Step: 22 Prediction:346.541 Actual: 384.0 MAE: 25.876 RMSE:1.629 MAPE:6.533
+Step: 23 Prediction:344.053 Actual: 367.0 MAE: 25.754 RMSE:0.956 MAPE:6.521
+Time taken: 3405
+Transformed training data:
+
+              sum
+              local_15min-remapped
+              Lag_sum-97
+              Lag_sum-105
+              Lag_sum-106
+              Lag_sum-107
+              Lag_sum-108
+              Lag_sum-109
+              Lag_sum-110
+              Lag_sum-111
+              Lag_sum-112
+              Lag_sum-113
+              Lag_sum-114
+              Lag_sum-115
+              Lag_sum-116
+              Lag_sum-117
+              Lag_sum-118
+              Lag_sum-119
+              Lag_sum-120
+              Lag_sum-121
+              Lag_sum-122
+              Lag_sum-123
+              Lag_sum-124
+              Lag_sum-125
+              Lag_sum-126
+              Lag_sum-127
+              Lag_sum-128
+              Lag_sum-129
+              Lag_sum-130
+              Lag_sum-131
+              Lag_sum-132
+              Lag_sum-133
+              Lag_sum-134
+              Lag_sum-135
+              Lag_sum-136
+              Lag_sum-137
+              Lag_sum-138
+              Lag_sum-139
+              Lag_sum-140
+              Lag_sum-141
+              Lag_sum-142
+              Lag_sum-143
+              Lag_sum-144
+              Lag_sum-145
+              Lag_sum-146
+              Lag_sum-147
+              Lag_sum-148
+              Lag_sum-149
+              Lag_sum-150
+              Lag_sum-151
+              Lag_sum-152
+              Lag_sum-153
+              Lag_sum-154
+              Lag_sum-155
+              Lag_sum-156
+              Lag_sum-157
+              Lag_sum-158
+              Lag_sum-159
+              Lag_sum-160
+              Lag_sum-161
+              Lag_sum-162
+              Lag_sum-163
+              Lag_sum-164
+              Lag_sum-165
+              Lag_sum-166
+              Lag_sum-167
+              Lag_sum-168
+              Lag_sum-169
+              Lag_sum-170
+              Lag_sum-171
+              Lag_sum-172
+              Lag_sum-173
+              Lag_sum-174
+              Lag_sum-175
+              Lag_sum-176
+              Lag_sum-177
+              Lag_sum-178
+              Lag_sum-179
+              Lag_sum-180
+              Lag_sum-181
+              Lag_sum-182
+              Lag_sum-183
+              Lag_sum-184
+              Lag_sum-185
+              Lag_sum-186
+              Lag_sum-187
+              Lag_sum-188
+              Lag_sum-189
+              Lag_sum-190
+              Lag_sum-191
+              Lag_sum-192
+              local_15min-remapped^2
+              local_15min-remapped^3
+              local_15min-remapped*Lag_sum-97
+              local_15min-remapped*Lag_sum-105
+              local_15min-remapped*Lag_sum-106
+              local_15min-remapped*Lag_sum-107
+              local_15min-remapped*Lag_sum-108
+              local_15min-remapped*Lag_sum-109
+              local_15min-remapped*Lag_sum-110
+              local_15min-remapped*Lag_sum-111
+              local_15min-remapped*Lag_sum-112
+              local_15min-remapped*Lag_sum-113
+              local_15min-remapped*Lag_sum-114
+              local_15min-remapped*Lag_sum-115
+              local_15min-remapped*Lag_sum-116
+              local_15min-remapped*Lag_sum-117
+              local_15min-remapped*Lag_sum-118
+              local_15min-remapped*Lag_sum-119
+              local_15min-remapped*Lag_sum-120
+              local_15min-remapped*Lag_sum-121
+              local_15min-remapped*Lag_sum-122
+              local_15min-remapped*Lag_sum-123
+              local_15min-remapped*Lag_sum-124
+              local_15min-remapped*Lag_sum-125
+              local_15min-remapped*Lag_sum-126
+              local_15min-remapped*Lag_sum-127
+              local_15min-remapped*Lag_sum-128
+              local_15min-remapped*Lag_sum-129
+              local_15min-remapped*Lag_sum-130
+              local_15min-remapped*Lag_sum-131
+              local_15min-remapped*Lag_sum-132
+              local_15min-remapped*Lag_sum-133
+              local_15min-remapped*Lag_sum-134
+              local_15min-remapped*Lag_sum-135
+              local_15min-remapped*Lag_sum-136
+              local_15min-remapped*Lag_sum-137
+              local_15min-remapped*Lag_sum-138
+              local_15min-remapped*Lag_sum-139
+              local_15min-remapped*Lag_sum-140
+              local_15min-remapped*Lag_sum-141
+              local_15min-remapped*Lag_sum-142
+              local_15min-remapped*Lag_sum-143
+              local_15min-remapped*Lag_sum-144
+              local_15min-remapped*Lag_sum-145
+              local_15min-remapped*Lag_sum-146
+              local_15min-remapped*Lag_sum-147
+              local_15min-remapped*Lag_sum-148
+              local_15min-remapped*Lag_sum-149
+              local_15min-remapped*Lag_sum-150
+              local_15min-remapped*Lag_sum-151
+              local_15min-remapped*Lag_sum-152
+              local_15min-remapped*Lag_sum-153
+              local_15min-remapped*Lag_sum-154
+              local_15min-remapped*Lag_sum-155
+              local_15min-remapped*Lag_sum-156
+              local_15min-remapped*Lag_sum-157
+              local_15min-remapped*Lag_sum-158
+              local_15min-remapped*Lag_sum-159
+              local_15min-remapped*Lag_sum-160
+              local_15min-remapped*Lag_sum-161
+              local_15min-remapped*Lag_sum-162
+              local_15min-remapped*Lag_sum-163
+              local_15min-remapped*Lag_sum-164
+              local_15min-remapped*Lag_sum-165
+              local_15min-remapped*Lag_sum-166
+              local_15min-remapped*Lag_sum-167
+              local_15min-remapped*Lag_sum-168
+              local_15min-remapped*Lag_sum-169
+              local_15min-remapped*Lag_sum-170
+              local_15min-remapped*Lag_sum-171
+              local_15min-remapped*Lag_sum-172
+              local_15min-remapped*Lag_sum-173
+              local_15min-remapped*Lag_sum-174
+              local_15min-remapped*Lag_sum-175
+              local_15min-remapped*Lag_sum-176
+              local_15min-remapped*Lag_sum-177
+              local_15min-remapped*Lag_sum-178
+              local_15min-remapped*Lag_sum-179
+              local_15min-remapped*Lag_sum-180
+              local_15min-remapped*Lag_sum-181
+              local_15min-remapped*Lag_sum-182
+              local_15min-remapped*Lag_sum-183
+              local_15min-remapped*Lag_sum-184
+              local_15min-remapped*Lag_sum-185
+              local_15min-remapped*Lag_sum-186
+              local_15min-remapped*Lag_sum-187
+              local_15min-remapped*Lag_sum-188
+              local_15min-remapped*Lag_sum-189
+              local_15min-remapped*Lag_sum-190
+              local_15min-remapped*Lag_sum-191
+              local_15min-remapped*Lag_sum-192
+
+Step: 0 Prediction:453.906 Actual: 476.0 MAE: 22.094 RMSE:22.094 MAPE:4.642
+Step: 1 Prediction:414.8 Actual: 469.0 MAE: 38.147 RMSE:27.1 MAPE:8.099
+Step: 2 Prediction:358.579 Actual: 444.0 MAE: 53.905 RMSE:28.474 MAPE:11.812
+Step: 3 Prediction:379.61 Actual: 443.0 MAE: 56.276 RMSE:15.848 MAPE:12.437
+Step: 4 Prediction:394.168 Actual: 432.0 MAE: 52.587 RMSE:7.566 MAPE:11.701
+Step: 5 Prediction:373.421 Actual: 436.0 MAE: 54.253 RMSE:10.43 MAPE:12.143
+Step: 6 Prediction:364.153 Actual: 424.0 MAE: 55.052 RMSE:8.55 MAPE:12.425
+Step: 7 Prediction:373.757 Actual: 421.0 MAE: 54.076 RMSE:5.905 MAPE:12.274
+Step: 8 Prediction:360.179 Actual: 394.0 MAE: 51.825 RMSE:3.758 MAPE:11.864
+Step: 9 Prediction:351.756 Actual: 395.0 MAE: 50.967 RMSE:4.324 MAPE:11.773
+Step: 10 Prediction:301.163 Actual: 393.0 MAE: 54.683 RMSE:8.349 MAPE:12.827
+Step: 11 Prediction:271.29 Actual: 361.0 MAE: 57.602 RMSE:7.476 MAPE:13.829
+Step: 12 Prediction:248.934 Actual: 350.0 MAE: 60.945 RMSE:7.774 MAPE:14.986
+Step: 13 Prediction:247.344 Actual: 360.0 MAE: 64.639 RMSE:8.047 MAPE:16.151
+Step: 14 Prediction:254.226 Actual: 357.0 MAE: 67.181 RMSE:6.852 MAPE:16.993
+Step: 15 Prediction:277.716 Actual: 363.0 MAE: 68.312 RMSE:5.33 MAPE:17.4
+Step: 16 Prediction:251.505 Actual: 388.0 MAE: 72.323 RMSE:8.029 MAPE:18.446
+Step: 17 Prediction:250.592 Actual: 349.0 MAE: 73.772 RMSE:5.467 MAPE:18.987
+Step: 18 Prediction:162.657 Actual: 335.0 MAE: 78.96 RMSE:9.071 MAPE:20.696
+Step: 19 Prediction:144.143 Actual: 331.0 MAE: 84.355 RMSE:9.343 MAPE:22.483
+Step: 20 Prediction:156.718 Actual: 339.0 MAE: 89.018 RMSE:8.68 MAPE:23.973
+Step: 21 Prediction:77.954 Actual: 368.0 MAE: 98.156 RMSE:13.184 MAPE:26.466
+Step: 22 Prediction:146.906 Actual: 384.0 MAE: 104.197 RMSE:10.308 MAPE:28
+Step: 23 Prediction:155.763 Actual: 367.0 MAE: 108.657 RMSE:8.802 MAPE:29.232
+Time taken: 22810

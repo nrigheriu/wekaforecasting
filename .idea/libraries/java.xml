@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="java">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/netlib-java-master.zip!/netlib-java-master/generator/src/main/java" />
+      <root url="jar://$USER_HOME$/Downloads/netlib-java-master.zip!/netlib-java-master/legacy/src/main/java" />
+      <root url="jar://$USER_HOME$/Downloads/netlib-java-master.zip!/netlib-java-master/perf/src/main/java" />
+      <root url="jar://$USER_HOME$/Downloads/netlib-java-master.zip!/netlib-java-master/perf/src/test/java" />
+    </SOURCES>
+  </library>
+</component>
