@@ -582,3 +582,11 @@ Step: 69 Prediction:405.034 Actual: 418.0 MAE: 27.553 RMSE:34.283 MAPE:5.206
 Step: 70 Prediction:406.219 Actual: 436.0 MAE: 27.585 RMSE:34.223 MAPE:5.229
 Step: 71 Prediction:404.264 Actual: 456.0 MAE: 27.92 RMSE:34.527 MAPE:5.314
 Time taken: 241.448
+Time taken: 0.746
+Time taken: 6.456
+Time taken: 6.416
+Time taken: 6.469
+Time taken: 6.319
+Time taken: 34.196
+Time taken: 14.937
+Time taken: 14.917

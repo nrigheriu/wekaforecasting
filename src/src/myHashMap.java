@@ -13,16 +13,15 @@ public class myHashMap extends HashMap{
     public myHashMap(){
     }
 
-    public HashMap<Integer, Float> fillUpHashMap(WekaForecaster forecaster, int featureNumber, HashMap<Integer, Float> map){
-        String forecasterResult = String.valueOf(forecaster);
+    public HashMap<Integer, Float> fillUpHashMap(String result, int featureNumber, HashMap<Integer, Float> map, String laggedFields){
         String features = new String();
         String lag_no = new String();
         String lagRankingVal = new String();
 
-        int lineWhereRankingStarts = forecasterResult.indexOf("Ranked attributes:");
+        int lineWhereRankingStarts = result.indexOf("Ranked attributes:");
         if(lineWhereRankingStarts >= 0) {
             BufferedReader rankedPart = new BufferedReader(
-                    new StringReader(forecasterResult.substring(lineWhereRankingStarts + 19, forecasterResult.length())));
+                    new StringReader(result.substring(lineWhereRankingStarts + 19, result.length())));
             String line = null;
             int i = 0;
             while (i < featureNumber) {
@@ -31,7 +30,7 @@ public class myHashMap extends HashMap{
                     if (line != null && !line.contains("Selected attributes:")) {
                         lag_no = "";
                         lagRankingVal = "";
-                        if (line.contains("Lag_sum")) {
+                        if (line.contains("Lag_" + laggedFields)) {
                             lagRankingVal += line.substring(0, 10);
                             lag_no += line.substring(line.length() - 3, line.length()).replaceAll("[^0-9]", " ");
                             lag_no = lag_no.replaceAll("\\s", "");
@@ -54,7 +53,7 @@ public class myHashMap extends HashMap{
         }
         return null;
     }
-    public LinkedHashMap<Integer, Float> sortHashMapByValues(HashMap<Integer, Float> passedMap) {
+    public static LinkedHashMap<Integer, Float> sortHashMapByValues(HashMap<Integer, Float> passedMap) {
         List<Integer> mapKeys = new ArrayList<>(passedMap.keySet());
         List<Float> mapValues = new ArrayList<>(passedMap.values());
         Collections.sort(mapValues);
@@ -77,7 +76,7 @@ public class myHashMap extends HashMap{
                 }
             }
         }
-        this.map = sortedMap;
+        map = sortedMap;
         return sortedMap;
     }
     public static void printHashMapFeatures(HashMap<Integer, Float> map, int featureNumber){

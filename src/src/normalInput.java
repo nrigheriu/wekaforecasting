@@ -48,7 +48,7 @@ public class normalInput {
             //linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1"));
             MLPRegressor mlpRegressor = new MLPRegressor();
             //mlpRegressor.setOptions(weka.core.Utils.splitOptions("-N 1"));
-            doForecasting.doForecasting(wholeData, applyMetaClassifier.applyMetaClassifier(wholeData));
+            doForecasting.doForecasting(wholeData, mlpRegressor);
         } catch (Exception ex) {
             ex.printStackTrace();
         }

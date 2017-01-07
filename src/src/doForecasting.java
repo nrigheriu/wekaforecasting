@@ -1,11 +1,16 @@
 package src;
 
 import com.sun.org.apache.xpath.internal.SourceTree;
+import weka.attributeSelection.Ranker;
+import weka.attributeSelection.ReliefFAttributeEval;
 import weka.classifiers.Classifier;
 import weka.classifiers.evaluation.NumericPrediction;
 import weka.classifiers.timeseries.WekaForecaster;
 import weka.classifiers.functions.*;
 import weka.core.Instances;
+import weka.core.Utils;
+import weka.filters.supervised.attribute.AttributeSelection;
+import weka.filters.supervised.attribute.TSLagMaker;
 
 import java.io.*;
 import java.text.DecimalFormat;
@@ -22,37 +27,22 @@ public class doForecasting {
 
     public static void doForecasting(Instances data, Classifier classifier){
         try {
-            PrintWriter resultLog = new PrintWriter(new FileWriter("/home/cycle/workspace/wekaforecasting/results.txt", true));
+            PrintWriter resultLog = new PrintWriter(new FileWriter("/home/cycle/workspace/wekaforecasting-new-features/results.txt", true));
 
             long startTime = System.currentTimeMillis();
             WekaForecaster forecaster = new WekaForecaster();
-            forecaster.getTSLagMaker().setTimeStampField(data.attribute(0).name()); // date time stamp
-            forecaster.setFieldsToForecast(data.attribute(1).name());
-            //forecaster.setOverlayFields(data.attribute(2).name());
-            forecaster.setBaseForecaster(classifier);
-            forecaster.getTSLagMaker().setIncludePowersOfTime(true);
-            forecaster.getTSLagMaker().setIncludeTimeLagProducts(false);
-
+            myHashMap hashMap = new myHashMap();
+            for (int i = 1; i < 120; i+=48) {
+                hashMap.fillUpHashMap(applyFilterClassifier.applyFilterClassifier(data, i, i+47), 4, hashMap, data.attribute(1).name());
+            }
+            myHashMap.sortHashMapByValues(hashMap);
+            myHashMap.printHashMapFeatures(hashMap, 100);
             //crossValidateTS(data, forecaster);
-
-            int featureNumber = 50;
-            myHashMap myMap = new myHashMap();
-            rankerWrapper rankerWrapperObj = new rankerWrapper();
-            Float[] percentFeaturesToGetFromInterval = rankerWrapperObj.getPercentagesForIntervals(forecaster, data, resultLog);
-            ArrayList<ArrayList<Integer>> featureListForIntevals = rankerWrapperObj.featureListForIntevals;
-            ArrayList<Integer> selectedFeatures = rankerWrapperObj.populateSelectedFeatures(featureListForIntevals, percentFeaturesToGetFromInterval, 10);
-
-            forecaster.setBaseForecaster(new MLPRegressor());                 //running classifier on attributes ranked by rankedWrapper
-            forecaster.getTSLagMaker().setMinLag(1);
-            forecaster.getTSLagMaker().setMaxLag(780);
-            resultLog.println(selectedFeatures.toString());
-            forecaster.getTSLagMaker().setLagRange(selectedFeatures.toString().substring(1, selectedFeatures.toString().length()-1));
-            crossValidateTS(data, forecaster);
             //map = fillUpHashMap(forecaster, featureNumber, map);
             //sortHashMapByValues(map);
             //printHashMapFeatures(map, featureNumber);
 
-            resultLog.println(forecaster);
+            //resultLog.println(forecaster);
             calculateErrors(resultLog, true);
 
             long stopTime = System.currentTimeMillis();
@@ -159,3 +149,25 @@ public class doForecasting {
 
 //forecaster.getTSLagMaker().setAddDayOfWeek(true);
 //forecaster.getTSLagMaker().setAddMonthOfYear(true);
+
+/*     forecaster.getTSLagMaker().setTimeStampField(data.attribute(0).name()); // date time stamp
+            forecaster.setFieldsToForecast(data.attribute(1).name());
+            //forecaster.setOverlayFields(data.attribute(2).name());
+            forecaster.setBaseForecaster(classifier);
+            forecaster.getTSLagMaker().setIncludePowersOfTime(true);
+            forecaster.getTSLagMaker().setIncludeTimeLagProducts(false);
+
+            //crossValidateTS(data, forecaster);
+
+            int featureNumber = 50;
+            myHashMap myMap = new myHashMap();
+            rankerWrapper rankerWrapperObj = new rankerWrapper();
+            Float[] percentFeaturesToGetFromInterval = rankerWrapperObj.getPercentagesForIntervals(forecaster, data, resultLog);
+            ArrayList<ArrayList<Integer>> featureListForIntevals = rankerWrapperObj.featureListForIntevals;
+            ArrayList<Integer> selectedFeatures = rankerWrapperObj.populateSelectedFeatures(featureListForIntevals, percentFeaturesToGetFromInterval, 10);
+
+            forecaster.setBaseForecaster(new MLPRegressor());                 //running classifier on attributes ranked by rankedWrapper
+            forecaster.getTSLagMaker().setMinLag(1);
+            forecaster.getTSLagMaker().setMaxLag(780);
+            resultLog.println(selectedFeatures.toString());
+            forecaster.getTSLagMaker().setLagRange(selectedFeatures.toString().substring(1, selectedFeatures.toString().length()-1)); */
