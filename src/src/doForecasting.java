@@ -32,18 +32,25 @@ public class doForecasting {
             long startTime = System.currentTimeMillis();
             WekaForecaster forecaster = new WekaForecaster();
             myHashMap hashMap = new myHashMap();
-            for (int i = 1; i < 120; i+=48) {
-                hashMap.fillUpHashMap(applyFilterClassifier.applyFilterClassifier(data, i, i+47), 4, hashMap, data.attribute(1).name());
+            for (int i = 1; i < 1344; i+=1344) {
+                hashMap.fillUpHashMap(applyFilterClassifier.applyFilterClassifier(data, i, i+1000), 4, hashMap, data.attribute(1).name());
             }
             myHashMap.sortHashMapByValues(hashMap);
-            myHashMap.printHashMapFeatures(hashMap, 100);
-            //crossValidateTS(data, forecaster);
-            //map = fillUpHashMap(forecaster, featureNumber, map);
-            //sortHashMapByValues(map);
-            //printHashMapFeatures(map, featureNumber);
+            String chosenLags = myHashMap.printHashMapFeatures(hashMap, 78);
 
-            //resultLog.println(forecaster);
+            MLPRegressor mlpRegressor = new MLPRegressor();
+            forecaster.setBaseForecaster(mlpRegressor);
+            forecaster.getTSLagMaker().setIncludePowersOfTime(true);
+            forecaster.getTSLagMaker().setIncludeTimeLagProducts(false);
+            forecaster.getTSLagMaker().setMinLag(1);
+            forecaster.getTSLagMaker().setMaxLag(1344);
+
+            forecaster.setFieldsToForecast(data.attribute(1).name());
+            forecaster.getTSLagMaker().setTimeStampField(data.attribute(0).name());
+            forecaster.getTSLagMaker().setLagRange(chosenLags.substring(0, chosenLags.length()-2));
+            crossValidateTS(data, forecaster);
             calculateErrors(resultLog, true);
+            resultLog.println(forecaster);
 
             long stopTime = System.currentTimeMillis();
             double elapsedTime = ((double) stopTime - startTime)/1000;

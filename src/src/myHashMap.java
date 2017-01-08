@@ -31,8 +31,8 @@ public class myHashMap extends HashMap{
                         lag_no = "";
                         lagRankingVal = "";
                         if (line.contains("Lag_" + laggedFields)) {
-                            lagRankingVal += line.substring(0, 10);
-                            lag_no += line.substring(line.length() - 3, line.length()).replaceAll("[^0-9]", " ");
+                            lagRankingVal += line.substring(0, 6);
+                            lag_no += line.substring(line.length() - 4, line.length()).replaceAll("[^0-9]", " ");
                             lag_no = lag_no.replaceAll("\\s", "");
                             if (!features.contains(lag_no)) {
                                 features += lag_no + ",";
@@ -79,17 +79,20 @@ public class myHashMap extends HashMap{
         map = sortedMap;
         return sortedMap;
     }
-    public static void printHashMapFeatures(HashMap<Integer, Float> map, int featureNumber){
+    public static String printHashMapFeatures(HashMap<Integer, Float> map, int featureNumber){
         Set<Integer> mapKeys = map.keySet();
         String combinedFeatures = "";
+        String lags = "";
         int j = 1;
         for(Integer key:mapKeys){
             if(j > featureNumber)
                 break;
             combinedFeatures += String.valueOf(key) + " value: " + map.get(key) + "\n";
+            lags += String.valueOf(key) + ", ";
             j++;
         }
         System.out.println("HashMapFeatures: " + combinedFeatures);
+        return lags;
     }
 }
 
