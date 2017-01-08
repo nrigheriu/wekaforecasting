@@ -31,8 +31,8 @@ import weka.core.Option;
 public class normalInput {
     public static void main(String[] args) {
         try {
-            String pathToWholeData = "/home/cycle/workspace/15_min_train+test.arff";
-            String pathToHugeData = "/home/cycle/workspace/26_Load-Austin_15min_20121103-20160924.arff";
+            String pathToWholeData = "/afs/tu-berlin.de/home/n/n_righeriu/irb-ubuntu/workspace/15_min_train+test.arff";
+            String pathToHugeData = "/afs/tu-berlin.de/home/n/n_righeriu/irb-ubuntu/workspace/26_Load-Austin_15min_20121103-20160924.arff";
 
             // load the data
             Instances wholeData  = new Instances(new BufferedReader(new FileReader(pathToWholeData)));

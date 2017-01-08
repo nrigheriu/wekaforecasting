@@ -27,7 +27,7 @@ public class doForecasting {
 
     public static void doForecasting(Instances data, Classifier classifier){
         try {
-            PrintWriter resultLog = new PrintWriter(new FileWriter("/home/cycle/workspace/wekaforecasting-new-features/results.txt", true));
+            PrintWriter resultLog = new PrintWriter(new FileWriter("/afs/tu-berlin.de/home/n/n_righeriu/irb-ubuntu/workspace/results.txt", true));
 
             long startTime = System.currentTimeMillis();
             WekaForecaster forecaster = new WekaForecaster();
