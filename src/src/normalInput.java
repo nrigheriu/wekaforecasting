@@ -32,7 +32,7 @@ public class normalInput {
     public static void main(String[] args) {
         try {
             String pathToWholeData = "/home/cycle/workspace/15_min_train+test.arff";
-            String pathToHugeData = "/home/cycle/workspace/26_Load-Austin_15min_20121103-20160924.arff";
+            String pathToHugeData = "/home/cycle/workspace/3months_weather.arff";
 
             // load the data
             Instances wholeData  = new Instances(new BufferedReader(new FileReader(pathToWholeData)));
@@ -48,7 +48,7 @@ public class normalInput {
             //linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1"));
             MLPRegressor mlpRegressor = new MLPRegressor();
             //mlpRegressor.setOptions(weka.core.Utils.splitOptions("-N 1"));
-            doForecasting.doForecasting(wholeData, mlpRegressor);
+            doForecasting.doForecasting(hugeData, mlpRegressor);
         } catch (Exception ex) {
             ex.printStackTrace();
         }

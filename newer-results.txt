@@ -1,0 +1,406 @@
+Step: 0 Prediction:0.336 Actual: 0.81 MAE: 0.474 RMSE:0.474 MAPE:58.537
+Step: 1 Prediction:0.336 Actual: 0.47 MAE: 0.304 RMSE:0.348 MAPE:43.54
+Step: 2 Prediction:0.336 Actual: 0.39 MAE: 0.221 RMSE:0.286 MAPE:33.655
+Step: 3 Prediction:0.336 Actual: 0.32 MAE: 0.17 RMSE:0.248 MAPE:26.479
+Step: 4 Prediction:0.336 Actual: 0.39 MAE: 0.146 RMSE:0.223 MAPE:23.961
+Step: 5 Prediction:0.338 Actual: 0.4 MAE: 0.132 RMSE:0.205 MAPE:22.55
+Step: 6 Prediction:0.609 Actual: 0.35 MAE: 0.15 RMSE:0.214 MAPE:29.893
+Step: 7 Prediction:0.363 Actual: 0.34 MAE: 0.135 RMSE:0.2 MAPE:26.995
+Step: 8 Prediction:0.595 Actual: 0.26 MAE: 0.157 RMSE:0.219 MAPE:38.292
+Step: 9 Prediction:0.336 Actual: 0.31 MAE: 0.144 RMSE:0.208 MAPE:35.297
+Step: 10 Prediction:0.336 Actual: 0.36 MAE: 0.133 RMSE:0.199 MAPE:32.698
+Step: 11 Prediction:0.336 Actual: 0.37 MAE: 0.125 RMSE:0.19 MAPE:30.742
+Step: 12 Prediction:0.609 Actual: 0.36 MAE: 0.134 RMSE:0.195 MAPE:33.696
+Step: 13 Prediction:0.336 Actual: 0.41 MAE: 0.13 RMSE:0.189 MAPE:32.581
+Step: 14 Prediction:0.607 Actual: 0.54 MAE: 0.126 RMSE:0.184 MAPE:31.231
+Step: 15 Prediction:0.336 Actual: 0.62 MAE: 0.136 RMSE:0.192 MAPE:32.143
+Step: 16 Prediction:0.336 Actual: 0.54 MAE: 0.14 RMSE:0.192 MAPE:32.475
+Step: 17 Prediction:0.336 Actual: 0.69 MAE: 0.151 RMSE:0.205 MAPE:33.522
+Step: 18 Prediction:0.337 Actual: 0.6 MAE: 0.157 RMSE:0.208 MAPE:34.069
+Step: 19 Prediction:0.336 Actual: 0.58 MAE: 0.162 RMSE:0.21 MAPE:34.47
+Step: 20 Prediction:0.336 Actual: 0.65 MAE: 0.169 RMSE:0.216 MAPE:35.13
+Step: 21 Prediction:0.732 Actual: 0.54 MAE: 0.17 RMSE:0.215 MAPE:35.148
+Step: 22 Prediction:0.336 Actual: 0.27 MAE: 0.165 RMSE:0.211 MAPE:34.681
+Step: 23 Prediction:0.336 Actual: 0.25 MAE: 0.162 RMSE:0.207 MAPE:34.669
+Step: 24 Prediction:0.34 Actual: 0.3 MAE: 0.157 RMSE:0.203 MAPE:33.811
+Step: 25 Prediction:0.34 Actual: 0.27 MAE: 0.154 RMSE:0.2 MAPE:33.503
+Step: 26 Prediction:0.34 Actual: 0.37 MAE: 0.149 RMSE:0.196 MAPE:32.566
+Step: 27 Prediction:0.403 Actual: 0.42 MAE: 0.145 RMSE:0.193 MAPE:31.551
+Step: 28 Prediction:0.609 Actual: 0.36 MAE: 0.148 RMSE:0.195 MAPE:32.844
+Step: 29 Prediction:0.609 Actual: 0.31 MAE: 0.153 RMSE:0.199 MAPE:34.961
+Step: 30 Prediction:0.355 Actual: 0.31 MAE: 0.15 RMSE:0.196 MAPE:34.304
+Step: 31 Prediction:0.34 Actual: 0.4 MAE: 0.147 RMSE:0.193 MAPE:33.703
+Step: 32 Prediction:0.34 Actual: 0.35 MAE: 0.143 RMSE:0.19 MAPE:32.771
+Step: 33 Prediction:0.491 Actual: 0.25 MAE: 0.146 RMSE:0.192 MAPE:34.641
+Step: 34 Prediction:0.34 Actual: 0.23 MAE: 0.145 RMSE:0.19 MAPE:35.014
+Step: 35 Prediction:0.733 Actual: 0.31 MAE: 0.152 RMSE:0.2 MAPE:37.828
+Step: 36 Prediction:0.816 Actual: 0.42 MAE: 0.159 RMSE:0.208 MAPE:39.352
+Step: 37 Prediction:0.34 Actual: 0.38 MAE: 0.156 RMSE:0.205 MAPE:38.596
+Step: 38 Prediction:0.34 Actual: 0.32 MAE: 0.152 RMSE:0.203 MAPE:37.764
+Step: 39 Prediction:0.34 Actual: 0.29 MAE: 0.15 RMSE:0.2 MAPE:37.248
+Step: 40 Prediction:0.34 Actual: 0.24 MAE: 0.149 RMSE:0.198 MAPE:37.352
+Step: 41 Prediction:0.34 Actual: 0.3 MAE: 0.146 RMSE:0.196 MAPE:36.778
+Step: 42 Prediction:0.34 Actual: 0.33 MAE: 0.143 RMSE:0.194 MAPE:35.99
+Step: 43 Prediction:0.34 Actual: 0.35 MAE: 0.14 RMSE:0.192 MAPE:35.24
+Step: 44 Prediction:0.351 Actual: 0.34 MAE: 0.137 RMSE:0.19 MAPE:34.531
+Step: 45 Prediction:0.816 Actual: 0.35 MAE: 0.144 RMSE:0.2 MAPE:36.673
+Step: 46 Prediction:0.34 Actual: 0.46 MAE: 0.144 RMSE:0.198 MAPE:36.449
+Step: 47 Prediction:0.34 Actual: 0.67 MAE: 0.147 RMSE:0.202 MAPE:36.717
+Step: 48 Prediction:0.36 Actual: 0.3 MAE: 0.146 RMSE:0.2 MAPE:36.376
+Step: 49 Prediction:0.36 Actual: 1.91 MAE: 0.174 RMSE:0.295 MAPE:37.272
+Step: 50 Prediction:0.36 Actual: 3.14 MAE: 0.225 RMSE:0.487 MAPE:38.277
+Step: 51 Prediction:0.36 Actual: 2.16 MAE: 0.255 RMSE:0.543 MAPE:39.144
+Step: 52 Prediction:0.36 Actual: 0.29 MAE: 0.252 RMSE:0.538 MAPE:38.86
+Step: 53 Prediction:0.36 Actual: 0.35 MAE: 0.247 RMSE:0.533 MAPE:38.192
+Step: 54 Prediction:0.363 Actual: 0.27 MAE: 0.244 RMSE:0.528 MAPE:38.123
+Step: 55 Prediction:0.384 Actual: 0.27 MAE: 0.242 RMSE:0.524 MAPE:38.194
+Step: 56 Prediction:1.073 Actual: 2.73 MAE: 0.267 RMSE:0.564 MAPE:38.589
+Step: 57 Prediction:1.2 Actual: 3.1 MAE: 0.295 RMSE:0.612 MAPE:38.98
+Step: 58 Prediction:1.191 Actual: 3.2 MAE: 0.324 RMSE:0.661 MAPE:39.384
+Step: 59 Prediction:1.2 Actual: 3.45 MAE: 0.356 RMSE:0.717 MAPE:39.814
+Step: 60 Prediction:1.2 Actual: 1.35 MAE: 0.353 RMSE:0.711 MAPE:39.344
+Step: 61 Prediction:0.932 Actual: 0.7 MAE: 0.351 RMSE:0.706 MAPE:39.243
+Step: 62 Prediction:0.936 Actual: 0.57 MAE: 0.351 RMSE:0.702 MAPE:39.638
+Step: 63 Prediction:1.2 Actual: 0.61 MAE: 0.355 RMSE:0.7 MAPE:40.529
+Step: 64 Prediction:1.2 Actual: 0.8 MAE: 0.356 RMSE:0.696 MAPE:40.675
+Step: 65 Prediction:1.2 Actual: 1.08 MAE: 0.352 RMSE:0.691 MAPE:40.227
+Step: 66 Prediction:1.2 Actual: 3.42 MAE: 0.38 RMSE:0.738 MAPE:40.596
+Step: 67 Prediction:1.2 Actual: 3.69 MAE: 0.411 RMSE:0.792 MAPE:40.991
+Step: 68 Prediction:1.2 Actual: 3.24 MAE: 0.434 RMSE:0.824 MAPE:41.309
+Step: 69 Prediction:1.2 Actual: 0.95 MAE: 0.432 RMSE:0.819 MAPE:41.095
+Step: 70 Prediction:1.2 Actual: 0.86 MAE: 0.431 RMSE:0.814 MAPE:41.074
+Step: 71 Prediction:1.2 Actual: 0.68 MAE: 0.432 RMSE:0.81 MAPE:41.566
+Transformed training data:
+
+              active_power
+              local_time-remapped
+              Lag_active_power-31
+              Lag_active_power-39
+              Lag_active_power-47
+              Lag_active_power-48
+              Lag_active_power-93
+              Lag_active_power-94
+              Lag_active_power-95
+              Lag_active_power-96
+              Lag_active_power-141
+              Lag_active_power-142
+              Lag_active_power-143
+              Lag_active_power-144
+              Lag_active_power-145
+              Lag_active_power-190
+              Lag_active_power-191
+              Lag_active_power-192
+              Lag_active_power-193
+              Lag_active_power-194
+              Lag_active_power-287
+              Lag_active_power-288
+              Lag_active_power-333
+              Lag_active_power-334
+              Lag_active_power-335
+              Lag_active_power-336
+              Lag_active_power-381
+              Lag_active_power-382
+              Lag_active_power-383
+              Lag_active_power-384
+              Lag_active_power-429
+              Lag_active_power-430
+              Lag_active_power-431
+              Lag_active_power-432
+              Lag_active_power-477
+              Lag_active_power-478
+              Lag_active_power-479
+              Lag_active_power-480
+              Lag_active_power-526
+              Lag_active_power-527
+              Lag_active_power-528
+              Lag_active_power-556
+              Lag_active_power-557
+              Lag_active_power-558
+              Lag_active_power-559
+              Lag_active_power-601
+              Lag_active_power-602
+              Lag_active_power-603
+              Lag_active_power-624
+              Lag_active_power-652
+              Lag_active_power-653
+              Lag_active_power-654
+              Lag_active_power-655
+              Lag_active_power-700
+              Lag_active_power-701
+              Lag_active_power-702
+              Lag_active_power-703
+              Lag_active_power-744
+              Lag_active_power-745
+              Lag_active_power-746
+              Lag_active_power-779
+              Lag_active_power-793
+              Lag_active_power-794
+              Lag_active_power-795
+              Lag_active_power-827
+              Lag_active_power-840
+              Lag_active_power-841
+              Lag_active_power-842
+              Lag_active_power-891
+              Lag_active_power-892
+              Lag_active_power-893
+              Lag_active_power-894
+              Lag_active_power-936
+              Lag_active_power-937
+              Lag_active_power-938
+              Lag_active_power-939
+              Lag_active_power-984
+              Lag_active_power-985
+              Lag_active_power-986
+              Lag_active_power-987
+              Lag_active_power-1033
+              Lag_active_power-1034
+              Lag_active_power-1067
+              Lag_active_power-1080
+              Lag_active_power-1081
+              Lag_active_power-1082
+              Lag_active_power-1115
+              Lag_active_power-1128
+              Lag_active_power-1129
+              Lag_active_power-1130
+              Lag_active_power-1176
+              Lag_active_power-1177
+              Lag_active_power-1178
+              Lag_active_power-1179
+              Lag_active_power-1210
+              Lag_active_power-1211
+              Lag_active_power-1212
+              Lag_active_power-1213
+              Lag_active_power-1306
+              Lag_active_power-1307
+              Lag_active_power-1308
+              Lag_active_power-1309
+              local_time-remapped^2
+              local_time-remapped^3
+
+active_power:
+MPRegressor with ridge value 0.01 and 2 hidden units (useCGD=false)
+
+Output unit 0 weight for hidden unit 0: -0.5780994530271103
+
+Hidden unit 0 weights:
+
+16.59193304731862 local_time-remapped
+0.9807064742762276 Lag_active_power-31
+-0.15590490323493997 Lag_active_power-39
+-1.2860052780524205 Lag_active_power-47
+-2.553237699680062 Lag_active_power-48
+-1.2022921409923395 Lag_active_power-93
+-3.945470762695028 Lag_active_power-94
+-4.880140194006947 Lag_active_power-95
+4.5364071391491505 Lag_active_power-96
+-1.3288587004934762 Lag_active_power-141
+-1.4347464999532307 Lag_active_power-142
+-1.2126594467727934 Lag_active_power-143
+-0.0815345786821721 Lag_active_power-144
+2.2790106685597955 Lag_active_power-145
+-2.526063370012816 Lag_active_power-190
+0.022984903926251528 Lag_active_power-191
+-2.337698810939878 Lag_active_power-192
+2.541231882603716 Lag_active_power-193
+1.1912295597491713 Lag_active_power-194
+5.3741367445495225 Lag_active_power-287
+0.977305067811631 Lag_active_power-288
+-0.9637913330354767 Lag_active_power-333
+-2.559697924718912 Lag_active_power-334
+-1.4279205333056832 Lag_active_power-335
+1.522279195387689 Lag_active_power-336
+1.1859182132012465 Lag_active_power-381
+-0.7834587062833815 Lag_active_power-382
+1.158259589497609 Lag_active_power-383
+0.8230398875152084 Lag_active_power-384
+4.47833176716587 Lag_active_power-429
+-2.476125317090281 Lag_active_power-430
+0.7217721080246877 Lag_active_power-431
+0.3230705995230373 Lag_active_power-432
+0.014777415176882998 Lag_active_power-477
+-0.02097142344869437 Lag_active_power-478
+-0.5266481231019353 Lag_active_power-479
+-4.3268098837198 Lag_active_power-480
+5.123856973085064 Lag_active_power-526
+2.23987287870702 Lag_active_power-527
+1.5532485657650255 Lag_active_power-528
+-0.4339317884657832 Lag_active_power-556
+-0.7134523519872149 Lag_active_power-557
+0.3232502733702985 Lag_active_power-558
+-2.2310903635335344 Lag_active_power-559
+2.891943103978383 Lag_active_power-601
+2.5691916876935506 Lag_active_power-602
+1.454231935947712 Lag_active_power-603
+-0.6158423243938794 Lag_active_power-624
+-3.146282094976284 Lag_active_power-652
+-2.1000143834357914 Lag_active_power-653
+1.452459595809857 Lag_active_power-654
+2.1713461015960065 Lag_active_power-655
+-0.3314055066449311 Lag_active_power-700
+-1.4418593851419648 Lag_active_power-701
+-1.7611637497375614 Lag_active_power-702
+3.2353580894630105 Lag_active_power-703
+-1.8825522549631897 Lag_active_power-744
+0.08422432245307918 Lag_active_power-745
+0.3227928806030809 Lag_active_power-746
+-5.293644909089822 Lag_active_power-779
+-0.6821689917003476 Lag_active_power-793
+2.6374980790247737 Lag_active_power-794
+1.2321095120479073 Lag_active_power-795
+1.8154837029441506 Lag_active_power-827
+1.3150935411106164 Lag_active_power-840
+0.22216388960133654 Lag_active_power-841
+2.3653621438982624 Lag_active_power-842
+2.618525440128099 Lag_active_power-891
+-2.4874495185971686 Lag_active_power-892
+-1.411032998823706 Lag_active_power-893
+3.967994919585348 Lag_active_power-894
+0.8966473709006527 Lag_active_power-936
+-0.18402122699920676 Lag_active_power-937
+0.4645139281584597 Lag_active_power-938
+-1.891221638008752 Lag_active_power-939
+0.5471939840348734 Lag_active_power-984
+-1.058769333591489 Lag_active_power-985
+0.48095069866397966 Lag_active_power-986
+0.4898134465502703 Lag_active_power-987
+-0.2612264550898033 Lag_active_power-1033
+1.575809611061286 Lag_active_power-1034
+2.2219245733993382 Lag_active_power-1067
+0.04029661473439748 Lag_active_power-1080
+0.7515079409193023 Lag_active_power-1081
+2.294060867134338 Lag_active_power-1082
+-0.49167803406078675 Lag_active_power-1115
+-0.94759495862179 Lag_active_power-1128
+0.4034789538716415 Lag_active_power-1129
+0.034844887995439076 Lag_active_power-1130
+-1.9791565569416218 Lag_active_power-1176
+-0.5395589244685964 Lag_active_power-1177
+1.6474268519900241 Lag_active_power-1178
+-2.2722550398240005 Lag_active_power-1179
+0.0017116828030236321 Lag_active_power-1210
+1.155089688151707 Lag_active_power-1211
+-0.9995714587742659 Lag_active_power-1212
+-2.29755214692188 Lag_active_power-1213
+-1.6626239240457126 Lag_active_power-1306
+0.45075694599206906 Lag_active_power-1307
+0.3551674008910387 Lag_active_power-1308
+0.41589819104760184 Lag_active_power-1309
+-7.141881440985885 local_time-remapped^2
+-5.974223157664997 local_time-remapped^3
+
+Hidden unit 0 bias: 12.655626173156454
+
+Output unit 0 weight for hidden unit 1: -1.2300931490393479
+
+Hidden unit 1 weights:
+
+9.559714327163283 local_time-remapped
+0.39210146336035834 Lag_active_power-31
+-0.7956823070729429 Lag_active_power-39
+0.0827288422796212 Lag_active_power-47
+0.3098700945417627 Lag_active_power-48
+-1.9560308919638216 Lag_active_power-93
+0.3640947791656424 Lag_active_power-94
+-1.1319800807077127 Lag_active_power-95
+-9.58174900606631 Lag_active_power-96
+-1.2805131590769236 Lag_active_power-141
+0.6052437882365865 Lag_active_power-142
+1.4479817286484151 Lag_active_power-143
+2.2669707916911275 Lag_active_power-144
+-0.16258582146978712 Lag_active_power-145
+2.5614103466338434 Lag_active_power-190
+-0.6139942133542304 Lag_active_power-191
+0.009537260837021383 Lag_active_power-192
+-2.884047088165651 Lag_active_power-193
+-0.48593109993322325 Lag_active_power-194
+-1.9315893377223625 Lag_active_power-287
+-0.7846225491674642 Lag_active_power-288
+-0.10594685728540874 Lag_active_power-333
+2.148406854273703 Lag_active_power-334
+2.0123441589844324 Lag_active_power-335
+1.1497671922090158 Lag_active_power-336
+-2.323413106948505 Lag_active_power-381
+3.309391880213141 Lag_active_power-382
+-2.99191521152898 Lag_active_power-383
+0.5410786997589828 Lag_active_power-384
+-1.7379465253381379 Lag_active_power-429
+2.1453270100096167 Lag_active_power-430
+-2.3222185167906786 Lag_active_power-431
+5.780206979797415 Lag_active_power-432
+-1.5055069933164615 Lag_active_power-477
+-1.5613111550657297 Lag_active_power-478
+-1.9780754310988682 Lag_active_power-479
+0.2657279098899569 Lag_active_power-480
+0.45947027560565096 Lag_active_power-526
+-0.6566921210531936 Lag_active_power-527
+-0.13492274192112233 Lag_active_power-528
+1.4731849206105907 Lag_active_power-556
+0.6203536230667158 Lag_active_power-557
+0.7714318033697785 Lag_active_power-558
+1.5464801990574781 Lag_active_power-559
+-2.531494169760332 Lag_active_power-601
+2.545852566335869 Lag_active_power-602
+2.850846910589593 Lag_active_power-603
+-0.16155903219206066 Lag_active_power-624
+2.0253097840551977 Lag_active_power-652
+-2.9922130576323593 Lag_active_power-653
+0.5599074009083723 Lag_active_power-654
+-2.1355374830581457 Lag_active_power-655
+0.613152438419686 Lag_active_power-700
+-0.33210642643408217 Lag_active_power-701
+2.0579256916474256 Lag_active_power-702
+-2.817170141590753 Lag_active_power-703
+7.243825764068427 Lag_active_power-744
+-2.660582803076252 Lag_active_power-745
+3.557438097495891 Lag_active_power-746
+2.483212126841133 Lag_active_power-779
+2.7556678056193515 Lag_active_power-793
+-0.35316373848740884 Lag_active_power-794
+-0.6663802364150537 Lag_active_power-795
+0.19106485949930663 Lag_active_power-827
+-0.3649843664430086 Lag_active_power-840
+-0.3262684133377821 Lag_active_power-841
+0.1160804728312899 Lag_active_power-842
+0.4844853301735559 Lag_active_power-891
+2.1249315617819398 Lag_active_power-892
+1.1061874619903753 Lag_active_power-893
+-1.6151923609973844 Lag_active_power-894
+2.6874254688923487 Lag_active_power-936
+-1.1185038927335056 Lag_active_power-937
+-1.0782606325040187 Lag_active_power-938
+-0.0588053417076556 Lag_active_power-939
+1.775421123861928 Lag_active_power-984
+0.8837899724208355 Lag_active_power-985
+0.8983828474543151 Lag_active_power-986
+-2.1425666375270183 Lag_active_power-987
+1.9031060413264462 Lag_active_power-1033
+3.981569830530761 Lag_active_power-1034
+-1.3373658745208659 Lag_active_power-1067
+2.6267836024023627 Lag_active_power-1080
+-1.9426896318272595 Lag_active_power-1081
+-0.5368428917590198 Lag_active_power-1082
+2.065597196475609 Lag_active_power-1115
+0.8017173377622018 Lag_active_power-1128
+4.360060339489396 Lag_active_power-1129
+-0.668056593753124 Lag_active_power-1130
+1.7226248887741944 Lag_active_power-1176
+0.530489907251387 Lag_active_power-1177
+-0.823776133391547 Lag_active_power-1178
+2.638089322307473 Lag_active_power-1179
+-1.8918291067092756 Lag_active_power-1210
+-1.1405245774488242 Lag_active_power-1211
+3.3662394034903937 Lag_active_power-1212
+0.3571249203067687 Lag_active_power-1213
+1.0335368902572633 Lag_active_power-1306
+-0.23041097951080255 Lag_active_power-1307
+0.4575972856912124 Lag_active_power-1308
+-0.08389460190954814 Lag_active_power-1309
+-3.43873581056654 local_time-remapped^2
+-3.944362525552403 local_time-remapped^3
+
+Hidden unit 1 bias: 17.891962981870925
+
+Output unit 0 bias: 1.3811621139915808
+
+
+Time taken: 1331.389
