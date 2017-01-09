@@ -28,15 +28,18 @@ public class applyMetaClassifier {
             //mlpRegressor.setOptions(weka.core.Utils.splitOptions("-N 1"));
             linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1"));
             //wrapperSubsetEval.setOptions(weka.core.Utils.splitOptions("-F 0 -B weka.classifiers.functions.MLPRegressor"));
+            mlpRegressor.setOptions(weka.core.Utils.splitOptions("-N 1"));
             wrapperSubsetEval.setClassifier(linearRegression);
             //wrapperSubsetEval.buildEvaluator(trainData);
             BestFirst bestFirstsearch = new BestFirst();
+            MySearch mySearch = new MySearch();
+            mySearch.setSearchTermination(96);
             //search.setSearchBackwards(true);
             //ranker.setStartSet("11, 19, 12, 13, 19");
 
           //     ranker1.setStartSet("1-20");
-            attributeSelectedClassifier.setSearch(ranker);
-            attributeSelectedClassifier.setEvaluator(reliefFAttributeEval);
+            attributeSelectedClassifier.setSearch(mySearch);
+            attributeSelectedClassifier.setEvaluator(wrapperSubsetEval);
             attributeSelectedClassifier.setClassifier(mlpRegressor);
 
             return attributeSelectedClassifier;

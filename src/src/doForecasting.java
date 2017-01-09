@@ -27,19 +27,20 @@ public class doForecasting {
 
     public static void doForecasting(Instances data, Classifier classifier){
         try {
-            PrintWriter resultLog = new PrintWriter(new FileWriter("/afs/tu-berlin.de/home/n/n_righeriu/irb-ubuntu/workspace/results.txt", true));
+            PrintWriter resultLog = new PrintWriter(new FileWriter("/afs/tu-berlin.de/home/n/n_righeriu/irb-ubuntu/workspace/new_results.txt", true));
 
             long startTime = System.currentTimeMillis();
             WekaForecaster forecaster = new WekaForecaster();
-            myHashMap hashMap = new myHashMap();
-            for (int i = 1; i < 1344; i+=1344) {
-                hashMap.fillUpHashMap(applyFilterClassifier.applyFilterClassifier(data, i, i+1000), 4, hashMap, data.attribute(1).name());
+            /*myHashMap hashMap = new myHashMap();
+            for (int i = 1; i < 440;i+=48) {
+                hashMap.fillUpHashMap(applyFilterClassifier.applyFilterClassifier(data, i, i+47), 5, hashMap, data.attribute(1).name());
             }
             myHashMap.sortHashMapByValues(hashMap);
-            String chosenLags = myHashMap.printHashMapFeatures(hashMap, 78);
+            String chosenLags = myHashMap.printHashMapFeatures(hashMap, 50);*/
+
 
             MLPRegressor mlpRegressor = new MLPRegressor();
-            forecaster.setBaseForecaster(mlpRegressor);
+            forecaster.setBaseForecaster(classifier);
             forecaster.getTSLagMaker().setIncludePowersOfTime(true);
             forecaster.getTSLagMaker().setIncludeTimeLagProducts(false);
             forecaster.getTSLagMaker().setMinLag(1);
@@ -47,7 +48,9 @@ public class doForecasting {
 
             forecaster.setFieldsToForecast(data.attribute(1).name());
             forecaster.getTSLagMaker().setTimeStampField(data.attribute(0).name());
-            forecaster.getTSLagMaker().setLagRange(chosenLags.substring(0, chosenLags.length()-2));
+            forecaster.getTSLagMaker().setLagRange("1-96");
+            /*System.out.println("Chosen lags: " + chosenLags.substring(0, chosenLags.length()-2));
+            forecaster.getTSLagMaker().setLagRange(chosenLags.substring(0, chosenLags.length()-2));*/
             crossValidateTS(data, forecaster);
             calculateErrors(resultLog, true);
             resultLog.println(forecaster);
@@ -71,9 +74,12 @@ public class doForecasting {
             for (int trainingPercentage = 70; trainingPercentage <= 80; trainingPercentage += 5) {
                 trainData = getSplittedData(data, trainingPercentage, true);
                 testData = getSplittedData(data, trainingPercentage, false);
+                //forecaster.setOverlayFields(data.attribute(2).name());
+
                 forecaster.buildForecaster(trainData);
                 forecaster.primeForecaster(trainData);
                 forecast = forecaster.forecast(stepNumber);
+
                 addToValuesLists(forecast, testData, stepNumber);
             }
             buildErrorGraph.buildErrorGraph(testData, forecaster, forecast, stepNumber);

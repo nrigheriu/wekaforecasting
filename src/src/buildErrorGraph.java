@@ -19,7 +19,7 @@ public class buildErrorGraph {
     public static void buildErrorGraph(Instances testData, WekaForecaster forecaster, List<List<NumericPrediction>> forecast, int stepNumber){
         JFreeChartDriver graph = new JFreeChartDriver();
         String[] targetNames = new String[1];
-        targetNames[0] = "sum";
+        targetNames[0] = testData.attribute(1).name();
 //        List<Integer> steps = new ArrayList<>();
 //        steps.add(100);
         ErrorModule errorModule = new ErrorModule();
