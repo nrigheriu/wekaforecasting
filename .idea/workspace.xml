@@ -5,16 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/src/lagInput.java" line="57" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7587b12-2478-48ce-a17b-10292d85196b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/file1.png" afterPath="$PROJECT_DIR$/file1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/myHashMap.class" afterPath="$PROJECT_DIR$/target/classes/src/myHashMap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results.txt" afterPath="$PROJECT_DIR$/results.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/buildErrorGraph.java" afterPath="$PROJECT_DIR$/src/src/buildErrorGraph.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/doForecasting.java" afterPath="$PROJECT_DIR$/src/src/doForecasting.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/myHashMap.java" afterPath="$PROJECT_DIR$/src/src/myHashMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/normalInput.java" afterPath="$PROJECT_DIR$/src/src/normalInput.java" />
-    </list>
+    <list default="true" id="e7587b12-2478-48ce-a17b-10292d85196b" name="Default" comment="" />
     <ignored path="wekaforecasting.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -229,7 +220,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="53" />
-    <option name="y" value="24" />
+    <option name="y" value="-1056" />
     <option name="width" value="1867" />
     <option name="height" value="1056" />
   </component>
@@ -771,12 +762,12 @@
       <workItem from="1483797549136" duration="888000" />
       <workItem from="1483798508455" duration="9217000" />
       <workItem from="1483814294270" duration="1666000" />
-      <workItem from="1483889670576" duration="7705000" />
+      <workItem from="1483889670576" duration="8554000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="378615000" />
+    <option name="totallyTimeSpent" value="379464000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -788,8 +779,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="24" width="1867" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="53" y="-1056" width="1867" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286026" sideWeight="0.49808428" order="6" side_tool="false" content_ui="tabs" />
@@ -798,8 +789,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32672232" sideWeight="0.5041186" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909995" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.26746726" sideWeight="0.49779457" order="2" side_tool="false" content_ui="tabs" x="417" y="198" width="987" height="841" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42797494" sideWeight="0.49588138" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.26746726" sideWeight="0.49779457" order="2" side_tool="false" content_ui="tabs" x="417" y="-882" width="987" height="841" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31106472" sideWeight="0.49588138" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33443162" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
