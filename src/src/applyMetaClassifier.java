@@ -33,7 +33,8 @@ public class applyMetaClassifier {
             //wrapperSubsetEval.buildEvaluator(trainData);
             BestFirst bestFirstsearch = new BestFirst();
             MySearch mySearch = new MySearch();
-            mySearch.setSearchTermination(96);
+            mySearch.setOptions(weka.core.Utils.splitOptions("-Z"));
+            //mySearch.setSearchTermination(96);
             //search.setSearchBackwards(true);
             //ranker.setStartSet("11, 19, 12, 13, 19");
 

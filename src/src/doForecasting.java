@@ -46,6 +46,7 @@ public class doForecasting {
             forecaster.getTSLagMaker().setMinLag(1);
             forecaster.getTSLagMaker().setMaxLag(1344);
 
+            forecaster.setOverlayFields(data.attribute(2).name());
             forecaster.setFieldsToForecast(data.attribute(1).name());
             forecaster.getTSLagMaker().setTimeStampField(data.attribute(0).name());
             forecaster.getTSLagMaker().setLagRange("1-96");
@@ -78,7 +79,7 @@ public class doForecasting {
 
                 forecaster.buildForecaster(trainData);
                 forecaster.primeForecaster(trainData);
-                forecast = forecaster.forecast(stepNumber);
+                forecast = forecaster.forecast(stepNumber, testData);
 
                 addToValuesLists(forecast, testData, stepNumber);
             }
