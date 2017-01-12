@@ -7,6 +7,8 @@ import java.util.*;
 import javax.swing.JPanel;
 
 import weka.attributeSelection.*;
+import weka.classifiers.AbstractClassifier;
+import weka.classifiers.Classifier;
 import weka.classifiers.functions.*;
 import weka.classifiers.meta.multisearch.RandomSearch;
 import weka.classifiers.timeseries.HoltWinters;
@@ -33,13 +35,16 @@ public class normalInput {
         try {
             String pathToWholeData = "/afs/tu-berlin.de/home/n/n_righeriu/irb-ubuntu/workspace/15_min_train+test.arff";
             String pathToHugeData = "/afs/tu-berlin.de/home/n/n_righeriu/irb-ubuntu/workspace/5months_with_weather.arff";
+            String pathToTryData = "/afs/tu-berlin.de/home/n/n_righeriu/irb-ubuntu/workspace/practice.arff";
 
             // load the data
             Instances wholeData  = new Instances(new BufferedReader(new FileReader(pathToWholeData)));
             Instances hugeData = new Instances(new BufferedReader((new FileReader(pathToHugeData))));
+            Instances tryData =   new Instances(new BufferedReader((new FileReader(pathToTryData))));
 
             wholeData.setClassIndex(wholeData.numAttributes()-1);
             hugeData.setClassIndex(hugeData.numAttributes()-1);
+            tryData.setClassIndex(tryData.numAttributes()-1);
             //select_Attributes(airlineData);
             //AttributeSelectedClassifier attributeSelectedClassifier = applyMetaClassifier.applyMetaClassifier(airlineData);
             AttributeSelectedClassifier attributeSelectedClassifier2 = new AttributeSelectedClassifier();
@@ -48,6 +53,7 @@ public class normalInput {
             //linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1"));
             MLPRegressor mlpRegressor = new MLPRegressor();
             //mlpRegressor.setOptions(weka.core.Utils.splitOptions("-N 1"));
+
             doForecasting.doForecasting(wholeData, applyMetaClassifier.applyMetaClassifier(wholeData));
         } catch (Exception ex) {
             ex.printStackTrace();
@@ -87,3 +93,14 @@ public class normalInput {
             System.out.println("selected attribute :\n" + Utils.arrayToString(indices));*/
     }
 }
+
+ /*   int numFolds = 3;
+
+    java.util.Random random = new Random(2);
+            for(int i = 0; i < numFolds; ++i) {
+        Instances train = tryData.trainCV(numFolds, i, random);
+        Classifier copiedClassifier = AbstractClassifier.makeCopy(linearRegression);
+        copiedClassifier.buildClassifier(train);
+        Instances test = tryData.testCV(numFolds, i);
+        }
+*/

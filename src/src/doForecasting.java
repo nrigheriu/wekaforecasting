@@ -31,25 +31,24 @@ public class doForecasting {
 
             long startTime = System.currentTimeMillis();
             WekaForecaster forecaster = new WekaForecaster();
-            /*myHashMap hashMap = new myHashMap();
-            for (int i = 1; i < 440;i+=48) {
-                hashMap.fillUpHashMap(applyFilterClassifier.applyFilterClassifier(data, i, i+47), 5, hashMap, data.attribute(1).name());
+           /* myHashMap hashMap = new myHashMap();
+            for (int i = 1; i < 1344;i+=48) {
+                hashMap.fillUpHashMap(applyFilterClassifier.applyFilterClassifier(data, i, i+47), 4, hashMap, data.attribute(1).name());
             }
             myHashMap.sortHashMapByValues(hashMap);
-            String chosenLags = myHashMap.printHashMapFeatures(hashMap, 50);*/
+            String chosenLags = myHashMap.printHashMapFeatures(hashMap, 80);*/
 
 
-            MLPRegressor mlpRegressor = new MLPRegressor();
             forecaster.setBaseForecaster(classifier);
             forecaster.getTSLagMaker().setIncludePowersOfTime(true);
             forecaster.getTSLagMaker().setIncludeTimeLagProducts(false);
-            forecaster.getTSLagMaker().setMinLag(1);
-            forecaster.getTSLagMaker().setMaxLag(1344);
+            forecaster.getTSLagMaker().setMinLag(2);
+            forecaster.getTSLagMaker().setMaxLag(2);
 
             forecaster.setOverlayFields(data.attribute(2).name());
             forecaster.setFieldsToForecast(data.attribute(1).name());
             forecaster.getTSLagMaker().setTimeStampField(data.attribute(0).name());
-            forecaster.getTSLagMaker().setLagRange("1-96");
+            // forecaster.getTSLagMaker().setLagRange("1, 2, 3, 4, 48, 47, 95, 93, 94, 96, 97, 98, 192, 191, 193, 195, 194, 672, 671, 670, 669, 1344, 1343");
             /*System.out.println("Chosen lags: " + chosenLags.substring(0, chosenLags.length()-2));
             forecaster.getTSLagMaker().setLagRange(chosenLags.substring(0, chosenLags.length()-2));*/
             crossValidateTS(data, forecaster);

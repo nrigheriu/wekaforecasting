@@ -12,7 +12,7 @@ public class applyMetaClassifier {
     public static AttributeSelectedClassifier applyMetaClassifier(Instances trainData) {
         try {
             AttributeSelectedClassifier attributeSelectedClassifier = new AttributeSelectedClassifier();
-            WrapperSubsetEval wrapperSubsetEval = new WrapperSubsetEval();
+            src.WrapperSubsetEval wrapperSubsetEval = new src.WrapperSubsetEval();
             //CfsSubsetEval cfsSubsetEval = new CfsSubsetEval();
             //HoltWinters holtWinters = new HoltWinters();
             ReliefFAttributeEval reliefFAttributeEval = new ReliefFAttributeEval();
@@ -30,6 +30,9 @@ public class applyMetaClassifier {
             //wrapperSubsetEval.setOptions(weka.core.Utils.splitOptions("-F 0 -B weka.classifiers.functions.MLPRegressor"));
             mlpRegressor.setOptions(weka.core.Utils.splitOptions("-N 1"));
             wrapperSubsetEval.setClassifier(linearRegression);
+            ClassifierSubsetEval classifierSubsetEval = new ClassifierSubsetEval();
+            classifierSubsetEval.setClassifier(linearRegression);
+            classifierSubsetEval.setSplitPercent("70");
             //wrapperSubsetEval.buildEvaluator(trainData);
             BestFirst bestFirstsearch = new BestFirst();
             MySearch mySearch = new MySearch();

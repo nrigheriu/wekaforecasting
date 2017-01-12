@@ -58,6 +58,13 @@
             <artifactId>multisearch-weka-package</artifactId>
             <version>${multisearch.version}</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/nz.ac.waikato.cms.weka/classifierBasedAttributeSelection -->
+        <dependency>
+            <groupId>nz.ac.waikato.cms.weka</groupId>
+            <artifactId>classifierBasedAttributeSelection</artifactId>
+            <version>1.0.4</version>
+        </dependency>
+
 
         <!--<dependency>-->
         <!--<groupId>ca.ubc.cs.autoweka</groupId>-->

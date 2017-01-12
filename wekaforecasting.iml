@@ -9,6 +9,24 @@
     </content>
     <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/drive-download-20170108T173501Z/multiLayerPerceptrons.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/drive-download-20170108T173501Z/timeseriesForecasting-1.0.24.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Maven: org.jfree:jfreechart:1.0.19" level="project" />
     <orderEntry type="library" name="Maven: org.jfree:jcommon:1.0.23" level="project" />
     <orderEntry type="library" name="Maven: com.github.fracpete:multisearch-weka-package:2016.6.7" level="project" />
@@ -35,23 +53,6 @@
     <orderEntry type="library" name="Maven: net.sourceforge.f2j:arpack_combined_all:0.1" level="project" />
     <orderEntry type="library" name="Maven: com.googlecode.netlib-java:netlib-java:1.1" level="project" />
     <orderEntry type="library" name="Maven: com.github.fommil.netlib:core:1.1" level="project" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/drive-download-20170108T173501Z/multiLayerPerceptrons.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/drive-download-20170108T173501Z/timeseriesForecasting-1.0.24.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="Maven: nz.ac.waikato.cms.weka:classifierBasedAttributeSelection:1.0.4" level="project" />
   </component>
 </module>
