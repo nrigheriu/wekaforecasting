@@ -8,6 +8,7 @@ import javax.swing.JPanel;
 
 import weka.attributeSelection.*;
 import weka.classifiers.functions.*;
+import weka.classifiers.lazy.IBk;
 import weka.classifiers.meta.multisearch.RandomSearch;
 import weka.classifiers.timeseries.HoltWinters;
 import weka.classifiers.timeseries.TSForecaster;
@@ -31,7 +32,7 @@ import weka.core.Option;
 public class normalInput {
     public static void main(String[] args) {
         try {
-            String pathToWholeData = "/home/cycle/workspace/15_min_train+test.arff";
+            String pathToWholeData = "/home/cycle/workspace/15_min_weather_trainTest.arff";
             String pathToHugeData = "/home/cycle/workspace/26_Load-Austin_15min_20121103-20160924.arff";
 
             // load the data
@@ -43,12 +44,12 @@ public class normalInput {
             //select_Attributes(airlineData);
             //AttributeSelectedClassifier attributeSelectedClassifier = applyMetaClassifier.applyMetaClassifier(airlineData);
             AttributeSelectedClassifier attributeSelectedClassifier2 = new AttributeSelectedClassifier();
-
+            IBk iBk = new IBk();
             LinearRegression linearRegression = new LinearRegression();
-            //linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1"));
+            linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1"));
             MLPRegressor mlpRegressor = new MLPRegressor();
             //mlpRegressor.setOptions(weka.core.Utils.splitOptions("-N 1"));
-            doForecasting.doForecasting(wholeData, mlpRegressor);
+            doForecasting.doForecasting(wholeData, iBk);
         } catch (Exception ex) {
             ex.printStackTrace();
         }

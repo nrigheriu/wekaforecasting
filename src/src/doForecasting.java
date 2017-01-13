@@ -32,12 +32,22 @@ public class doForecasting {
             long startTime = System.currentTimeMillis();
             WekaForecaster forecaster = new WekaForecaster();
             myHashMap hashMap = new myHashMap();
-            for (int i = 1; i < 120; i+=48) {
+            /*for (int i = 1; i < 120; i+=48) {
                 hashMap.fillUpHashMap(applyFilterClassifier.applyFilterClassifier(data, i, i+47), 4, hashMap, data.attribute(1).name());
             }
             myHashMap.sortHashMapByValues(hashMap);
-            myHashMap.printHashMapFeatures(hashMap, 100);
-            //crossValidateTS(data, forecaster);
+            myHashMap.printHashMapFeatures(hashMap, 100);*/
+            forecaster.getTSLagMaker().setTimeStampField(data.attribute(0).name()); // date time stamp
+            forecaster.setFieldsToForecast(data.attribute(1).name());
+            forecaster.setOverlayFields(data.attribute(2).name());
+            forecaster.setBaseForecaster(classifier);
+            forecaster.getTSLagMaker().setIncludePowersOfTime(true);
+            forecaster.getTSLagMaker().setIncludeTimeLagProducts(false);
+            //forecaster.getTSLagMaker().setFieldsToLagAsString(data.attribute(1).name() + ", " + data.attribute(2).name());
+            forecaster.getTSLagMaker().setMinLag(1);
+            forecaster.getTSLagMaker().setMaxLag(700);
+            forecaster.getTSLagMaker().setLagRange("1, 2, 4, 8, 12, 96, 672, 20, 576, 384, 480, 192");
+            crossValidateTS(data, forecaster);
             //map = fillUpHashMap(forecaster, featureNumber, map);
             //sortHashMapByValues(map);
             //printHashMapFeatures(map, featureNumber);
@@ -62,12 +72,16 @@ public class doForecasting {
             Instances testData = null, trainData = null;
             List<List<NumericPrediction>> forecast = null;
             for (int trainingPercentage = 70; trainingPercentage <= 80; trainingPercentage += 5) {
+                long sTime = System.currentTimeMillis();
                 trainData = getSplittedData(data, trainingPercentage, true);
                 testData = getSplittedData(data, trainingPercentage, false);
                 forecaster.buildForecaster(trainData);
                 forecaster.primeForecaster(trainData);
-                forecast = forecaster.forecast(stepNumber);
+                forecast = forecaster.forecast(stepNumber, testData);
+                //System.out.println(forecaster.getTSLagMaker().getTransformedData(testData));
                 addToValuesLists(forecast, testData, stepNumber);
+                long eTime = System.currentTimeMillis();
+                System.out.println(((double)(eTime-sTime))/1000);
             }
             buildErrorGraph.buildErrorGraph(testData, forecaster, forecast, stepNumber);
         } catch (Exception e){
@@ -104,8 +118,8 @@ public class doForecasting {
             errorSum += error;
             squaredErrorSum += error*error;
             String errorOutput = "Step: " + i + " Prediction:" + df.format(forecastedValuesList.get(i)) +
-                    " Actual: " + actualValue +
-                    " MAE: " + df.format(errorSum / (i + 1)) + " RMSE:" + df.format(Math.sqrt(squaredErrorSum / (i + 1))) +
+                    " Act" +
+                    ": " + df.format(errorSum / (i + 1)) + " RMSE:" + df.format(Math.sqrt(squaredErrorSum / (i + 1))) +
                     " MAPE:" + df.format(piErrorSum / (i + 1));
             if(writeToLog)
                 resultLog.println(errorOutput);
@@ -119,6 +133,8 @@ public class doForecasting {
         for (int i = 0; i< array.length; i++)
             avg += array[i];
         return avg/array.length;
+
+
     }
 }
 
