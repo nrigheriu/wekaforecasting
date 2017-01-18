@@ -32,12 +32,12 @@ public class doForecasting {
             long startTime = System.currentTimeMillis();
             WekaForecaster forecaster = new WekaForecaster();
             myHashMap hashMap = new myHashMap();
-            /*for (int i = 1; i < 120; i+=48) {
+            /*for (int i = 1; i < 1000; i+=48) {
                 hashMap.fillUpHashMap(applyFilterClassifier.applyFilterClassifier(data, i, i+47), 4, hashMap, data.attribute(1).name());
             }
             myHashMap.sortHashMapByValues(hashMap);
             myHashMap.printHashMapFeatures(hashMap, 100);*/
-            forecaster.getTSLagMaker().setTimeStampField(data.attribute(0).name()); // date time stamp
+            /*forecaster.getTSLagMaker().setTimeStampField(data.attribute(0).name()); // date time stamp
             forecaster.setFieldsToForecast(data.attribute(1).name());
             forecaster.setOverlayFields(data.attribute(2).name());
             forecaster.setBaseForecaster(classifier);
@@ -45,14 +45,29 @@ public class doForecasting {
             forecaster.getTSLagMaker().setIncludeTimeLagProducts(false);
             //forecaster.getTSLagMaker().setFieldsToLagAsString(data.attribute(1).name() + ", " + data.attribute(2).name());
             forecaster.getTSLagMaker().setMinLag(1);
-            forecaster.getTSLagMaker().setMaxLag(700);
-            forecaster.getTSLagMaker().setLagRange("1, 2, 4, 8, 12, 96, 672, 20, 576, 384, 480, 192");
-            crossValidateTS(data, forecaster);
+            forecaster.getTSLagMaker().setMaxLag(10);
+            //forecaster.getTSLagMaker().setLagRange("1, 2, 4, 8, 12, 96, 672, 20, 576, 384, 480, 192");
+            crossValidateTS(data, forecaster);*/
+            TSLagMaker tsLagMaker = new TSLagMaker();
+            tsLagMaker.setFieldsToLagAsString(data.attribute(1).name());
+            tsLagMaker.setTimeStampField(data.attribute(0).name());
+            tsLagMaker.setIncludePowersOfTime(true);
+            tsLagMaker.setIncludeTimeLagProducts(false);
+            tsLagMaker.setMinLag(1);
+            tsLagMaker.setMaxLag(12);
+            List<String> overlayFields = new ArrayList<String>();
+            for (int i = 0; i < 4; i++)
+                overlayFields.add(0, data.attribute(i+2).name());
+            tsLagMaker.setOverlayFields(overlayFields);
+            Instances laggedData = tsLagMaker.getTransformedData(data);
+            //System.out.println(laggedData);
+            BestFirst2 bestFirst2 = new BestFirst2();
+            bestFirst2.search(laggedData);
             //map = fillUpHashMap(forecaster, featureNumber, map);
             //sortHashMapByValues(map);
             //printHashMapFeatures(map, featureNumber);
 
-            //resultLog.println(forecaster);
+            resultLog.println(forecaster);
             calculateErrors(resultLog, true);
 
             long stopTime = System.currentTimeMillis();
@@ -71,7 +86,7 @@ public class doForecasting {
             int stepNumber = 24;
             Instances testData = null, trainData = null;
             List<List<NumericPrediction>> forecast = null;
-            for (int trainingPercentage = 70; trainingPercentage <= 80; trainingPercentage += 5) {
+            for (int trainingPercentage = 80; trainingPercentage <= 80; trainingPercentage += 5) {
                 long sTime = System.currentTimeMillis();
                 trainData = getSplittedData(data, trainingPercentage, true);
                 testData = getSplittedData(data, trainingPercentage, false);

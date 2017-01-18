@@ -145,3 +145,1259 @@ Step: 69 Prediction:1.42 Act: 0.409 RMSE:0.578 MAPE:97.073
 Step: 70 Prediction:1.42 Act: 0.418 RMSE:0.587 MAPE:99.703
 Step: 71 Prediction:1.42 Act: 0.429 RMSE:0.599 MAPE:104.234
 Time taken: 7.013
+Step: 0 Prediction:1.15 Act: 0.03 RMSE:0.03 MAPE:2.679
+Step: 1 Prediction:1.15 Act: 0.03 RMSE:0.03 MAPE:2.679
+Step: 2 Prediction:1.15 Act: 0.027 RMSE:0.027 MAPE:2.376
+Step: 3 Prediction:1.34 Act: 0.07 RMSE:0.103 MAPE:6.168
+Step: 4 Prediction:1.34 Act: 0.106 RMSE:0.145 MAPE:9.521
+Step: 5 Prediction:0.95 Act: 0.105 RMSE:0.138 MAPE:9.522
+Step: 6 Prediction:0.95 Act: 0.13 RMSE:0.166 MAPE:11.414
+Step: 7 Prediction:0.95 Act: 0.125 RMSE:0.159 MAPE:11.069
+Step: 8 Prediction:0.95 Act: 0.133 RMSE:0.164 MAPE:12.802
+Step: 9 Prediction:0.95 Act: 0.142 RMSE:0.17 MAPE:14.535
+Step: 10 Prediction:0.27 Act: 0.176 RMSE:0.226 MAPE:19.198
+Step: 11 Prediction:0.42 Act: 0.18 RMSE:0.225 MAPE:20.463
+Step: 12 Prediction:0.31 Act: 0.179 RMSE:0.221 MAPE:21.613
+Step: 13 Prediction:0.42 Act: 0.171 RMSE:0.214 MAPE:20.962
+Step: 14 Prediction:0.24 Act: 0.175 RMSE:0.216 MAPE:22.898
+Step: 15 Prediction:0.24 Act: 0.194 RMSE:0.241 MAPE:25.633
+Step: 16 Prediction:0.24 Act: 0.209 RMSE:0.258 MAPE:27.962
+Step: 17 Prediction:0.26 Act: 0.217 RMSE:0.263 MAPE:29.557
+Step: 18 Prediction:0.26 Act: 0.214 RMSE:0.259 MAPE:30.006
+Step: 19 Prediction:0.26 Act: 0.212 RMSE:0.255 MAPE:30.551
+Step: 20 Prediction:0.26 Act: 0.207 RMSE:0.25 MAPE:30.419
+Step: 21 Prediction:0.26 Act: 0.199 RMSE:0.245 MAPE:29.642
+Step: 22 Prediction:0.44 Act: 0.195 RMSE:0.24 MAPE:29.632
+Step: 23 Prediction:0.44 Act: 0.192 RMSE:0.236 MAPE:29.96
+Step: 24 Prediction:1.07 Act: 0.189 RMSE:0.233 MAPE:29.315
+Step: 25 Prediction:1.02 Act: 0.182 RMSE:0.229 MAPE:28.226
+Step: 26 Prediction:1.07 Act: 0.176 RMSE:0.224 MAPE:27.215
+Step: 27 Prediction:1.07 Act: 0.17 RMSE:0.22 MAPE:26.243
+Step: 28 Prediction:1.07 Act: 0.168 RMSE:0.218 MAPE:25.774
+Step: 29 Prediction:0.94 Act: 0.164 RMSE:0.214 MAPE:25.142
+Step: 30 Prediction:0.76 Act: 0.165 RMSE:0.213 MAPE:24.921
+Step: 31 Prediction:0.87 Act: 0.159 RMSE:0.21 MAPE:24.142
+Step: 32 Prediction:0.87 Act: 0.155 RMSE:0.206 MAPE:23.482
+Step: 33 Prediction:0.87 Act: 0.153 RMSE:0.204 MAPE:23.13
+Step: 34 Prediction:0.87 Act: 0.161 RMSE:0.213 MAPE:25.016
+Step: 35 Prediction:0.87 Act: 0.171 RMSE:0.229 MAPE:29.095
+Step: 36 Prediction:0.42 Act: 0.17 RMSE:0.227 MAPE:29.39
+Step: 37 Prediction:0.42 Act: 0.167 RMSE:0.224 MAPE:28.894
+Step: 38 Prediction:0.42 Act: 0.162 RMSE:0.221 MAPE:28.153
+Step: 39 Prediction:0.42 Act: 0.159 RMSE:0.218 MAPE:27.563
+Step: 40 Prediction:0.48 Act: 0.155 RMSE:0.215 MAPE:26.94
+Step: 41 Prediction:0.48 Act: 0.154 RMSE:0.213 MAPE:27.007
+Step: 42 Prediction:0.39 Act: 0.153 RMSE:0.211 MAPE:27.18
+Step: 43 Prediction:0.41 Act: 0.15 RMSE:0.209 MAPE:26.808
+Step: 44 Prediction:0.37 Act: 0.149 RMSE:0.207 MAPE:26.826
+Step: 45 Prediction:0.37 Act: 0.146 RMSE:0.205 MAPE:26.303
+Step: 46 Prediction:0.37 Act: 0.144 RMSE:0.203 MAPE:26.155
+Step: 47 Prediction:0.37 Act: 0.142 RMSE:0.201 MAPE:25.901
+Step: 48 Prediction:1.42 Act: 0.143 RMSE:0.201 MAPE:25.707
+Step: 49 Prediction:1.42 Act: 0.151 RMSE:0.212 MAPE:26.348
+Step: 50 Prediction:1.42 Act: 0.157 RMSE:0.221 MAPE:26.865
+Step: 51 Prediction:1.42 Act: 0.164 RMSE:0.229 MAPE:27.361
+Step: 52 Prediction:1.53 Act: 0.174 RMSE:0.248 MAPE:28.522
+Step: 53 Prediction:0.69 Act: 0.173 RMSE:0.246 MAPE:28.384
+Step: 54 Prediction:0.53 Act: 0.17 RMSE:0.244 MAPE:27.902
+Step: 55 Prediction:0.28 Act: 0.172 RMSE:0.244 MAPE:28.312
+Step: 56 Prediction:0.28 Act: 0.175 RMSE:0.245 MAPE:28.708
+Step: 57 Prediction:0.28 Act: 0.174 RMSE:0.244 MAPE:28.864
+Step: 58 Prediction:0.15 Act: 0.178 RMSE:0.247 MAPE:29.59
+Step: 59 Prediction:0.15 Act: 0.179 RMSE:0.248 MAPE:30.168
+Step: 60 Prediction:0.15 Act: 0.18 RMSE:0.247 MAPE:30.568
+Step: 61 Prediction:0.15 Act: 0.18 RMSE:0.246 MAPE:30.997
+Step: 62 Prediction:0.3 Act: 0.177 RMSE:0.244 MAPE:30.681
+Step: 63 Prediction:0.4 Act: 0.176 RMSE:0.242 MAPE:30.655
+Step: 64 Prediction:0.4 Act: 0.174 RMSE:0.24 MAPE:30.354
+Step: 65 Prediction:0.57 Act: 0.173 RMSE:0.239 MAPE:30.257
+Step: 66 Prediction:0.57 Act: 0.174 RMSE:0.239 MAPE:31.057
+Step: 67 Prediction:0.57 Act: 0.175 RMSE:0.239 MAPE:31.525
+Step: 68 Prediction:0.57 Act: 0.177 RMSE:0.24 MAPE:32.678
+Step: 69 Prediction:0.57 Act: 0.178 RMSE:0.241 MAPE:33.691
+Step: 70 Prediction:0.57 Act: 0.179 RMSE:0.24 MAPE:33.978
+Step: 71 Prediction:0.57 Act: 0.18 RMSE:0.241 MAPE:35.049
+Time taken: 4.925
+Step: 0 Prediction:1.15 Act: 0.03 RMSE:0.03 MAPE:2.679
+Step: 1 Prediction:1.15 Act: 0.03 RMSE:0.03 MAPE:2.679
+Step: 2 Prediction:1.15 Act: 0.027 RMSE:0.027 MAPE:2.376
+Step: 3 Prediction:1.34 Act: 0.07 RMSE:0.103 MAPE:6.168
+Step: 4 Prediction:1.34 Act: 0.106 RMSE:0.145 MAPE:9.521
+Step: 5 Prediction:0.95 Act: 0.105 RMSE:0.138 MAPE:9.522
+Step: 6 Prediction:0.95 Act: 0.13 RMSE:0.166 MAPE:11.414
+Step: 7 Prediction:0.95 Act: 0.125 RMSE:0.159 MAPE:11.069
+Step: 8 Prediction:0.95 Act: 0.133 RMSE:0.164 MAPE:12.802
+Step: 9 Prediction:0.95 Act: 0.142 RMSE:0.17 MAPE:14.535
+Step: 10 Prediction:0.27 Act: 0.176 RMSE:0.226 MAPE:19.198
+Step: 11 Prediction:0.42 Act: 0.18 RMSE:0.225 MAPE:20.463
+Step: 12 Prediction:0.31 Act: 0.179 RMSE:0.221 MAPE:21.613
+Step: 13 Prediction:0.42 Act: 0.171 RMSE:0.214 MAPE:20.962
+Step: 14 Prediction:0.24 Act: 0.175 RMSE:0.216 MAPE:22.898
+Step: 15 Prediction:0.24 Act: 0.194 RMSE:0.241 MAPE:25.633
+Step: 16 Prediction:0.24 Act: 0.209 RMSE:0.258 MAPE:27.962
+Step: 17 Prediction:0.26 Act: 0.217 RMSE:0.263 MAPE:29.557
+Step: 18 Prediction:0.26 Act: 0.214 RMSE:0.259 MAPE:30.006
+Step: 19 Prediction:0.26 Act: 0.212 RMSE:0.255 MAPE:30.551
+Step: 20 Prediction:0.26 Act: 0.207 RMSE:0.25 MAPE:30.419
+Step: 21 Prediction:0.26 Act: 0.199 RMSE:0.245 MAPE:29.642
+Step: 22 Prediction:0.44 Act: 0.195 RMSE:0.24 MAPE:29.632
+Step: 23 Prediction:0.44 Act: 0.192 RMSE:0.236 MAPE:29.96
+Step: 24 Prediction:1.07 Act: 0.189 RMSE:0.233 MAPE:29.315
+Step: 25 Prediction:1.02 Act: 0.182 RMSE:0.229 MAPE:28.226
+Step: 26 Prediction:1.07 Act: 0.176 RMSE:0.224 MAPE:27.215
+Step: 27 Prediction:1.07 Act: 0.17 RMSE:0.22 MAPE:26.243
+Step: 28 Prediction:1.07 Act: 0.168 RMSE:0.218 MAPE:25.774
+Step: 29 Prediction:0.94 Act: 0.164 RMSE:0.214 MAPE:25.142
+Step: 30 Prediction:0.76 Act: 0.165 RMSE:0.213 MAPE:24.921
+Step: 31 Prediction:0.87 Act: 0.159 RMSE:0.21 MAPE:24.142
+Step: 32 Prediction:0.87 Act: 0.155 RMSE:0.206 MAPE:23.482
+Step: 33 Prediction:0.87 Act: 0.153 RMSE:0.204 MAPE:23.13
+Step: 34 Prediction:0.87 Act: 0.161 RMSE:0.213 MAPE:25.016
+Step: 35 Prediction:0.87 Act: 0.171 RMSE:0.229 MAPE:29.095
+Step: 36 Prediction:0.42 Act: 0.17 RMSE:0.227 MAPE:29.39
+Step: 37 Prediction:0.42 Act: 0.167 RMSE:0.224 MAPE:28.894
+Step: 38 Prediction:0.42 Act: 0.162 RMSE:0.221 MAPE:28.153
+Step: 39 Prediction:0.42 Act: 0.159 RMSE:0.218 MAPE:27.563
+Step: 40 Prediction:0.48 Act: 0.155 RMSE:0.215 MAPE:26.94
+Step: 41 Prediction:0.48 Act: 0.154 RMSE:0.213 MAPE:27.007
+Step: 42 Prediction:0.39 Act: 0.153 RMSE:0.211 MAPE:27.18
+Step: 43 Prediction:0.41 Act: 0.15 RMSE:0.209 MAPE:26.808
+Step: 44 Prediction:0.37 Act: 0.149 RMSE:0.207 MAPE:26.826
+Step: 45 Prediction:0.37 Act: 0.146 RMSE:0.205 MAPE:26.303
+Step: 46 Prediction:0.37 Act: 0.144 RMSE:0.203 MAPE:26.155
+Step: 47 Prediction:0.37 Act: 0.142 RMSE:0.201 MAPE:25.901
+Step: 48 Prediction:1.42 Act: 0.143 RMSE:0.201 MAPE:25.707
+Step: 49 Prediction:1.42 Act: 0.151 RMSE:0.212 MAPE:26.348
+Step: 50 Prediction:1.42 Act: 0.157 RMSE:0.221 MAPE:26.865
+Step: 51 Prediction:1.42 Act: 0.164 RMSE:0.229 MAPE:27.361
+Step: 52 Prediction:1.53 Act: 0.174 RMSE:0.248 MAPE:28.522
+Step: 53 Prediction:0.69 Act: 0.173 RMSE:0.246 MAPE:28.384
+Step: 54 Prediction:0.53 Act: 0.17 RMSE:0.244 MAPE:27.902
+Step: 55 Prediction:0.28 Act: 0.172 RMSE:0.244 MAPE:28.312
+Step: 56 Prediction:0.28 Act: 0.175 RMSE:0.245 MAPE:28.708
+Step: 57 Prediction:0.28 Act: 0.174 RMSE:0.244 MAPE:28.864
+Step: 58 Prediction:0.15 Act: 0.178 RMSE:0.247 MAPE:29.59
+Step: 59 Prediction:0.15 Act: 0.179 RMSE:0.248 MAPE:30.168
+Step: 60 Prediction:0.15 Act: 0.18 RMSE:0.247 MAPE:30.568
+Step: 61 Prediction:0.15 Act: 0.18 RMSE:0.246 MAPE:30.997
+Step: 62 Prediction:0.3 Act: 0.177 RMSE:0.244 MAPE:30.681
+Step: 63 Prediction:0.4 Act: 0.176 RMSE:0.242 MAPE:30.655
+Step: 64 Prediction:0.4 Act: 0.174 RMSE:0.24 MAPE:30.354
+Step: 65 Prediction:0.57 Act: 0.173 RMSE:0.239 MAPE:30.257
+Step: 66 Prediction:0.57 Act: 0.174 RMSE:0.239 MAPE:31.057
+Step: 67 Prediction:0.57 Act: 0.175 RMSE:0.239 MAPE:31.525
+Step: 68 Prediction:0.57 Act: 0.177 RMSE:0.24 MAPE:32.678
+Step: 69 Prediction:0.57 Act: 0.178 RMSE:0.241 MAPE:33.691
+Step: 70 Prediction:0.57 Act: 0.179 RMSE:0.24 MAPE:33.978
+Step: 71 Prediction:0.57 Act: 0.18 RMSE:0.241 MAPE:35.049
+Time taken: 4.819
+Step: 0 Prediction:1.15 Act: 0.03 RMSE:0.03 MAPE:2.679
+Step: 1 Prediction:1.15 Act: 0.03 RMSE:0.03 MAPE:2.679
+Step: 2 Prediction:1.15 Act: 0.027 RMSE:0.027 MAPE:2.376
+Step: 3 Prediction:1.34 Act: 0.07 RMSE:0.103 MAPE:6.168
+Step: 4 Prediction:1.34 Act: 0.106 RMSE:0.145 MAPE:9.521
+Step: 5 Prediction:0.95 Act: 0.105 RMSE:0.138 MAPE:9.522
+Step: 6 Prediction:0.95 Act: 0.13 RMSE:0.166 MAPE:11.414
+Step: 7 Prediction:0.95 Act: 0.125 RMSE:0.159 MAPE:11.069
+Step: 8 Prediction:0.95 Act: 0.133 RMSE:0.164 MAPE:12.802
+Step: 9 Prediction:0.95 Act: 0.142 RMSE:0.17 MAPE:14.535
+Step: 10 Prediction:0.27 Act: 0.176 RMSE:0.226 MAPE:19.198
+Step: 11 Prediction:0.42 Act: 0.18 RMSE:0.225 MAPE:20.463
+Step: 12 Prediction:0.31 Act: 0.179 RMSE:0.221 MAPE:21.613
+Step: 13 Prediction:0.42 Act: 0.171 RMSE:0.214 MAPE:20.962
+Step: 14 Prediction:0.24 Act: 0.175 RMSE:0.216 MAPE:22.898
+Step: 15 Prediction:0.24 Act: 0.194 RMSE:0.241 MAPE:25.633
+Step: 16 Prediction:0.24 Act: 0.209 RMSE:0.258 MAPE:27.962
+Step: 17 Prediction:0.26 Act: 0.217 RMSE:0.263 MAPE:29.557
+Step: 18 Prediction:0.26 Act: 0.214 RMSE:0.259 MAPE:30.006
+Step: 19 Prediction:0.26 Act: 0.212 RMSE:0.255 MAPE:30.551
+Step: 20 Prediction:0.26 Act: 0.207 RMSE:0.25 MAPE:30.419
+Step: 21 Prediction:0.26 Act: 0.199 RMSE:0.245 MAPE:29.642
+Step: 22 Prediction:0.44 Act: 0.195 RMSE:0.24 MAPE:29.632
+Step: 23 Prediction:0.44 Act: 0.192 RMSE:0.236 MAPE:29.96
+Step: 24 Prediction:1.07 Act: 0.189 RMSE:0.233 MAPE:29.315
+Step: 25 Prediction:1.02 Act: 0.182 RMSE:0.229 MAPE:28.226
+Step: 26 Prediction:1.07 Act: 0.176 RMSE:0.224 MAPE:27.215
+Step: 27 Prediction:1.07 Act: 0.17 RMSE:0.22 MAPE:26.243
+Step: 28 Prediction:1.07 Act: 0.168 RMSE:0.218 MAPE:25.774
+Step: 29 Prediction:0.94 Act: 0.164 RMSE:0.214 MAPE:25.142
+Step: 30 Prediction:0.76 Act: 0.165 RMSE:0.213 MAPE:24.921
+Step: 31 Prediction:0.87 Act: 0.159 RMSE:0.21 MAPE:24.142
+Step: 32 Prediction:0.87 Act: 0.155 RMSE:0.206 MAPE:23.482
+Step: 33 Prediction:0.87 Act: 0.153 RMSE:0.204 MAPE:23.13
+Step: 34 Prediction:0.87 Act: 0.161 RMSE:0.213 MAPE:25.016
+Step: 35 Prediction:0.87 Act: 0.171 RMSE:0.229 MAPE:29.095
+Step: 36 Prediction:0.42 Act: 0.17 RMSE:0.227 MAPE:29.39
+Step: 37 Prediction:0.42 Act: 0.167 RMSE:0.224 MAPE:28.894
+Step: 38 Prediction:0.42 Act: 0.162 RMSE:0.221 MAPE:28.153
+Step: 39 Prediction:0.42 Act: 0.159 RMSE:0.218 MAPE:27.563
+Step: 40 Prediction:0.48 Act: 0.155 RMSE:0.215 MAPE:26.94
+Step: 41 Prediction:0.48 Act: 0.154 RMSE:0.213 MAPE:27.007
+Step: 42 Prediction:0.39 Act: 0.153 RMSE:0.211 MAPE:27.18
+Step: 43 Prediction:0.41 Act: 0.15 RMSE:0.209 MAPE:26.808
+Step: 44 Prediction:0.37 Act: 0.149 RMSE:0.207 MAPE:26.826
+Step: 45 Prediction:0.37 Act: 0.146 RMSE:0.205 MAPE:26.303
+Step: 46 Prediction:0.37 Act: 0.144 RMSE:0.203 MAPE:26.155
+Step: 47 Prediction:0.37 Act: 0.142 RMSE:0.201 MAPE:25.901
+Step: 48 Prediction:1.42 Act: 0.143 RMSE:0.201 MAPE:25.707
+Step: 49 Prediction:1.42 Act: 0.151 RMSE:0.212 MAPE:26.348
+Step: 50 Prediction:1.42 Act: 0.157 RMSE:0.221 MAPE:26.865
+Step: 51 Prediction:1.42 Act: 0.164 RMSE:0.229 MAPE:27.361
+Step: 52 Prediction:1.53 Act: 0.174 RMSE:0.248 MAPE:28.522
+Step: 53 Prediction:0.69 Act: 0.173 RMSE:0.246 MAPE:28.384
+Step: 54 Prediction:0.53 Act: 0.17 RMSE:0.244 MAPE:27.902
+Step: 55 Prediction:0.28 Act: 0.172 RMSE:0.244 MAPE:28.312
+Step: 56 Prediction:0.28 Act: 0.175 RMSE:0.245 MAPE:28.708
+Step: 57 Prediction:0.28 Act: 0.174 RMSE:0.244 MAPE:28.864
+Step: 58 Prediction:0.15 Act: 0.178 RMSE:0.247 MAPE:29.59
+Step: 59 Prediction:0.15 Act: 0.179 RMSE:0.248 MAPE:30.168
+Step: 60 Prediction:0.15 Act: 0.18 RMSE:0.247 MAPE:30.568
+Step: 61 Prediction:0.15 Act: 0.18 RMSE:0.246 MAPE:30.997
+Step: 62 Prediction:0.3 Act: 0.177 RMSE:0.244 MAPE:30.681
+Step: 63 Prediction:0.4 Act: 0.176 RMSE:0.242 MAPE:30.655
+Step: 64 Prediction:0.4 Act: 0.174 RMSE:0.24 MAPE:30.354
+Step: 65 Prediction:0.57 Act: 0.173 RMSE:0.239 MAPE:30.257
+Step: 66 Prediction:0.57 Act: 0.174 RMSE:0.239 MAPE:31.057
+Step: 67 Prediction:0.57 Act: 0.175 RMSE:0.239 MAPE:31.525
+Step: 68 Prediction:0.57 Act: 0.177 RMSE:0.24 MAPE:32.678
+Step: 69 Prediction:0.57 Act: 0.178 RMSE:0.241 MAPE:33.691
+Step: 70 Prediction:0.57 Act: 0.179 RMSE:0.24 MAPE:33.978
+Step: 71 Prediction:0.57 Act: 0.18 RMSE:0.241 MAPE:35.049
+Time taken: 4.929
+Time taken: 0.423
+Time taken: 0.402
+Time taken: 0.42
+Time taken: 0.403
+Time taken: 0.424
+Time taken: 0.439
+Time taken: 0.4
+Time taken: 0.607
+Step: 0 Prediction:1.029 Act: 0.091 RMSE:0.091 MAPE:8.083
+Step: 1 Prediction:0.968 Act: 0.121 RMSE:0.125 MAPE:10.824
+Step: 2 Prediction:0.97 Act: 0.134 RMSE:0.138 MAPE:11.946
+Step: 3 Prediction:0.982 Act: 0.14 RMSE:0.143 MAPE:12.434
+Step: 4 Prediction:0.984 Act: 0.133 RMSE:0.137 MAPE:11.888
+Step: 5 Prediction:0.984 Act: 0.122 RMSE:0.128 MAPE:10.953
+Step: 6 Prediction:0.966 Act: 0.142 RMSE:0.155 MAPE:12.46
+Step: 7 Prediction:0.942 Act: 0.137 RMSE:0.149 MAPE:12.084
+Step: 8 Prediction:0.898 Act: 0.138 RMSE:0.149 MAPE:12.94
+Step: 9 Prediction:0.878 Act: 0.139 RMSE:0.149 MAPE:13.667
+Step: 10 Prediction:0.848 Act: 0.132 RMSE:0.143 MAPE:13.095
+Step: 11 Prediction:0.807 Act: 0.135 RMSE:0.145 MAPE:14.177
+Step: 12 Prediction:0.771 Act: 0.147 RMSE:0.161 MAPE:17.745
+Step: 13 Prediction:0.735 Act: 0.154 RMSE:0.169 MAPE:20.267
+Step: 14 Prediction:0.661 Act: 0.156 RMSE:0.17 MAPE:21.424
+Step: 15 Prediction:0.614 Act: 0.153 RMSE:0.167 MAPE:21.004
+Step: 16 Prediction:0.582 Act: 0.15 RMSE:0.164 MAPE:20.689
+Step: 17 Prediction:0.545 Act: 0.145 RMSE:0.16 MAPE:20.048
+Step: 18 Prediction:0.502 Act: 0.142 RMSE:0.157 MAPE:20.017
+Step: 19 Prediction:0.47 Act: 0.136 RMSE:0.153 MAPE:19.355
+Step: 20 Prediction:0.446 Act: 0.134 RMSE:0.15 MAPE:19.572
+Step: 21 Prediction:0.417 Act: 0.133 RMSE:0.149 MAPE:20.455
+Step: 22 Prediction:0.388 Act: 0.129 RMSE:0.146 MAPE:20.184
+Step: 23 Prediction:0.37 Act: 0.126 RMSE:0.143 MAPE:19.993
+Step: 24 Prediction:1.045 Act: 0.125 RMSE:0.142 MAPE:19.638
+Step: 25 Prediction:1.071 Act: 0.123 RMSE:0.14 MAPE:19.117
+Step: 26 Prediction:1.083 Act: 0.119 RMSE:0.137 MAPE:18.489
+Step: 27 Prediction:1.046 Act: 0.116 RMSE:0.135 MAPE:17.91
+Step: 28 Prediction:1.014 Act: 0.114 RMSE:0.133 MAPE:17.525
+Step: 29 Prediction:0.98 Act: 0.113 RMSE:0.132 MAPE:17.321
+Step: 30 Prediction:0.939 Act: 0.11 RMSE:0.13 MAPE:16.792
+Step: 31 Prediction:0.898 Act: 0.107 RMSE:0.128 MAPE:16.369
+Step: 32 Prediction:0.854 Act: 0.104 RMSE:0.126 MAPE:15.886
+Step: 33 Prediction:0.823 Act: 0.103 RMSE:0.124 MAPE:15.581
+Step: 34 Prediction:0.775 Act: 0.109 RMSE:0.134 MAPE:17.092
+Step: 35 Prediction:0.73 Act: 0.117 RMSE:0.149 MAPE:20.18
+Step: 36 Prediction:0.692 Act: 0.124 RMSE:0.16 MAPE:23.167
+Step: 37 Prediction:0.657 Act: 0.128 RMSE:0.164 MAPE:24.477
+Step: 38 Prediction:0.63 Act: 0.131 RMSE:0.166 MAPE:25.132
+Step: 39 Prediction:0.599 Act: 0.131 RMSE:0.165 MAPE:25.406
+Step: 40 Prediction:0.579 Act: 0.13 RMSE:0.164 MAPE:25.229
+Step: 41 Prediction:0.551 Act: 0.131 RMSE:0.164 MAPE:25.792
+Step: 42 Prediction:0.532 Act: 0.134 RMSE:0.167 MAPE:27.134
+Step: 43 Prediction:0.513 Act: 0.134 RMSE:0.166 MAPE:27.399
+Step: 44 Prediction:0.514 Act: 0.136 RMSE:0.168 MAPE:28.504
+Step: 45 Prediction:0.504 Act: 0.136 RMSE:0.167 MAPE:28.755
+Step: 46 Prediction:0.487 Act: 0.137 RMSE:0.167 MAPE:29.361
+Step: 47 Prediction:0.48 Act: 0.135 RMSE:0.166 MAPE:28.993
+Step: 48 Prediction:1.294 Act: 0.134 RMSE:0.164 MAPE:28.525
+Step: 49 Prediction:1.203 Act: 0.138 RMSE:0.168 MAPE:28.628
+Step: 50 Prediction:1.153 Act: 0.139 RMSE:0.17 MAPE:28.537
+Step: 51 Prediction:1.093 Act: 0.14 RMSE:0.169 MAPE:28.325
+Step: 52 Prediction:1.017 Act: 0.141 RMSE:0.17 MAPE:28.274
+Step: 53 Prediction:0.962 Act: 0.146 RMSE:0.177 MAPE:29.025
+Step: 54 Prediction:0.895 Act: 0.149 RMSE:0.182 MAPE:29.693
+Step: 55 Prediction:0.836 Act: 0.152 RMSE:0.184 MAPE:29.997
+Step: 56 Prediction:0.782 Act: 0.153 RMSE:0.184 MAPE:30.123
+Step: 57 Prediction:0.728 Act: 0.155 RMSE:0.186 MAPE:30.67
+Step: 58 Prediction:0.651 Act: 0.154 RMSE:0.185 MAPE:30.538
+Step: 59 Prediction:0.612 Act: 0.155 RMSE:0.185 MAPE:30.792
+Step: 60 Prediction:0.585 Act: 0.156 RMSE:0.187 MAPE:31.554
+Step: 61 Prediction:0.546 Act: 0.157 RMSE:0.187 MAPE:31.95
+Step: 62 Prediction:0.505 Act: 0.158 RMSE:0.188 MAPE:32.825
+Step: 63 Prediction:0.496 Act: 0.159 RMSE:0.188 MAPE:33.25
+Step: 64 Prediction:0.483 Act: 0.158 RMSE:0.187 MAPE:33.262
+Step: 65 Prediction:0.448 Act: 0.156 RMSE:0.185 MAPE:32.796
+Step: 66 Prediction:0.423 Act: 0.155 RMSE:0.185 MAPE:32.851
+Step: 67 Prediction:0.41 Act: 0.154 RMSE:0.183 MAPE:32.621
+Step: 68 Prediction:0.394 Act: 0.154 RMSE:0.183 MAPE:32.812
+Step: 69 Prediction:0.381 Act: 0.153 RMSE:0.182 MAPE:32.86
+Step: 70 Prediction:0.392 Act: 0.151 RMSE:0.18 MAPE:32.482
+Step: 71 Prediction:0.383 Act: 0.15 RMSE:0.18 MAPE:32.615
+Time taken: 13.013
+Time taken: 0.607
+Step: 0 Prediction:1.294 Act: 0.074 RMSE:0.074 MAPE:6.037
+Step: 1 Prediction:1.203 Act: 0.188 RMSE:0.221 MAPE:19.87
+Step: 2 Prediction:1.153 Act: 0.2 RMSE:0.221 MAPE:21.241
+Step: 3 Prediction:1.093 Act: 0.191 RMSE:0.208 MAPE:20.312
+Step: 4 Prediction:1.017 Act: 0.194 RMSE:0.208 MAPE:21.367
+Step: 5 Prediction:0.962 Act: 0.227 RMSE:0.249 MAPE:29.277
+Step: 6 Prediction:0.895 Act: 0.245 RMSE:0.266 MAPE:34.489
+Step: 7 Prediction:0.836 Act: 0.248 RMSE:0.266 MAPE:36.019
+Step: 8 Prediction:0.782 Act: 0.244 RMSE:0.261 MAPE:36.151
+Step: 9 Prediction:0.728 Act: 0.247 RMSE:0.263 MAPE:38.716
+Step: 10 Prediction:0.651 Act: 0.236 RMSE:0.253 MAPE:37.277
+Step: 11 Prediction:0.612 Act: 0.232 RMSE:0.249 MAPE:37.986
+Step: 12 Prediction:0.585 Act: 0.234 RMSE:0.249 MAPE:41.01
+Step: 13 Prediction:0.546 Act: 0.231 RMSE:0.246 MAPE:42.086
+Step: 14 Prediction:0.505 Act: 0.232 RMSE:0.245 MAPE:45.085
+Step: 15 Prediction:0.496 Act: 0.229 RMSE:0.242 MAPE:46.02
+Step: 16 Prediction:0.483 Act: 0.223 RMSE:0.236 MAPE:45.315
+Step: 17 Prediction:0.448 Act: 0.211 RMSE:0.23 MAPE:42.937
+Step: 18 Prediction:0.423 Act: 0.206 RMSE:0.225 MAPE:42.596
+Step: 19 Prediction:0.41 Act: 0.198 RMSE:0.22 MAPE:41.327
+Step: 20 Prediction:0.394 Act: 0.195 RMSE:0.216 MAPE:41.539
+Step: 21 Prediction:0.381 Act: 0.191 RMSE:0.212 MAPE:41.297
+Step: 22 Prediction:0.392 Act: 0.183 RMSE:0.208 MAPE:39.764
+Step: 23 Prediction:0.383 Act: 0.18 RMSE:0.205 MAPE:39.858
+Time taken: 5.104
+Step: 0 Prediction:1.294 Act: 0.074 RMSE:0.074 MAPE:6.037
+Step: 1 Prediction:1.203 Act: 0.188 RMSE:0.221 MAPE:19.87
+Step: 2 Prediction:1.153 Act: 0.2 RMSE:0.221 MAPE:21.241
+Step: 3 Prediction:1.093 Act: 0.191 RMSE:0.208 MAPE:20.312
+Step: 4 Prediction:1.017 Act: 0.194 RMSE:0.208 MAPE:21.367
+Step: 5 Prediction:0.962 Act: 0.227 RMSE:0.249 MAPE:29.277
+Step: 6 Prediction:0.895 Act: 0.245 RMSE:0.266 MAPE:34.489
+Step: 7 Prediction:0.836 Act: 0.248 RMSE:0.266 MAPE:36.019
+Step: 8 Prediction:0.782 Act: 0.244 RMSE:0.261 MAPE:36.151
+Step: 9 Prediction:0.728 Act: 0.247 RMSE:0.263 MAPE:38.716
+Step: 10 Prediction:0.651 Act: 0.236 RMSE:0.253 MAPE:37.277
+Step: 11 Prediction:0.612 Act: 0.232 RMSE:0.249 MAPE:37.986
+Step: 12 Prediction:0.585 Act: 0.234 RMSE:0.249 MAPE:41.01
+Step: 13 Prediction:0.546 Act: 0.231 RMSE:0.246 MAPE:42.086
+Step: 14 Prediction:0.505 Act: 0.232 RMSE:0.245 MAPE:45.085
+Step: 15 Prediction:0.496 Act: 0.229 RMSE:0.242 MAPE:46.02
+Step: 16 Prediction:0.483 Act: 0.223 RMSE:0.236 MAPE:45.315
+Step: 17 Prediction:0.448 Act: 0.211 RMSE:0.23 MAPE:42.937
+Step: 18 Prediction:0.423 Act: 0.206 RMSE:0.225 MAPE:42.596
+Step: 19 Prediction:0.41 Act: 0.198 RMSE:0.22 MAPE:41.327
+Step: 20 Prediction:0.394 Act: 0.195 RMSE:0.216 MAPE:41.539
+Step: 21 Prediction:0.381 Act: 0.191 RMSE:0.212 MAPE:41.297
+Step: 22 Prediction:0.392 Act: 0.183 RMSE:0.208 MAPE:39.764
+Step: 23 Prediction:0.383 Act: 0.18 RMSE:0.205 MAPE:39.858
+Time taken: 5.291
+Step: 0 Prediction:1.25 Act: 0.03 RMSE:0.03 MAPE:2.452
+Step: 1 Prediction:1.12 Act: 0.125 RMSE:0.157 MAPE:13.463
+Step: 2 Prediction:1.014 Act: 0.111 RMSE:0.137 MAPE:11.972
+Step: 3 Prediction:0.925 Act: 0.085 RMSE:0.119 MAPE:9.125
+Step: 4 Prediction:0.879 Act: 0.082 RMSE:0.111 MAPE:9
+Step: 5 Prediction:0.822 Act: 0.11 RMSE:0.144 MAPE:14.861
+Step: 6 Prediction:0.768 Act: 0.127 RMSE:0.159 MAPE:18.774
+Step: 7 Prediction:0.732 Act: 0.131 RMSE:0.159 MAPE:19.991
+Step: 8 Prediction:0.712 Act: 0.133 RMSE:0.158 MAPE:20.547
+Step: 9 Prediction:0.682 Act: 0.142 RMSE:0.166 MAPE:23.642
+Step: 10 Prediction:0.629 Act: 0.139 RMSE:0.161 MAPE:23.197
+Step: 11 Prediction:0.59 Act: 0.141 RMSE:0.162 MAPE:24.634
+Step: 12 Prediction:0.58 Act: 0.15 RMSE:0.171 MAPE:28.578
+Step: 13 Prediction:0.566 Act: 0.154 RMSE:0.174 MAPE:30.948
+Step: 14 Prediction:0.565 Act: 0.164 RMSE:0.185 MAPE:36.176
+Step: 15 Prediction:0.561 Act: 0.169 RMSE:0.19 MAPE:38.967
+Step: 16 Prediction:0.544 Act: 0.17 RMSE:0.189 MAPE:39.68
+Step: 17 Prediction:0.521 Act: 0.164 RMSE:0.184 MAPE:38.207
+Step: 18 Prediction:0.516 Act: 0.166 RMSE:0.186 MAPE:39.687
+Step: 19 Prediction:0.506 Act: 0.166 RMSE:0.184 MAPE:39.938
+Step: 20 Prediction:0.48 Act: 0.168 RMSE:0.186 MAPE:41.735
+Step: 21 Prediction:0.471 Act: 0.169 RMSE:0.186 MAPE:42.932
+Step: 22 Prediction:0.469 Act: 0.166 RMSE:0.183 MAPE:42.225
+Step: 23 Prediction:0.473 Act: 0.167 RMSE:0.184 MAPE:43.593
+Time taken: 78.249
+Time taken: 0.94
+Time taken: 0.733
+Time taken: 0.909
+Time taken: 0.927
+Step: 0 Prediction:0.723 Act: 0.497 RMSE:0.497 MAPE:40.77
+Step: 1 Prediction:0.878 Act: 0.26 RMSE:0.352 MAPE:21.634
+Step: 2 Prediction:0.812 Act: 0.213 RMSE:0.295 MAPE:18.665
+Step: 3 Prediction:0.737 Act: 0.208 RMSE:0.273 MAPE:19.176
+Step: 4 Prediction:0.882 Act: 0.181 RMSE:0.247 MAPE:17.116
+Step: 5 Prediction:1.008 Act: 0.223 RMSE:0.287 MAPE:27.066
+Step: 6 Prediction:0.992 Act: 0.256 RMSE:0.316 MAPE:35.158
+Step: 7 Prediction:0.734 Act: 0.245 RMSE:0.302 MAPE:34.368
+Step: 8 Prediction:0.826 Act: 0.246 RMSE:0.297 MAPE:35.539
+Step: 9 Prediction:0.851 Act: 0.261 RMSE:0.309 MAPE:40.888
+Step: 10 Prediction:0.818 Act: 0.264 RMSE:0.307 MAPE:42.11
+Step: 11 Prediction:0.848 Act: 0.277 RMSE:0.319 MAPE:47.083
+Step: 12 Prediction:0.837 Act: 0.295 RMSE:0.337 MAPE:55.271
+Step: 13 Prediction:0.821 Act: 0.308 RMSE:0.348 MAPE:60.939
+Step: 14 Prediction:0.723 Act: 0.317 RMSE:0.356 MAPE:68.064
+Step: 15 Prediction:0.748 Act: 0.325 RMSE:0.362 MAPE:72.637
+Step: 16 Prediction:0.765 Act: 0.33 RMSE:0.364 MAPE:74.98
+Step: 17 Prediction:0.741 Act: 0.327 RMSE:0.36 MAPE:74.208
+Step: 18 Prediction:0.745 Act: 0.333 RMSE:0.365 MAPE:77.68
+Step: 19 Prediction:0.697 Act: 0.333 RMSE:0.364 MAPE:78.751
+Step: 20 Prediction:0.69 Act: 0.337 RMSE:0.367 MAPE:82.416
+Step: 21 Prediction:0.673 Act: 0.34 RMSE:0.368 MAPE:85.05
+Step: 22 Prediction:0.651 Act: 0.337 RMSE:0.365 MAPE:84.648
+Step: 23 Prediction:0.635 Act: 0.338 RMSE:0.365 MAPE:86.75
+Time taken: 5.31
+Step: 0 Prediction:1.277 Act: 0.057 RMSE:0.057 MAPE:4.701
+Step: 1 Prediction:1.162 Act: 0.16 RMSE:0.189 MAPE:16.892
+Step: 2 Prediction:1.064 Act: 0.151 RMSE:0.173 MAPE:16.076
+Step: 3 Prediction:0.99 Act: 0.128 RMSE:0.153 MAPE:13.671
+Step: 4 Prediction:0.949 Act: 0.131 RMSE:0.15 MAPE:14.371
+Step: 5 Prediction:0.904 Act: 0.164 RMSE:0.193 MAPE:21.735
+Step: 6 Prediction:0.865 Act: 0.187 RMSE:0.217 MAPE:27.229
+Step: 7 Prediction:0.828 Act: 0.196 RMSE:0.223 MAPE:29.478
+Step: 8 Prediction:0.847 Act: 0.205 RMSE:0.229 MAPE:31.611
+Step: 9 Prediction:0.837 Act: 0.223 RMSE:0.25 MAPE:37.048
+Step: 10 Prediction:0.799 Act: 0.228 RMSE:0.251 MAPE:38.3
+Step: 11 Prediction:0.767 Act: 0.238 RMSE:0.261 MAPE:41.997
+Step: 12 Prediction:0.738 Act: 0.251 RMSE:0.275 MAPE:48.273
+Step: 13 Prediction:0.708 Act: 0.258 RMSE:0.282 MAPE:52.137
+Step: 14 Prediction:0.687 Act: 0.269 RMSE:0.293 MAPE:58.969
+Step: 15 Prediction:0.678 Act: 0.275 RMSE:0.298 MAPE:62.695
+Step: 16 Prediction:0.658 Act: 0.276 RMSE:0.298 MAPE:63.881
+Step: 17 Prediction:0.626 Act: 0.27 RMSE:0.292 MAPE:62.337
+Step: 18 Prediction:0.599 Act: 0.271 RMSE:0.292 MAPE:63.964
+Step: 19 Prediction:0.586 Act: 0.27 RMSE:0.289 MAPE:64.134
+Step: 20 Prediction:0.554 Act: 0.27 RMSE:0.289 MAPE:66.094
+Step: 21 Prediction:0.511 Act: 0.268 RMSE:0.287 MAPE:66.842
+Step: 22 Prediction:0.484 Act: 0.262 RMSE:0.282 MAPE:65.271
+Step: 23 Prediction:0.47 Act: 0.259 RMSE:0.279 MAPE:65.633
+Time taken: 4.278
+Step: 0 Prediction:1.282 Act: 0.062 RMSE:0.062 MAPE:5.098
+Step: 1 Prediction:1.181 Act: 0.171 RMSE:0.203 MAPE:18.139
+Step: 2 Prediction:1.093 Act: 0.169 RMSE:0.191 MAPE:17.942
+Step: 3 Prediction:1.015 Act: 0.148 RMSE:0.171 MAPE:15.729
+Step: 4 Prediction:0.946 Act: 0.145 RMSE:0.164 MAPE:15.933
+Step: 5 Prediction:0.885 Act: 0.174 RMSE:0.198 MAPE:22.501
+Step: 6 Prediction:0.833 Act: 0.191 RMSE:0.214 MAPE:27.025
+Step: 7 Prediction:0.786 Act: 0.194 RMSE:0.214 MAPE:28.385
+Step: 8 Prediction:0.745 Act: 0.192 RMSE:0.21 MAPE:28.645
+Step: 9 Prediction:0.709 Act: 0.198 RMSE:0.215 MAPE:31.538
+Step: 10 Prediction:0.677 Act: 0.194 RMSE:0.21 MAPE:31.197
+Step: 11 Prediction:0.649 Act: 0.197 RMSE:0.212 MAPE:33.143
+Step: 12 Prediction:0.624 Act: 0.204 RMSE:0.219 MAPE:37.448
+Step: 13 Prediction:0.602 Act: 0.208 RMSE:0.222 MAPE:39.909
+Step: 14 Prediction:0.582 Act: 0.215 RMSE:0.229 MAPE:44.942
+Step: 15 Prediction:0.564 Act: 0.217 RMSE:0.23 MAPE:47.246
+Step: 16 Prediction:0.548 Act: 0.215 RMSE:0.228 MAPE:47.532
+Step: 17 Prediction:0.533 Act: 0.207 RMSE:0.222 MAPE:45.778
+Step: 18 Prediction:0.521 Act: 0.208 RMSE:0.222 MAPE:46.945
+Step: 19 Prediction:0.509 Act: 0.205 RMSE:0.219 MAPE:46.873
+Step: 20 Prediction:0.499 Act: 0.206 RMSE:0.22 MAPE:48.679
+Step: 21 Prediction:0.49 Act: 0.206 RMSE:0.219 MAPE:49.872
+Step: 22 Prediction:0.481 Act: 0.202 RMSE:0.216 MAPE:49.013
+Step: 23 Prediction:0.474 Act: 0.202 RMSE:0.215 MAPE:50.116
+Time taken: 4.357
+Step: 0 Prediction:1.282 Act: 0.062 RMSE:0.062 MAPE:5.098
+Step: 1 Prediction:1.181 Act: 0.171 RMSE:0.203 MAPE:18.139
+Step: 2 Prediction:1.093 Act: 0.169 RMSE:0.191 MAPE:17.942
+Step: 3 Prediction:1.015 Act: 0.148 RMSE:0.171 MAPE:15.729
+Step: 4 Prediction:0.946 Act: 0.145 RMSE:0.164 MAPE:15.933
+Step: 5 Prediction:0.885 Act: 0.174 RMSE:0.198 MAPE:22.501
+Step: 6 Prediction:0.833 Act: 0.191 RMSE:0.214 MAPE:27.025
+Step: 7 Prediction:0.786 Act: 0.194 RMSE:0.214 MAPE:28.385
+Step: 8 Prediction:0.745 Act: 0.192 RMSE:0.21 MAPE:28.645
+Step: 9 Prediction:0.709 Act: 0.198 RMSE:0.215 MAPE:31.538
+Step: 10 Prediction:0.677 Act: 0.194 RMSE:0.21 MAPE:31.197
+Step: 11 Prediction:0.649 Act: 0.197 RMSE:0.212 MAPE:33.143
+Step: 12 Prediction:0.624 Act: 0.204 RMSE:0.219 MAPE:37.448
+Step: 13 Prediction:0.602 Act: 0.208 RMSE:0.222 MAPE:39.909
+Step: 14 Prediction:0.582 Act: 0.215 RMSE:0.229 MAPE:44.942
+Step: 15 Prediction:0.564 Act: 0.217 RMSE:0.23 MAPE:47.246
+Step: 16 Prediction:0.548 Act: 0.215 RMSE:0.228 MAPE:47.532
+Step: 17 Prediction:0.533 Act: 0.207 RMSE:0.222 MAPE:45.778
+Step: 18 Prediction:0.521 Act: 0.208 RMSE:0.222 MAPE:46.945
+Step: 19 Prediction:0.509 Act: 0.205 RMSE:0.219 MAPE:46.873
+Step: 20 Prediction:0.499 Act: 0.206 RMSE:0.22 MAPE:48.679
+Step: 21 Prediction:0.49 Act: 0.206 RMSE:0.219 MAPE:49.872
+Step: 22 Prediction:0.481 Act: 0.202 RMSE:0.216 MAPE:49.013
+Step: 23 Prediction:0.474 Act: 0.202 RMSE:0.215 MAPE:50.116
+Time taken: 2.41
+Time taken: 0.36
+Time taken: 2.937
+Step: 0 Prediction:1.159 Act: 0.061 RMSE:0.061 MAPE:5.008
+Step: 1 Prediction:1.202 Act: 0.182 RMSE:0.218 MAPE:19.307
+Step: 2 Prediction:1.134 Act: 0.189 RMSE:0.214 MAPE:20.184
+Step: 3 Prediction:0.972 Act: 0.152 RMSE:0.186 MAPE:16.256
+Step: 4 Prediction:0.999 Act: 0.16 RMSE:0.187 MAPE:17.664
+Step: 5 Prediction:0.956 Act: 0.197 RMSE:0.232 MAPE:26.01
+Step: 6 Prediction:0.855 Act: 0.214 RMSE:0.246 MAPE:30.629
+Step: 7 Prediction:0.872 Act: 0.225 RMSE:0.253 MAPE:33.422
+Step: 8 Prediction:0.845 Act: 0.231 RMSE:0.256 MAPE:35.078
+Step: 9 Prediction:0.783 Act: 0.241 RMSE:0.265 MAPE:38.961
+Step: 10 Prediction:0.793 Act: 0.243 RMSE:0.264 MAPE:39.931
+Step: 11 Prediction:0.777 Act: 0.252 RMSE:0.273 MAPE:43.679
+Step: 12 Prediction:0.737 Act: 0.264 RMSE:0.286 MAPE:49.817
+Step: 13 Prediction:0.744 Act: 0.274 RMSE:0.295 MAPE:54.3
+Step: 14 Prediction:0.734 Act: 0.286 RMSE:0.309 MAPE:62.131
+Step: 15 Prediction:0.709 Act: 0.293 RMSE:0.315 MAPE:66.301
+Step: 16 Prediction:0.713 Act: 0.297 RMSE:0.318 MAPE:68.176
+Step: 17 Prediction:0.707 Act: 0.294 RMSE:0.314 MAPE:67.373
+Step: 18 Prediction:0.692 Act: 0.299 RMSE:0.318 MAPE:70.313
+Step: 19 Prediction:0.695 Act: 0.301 RMSE:0.32 MAPE:71.718
+Step: 20 Prediction:0.691 Act: 0.307 RMSE:0.325 MAPE:75.72
+Step: 21 Prediction:0.681 Act: 0.311 RMSE:0.329 MAPE:78.79
+Step: 22 Prediction:0.683 Act: 0.311 RMSE:0.328 MAPE:79.039
+Step: 23 Prediction:0.68 Act: 0.315 RMSE:0.332 MAPE:82.076
+Time taken: 2.239
+Time taken: 0.447
+Step: 0 Prediction:0.537 Act: 0.683 RMSE:0.683 MAPE:56.004
+Step: 1 Prediction:0.535 Act: 0.524 RMSE:0.548 MAPE:48.283
+Step: 2 Prediction:0.533 Act: 0.482 RMSE:0.503 MAPE:46.417
+Step: 3 Prediction:0.531 Act: 0.461 RMSE:0.479 MAPE:45.533
+Step: 4 Prediction:0.53 Act: 0.425 RMSE:0.446 MAPE:43.337
+Step: 5 Prediction:0.529 Act: 0.361 RMSE:0.408 MAPE:37.314
+Step: 6 Prediction:0.528 Act: 0.311 RMSE:0.377 MAPE:32.307
+Step: 7 Prediction:0.527 Act: 0.278 RMSE:0.353 MAPE:29.218
+Step: 8 Prediction:0.525 Act: 0.252 RMSE:0.333 MAPE:26.843
+Step: 9 Prediction:0.524 Act: 0.234 RMSE:0.317 MAPE:25.799
+Step: 10 Prediction:0.522 Act: 0.213 RMSE:0.302 MAPE:23.585
+Step: 11 Prediction:0.521 Act: 0.204 RMSE:0.291 MAPE:23.622
+Step: 12 Prediction:0.519 Act: 0.203 RMSE:0.284 MAPE:26.204
+Step: 13 Prediction:0.516 Act: 0.2 RMSE:0.278 MAPE:27.729
+Step: 14 Prediction:0.514 Act: 0.203 RMSE:0.276 MAPE:31.914
+Step: 15 Prediction:0.512 Act: 0.203 RMSE:0.272 MAPE:33.994
+Step: 16 Prediction:0.511 Act: 0.2 RMSE:0.266 MAPE:34.459
+Step: 17 Prediction:0.509 Act: 0.192 RMSE:0.259 MAPE:33.141
+Step: 18 Prediction:0.508 Act: 0.192 RMSE:0.256 MAPE:34.761
+Step: 19 Prediction:0.507 Act: 0.19 RMSE:0.252 MAPE:35.264
+Step: 20 Prediction:0.506 Act: 0.192 RMSE:0.251 MAPE:37.739
+Step: 21 Prediction:0.504 Act: 0.194 RMSE:0.25 MAPE:39.665
+Step: 22 Prediction:0.503 Act: 0.191 RMSE:0.246 MAPE:39.502
+Step: 23 Prediction:0.502 Act: 0.193 RMSE:0.245 MAPE:41.43
+Time taken: 1.182
+Step: 0 Prediction:1.254 Act: 0.034 RMSE:0.034 MAPE:2.789
+Step: 1 Prediction:1.116 Act: 0.125 RMSE:0.155 MAPE:13.416
+Step: 2 Prediction:1.002 Act: 0.108 RMSE:0.133 MAPE:11.53
+Step: 3 Prediction:0.907 Act: 0.086 RMSE:0.116 MAPE:9.259
+Step: 4 Prediction:0.829 Act: 0.073 RMSE:0.104 MAPE:7.865
+Step: 5 Prediction:0.763 Act: 0.093 RMSE:0.123 MAPE:12.204
+Step: 6 Prediction:0.709 Act: 0.104 RMSE:0.131 MAPE:14.929
+Step: 7 Prediction:0.664 Act: 0.102 RMSE:0.127 MAPE:15.118
+Step: 8 Prediction:0.626 Act: 0.097 RMSE:0.121 MAPE:14.531
+Step: 9 Prediction:0.595 Act: 0.102 RMSE:0.124 MAPE:16.289
+Step: 10 Prediction:0.568 Act: 0.096 RMSE:0.118 MAPE:15.461
+Step: 11 Prediction:0.546 Act: 0.099 RMSE:0.119 MAPE:16.669
+Step: 12 Prediction:0.527 Act: 0.106 RMSE:0.127 MAPE:19.977
+Step: 13 Prediction:0.511 Act: 0.11 RMSE:0.129 MAPE:21.83
+Step: 14 Prediction:0.497 Act: 0.118 RMSE:0.138 MAPE:25.974
+Step: 15 Prediction:0.485 Act: 0.121 RMSE:0.141 MAPE:27.872
+Step: 16 Prediction:0.474 Act: 0.121 RMSE:0.139 MAPE:28.101
+Step: 17 Prediction:0.465 Act: 0.115 RMSE:0.135 MAPE:26.606
+Step: 18 Prediction:0.458 Act: 0.116 RMSE:0.136 MAPE:27.715
+Step: 19 Prediction:0.451 Act: 0.116 RMSE:0.134 MAPE:27.774
+Step: 20 Prediction:0.445 Act: 0.118 RMSE:0.137 MAPE:29.543
+Step: 21 Prediction:0.44 Act: 0.12 RMSE:0.138 MAPE:30.799
+Step: 22 Prediction:0.435 Act: 0.118 RMSE:0.136 MAPE:30.229
+Step: 23 Prediction:0.431 Act: 0.12 RMSE:0.137 MAPE:31.459
+Time taken: 1.338
+Time taken: 0.432
+Step: 0 Prediction:1.307 Act: 0.087 RMSE:0.087 MAPE:7.168
+Step: 1 Prediction:1.208 Act: 0.198 RMSE:0.226 MAPE:20.685
+Step: 2 Prediction:1.125 Act: 0.197 RMSE:0.216 MAPE:20.766
+Step: 3 Prediction:1.075 Act: 0.184 RMSE:0.201 MAPE:19.481
+Step: 4 Prediction:1.039 Act: 0.193 RMSE:0.207 MAPE:21.244
+Step: 5 Prediction:1.004 Act: 0.233 RMSE:0.259 MAPE:30.38
+Step: 6 Prediction:0.968 Act: 0.261 RMSE:0.289 MAPE:37.374
+Step: 7 Prediction:0.934 Act: 0.274 RMSE:0.3 MAPE:40.693
+Step: 8 Prediction:0.902 Act: 0.28 RMSE:0.303 MAPE:42.648
+Step: 9 Prediction:0.874 Act: 0.295 RMSE:0.317 MAPE:47.795
+Step: 10 Prediction:0.848 Act: 0.297 RMSE:0.318 MAPE:48.909
+Step: 11 Prediction:0.826 Act: 0.306 RMSE:0.326 MAPE:52.886
+Step: 12 Prediction:0.806 Act: 0.319 RMSE:0.34 MAPE:59.909
+Step: 13 Prediction:0.788 Act: 0.327 RMSE:0.348 MAPE:64.562
+Step: 14 Prediction:0.771 Act: 0.339 RMSE:0.36 MAPE:72.632
+Step: 15 Prediction:0.756 Act: 0.346 RMSE:0.366 MAPE:77.09
+Step: 16 Prediction:0.743 Act: 0.348 RMSE:0.367 MAPE:78.809
+Step: 17 Prediction:0.731 Act: 0.344 RMSE:0.362 MAPE:77.699
+Step: 18 Prediction:0.72 Act: 0.347 RMSE:0.365 MAPE:80.565
+Step: 19 Prediction:0.71 Act: 0.348 RMSE:0.365 MAPE:81.676
+Step: 20 Prediction:0.701 Act: 0.352 RMSE:0.368 MAPE:85.386
+Step: 21 Prediction:0.693 Act: 0.354 RMSE:0.37 MAPE:88.206
+Step: 22 Prediction:0.686 Act: 0.353 RMSE:0.368 MAPE:88.079
+Step: 23 Prediction:0.679 Act: 0.355 RMSE:0.37 MAPE:90.721
+Time taken: 1.314
+Step: 0 Prediction:1.266 Act: 0.046 RMSE:0.046 MAPE:3.749
+Step: 1 Prediction:1.14 Act: 0.143 RMSE:0.173 MAPE:15.2
+Step: 2 Prediction:1.058 Act: 0.138 RMSE:0.159 MAPE:14.714
+Step: 3 Prediction:0.996 Act: 0.12 RMSE:0.142 MAPE:12.819
+Step: 4 Prediction:0.941 Act: 0.122 RMSE:0.14 MAPE:13.485
+Step: 5 Prediction:0.887 Act: 0.155 RMSE:0.182 MAPE:20.513
+Step: 6 Prediction:0.837 Act: 0.175 RMSE:0.202 MAPE:25.44
+Step: 7 Prediction:0.792 Act: 0.181 RMSE:0.205 MAPE:27.127
+Step: 8 Prediction:0.752 Act: 0.181 RMSE:0.202 MAPE:27.665
+Step: 9 Prediction:0.717 Act: 0.19 RMSE:0.21 MAPE:30.832
+Step: 10 Prediction:0.685 Act: 0.186 RMSE:0.205 MAPE:30.696
+Step: 11 Prediction:0.657 Act: 0.191 RMSE:0.208 MAPE:32.843
+Step: 12 Prediction:0.631 Act: 0.199 RMSE:0.217 MAPE:37.342
+Step: 13 Prediction:0.608 Act: 0.203 RMSE:0.22 MAPE:39.94
+Step: 14 Prediction:0.587 Act: 0.211 RMSE:0.228 MAPE:45.101
+Step: 15 Prediction:0.568 Act: 0.214 RMSE:0.23 MAPE:47.476
+Step: 16 Prediction:0.55 Act: 0.213 RMSE:0.228 MAPE:47.793
+Step: 17 Prediction:0.535 Act: 0.205 RMSE:0.222 MAPE:46.04
+Step: 18 Prediction:0.521 Act: 0.205 RMSE:0.221 MAPE:47.192
+Step: 19 Prediction:0.508 Act: 0.203 RMSE:0.219 MAPE:47.087
+Step: 20 Prediction:0.496 Act: 0.204 RMSE:0.219 MAPE:48.833
+Step: 21 Prediction:0.486 Act: 0.204 RMSE:0.218 MAPE:49.951
+Step: 22 Prediction:0.476 Act: 0.2 RMSE:0.215 MAPE:49.024
+Step: 23 Prediction:0.467 Act: 0.2 RMSE:0.214 MAPE:50.022
+Time taken: 1.273
+Step: 0 Prediction:0.823 Act: 0.397 RMSE:0.397 MAPE:32.515
+Step: 1 Prediction:0.855 Act: 0.221 RMSE:0.282 MAPE:18.731
+Step: 2 Prediction:0.957 Act: 0.156 RMSE:0.231 MAPE:13.469
+Step: 3 Prediction:0.978 Act: 0.129 RMSE:0.201 MAPE:11.379
+Step: 4 Prediction:0.974 Act: 0.136 RMSE:0.195 MAPE:13.153
+Step: 5 Prediction:0.742 Act: 0.142 RMSE:0.191 MAPE:16.001
+Step: 6 Prediction:0.74 Act: 0.15 RMSE:0.192 MAPE:18.999
+Step: 7 Prediction:0.7 Act: 0.148 RMSE:0.186 MAPE:19.474
+Step: 8 Prediction:0.711 Act: 0.147 RMSE:0.181 MAPE:20.066
+Step: 9 Prediction:0.722 Act: 0.16 RMSE:0.192 MAPE:24.114
+Step: 10 Prediction:0.631 Act: 0.154 RMSE:0.186 MAPE:23.653
+Step: 11 Prediction:0.628 Act: 0.159 RMSE:0.188 MAPE:25.815
+Step: 12 Prediction:0.58 Act: 0.166 RMSE:0.193 MAPE:29.648
+Step: 13 Prediction:0.582 Act: 0.171 RMSE:0.196 MAPE:32.27
+Step: 14 Prediction:0.58 Act: 0.18 RMSE:0.206 MAPE:37.769
+Step: 15 Prediction:0.543 Act: 0.183 RMSE:0.208 MAPE:40.104
+Step: 16 Prediction:0.542 Act: 0.183 RMSE:0.206 MAPE:40.725
+Step: 17 Prediction:0.51 Act: 0.176 RMSE:0.201 MAPE:39.061
+Step: 18 Prediction:0.509 Act: 0.177 RMSE:0.201 MAPE:40.388
+Step: 19 Prediction:0.501 Act: 0.176 RMSE:0.199 MAPE:40.523
+Step: 20 Prediction:0.485 Act: 0.177 RMSE:0.199 MAPE:42.391
+Step: 21 Prediction:0.484 Act: 0.179 RMSE:0.2 MAPE:43.774
+Step: 22 Prediction:0.465 Act: 0.175 RMSE:0.196 MAPE:42.983
+Step: 23 Prediction:0.464 Act: 0.176 RMSE:0.196 MAPE:44.178
+Time taken: 1.359
+Step: 0 Prediction:0.662 Act: 0.558 RMSE:0.558 MAPE:45.706
+Step: 1 Prediction:0.662 Act: 0.398 RMSE:0.429 MAPE:36.054
+Step: 2 Prediction:0.662 Act: 0.354 RMSE:0.383 MAPE:33.628
+Step: 3 Prediction:0.662 Act: 0.333 RMSE:0.357 MAPE:32.415
+Step: 4 Prediction:0.662 Act: 0.296 RMSE:0.326 MAPE:29.577
+Step: 5 Prediction:0.662 Act: 0.262 RMSE:0.3 MAPE:27.349
+Step: 6 Prediction:0.662 Act: 0.242 RMSE:0.282 MAPE:26.679
+Step: 7 Prediction:0.662 Act: 0.223 RMSE:0.266 MAPE:25.37
+Step: 8 Prediction:0.662 Act: 0.209 RMSE:0.252 MAPE:24.352
+Step: 9 Prediction:0.662 Act: 0.209 RMSE:0.249 MAPE:26.637
+Step: 10 Prediction:0.662 Act: 0.202 RMSE:0.24 MAPE:26.486
+Step: 11 Prediction:0.662 Act: 0.205 RMSE:0.241 MAPE:29.088
+Step: 12 Prediction:0.662 Act: 0.215 RMSE:0.249 MAPE:34.598
+Step: 13 Prediction:0.662 Act: 0.222 RMSE:0.254 MAPE:38.502
+Step: 14 Prediction:0.662 Act: 0.233 RMSE:0.265 MAPE:45.624
+Step: 15 Prediction:0.662 Act: 0.241 RMSE:0.272 MAPE:49.877
+Step: 16 Prediction:0.662 Act: 0.245 RMSE:0.274 MAPE:51.884
+Step: 17 Prediction:0.662 Act: 0.242 RMSE:0.27 MAPE:51.446
+Step: 18 Prediction:0.662 Act: 0.248 RMSE:0.275 MAPE:54.721
+Step: 19 Prediction:0.662 Act: 0.251 RMSE:0.277 MAPE:56.448
+Step: 20 Prediction:0.662 Act: 0.258 RMSE:0.284 MAPE:60.68
+Step: 21 Prediction:0.662 Act: 0.264 RMSE:0.289 MAPE:64.129
+Step: 22 Prediction:0.662 Act: 0.265 RMSE:0.289 MAPE:64.777
+Step: 23 Prediction:0.662 Act: 0.27 RMSE:0.294 MAPE:68.133
+Time taken: 1.104
+Step: 0 Prediction:0.913 Act: 0.307 RMSE:0.307 MAPE:25.126
+Step: 1 Prediction:1.06 Act: 0.233 RMSE:0.244 MAPE:21.432
+Step: 2 Prediction:1.099 Act: 0.212 RMSE:0.222 MAPE:20.363
+Step: 3 Prediction:1.084 Act: 0.197 RMSE:0.207 MAPE:19.402
+Step: 4 Prediction:0.874 Act: 0.171 RMSE:0.188 MAPE:17.097
+Step: 5 Prediction:0.932 Act: 0.203 RMSE:0.226 MAPE:24.844
+Step: 6 Prediction:0.906 Act: 0.226 RMSE:0.251 MAPE:30.967
+Step: 7 Prediction:0.89 Act: 0.238 RMSE:0.261 MAPE:34.104
+Step: 8 Prediction:0.799 Act: 0.237 RMSE:0.257 MAPE:34.782
+Step: 9 Prediction:0.814 Act: 0.249 RMSE:0.27 MAPE:39.397
+Step: 10 Prediction:0.785 Act: 0.25 RMSE:0.269 MAPE:40.19
+Step: 11 Prediction:0.774 Act: 0.259 RMSE:0.277 MAPE:43.864
+Step: 12 Prediction:0.731 Act: 0.27 RMSE:0.288 MAPE:49.827
+Step: 13 Prediction:0.729 Act: 0.277 RMSE:0.296 MAPE:54.001
+Step: 14 Prediction:0.707 Act: 0.288 RMSE:0.307 MAPE:61.186
+Step: 15 Prediction:0.697 Act: 0.294 RMSE:0.313 MAPE:65.167
+Step: 16 Prediction:0.674 Act: 0.295 RMSE:0.313 MAPE:66.465
+Step: 17 Prediction:0.668 Act: 0.29 RMSE:0.308 MAPE:65.287
+Step: 18 Prediction:0.653 Act: 0.293 RMSE:0.31 MAPE:67.679
+Step: 19 Prediction:0.645 Act: 0.293 RMSE:0.309 MAPE:68.514
+Step: 20 Prediction:0.632 Act: 0.297 RMSE:0.312 MAPE:71.629
+Step: 21 Prediction:0.625 Act: 0.299 RMSE:0.313 MAPE:73.981
+Step: 22 Prediction:0.615 Act: 0.297 RMSE:0.311 MAPE:73.645
+Step: 23 Prediction:0.609 Act: 0.298 RMSE:0.312 MAPE:75.805
+Time taken: 1.278
+Step: 0 Prediction:1.274 Act: 0.054 RMSE:0.054 MAPE:4.459
+Step: 1 Prediction:1.159 Act: 0.157 RMSE:0.187 MAPE:16.634
+Step: 2 Prediction:1.049 Act: 0.144 RMSE:0.168 MAPE:15.338
+Step: 3 Prediction:0.975 Act: 0.119 RMSE:0.147 MAPE:12.712
+Step: 4 Prediction:0.941 Act: 0.122 RMSE:0.144 MAPE:13.4
+Step: 5 Prediction:0.907 Act: 0.158 RMSE:0.19 MAPE:21.021
+Step: 6 Prediction:0.871 Act: 0.182 RMSE:0.216 MAPE:26.78
+Step: 7 Prediction:0.843 Act: 0.194 RMSE:0.224 MAPE:29.411
+Step: 8 Prediction:0.818 Act: 0.2 RMSE:0.227 MAPE:30.975
+Step: 9 Prediction:0.792 Act: 0.214 RMSE:0.241 MAPE:35.489
+Step: 10 Prediction:0.768 Act: 0.216 RMSE:0.241 MAPE:36.342
+Step: 11 Prediction:0.746 Act: 0.225 RMSE:0.249 MAPE:39.773
+Step: 12 Prediction:0.725 Act: 0.238 RMSE:0.263 MAPE:45.91
+Step: 13 Prediction:0.705 Act: 0.247 RMSE:0.27 MAPE:49.875
+Step: 14 Prediction:0.688 Act: 0.258 RMSE:0.283 MAPE:56.865
+Step: 15 Prediction:0.673 Act: 0.265 RMSE:0.288 MAPE:60.621
+Step: 16 Prediction:0.659 Act: 0.267 RMSE:0.289 MAPE:61.937
+Step: 17 Prediction:0.646 Act: 0.262 RMSE:0.284 MAPE:60.747
+Step: 18 Prediction:0.635 Act: 0.265 RMSE:0.287 MAPE:63.071
+Step: 19 Prediction:0.625 Act: 0.266 RMSE:0.286 MAPE:63.847
+Step: 20 Prediction:0.616 Act: 0.27 RMSE:0.289 MAPE:66.906
+Step: 21 Prediction:0.607 Act: 0.272 RMSE:0.291 MAPE:69.181
+Step: 22 Prediction:0.6 Act: 0.27 RMSE:0.289 MAPE:68.874
+Step: 23 Prediction:0.593 Act: 0.273 RMSE:0.29 MAPE:70.987
+Time taken: 1.309
+Step: 0 Prediction:0.827 Act: 0.393 RMSE:0.393 MAPE:32.206
+Step: 1 Prediction:1.06 Act: 0.277 RMSE:0.3 MAPE:25.005
+Step: 2 Prediction:1.133 Act: 0.252 RMSE:0.272 MAPE:23.96
+Step: 3 Prediction:1.062 Act: 0.222 RMSE:0.244 MAPE:21.512
+Step: 4 Prediction:0.761 Act: 0.187 RMSE:0.22 MAPE:18.422
+Step: 5 Prediction:0.907 Act: 0.212 RMSE:0.243 MAPE:25.202
+Step: 6 Prediction:0.95 Act: 0.241 RMSE:0.273 MAPE:32.436
+Step: 7 Prediction:0.902 Act: 0.252 RMSE:0.281 MAPE:35.67
+Step: 8 Prediction:0.693 Act: 0.238 RMSE:0.268 MAPE:34.11
+Step: 9 Prediction:0.788 Act: 0.248 RMSE:0.276 MAPE:38.211
+Step: 10 Prediction:0.816 Act: 0.251 RMSE:0.277 MAPE:39.637
+Step: 11 Prediction:0.784 Act: 0.261 RMSE:0.285 MAPE:43.562
+Step: 12 Prediction:0.649 Act: 0.265 RMSE:0.288 MAPE:47.65
+Step: 13 Prediction:0.709 Act: 0.272 RMSE:0.294 MAPE:51.582
+Step: 14 Prediction:0.726 Act: 0.284 RMSE:0.307 MAPE:59.405
+Step: 15 Prediction:0.705 Act: 0.291 RMSE:0.313 MAPE:63.646
+Step: 16 Prediction:0.616 Act: 0.289 RMSE:0.31 MAPE:64.083
+Step: 17 Prediction:0.654 Act: 0.284 RMSE:0.305 MAPE:62.87
+Step: 18 Prediction:0.665 Act: 0.287 RMSE:0.308 MAPE:65.583
+Step: 19 Prediction:0.65 Act: 0.288 RMSE:0.307 MAPE:66.59
+Step: 20 Prediction:0.592 Act: 0.29 RMSE:0.308 MAPE:69.095
+Step: 21 Prediction:0.616 Act: 0.292 RMSE:0.309 MAPE:71.412
+Step: 22 Prediction:0.622 Act: 0.29 RMSE:0.307 MAPE:71.27
+Step: 23 Prediction:0.612 Act: 0.292 RMSE:0.309 MAPE:73.578
+Time taken: 1.26
+Step: 0 Prediction:1.271 Act: 0.051 RMSE:0.051 MAPE:4.147
+Step: 1 Prediction:1.195 Act: 0.173 RMSE:0.211 MAPE:18.436
+Step: 2 Prediction:1.082 Act: 0.166 RMSE:0.194 MAPE:17.745
+Step: 3 Prediction:1.057 Act: 0.156 RMSE:0.179 MAPE:16.726
+Step: 4 Prediction:1.005 Act: 0.164 RMSE:0.183 MAPE:18.191
+Step: 5 Prediction:0.979 Act: 0.205 RMSE:0.236 MAPE:27.122
+Step: 6 Prediction:0.928 Act: 0.231 RMSE:0.263 MAPE:33.517
+Step: 7 Prediction:0.901 Act: 0.243 RMSE:0.272 MAPE:36.579
+Step: 8 Prediction:0.858 Act: 0.248 RMSE:0.274 MAPE:38.126
+Step: 9 Prediction:0.834 Act: 0.262 RMSE:0.287 MAPE:42.852
+Step: 10 Prediction:0.803 Act: 0.263 RMSE:0.286 MAPE:43.64
+Step: 11 Prediction:0.784 Act: 0.271 RMSE:0.293 MAPE:47.224
+Step: 12 Prediction:0.76 Act: 0.284 RMSE:0.306 MAPE:53.604
+Step: 13 Prediction:0.743 Act: 0.291 RMSE:0.313 MAPE:57.799
+Step: 14 Prediction:0.724 Act: 0.302 RMSE:0.324 MAPE:65.147
+Step: 15 Prediction:0.71 Act: 0.308 RMSE:0.329 MAPE:69.134
+Step: 16 Prediction:0.694 Act: 0.31 RMSE:0.33 MAPE:70.53
+Step: 17 Prediction:0.683 Act: 0.305 RMSE:0.325 MAPE:69.302
+Step: 18 Prediction:0.671 Act: 0.308 RMSE:0.327 MAPE:71.776
+Step: 19 Prediction:0.661 Act: 0.308 RMSE:0.326 MAPE:72.631
+Step: 20 Prediction:0.651 Act: 0.312 RMSE:0.329 MAPE:75.897
+Step: 21 Prediction:0.643 Act: 0.314 RMSE:0.33 MAPE:78.347
+Step: 22 Prediction:0.636 Act: 0.312 RMSE:0.328 MAPE:78.061
+Step: 23 Prediction:0.629 Act: 0.314 RMSE:0.329 MAPE:80.35
+Time taken: 1.258
+Step: 0 Prediction:1.06 Act: 0.16 RMSE:0.16 MAPE:13.107
+Step: 1 Prediction:1.153 Act: 0.206 RMSE:0.212 MAPE:20.604
+Step: 2 Prediction:1.096 Act: 0.193 RMSE:0.198 MAPE:19.683
+Step: 3 Prediction:0.906 Act: 0.151 RMSE:0.171 MAPE:15.413
+Step: 4 Prediction:0.947 Act: 0.148 RMSE:0.165 MAPE:15.722
+Step: 5 Prediction:0.931 Act: 0.184 RMSE:0.211 MAPE:23.665
+Step: 6 Prediction:0.825 Act: 0.198 RMSE:0.223 MAPE:27.812
+Step: 7 Prediction:0.799 Act: 0.202 RMSE:0.224 MAPE:29.364
+Step: 8 Prediction:0.801 Act: 0.205 RMSE:0.225 MAPE:30.6
+Step: 9 Prediction:0.737 Act: 0.213 RMSE:0.232 MAPE:33.928
+Step: 10 Prediction:0.7 Act: 0.209 RMSE:0.227 MAPE:33.761
+Step: 11 Prediction:0.701 Act: 0.215 RMSE:0.232 MAPE:36.522
+Step: 12 Prediction:0.665 Act: 0.225 RMSE:0.241 MAPE:41.527
+Step: 13 Prediction:0.631 Act: 0.229 RMSE:0.244 MAPE:44.305
+Step: 14 Prediction:0.625 Act: 0.237 RMSE:0.253 MAPE:50.126
+Step: 15 Prediction:0.606 Act: 0.241 RMSE:0.256 MAPE:52.951
+Step: 16 Prediction:0.579 Act: 0.24 RMSE:0.254 MAPE:53.422
+Step: 17 Prediction:0.57 Act: 0.232 RMSE:0.248 MAPE:51.78
+Step: 18 Prediction:0.558 Act: 0.233 RMSE:0.248 MAPE:53.267
+Step: 19 Prediction:0.539 Act: 0.231 RMSE:0.246 MAPE:53.309
+Step: 20 Prediction:0.529 Act: 0.232 RMSE:0.246 MAPE:55.336
+Step: 21 Prediction:0.521 Act: 0.233 RMSE:0.246 MAPE:56.728
+Step: 22 Prediction:0.508 Act: 0.229 RMSE:0.242 MAPE:55.879
+Step: 23 Prediction:0.498 Act: 0.228 RMSE:0.242 MAPE:57.066
+Time taken: 2.046
+Time taken: 1.035
+Step: 0 Prediction:1.235 Act: 0.015 RMSE:0.015 MAPE:1.223
+Step: 1 Prediction:1.16 Act: 0.137 RMSE:0.184 MAPE:15.041
+Step: 2 Prediction:1.075 Act: 0.14 RMSE:0.172 MAPE:15.229
+Step: 3 Prediction:1.035 Act: 0.131 RMSE:0.158 MAPE:14.239
+Step: 4 Prediction:0.969 Act: 0.137 RMSE:0.158 MAPE:15.326
+Step: 5 Prediction:0.924 Act: 0.173 RMSE:0.204 MAPE:23.123
+Step: 6 Prediction:0.874 Act: 0.196 RMSE:0.228 MAPE:28.668
+Step: 7 Prediction:0.837 Act: 0.205 RMSE:0.233 MAPE:30.932
+Step: 8 Prediction:0.801 Act: 0.208 RMSE:0.233 MAPE:31.994
+Step: 9 Prediction:0.77 Act: 0.219 RMSE:0.243 MAPE:35.902
+Step: 10 Prediction:0.742 Act: 0.218 RMSE:0.24 MAPE:36.278
+Step: 11 Prediction:0.717 Act: 0.225 RMSE:0.245 MAPE:39.152
+Step: 12 Prediction:0.696 Act: 0.236 RMSE:0.257 MAPE:44.663
+Step: 13 Prediction:0.676 Act: 0.242 RMSE:0.262 MAPE:48.124
+Step: 14 Prediction:0.659 Act: 0.252 RMSE:0.272 MAPE:54.517
+Step: 15 Prediction:0.643 Act: 0.257 RMSE:0.277 MAPE:57.83
+Step: 16 Prediction:0.63 Act: 0.258 RMSE:0.276 MAPE:58.838
+Step: 17 Prediction:0.618 Act: 0.252 RMSE:0.271 MAPE:57.473
+Step: 18 Prediction:0.607 Act: 0.255 RMSE:0.272 MAPE:59.489
+Step: 19 Prediction:0.597 Act: 0.254 RMSE:0.271 MAPE:60.048
+Step: 20 Prediction:0.589 Act: 0.257 RMSE:0.274 MAPE:62.811
+Step: 21 Prediction:0.581 Act: 0.259 RMSE:0.275 MAPE:64.846
+Step: 22 Prediction:0.574 Act: 0.257 RMSE:0.272 MAPE:64.43
+Step: 23 Prediction:0.569 Act: 0.259 RMSE:0.273 MAPE:66.352
+Time taken: 2.121
+Step: 0 Prediction:1.269 Act: 0.049 RMSE:0.049 MAPE:3.989
+Step: 1 Prediction:1.155 Act: 0.152 RMSE:0.183 MAPE:16.15
+Step: 2 Prediction:1.073 Act: 0.149 RMSE:0.171 MAPE:15.892
+Step: 3 Prediction:1.009 Act: 0.131 RMSE:0.153 MAPE:14.041
+Step: 4 Prediction:0.959 Act: 0.135 RMSE:0.153 MAPE:14.923
+Step: 5 Prediction:0.915 Act: 0.17 RMSE:0.198 MAPE:22.514
+Step: 6 Prediction:0.871 Act: 0.193 RMSE:0.222 MAPE:28.066
+Step: 7 Prediction:0.83 Act: 0.201 RMSE:0.227 MAPE:30.261
+Step: 8 Prediction:0.792 Act: 0.204 RMSE:0.226 MAPE:31.218
+Step: 9 Prediction:0.757 Act: 0.214 RMSE:0.236 MAPE:34.912
+Step: 10 Prediction:0.725 Act: 0.212 RMSE:0.232 MAPE:35.086
+Step: 11 Prediction:0.697 Act: 0.218 RMSE:0.236 MAPE:37.656
+Step: 12 Prediction:0.671 Act: 0.227 RMSE:0.246 MAPE:42.707
+Step: 13 Prediction:0.647 Act: 0.232 RMSE:0.25 MAPE:45.72
+Step: 14 Prediction:0.625 Act: 0.24 RMSE:0.258 MAPE:51.444
+Step: 15 Prediction:0.605 Act: 0.244 RMSE:0.261 MAPE:54.178
+Step: 16 Prediction:0.587 Act: 0.243 RMSE:0.259 MAPE:54.695
+Step: 17 Prediction:0.57 Act: 0.235 RMSE:0.253 MAPE:52.983
+Step: 18 Prediction:0.555 Act: 0.236 RMSE:0.253 MAPE:54.347
+Step: 19 Prediction:0.54 Act: 0.234 RMSE:0.25 MAPE:54.351
+Step: 20 Prediction:0.528 Act: 0.235 RMSE:0.25 MAPE:56.305
+Step: 21 Prediction:0.516 Act: 0.235 RMSE:0.25 MAPE:57.573
+Step: 22 Prediction:0.505 Act: 0.23 RMSE:0.246 MAPE:56.653
+Step: 23 Prediction:0.495 Act: 0.23 RMSE:0.245 MAPE:57.758
+Time taken: 2.028
+Step: 0 Prediction:1.307 Act: 0.087 RMSE:0.087 MAPE:7.113
+Step: 1 Prediction:1.217 Act: 0.202 RMSE:0.232 MAPE:21.145
+Step: 2 Prediction:1.139 Act: 0.204 RMSE:0.225 MAPE:21.578
+Step: 3 Prediction:1.085 Act: 0.192 RMSE:0.209 MAPE:20.356
+Step: 4 Prediction:1.042 Act: 0.2 RMSE:0.214 MAPE:22.009
+Step: 5 Prediction:0.999 Act: 0.238 RMSE:0.263 MAPE:30.894
+Step: 6 Prediction:0.959 Act: 0.264 RMSE:0.29 MAPE:37.558
+Step: 7 Prediction:0.921 Act: 0.275 RMSE:0.298 MAPE:40.564
+Step: 8 Prediction:0.886 Act: 0.279 RMSE:0.3 MAPE:42.224
+Step: 9 Prediction:0.855 Act: 0.292 RMSE:0.312 MAPE:46.998
+Step: 10 Prediction:0.826 Act: 0.292 RMSE:0.311 MAPE:47.809
+Step: 11 Prediction:0.801 Act: 0.3 RMSE:0.317 MAPE:51.374
+Step: 12 Prediction:0.777 Act: 0.311 RMSE:0.329 MAPE:57.835
+Step: 13 Prediction:0.755 Act: 0.318 RMSE:0.335 MAPE:61.964
+Step: 14 Prediction:0.735 Act: 0.327 RMSE:0.345 MAPE:69.303
+Step: 15 Prediction:0.716 Act: 0.332 RMSE:0.349 MAPE:73.153
+Step: 16 Prediction:0.699 Act: 0.333 RMSE:0.349 MAPE:74.386
+Step: 17 Prediction:0.683 Act: 0.327 RMSE:0.343 MAPE:72.949
+Step: 18 Prediction:0.669 Act: 0.328 RMSE:0.344 MAPE:75.203
+Step: 19 Prediction:0.656 Act: 0.327 RMSE:0.342 MAPE:75.811
+Step: 20 Prediction:0.644 Act: 0.329 RMSE:0.344 MAPE:78.791
+Step: 21 Prediction:0.633 Act: 0.331 RMSE:0.344 MAPE:80.932
+Step: 22 Prediction:0.622 Act: 0.327 RMSE:0.341 MAPE:80.377
+Step: 23 Prediction:0.613 Act: 0.328 RMSE:0.341 MAPE:82.316
+Time taken: 4.221
+Transformed training data:
+
+              active_power
+              temperature
+              local_time-remapped
+              Lag_active_power-1
+              Lag_active_power-2
+              Lag_active_power-3
+              Lag_active_power-4
+              Lag_active_power-5
+              Lag_active_power-6
+              Lag_active_power-7
+              Lag_active_power-8
+              Lag_active_power-9
+              Lag_active_power-10
+              local_time-remapped^2
+              local_time-remapped^3
+
+active_power:
+AttributeSelectedClassifier:
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 93
+	Merit of best subset found:    0.317
+
+Attribute Subset Evaluator (supervised, Class (numeric): 1 active_power):
+	Wrapper Subset Evaluator
+	Learning scheme: weka.classifiers.functions.LinearRegression
+	Scheme options: -S 1 -R 1.0E-8 -num-decimal-places 4 
+	Subset evaluation: RMSE
+	Number of folds for accuracy estimation: 5
+
+Selected attributes: 2,4,6,9 : 4
+                     temperature
+                     Lag_active_power-1
+                     Lag_active_power-3
+                     Lag_active_power-6
+
+
+Header of reduced data:
+@relation '{\"name\": \"PECAN STREET id=26\", \"longitude\": \"30.266774\", \"id\": \"26\", \"latitude\": \"-97.738989\", \"end\": \"2016-09-24T08:59:00-05:00\", \"type\": \"RESIDENTIAL\", \"timeZoneId\": \"US/Central\", \"stepDuration\": \"PT15M\", \"start\": \"2012-11-02T19:00:00-05:00\", \"location\": \"Austin\"}-weka.filters.unsupervised.attribute.Add-Nlocal_time-remapped-Clast-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-1-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-2-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-3-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-4-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-5-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-6-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-7-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-8-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-9-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-10-weka.filters.unsupervised.attribute.AddExpression-Ea4^2-Nlocal_time-remapped^2-weka.filters.unsupervised.attribute.AddExpression-Ea4^3-Nlocal_time-remapped^3-weka.filters.unsupervised.attribute.RemoveType-Tdate-weka.filters.unsupervised.attribute.Remove-V-R2,4,6,9,1'
+
+@attribute temperature numeric
+@attribute Lag_active_power-1 numeric
+@attribute Lag_active_power-3 numeric
+@attribute Lag_active_power-6 numeric
+@attribute active_power numeric
+
+@data
+
+
+Classifier Model
+
+Linear Regression Model
+
+active_power =
+
+      0.0024 * temperature +
+      0.7679 * Lag_active_power-1 +
+      0.0553 * Lag_active_power-3 +
+      0.0418 * Lag_active_power-6 +
+      0.057 
+
+Step: 0 Prediction:1.307 Act: 0.087 RMSE:0.087 MAPE:7.113
+Step: 1 Prediction:1.217 Act: 0.202 RMSE:0.232 MAPE:21.145
+Step: 2 Prediction:1.139 Act: 0.204 RMSE:0.225 MAPE:21.578
+Step: 3 Prediction:1.085 Act: 0.192 RMSE:0.209 MAPE:20.356
+Step: 4 Prediction:1.042 Act: 0.2 RMSE:0.214 MAPE:22.009
+Step: 5 Prediction:0.999 Act: 0.238 RMSE:0.263 MAPE:30.894
+Step: 6 Prediction:0.959 Act: 0.264 RMSE:0.29 MAPE:37.558
+Step: 7 Prediction:0.921 Act: 0.275 RMSE:0.298 MAPE:40.564
+Step: 8 Prediction:0.886 Act: 0.279 RMSE:0.3 MAPE:42.224
+Step: 9 Prediction:0.855 Act: 0.292 RMSE:0.312 MAPE:46.998
+Step: 10 Prediction:0.826 Act: 0.292 RMSE:0.311 MAPE:47.809
+Step: 11 Prediction:0.801 Act: 0.3 RMSE:0.317 MAPE:51.374
+Step: 12 Prediction:0.777 Act: 0.311 RMSE:0.329 MAPE:57.835
+Step: 13 Prediction:0.755 Act: 0.318 RMSE:0.335 MAPE:61.964
+Step: 14 Prediction:0.735 Act: 0.327 RMSE:0.345 MAPE:69.303
+Step: 15 Prediction:0.716 Act: 0.332 RMSE:0.349 MAPE:73.153
+Step: 16 Prediction:0.699 Act: 0.333 RMSE:0.349 MAPE:74.386
+Step: 17 Prediction:0.683 Act: 0.327 RMSE:0.343 MAPE:72.949
+Step: 18 Prediction:0.669 Act: 0.328 RMSE:0.344 MAPE:75.203
+Step: 19 Prediction:0.656 Act: 0.327 RMSE:0.342 MAPE:75.811
+Step: 20 Prediction:0.644 Act: 0.329 RMSE:0.344 MAPE:78.791
+Step: 21 Prediction:0.633 Act: 0.331 RMSE:0.344 MAPE:80.932
+Step: 22 Prediction:0.622 Act: 0.327 RMSE:0.341 MAPE:80.377
+Step: 23 Prediction:0.613 Act: 0.328 RMSE:0.341 MAPE:82.316
+Time taken: 4.055
+Transformed training data:
+
+              active_power
+              temperature
+              local_time-remapped
+              Lag_active_power-1
+              Lag_active_power-2
+              Lag_active_power-3
+              Lag_active_power-4
+              Lag_active_power-5
+              Lag_active_power-6
+              Lag_active_power-7
+              Lag_active_power-8
+              Lag_active_power-9
+              Lag_active_power-10
+              local_time-remapped^2
+              local_time-remapped^3
+
+active_power:
+AttributeSelectedClassifier:
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 93
+	Merit of best subset found:    0.317
+
+Attribute Subset Evaluator (supervised, Class (numeric): 1 active_power):
+	Wrapper Subset Evaluator
+	Learning scheme: weka.classifiers.functions.LinearRegression
+	Scheme options: -S 1 -R 1.0E-8 -num-decimal-places 4 
+	Subset evaluation: RMSE
+	Number of folds for accuracy estimation: 5
+
+Selected attributes: 2,4,6,9 : 4
+                     temperature
+                     Lag_active_power-1
+                     Lag_active_power-3
+                     Lag_active_power-6
+
+
+Header of reduced data:
+@relation '{\"name\": \"PECAN STREET id=26\", \"longitude\": \"30.266774\", \"id\": \"26\", \"latitude\": \"-97.738989\", \"end\": \"2016-09-24T08:59:00-05:00\", \"type\": \"RESIDENTIAL\", \"timeZoneId\": \"US/Central\", \"stepDuration\": \"PT15M\", \"start\": \"2012-11-02T19:00:00-05:00\", \"location\": \"Austin\"}-weka.filters.unsupervised.attribute.Add-Nlocal_time-remapped-Clast-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-1-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-2-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-3-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-4-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-5-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-6-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-7-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-8-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-9-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-10-weka.filters.unsupervised.attribute.AddExpression-Ea4^2-Nlocal_time-remapped^2-weka.filters.unsupervised.attribute.AddExpression-Ea4^3-Nlocal_time-remapped^3-weka.filters.unsupervised.attribute.RemoveType-Tdate-weka.filters.unsupervised.attribute.Remove-V-R2,4,6,9,1'
+
+@attribute temperature numeric
+@attribute Lag_active_power-1 numeric
+@attribute Lag_active_power-3 numeric
+@attribute Lag_active_power-6 numeric
+@attribute active_power numeric
+
+@data
+
+
+Classifier Model
+
+Linear Regression Model
+
+active_power =
+
+      0.0024 * temperature +
+      0.7679 * Lag_active_power-1 +
+      0.0553 * Lag_active_power-3 +
+      0.0418 * Lag_active_power-6 +
+      0.057 
+
+Step: 0 Prediction:1.307 Act: 0.087 RMSE:0.087 MAPE:7.113
+Step: 1 Prediction:1.217 Act: 0.202 RMSE:0.232 MAPE:21.145
+Step: 2 Prediction:1.139 Act: 0.204 RMSE:0.225 MAPE:21.578
+Step: 3 Prediction:1.085 Act: 0.192 RMSE:0.209 MAPE:20.356
+Step: 4 Prediction:1.042 Act: 0.2 RMSE:0.214 MAPE:22.009
+Step: 5 Prediction:0.999 Act: 0.238 RMSE:0.263 MAPE:30.894
+Step: 6 Prediction:0.959 Act: 0.264 RMSE:0.29 MAPE:37.558
+Step: 7 Prediction:0.921 Act: 0.275 RMSE:0.298 MAPE:40.564
+Step: 8 Prediction:0.886 Act: 0.279 RMSE:0.3 MAPE:42.224
+Step: 9 Prediction:0.855 Act: 0.292 RMSE:0.312 MAPE:46.998
+Step: 10 Prediction:0.826 Act: 0.292 RMSE:0.311 MAPE:47.809
+Step: 11 Prediction:0.801 Act: 0.3 RMSE:0.317 MAPE:51.374
+Step: 12 Prediction:0.777 Act: 0.311 RMSE:0.329 MAPE:57.835
+Step: 13 Prediction:0.755 Act: 0.318 RMSE:0.335 MAPE:61.964
+Step: 14 Prediction:0.735 Act: 0.327 RMSE:0.345 MAPE:69.303
+Step: 15 Prediction:0.716 Act: 0.332 RMSE:0.349 MAPE:73.153
+Step: 16 Prediction:0.699 Act: 0.333 RMSE:0.349 MAPE:74.386
+Step: 17 Prediction:0.683 Act: 0.327 RMSE:0.343 MAPE:72.949
+Step: 18 Prediction:0.669 Act: 0.328 RMSE:0.344 MAPE:75.203
+Step: 19 Prediction:0.656 Act: 0.327 RMSE:0.342 MAPE:75.811
+Step: 20 Prediction:0.644 Act: 0.329 RMSE:0.344 MAPE:78.791
+Step: 21 Prediction:0.633 Act: 0.331 RMSE:0.344 MAPE:80.932
+Step: 22 Prediction:0.622 Act: 0.327 RMSE:0.341 MAPE:80.377
+Step: 23 Prediction:0.613 Act: 0.328 RMSE:0.341 MAPE:82.316
+Time taken: 4.14
+Transformed training data:
+
+              active_power
+              temperature
+              local_time-remapped
+              Lag_active_power-1
+              Lag_active_power-2
+              Lag_active_power-3
+              Lag_active_power-4
+              Lag_active_power-5
+              Lag_active_power-6
+              Lag_active_power-7
+              Lag_active_power-8
+              Lag_active_power-9
+              Lag_active_power-10
+              local_time-remapped^2
+              local_time-remapped^3
+
+active_power:
+AttributeSelectedClassifier:
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 93
+	Merit of best subset found:    0.317
+
+Attribute Subset Evaluator (supervised, Class (numeric): 1 active_power):
+	Wrapper Subset Evaluator
+	Learning scheme: weka.classifiers.functions.LinearRegression
+	Scheme options: -S 1 -R 1.0E-8 -num-decimal-places 4 
+	Subset evaluation: RMSE
+	Number of folds for accuracy estimation: 5
+
+Selected attributes: 2,4,6,9 : 4
+                     temperature
+                     Lag_active_power-1
+                     Lag_active_power-3
+                     Lag_active_power-6
+
+
+Header of reduced data:
+@relation '{\"name\": \"PECAN STREET id=26\", \"longitude\": \"30.266774\", \"id\": \"26\", \"latitude\": \"-97.738989\", \"end\": \"2016-09-24T08:59:00-05:00\", \"type\": \"RESIDENTIAL\", \"timeZoneId\": \"US/Central\", \"stepDuration\": \"PT15M\", \"start\": \"2012-11-02T19:00:00-05:00\", \"location\": \"Austin\"}-weka.filters.unsupervised.attribute.Add-Nlocal_time-remapped-Clast-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-1-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-2-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-3-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-4-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-5-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-6-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-7-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-8-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-9-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-10-weka.filters.unsupervised.attribute.AddExpression-Ea4^2-Nlocal_time-remapped^2-weka.filters.unsupervised.attribute.AddExpression-Ea4^3-Nlocal_time-remapped^3-weka.filters.unsupervised.attribute.RemoveType-Tdate-weka.filters.unsupervised.attribute.Remove-V-R2,4,6,9,1'
+
+@attribute temperature numeric
+@attribute Lag_active_power-1 numeric
+@attribute Lag_active_power-3 numeric
+@attribute Lag_active_power-6 numeric
+@attribute active_power numeric
+
+@data
+
+
+Classifier Model
+
+Linear Regression Model
+
+active_power =
+
+      0.0024 * temperature +
+      0.7679 * Lag_active_power-1 +
+      0.0553 * Lag_active_power-3 +
+      0.0418 * Lag_active_power-6 +
+      0.057 
+
+Step: 0 Prediction:1.307 Act: 0.087 RMSE:0.087 MAPE:7.113
+Step: 1 Prediction:1.217 Act: 0.202 RMSE:0.232 MAPE:21.145
+Step: 2 Prediction:1.139 Act: 0.204 RMSE:0.225 MAPE:21.578
+Step: 3 Prediction:1.085 Act: 0.192 RMSE:0.209 MAPE:20.356
+Step: 4 Prediction:1.042 Act: 0.2 RMSE:0.214 MAPE:22.009
+Step: 5 Prediction:0.999 Act: 0.238 RMSE:0.263 MAPE:30.894
+Step: 6 Prediction:0.959 Act: 0.264 RMSE:0.29 MAPE:37.558
+Step: 7 Prediction:0.921 Act: 0.275 RMSE:0.298 MAPE:40.564
+Step: 8 Prediction:0.886 Act: 0.279 RMSE:0.3 MAPE:42.224
+Step: 9 Prediction:0.855 Act: 0.292 RMSE:0.312 MAPE:46.998
+Step: 10 Prediction:0.826 Act: 0.292 RMSE:0.311 MAPE:47.809
+Step: 11 Prediction:0.801 Act: 0.3 RMSE:0.317 MAPE:51.374
+Step: 12 Prediction:0.777 Act: 0.311 RMSE:0.329 MAPE:57.835
+Step: 13 Prediction:0.755 Act: 0.318 RMSE:0.335 MAPE:61.964
+Step: 14 Prediction:0.735 Act: 0.327 RMSE:0.345 MAPE:69.303
+Step: 15 Prediction:0.716 Act: 0.332 RMSE:0.349 MAPE:73.153
+Step: 16 Prediction:0.699 Act: 0.333 RMSE:0.349 MAPE:74.386
+Step: 17 Prediction:0.683 Act: 0.327 RMSE:0.343 MAPE:72.949
+Step: 18 Prediction:0.669 Act: 0.328 RMSE:0.344 MAPE:75.203
+Step: 19 Prediction:0.656 Act: 0.327 RMSE:0.342 MAPE:75.811
+Step: 20 Prediction:0.644 Act: 0.329 RMSE:0.344 MAPE:78.791
+Step: 21 Prediction:0.633 Act: 0.331 RMSE:0.344 MAPE:80.932
+Step: 22 Prediction:0.622 Act: 0.327 RMSE:0.341 MAPE:80.377
+Step: 23 Prediction:0.613 Act: 0.328 RMSE:0.341 MAPE:82.316
+Time taken: 4.054
+Transformed training data:
+
+              active_power
+              temperature
+              local_time-remapped
+              Lag_active_power-1
+              Lag_active_power-2
+              Lag_active_power-3
+              Lag_active_power-4
+              Lag_active_power-5
+              Lag_active_power-6
+              Lag_active_power-7
+              Lag_active_power-8
+              Lag_active_power-9
+              Lag_active_power-10
+              local_time-remapped^2
+              local_time-remapped^3
+
+active_power:
+AttributeSelectedClassifier:
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 93
+	Merit of best subset found:    0.317
+
+Attribute Subset Evaluator (supervised, Class (numeric): 1 active_power):
+	Wrapper Subset Evaluator
+	Learning scheme: weka.classifiers.functions.LinearRegression
+	Scheme options: -S 1 -R 1.0E-8 -num-decimal-places 4 
+	Subset evaluation: RMSE
+	Number of folds for accuracy estimation: 5
+
+Selected attributes: 2,4,6,9 : 4
+                     temperature
+                     Lag_active_power-1
+                     Lag_active_power-3
+                     Lag_active_power-6
+
+
+Header of reduced data:
+@relation '{\"name\": \"PECAN STREET id=26\", \"longitude\": \"30.266774\", \"id\": \"26\", \"latitude\": \"-97.738989\", \"end\": \"2016-09-24T08:59:00-05:00\", \"type\": \"RESIDENTIAL\", \"timeZoneId\": \"US/Central\", \"stepDuration\": \"PT15M\", \"start\": \"2012-11-02T19:00:00-05:00\", \"location\": \"Austin\"}-weka.filters.unsupervised.attribute.Add-Nlocal_time-remapped-Clast-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-1-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-2-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-3-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-4-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-5-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-6-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-7-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-8-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-9-weka.filters.unsupervised.attribute.Copy-R2-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replaceLag_active_power-Rlast-weka.classifiers.timeseries.core.TimeSeriesTranslate-Rlast-I-10-weka.filters.unsupervised.attribute.AddExpression-Ea4^2-Nlocal_time-remapped^2-weka.filters.unsupervised.attribute.AddExpression-Ea4^3-Nlocal_time-remapped^3-weka.filters.unsupervised.attribute.RemoveType-Tdate-weka.filters.unsupervised.attribute.Remove-V-R2,4,6,9,1'
+
+@attribute temperature numeric
+@attribute Lag_active_power-1 numeric
+@attribute Lag_active_power-3 numeric
+@attribute Lag_active_power-6 numeric
+@attribute active_power numeric
+
+@data
+
+
+Classifier Model
+
+Linear Regression Model
+
+active_power =
+
+      0.0024 * temperature +
+      0.7679 * Lag_active_power-1 +
+      0.0553 * Lag_active_power-3 +
+      0.0418 * Lag_active_power-6 +
+      0.057 
+
+Step: 0 Prediction:1.307 Act: 0.087 RMSE:0.087 MAPE:7.113
+Step: 1 Prediction:1.217 Act: 0.202 RMSE:0.232 MAPE:21.145
+Step: 2 Prediction:1.139 Act: 0.204 RMSE:0.225 MAPE:21.578
+Step: 3 Prediction:1.085 Act: 0.192 RMSE:0.209 MAPE:20.356
+Step: 4 Prediction:1.042 Act: 0.2 RMSE:0.214 MAPE:22.009
+Step: 5 Prediction:0.999 Act: 0.238 RMSE:0.263 MAPE:30.894
+Step: 6 Prediction:0.959 Act: 0.264 RMSE:0.29 MAPE:37.558
+Step: 7 Prediction:0.921 Act: 0.275 RMSE:0.298 MAPE:40.564
+Step: 8 Prediction:0.886 Act: 0.279 RMSE:0.3 MAPE:42.224
+Step: 9 Prediction:0.855 Act: 0.292 RMSE:0.312 MAPE:46.998
+Step: 10 Prediction:0.826 Act: 0.292 RMSE:0.311 MAPE:47.809
+Step: 11 Prediction:0.801 Act: 0.3 RMSE:0.317 MAPE:51.374
+Step: 12 Prediction:0.777 Act: 0.311 RMSE:0.329 MAPE:57.835
+Step: 13 Prediction:0.755 Act: 0.318 RMSE:0.335 MAPE:61.964
+Step: 14 Prediction:0.735 Act: 0.327 RMSE:0.345 MAPE:69.303
+Step: 15 Prediction:0.716 Act: 0.332 RMSE:0.349 MAPE:73.153
+Step: 16 Prediction:0.699 Act: 0.333 RMSE:0.349 MAPE:74.386
+Step: 17 Prediction:0.683 Act: 0.327 RMSE:0.343 MAPE:72.949
+Step: 18 Prediction:0.669 Act: 0.328 RMSE:0.344 MAPE:75.203
+Step: 19 Prediction:0.656 Act: 0.327 RMSE:0.342 MAPE:75.811
+Step: 20 Prediction:0.644 Act: 0.329 RMSE:0.344 MAPE:78.791
+Step: 21 Prediction:0.633 Act: 0.331 RMSE:0.344 MAPE:80.932
+Step: 22 Prediction:0.622 Act: 0.327 RMSE:0.341 MAPE:80.377
+Step: 23 Prediction:0.613 Act: 0.328 RMSE:0.341 MAPE:82.316
+Time taken: 4.518
+Forecaster has not been built yet!
+Time taken: 9.544
+Forecaster has not been built yet!
+Time taken: 0.738
+Forecaster has not been built yet!
+Time taken: 1.784
+Forecaster has not been built yet!
+Time taken: 1.579
+Forecaster has not been built yet!
+Time taken: 0.92
+Forecaster has not been built yet!
+Time taken: 1.606

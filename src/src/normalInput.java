@@ -32,15 +32,15 @@ import weka.core.Option;
 public class normalInput {
     public static void main(String[] args) {
         try {
-            String pathToWholeData = "/home/cycle/workspace/15_min_weather_trainTest.arff";
+            String pathToWholeData = "/home/cycle/workspace/15_min_w_extraFeatures.arff";
             String pathToHugeData = "/home/cycle/workspace/26_Load-Austin_15min_20121103-20160924.arff";
 
             // load the data
             Instances wholeData  = new Instances(new BufferedReader(new FileReader(pathToWholeData)));
             Instances hugeData = new Instances(new BufferedReader((new FileReader(pathToHugeData))));
 
-            wholeData.setClassIndex(wholeData.numAttributes()-1);
-            hugeData.setClassIndex(hugeData.numAttributes()-1);
+            wholeData.setClassIndex(1);
+            hugeData.setClassIndex(1);
             //select_Attributes(airlineData);
             //AttributeSelectedClassifier attributeSelectedClassifier = applyMetaClassifier.applyMetaClassifier(airlineData);
             AttributeSelectedClassifier attributeSelectedClassifier2 = new AttributeSelectedClassifier();
@@ -49,7 +49,7 @@ public class normalInput {
             linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1"));
             MLPRegressor mlpRegressor = new MLPRegressor();
             //mlpRegressor.setOptions(weka.core.Utils.splitOptions("-N 1"));
-            doForecasting.doForecasting(wholeData, iBk);
+            doForecasting.doForecasting(wholeData, linearRegression);
         } catch (Exception ex) {
             ex.printStackTrace();
         }

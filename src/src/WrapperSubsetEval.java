@@ -157,7 +157,7 @@ public class WrapperSubsetEval extends ASEvaluation
   /** number of attributes in the training data */
   private int m_numAttribs;
   /** holds an evaluation object */
-  private Evaluation m_Evaluation;
+  private src.Evaluation m_Evaluation;
   /** holds the base classifier object */
   private Classifier m_BaseClassifier;
   /** number of folds to use for cross validation */
@@ -187,7 +187,7 @@ public class WrapperSubsetEval extends ASEvaluation
     private static final long serialVersionUID = -6978438858413428382L;
 
     /** The metric object itself */
-    protected AbstractEvaluationMetric m_metric;
+    protected src.evaluation.AbstractEvaluationMetric m_metric;
 
     /** The particular statistic from the metric that this tag pertains to */
     protected String m_statisticName;
@@ -198,7 +198,7 @@ public class WrapperSubsetEval extends ASEvaluation
      * @param metric the metric object
      * @param statisticName the particular statistic that this tag pertains to
      */
-    public PluginTag(int ID, AbstractEvaluationMetric metric,
+    public PluginTag(int ID, src.evaluation.AbstractEvaluationMetric metric,
       String statisticName) {
       super(ID, statisticName, statisticName);
       m_metric = metric;
@@ -228,7 +228,7 @@ public class WrapperSubsetEval extends ASEvaluation
      *
      * @return the metric object
      */
-    public AbstractEvaluationMetric getMetric() {
+    public src.evaluation.AbstractEvaluationMetric getMetric() {
       return m_metric;
     }
   }
@@ -245,13 +245,13 @@ public class WrapperSubsetEval extends ASEvaluation
   /** User supplied option for IR class value (either name or 1-based index) */
   protected String m_IRClassValS = "";
 
-  protected static List<AbstractEvaluationMetric> PLUGIN_METRICS =
-    AbstractEvaluationMetric.getPluginMetrics();
+  protected static List<src.evaluation.AbstractEvaluationMetric> PLUGIN_METRICS =
+          src.evaluation.AbstractEvaluationMetric.getPluginMetrics();
 
   static {
     int totalPluginCount = 0;
     if (PLUGIN_METRICS != null) {
-      for (AbstractEvaluationMetric m : PLUGIN_METRICS) {
+      for (src.evaluation.AbstractEvaluationMetric m : PLUGIN_METRICS) {
         totalPluginCount += m.getStatisticNames().size();
       }
     }
@@ -276,7 +276,7 @@ public class WrapperSubsetEval extends ASEvaluation
 
     if (PLUGIN_METRICS != null) {
       int index = 8;
-      for (AbstractEvaluationMetric m : PLUGIN_METRICS) {
+      for (src.evaluation.AbstractEvaluationMetric m : PLUGIN_METRICS) {
         for (String stat : m.getStatisticNames()) {
           TAGS_EVALUATION[index++] = new PluginTag(index + 1, m, stat);
         }
@@ -769,7 +769,7 @@ public class WrapperSubsetEval extends ASEvaluation
     boolean pluginMetricNominalClass = false;
     if (m_evaluationMeasure.getID() >= EVAL_PLUGIN) {
       String metricName = ((PluginTag) m_evaluationMeasure).getMetricName();
-      for (AbstractEvaluationMetric m : PLUGIN_METRICS) {
+      for (src.evaluation.AbstractEvaluationMetric m : PLUGIN_METRICS) {
         if (m.getMetricName().equals(metricName)) {
           pluginMetricNominalClass = m.appliesToNominalClass();
           break;
@@ -849,25 +849,27 @@ public class WrapperSubsetEval extends ASEvaluation
 
     // set up an array of attribute indexes for the filter (+1 for the class)
     int[] featArray = new int[numAttributes + 1];
-
     for (i = 0, j = 0; i < m_numAttribs; i++) {
       if (subset.get(i)) {
         featArray[j++] = i;
       }
     }
-
+    System.out.println("Featarray: ");
+    for (int k = 0; k < featArray.length; k++) {
+      System.out.print(featArray[k] + " ");
+    }
     featArray[j] = m_classIndex;
     delTransform.setAttributeIndicesArray(featArray);
     delTransform.setInputFormat(trainCopy);
     trainCopy = Filter.useFilter(trainCopy, delTransform);
-
-    AbstractEvaluationMetric pluginMetric = null;
+    System.out.println("TrainCopy: " + trainCopy.toSummaryString());
+    src.evaluation.AbstractEvaluationMetric pluginMetric = null;
     String statName = null;
     String metricName = null;
 
-    // max of 5 repetitions of cross validation
+   // max of 5 repetitions of cross validation
     for (i = 0; i < 5; i++) {
-      m_Evaluation = new Evaluation(trainCopy);
+      m_Evaluation = new src.Evaluation(trainCopy);
       m_Evaluation.crossValidateModel(m_BaseClassifier, trainCopy, m_folds,
         Rnd);
 
