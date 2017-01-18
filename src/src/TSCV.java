@@ -59,6 +59,7 @@ public class TSCV {
                 resultLog.println(forecaster);
                 System.out.println(("Time taken to evaluate: " + ((double)(eTime-sTime))/1000));
                 resultLog.close();
+
             }
             buildErrorGraph.buildErrorGraph(testData, forecaster, forecast, stepNumber);
         } catch (Exception e){
