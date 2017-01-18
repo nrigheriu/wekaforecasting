@@ -5,9 +5,12 @@ import weka.classifiers.Classifier;
 import weka.classifiers.functions.LinearRegression;
 import weka.core.Instances;
 import weka.filters.Filter;
+import weka.filters.supervised.attribute.TSLagMaker;
 import weka.filters.unsupervised.attribute.Remove;
 
+import java.util.ArrayList;
 import java.util.BitSet;
+import java.util.List;
 
 /**
  * Created by cycle on 16.01.2017.
@@ -49,13 +52,15 @@ public class TSWrapper {
         }
         return text.toString();
     }
-    public double evaluateSubset(BitSet subset)throws Exception{
+    public double evaluateSubset(BitSet subset, TSLagMaker tsLagMaker, List<String> overlayFields)throws Exception{
         double error = 0;
         int numAttributes = 0;
         int i, j;
         boolean addedClassIndex = false;
-        Instances trainCopy = new Instances(m_data);
+        Instances trainCopy;
         Remove delTransform = new Remove();
+        List<String> remainingAttributes = new ArrayList<String>();
+        List<String> newOverlayFields = new ArrayList<String>();
         delTransform.setInvertSelection(true);
         // count attributes set in the BitSet
         for (i = 0; i < m_numAttribs; i++) {
@@ -64,49 +69,33 @@ public class TSWrapper {
             }
         }
         // set up an array of attribute indexes for the filter (+1 for the class)
-        int[] featArray = new int[numAttributes + 1];
+        int[] featArray = new int[numAttributes];
         System.out.println("Printing subset: ");
         for (int k = 0; k < m_numAttribs; k++) {
             System.out.println("K: " + k + "subset: " + subset.get(k));
         }
         for (i = 0, j = 0; i < m_numAttribs; i++) {
             if (subset.get(i)) {
-                if(i == m_classIndex)
-                    addedClassIndex = true;
                 featArray[j++] = i;
             }
         }
-        if(!addedClassIndex)
-            featArray[j] = m_classIndex;
-        else{                                                           //deleting the last place in the array
-            int[] tempArray = new int[featArray.length-1];
-            for (int k = 0; k < tempArray.length; k++) {
-                tempArray[0] = featArray[k];
-                featArray = new int[tempArray.length];
-                featArray = tempArray;
-            }
-        }
-        //featArray[j] = m_classIndex;
-        /*System.out.println("M class: " + m_classIndex);
-        for (int k = 0; k< featArray.length ; k++) {
-            System.out.println("K: " + k + " featArray: " + featArray[k]);
-        }
         delTransform.setAttributeIndicesArray(featArray);
-        delTransform.setInputFormat(trainCopy);
-        trainCopy = Filter.useFilter(trainCopy, delTransform);
-        System.out.println("traincop size: " + trainCopy.;*/
-        for (int k = 0; k < trainCopy.numAttributes(); k++) {
-            System.out.println("Before deleteion: " + trainCopy.attribute(k).name());
-        }
-        trainCopy.deleteAttributeAt(0);
-        trainCopy.deleteAttributeAt(1);
-        trainCopy.deleteAttributeAt(2);
+        delTransform.setInputFormat(m_data);
+        trainCopy = Filter.useFilter(m_data, delTransform);
 
         for (int k = 0; k < trainCopy.numAttributes(); k++) {
-            System.out.println(trainCopy.attribute(k).name());
+            remainingAttributes.add(k, trainCopy.attribute(k).name());
         }
+        i = 0;
+        for (int k = 0; k < overlayFields.size(); k++) {                        //updating the tsLagmaker with the still available overlay Fields
+            if(remainingAttributes.contains(overlayFields.get(k))) {
+                newOverlayFields.add(i++, overlayFields.get(k));
+            }
+        }
+        tsLagMaker.setOverlayFields(newOverlayFields);
+        //System.out.println(trainCopy);
         TSCV tscv = new TSCV();
-        tscv.crossValidateTS(trainCopy, m_BaseClassifier);
+        tscv.crossValidateTS(trainCopy, m_BaseClassifier, tsLagMaker);
         error = tscv.calculateErrors(true);
         return error;
     }

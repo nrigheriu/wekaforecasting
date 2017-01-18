@@ -4,6 +4,7 @@ import weka.classifiers.evaluation.NumericPrediction;
 import weka.classifiers.timeseries.WekaForecaster;
 import weka.core.Instances;
 import weka.classifiers.Classifier;
+import weka.filters.supervised.attribute.TSLagMaker;
 
 import java.io.PrintWriter;
 import java.text.DecimalFormat;
@@ -19,27 +20,28 @@ public class TSCV {
         public TSCV(){
             resetOptions();
         }
-    public void crossValidateTS(Instances data, Classifier classifier){
+    public void crossValidateTS(Instances data, Classifier classifier, TSLagMaker tsLagMaker){
         try {
 
             actualValuesList.clear();
             forecastedValuesList.clear();
             WekaForecaster forecaster = new WekaForecaster();
-            forecaster.getTSLagMaker().setTimeStampField(data.attribute(0).name()); // date time stamp
-            forecaster.setFieldsToForecast(data.attribute(1).name());
-            forecaster.setOverlayFields(data.attribute(2).name());
+            forecaster.setTSLagMaker(tsLagMaker);
+            //forecaster.getTSLagMaker().setTimeStampField(data.attribute(0).name()); // date time stamp
+            //forecaster.setFieldsToForecast(data.attribute(1).name());
+            //forecaster.setOverlayFields(data.attribute(2).name());
+            forecaster.setFieldsToForecast(tsLagMaker.getFieldsToLagAsString());
             forecaster.setBaseForecaster(classifier);
-            forecaster.getTSLagMaker().setIncludePowersOfTime(true);
-            forecaster.getTSLagMaker().setIncludeTimeLagProducts(false);
             int stepNumber = 24;
             Instances testData = null, trainData = null;
             List<List<NumericPrediction>> forecast = null;
-            for (int trainingPercentage = 70; trainingPercentage <= 80; trainingPercentage += 5) {
+            for (int trainingPercentage = 80; trainingPercentage <= 80; trainingPercentage += 5) {
                 long sTime = System.currentTimeMillis();
                 trainData = getSplittedData(data, trainingPercentage, true);
                 testData = getSplittedData(data, trainingPercentage, false);
                 forecaster.buildForecaster(trainData);
                 forecaster.primeForecaster(trainData);
+                //System.out.println(testData);
                 forecast = forecaster.forecast(stepNumber, testData);
                 //System.out.println(forecaster.getTSLagMaker().getTransformedData(testData));
                 addToValuesLists(forecast, testData, stepNumber);
@@ -81,12 +83,13 @@ public class TSCV {
             errorSum += error;
             squaredErrorSum += error*error;
             String errorOutput = "Step: " + i + " Prediction:" + df.format(forecastedValuesList.get(i)) +
-                    " Act" +
-                    ": " + df.format(errorSum / (i + 1)) + " RMSE:" + df.format(Math.sqrt(squaredErrorSum / (i + 1))) +
+                    " Act: " + actualValue +
+                    " MAE: " + df.format(errorSum / (i + 1)) + " RMSE:" + df.format(Math.sqrt(squaredErrorSum / (i + 1))) +
                     " MAPE:" + df.format(piErrorSum / (i + 1));
             if(printOutput)
                 System.out.println(errorOutput);
-            getLastError = Math.sqrt(squaredErrorSum/ (i + 1));
+            //getLastError = Math.sqrt(squaredErrorSum/ (i + 1));               //RMSE is bad for predicting stuff w/values below 1
+            getLastError = piErrorSum/(i+1);
         }
         return getLastError;
     }

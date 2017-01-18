@@ -1,5 +1,6 @@
 import weka.core.Instances;
 import java.io.*;
+import java.util.*;
 import java.util.ArrayList;
 import java.util.BitSet;
 import java.util.Hashtable;
@@ -21,13 +22,11 @@ public class anotherExample {
             BitSet b1 = getStartSet(100, 25);
             //System.out.println(includesMoreThan25PercentOfFeatures(b1, 100));
             Random ran = new Random();
-            int x = ran.nextInt(100) + 1;
-            int m_numAttribs = 3;
-            Hashtable<String, Double> lookup = new Hashtable<String, Double>((int)Math.pow(2, m_numAttribs));
-            lookup.put("asda", 3.);
-            System.out.println(lookup.containsKey("asdass"));
-
-            System.out.println(lookup.size());
+            List<String> asd = new ArrayList<String>();
+            asd.add(0, "asdas");
+            asd.add(1, "asdf");
+            asd.add(2, "asdas");
+            System.out.println(asd.contains("asdass"));
             // evaluate the initial subset
         } catch (Exception e) {
             e.printStackTrace();

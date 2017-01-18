@@ -57,12 +57,12 @@ public class doForecasting {
             tsLagMaker.setMaxLag(12);
             List<String> overlayFields = new ArrayList<String>();
             for (int i = 0; i < 4; i++)
-                overlayFields.add(0, data.attribute(i+2).name());
+                overlayFields.add(i, data.attribute(i+2).name());
             tsLagMaker.setOverlayFields(overlayFields);
             Instances laggedData = tsLagMaker.getTransformedData(data);
             //System.out.println(laggedData);
             BestFirst2 bestFirst2 = new BestFirst2();
-            bestFirst2.search(laggedData);
+            bestFirst2.search(laggedData, tsLagMaker, overlayFields);
             //map = fillUpHashMap(forecaster, featureNumber, map);
             //sortHashMapByValues(map);
             //printHashMapFeatures(map, featureNumber);
@@ -133,8 +133,8 @@ public class doForecasting {
             errorSum += error;
             squaredErrorSum += error*error;
             String errorOutput = "Step: " + i + " Prediction:" + df.format(forecastedValuesList.get(i)) +
-                    " Act" +
-                    ": " + df.format(errorSum / (i + 1)) + " RMSE:" + df.format(Math.sqrt(squaredErrorSum / (i + 1))) +
+                    " Act" + actualValue +
+                    " MAE: " + df.format(errorSum / (i + 1)) + " RMSE:" + df.format(Math.sqrt(squaredErrorSum / (i + 1))) +
                     " MAPE:" + df.format(piErrorSum / (i + 1));
             if(writeToLog)
                 resultLog.println(errorOutput);

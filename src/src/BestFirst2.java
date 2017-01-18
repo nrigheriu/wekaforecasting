@@ -27,6 +27,7 @@ import java.util.Random;
 import weka.attributeSelection.*;
 import weka.classifiers.functions.LinearRegression;
 import weka.core.*;
+import weka.filters.supervised.attribute.TSLagMaker;
 
 /**
  <!-- globalinfo-start --> 
@@ -662,7 +663,7 @@ public class BestFirst2 implements OptionHandler,
    * @return an array (not necessarily ordered) of selected attribute indexes
    * @throws Exception if the search can't be completed
    */
-  public int[] search(Instances data) throws Exception {
+  public int[] search(Instances data, TSLagMaker tsLagMaker, List<String> overlayFields) throws Exception {
     m_totalEvals = 0;
     TSWrapper tsWrapper = new TSWrapper();
     tsWrapper.buildEvaluator(data);
@@ -670,30 +671,30 @@ public class BestFirst2 implements OptionHandler,
     linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1"));
     tsWrapper.setM_BaseClassifier(linearRegression);
     m_numAttribs = data.numAttributes();
-      System.out.println(m_numAttribs);
-    BitSet best_group = getStartSet(m_numAttribs, 86), temp_group;
-    int temp = 4;
+    System.out.println(m_numAttribs);
+    BitSet best_group = getStartSet(m_numAttribs, 35), temp_group;
+    int temp = 3;
     double best_merit = -Double.MAX_VALUE;
     double merit;
     Hashtable<String, Double> lookup = new Hashtable<String, Double>((int)Math.pow(2, m_numAttribs));
     // evaluate the initial subset
 
-    best_merit = tsWrapper.evaluateSubset(best_group);
+    best_merit = tsWrapper.evaluateSubset(best_group, tsLagMaker, overlayFields);
     Object[] best = new Object[1];
     best[0] = best_group.clone();
     String subset_string = best_group.toString();
-      lookup.put(subset_string, best_merit);
+    lookup.put(subset_string, best_merit);
     System.out.println("Initial group with numAttribs: " + m_numAttribs + "/n");
     printGroup(best_group, m_numAttribs);
-    System.out.println("/nMerit: " + best_merit);
+    System.out.println("Merit: " + best_merit);
     while(temp > 0){
       BitSet s_new = changeBits(m_numAttribs, best_group);
       subset_string = s_new.toString();
       if(!lookup.containsKey(subset_string)){
-          double s_new_merit = tsWrapper.evaluateSubset(s_new);
+          double s_new_merit = tsWrapper.evaluateSubset(s_new, tsLagMaker, overlayFields);
           System.out.println("Changed group: ");
           printGroup(s_new, m_numAttribs);
-          System.out.println("/nNew merit: " + s_new_merit);
+          System.out.println("New merit: " + s_new_merit);
           lookup.put(subset_string, s_new_merit);
           if(s_new_merit < best_merit){
               best_group = (BitSet) s_new.clone();
@@ -729,11 +730,17 @@ public class BestFirst2 implements OptionHandler,
   protected BitSet getStartSet (int numAttribs, int setPercentage){
     BitSet bitSet = new BitSet(numAttribs);
     Random r = new Random();
-    for (int i = 0; i < numAttribs; i++) {
-      int chance = r.nextInt(setPercentage);
-      if (chance == 0) {
-        bitSet.set(i);
+    boolean includesMoreThan25Percent = false;
+    bitSet.set(0); bitSet.set(1);                         //we always need the time stamp feed and the field to be forecasted; the time stamp field may be substituted later by time_remapped by the forecaster anyway
+    while(!includesMoreThan25Percent) {
+      for (int i = 2; i < numAttribs; i++) {
+        int chance = r.nextInt(100);
+        if (chance <= setPercentage) {
+          bitSet.set(i);
+        }
       }
+      if(includesMoreThan25PercentOfFeatures(bitSet, numAttribs))
+        includesMoreThan25Percent = true;
     }
     return bitSet;
   }
@@ -749,21 +756,21 @@ public class BestFirst2 implements OptionHandler,
       boolean includesMoreThan25Percent = false;
       while(!includesMoreThan25Percent) {
         for (int i = 0; i < numAttribs; i++) {
-          float chance = r.nextFloat();
-          if (chance <= 0.09f) {
+          int  chance = r.nextInt(100);
+          if (chance <= 9) {
             if (bitSet.get(i))
               bitSet.set(i, false);
             else
               bitSet.set(i, true);
           }
             if(includesMoreThan25PercentOfFeatures(bitSet, numAttribs))         //making sure we dont drop below 25% of Features included after the mutation
-            includesMoreThan25Percent = true;
+              includesMoreThan25Percent = true;
         }
       }
     return bitSet;
   }
   protected boolean includesMoreThan25PercentOfFeatures(BitSet bitSet, int numAttribs){
-      int trueBits = 0;
+      int trueBits = -2;                                //set to -2 because the time stamp field and the field to forecast don't count as features
       for (int i = 0; i < numAttribs; i++) {
           if(bitSet.get(i))
               trueBits++;
