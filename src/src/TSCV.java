@@ -6,6 +6,7 @@ import weka.core.Instances;
 import weka.classifiers.Classifier;
 import weka.filters.supervised.attribute.TSLagMaker;
 
+import java.io.FileWriter;
 import java.io.PrintWriter;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
@@ -22,7 +23,7 @@ public class TSCV {
         }
     public void crossValidateTS(Instances data, Classifier classifier, TSLagMaker tsLagMaker){
         try {
-
+            PrintWriter resultLog = new PrintWriter(new FileWriter("/home/cycle/workspace/wekaforecasting-new-features/results.txt", true));
             actualValuesList.clear();
             forecastedValuesList.clear();
             WekaForecaster forecaster = new WekaForecaster();
@@ -35,18 +36,29 @@ public class TSCV {
             int stepNumber = 24;
             Instances testData = null, trainData = null;
             List<List<NumericPrediction>> forecast = null;
-            for (int trainingPercentage = 80; trainingPercentage <= 80; trainingPercentage += 5) {
+            for (int trainingPercentage = 70; trainingPercentage <= 80; trainingPercentage += 5) {
                 long sTime = System.currentTimeMillis();
                 trainData = getSplittedData(data, trainingPercentage, true);
                 testData = getSplittedData(data, trainingPercentage, false);
                 forecaster.buildForecaster(trainData);
                 forecaster.primeForecaster(trainData);
-                //System.out.println(testData);
-                forecast = forecaster.forecast(stepNumber, testData);
+               /* System.out.println("Test data:");
+                System.out.println(testData);
+                System.out.println("Data from TsLagMaker:");
+                System.out.println(forecaster.getTSLagMaker().getTransformedData(data));*/
+               resultLog.print(trainData);
+               resultLog.println("After tslagmaker:" + forecaster.getTSLagMaker().getTransformedData(trainData  ));
+
+               if(forecaster.getTSLagMaker().getOverlayFields().size() > 0)                        //checking if any overlay fields are set
+                    forecast = forecaster.forecast(stepNumber, testData);
+                else
+                    forecast = forecaster.forecast(stepNumber);
                 //System.out.println(forecaster.getTSLagMaker().getTransformedData(testData));
                 addToValuesLists(forecast, testData, stepNumber);
                 long eTime = System.currentTimeMillis();
+                resultLog.println(forecaster);
                 System.out.println(("Time taken to evaluate: " + ((double)(eTime-sTime))/1000));
+                resultLog.close();
             }
             buildErrorGraph.buildErrorGraph(testData, forecaster, forecast, stepNumber);
         } catch (Exception e){

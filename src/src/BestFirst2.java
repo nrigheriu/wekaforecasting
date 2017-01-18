@@ -672,8 +672,8 @@ public class BestFirst2 implements OptionHandler,
     tsWrapper.setM_BaseClassifier(linearRegression);
     m_numAttribs = data.numAttributes();
     System.out.println(m_numAttribs);
-    BitSet best_group = getStartSet(m_numAttribs, 35), temp_group;
-    int temp = 3;
+    BitSet best_group = getStartSet(m_numAttribs, 18), temp_group;
+    int temp = 0;
     double best_merit = -Double.MAX_VALUE;
     double merit;
     Hashtable<String, Double> lookup = new Hashtable<String, Double>((int)Math.pow(2, m_numAttribs));
@@ -699,11 +699,12 @@ public class BestFirst2 implements OptionHandler,
           if(s_new_merit < best_merit){
               best_group = (BitSet) s_new.clone();
               best_merit = s_new_merit;
-          }else if(s_new_merit > best_merit){
+          }else if(s_new_merit >= best_merit){
               double difference = s_new_merit - best_merit;
               Random ran = new Random();
               int x = ran.nextInt(100) + 1;
               if(decisionFunction(difference, temp, x)){
+                  System.out.println("Decided to change it to a worse subset");
                   best_group = (BitSet) s_new.clone();
                   best_merit = s_new_merit;
               }
@@ -755,7 +756,7 @@ public class BestFirst2 implements OptionHandler,
       Random r = new Random();
       boolean includesMoreThan25Percent = false;
       while(!includesMoreThan25Percent) {
-        for (int i = 0; i < numAttribs; i++) {
+        for (int i = 2; i < numAttribs; i++) {              //starting from 2 because we need the time stamp and active_power attributes
           int  chance = r.nextInt(100);
           if (chance <= 9) {
             if (bitSet.get(i))

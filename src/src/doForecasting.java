@@ -67,7 +67,7 @@ public class doForecasting {
             //sortHashMapByValues(map);
             //printHashMapFeatures(map, featureNumber);
 
-            resultLog.println(forecaster);
+            //resultLog.println(forecaster);
             calculateErrors(resultLog, true);
 
             long stopTime = System.currentTimeMillis();

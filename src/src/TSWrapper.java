@@ -70,10 +70,6 @@ public class TSWrapper {
         }
         // set up an array of attribute indexes for the filter (+1 for the class)
         int[] featArray = new int[numAttributes];
-        System.out.println("Printing subset: ");
-        for (int k = 0; k < m_numAttribs; k++) {
-            System.out.println("K: " + k + "subset: " + subset.get(k));
-        }
         for (i = 0, j = 0; i < m_numAttribs; i++) {
             if (subset.get(i)) {
                 featArray[j++] = i;
@@ -84,6 +80,7 @@ public class TSWrapper {
         trainCopy = Filter.useFilter(m_data, delTransform);
 
         for (int k = 0; k < trainCopy.numAttributes(); k++) {
+            System.out.println("K: " + k + "Attr name: " + trainCopy.attribute(k).name());
             remainingAttributes.add(k, trainCopy.attribute(k).name());
         }
         i = 0;
@@ -92,8 +89,9 @@ public class TSWrapper {
                 newOverlayFields.add(i++, overlayFields.get(k));
             }
         }
+
         tsLagMaker.setOverlayFields(newOverlayFields);
-        //System.out.println(trainCopy);
+        System.out.println(trainCopy.toSummaryString());
         TSCV tscv = new TSCV();
         tscv.crossValidateTS(trainCopy, m_BaseClassifier, tsLagMaker);
         error = tscv.calculateErrors(true);
