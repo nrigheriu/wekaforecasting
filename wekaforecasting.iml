@@ -15,7 +15,9 @@
           <root url="jar://$USER_HOME$/wekafiles/timeseriesForecasting-1.0.24.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ideaLibSources/timeseriesForecasting-1.0.24-sources.jar!/" />
+        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">

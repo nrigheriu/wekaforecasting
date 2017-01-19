@@ -646,13 +646,11 @@ public class BestFirst2 implements OptionHandler,
 
   protected void printGroup(BitSet tt, int numAttribs) {
     int i;
-
     for (i = 0; i < numAttribs; i++) {
       if (tt.get(i) == true) {
         System.out.print((i + 1) + " ");
       }
     }
-
     System.out.println();
   }
 
@@ -671,17 +669,13 @@ public class BestFirst2 implements OptionHandler,
     linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1"));
     tsWrapper.setM_BaseClassifier(linearRegression);
     m_numAttribs = data.numAttributes();
-    System.out.println(m_numAttribs);
     BitSet best_group = getStartSet(m_numAttribs, 18), temp_group;
-    int temp = 0;
+    int temp = 20, initialTemp = temp;
     double best_merit = -Double.MAX_VALUE;
     double merit;
     Hashtable<String, Double> lookup = new Hashtable<String, Double>((int)Math.pow(2, m_numAttribs));
     // evaluate the initial subset
-
     best_merit = tsWrapper.evaluateSubset(best_group, tsLagMaker, overlayFields);
-    Object[] best = new Object[1];
-    best[0] = best_group.clone();
     String subset_string = best_group.toString();
     lookup.put(subset_string, best_merit);
     System.out.println("Initial group with numAttribs: " + m_numAttribs + "/n");
@@ -696,18 +690,9 @@ public class BestFirst2 implements OptionHandler,
           printGroup(s_new, m_numAttribs);
           System.out.println("New merit: " + s_new_merit);
           lookup.put(subset_string, s_new_merit);
-          if(s_new_merit < best_merit){
-              best_group = (BitSet) s_new.clone();
-              best_merit = s_new_merit;
-          }else if(s_new_merit >= best_merit){
-              double difference = s_new_merit - best_merit;
-              Random ran = new Random();
-              int x = ran.nextInt(100) + 1;
-              if(decisionFunction(difference, temp, x)){
-                  System.out.println("Decided to change it to a worse subset");
-                  best_group = (BitSet) s_new.clone();
-                  best_merit = s_new_merit;
-              }
+          if(decisionFunction(best_merit - s_new_merit, temp, best_merit, initialTemp)){
+            best_group = (BitSet) s_new.clone();
+            best_merit = s_new_merit;
           }
       }
       temp --;
@@ -715,12 +700,23 @@ public class BestFirst2 implements OptionHandler,
 
     return attributeList(best_group);
   }
-  protected boolean decisionFunction(double difference, int temp, int randomNr){
+  protected boolean decisionFunction(double difference, int temp, double bestMerit, int initialTemp){
+      boolean change = false;
+      double randomNr = Math.random();
       System.out.println("Difference : " + difference + " Temp: " + temp + " Randomnr: " + randomNr);
-      if(randomNr >= 50){                                                           //only then will we consider the other factors (temp and difference in performance)
-      int a = 1;
+      if(difference > 0)
+          change = true;
+      else{
+          double tempPercentage = ((double) temp/initialTemp)*100;
+          double errorPercentage = (difference*100)/bestMerit;
+          double expFunction = Math.exp(errorPercentage/tempPercentage);
+          System.out.println("Expfunction: " + expFunction + "Temp %: " + tempPercentage + "Error % : " + errorPercentage);
+          if(expFunction >= randomNr){
+              change = true;
+              System.out.println("Decided to change to worse subset! With expFunction: " + Double.toString(expFunction));
+          }
       }
-      return true;
+      return change;
   }
   /**
    *
@@ -733,8 +729,9 @@ public class BestFirst2 implements OptionHandler,
     Random r = new Random();
     boolean includesMoreThan25Percent = false;
     bitSet.set(0); bitSet.set(1);                         //we always need the time stamp feed and the field to be forecasted; the time stamp field may be substituted later by time_remapped by the forecaster anyway
-    while(!includesMoreThan25Percent) {
-      for (int i = 2; i < numAttribs; i++) {
+    bitSet.set(numAttribs-1); bitSet.set(numAttribs-2);    //always setting local time remapped powers (for now at least)
+      while(!includesMoreThan25Percent) {
+      for (int i = 2; i < numAttribs-2; i++) {
         int chance = r.nextInt(100);
         if (chance <= setPercentage) {
           bitSet.set(i);
@@ -756,7 +753,7 @@ public class BestFirst2 implements OptionHandler,
       Random r = new Random();
       boolean includesMoreThan25Percent = false;
       while(!includesMoreThan25Percent) {
-        for (int i = 2; i < numAttribs; i++) {              //starting from 2 because we need the time stamp and active_power attributes
+        for (int i = 2; i < numAttribs-2; i++) {              //starting from 2 because we need the time stamp and active_power attributes and not changing local time remapped products
           int  chance = r.nextInt(100);
           if (chance <= 9) {
             if (bitSet.get(i))
@@ -771,8 +768,8 @@ public class BestFirst2 implements OptionHandler,
     return bitSet;
   }
   protected boolean includesMoreThan25PercentOfFeatures(BitSet bitSet, int numAttribs){
-      int trueBits = -2;                                //set to -2 because the time stamp field and the field to forecast don't count as features
-      for (int i = 0; i < numAttribs; i++) {
+      int trueBits = 0;
+      for (int i = 2; i < numAttribs-2; i++) {              //We count as features just lags and overlay fields, the others are always there
           if(bitSet.get(i))
               trueBits++;
       }

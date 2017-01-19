@@ -54,37 +54,4 @@ public class normalInput {
             ex.printStackTrace();
         }
     }
-    public Instances select_Attributes(Instances data){
-        weka.filters.supervised.attribute.AttributeSelection filter = new weka.filters.supervised.attribute.AttributeSelection();
-        WrapperSubsetEval eval = new WrapperSubsetEval();
-        ReliefFAttributeEval reliefFAttributeEval = new ReliefFAttributeEval();
-        Ranker ranker = new Ranker();
-        CfsSubsetEval eval2 = new CfsSubsetEval();
-        eval.setClassifier(new LinearRegression());
-        GreedyStepwise search = new GreedyStepwise();
-        search.setSearchBackwards(true);
-        filter.setEvaluator(reliefFAttributeEval);
-        filter.setSearch(ranker);
-        try {
-            filter.setInputFormat(data);
-            Instances newData = Filter.useFilter(data, filter);
-            System.out.println("new data:" + newData);
-            System.out.println(filter);
-            return data;
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-        return null;
-    }
-    public void returnSelectedAttributes(){
-             /*AttributeSelection attsel  =new AttributeSelection();
-            CfsSubsetEval cfsSubsetEval = new CfsSubsetEval();
-            GreedyStepwise search = new GreedyStepwise();
-            search.setSearchBackwards(true);
-            attsel.setEvaluator(cfsSubsetEval);
-            attsel.setSearch(search);
-            attsel.SelectAttributes(airlineData);
-            int[] indices = attsel.selectedAttributes();
-            System.out.println("selected attribute :\n" + Utils.arrayToString(indices));*/
-    }
 }

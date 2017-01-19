@@ -5,12 +5,28 @@
     <bookmark url="file://$PROJECT_DIR$/src/src/lagInput.java" line="57" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7587b12-2478-48ce-a17b-10292d85196b" name="Default" comment="updates">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/BestFirst2.class" afterPath="$PROJECT_DIR$/target/classes/src/BestFirst2.class" />
+    <list default="true" id="e7587b12-2478-48ce-a17b-10292d85196b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/src/TSLagMaker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/src/WekaForecaster.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/file1.png" afterPath="$PROJECT_DIR$/file1.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/TSCV.class" afterPath="$PROJECT_DIR$/target/classes/src/TSCV.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/TSWrapper.class" afterPath="$PROJECT_DIR$/target/classes/src/TSWrapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/buildErrorGraph.class" afterPath="$PROJECT_DIR$/target/classes/src/buildErrorGraph.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/doForecasting.class" afterPath="$PROJECT_DIR$/target/classes/src/doForecasting.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/lagInput.class" afterPath="$PROJECT_DIR$/target/classes/src/lagInput.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/rankerWrapper.class" afterPath="$PROJECT_DIR$/target/classes/src/rankerWrapper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Subsets without differences in MAPE.txt" afterPath="$PROJECT_DIR$/Subsets without differences in MAPE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results.txt" afterPath="$PROJECT_DIR$/results.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/anotherExample.java" afterPath="$PROJECT_DIR$/src/anotherExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/BestFirst2.java" afterPath="$PROJECT_DIR$/src/src/BestFirst2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/TSCV.java" afterPath="$PROJECT_DIR$/src/src/TSCV.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/TSWrapper.java" afterPath="$PROJECT_DIR$/src/src/TSWrapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/buildErrorGraph.java" afterPath="$PROJECT_DIR$/src/src/buildErrorGraph.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/doForecasting.java" afterPath="$PROJECT_DIR$/src/src/doForecasting.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/lagInput.java" afterPath="$PROJECT_DIR$/src/src/lagInput.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/normalInput.java" afterPath="$PROJECT_DIR$/src/src/normalInput.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/rankerWrapper.java" afterPath="$PROJECT_DIR$/src/src/rankerWrapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wekaforecasting.iml" afterPath="$PROJECT_DIR$/wekaforecasting.iml" />
     </list>
     <ignored path="wekaforecasting.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,74 +56,104 @@
     <favorites_list name="wekaforecasting" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.45364583">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="TSWrapper.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/src/TSWrapper.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="342">
-                  <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#1948#1956#0" expanded="true" />
-                    <element signature="e#2013#2021#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="doForecasting.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/src/doForecasting.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="576">
-                  <caret line="60" column="55" lean-forward="true" selection-start-line="60" selection-start-column="55" selection-end-line="60" selection-end-column="55" />
-                  <folding>
-                    <element signature="docComment;class#doForecasting#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="applyFilterClassifier.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/src/applyFilterClassifier.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="342">
-                  <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="32" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="BestFirst2.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/src/BestFirst2.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="229">
-                  <caret line="778" column="6" lean-forward="false" selection-start-line="778" selection-start-column="6" selection-end-line="778" selection-end-column="6" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TSCV.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/src/TSCV.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="506">
-                  <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TSWrapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/TSWrapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="754">
+              <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Evaluation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/evaluation/Evaluation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="285" column="27" lean-forward="false" selection-start-line="285" selection-start-column="19" selection-end-line="285" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myHashMap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/myHashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="34" column="111" lean-forward="false" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="111" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BestFirst2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/src/BestFirst2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="711" column="35" lean-forward="false" selection-start-line="711" selection-start-column="35" selection-end-line="711" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="anotherExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/anotherExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="doForecasting.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/doForecasting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="848">
+              <caret line="100" column="12" lean-forward="false" selection-start-line="100" selection-start-column="12" selection-end-line="100" selection-end-column="12" />
+              <folding>
+                <element signature="docComment;class#doForecasting#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lagInput.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/lagInput.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="65" column="62" lean-forward="true" selection-start-line="65" selection-start-column="62" selection-end-line="65" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TSCV.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/TSCV.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="61" column="20" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buildErrorGraph.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/buildErrorGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -119,15 +165,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>crossva</find>
-      <find>weka.classifiers.Evaluation</find>
-      <find>Evaluation = new</find>
-      <find>m_debug</find>
-      <find>Evaluation</find>
-      <find>src.Eva</find>
-      <find>crossV</find>
-      <find>equals</find>
-      <find>evaluateSubset</find>
       <find>m_search</find>
       <find>m_ASEval</find>
       <find>m_searchMethod</find>
@@ -149,6 +186,15 @@
       <find>numAttributes</find>
       <find>Initial</find>
       <find>Difference</find>
+      <find>setTs</find>
+      <find>m_lagMaker</find>
+      <find>build</find>
+      <find>getTra</find>
+      <find>system</find>
+      <find>calculateErrors</find>
+      <find>Decided to</find>
+      <find>m_SumErr</find>
+      <find>buildErrorGraph</find>
     </findStrings>
     <replaceStrings>
       <replace>firstpartexcludedRun</replace>
@@ -190,12 +236,9 @@
         <option value="$PROJECT_DIR$/src/src/myMLPModel.java" />
         <option value="$PROJECT_DIR$/src/src/myLinearRegression.java" />
         <option value="$PROJECT_DIR$/src/src/myReliefFAttributeEval.java" />
-        <option value="$PROJECT_DIR$/src/src/rankerWrapper.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/src/lagInput.java" />
         <option value="$PROJECT_DIR$/src/src/applyFilterClassifier.java" />
         <option value="$PROJECT_DIR$/src/src/myHashMap.java" />
-        <option value="$PROJECT_DIR$/src/src/buildErrorGraph.java" />
         <option value="$PROJECT_DIR$/src/src/SubsetEvaluator.java" />
         <option value="$PROJECT_DIR$/src/src/AttributeSelectedClassifierTest.java" />
         <option value="$PROJECT_DIR$/src/src/BestFirst.java" />
@@ -206,12 +249,17 @@
         <option value="$PROJECT_DIR$/src/src/applyMetaClassifier.java" />
         <option value="$PROJECT_DIR$/src/src/AttributeSelectedClassifier.java" />
         <option value="$PROJECT_DIR$/src/src/WrapperSubsetEval.java" />
+        <option value="$PROJECT_DIR$/src/src/lagInput.java" />
+        <option value="$PROJECT_DIR$/src/src/rankerWrapper.java" />
+        <option value="$PROJECT_DIR$/src/src/WekaForecaster.java" />
+        <option value="$PROJECT_DIR$/src/src/TSLagMaker.java" />
         <option value="$PROJECT_DIR$/src/src/normalInput.java" />
-        <option value="$PROJECT_DIR$/src/anotherExample.java" />
         <option value="$PROJECT_DIR$/src/src/doForecasting.java" />
+        <option value="$PROJECT_DIR$/src/src/TSCV.java" />
+        <option value="$PROJECT_DIR$/src/anotherExample.java" />
+        <option value="$PROJECT_DIR$/src/src/buildErrorGraph.java" />
         <option value="$PROJECT_DIR$/src/src/TSWrapper.java" />
         <option value="$PROJECT_DIR$/src/src/BestFirst2.java" />
-        <option value="$PROJECT_DIR$/src/src/TSCV.java" />
       </list>
     </option>
   </component>
@@ -243,8 +291,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="x" value="-1867" />
+    <option name="y" value="-1056" />
+    <option name="width" value="1867" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -308,7 +358,7 @@
     </entry>
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages ProjectPane="true" />
       <showMembers />
       <showModules />
@@ -321,7 +371,57 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wekaforecasting-new-features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wekaforecasting-new-features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wekaforecasting-new-features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wekaforecasting-new-features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wekaforecasting-new-features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wekaforecasting-new-features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
@@ -331,9 +431,10 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -706,7 +807,9 @@
       <workItem from="1484586172676" duration="8722000" />
       <workItem from="1484661544348" duration="9233000" />
       <workItem from="1484673976761" duration="349000" />
-      <workItem from="1484737582537" duration="20267000" />
+      <workItem from="1484737582537" duration="21815000" />
+      <workItem from="1484816346359" duration="405000" />
+      <workItem from="1484816775903" duration="13177000" />
     </task>
     <task id="LOCAL-00001" summary="updates">
       <created>1484761837664</created>
@@ -715,11 +818,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484761837664</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updates">
+      <created>1484761957958</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1484761957958</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="458587000" />
+    <option name="totallyTimeSpent" value="473717000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -731,22 +841,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1867" y="-1056" width="1867" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286026" sideWeight="0.49808428" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27572817" sideWeight="0.49533224" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27477017" sideWeight="0.49533224" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32672232" sideWeight="0.5041186" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.326713" sideWeight="0.50213444" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.26746726" sideWeight="0.49779457" order="2" side_tool="false" content_ui="tabs" x="53" y="-1028" width="950" height="1028" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32672232" sideWeight="0.49588138" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.49786553" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.26746726" sideWeight="0.49779457" order="2" side_tool="false" content_ui="tabs" x="-1867" y="52" width="934" height="1028" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.326713" sideWeight="0.49359658" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18029517" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17996787" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965213" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32721713" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3442288" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24914286" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -805,25 +915,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/src/myAttributeSelection.java" />
-    <entry file="jar://$USER_HOME$/wekafiles/packages/timeseriesForecasting/timeseriesForecasting1.0.24.jar!/weka/classifiers/timeseries/WekaForecaster.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="665" column="16" lean-forward="false" selection-start-line="665" selection-start-column="16" selection-end-line="665" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/programs/weka-3-8-0/weka.jar!/weka/attributeSelection/AttributeEvaluator.class" />
-    <entry file="file://$PROJECT_DIR$/src/src/myAttributeSelectedClassifier.java" />
-    <entry file="jar://$USER_HOME$/programs/weka-3-8-0/weka.jar!/weka/filters/Filter.class" />
-    <entry file="jar://$USER_HOME$/wekafiles/packages/timeseriesForecasting/timeseriesForecasting1.0.24.jar!/weka/filters/supervised/attribute/TSLagMaker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="723" column="5" lean-forward="true" selection-start-line="723" selection-start-column="0" selection-end-line="724" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/programs/weka-3-8-0/weka.jar!/weka/classifiers/AbstractClassifier.class" />
     <entry file="jar://$USER_HOME$/programs/weka-3-8-0/weka.jar!/weka/classifiers/Classifier.class" />
     <entry file="jar://$USER_HOME$/wekafiles/packages/multiLayerPerceptrons/multiLayerPerceptrons.jar!/weka/classifiers/functions/MLPModel.class" />
@@ -835,31 +926,10 @@
     <entry file="file://$PROJECT_DIR$/src/src/myMLPModel.java" />
     <entry file="file://$PROJECT_DIR$/src/src/myMLPRegressor.java" />
     <entry file="file://$USER_HOME$/wekafiles/pentaho/weka/timeseriesforecasting-ce/1.0.19/timeseriesforecasting-ce-1.0.19.jar.lastUpdated" />
-    <entry file="file://$PROJECT_DIR$/src/src/lagInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="56" column="44" lean-forward="false" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-9">
           <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/myHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/buildErrorGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -897,7 +967,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="625" column="40" lean-forward="false" selection-start-line="625" selection-start-column="40" selection-end-line="625" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -912,7 +981,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-306">
           <caret line="91" column="19" lean-forward="true" selection-start-line="91" selection-start-column="19" selection-end-line="91" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -951,13 +1019,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/rankerWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/nz/ac/waikato/cms/weka/weka-dev/3.9.1/weka-dev-3.9.1.jar!/weka/attributeSelection/ASEvaluation.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
@@ -969,40 +1030,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="374" column="94" lean-forward="false" selection-start-line="374" selection-start-column="72" selection-end-line="374" selection-end-column="94" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/evaluation/Evaluation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1883" column="22" lean-forward="false" selection-start-line="1883" selection-start-column="11" selection-end-line="1883" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#153065#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#11845#11853#0" expanded="false" />
-            <element signature="e#12539#12547#0" expanded="false" />
-            <element signature="e#16222#16223#0" expanded="false" />
-            <element signature="e#16247#16248#0" expanded="false" />
-            <element signature="e#16873#16874#0" expanded="false" />
-            <element signature="e#16910#16911#0" expanded="false" />
-            <element signature="e#17105#17106#0" expanded="false" />
-            <element signature="e#17137#17138#0" expanded="false" />
-            <element signature="e#17970#17971#0" expanded="false" />
-            <element signature="e#18005#18006#0" expanded="false" />
-            <element signature="e#36325#36333#0" expanded="false" />
-            <element signature="e#122926#122927#0" expanded="false" />
-            <element signature="e#122969#122970#0" expanded="false" />
-            <element signature="e#128461#128462#0" expanded="false" />
-            <element signature="e#128491#128492#0" expanded="false" />
-            <element signature="e#129413#129414#0" expanded="false" />
-            <element signature="e#129440#129441#0" expanded="false" />
-            <element signature="e#133831#133839#0" expanded="false" />
-            <element signature="e#153001#153002#0" expanded="false" />
-            <element signature="e#153061#153062#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1010,10 +1037,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="139" column="0" lean-forward="true" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
-          <folding>
-            <element signature="e#12108#12109#0" expanded="false" />
-            <element signature="e#12135#12136#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1035,10 +1058,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#applyMetaClassifier#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1046,100 +1065,253 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
           <caret line="847" column="5" lean-forward="false" selection-start-line="847" selection-start-column="5" selection-end-line="847" selection-end-column="5" />
-          <folding>
-            <element signature="docComment;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;field#serialVersionUID#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;field#m_trainInstances#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;field#m_classIndex#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;field#m_numAttribs#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;field#m_Evaluation#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;field#m_BaseClassifier#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;field#m_folds#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;field#m_seed#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;field#m_threshold#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;class#PluginTag#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;field#m_metric#0;class#PluginTag#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;field#m_statisticName#0;class#PluginTag#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;method#PluginTag#0;class#PluginTag#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;method#getMetricName#0;class#PluginTag#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;method#getStatisticName#0;class#PluginTag#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;method#getMetric#0;class#PluginTag#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;field#TAGS_EVALUATION#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;field#m_IRClassVal#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;field#m_IRClassValS#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;field#m_evaluationMeasure#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;method#globalInfo#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="method#globalInfo#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;method#getTechnicalInformation#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="method#getTechnicalInformation#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;method#listOptions#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="method#listOptions#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;method#setOptions#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="method#setOptions#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="e#15172#15219#0" expanded="false" />
-            <element signature="docComment;method#setIRClassValue#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;method#getIRClassValue#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;method#IRClassValueTipText#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="method#IRClassValueTipText#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;method#evaluationMeasureTipText#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="method#evaluationMeasureTipText#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;method#getEvaluationMeasure#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;method#setEvaluationMeasure#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;method#thresholdTipText#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;method#getThreshold#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;method#foldsTipText#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;method#setFolds#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;method#getFolds#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;method#seedTipText#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;method#setSeed#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;method#getSeed#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;method#classifierTipText#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;method#setClassifier#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;method#getClassifier#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;method#getOptions#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="method#getOptions#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;method#getCapabilities#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;method#buildEvaluator#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;method#repeat#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="e#33102#33171#0" expanded="false" />
-            <element signature="docComment;method#getRevision#0;class#WrapperSubsetEval#0" expanded="false" />
-            <element signature="docComment;method#main#0;class#WrapperSubsetEval#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/normalInput.java">
+    <entry file="jar://$USER_HOME$/wekafiles/timeseriesForecasting-1.0.24.jar!/weka/filters/supervised/attribute/TSLagMaker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        <state relative-caret-position="7365">
+          <caret line="529" column="53" lean-forward="false" selection-start-line="529" selection-start-column="53" selection-end-line="529" selection-end-column="53" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/anotherExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="28" column="51" lean-forward="false" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#724#732#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/applyFilterClassifier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="285">
           <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/wekafiles/timeseriesForecasting-1.0.24.jar!/weka/classifiers/timeseries/WekaForecaster.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="549" column="21" lean-forward="true" selection-start-line="549" selection-start-column="21" selection-end-line="549" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/timeseriesForecasting-1.0.24-sources.jar!/weka/classifiers/timeseries/WekaForecaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="55" column="51" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1889" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/rankerWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="83" column="56" lean-forward="false" selection-start-line="83" selection-start-column="56" selection-end-line="83" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/WekaForecaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="1093" column="37" lean-forward="false" selection-start-line="1093" selection-start-column="37" selection-end-line="1093" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#10703#10704#0" expanded="false" />
+            <element signature="e#10740#10741#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/TSLagMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1048">
+          <caret line="2650" column="0" lean-forward="true" selection-start-line="2650" selection-start-column="0" selection-end-line="2650" selection-end-column="0" />
+          <folding>
+            <element signature="e#16356#16364#0" expanded="false" />
+            <element signature="e#21182#21190#0" expanded="false" />
+            <element signature="e#27807#27815#0" expanded="false" />
+            <element signature="e#31517#31525#0" expanded="false" />
+            <element signature="e#31857#31865#0" expanded="false" />
+            <element signature="e#36110#36111#0" expanded="false" />
+            <element signature="e#36150#36151#0" expanded="false" />
+            <element signature="e#36902#36922#0" expanded="false" />
+            <element signature="e#37503#37504#0" expanded="false" />
+            <element signature="e#37543#37544#0" expanded="false" />
+            <element signature="e#37758#37759#0" expanded="false" />
+            <element signature="e#37794#37795#0" expanded="false" />
+            <element signature="e#38418#38419#0" expanded="false" />
+            <element signature="e#38469#38470#0" expanded="false" />
+            <element signature="e#38515#38516#0" expanded="false" />
+            <element signature="e#38565#38566#0" expanded="false" />
+            <element signature="e#38730#38731#0" expanded="false" />
+            <element signature="e#38768#38769#0" expanded="false" />
+            <element signature="e#39145#39146#0" expanded="false" />
+            <element signature="e#39191#39192#0" expanded="false" />
+            <element signature="e#39401#39402#0" expanded="false" />
+            <element signature="e#39439#39440#0" expanded="false" />
+            <element signature="e#39776#39777#0" expanded="false" />
+            <element signature="e#39814#39815#0" expanded="false" />
+            <element signature="e#40108#40109#0" expanded="false" />
+            <element signature="e#40163#40164#0" expanded="false" />
+            <element signature="e#40748#40749#0" expanded="false" />
+            <element signature="e#40800#40801#0" expanded="false" />
+            <element signature="e#41076#41077#0" expanded="false" />
+            <element signature="e#41116#41117#0" expanded="false" />
+            <element signature="e#41814#41815#0" expanded="false" />
+            <element signature="e#41851#41852#0" expanded="false" />
+            <element signature="e#42111#42112#0" expanded="false" />
+            <element signature="e#42163#42164#0" expanded="false" />
+            <element signature="e#42935#42936#0" expanded="false" />
+            <element signature="e#42979#42980#0" expanded="false" />
+            <element signature="e#43367#43368#0" expanded="false" />
+            <element signature="e#43408#43409#0" expanded="false" />
+            <element signature="e#43626#43627#0" expanded="false" />
+            <element signature="e#43668#43669#0" expanded="false" />
+            <element signature="e#44129#44130#0" expanded="false" />
+            <element signature="e#44168#44169#0" expanded="false" />
+            <element signature="e#44301#44302#0" expanded="false" />
+            <element signature="e#44332#44333#0" expanded="false" />
+            <element signature="e#44643#44644#0" expanded="false" />
+            <element signature="e#44673#44674#0" expanded="false" />
+            <element signature="e#44806#44807#0" expanded="false" />
+            <element signature="e#44837#44838#0" expanded="false" />
+            <element signature="e#45151#45152#0" expanded="false" />
+            <element signature="e#45181#45182#0" expanded="false" />
+            <element signature="e#45360#45361#0" expanded="false" />
+            <element signature="e#45396#45397#0" expanded="false" />
+            <element signature="e#45732#45733#0" expanded="false" />
+            <element signature="e#45772#45773#0" expanded="false" />
+            <element signature="e#46003#46004#0" expanded="false" />
+            <element signature="e#46054#46055#0" expanded="false" />
+            <element signature="e#46584#46585#0" expanded="false" />
+            <element signature="e#46634#46635#0" expanded="false" />
+            <element signature="e#46850#46851#0" expanded="false" />
+            <element signature="e#46891#46892#0" expanded="false" />
+            <element signature="e#47563#47564#0" expanded="false" />
+            <element signature="e#47601#47602#0" expanded="false" />
+            <element signature="e#47813#47814#0" expanded="false" />
+            <element signature="e#47861#47862#0" expanded="false" />
+            <element signature="e#48557#48558#0" expanded="false" />
+            <element signature="e#48602#48603#0" expanded="false" />
+            <element signature="e#48882#48883#0" expanded="false" />
+            <element signature="e#48926#48927#0" expanded="false" />
+            <element signature="e#49512#49513#0" expanded="false" />
+            <element signature="e#49553#49554#0" expanded="false" />
+            <element signature="e#49752#49753#0" expanded="false" />
+            <element signature="e#49779#49780#0" expanded="false" />
+            <element signature="e#50187#50188#0" expanded="false" />
+            <element signature="e#50212#50213#0" expanded="false" />
+            <element signature="e#50412#50413#0" expanded="false" />
+            <element signature="e#50446#50447#0" expanded="false" />
+            <element signature="e#50861#50862#0" expanded="false" />
+            <element signature="e#50892#50893#0" expanded="false" />
+            <element signature="e#51095#51096#0" expanded="false" />
+            <element signature="e#51130#51131#0" expanded="false" />
+            <element signature="e#51554#51555#0" expanded="false" />
+            <element signature="e#51586#51587#0" expanded="false" />
+            <element signature="e#51803#51804#0" expanded="false" />
+            <element signature="e#51842#51843#0" expanded="false" />
+            <element signature="e#52265#52266#0" expanded="false" />
+            <element signature="e#52301#52302#0" expanded="false" />
+            <element signature="e#52513#52514#0" expanded="false" />
+            <element signature="e#52545#52546#0" expanded="false" />
+            <element signature="e#52969#52970#0" expanded="false" />
+            <element signature="e#52998#52999#0" expanded="false" />
+            <element signature="e#53205#53206#0" expanded="false" />
+            <element signature="e#53241#53242#0" expanded="false" />
+            <element signature="e#53678#53679#0" expanded="false" />
+            <element signature="e#53711#53712#0" expanded="false" />
+            <element signature="e#53900#53901#0" expanded="false" />
+            <element signature="e#53932#53933#0" expanded="false" />
+            <element signature="e#54353#54354#0" expanded="false" />
+            <element signature="e#54382#54383#0" expanded="false" />
+            <element signature="e#54576#54577#0" expanded="false" />
+            <element signature="e#54623#54624#0" expanded="false" />
+            <element signature="e#56641#56642#0" expanded="false" />
+            <element signature="e#56685#56686#0" expanded="false" />
+            <element signature="e#57023#57024#0" expanded="false" />
+            <element signature="e#57096#57097#0" expanded="false" />
+            <element signature="e#59516#59517#0" expanded="false" />
+            <element signature="e#59552#59553#0" expanded="false" />
+            <element signature="e#61268#61269#0" expanded="false" />
+            <element signature="e#61311#61312#0" expanded="false" />
+            <element signature="e#61633#61644#0" expanded="false" />
+            <element signature="e#62439#62447#0" expanded="false" />
+            <element signature="e#63143#63151#0" expanded="false" />
+            <element signature="e#83196#83204#0" expanded="false" />
+            <element signature="e#96100#96116#0" expanded="false" />
+            <element signature="e#114836#114837#0" expanded="false" />
+            <element signature="e#114878#114879#0" expanded="false" />
+            <element signature="e#114932#114933#0" expanded="false" />
+            <element signature="e#114979#114980#0" expanded="false" />
+            <element signature="e#115878#115879#0" expanded="false" />
+            <element signature="e#115920#115921#0" expanded="false" />
+            <element signature="e#119525#119526#0" expanded="false" />
+            <element signature="e#119576#119577#0" expanded="false" />
+            <element signature="e#119747#119748#0" expanded="false" />
+            <element signature="e#119795#119796#0" expanded="false" />
+            <element signature="e#127920#127921#0" expanded="false" />
+            <element signature="e#127962#127963#0" expanded="false" />
+            <element signature="e#130974#130975#0" expanded="false" />
+            <element signature="e#131025#131026#0" expanded="false" />
+            <element signature="e#131262#131263#0" expanded="false" />
+            <element signature="e#131306#131307#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/lagInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="65" column="62" lean-forward="true" selection-start-line="65" selection-start-column="62" selection-end-line="65" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/timeseriesForecasting-1.0.24-sources.jar!/weka/filters/supervised/attribute/TSLagMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="2603" column="30" lean-forward="true" selection-start-line="2603" selection-start-column="30" selection-end-line="2603" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/myHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="34" column="111" lean-forward="false" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/normalInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/anotherExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/evaluation/Evaluation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="285" column="27" lean-forward="false" selection-start-line="285" selection-start-column="19" selection-end-line="285" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/doForecasting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="60" column="55" lean-forward="true" selection-start-line="60" selection-start-column="55" selection-end-line="60" selection-end-column="55" />
+        <state relative-caret-position="848">
+          <caret line="100" column="12" lean-forward="false" selection-start-line="100" selection-start-column="12" selection-end-line="100" selection-end-column="12" />
           <folding>
             <element signature="docComment;class#doForecasting#0" expanded="false" />
           </folding>
@@ -1148,30 +1320,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/TSCV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/BestFirst2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="778" column="6" lean-forward="false" selection-start-line="778" selection-start-column="6" selection-end-line="778" selection-end-column="6" />
+        <state relative-caret-position="298">
+          <caret line="61" column="20" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/buildErrorGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/src/TSWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+        <state relative-caret-position="754">
+          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/BestFirst2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="711" column="35" lean-forward="false" selection-start-line="711" selection-start-column="35" selection-end-line="711" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1948#1956#0" expanded="true" />
-            <element signature="e#2013#2021#0" expanded="true" />
           </folding>
         </state>
       </provider>

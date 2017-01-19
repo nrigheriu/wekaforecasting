@@ -26,11 +26,8 @@ public class TSCV {
             PrintWriter resultLog = new PrintWriter(new FileWriter("/home/cycle/workspace/wekaforecasting-new-features/results.txt", true));
             actualValuesList.clear();
             forecastedValuesList.clear();
-            WekaForecaster forecaster = new WekaForecaster();
+            src.WekaForecaster forecaster = new src.WekaForecaster();
             forecaster.setTSLagMaker(tsLagMaker);
-            //forecaster.getTSLagMaker().setTimeStampField(data.attribute(0).name()); // date time stamp
-            //forecaster.setFieldsToForecast(data.attribute(1).name());
-            //forecaster.setOverlayFields(data.attribute(2).name());
             forecaster.setFieldsToForecast(tsLagMaker.getFieldsToLagAsString());
             forecaster.setBaseForecaster(classifier);
             int stepNumber = 24;
@@ -42,24 +39,15 @@ public class TSCV {
                 testData = getSplittedData(data, trainingPercentage, false);
                 forecaster.buildForecaster(trainData);
                 forecaster.primeForecaster(trainData);
-               /* System.out.println("Test data:");
-                System.out.println(testData);
-                System.out.println("Data from TsLagMaker:");
-                System.out.println(forecaster.getTSLagMaker().getTransformedData(data));*/
-               resultLog.print(trainData);
-               resultLog.println("After tslagmaker:" + forecaster.getTSLagMaker().getTransformedData(trainData  ));
-
                if(forecaster.getTSLagMaker().getOverlayFields().size() > 0)                        //checking if any overlay fields are set
                     forecast = forecaster.forecast(stepNumber, testData);
                 else
                     forecast = forecaster.forecast(stepNumber);
-                //System.out.println(forecaster.getTSLagMaker().getTransformedData(testData));
                 addToValuesLists(forecast, testData, stepNumber);
                 long eTime = System.currentTimeMillis();
                 resultLog.println(forecaster);
                 System.out.println(("Time taken to evaluate: " + ((double)(eTime-sTime))/1000));
                 resultLog.close();
-
             }
             buildErrorGraph.buildErrorGraph(testData, forecaster, forecast, stepNumber);
         } catch (Exception e){
@@ -101,7 +89,7 @@ public class TSCV {
                     " MAPE:" + df.format(piErrorSum / (i + 1));
             if(printOutput)
                 System.out.println(errorOutput);
-            //getLastError = Math.sqrt(squaredErrorSum/ (i + 1));               //RMSE is bad for predicting stuff w/values below 1
+            //getLastError = Math.sqrt(squaredErrorSum/ (i + 1));               //RMSE is bad for predicting stuff w/values below 1 ??
             getLastError = piErrorSum/(i+1);
         }
         return getLastError;

@@ -28,7 +28,6 @@ public class doForecasting {
     public static void doForecasting(Instances data, Classifier classifier){
         try {
             PrintWriter resultLog = new PrintWriter(new FileWriter("/home/cycle/workspace/wekaforecasting-new-features/results.txt", true));
-
             long startTime = System.currentTimeMillis();
             WekaForecaster forecaster = new WekaForecaster();
             myHashMap hashMap = new myHashMap();
@@ -55,10 +54,11 @@ public class doForecasting {
             tsLagMaker.setIncludeTimeLagProducts(false);
             tsLagMaker.setMinLag(1);
             tsLagMaker.setMaxLag(12);
-            List<String> overlayFields = new ArrayList<String>();
+            List<String> overlayFields = new ArrayList<String>();                                           //TODO:make it be able to change to data w/0 overlay fields or adapt to overlay fields number
             for (int i = 0; i < 4; i++)
                 overlayFields.add(i, data.attribute(i+2).name());
             tsLagMaker.setOverlayFields(overlayFields);
+            //tsLagMaker.setOptions(weka.core.Utils.splitOptions("trim-leading"));
             Instances laggedData = tsLagMaker.getTransformedData(data);
             //System.out.println(laggedData);
             BestFirst2 bestFirst2 = new BestFirst2();
@@ -68,7 +68,7 @@ public class doForecasting {
             //printHashMapFeatures(map, featureNumber);
 
             //resultLog.println(forecaster);
-            calculateErrors(resultLog, true);
+            //calculateErrors(resultLog, true);
 
             long stopTime = System.currentTimeMillis();
             double elapsedTime = ((double) stopTime - startTime)/1000;
@@ -78,7 +78,7 @@ public class doForecasting {
             e.printStackTrace();
         }
     }
-    public static void crossValidateTS(Instances data, WekaForecaster forecaster){
+    public static void crossValidateTS(Instances data, src.WekaForecaster forecaster){
         try {
 
             actualValuesList.clear();

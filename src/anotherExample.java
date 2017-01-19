@@ -26,7 +26,7 @@ public class anotherExample {
             asd.add(0, "asdas");
             asd.add(1, "asdf");
             asd.add(2, "asdas");
-            System.out.println(asd.contains("asdass"));
+            System.out.println(Math.random());
             // evaluate the initial subset
         } catch (Exception e) {
             e.printStackTrace();

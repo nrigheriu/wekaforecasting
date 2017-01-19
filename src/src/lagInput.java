@@ -54,7 +54,7 @@ public class lagInput {
             AttributeSelectedClassifier attributeSelectedClassifier = applyMetaClassifier(trainData);
             //attributeSelectedClassifier.setOptions(new String[]{"-D"});
             // new forecaster
-            WekaForecaster forecaster = new WekaForecaster();
+            src.WekaForecaster forecaster = new src.WekaForecaster();
             // set the targets we want to forecast. This method calls
             // setFieldsToLag() on the lag maker object for us
             forecaster.setFieldsToForecast("lagY");

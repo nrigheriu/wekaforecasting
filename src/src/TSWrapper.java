@@ -60,6 +60,7 @@ public class TSWrapper {
         Instances trainCopy;
         Remove delTransform = new Remove();
         List<String> remainingAttributes = new ArrayList<String>();
+        String remainingLags = "";
         List<String> newOverlayFields = new ArrayList<String>();
         delTransform.setInvertSelection(true);
         // count attributes set in the BitSet
@@ -80,21 +81,27 @@ public class TSWrapper {
         trainCopy = Filter.useFilter(m_data, delTransform);
 
         for (int k = 0; k < trainCopy.numAttributes(); k++) {
-            System.out.println("K: " + k + "Attr name: " + trainCopy.attribute(k).name());
-            remainingAttributes.add(k, trainCopy.attribute(k).name());
+            String attrName = trainCopy.attribute(k).name();
+            remainingAttributes.add(k, attrName);
+            if(attrName.contains("Lag_" + tsLagMaker.getFieldsToLagAsString())){                      //it means we have a lag attribute in the subset and we should update the lagmaker with it
+                remainingLags += attrName.substring(attrName.length() - 4, attrName.length()).replaceAll("[^0-9]", "");
+                remainingLags += ", ";
+            }
         }
+        remainingLags = remainingLags.substring(0, remainingLags.length()-2);
+        System.out.println("Remaining lags: " + remainingLags);
+        tsLagMaker.setLagRange(remainingLags);
         i = 0;
         for (int k = 0; k < overlayFields.size(); k++) {                        //updating the tsLagmaker with the still available overlay Fields
             if(remainingAttributes.contains(overlayFields.get(k))) {
                 newOverlayFields.add(i++, overlayFields.get(k));
             }
         }
-
+        System.out.println("Remaining overlay fields: " + newOverlayFields.toString());
         tsLagMaker.setOverlayFields(newOverlayFields);
-        System.out.println(trainCopy.toSummaryString());
         TSCV tscv = new TSCV();
         tscv.crossValidateTS(trainCopy, m_BaseClassifier, tsLagMaker);
-        error = tscv.calculateErrors(true);
+        error = tscv.calculateErrors(false);
         return error;
     }
     public void buildEvaluator(Instances data) throws Exception{

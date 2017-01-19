@@ -16,7 +16,7 @@ import java.util.List;
  * Created by cycle on 09.12.16.
  */
 public class buildErrorGraph {
-    public static void buildErrorGraph(Instances testData, WekaForecaster forecaster, List<List<NumericPrediction>> forecast, int stepNumber){
+    public static void buildErrorGraph(Instances testData, src.WekaForecaster forecaster, List<List<NumericPrediction>> forecast, int stepNumber){
         JFreeChartDriver graph = new JFreeChartDriver();
         String[] targetNames = new String[1];
         targetNames[0] = testData.attribute(1).name();
@@ -29,7 +29,7 @@ public class buildErrorGraph {
             for (int i = 0; i< stepNumber; i++){
                 Instance instance = testData.get(i);
                 errorModule.evaluateForInstance(forecast.get(i), instance);
-                System.out.println(errorModule.toSummaryString());
+                //System.out.println(errorModule.toSummaryString());
                 errorModuleList.add(errorModule);
             }
             JPanel panel2 = graph.getGraphPanelTargets(forecaster, errorModule, Arrays.asList(targetNames), 0, 1, testData);

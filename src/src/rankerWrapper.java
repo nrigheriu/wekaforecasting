@@ -33,7 +33,7 @@ public class rankerWrapper {
         selectedFeatures = new ArrayList<Integer>();
 
     }
-    public static Float[] getPercentagesForIntervals(WekaForecaster forecaster, Instances data, PrintWriter resultLog){
+    public static Float[] getPercentagesForIntervals(src.WekaForecaster forecaster, Instances data, PrintWriter resultLog){
         actualValuesList.clear();
         forecastedValuesList.clear();
         for (int i = 0; i < minLagValues.length;i++){
@@ -81,7 +81,7 @@ public class rankerWrapper {
         return selectedFeatures;
     }
 
-    public static ArrayList<Integer> getFeatureList(WekaForecaster forecaster){
+    public static ArrayList<Integer> getFeatureList(src.WekaForecaster forecaster){
         String forecasterResult = String.valueOf(forecaster);
         String features = new String();
         String lag_no = new String();
