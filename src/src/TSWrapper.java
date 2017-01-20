@@ -101,7 +101,7 @@ public class TSWrapper {
         tsLagMaker.setOverlayFields(newOverlayFields);
         TSCV tscv = new TSCV();
         tscv.crossValidateTS(trainCopy, m_BaseClassifier, tsLagMaker);
-        error = tscv.calculateErrors(false);
+        error = tscv.calculateErrors(false, "MAPE");
         return error;
     }
     public void buildEvaluator(Instances data) throws Exception{

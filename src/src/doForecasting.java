@@ -29,38 +29,42 @@ public class doForecasting {
         try {
             PrintWriter resultLog = new PrintWriter(new FileWriter("/home/cycle/workspace/wekaforecasting-new-features/results.txt", true));
             long startTime = System.currentTimeMillis();
-            WekaForecaster forecaster = new WekaForecaster();
+            src.WekaForecaster forecaster = new src.WekaForecaster();
+            List<String> overlayFields = new ArrayList<String>();
             myHashMap hashMap = new myHashMap();
-            /*for (int i = 1; i < 1000; i+=48) {
+            for (int i = 1; i < 1392 ; i+=48) {
                 hashMap.fillUpHashMap(applyFilterClassifier.applyFilterClassifier(data, i, i+47), 4, hashMap, data.attribute(1).name());
             }
             myHashMap.sortHashMapByValues(hashMap);
-            myHashMap.printHashMapFeatures(hashMap, 100);*/
-            /*forecaster.getTSLagMaker().setTimeStampField(data.attribute(0).name()); // date time stamp
+            String chosenLags = myHashMap.printHashMapFeatures(hashMap, 75);
+            /*for (int i = 0; i < data.numAttributes()-2; i++)                                        //first 2 attributes are time and field to lag
+                overlayFields.add(i, data.attribute(i+2).name());
+            forecaster.getTSLagMaker().setOverlayFields(overlayFields);
+            forecaster.getTSLagMaker().setTimeStampField(data.attribute(0).name()); // date time stamp
             forecaster.setFieldsToForecast(data.attribute(1).name());
-            forecaster.setOverlayFields(data.attribute(2).name());
             forecaster.setBaseForecaster(classifier);
             forecaster.getTSLagMaker().setIncludePowersOfTime(true);
             forecaster.getTSLagMaker().setIncludeTimeLagProducts(false);
             //forecaster.getTSLagMaker().setFieldsToLagAsString(data.attribute(1).name() + ", " + data.attribute(2).name());
             forecaster.getTSLagMaker().setMinLag(1);
-            forecaster.getTSLagMaker().setMaxLag(10);
+            forecaster.getTSLagMaker().setMaxLag(100);
             //forecaster.getTSLagMaker().setLagRange("1, 2, 4, 8, 12, 96, 672, 20, 576, 384, 480, 192");
-            crossValidateTS(data, forecaster);*/
+            crossValidateTS(data, forecaster);
+            calculateErrors(true,  "MAPE");*/
+
             TSLagMaker tsLagMaker = new TSLagMaker();
             tsLagMaker.setFieldsToLagAsString(data.attribute(1).name());
             tsLagMaker.setTimeStampField(data.attribute(0).name());
             tsLagMaker.setIncludePowersOfTime(true);
             tsLagMaker.setIncludeTimeLagProducts(false);
             tsLagMaker.setMinLag(1);
-            tsLagMaker.setMaxLag(12);
-            List<String> overlayFields = new ArrayList<String>();                                           //TODO:make it be able to change to data w/0 overlay fields or adapt to overlay fields number
-            for (int i = 0; i < 4; i++)
+            tsLagMaker.setMaxLag(1430);
+            tsLagMaker.setLagRange(chosenLags);
+            //tsLagMaker.setRemoveLeadingInstancesWithUnknownLagValues(true);
+            for (int i = 0; i < data.numAttributes()-2; i++)                                        //first 2 attributes are time and field to lag
                 overlayFields.add(i, data.attribute(i+2).name());
             tsLagMaker.setOverlayFields(overlayFields);
-            //tsLagMaker.setOptions(weka.core.Utils.splitOptions("trim-leading"));
             Instances laggedData = tsLagMaker.getTransformedData(data);
-            //System.out.println(laggedData);
             BestFirst2 bestFirst2 = new BestFirst2();
             bestFirst2.search(laggedData, tsLagMaker, overlayFields);
             //map = fillUpHashMap(forecaster, featureNumber, map);
@@ -86,13 +90,16 @@ public class doForecasting {
             int stepNumber = 24;
             Instances testData = null, trainData = null;
             List<List<NumericPrediction>> forecast = null;
-            for (int trainingPercentage = 80; trainingPercentage <= 80; trainingPercentage += 5) {
+            for (int trainingPercentage = 70; trainingPercentage <= 80; trainingPercentage += 5) {
                 long sTime = System.currentTimeMillis();
                 trainData = getSplittedData(data, trainingPercentage, true);
                 testData = getSplittedData(data, trainingPercentage, false);
                 forecaster.buildForecaster(trainData);
                 forecaster.primeForecaster(trainData);
-                forecast = forecaster.forecast(stepNumber, testData);
+                if(forecaster.getTSLagMaker().getOverlayFields().size() > 0)                        //checking if any overlay fields are set
+                    forecast = forecaster.forecast(stepNumber, testData);
+                else
+                    forecast = forecaster.forecast(stepNumber);
                 //System.out.println(forecaster.getTSLagMaker().getTransformedData(testData));
                 addToValuesLists(forecast, testData, stepNumber);
                 long eTime = System.currentTimeMillis();
@@ -118,14 +125,15 @@ public class doForecasting {
             return new Instances(data, trainSize, testSize);
         }
     }
-    public static float calculateErrors (PrintWriter resultLog, boolean writeToLog){
+    public static double calculateErrors (boolean printOutput, String evaluationMeasure){
         double errorSum = 0;
         double piErrorSum = 0;
         double squaredErrorSum = 0;
         DecimalFormat df = new DecimalFormat("#.###");
         List<String> errorList = new ArrayList<>();
-        float getLastError = 0;
-        for (int i = 0; i < actualValuesList.size(); i++) {
+        double getLastError = 0;
+        int i;
+        for (i = 0; i < actualValuesList.size(); i++) {
             double actualValue = actualValuesList.get(i);
             double error = Math.abs(forecastedValuesList.get(i) - actualValue);
             double piError = 100 * error / actualValue;
@@ -133,13 +141,16 @@ public class doForecasting {
             errorSum += error;
             squaredErrorSum += error*error;
             String errorOutput = "Step: " + i + " Prediction:" + df.format(forecastedValuesList.get(i)) +
-                    " Act" + actualValue +
+                    " Act: " + actualValue +
                     " MAE: " + df.format(errorSum / (i + 1)) + " RMSE:" + df.format(Math.sqrt(squaredErrorSum / (i + 1))) +
                     " MAPE:" + df.format(piErrorSum / (i + 1));
-            if(writeToLog)
-                resultLog.println(errorOutput);
-            getLastError = (float) Math.sqrt(squaredErrorSum/ (i + 1));
+            if(printOutput)
+                System.out.println(errorOutput);
         }
+        if(evaluationMeasure == "RMSE")
+            getLastError = Math.sqrt(squaredErrorSum/ (i + 1));
+        else if (evaluationMeasure == "MAPE")
+            getLastError = piErrorSum/(i+1);
         return getLastError;
     }
 

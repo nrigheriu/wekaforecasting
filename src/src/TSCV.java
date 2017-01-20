@@ -46,7 +46,7 @@ public class TSCV {
                 addToValuesLists(forecast, testData, stepNumber);
                 long eTime = System.currentTimeMillis();
                 resultLog.println(forecaster);
-                System.out.println(("Time taken to evaluate: " + ((double)(eTime-sTime))/1000));
+                //System.out.println(("Time taken to evaluate: " + ((double)(eTime-sTime))/1000));
                 resultLog.close();
             }
             buildErrorGraph.buildErrorGraph(testData, forecaster, forecast, stepNumber);
@@ -69,14 +69,15 @@ public class TSCV {
             return new Instances(data, trainSize, testSize);
         }
     }
-    public double calculateErrors (boolean printOutput){
+    public double calculateErrors (boolean printOutput, String evaluationMeasure){
         double errorSum = 0;
         double piErrorSum = 0;
         double squaredErrorSum = 0;
         DecimalFormat df = new DecimalFormat("#.###");
         List<String> errorList = new ArrayList<>();
         double getLastError = 0;
-        for (int i = 0; i < actualValuesList.size(); i++) {
+        int i;
+        for (i = 0; i < actualValuesList.size(); i++) {
             double actualValue = actualValuesList.get(i);
             double error = Math.abs(forecastedValuesList.get(i) - actualValue);
             double piError = 100 * error / actualValue;
@@ -89,9 +90,11 @@ public class TSCV {
                     " MAPE:" + df.format(piErrorSum / (i + 1));
             if(printOutput)
                 System.out.println(errorOutput);
-            //getLastError = Math.sqrt(squaredErrorSum/ (i + 1));               //RMSE is bad for predicting stuff w/values below 1 ??
-            getLastError = piErrorSum/(i+1);
         }
+        if(evaluationMeasure == "RMSE")
+            getLastError = Math.sqrt(squaredErrorSum/ (i + 1));
+        else if (evaluationMeasure == "MAPE")
+            getLastError = piErrorSum/(i+1);
         return getLastError;
     }
     protected void resetOptions(){

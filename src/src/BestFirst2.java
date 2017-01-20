@@ -666,14 +666,14 @@ public class BestFirst2 implements OptionHandler,
     TSWrapper tsWrapper = new TSWrapper();
     tsWrapper.buildEvaluator(data);
     LinearRegression linearRegression = new LinearRegression();
-    linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1"));
+    linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1 -R 1E-6"));
     tsWrapper.setM_BaseClassifier(linearRegression);
     m_numAttribs = data.numAttributes();
     BitSet best_group = getStartSet(m_numAttribs, 18), temp_group;
-    int temp = 20, initialTemp = temp;
+    int temp = 60, initialTemp = temp;
     double best_merit = -Double.MAX_VALUE;
     double merit;
-    Hashtable<String, Double> lookup = new Hashtable<String, Double>((int)Math.pow(2, m_numAttribs));
+    Hashtable<String, Double> lookup = new Hashtable<String, Double>();
     // evaluate the initial subset
     best_merit = tsWrapper.evaluateSubset(best_group, tsLagMaker, overlayFields);
     String subset_string = best_group.toString();
@@ -713,7 +713,7 @@ public class BestFirst2 implements OptionHandler,
           System.out.println("Expfunction: " + expFunction + "Temp %: " + tempPercentage + "Error % : " + errorPercentage);
           if(expFunction >= randomNr){
               change = true;
-              System.out.println("Decided to change to worse subset! With expFunction: " + Double.toString(expFunction));
+              System.out.println("Decided to change to a worse subset!");
           }
       }
       return change;

@@ -33,14 +33,14 @@ public class rankerWrapper {
         selectedFeatures = new ArrayList<Integer>();
 
     }
-    public static Float[] getPercentagesForIntervals(src.WekaForecaster forecaster, Instances data, PrintWriter resultLog){
+    /*public static Float[] getPercentagesForIntervals(src.WekaForecaster forecaster, Instances data, PrintWriter resultLog){
         actualValuesList.clear();
         forecastedValuesList.clear();
         for (int i = 0; i < minLagValues.length;i++){
             forecaster.getTSLagMaker().setMinLag(minLagValues[i]);
             forecaster.getTSLagMaker().setMaxLag(maxLagValues[i]);
             doForecasting.crossValidateTS(data, forecaster);
-            accuracy[i] = doForecasting.calculateErrors(resultLog, false);
+            accuracy[i] = doForecasting.calculateErrors(true, "MAPE");
             System.out.println("Accuracy: " + accuracy[i]);
             ArrayList<Integer> intervalFeatureList = new ArrayList<Integer>();
             intervalFeatureList = getFeatureList(forecaster);
@@ -121,5 +121,5 @@ public class rankerWrapper {
             return featureList;
         }
         return null;
-    }
+    }*/
 }
