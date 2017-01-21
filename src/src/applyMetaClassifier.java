@@ -10,7 +10,7 @@ import weka.classifiers.bayes.net.search.global.*;
  * Created by cycle on 09.12.16.
  */
 public class applyMetaClassifier {
-    public static src.AttributeSelectedClassifier applyMetaClassifier(Instances trainData) {
+    public src.AttributeSelectedClassifier applyMetaClassifier(Instances trainData) {
         try {
             src.AttributeSelectedClassifier attributeSelectedClassifier = new src.AttributeSelectedClassifier();
             WrapperSubsetEval wrapperSubsetEval = new WrapperSubsetEval();
@@ -33,7 +33,7 @@ public class applyMetaClassifier {
             RandomSearch randomSearch = new RandomSearch();
             SimulatedAnnealing simulatedAnnealing = new SimulatedAnnealing();
             //wrapperSubsetEval.buildEvaluator(trainData);
-            BestFirst2 bestFirstsearch2 = new BestFirst2();
+            SimmulatedAnnealing bestFirstsearch2 = new SimmulatedAnnealing();
             BestFirst bestFirst = new BestFirst();
             //bestFirstsearch2.setOptions(weka.core.Utils.splitOptions("-Z"));
             //search.setSearchBackwards(true);

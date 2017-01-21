@@ -65,7 +65,7 @@ import weka.filters.unsupervised.attribute.Remove;
  * -s &lt;search method&gt; <br/>
  * The full class name of the search method followed by search method options
  * (if any).<br/>
- * Eg. -s "weka.attributeSelection.BestFirst2 -N 10"
+ * Eg. -s "weka.attributeSelection.SimmulatedAnnealing -N 10"
  * <p/>
  * 
  * -x &lt;number of folds&gt; <br/>
@@ -301,7 +301,7 @@ public class AttributeSelection implements Serializable, RevisionHandler {
 
   /**
    * constructor. Sets defaults for each member varaible. Default attribute
-   * evaluator is CfsSubsetEval; default search method is BestFirst2.
+   * evaluator is CfsSubsetEval; default search method is SimmulatedAnnealing.
    */
   public AttributeSelection() {
     setFolds(10);

@@ -25,7 +25,7 @@ public class TSWrapper {
     private int m_classIndex;
     public static final int EVAL_RMSE = 1;
     public static final int EVAL_MAPE = 2;
-    private BestFirst2 search = new BestFirst2();
+    private SimmulatedAnnealing search = new SimmulatedAnnealing();
 
     public String getM_EvaluationMeasure() {
         return m_EvaluationMeasure;

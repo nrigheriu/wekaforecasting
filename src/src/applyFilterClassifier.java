@@ -10,7 +10,11 @@ import weka.filters.supervised.attribute.TSLagMaker;
  */
 public class applyFilterClassifier {
 
-    public static String applyFilterClassifier(Instances data, int minLag, int maxLag){
+    public applyFilterClassifier(){
+
+    }
+
+    public String applyFilterClassifier(Instances data, int minLag, int maxLag){
         try {
             weka.attributeSelection.AttributeSelection attsel = new weka.attributeSelection.AttributeSelection();
             TSLagMaker tsLagMaker = new TSLagMaker();

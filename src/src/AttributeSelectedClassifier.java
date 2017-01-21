@@ -60,8 +60,8 @@ import weka.core.WeightedInstancesHandler;
  * <pre> -S &lt;search method specification&gt;
  *  Full class name of search method, followed
  *  by its options.
- *  eg: "weka.attributeSelection.BestFirst2 -D 1"
- *  (default weka.attributeSelection.BestFirst2)</pre>
+ *  eg: "weka.attributeSelection.SimmulatedAnnealing -D 1"
+ *  (default weka.attributeSelection.SimmulatedAnnealing)</pre>
  * 
  * <pre> -D
  *  If set, classifier is run in debug mode and
@@ -193,8 +193,8 @@ public class AttributeSelectedClassifier
     newVector.addElement(new Option(
 	      "\tFull class name of search method, followed\n"
 	      + "\tby its options.\n"
-	      + "\teg: \"weka.attributeSelection.BestFirst2 -D 1\"\n"
-	      + "\t(default weka.attributeSelection.BestFirst2)",
+	      + "\teg: \"weka.attributeSelection.SimmulatedAnnealing -D 1\"\n"
+	      + "\t(default weka.attributeSelection.SimmulatedAnnealing)",
 	      "S", 1, "-S <search method specification>"));
     
     newVector.addAll(Collections.list(super.listOptions()));
@@ -233,8 +233,8 @@ public class AttributeSelectedClassifier
    * <pre> -S &lt;search method specification&gt;
    *  Full class name of search method, followed
    *  by its options.
-   *  eg: "weka.attributeSelection.BestFirst2 -D 1"
-   *  (default weka.attributeSelection.BestFirst2)</pre>
+   *  eg: "weka.attributeSelection.SimmulatedAnnealing -D 1"
+   *  (default weka.attributeSelection.SimmulatedAnnealing)</pre>
    * 
    * <pre> -D
    *  If set, classifier is run in debug mode and

@@ -1,15 +1,8 @@
 package src;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
-import weka.attributeSelection.Ranker;
-import weka.attributeSelection.ReliefFAttributeEval;
 import weka.classifiers.Classifier;
 import weka.classifiers.evaluation.NumericPrediction;
-import weka.classifiers.timeseries.WekaForecaster;
-import weka.classifiers.functions.*;
 import weka.core.Instances;
-import weka.core.Utils;
-import weka.filters.supervised.attribute.AttributeSelection;
 import weka.filters.supervised.attribute.TSLagMaker;
 
 import java.io.*;
@@ -20,23 +13,24 @@ import java.util.*;
  * Created by cycle on 09.12.16.
  */
 public class doForecasting {
-    static List<Double> actualValuesList = new ArrayList<>();
-    static List<Double> forecastedValuesList = new ArrayList<>();
-    static HashMap<Integer, Float> map = new HashMap<Integer, Float>();
-
-
-    public static void doForecasting(Instances data, Classifier classifier){
+    List<Double> actualValuesList = new ArrayList<>();
+    List<Double> forecastedValuesList = new ArrayList<>();
+    HashMap<Integer, Float> map = new HashMap<Integer, Float>();
+    public doForecasting(){
+      resetOptions();
+    }
+    public void doForecasting(Instances data, Classifier classifier){
         try {
             PrintWriter resultLog = new PrintWriter(new FileWriter("/home/cycle/workspace/wekaforecasting-new-features/results.txt", true));
             long startTime = System.currentTimeMillis();
             src.WekaForecaster forecaster = new src.WekaForecaster();
             List<String> overlayFields = new ArrayList<String>();
-            myHashMap hashMap = new myHashMap();
+           /* myHashMap hashMap = new myHashMap();
             for (int i = 1; i < 1392 ; i+=48) {
                 hashMap.fillUpHashMap(applyFilterClassifier.applyFilterClassifier(data, i, i+47), 4, hashMap, data.attribute(1).name());
             }
             myHashMap.sortHashMapByValues(hashMap);
-            String chosenLags = myHashMap.printHashMapFeatures(hashMap, 75);
+            String chosenLags = myHashMap.printHashMapFeatures(hashMap, 75);*/
             /*for (int i = 0; i < data.numAttributes()-2; i++)                                        //first 2 attributes are time and field to lag
                 overlayFields.add(i, data.attribute(i+2).name());
             forecaster.getTSLagMaker().setOverlayFields(overlayFields);
@@ -59,20 +53,23 @@ public class doForecasting {
             tsLagMaker.setIncludeTimeLagProducts(false);
             tsLagMaker.setMinLag(1);
             tsLagMaker.setMaxLag(1430);
-            tsLagMaker.setLagRange(chosenLags);
-            //tsLagMaker.setRemoveLeadingInstancesWithUnknownLagValues(true);
+            //tsLagMaker.setLagRange(chosenLags);
+            tsLagMaker.setLagRange(" 768, 1, 769, 2, 3, 4, 1291, 1292, 527, 528, 1296, 1049, 282, 1051, 286, 287, 1055, 288, 1056, 289, 290, 1058, 814, 815, 816, 817, 573, 1341, 574, 1342, 575, 1343, 576, 1344, 577, 578, 579, 1102, 335, 1103, 336, 1104, 93, 94, 862, 95, 863, 96, 864, 97, 865, 98, 99, 101, 1389, 1390, 1391, 624, 1392, 381, 1149, 382, 1150, 383, 1151, 384, 1152, 385, 910, 911, 912, 914, 668, 669, 671");
+           // tsLagMaker.setRemoveLeadingInstancesWithUnknownLagValues(true);
+
             for (int i = 0; i < data.numAttributes()-2; i++)                                        //first 2 attributes are time and field to lag
                 overlayFields.add(i, data.attribute(i+2).name());
             tsLagMaker.setOverlayFields(overlayFields);
             Instances laggedData = tsLagMaker.getTransformedData(data);
-            BestFirst2 bestFirst2 = new BestFirst2();
-            bestFirst2.search(laggedData, tsLagMaker, overlayFields);
-            //map = fillUpHashMap(forecaster, featureNumber, map);
-            //sortHashMapByValues(map);
-            //printHashMapFeatures(map, featureNumber);
+            SimmulatedAnnealing simmulatedAnnealing = new SimmulatedAnnealing();
+            simmulatedAnnealing.search(laggedData, tsLagMaker, overlayFields);
 
-            //resultLog.println(forecaster);
-            //calculateErrors(resultLog, true);
+       /*forecaster.setTSLagMaker(tsLagMaker);
+            forecaster.setFieldsToForecast(data.attribute(1).name());
+            tsLagMaker.setLagRange("3, 93, 94, 95, 97, 282, 287, 289, 290, 335, 381, 383, 384, 385, 573, 668, 669, 671, 768, 769, 814, 816, 817, 862, 863, 864, 910, 914, 1049, 1056, 1058, 1104, 1150, 1151, 1152, 1342, 1389, 1390, 1391");
+            crossValidateTS(data, forecaster);
+            resultLog.println(forecaster);
+            calculateErrors(true, "MAPE", resultLog);*/
 
             long stopTime = System.currentTimeMillis();
             double elapsedTime = ((double) stopTime - startTime)/1000;
@@ -82,10 +79,10 @@ public class doForecasting {
             e.printStackTrace();
         }
     }
-    public static void crossValidateTS(Instances data, src.WekaForecaster forecaster){
+    public void crossValidateTS(Instances data, src.WekaForecaster forecaster){
         try {
 
-            actualValuesList.clear();
+            this.actualValuesList.clear();
             forecastedValuesList.clear();
             int stepNumber = 24;
             Instances testData = null, trainData = null;
@@ -96,7 +93,7 @@ public class doForecasting {
                 testData = getSplittedData(data, trainingPercentage, false);
                 forecaster.buildForecaster(trainData);
                 forecaster.primeForecaster(trainData);
-                if(forecaster.getTSLagMaker().getOverlayFields().size() > 0)                        //checking if any overlay fields are set
+                if(!forecaster.getTSLagMaker().getOverlayFields().isEmpty())                        //checking if any overlay fields are set
                     forecast = forecaster.forecast(stepNumber, testData);
                 else
                     forecast = forecaster.forecast(stepNumber);
@@ -110,13 +107,13 @@ public class doForecasting {
             e.printStackTrace();
         }
     }
-    public static void addToValuesLists(List<List<NumericPrediction>> forecast, Instances testData, int stepNumber){
+    public void addToValuesLists(List<List<NumericPrediction>> forecast, Instances testData, int stepNumber){
         for (int i = 0; i < stepNumber; i++) {
             actualValuesList.add(testData.get(i).value(1));
             forecastedValuesList.add(forecast.get(i).get(0).predicted());
         }
     }
-    public static Instances getSplittedData(Instances data, Integer trainPercent, boolean getTrainData){
+    public Instances getSplittedData(Instances data, Integer trainPercent, boolean getTrainData){
         int trainSize = (int) Math.round(data.numInstances() * trainPercent/100);
         int testSize = data.numInstances()-trainSize;
         if (getTrainData){
@@ -125,7 +122,7 @@ public class doForecasting {
             return new Instances(data, trainSize, testSize);
         }
     }
-    public static double calculateErrors (boolean printOutput, String evaluationMeasure){
+    public double calculateErrors (boolean printOutput, String evaluationMeasure, PrintWriter resultLog){
         double errorSum = 0;
         double piErrorSum = 0;
         double squaredErrorSum = 0;
@@ -145,7 +142,7 @@ public class doForecasting {
                     " MAE: " + df.format(errorSum / (i + 1)) + " RMSE:" + df.format(Math.sqrt(squaredErrorSum / (i + 1))) +
                     " MAPE:" + df.format(piErrorSum / (i + 1));
             if(printOutput)
-                System.out.println(errorOutput);
+                resultLog.println(errorOutput);
         }
         if(evaluationMeasure == "RMSE")
             getLastError = Math.sqrt(squaredErrorSum/ (i + 1));
@@ -154,13 +151,18 @@ public class doForecasting {
         return getLastError;
     }
 
-    public static Float getAvg(Float[] array){
+    public Float getAvg(Float[] array){
         Float avg = (float) 0;
         for (int i = 0; i< array.length; i++)
             avg += array[i];
         return avg/array.length;
 
 
+    }
+    public void resetOptions(){
+        actualValuesList = null;
+        forecastedValuesList = null;
+        map = null;
     }
 }
 

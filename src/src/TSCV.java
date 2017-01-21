@@ -39,7 +39,7 @@ public class TSCV {
                 testData = getSplittedData(data, trainingPercentage, false);
                 forecaster.buildForecaster(trainData);
                 forecaster.primeForecaster(trainData);
-               if(forecaster.getTSLagMaker().getOverlayFields().size() > 0)                        //checking if any overlay fields are set
+               if(!forecaster.getTSLagMaker().getOverlayFields().isEmpty())                        //checking if any overlay fields are set
                     forecast = forecaster.forecast(stepNumber, testData);
                 else
                     forecast = forecaster.forecast(stepNumber);

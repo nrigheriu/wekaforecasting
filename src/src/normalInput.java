@@ -46,10 +46,11 @@ public class normalInput {
             AttributeSelectedClassifier attributeSelectedClassifier2 = new AttributeSelectedClassifier();
             IBk iBk = new IBk();
             LinearRegression linearRegression = new LinearRegression();
-            linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1"));
+            linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1 -R 1E-6"));
             MLPRegressor mlpRegressor = new MLPRegressor();
             //mlpRegressor.setOptions(weka.core.Utils.splitOptions("-N 1"));
-            doForecasting.doForecasting(wholeData, applyMetaClassifier.applyMetaClassifier(wholeData));
+            doForecasting doForecasting = new doForecasting();
+            doForecasting.doForecasting(wholeData, linearRegression);
         } catch (Exception ex) {
             ex.printStackTrace();
         }
