@@ -1,10 +1,14 @@
 import weka.core.Instances;
+
+import java.awt.*;
 import java.io.*;
 import java.util.*;
 import java.util.ArrayList;
 import java.util.BitSet;
 import java.util.Hashtable;
+import java.util.List;
 import java.util.Random;
+import javax.swing.*;
 
 import weka.classifiers.functions.LinearRegression;
 import weka.core.converters.ConverterUtils.DataSource;
@@ -16,18 +20,46 @@ import weka.core.Utils;
  * Created by cycle on 10.11.16.
  */
 public class anotherExample {
+    public class Graph extends JPanel {
+        public Graph() {
+            setSize(500, 500);
+        }
+
+        @Override
+        public void paintComponent(Graphics g) {
+            Graphics2D gr = (Graphics2D) g; // This is if you want to use Graphics2D
+            // Now do the drawing here
+            ArrayList<Integer> scores = new ArrayList<Integer>(10);
+
+            Random r = new Random();
+
+            for (int i : scores) {
+                i = r.nextInt(20);
+                System.out.println(r);
+            }
+
+            int y1;
+            int y2;
+
+            for (int i = 0; i < scores.size() - 1; i++) {
+                y1 = (scores.get(i)) * 10;
+                y2 = (scores.get(i + 1)) * 10;
+                gr.drawLine(i * 10, y1, (i + 1) * 10, y2);
+            }
+        }
+    }
 
     public static void main(String[] args) {
+        Random r = new Random();
         try {
-            BitSet b1 = getStartSet(100, 25);
-            //System.out.println(includesMoreThan25PercentOfFeatures(b1, 100));
-            Random ran = new Random();
-            List<String> asd = new ArrayList<String>();
-            asd.add(0, "asdas");
-            asd.add(1, "asdf");
-            asd.add(2, "asdas");
-            System.out.println(1e-8*100);
-            // evaluate the initial subset
+            for (int i = 2; i < 102-2; i++) {
+                int chance = r.nextInt(100);
+                if(chance < 0)
+                    System.out.println("Yes");
+                else
+                    System.out.println("No");
+            }
+
         } catch (Exception e) {
             e.printStackTrace();
         }

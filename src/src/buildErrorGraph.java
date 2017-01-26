@@ -16,7 +16,7 @@ import java.util.List;
  * Created by cycle on 09.12.16.
  */
 public class buildErrorGraph {
-    public static void buildErrorGraph(Instances testData, src.WekaForecaster forecaster, List<List<NumericPrediction>> forecast, int stepNumber){
+    public static void buildErrorGraph(Instances testData, WekaForecaster forecaster, List<List<NumericPrediction>> forecast, int stepNumber){
         JFreeChartDriver graph = new JFreeChartDriver();
         String[] targetNames = new String[1];
         targetNames[0] = testData.attribute(1).name();

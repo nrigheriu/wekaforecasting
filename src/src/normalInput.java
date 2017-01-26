@@ -32,7 +32,7 @@ import weka.core.Option;
 public class normalInput {
     public static void main(String[] args) {
         try {
-            String pathToWholeData = "/home/cycle/workspace/15_min_w_extraFeatures.arff";
+            String pathToWholeData = "/home/cycle/workspace/15_min_weather_1house_3months.arff";
             String pathToHugeData = "/home/cycle/workspace/26_Load-Austin_15min_20121103-20160924.arff";
 
             // load the data

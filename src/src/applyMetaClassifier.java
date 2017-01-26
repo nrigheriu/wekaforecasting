@@ -34,7 +34,7 @@ public class applyMetaClassifier {
             SimulatedAnnealing simulatedAnnealing = new SimulatedAnnealing();
             //wrapperSubsetEval.buildEvaluator(trainData);
             SimmulatedAnnealing bestFirstsearch2 = new SimmulatedAnnealing();
-            BestFirst bestFirst = new BestFirst();
+            weka.attributeSelection.BestFirst bestFirst = new weka.attributeSelection.BestFirst();
             //bestFirstsearch2.setOptions(weka.core.Utils.splitOptions("-Z"));
             //search.setSearchBackwards(true);
             //ranker.setStartSet("11, 19, 12, 13, 19");

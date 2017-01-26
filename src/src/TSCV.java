@@ -26,13 +26,14 @@ public class TSCV {
             PrintWriter resultLog = new PrintWriter(new FileWriter("/home/cycle/workspace/wekaforecasting-new-features/results.txt", true));
             actualValuesList.clear();
             forecastedValuesList.clear();
-            src.WekaForecaster forecaster = new src.WekaForecaster();
+            WekaForecaster forecaster = new WekaForecaster();
             forecaster.setTSLagMaker(tsLagMaker);
             forecaster.setFieldsToForecast(tsLagMaker.getFieldsToLagAsString());
             forecaster.setBaseForecaster(classifier);
             int stepNumber = 24;
             Instances testData = null, trainData = null;
             List<List<NumericPrediction>> forecast = null;
+            //System.out.println("Lag range: " + tsLagMaker.getLagRange());
             for (int trainingPercentage = 70; trainingPercentage <= 80; trainingPercentage += 5) {
                 long sTime = System.currentTimeMillis();
                 trainData = getSplittedData(data, trainingPercentage, true);
@@ -45,7 +46,6 @@ public class TSCV {
                     forecast = forecaster.forecast(stepNumber);
                 addToValuesLists(forecast, testData, stepNumber);
                 long eTime = System.currentTimeMillis();
-                resultLog.println(forecaster);
                 //System.out.println(("Time taken to evaluate: " + ((double)(eTime-sTime))/1000));
                 resultLog.close();
             }

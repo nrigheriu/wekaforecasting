@@ -21,15 +21,14 @@
 
 package src;
 
+import java.io.FileWriter;
+import java.io.PrintWriter;
 import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.BitSet;
-import java.util.Enumeration;
-import java.util.Hashtable;
-import java.util.Vector;
+import java.util.*;
 
 import weka.attributeSelection.*;
 import weka.classifiers.functions.LinearRegression;
+import weka.classifiers.meta.FilteredClassifier;
 import weka.core.Instances;
 import weka.core.Option;
 import weka.core.OptionHandler;
@@ -39,6 +38,11 @@ import weka.core.RevisionUtils;
 import weka.core.SelectedTag;
 import weka.core.Tag;
 import weka.core.Utils;
+import weka.filters.Filter;
+import weka.filters.MultiFilter;
+import weka.filters.supervised.attribute.NominalToBinary;
+import weka.filters.supervised.attribute.TSLagMaker;
+import weka.filters.unsupervised.attribute.Normalize;
 
 /**
  <!-- globalinfo-start --> 
@@ -87,8 +91,7 @@ import weka.core.Utils;
  *         expanded nodes)
  * @version $Revision: 10396 $
  */
-public class BestFirst extends ASSearch implements OptionHandler,
-        StartSetHandler {
+public class BestFirst  {
 
   /** for serialization */
   static final long serialVersionUID = 7841338689536821867L;
@@ -334,7 +337,6 @@ public class BestFirst extends ASSearch implements OptionHandler,
    * @return an enumeration of all the available options.
    * 
    **/
-  @Override
   public Enumeration<Option> listOptions() {
     Vector<Option> newVector = new Vector<Option>(4);
 
@@ -390,7 +392,6 @@ public class BestFirst extends ASSearch implements OptionHandler,
    * @throws Exception if an option is not supported
    * 
    **/
-  @Override
   public void setOptions(String[] options) throws Exception {
     String optionString;
     resetOptions();
@@ -478,7 +479,6 @@ public class BestFirst extends ASSearch implements OptionHandler,
    *          eg. 1,2,6,10-15.
    * @throws Exception if start set can't be set.
    */
-  @Override
   public void setStartSet(String startSet) throws Exception {
     m_startRange.setRanges(startSet);
   }
@@ -488,7 +488,6 @@ public class BestFirst extends ASSearch implements OptionHandler,
    * 
    * @return a list of attributes (and or attribute ranges)
    */
-  @Override
   public String getStartSet() {
     return m_startRange.getRanges();
   }
@@ -565,7 +564,6 @@ public class BestFirst extends ASSearch implements OptionHandler,
    * 
    * @return an array of strings suitable for passing to setOptions()
    */
-  @Override
   public String[] getOptions() {
 
     Vector<String> options = new Vector<String>();
@@ -666,25 +664,46 @@ public class BestFirst extends ASSearch implements OptionHandler,
 
     System.out.println();
   }
+  protected BitSet getStartSet (int numAttribs, int setPercentage){
+    BitSet bitSet = new BitSet(numAttribs);
+    Random r = new Random();
+    boolean includesMoreThan25Percent = false;
+    bitSet.set(0); bitSet.set(1);                         //we always need the time stamp feed and the field to be forecasted; the time stamp field may be substituted later by time_remapped by the forecaster anyway
+    bitSet.set(numAttribs-1); bitSet.set(numAttribs-2);    //always setting local time remapped powers (for now at least)
+    for (int i = 2; i < numAttribs-2; i++) {
+      int chance = r.nextInt(100);
+      if (chance < setPercentage) {
+        bitSet.set(i);
+      }
+    }
+    return bitSet;
+  }
 
   /**
    * Searches the attribute subset space by best first search
    * 
-   * @param ASEval the attribute evaluator to guide the search
    * @param data the training instances.
    * @return an array (not necessarily ordered) of selected attribute indexes
    * @throws Exception if the search can't be completed
    */
-  @Override
-  public int[] search(ASEvaluation ASEval, Instances data) throws Exception {
+  public int[] search(Instances data, TSLagMaker tsLagMaker, List<String> overlayFields) throws Exception {
+    PrintWriter errorLog = new PrintWriter(new FileWriter("/home/cycle/workspace/wekaforecasting-new-features/errorLog.txt", true));
     TSWrapper tsWrapper = new TSWrapper();
     tsWrapper.buildEvaluator(data);
     LinearRegression linearRegression = new LinearRegression();
     linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1 -R 1E-6"));
+    FilteredClassifier fc = new FilteredClassifier();
+    MultiFilter mf = new MultiFilter();
+    Normalize normalize = new Normalize();
+    NominalToBinary nbt = new NominalToBinary();
+    mf.setFilters(new Filter[]{normalize, nbt});
+    mf.setInputFormat(data);
+    fc.setFilter(mf);
+    fc.setClassifier(linearRegression);
+    tsWrapper.setM_BaseClassifier(fc);
 
 
     m_totalEvals = 0;
-    SubsetEvaluator ASEvaluator = (SubsetEvaluator) ASEval;
     m_numAttribs = data.numAttributes();
     int i, j;
     int best_size = 0;
@@ -698,13 +717,12 @@ public class BestFirst extends ASSearch implements OptionHandler,
     boolean z;
     boolean added;
     Link2 tl;
-    Hashtable<String, Double> lookup = new Hashtable<String, Double>(
-      m_cacheSize * m_numAttribs);
+    Hashtable<String, Double> lookup = new Hashtable<String, Double>();
     int insertCount = 0;
     LinkedList2 bfList = new LinkedList2(m_maxStale);
     best_merit = -Double.MAX_VALUE;
     stale = 0;
-    best_group = new BitSet(m_numAttribs);
+    best_group = getStartSet(data.numAttributes(), 0);
 
     m_startRange.setUpper(m_numAttribs - 1);
     if (!(getStartSet().equals(""))) {
@@ -739,7 +757,10 @@ public class BestFirst extends ASSearch implements OptionHandler,
     }
 
     // evaluate the initial subset
-    best_merit = ASEvaluator.evaluateSubset(best_group);
+    best_merit = -tsWrapper.evaluateSubset(best_group, tsLagMaker, overlayFields);
+    m_totalEvals++;
+    errorLog.println(best_merit);
+    errorLog.println(m_totalEvals);
     // add the initial group to the list and the hash table
     Object[] best = new Object[1];
     best[0] = best_group.clone();
@@ -806,8 +827,10 @@ public class BestFirst extends ASSearch implements OptionHandler,
             hashC = tt.toString();
 
             if (lookup.containsKey(hashC) == false) {
-              merit = ASEvaluator.evaluateSubset(temp_group);
+              merit = -tsWrapper.evaluateSubset(temp_group, tsLagMaker, overlayFields);
               m_totalEvals++;
+              errorLog.println(best_merit);
+              errorLog.println(m_totalEvals);
 
               // insert this one in the hashtable
               if (insertCount > m_cacheSize * m_numAttribs) {
@@ -827,7 +850,7 @@ public class BestFirst extends ASSearch implements OptionHandler,
             add[0] = tt.clone();
             bfList.addToList(add, merit);
 
-            if (m_debug) {
+            if (!m_debug) {
               System.out.print("Group: ");
               printGroup(tt, m_numAttribs);
               System.out.println("Merit: " + merit);
@@ -835,7 +858,7 @@ public class BestFirst extends ASSearch implements OptionHandler,
 
             // is this better than the best?
             if (sd == SELECTION_FORWARD) {
-              z = ((merit - best_merit) > 0.00001);
+              z = ((merit - best_merit) > 0.01);
             } else {
               if (merit == best_merit) {
                 z = (size < best_size);
@@ -879,7 +902,9 @@ public class BestFirst extends ASSearch implements OptionHandler,
         stale++;
       }
     }
-
+    printGroup(best_group, m_numAttribs);
+    System.out.println("Best merit: " + best_merit);
+    System.out.println(m_totalEvals);
     m_bestMerit = best_merit;
     return attributeList(best_group);
   }
@@ -931,7 +956,6 @@ public class BestFirst extends ASSearch implements OptionHandler,
    * 
    * @return the revision
    */
-  @Override
   public String getRevision() {
     return RevisionUtils.extract("$Revision: 10396 $");
   }

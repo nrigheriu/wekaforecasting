@@ -88,8 +88,11 @@ public class TSWrapper {
                 remainingLags += ", ";
             }
         }
-        remainingLags = remainingLags.substring(0, remainingLags.length()-2);
-        System.out.println("Remaining lags: " + remainingLags);
+        if(!remainingLags.isEmpty())
+            remainingLags = remainingLags.substring(0, remainingLags.length()-2);
+        else
+            remainingLags += "1";
+        //System.out.println("Remaining lags: " + remainingLags);
         tsLagMaker.setLagRange(remainingLags);
         i = 0;
         for (int k = 0; k < overlayFields.size(); k++) {                        //updating the tsLagmaker with the still available overlay Fields
@@ -97,7 +100,7 @@ public class TSWrapper {
                 newOverlayFields.add(i++, overlayFields.get(k));
             }
         }
-        System.out.println("Remaining overlay fields: " + newOverlayFields.toString());
+        //System.out.println("Remaining overlay fields: " + newOverlayFields.toString());
         tsLagMaker.setOverlayFields(newOverlayFields);
         TSCV tscv = new TSCV();
         tscv.crossValidateTS(trainCopy, m_BaseClassifier, tsLagMaker);
