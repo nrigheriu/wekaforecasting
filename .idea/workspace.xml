@@ -5,33 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7587b12-2478-48ce-a17b-10292d85196b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/src/DrawGraph.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/src/WekaForecaster.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/src/lagInput.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/BestFirst$Link2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/BestFirst$LinkedList2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/BestFirst.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/WekaForecaster$SingleTargetForecaster.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/WekaForecaster.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/lagInput.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/file1.png" afterPath="$PROJECT_DIR$/file1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/anotherExample.class" afterPath="$PROJECT_DIR$/target/classes/anotherExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/BestFirst.class" afterPath="$PROJECT_DIR$/target/classes/src/BestFirst.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/SimmulatedAnnealing.class" afterPath="$PROJECT_DIR$/target/classes/src/SimmulatedAnnealing.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/TSCV.class" afterPath="$PROJECT_DIR$/target/classes/src/TSCV.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/TSWrapper.class" afterPath="$PROJECT_DIR$/target/classes/src/TSWrapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/applyMetaClassifier.class" afterPath="$PROJECT_DIR$/target/classes/src/applyMetaClassifier.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/buildErrorGraph.class" afterPath="$PROJECT_DIR$/target/classes/src/buildErrorGraph.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/doForecasting.class" afterPath="$PROJECT_DIR$/target/classes/src/doForecasting.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/normalInput.class" afterPath="$PROJECT_DIR$/target/classes/src/normalInput.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results.txt" afterPath="$PROJECT_DIR$/results.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/anotherExample.java" afterPath="$PROJECT_DIR$/src/anotherExample.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/BestFirst.java" afterPath="$PROJECT_DIR$/src/src/BestFirst.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/SimmulatedAnnealing.java" afterPath="$PROJECT_DIR$/src/src/SimmulatedAnnealing.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/TSCV.java" afterPath="$PROJECT_DIR$/src/src/TSCV.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/TSWrapper.java" afterPath="$PROJECT_DIR$/src/src/TSWrapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/applyMetaClassifier.java" afterPath="$PROJECT_DIR$/src/src/applyMetaClassifier.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/buildErrorGraph.java" afterPath="$PROJECT_DIR$/src/src/buildErrorGraph.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/doForecasting.java" afterPath="$PROJECT_DIR$/src/src/doForecasting.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/normalInput.java" afterPath="$PROJECT_DIR$/src/src/normalInput.java" />
     </list>
@@ -63,14 +45,14 @@
     <favorites_list name="wekaforecasting" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.42990655">
+    <splitter split-orientation="horizontal" split-proportion="0.4494108">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="BestFirst.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/src/BestFirst.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1003">
-                  <caret line="905" column="50" lean-forward="false" selection-start-line="905" selection-start-column="50" selection-end-line="905" selection-end-column="50" />
+                <state relative-caret-position="6069">
+                  <caret line="407" column="22" lean-forward="false" selection-start-line="407" selection-start-column="8" selection-end-line="407" selection-end-column="22" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -82,7 +64,7 @@
             <entry file="file://$PROJECT_DIR$/src/anotherExample.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="1394">
-                  <caret line="100" column="0" lean-forward="true" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+                  <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -101,8 +83,8 @@
           <file leaf-file-name="doForecasting.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/src/doForecasting.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="935">
-                  <caret line="71" column="14" lean-forward="false" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
+                <state relative-caret-position="1088">
+                  <caret line="92" column="32" lean-forward="false" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="docComment;class#doForecasting#0" expanded="false" />
@@ -116,9 +98,7 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="612">
                   <caret line="39" column="36" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-                  <folding>
-                    <element signature="imports" expanded="false" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -128,11 +108,7 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="952">
                   <caret line="68" column="23" lean-forward="false" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
-                  <folding>
-                    <element signature="imports" expanded="false" />
-                    <element signature="e#598#599#0" expanded="false" />
-                    <element signature="e#636#637#0" expanded="false" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -141,11 +117,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="SimmulatedAnnealing.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="SimmulatedAnnealing.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/src/SimmulatedAnnealing.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="937">
-                  <caret line="340" column="40" lean-forward="false" selection-start-line="340" selection-start-column="40" selection-end-line="340" selection-end-column="40" />
+                <state relative-caret-position="4692">
+                  <caret line="316" column="22" lean-forward="false" selection-start-line="316" selection-start-column="22" selection-end-line="316" selection-end-column="22" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -163,36 +139,12 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TSWrapper.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="TSWrapper.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/src/TSWrapper.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1496">
+                <state relative-caret-position="1230">
                   <caret line="102" column="10" lean-forward="false" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="10" />
-                  <folding>
-                    <element signature="imports" expanded="false" />
-                    <element signature="e#888#889#0" expanded="false" />
-                    <element signature="e#930#931#0" expanded="false" />
-                    <element signature="e#1253#1254#0" expanded="false" />
-                    <element signature="e#1283#1284#0" expanded="false" />
-                    <element signature="e#4442#4443#0" expanded="false" />
-                    <element signature="e#4471#4472#0" expanded="false" />
-                    <element signature="e#4518#4519#0" expanded="false" />
-                    <element signature="e#4554#4555#0" expanded="false" />
-                    <element signature="e#4590#4591#0" expanded="false" />
-                    <element signature="e#4625#4626#0" expanded="false" />
-                    <element signature="e#4673#4674#0" expanded="false" />
-                    <element signature="e#4712#4713#0" expanded="false" />
-                    <element signature="e#4780#4781#0" expanded="false" />
-                    <element signature="e#4836#4837#0" expanded="false" />
-                    <element signature="e#4866#4867#0" expanded="false" />
-                    <element signature="e#4895#4896#0" expanded="false" />
-                    <element signature="e#4936#4937#0" expanded="false" />
-                    <element signature="e#4972#4973#0" expanded="false" />
-                    <element signature="e#5010#5011#0" expanded="false" />
-                    <element signature="e#5044#5045#0" expanded="false" />
-                    <element signature="e#5098#5099#0" expanded="false" />
-                    <element signature="e#5144#5145#0" expanded="false" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -211,8 +163,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>m_delegate</find>
-      <find>weka.classifier.eval</find>
       <find>m_metric</find>
       <find>pluginMetric</find>
       <find>evalu</find>
@@ -241,6 +191,8 @@
       <find>search</find>
       <find>Decided to change</find>
       <find>setDirec</find>
+      <find>SELECTION_BIDIRECTIONAL</find>
+      <find>TAGS_SELECTION</find>
     </findStrings>
     <replaceStrings>
       <replace>firstpartexcludedRun</replace>
@@ -299,16 +251,16 @@
         <option value="$PROJECT_DIR$/src/src/BestFirst2.java" />
         <option value="$PROJECT_DIR$/src/src/applyFilterClassifier.java" />
         <option value="$PROJECT_DIR$/src/src/AddHoliday.java" />
-        <option value="$PROJECT_DIR$/src/src/normalInput.java" />
         <option value="$PROJECT_DIR$/src/src/applyMetaClassifier.java" />
         <option value="$PROJECT_DIR$/src/src/buildErrorGraph.java" />
         <option value="$PROJECT_DIR$/src/src/DrawGraph.java" />
         <option value="$PROJECT_DIR$/src/src/TSCV.java" />
         <option value="$PROJECT_DIR$/src/src/TSWrapper.java" />
         <option value="$PROJECT_DIR$/src/anotherExample.java" />
+        <option value="$PROJECT_DIR$/src/src/SimmulatedAnnealing.java" />
         <option value="$PROJECT_DIR$/src/src/BestFirst.java" />
         <option value="$PROJECT_DIR$/src/src/doForecasting.java" />
-        <option value="$PROJECT_DIR$/src/src/SimmulatedAnnealing.java" />
+        <option value="$PROJECT_DIR$/src/src/normalInput.java" />
       </list>
     </option>
   </component>
@@ -823,7 +775,9 @@
       <workItem from="1485179099650" duration="3886000" />
       <workItem from="1485277406846" duration="9856000" />
       <workItem from="1485352334790" duration="15963000" />
-      <workItem from="1485379302599" duration="20800000" />
+      <workItem from="1485379302599" duration="30550000" />
+      <workItem from="1485719254425" duration="662000" />
+      <workItem from="1485720809660" duration="73000" />
     </task>
     <task id="LOCAL-00001" summary="updates">
       <created>1484761837664</created>
@@ -843,7 +797,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="557113000" />
+    <option name="totallyTimeSpent" value="567598000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -856,7 +810,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="24" width="2507" height="1416" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286026" sideWeight="0.49808428" order="6" side_tool="false" content_ui="tabs" />
@@ -865,7 +819,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262519" sideWeight="0.5079236" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.49786553" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.26746726" sideWeight="0.49779457" order="2" side_tool="false" content_ui="tabs" x="53" y="55" width="905" height="1058" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.26746726" sideWeight="0.49779457" order="2" side_tool="false" content_ui="tabs" x="53" y="-1388" width="1254" height="1388" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262519" sideWeight="0.4920764" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17431939" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1095,7 +1049,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="285" column="27" lean-forward="false" selection-start-line="285" selection-start-column="19" selection-end-line="285" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1153,16 +1106,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/myHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="39" column="36" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/src/DrawGraph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -1170,34 +1113,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/TSWrapper.java">
+    <entry file="file://$PROJECT_DIR$/src/src/BestFirst.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="102" column="10" lean-forward="false" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="10" />
+        <state relative-caret-position="6069">
+          <caret line="407" column="22" lean-forward="false" selection-start-line="407" selection-start-column="8" selection-end-line="407" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#888#889#0" expanded="false" />
-            <element signature="e#930#931#0" expanded="false" />
-            <element signature="e#1253#1254#0" expanded="false" />
-            <element signature="e#1283#1284#0" expanded="false" />
-            <element signature="e#4442#4443#0" expanded="false" />
-            <element signature="e#4471#4472#0" expanded="false" />
-            <element signature="e#4518#4519#0" expanded="false" />
-            <element signature="e#4554#4555#0" expanded="false" />
-            <element signature="e#4590#4591#0" expanded="false" />
-            <element signature="e#4625#4626#0" expanded="false" />
-            <element signature="e#4673#4674#0" expanded="false" />
-            <element signature="e#4712#4713#0" expanded="false" />
-            <element signature="e#4780#4781#0" expanded="false" />
-            <element signature="e#4836#4837#0" expanded="false" />
-            <element signature="e#4866#4867#0" expanded="false" />
-            <element signature="e#4895#4896#0" expanded="false" />
-            <element signature="e#4936#4937#0" expanded="false" />
-            <element signature="e#4972#4973#0" expanded="false" />
-            <element signature="e#5010#5011#0" expanded="false" />
-            <element signature="e#5044#5045#0" expanded="false" />
-            <element signature="e#5098#5099#0" expanded="false" />
-            <element signature="e#5144#5145#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/anotherExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/myHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="39" column="36" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/SimmulatedAnnealing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4692">
+          <caret line="316" column="22" lean-forward="false" selection-start-line="316" selection-start-column="22" selection-end-line="316" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1210,15 +1157,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/TSWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="102" column="10" lean-forward="false" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/src/TSCV.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="68" column="23" lean-forward="false" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#598#599#0" expanded="false" />
-            <element signature="e#636#637#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1230,41 +1181,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/anotherExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="100" column="0" lean-forward="true" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/BestFirst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="905" column="50" lean-forward="false" selection-start-line="905" selection-start-column="50" selection-end-line="905" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/src/doForecasting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="71" column="14" lean-forward="false" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
+        <state relative-caret-position="1088">
+          <caret line="92" column="32" lean-forward="false" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#doForecasting#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/SimmulatedAnnealing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="937">
-          <caret line="340" column="40" lean-forward="false" selection-start-line="340" selection-start-column="40" selection-end-line="340" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

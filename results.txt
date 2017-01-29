@@ -44,3 +44,15 @@ Time taken: 2.374
 Time taken: 2.267
 Time taken: 243.412
 Time taken: 55.204
+Time taken: 61.807
+Time taken: 65.677
+Time taken: 61.631
+Time taken: 122.874
+Time taken: 7.172
+Time taken: 49.969
+Time taken: 57.516
+Time taken: 76.557
+Time taken: 83.03
+Time taken: 99.821
+Time taken: 192.7
+Time taken: 23.3

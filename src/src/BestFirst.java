@@ -755,7 +755,8 @@ public class BestFirst  {
         m_totalEvals++;
       }
     }
-
+    best_group = getStartSet(m_numAttribs, 30);
+    setStartSet(best_group.toString());
     // evaluate the initial subset
     best_merit = -tsWrapper.evaluateSubset(best_group, tsLagMaker, overlayFields);
     m_totalEvals++;

@@ -65,11 +65,11 @@ public class doForecasting {
             tsLagMaker.setOverlayFields(overlayFields);
             Instances laggedData = tsLagMaker.getTransformedData(data);
            src.BestFirst bestFirst = new src.BestFirst();
-          // bestFirst.setOptions(weka.core.Utils.splitOptions("-D 0"));
+           //bestFirst.setOptions(weka.core.Utils.splitOptions("-D 2"));
            SimmulatedAnnealing simmulatedAnnealing = new SimmulatedAnnealing();
 
-           simmulatedAnnealing.search(laggedData, tsLagMaker, overlayFields);
-            //bestFirst.search(laggedData, tsLagMaker, overlayFields);
+           //simmulatedAnnealing.search(laggedData, tsLagMaker, overlayFields);
+            bestFirst.search(laggedData, tsLagMaker, overlayFields);
        /*forecaster.setTSLagMaker(tsLagMaker);
             forecaster.setFieldsToForecast(data.attribute(1).name());
             tsLagMaker.setLagRange("3, 93, 94, 95, 97, 282, 287, 289, 290, 335, 381, 383, 384, 385, 573, 668, 669, 671, 768, 769, 814, 816, 817, 862, 863, 864, 910, 914, 1049, 1056, 1058, 1104, 1150, 1151, 1152, 1342, 1389, 1390, 1391");

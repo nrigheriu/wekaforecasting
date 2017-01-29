@@ -274,7 +274,7 @@ public class SimmulatedAnnealing{
     m_numAttribs = data.numAttributes();
     BitSet best_group = new BitSet(m_numAttribs), temp_group;
     best_group = getStartSet(m_numAttribs, 30);
-    float temp = 8, initialTemp = temp;
+    float temp = 7, initialTemp = temp;
     double best_merit = -Double.MAX_VALUE;
     double merit; int i = 0, counter = 0;
     Hashtable<String, Double> lookup = new Hashtable<String, Double>();
@@ -288,17 +288,16 @@ public class SimmulatedAnnealing{
     System.out.println("Merit: " + best_merit);
     errorLog.println(best_merit);
     errorLog.println(temp);
-    TheVeryBest theVeryBest = new TheVeryBest(best_group, best_merit);
-    boolean[] changedAlthoughWorse = new boolean[10];
+    TheVeryBest theVeryBest = new TheVeryBest((BitSet)best_group.clone(), best_merit);
+    boolean[] changedAlthoughWorse = new boolean[9];
     for (int j = 0; j < changedAlthoughWorse.length; j++) {
       changedAlthoughWorse[j] = true;
     }
-    while(temp > 1){
+    while(temp > 0.0001){
       counter = 0;
-      BitSet s_new = changeBits(m_numAttribs, best_group);
+      BitSet s_new = changeBits(m_numAttribs, (BitSet)best_group.clone());
       subset_string = s_new.toString();
       if(!lookup.containsKey(subset_string)){
-        System.out.println("% of bits different from best group:" + howMuchPercentOfBitsAreDifferent(s_new, best_group, m_numAttribs));
           double s_new_merit = tsWrapper.evaluateSubset(s_new, tsLagMaker, overlayFields);
           m_totalEvals++;
           System.out.println("New merit: " + s_new_merit);
@@ -313,17 +312,20 @@ public class SimmulatedAnnealing{
           }else
             changedAlthoughWorse[i++] = false;
           if(best_merit < theVeryBest.getMerit()){
-              theVeryBest.setNewSet(best_group, best_merit);
+              theVeryBest.setNewSet((BitSet) best_group.clone(), best_merit);
           }
           if(temp > 5)
-            temp *= 0.995;
+            temp = temp/(float)(1+0.0006*(m_totalEvals-1));
+            //temp *= 0.997;
           else
-            temp *= 0.94;
+            temp = temp/(float)(1+0.0006*(m_totalEvals-1));
+
+        // temp *= 0.97;
         for (int j = 0; j < changedAlthoughWorse.length; j++)
           if(changedAlthoughWorse[j])
             counter++;
-        System.out.println("Percentage of worse sets accepted: " + (float)counter*10);
-        i = i % 10;
+        System.out.println("Percentage of worse sets accepted: " + (float)counter*100/changedAlthoughWorse.length);
+        i = i % changedAlthoughWorse.length;
       }
     }
       System.out.println("Best merit: " + theVeryBest.getMerit());
@@ -336,13 +338,11 @@ public class SimmulatedAnnealing{
   protected float howMuchPercentOfBitsAreDifferent(BitSet bitSet1, BitSet bitSet2, int m_numAttribs){
     float percent = 0;
     int differencesCounter = 0;
-    for (int i = 2; i < m_numAttribs-2; i++) {
-      System.out.println(bitSet1.get(i));
-      System.out.println(bitSet2.get(i));
+    for (int i = 0; i < m_numAttribs; i++) {
       if((bitSet1.get(i) & !bitSet2.get(i)) || (!bitSet1.get(i)) && bitSet2.get(i))
         differencesCounter++;
     }
-    return (float) differencesCounter/m_numAttribs;
+    return (float) differencesCounter*100/(m_numAttribs-4);
   }
   protected boolean decisionFunction(double difference, float temp, double bestMerit, float initialTemp, PrintWriter errorLog){
       boolean change = false;
@@ -401,7 +401,7 @@ public class SimmulatedAnnealing{
       while(!includesMoreThanXPercent) {
         for (int i = 2; i < numAttribs-2; i++) {              //starting from 2 because we need the time stamp and active_power attributes and not changing local time remapped products
           int  chance = r.nextInt(100);
-          if (chance < 1) {
+          if (chance < 2) {
             if (bitSet.get(i))
               bitSet.set(i, false);
             else
