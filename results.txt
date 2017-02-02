@@ -56,3 +56,9 @@ Time taken: 83.03
 Time taken: 99.821
 Time taken: 192.7
 Time taken: 23.3
+Time taken: 241.825
+Time taken: 5.619
+Time taken: 350.529
+Time taken: 140.341
+Time taken: 285.682
+Time taken: 281.57

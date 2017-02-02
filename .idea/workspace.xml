@@ -7,13 +7,15 @@
     <list default="true" id="e7587b12-2478-48ce-a17b-10292d85196b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/file1.png" afterPath="$PROJECT_DIR$/file1.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/BestFirst.class" afterPath="$PROJECT_DIR$/target/classes/src/BestFirst.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/SimmulatedAnnealing.class" afterPath="$PROJECT_DIR$/target/classes/src/SimmulatedAnnealing.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/TSWrapper.class" afterPath="$PROJECT_DIR$/target/classes/src/TSWrapper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/doForecasting.class" afterPath="$PROJECT_DIR$/target/classes/src/doForecasting.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/normalInput.class" afterPath="$PROJECT_DIR$/target/classes/src/normalInput.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/errorLog.txt" afterPath="$PROJECT_DIR$/errorLog.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results.txt" afterPath="$PROJECT_DIR$/results.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/BestFirst.java" afterPath="$PROJECT_DIR$/src/src/BestFirst.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/SimmulatedAnnealing.java" afterPath="$PROJECT_DIR$/src/src/SimmulatedAnnealing.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/TSCV.java" afterPath="$PROJECT_DIR$/src/src/TSCV.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/TSWrapper.java" afterPath="$PROJECT_DIR$/src/src/TSWrapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/doForecasting.java" afterPath="$PROJECT_DIR$/src/src/doForecasting.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/normalInput.java" afterPath="$PROJECT_DIR$/src/src/normalInput.java" />
     </list>
@@ -45,113 +47,67 @@
     <favorites_list name="wekaforecasting" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4494108">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="BestFirst.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/src/BestFirst.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="6069">
-                  <caret line="407" column="22" lean-forward="false" selection-start-line="407" selection-start-column="8" selection-end-line="407" selection-end-column="22" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="anotherExample.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/anotherExample.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1394">
-                  <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="normalInput.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/src/normalInput.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="doForecasting.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/src/doForecasting.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1088">
-                  <caret line="92" column="32" lean-forward="false" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="docComment;class#doForecasting#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="myHashMap.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/src/myHashMap.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="612">
-                  <caret line="39" column="36" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TSCV.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/src/TSCV.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="952">
-                  <caret line="68" column="23" lean-forward="false" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="SimmulatedAnnealing.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/src/SimmulatedAnnealing.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4692">
-                  <caret line="316" column="22" lean-forward="false" selection-start-line="316" selection-start-column="22" selection-end-line="316" selection-end-column="22" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="buildErrorGraph.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/src/buildErrorGraph.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TSWrapper.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/src/TSWrapper.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1230">
-                  <caret line="102" column="10" lean-forward="false" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="10" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="BestFirst.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/BestFirst.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11322">
+              <caret line="724" column="21" lean-forward="false" selection-start-line="724" selection-start-column="21" selection-end-line="724" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="anotherExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/anotherExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="891">
+              <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="normalInput.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/normalInput.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="34" column="74" lean-forward="false" selection-start-line="34" selection-start-column="74" selection-end-line="34" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="doForecasting.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/doForecasting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="58" column="12" lean-forward="false" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#doForecasting#0" expanded="false" />
+                <element signature="e#571#587#0" expanded="true" />
+                <element signature="e#1045#1053#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TSCV.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/src/TSCV.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="36" column="43" lean-forward="false" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -163,8 +119,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>m_metric</find>
-      <find>pluginMetric</find>
       <find>evalu</find>
       <find>m_Evaluation</find>
       <find>subset</find>
@@ -188,11 +142,13 @@
       <find>Decided</find>
       <find>Remaining</find>
       <find>New merit: 18.1</find>
-      <find>search</find>
       <find>Decided to change</find>
       <find>setDirec</find>
       <find>SELECTION_BIDIRECTIONAL</find>
       <find>TAGS_SELECTION</find>
+      <find>search</find>
+      <find>getstartset</find>
+      <find>ature, dayOfMonth, Weekend, Holid</find>
     </findStrings>
     <replaceStrings>
       <replace>firstpartexcludedRun</replace>
@@ -254,13 +210,13 @@
         <option value="$PROJECT_DIR$/src/src/applyMetaClassifier.java" />
         <option value="$PROJECT_DIR$/src/src/buildErrorGraph.java" />
         <option value="$PROJECT_DIR$/src/src/DrawGraph.java" />
-        <option value="$PROJECT_DIR$/src/src/TSCV.java" />
-        <option value="$PROJECT_DIR$/src/src/TSWrapper.java" />
         <option value="$PROJECT_DIR$/src/anotherExample.java" />
         <option value="$PROJECT_DIR$/src/src/SimmulatedAnnealing.java" />
         <option value="$PROJECT_DIR$/src/src/BestFirst.java" />
-        <option value="$PROJECT_DIR$/src/src/doForecasting.java" />
+        <option value="$PROJECT_DIR$/src/src/TSWrapper.java" />
         <option value="$PROJECT_DIR$/src/src/normalInput.java" />
+        <option value="$PROJECT_DIR$/src/src/doForecasting.java" />
+        <option value="$PROJECT_DIR$/src/src/TSCV.java" />
       </list>
     </option>
   </component>
@@ -294,8 +250,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="53" />
     <option name="y" value="24" />
-    <option name="width" value="2507" />
-    <option name="height" value="1416" />
+    <option name="width" value="1867" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -777,7 +733,10 @@
       <workItem from="1485352334790" duration="15963000" />
       <workItem from="1485379302599" duration="30550000" />
       <workItem from="1485719254425" duration="662000" />
-      <workItem from="1485720809660" duration="73000" />
+      <workItem from="1485720809660" duration="2212000" />
+      <workItem from="1485802584195" duration="82000" />
+      <workItem from="1485969715051" duration="1239000" />
+      <workItem from="1486067022431" duration="615000" />
     </task>
     <task id="LOCAL-00001" summary="updates">
       <created>1484761837664</created>
@@ -797,7 +756,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="567598000" />
+    <option name="totallyTimeSpent" value="571673000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -809,8 +768,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="24" width="2507" height="1416" extended-state="6" />
-    <editor active="true" />
+    <frame x="53" y="24" width="1867" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286026" sideWeight="0.49808428" order="6" side_tool="false" content_ui="tabs" />
@@ -819,7 +778,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262519" sideWeight="0.5079236" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.49786553" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.26746726" sideWeight="0.49779457" order="2" side_tool="false" content_ui="tabs" x="53" y="-1388" width="1254" height="1388" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.26746726" sideWeight="0.49779457" order="2" side_tool="false" content_ui="tabs" x="53" y="-1028" width="934" height="1028" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262519" sideWeight="0.4920764" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17431939" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1115,19 +1074,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/BestFirst.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6069">
-          <caret line="407" column="22" lean-forward="false" selection-start-line="407" selection-start-column="8" selection-end-line="407" selection-end-column="22" />
+        <state relative-caret-position="11322">
+          <caret line="724" column="21" lean-forward="false" selection-start-line="724" selection-start-column="21" selection-end-line="724" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/anotherExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1141,11 +1092,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/SimmulatedAnnealing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4692">
+        <state relative-caret-position="891">
           <caret line="316" column="22" lean-forward="false" selection-start-line="316" selection-start-column="22" selection-end-line="316" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1159,36 +1108,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/TSWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="102" column="10" lean-forward="false" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="10" />
-          <folding />
+        <state relative-caret-position="893">
+          <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="5" />
+          <folding>
+            <element signature="e#1966#1974#0" expanded="true" />
+            <element signature="e#2066#2074#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/TSCV.java">
+    <entry file="file://$PROJECT_DIR$/src/src/doForecasting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="68" column="23" lean-forward="false" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
+        <state relative-caret-position="357">
+          <caret line="58" column="12" lean-forward="false" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#doForecasting#0" expanded="false" />
+            <element signature="e#571#587#0" expanded="true" />
+            <element signature="e#1045#1053#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/anotherExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/normalInput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="415">
+          <caret line="34" column="74" lean-forward="false" selection-start-line="34" selection-start-column="74" selection-end-line="34" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/doForecasting.java">
+    <entry file="file://$PROJECT_DIR$/src/src/TSCV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="92" column="32" lean-forward="false" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#doForecasting#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="347">
+          <caret line="36" column="43" lean-forward="false" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>

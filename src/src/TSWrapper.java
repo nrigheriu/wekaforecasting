@@ -100,7 +100,7 @@ public class TSWrapper {
                 newOverlayFields.add(i++, overlayFields.get(k));
             }
         }
-        //System.out.println("Remaining overlay fields: " + newOverlayFields.toString());
+        System.out.println("Remaining overlay fields: " + newOverlayFields.toString());
         tsLagMaker.setOverlayFields(newOverlayFields);
         TSCV tscv = new TSCV();
         tscv.crossValidateTS(trainCopy, m_BaseClassifier, tsLagMaker);

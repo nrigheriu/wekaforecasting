@@ -34,7 +34,7 @@ public class TSCV {
             Instances testData = null, trainData = null;
             List<List<NumericPrediction>> forecast = null;
             //System.out.println("Lag range: " + tsLagMaker.getLagRange());
-            for (int trainingPercentage = 70; trainingPercentage <= 80; trainingPercentage += 5) {
+            for (int trainingPercentage = 80; trainingPercentage <= 80; trainingPercentage += 5) {
                 long sTime = System.currentTimeMillis();
                 trainData = getSplittedData(data, trainingPercentage, true);
                 testData = getSplittedData(data, trainingPercentage, false);
