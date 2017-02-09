@@ -810,7 +810,7 @@ public class BestFirst  {
       do {
         for (i = 0; i < m_numAttribs; i++) {
           if (sd == SELECTION_FORWARD) {
-            System.out.println("Wrong direction!");
+            //System.out.println("Wrong direction!");
             z = ((i != m_classIndex) && (!temp_group.get(i)));
           } else {
             z = ((i != m_classIndex) && (temp_group.get(i)));
@@ -834,7 +834,7 @@ public class BestFirst  {
             hashC = tt.toString();
 
             if (lookup.containsKey(hashC) == false) {
-              System.out.println("Before eval:" + temp_group);
+              //System.out.println("Before eval:" + temp_group);
               merit = -tsWrapper.evaluateSubset(temp_group, tsLagMaker, overlayFields);
               m_totalEvals++;
               errorLog.println(best_merit);

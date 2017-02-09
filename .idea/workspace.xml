@@ -5,62 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7587b12-2478-48ce-a17b-10292d85196b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Linear Reg w ranked attr 6h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP w ranked 24h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MLP w ranked attr 6h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Subsets without differences in MAPE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/code trash.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/drop0985temp8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/errorLog.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid12867.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid13261.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid13285.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid28738.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid6039.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid6337.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid7161.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid7254.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid7325.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/new_results.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/older_results.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/relief-ranker 6h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/results with &gt;330 Lags.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/results.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/results_separated_together_ranking.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/src/Evaluation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/src/WrapperSubsetEval.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/src/evaluation/AbstractEvaluationMetric.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/src/evaluation/Evaluation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/Evaluation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/WrapperSubsetEval$PluginTag.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/WrapperSubsetEval.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/evaluation/AbstractEvaluationMetric$UnknownStatisticException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/evaluation/AbstractEvaluationMetric.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/evaluation/Evaluation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/myHashMap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp10drop005.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp20decr005.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp40decr05.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp50drop0975extp07.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wrapper MLP ranked 24h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wrapper w ranked attributes 6h.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/src/myHashMap.java" afterPath="$PROJECT_DIR$/src/src/MyHashMap.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/file1.png" afterPath="$PROJECT_DIR$/file1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/BestFirst.class" afterPath="$PROJECT_DIR$/target/classes/src/BestFirst.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/SimmulatedAnnealing.class" afterPath="$PROJECT_DIR$/target/classes/src/SimmulatedAnnealing.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/TSCV.class" afterPath="$PROJECT_DIR$/target/classes/src/TSCV.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/TSWrapper.class" afterPath="$PROJECT_DIR$/target/classes/src/TSWrapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/applyFilterClassifier.class" afterPath="$PROJECT_DIR$/target/classes/src/applyFilterClassifier.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/applyMetaClassifier.class" afterPath="$PROJECT_DIR$/target/classes/src/applyMetaClassifier.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/doForecasting.class" afterPath="$PROJECT_DIR$/target/classes/src/doForecasting.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/normalInput.class" afterPath="$PROJECT_DIR$/target/classes/src/normalInput.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/BestFirst.java" afterPath="$PROJECT_DIR$/src/src/BestFirst.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/RandomSearch.java" afterPath="$PROJECT_DIR$/src/src/RandomSearch.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/SimmulatedAnnealing.java" afterPath="$PROJECT_DIR$/src/src/SimmulatedAnnealing.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/TSCV.java" afterPath="$PROJECT_DIR$/src/src/TSCV.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/TSWrapper.java" afterPath="$PROJECT_DIR$/src/src/TSWrapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/applyFilterClassifier.java" afterPath="$PROJECT_DIR$/src/src/applyFilterClassifier.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/MyHashMap.java" afterPath="$PROJECT_DIR$/src/src/MyHashMap.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/doForecasting.java" afterPath="$PROJECT_DIR$/src/src/doForecasting.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/normalInput.java" afterPath="$PROJECT_DIR$/src/src/normalInput.java" />
     </list>
@@ -96,18 +46,8 @@
       <file leaf-file-name="SimmulatedAnnealing.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/SimmulatedAnnealing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4012">
+            <state relative-caret-position="170">
               <caret line="276" column="18" lean-forward="false" selection-start-line="276" selection-start-column="18" selection-end-line="276" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FilteredClassifier.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/nz/ac/waikato/cms/weka/weka-dev/3.9.1/weka-dev-3.9.1.jar!/weka/classifiers/meta/FilteredClassifier.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2992">
-              <caret line="212" column="0" lean-forward="false" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -116,31 +56,55 @@
       <file leaf-file-name="BestFirst.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/BestFirst.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13243">
-              <caret line="837" column="70" lean-forward="false" selection-start-line="837" selection-start-column="60" selection-end-line="837" selection-end-column="70" />
+            <state relative-caret-position="305">
+              <caret line="837" column="44" lean-forward="true" selection-start-line="837" selection-start-column="44" selection-end-line="837" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="doForecasting.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="doForecasting.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/src/doForecasting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="24" column="140" lean-forward="false" selection-start-line="24" selection-start-column="140" selection-end-line="24" selection-end-column="140" />
+            <state relative-caret-position="221">
+              <caret line="32" column="41" lean-forward="false" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#doForecasting#0" expanded="false" />
+                <element signature="e#947#955#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="normalInput.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/src/normalInput.java">
+      <file leaf-file-name="MyHashMap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/MyHashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="34" column="89" lean-forward="false" selection-start-line="34" selection-start-column="89" selection-end-line="34" selection-end-column="89" />
+            <state relative-caret-position="384">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#272#288#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applyFilterClassifier.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/applyFilterClassifier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TSCV.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/TSCV.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -158,7 +122,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>numAttributes</find>
       <find>Initial</find>
       <find>Difference</find>
       <find>setTs</find>
@@ -188,6 +151,7 @@
       <find>Right dir</find>
       <find>static</find>
       <find>map</find>
+      <find>Before eval</find>
     </findStrings>
     <replaceStrings>
       <replace>firstpartexcludedRun</replace>
@@ -249,15 +213,15 @@
         <option value="$PROJECT_DIR$/src/anotherExample.java" />
         <option value="$PROJECT_DIR$/src/src/RandomSearch.java" />
         <option value="$PROJECT_DIR$/src/src/TSWrapper.java" />
-        <option value="$PROJECT_DIR$/src/src/BestFirst.java" />
         <option value="$PROJECT_DIR$/src/src/buildErrorGraph.java" />
-        <option value="$PROJECT_DIR$/src/src/applyFilterClassifier.java" />
         <option value="$PROJECT_DIR$/src/src/SimmulatedAnnealing.java" />
         <option value="$PROJECT_DIR$/src/src/TSCV.java" />
         <option value="$PROJECT_DIR$/src/src/myHashMap.java" />
-        <option value="$PROJECT_DIR$/src/src/MyHashMap.java" />
-        <option value="$PROJECT_DIR$/src/src/doForecasting.java" />
         <option value="$PROJECT_DIR$/src/src/normalInput.java" />
+        <option value="$PROJECT_DIR$/src/src/applyFilterClassifier.java" />
+        <option value="$PROJECT_DIR$/src/src/MyHashMap.java" />
+        <option value="$PROJECT_DIR$/src/src/BestFirst.java" />
+        <option value="$PROJECT_DIR$/src/src/doForecasting.java" />
       </list>
     </option>
   </component>
@@ -290,9 +254,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="53" />
-    <option name="y" value="24" />
-    <option name="width" value="2507" />
-    <option name="height" value="1416" />
+    <option name="y" value="-1056" />
+    <option name="width" value="1867" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -832,7 +796,7 @@
       <workItem from="1486119588869" duration="390000" />
       <workItem from="1486120038373" duration="1514000" />
       <workItem from="1486127224441" duration="6416000" />
-      <workItem from="1486663567249" duration="119000" />
+      <workItem from="1486663567249" duration="11183000" />
     </task>
     <task id="LOCAL-00001" summary="updates">
       <created>1484761837664</created>
@@ -852,7 +816,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="590402000" />
+    <option name="totallyTimeSpent" value="601466000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -864,16 +828,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="24" width="2507" height="1416" extended-state="6" />
+    <frame x="53" y="-1056" width="1867" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286026" sideWeight="0.49808428" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27143922" sideWeight="0.49533224" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32619774" sideWeight="0.5079236" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.49786553" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3258762" sideWeight="0.4920764" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.26746726" sideWeight="0.49779457" order="2" side_tool="false" content_ui="tabs" x="53" y="52" width="934" height="1028" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3258762" sideWeight="0.4920764" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12963702" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965213" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -881,6 +847,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3955148" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -888,12 +855,9 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3955148" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27143922" sideWeight="0.49533224" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.26746726" sideWeight="0.49779457" order="2" side_tool="false" content_ui="tabs" x="53" y="1104" width="1867" height="1056" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3430276" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
@@ -955,12 +919,6 @@
           <line>971</line>
           <properties />
           <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/nz/ac/waikato/cms/weka/weka-dev/3.9.1/weka-dev-3.9.1.jar!/weka/classifiers/meta/FilteredClassifier.class</url>
-          <line>211</line>
-          <properties />
-          <option name="timeStamp" value="106" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -1176,6 +1134,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1394">
           <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1190,14 +1149,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="94" column="8" lean-forward="false" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/applyFilterClassifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -1230,24 +1181,24 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/nz/ac/waikato/cms/weka/weka-dev/3.9.1/weka-dev-3.9.1.jar!/weka/classifiers/meta/FilteredClassifier.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2992">
+        <state relative-caret-position="17">
           <caret line="212" column="0" lean-forward="false" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/BestFirst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13243">
-          <caret line="837" column="70" lean-forward="false" selection-start-line="837" selection-start-column="60" selection-end-line="837" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/SimmulatedAnnealing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4012">
+        <state relative-caret-position="170">
           <caret line="276" column="18" lean-forward="false" selection-start-line="276" selection-start-column="18" selection-end-line="276" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/normalInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="52" column="43" lean-forward="false" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -1260,32 +1211,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/applyFilterClassifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/src/MyHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="384">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#272#288#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/BestFirst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="837" column="44" lean-forward="true" selection-start-line="837" selection-start-column="44" selection-end-line="837" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/doForecasting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="24" column="140" lean-forward="false" selection-start-line="24" selection-start-column="140" selection-end-line="24" selection-end-column="140" />
+        <state relative-caret-position="221">
+          <caret line="32" column="41" lean-forward="false" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#doForecasting#0" expanded="false" />
+            <element signature="e#947#955#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/normalInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="34" column="89" lean-forward="false" selection-start-line="34" selection-start-column="89" selection-end-line="34" selection-end-column="89" />
-          <folding />
         </state>
       </provider>
     </entry>

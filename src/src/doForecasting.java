@@ -23,16 +23,24 @@ public class doForecasting {
     public void doForecast(Instances data, Classifier classifier){
         try {
             PrintWriter resultLog = new PrintWriter(new FileWriter("/home/cycle/workspace/wekaforecasting-new-features/results.txt", true));
+
             long startTime = System.currentTimeMillis();
-            WekaForecaster forecaster = new WekaForecaster();
             List<String> overlayFields = new ArrayList<String>();
+            WekaForecaster forecaster = new WekaForecaster();
             MyHashMap hashMap = new MyHashMap();
-            for (int i = 1; i < 1392 ; i+=48) {
-                hashMap.fillUpHashMap(applyFilterClassifier.applyFilterClassifier(data, i, i+47), 4, data.attribute(1).name());
+            int lagInterval = 96, lagLimit = 1392, maxlag = 0;
+            for (int i = 1; i < 1392 ; i+=lagInterval) {
+                if(i+lagInterval-1 > lagLimit){
+                    maxlag = lagLimit;
+                    break;
+                }else
+                    maxlag = i+lagInterval-1;
+                hashMap.fillUpHashMap(applyFilterClassifier.applyFilterClassifier(data, i, maxlag), 8, data.attribute(1).name());
             }
             hashMap.sortHashMapByValues();
             String chosenLags = hashMap.printHashMapFeatures(75);
-            for (int i = 0; i < data.numAttributes()-2; i++)                                        //first 2 attributes are time and field to lag
+            resultLog.println(chosenLags);
+            /*for (int i = 0; i < data.numAttributes()-2; i++)                                        //first 2 attributes are time and field to lag
                 overlayFields.add(i, data.attribute(i+2).name());
             forecaster.getTSLagMaker().setOverlayFields(overlayFields);
             forecaster.getTSLagMaker().setTimeStampField(data.attribute(0).name()); // date time stamp
@@ -40,11 +48,9 @@ public class doForecasting {
             forecaster.setBaseForecaster(classifier);
             forecaster.getTSLagMaker().setIncludePowersOfTime(true);
             forecaster.getTSLagMaker().setIncludeTimeLagProducts(false);
-            //forecaster.getTSLagMaker().setFieldsToLagAsString(data.attribute(1).name() + ", " + data.attribute(2).name());
-            crossValidateTS(data, forecaster);
-            calculateErrors(true,  "MAPE", resultLog);
-
-            //List<String> overlayFields = new ArrayList<String>();
+            forecaster.getTSLagMaker().setFieldsToLagAsString(data.attribute(1).name() + ", " + data.attribute(2).name());
+            //crossValidateTS(data, forecaster);
+            calculateErrors(true,  "MAPE", resultLog);*/
 
             TSLagMaker tsLagMaker = new TSLagMaker();
             tsLagMaker.setFieldsToLagAsString(data.attribute(1).name());
@@ -52,26 +58,25 @@ public class doForecasting {
             tsLagMaker.setIncludePowersOfTime(true);
             tsLagMaker.setIncludeTimeLagProducts(false);
             tsLagMaker.setMinLag(1);
-            tsLagMaker.setMaxLag(1430);
-            //tsLagMaker.setLagRange(chosenLags);
-            tsLagMaker.setLagRange("768, 1, 769, 2, 3, 4, 1291, 1292, 527, 528, 1296, 1049, 282, 1051, 286, 287, 1055, 288, 1056, 289, 290, 1058, 814, 815, 816, 817, 573, 1341, 574, 1342, 575, 1343, 576, 1344, 577, 578, 579, 1102, 335, 1103, 336, 1104, 93, 94, 862, 95, 863, 96, 864, 97, 865, 98, 99, 101, 1389, 1390, 1391, 624, 1392, 381, 1149, 382, 1150, 383, 1151, 384, 1152, 385, 910, 911, 912, 914, 668, 669, 671");
+            tsLagMaker.setMaxLag(lagLimit);
+            tsLagMaker.setLagRange(chosenLags);
+           // tsLagMaker.setLagRange("768, 1, 769, 2, 3, 4, 1291, 1292, 527, 528, 1296, 1049, 282, 1051, 286, 287, 1055, 288, 1056, 289, 290, 1058, 814, 815, 816, 817, 573, 1341, 574, 1342, 575, 1343, 576, 1344, 577, 578, 579, 1102, 335, 1103, 336, 1104, 93, 94, 862, 95, 863, 96, 864, 97, 865, 98, 99, 101, 1389, 1390, 1391, 624, 1392, 381, 1149, 382, 1150, 383, 1151, 384, 1152, 385, 910, 911, 912, 914, 668, 669, 671");
            // tsLagMaker.setRemoveLeadingInstancesWithUnknownLagValues(true);
-            //tsLagMaker.setLagRange("768, 1, 769, 2, 3, 4, 527, 528,  282, 286, 287, 288, 289, 290, 573, 574,  575, 576,  577, 578, 579, 335, 336,  93, 94, 95, 96, 97, 98, 99, 101, 624,  381, 382, 383, 384, 385,  668, 669, 671");
-
+            //tsLagMaker.setLagRange("1008, 1007, 961, 1005, 816, 815, 769, 814, 912, 1248, 865, 1057, 911, 909, 1247, 1246, 1058, 1245, 1103, 1104, 1345, 673, 720, 719, 1392, 1346, 717, 1347, 1056, 1152, 1055, 1344, 1054, 1053, 1151, 577, 1200, 672, 1343, 1153, 1249, 1150, 671, 1149, 1199, 1342, 1341, 1154, 670, 669, 578, 1250, 624, 623, 1251, 1252, 960, 959, 768, 767, 958, 957, 766, 765, 864, 863, 576, 575, 862, 861, 574, 573, 480, 481, 385");
             for (int i = 0; i < data.numAttributes()-2; i++)                                        //first 2 attributes are time and field to lag
                 overlayFields.add(i, data.attribute(i+2).name());
             tsLagMaker.setOverlayFields(overlayFields);
             Instances laggedData = tsLagMaker.getTransformedData(data);
            src.BestFirst bestFirst = new src.BestFirst();
-           bestFirst.setOptions(weka.core.Utils.splitOptions("-D 0"));
+           //bestFirst.setOptions(weka.core.Utils.splitOptions("-D 0"));
            SimmulatedAnnealing simmulatedAnnealing = new SimmulatedAnnealing();
            RandomSearch randomSearch = new RandomSearch();
 
             //randomSearch.search(laggedData, tsLagMaker, overlayFields);
-           simmulatedAnnealing.search(laggedData, tsLagMaker, overlayFields);
+           //simmulatedAnnealing.search(laggedData, tsLagMaker, overlayFields);
            // tsLagMaker.setLagRange("768, 1, 769, 2, 3, 4, 1291, 1292, 527, 528, 1296, 1049, 282, 1051, 286, 289, 290, 1058, 814, 815, 816, 817, 573, 1341, 574, 1342, 575, 1343, 576, 1344, 577, 578, 579, 1102, 335, 1103, 336, 1104, 93, 94, 862, 95, 863, 96, 864, 97, 865, 98, 99, 101, 1389, 1390, 1391, 624, 1392, 381, 1149, 382, 1150, 383, 1151, 384, 1152, 385, 910, 911, 912, 914, 668, 669, 671");
             //simmulatedAnnealing.search(laggedData, tsLagMaker, overlayFields);
-           // bestFirst.search(laggedData, tsLagMaker, overlayFields);
+            bestFirst.search(laggedData, tsLagMaker, overlayFields);
        /*forecaster.setTSLagMaker(tsLagMaker);
             forecaster.setFieldsToForecast(data.attribute(1).name());
             tsLagMaker.setLagRange("3, 93, 94, 95, 97, 282, 287, 289, 290, 335, 381, 383, 384, 385, 573, 668, 669, 671, 768, 769, 814, 816, 817, 862, 863, 864, 910, 914, 1049, 1056, 1058, 1104, 1150, 1151, 1152, 1342, 1389, 1390, 1391");

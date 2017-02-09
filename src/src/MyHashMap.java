@@ -9,8 +9,9 @@ import weka.classifiers.timeseries.WekaForecaster;
  * Created by cycle on 17.12.16.
  */
 public class MyHashMap extends HashMap{
-     HashMap<Integer, Float> map;
+    HashMap<Integer, Float> map = new HashMap<Integer, Float>();
     public MyHashMap(){
+
     }
 
     public HashMap<Integer, Float> fillUpHashMap(String result, int featureNumber, String laggedFields){
@@ -31,12 +32,12 @@ public class MyHashMap extends HashMap{
                         lag_no = "";
                         lagRankingVal = "";
                         if (line.contains("Lag_" + laggedFields)) {
-                            lagRankingVal += line.substring(0, 6);
+                            lagRankingVal += line.substring(0, 8);
                             lag_no += line.substring(line.length() - 4, line.length()).replaceAll("[^0-9]", " ");
                             lag_no = lag_no.replaceAll("\\s", "");
                             if (!features.contains(lag_no)) {
                                 features += lag_no + ",";
-                                this.map.put(Integer.valueOf(lag_no), Float.valueOf(lagRankingVal));
+                                map.put(Integer.valueOf(lag_no), Float.valueOf(lagRankingVal));
                                 i++;
                             }
                         }
@@ -48,7 +49,7 @@ public class MyHashMap extends HashMap{
                     break;
                 }
             }
-            System.out.println(features);
+            System.out.println("Printing from hashmap:"  + features);
             return map;
         }
         return null;
