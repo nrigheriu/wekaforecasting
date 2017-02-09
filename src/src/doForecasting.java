@@ -28,14 +28,17 @@ public class doForecasting {
             List<String> overlayFields = new ArrayList<String>();
             WekaForecaster forecaster = new WekaForecaster();
             MyHashMap hashMap = new MyHashMap();
+            boolean breakLoop = false;
             int lagInterval = 96, lagLimit = 1392, maxlag = 0;
             for (int i = 1; i < 1392 ; i+=lagInterval) {
                 if(i+lagInterval-1 > lagLimit){
                     maxlag = lagLimit;
-                    break;
+                    breakLoop = true;                                   //to break after ranking the last interval
                 }else
                     maxlag = i+lagInterval-1;
                 hashMap.fillUpHashMap(applyFilterClassifier.applyFilterClassifier(data, i, maxlag), 8, data.attribute(1).name());
+                if(breakLoop)
+                    break;
             }
             hashMap.sortHashMapByValues();
             String chosenLags = hashMap.printHashMapFeatures(75);
