@@ -92,7 +92,7 @@ public class TSWrapper {
             remainingLags = remainingLags.substring(0, remainingLags.length()-2);
         else
             remainingLags += "1";
-        //System.out.println("Remaining lags: " + remainingLags);
+        System.out.println("Remaining lags: " + remainingLags);
         tsLagMaker.setLagRange(remainingLags);
         i = 0;
         for (int k = 0; k < overlayFields.size(); k++) {                        //updating the tsLagmaker with the still available overlay Fields

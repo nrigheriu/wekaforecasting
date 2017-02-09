@@ -261,19 +261,19 @@ public class SimmulatedAnnealing{
     tsWrapper.buildEvaluator(data);
     LinearRegression linearRegression = new LinearRegression();
     linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1 -R 1E-6"));
-    FilteredClassifier fc = new FilteredClassifier();
+    /*FilteredClassifier fc = new FilteredClassifier();
     MultiFilter mf = new MultiFilter();
     Normalize normalize = new Normalize();
     NominalToBinary nbt = new NominalToBinary();
     mf.setFilters(new Filter[]{normalize, nbt});
     mf.setInputFormat(data);
     fc.setFilter(mf);
-    fc.setClassifier(linearRegression);
-    tsWrapper.setM_BaseClassifier(fc);
-    //tsWrapper.setM_BaseClassifier(linearRegression);
+    fc.setClassifier(linearRegression);*/
+    //tsWrapper.setM_BaseClassifier(fc);
+    tsWrapper.setM_BaseClassifier(linearRegression);
     m_numAttribs = data.numAttributes();
     BitSet best_group = new BitSet(m_numAttribs), temp_group;
-    best_group = getStartSet(m_numAttribs, 30);
+    best_group = getStartSet(m_numAttribs, 100);
     float temp = 7, initialTemp = temp;
     double best_merit = -Double.MAX_VALUE;
     double merit; int i = 0, counter = 0;

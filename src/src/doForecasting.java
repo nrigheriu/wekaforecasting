@@ -1,6 +1,5 @@
 package src;
 
-import weka.attributeSelection.*;
 import weka.classifiers.Classifier;
 import weka.classifiers.evaluation.NumericPrediction;
 import weka.core.Instances;
@@ -21,19 +20,19 @@ public class doForecasting {
     public doForecasting(){
       resetOptions();
     }
-    public void doForecasting(Instances data, Classifier classifier){
+    public void doForecast(Instances data, Classifier classifier){
         try {
             PrintWriter resultLog = new PrintWriter(new FileWriter("/home/cycle/workspace/wekaforecasting-new-features/results.txt", true));
             long startTime = System.currentTimeMillis();
             WekaForecaster forecaster = new WekaForecaster();
             List<String> overlayFields = new ArrayList<String>();
-           /* myHashMap hashMap = new myHashMap();
+            MyHashMap hashMap = new MyHashMap();
             for (int i = 1; i < 1392 ; i+=48) {
-                hashMap.fillUpHashMap(applyFilterClassifier.applyFilterClassifier(data, i, i+47), 4, hashMap, data.attribute(1).name());
+                hashMap.fillUpHashMap(applyFilterClassifier.applyFilterClassifier(data, i, i+47), 4, data.attribute(1).name());
             }
-            myHashMap.sortHashMapByValues(hashMap);
-            String chosenLags = myHashMap.printHashMapFeatures(hashMap, 75);*/
-            /*for (int i = 0; i < data.numAttributes()-2; i++)                                        //first 2 attributes are time and field to lag
+            hashMap.sortHashMapByValues();
+            String chosenLags = hashMap.printHashMapFeatures(75);
+            for (int i = 0; i < data.numAttributes()-2; i++)                                        //first 2 attributes are time and field to lag
                 overlayFields.add(i, data.attribute(i+2).name());
             forecaster.getTSLagMaker().setOverlayFields(overlayFields);
             forecaster.getTSLagMaker().setTimeStampField(data.attribute(0).name()); // date time stamp
@@ -42,11 +41,10 @@ public class doForecasting {
             forecaster.getTSLagMaker().setIncludePowersOfTime(true);
             forecaster.getTSLagMaker().setIncludeTimeLagProducts(false);
             //forecaster.getTSLagMaker().setFieldsToLagAsString(data.attribute(1).name() + ", " + data.attribute(2).name());
-            forecaster.getTSLagMaker().setMinLag(1);
-            forecaster.getTSLagMaker().setMaxLag(100);
-            //forecaster.getTSLagMaker().setLagRange("1, 2, 4, 8, 12, 96, 672, 20, 576, 384, 480, 192");
             crossValidateTS(data, forecaster);
-            calculateErrors(true,  "MAPE");*/
+            calculateErrors(true,  "MAPE", resultLog);
+
+            //List<String> overlayFields = new ArrayList<String>();
 
             TSLagMaker tsLagMaker = new TSLagMaker();
             tsLagMaker.setFieldsToLagAsString(data.attribute(1).name());
@@ -65,10 +63,14 @@ public class doForecasting {
             tsLagMaker.setOverlayFields(overlayFields);
             Instances laggedData = tsLagMaker.getTransformedData(data);
            src.BestFirst bestFirst = new src.BestFirst();
-           //bestFirst.setOptions(weka.core.Utils.splitOptions("-D 2"));
+           bestFirst.setOptions(weka.core.Utils.splitOptions("-D 0"));
            SimmulatedAnnealing simmulatedAnnealing = new SimmulatedAnnealing();
+           RandomSearch randomSearch = new RandomSearch();
 
+            //randomSearch.search(laggedData, tsLagMaker, overlayFields);
            simmulatedAnnealing.search(laggedData, tsLagMaker, overlayFields);
+           // tsLagMaker.setLagRange("768, 1, 769, 2, 3, 4, 1291, 1292, 527, 528, 1296, 1049, 282, 1051, 286, 289, 290, 1058, 814, 815, 816, 817, 573, 1341, 574, 1342, 575, 1343, 576, 1344, 577, 578, 579, 1102, 335, 1103, 336, 1104, 93, 94, 862, 95, 863, 96, 864, 97, 865, 98, 99, 101, 1389, 1390, 1391, 624, 1392, 381, 1149, 382, 1150, 383, 1151, 384, 1152, 385, 910, 911, 912, 914, 668, 669, 671");
+            //simmulatedAnnealing.search(laggedData, tsLagMaker, overlayFields);
            // bestFirst.search(laggedData, tsLagMaker, overlayFields);
        /*forecaster.setTSLagMaker(tsLagMaker);
             forecaster.setFieldsToForecast(data.attribute(1).name());
@@ -210,7 +212,7 @@ public class doForecasting {
             //crossValidateTS(data, forecaster);
 
             int featureNumber = 50;
-            myHashMap myMap = new myHashMap();
+            MyHashMap myMap = new MyHashMap();
             rankerWrapper rankerWrapperObj = new rankerWrapper();
             Float[] percentFeaturesToGetFromInterval = rankerWrapperObj.getPercentagesForIntervals(forecaster, data, resultLog);
             ArrayList<ArrayList<Integer>> featureListForIntevals = rankerWrapperObj.featureListForIntevals;

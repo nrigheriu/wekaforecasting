@@ -546,6 +546,7 @@ public class BestFirst  {
 
     if (d.getTags() == TAGS_SELECTION) {
       m_searchDirection = d.getSelectedTag().getID();
+      System.out.println("Direction: " + m_searchDirection);
     }
   }
 
@@ -722,7 +723,7 @@ public class BestFirst  {
     LinkedList2 bfList = new LinkedList2(m_maxStale);
     best_merit = -Double.MAX_VALUE;
     stale = 0;
-    best_group = getStartSet(data.numAttributes(), 0);
+    best_group = getStartSet(data.numAttributes(), 35);
 
     m_startRange.setUpper(m_numAttribs - 1);
     if (!(getStartSet().equals(""))) {
@@ -740,7 +741,8 @@ public class BestFirst  {
       m_totalEvals++;
     } else {
       if (m_searchDirection == SELECTION_BACKWARD) {
-        setStartSet("1-last");
+        System.out.println("Right direction!");
+       /* setStartSet("1-last");
         m_starting = new int[m_numAttribs];
 
         // init initial subset to all attributes
@@ -752,13 +754,15 @@ public class BestFirst  {
         }
 
         best_size = m_numAttribs - 1;
-        m_totalEvals++;
+        m_totalEvals++;*/
       }
     }
     //best_group = getStartSet(m_numAttribs, 30);
     //setStartSet(best_group.toString());
     // evaluate the initial subset
     best_merit = -tsWrapper.evaluateSubset(best_group, tsLagMaker, overlayFields);
+    printGroup(best_group, m_numAttribs);
+    System.out.println("Merit:" + best_merit);
     m_totalEvals++;
     errorLog.println(best_merit);
     errorLog.println(m_totalEvals);
@@ -789,6 +793,7 @@ public class BestFirst  {
 
       // copy the attribute set at the head of the list
       tl = bfList.getLinkAt(0);
+
       temp_group = (BitSet) (tl.getData()[0]);
       temp_group = (BitSet) temp_group.clone();
       // remove the head of the list
@@ -805,6 +810,7 @@ public class BestFirst  {
       do {
         for (i = 0; i < m_numAttribs; i++) {
           if (sd == SELECTION_FORWARD) {
+            System.out.println("Wrong direction!");
             z = ((i != m_classIndex) && (!temp_group.get(i)));
           } else {
             z = ((i != m_classIndex) && (temp_group.get(i)));
@@ -828,6 +834,7 @@ public class BestFirst  {
             hashC = tt.toString();
 
             if (lookup.containsKey(hashC) == false) {
+              System.out.println("Before eval:" + temp_group);
               merit = -tsWrapper.evaluateSubset(temp_group, tsLagMaker, overlayFields);
               m_totalEvals++;
               errorLog.println(best_merit);

@@ -32,8 +32,8 @@ import weka.core.Option;
 public class normalInput {
     public static void main(String[] args) {
         try {
-            String pathToWholeData = "/home/cycle/workspace/dataSets/1year_AllAggregate_extraFeatures.arff";
-            String pathToHugeData = "/home/cycle/workspace/dataSets/6months_1aggregate_extraFeatures.arff";
+            String pathToWholeData = "/home/cycle/workspace/wekaforecasting-new-features/dataSets/3months_AllAggregate_extraFeatures.arff";
+            String pathToHugeData = "/home/cycle/workspace/wekaforecasting-new-features/dataSets/6months_1aggregate_extraFeatures.arff";
 
             // load the data
             Instances wholeData  = new Instances(new BufferedReader(new FileReader(pathToWholeData)));
@@ -50,7 +50,7 @@ public class normalInput {
             MLPRegressor mlpRegressor = new MLPRegressor();
             //mlpRegressor.setOptions(weka.core.Utils.splitOptions("-N 1"));
             doForecasting doForecasting = new doForecasting();
-            doForecasting.doForecasting(wholeData, linearRegression);
+            doForecasting.doForecast(wholeData, linearRegression);
         } catch (Exception ex) {
             ex.printStackTrace();
         }

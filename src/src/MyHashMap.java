@@ -8,12 +8,12 @@ import weka.classifiers.timeseries.WekaForecaster;
 /**
  * Created by cycle on 17.12.16.
  */
-public class myHashMap extends HashMap{
-    static HashMap<Integer, Float> map;
-    public myHashMap(){
+public class MyHashMap extends HashMap{
+     HashMap<Integer, Float> map;
+    public MyHashMap(){
     }
 
-    public HashMap<Integer, Float> fillUpHashMap(String result, int featureNumber, HashMap<Integer, Float> map, String laggedFields){
+    public HashMap<Integer, Float> fillUpHashMap(String result, int featureNumber, String laggedFields){
         String features = new String();
         String lag_no = new String();
         String lagRankingVal = new String();
@@ -36,7 +36,7 @@ public class myHashMap extends HashMap{
                             lag_no = lag_no.replaceAll("\\s", "");
                             if (!features.contains(lag_no)) {
                                 features += lag_no + ",";
-                                map.put(Integer.valueOf(lag_no), Float.valueOf(lagRankingVal));
+                                this.map.put(Integer.valueOf(lag_no), Float.valueOf(lagRankingVal));
                                 i++;
                             }
                         }
@@ -53,9 +53,9 @@ public class myHashMap extends HashMap{
         }
         return null;
     }
-    public static LinkedHashMap<Integer, Float> sortHashMapByValues(HashMap<Integer, Float> passedMap) {
-        List<Integer> mapKeys = new ArrayList<>(passedMap.keySet());
-        List<Float> mapValues = new ArrayList<>(passedMap.values());
+    public  LinkedHashMap<Integer, Float> sortHashMapByValues() {
+        List<Integer> mapKeys = new ArrayList<>(this.map.keySet());
+        List<Float> mapValues = new ArrayList<>(this.map.values());
         Collections.sort(mapValues);
         Collections.sort(mapKeys);
         Collections.reverse(mapKeys);
@@ -67,7 +67,7 @@ public class myHashMap extends HashMap{
             Iterator<Integer> keyIt = mapKeys.iterator();
             while (keyIt.hasNext()) {
                 Integer key = keyIt.next();
-                Float comp1 = passedMap.get(key);
+                Float comp1 = this.map.get(key);
                 Float comp2 = val;
                 if (comp1.equals(comp2)) {
                     keyIt.remove();
@@ -79,8 +79,8 @@ public class myHashMap extends HashMap{
         map = sortedMap;
         return sortedMap;
     }
-    public static String printHashMapFeatures(HashMap<Integer, Float> map, int featureNumber){
-        Set<Integer> mapKeys = map.keySet();
+    public  String printHashMapFeatures( int featureNumber){
+        Set<Integer> mapKeys = this.map.keySet();
         String combinedFeatures = "";
         String justLags = "";
         int j = 1;
