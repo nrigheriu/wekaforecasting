@@ -32,11 +32,10 @@ public class TSWrapper {
     }
 
     public void setM_EvaluationMeasure(String m_EvaluationMeasure) throws Exception{
-        if(m_EvaluationMeasure !="RMSE" || m_EvaluationMeasure !="MAPE"){
+        if(m_EvaluationMeasure !="RMSE" || m_EvaluationMeasure !="MAPE")
             throw new TypeMismatchException();
-        }else{
+        else
             this.m_EvaluationMeasure = m_EvaluationMeasure;
-        }
     }
 
     public TSWrapper(){
@@ -45,11 +44,10 @@ public class TSWrapper {
     @Override
     public String toString(){
         StringBuffer text = new StringBuffer();
-        if(m_data == null){
+        if(m_data == null)
             text.append("\tWrapper subset evaluator has not been built yet\n");
-        }else{
+        else
             text.append("\tWrapper Subset Evaluator\n");
-        }
         return text.toString();
     }
     public double evaluateSubset(BitSet subset, TSLagMaker tsLagMaker, List<String> overlayFields)throws Exception{
@@ -64,18 +62,14 @@ public class TSWrapper {
         List<String> newOverlayFields = new ArrayList<String>();
         delTransform.setInvertSelection(true);
         // count attributes set in the BitSet
-        for (i = 0; i < m_numAttribs; i++) {
-            if (subset.get(i)) {
+        for (i = 0; i < m_numAttribs; i++)
+            if (subset.get(i))
                 numAttributes++;
-            }
-        }
         // set up an array of attribute indexes for the filter (+1 for the class)
         int[] featArray = new int[numAttributes];
-        for (i = 0, j = 0; i < m_numAttribs; i++) {
-            if (subset.get(i)) {
+        for (i = 0, j = 0; i < m_numAttribs; i++)
+            if (subset.get(i))
                 featArray[j++] = i;
-            }
-        }
         delTransform.setAttributeIndicesArray(featArray);
         delTransform.setInputFormat(m_data);
         trainCopy = Filter.useFilter(m_data, delTransform);
@@ -95,16 +89,14 @@ public class TSWrapper {
         System.out.println("Remaining lags: " + remainingLags);
         tsLagMaker.setLagRange(remainingLags);
         i = 0;
-        for (int k = 0; k < overlayFields.size(); k++) {                        //updating the tsLagmaker with the still available overlay Fields
-            if(remainingAttributes.contains(overlayFields.get(k))) {
+        for (int k = 0; k < overlayFields.size(); k++)                       //updating the tsLagmaker with the still available overlay Fields
+            if(remainingAttributes.contains(overlayFields.get(k)))
                 newOverlayFields.add(i++, overlayFields.get(k));
-            }
-        }
         System.out.println("Remaining overlay fields: " + newOverlayFields.toString());
         tsLagMaker.setOverlayFields(newOverlayFields);
         TSCV tscv = new TSCV();
         tscv.crossValidateTS(trainCopy, m_BaseClassifier, tsLagMaker);
-        error = tscv.calculateErrors(false, "MAPE");
+        error = tscv.calculateErrors(true, "MAPE");
         return error;
     }
     public void buildEvaluator(Instances data) throws Exception{
@@ -155,7 +147,6 @@ public class TSWrapper {
         m_BaseClassifier = new LinearRegression();
         m_seed = 1;
         m_threshold = 0.01;
-
     }
 
 }

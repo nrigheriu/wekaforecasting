@@ -688,7 +688,7 @@ public class BestFirst  {
    * @throws Exception if the search can't be completed
    */
   public int[] search(Instances data, TSLagMaker tsLagMaker, List<String> overlayFields) throws Exception {
-    PrintWriter errorLog = new PrintWriter(new FileWriter("/home/cycle/workspace/wekaforecasting-new-features/errorLog.txt", true));
+    PrintWriter errorLog = new PrintWriter(new FileWriter("errorLog.txt", true));
     TSWrapper tsWrapper = new TSWrapper();
     tsWrapper.buildEvaluator(data);
     LinearRegression linearRegression = new LinearRegression();
@@ -723,7 +723,7 @@ public class BestFirst  {
     LinkedList2 bfList = new LinkedList2(m_maxStale);
     best_merit = -Double.MAX_VALUE;
     stale = 0;
-    best_group = getStartSet(data.numAttributes(), 35);
+    best_group = getStartSet(data.numAttributes(), 0);
 
     m_startRange.setUpper(m_numAttribs - 1);
     if (!(getStartSet().equals(""))) {
