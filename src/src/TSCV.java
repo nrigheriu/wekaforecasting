@@ -87,7 +87,7 @@ public class TSCV {
         double errorSum = 0;
         double piErrorSum = 0;
         double squaredErrorSum = 0;
-        DecimalFormat df = new DecimalFormat("#.###");
+        DecimalFormat df = new DecimalFormat("#.####");
         List<String> errorList = new ArrayList<>();
         double getLastError = 0;
         int i;
