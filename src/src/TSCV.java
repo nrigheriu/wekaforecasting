@@ -23,33 +23,47 @@ public class TSCV {
         }
     public void crossValidateTS(Instances data, Classifier classifier, TSLagMaker tsLagMaker){
         try {
-            PrintWriter resultLog = new PrintWriter(new FileWriter("/home/cycle/workspace/wekaforecasting-new-features/results.txt", true));
+            PrintWriter resultLog = new PrintWriter(new FileWriter("results.txt", true));
             actualValuesList.clear();
             forecastedValuesList.clear();
             WekaForecaster forecaster = new WekaForecaster();
             forecaster.setTSLagMaker(tsLagMaker);
             forecaster.setFieldsToForecast(tsLagMaker.getFieldsToLagAsString());
             forecaster.setBaseForecaster(classifier);
-            int stepNumber = 24;
+            int stepNumber = 24;                           //stepNumber is how many steps in future it should be forecasted. 15 min * 24 =  6 hours
+            int numberOfUnitsToForecast, numUnitsForecasted;               //this specifies how many times the stepNumber above should be evaluated with the same forecaster built.
+            int startTestData = 0, endTestData = 0;
             Instances testData = null, trainData = null;
             List<List<NumericPrediction>> forecast = null;
             //System.out.println("Lag range: " + tsLagMaker.getLagRange());
+            long sTime = System.currentTimeMillis();
             for (int trainingPercentage = 70; trainingPercentage <= 80; trainingPercentage += 5) {
-                long sTime = System.currentTimeMillis();
+                numUnitsForecasted = 1;
                 trainData = getSplittedData(data, trainingPercentage, true);
                 testData = getSplittedData(data, trainingPercentage, false);
                 forecaster.buildForecaster(trainData);
                 forecaster.primeForecaster(trainData);
-                   if(!forecaster.getTSLagMaker().getOverlayFields().isEmpty())                        //checking if any overlay fields are set
-                    forecast = forecaster.forecast(stepNumber, testData);
-                else
-                    forecast = forecaster.forecast(stepNumber);
-                addToValuesLists(forecast, testData, stepNumber);
+                //numberOfUnitsToForecast = (int) Math.floor(testData.numInstances() / stepNumber);                                               //forecast until the end of the data set; can take a whole while longer
+                numberOfUnitsToForecast = 28;
+                while (numUnitsForecasted < numberOfUnitsToForecast){
+                    startTestData = (numUnitsForecasted-1)*(stepNumber);
+                    endTestData = (int)testData.numInstances()-startTestData;
+                    if(!forecaster.getTSLagMaker().getOverlayFields().isEmpty())                        //checking if any overlay fields are set
+                        forecast = forecaster.forecast(stepNumber, new Instances(testData, startTestData, endTestData));
+                    else
+                        forecast = forecaster.forecast(stepNumber);
+                    forecaster.primeForecaster(trainData);
+                    addToValuesLists(forecast, new Instances(testData, startTestData, endTestData), stepNumber);
+                    if(numUnitsForecasted < numberOfUnitsToForecast -1)                                     //check if this isn't the last iteration and where are priming for nothing
+                        for (int i = 0; i < stepNumber*numUnitsForecasted; i++)
+                            forecaster.primeForecasterIncremental(testData.get(i));
+                    numUnitsForecasted++;
+                }
                 long eTime = System.currentTimeMillis();
-                //System.out.println(("Time taken to evaluate: " + ((double)(eTime-sTime))/1000));
+            //    System.out.println(("Time taken to evaluate again:" + ((double)(eTime-sTime))/1000));
                 resultLog.close();
             }
-            buildErrorGraph.buildErrorGraph(testData, forecaster, forecast, stepNumber);
+            buildErrorGraph.buildErrorGraph(new Instances(testData, startTestData, endTestData), forecaster, forecast, stepNumber);
         } catch (Exception e){
             e.printStackTrace();
         }
@@ -73,7 +87,7 @@ public class TSCV {
         double errorSum = 0;
         double piErrorSum = 0;
         double squaredErrorSum = 0;
-        DecimalFormat df = new DecimalFormat("#.###");
+        DecimalFormat df = new DecimalFormat("#.####");
         List<String> errorList = new ArrayList<>();
         double getLastError = 0;
         int i;

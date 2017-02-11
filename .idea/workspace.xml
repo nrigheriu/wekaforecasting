@@ -5,14 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7587b12-2478-48ce-a17b-10292d85196b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/src/MyThread.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bestfirst.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/anotherExample$Graph.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/file1.png" afterPath="$PROJECT_DIR$/file1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/anotherExample.class" afterPath="$PROJECT_DIR$/target/classes/anotherExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/BestFirst.class" afterPath="$PROJECT_DIR$/target/classes/src/BestFirst.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/MyHashMap.class" afterPath="$PROJECT_DIR$/target/classes/src/MyHashMap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/TSCV.class" afterPath="$PROJECT_DIR$/target/classes/src/TSCV.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/TSWrapper.class" afterPath="$PROJECT_DIR$/target/classes/src/TSWrapper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/doForecasting.class" afterPath="$PROJECT_DIR$/target/classes/src/doForecasting.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/normalInput.class" afterPath="$PROJECT_DIR$/target/classes/src/normalInput.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/errorLog.txt" afterPath="$PROJECT_DIR$/errorLog.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/relief results" afterPath="$PROJECT_DIR$/relief results" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results.txt" afterPath="$PROJECT_DIR$/results.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/anotherExample.java" afterPath="$PROJECT_DIR$/src/anotherExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/BestFirst.java" afterPath="$PROJECT_DIR$/src/src/BestFirst.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/MyHashMap.java" afterPath="$PROJECT_DIR$/src/src/MyHashMap.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/TSCV.java" afterPath="$PROJECT_DIR$/src/src/TSCV.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/TSWrapper.java" afterPath="$PROJECT_DIR$/src/src/TSWrapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/doForecasting.java" afterPath="$PROJECT_DIR$/src/src/doForecasting.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/normalInput.java" afterPath="$PROJECT_DIR$/src/src/normalInput.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/rankerWrapper.java" afterPath="$PROJECT_DIR$/src/src/rankerWrapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wekaforecasting.iml" afterPath="$PROJECT_DIR$/wekaforecasting.iml" />
     </list>
     <ignored path="wekaforecasting.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,6 +53,39 @@
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
+  <component name="DockManager">
+    <window id="2">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="MyThread.java" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/src/MyThread.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="459">
+                    <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="43" />
+                    <folding>
+                      <element signature="e#1591#1592#0" expanded="true" />
+                      <element signature="e#1622#1623#0" expanded="true" />
+                      <element signature="e#1667#1668#0" expanded="true" />
+                      <element signature="e#1707#1708#0" expanded="true" />
+                      <element signature="e#1737#1738#0" expanded="true" />
+                      <element signature="e#1766#1767#0" expanded="true" />
+                      <element signature="e#1807#1808#0" expanded="true" />
+                      <element signature="e#1843#1844#0" expanded="true" />
+                      <element signature="e#1880#1881#0" expanded="true" />
+                      <element signature="e#1916#1917#0" expanded="true" />
+                      <element signature="e#1971#1972#0" expanded="true" />
+                      <element signature="e#2021#2022#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="wekaforecasting" />
@@ -46,7 +95,7 @@
       <file leaf-file-name="SimmulatedAnnealing.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/SimmulatedAnnealing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4012">
+            <state relative-caret-position="17">
               <caret line="276" column="18" lean-forward="false" selection-start-line="276" selection-start-column="18" selection-end-line="276" selection-end-column="18" />
               <folding />
             </state>
@@ -58,19 +107,43 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="13243">
               <caret line="837" column="44" lean-forward="false" selection-start-line="837" selection-start-column="44" selection-end-line="837" selection-end-column="44" />
-              <folding />
+              <folding>
+                <element signature="e#0#27653#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#3589#3590#0" expanded="false" />
+                <element signature="e#3616#3617#0" expanded="false" />
+                <element signature="e#3662#3663#0" expanded="false" />
+                <element signature="e#3730#3731#0" expanded="false" />
+                <element signature="e#3867#3868#0" expanded="false" />
+                <element signature="e#3931#3932#0" expanded="false" />
+                <element signature="e#6887#6888#0" expanded="false" />
+                <element signature="e#6951#6952#0" expanded="false" />
+                <element signature="e#9253#9254#0" expanded="false" />
+                <element signature="e#9277#9278#0" expanded="false" />
+                <element signature="e#12537#12538#0" expanded="false" />
+                <element signature="e#12565#12566#0" expanded="false" />
+                <element signature="e#14010#14011#0" expanded="false" />
+                <element signature="e#14051#14052#0" expanded="false" />
+                <element signature="e#14926#14927#0" expanded="false" />
+                <element signature="e#14953#14954#0" expanded="false" />
+                <element signature="e#15163#15164#0" expanded="false" />
+                <element signature="e#15214#15215#0" expanded="false" />
+                <element signature="e#27589#27590#0" expanded="false" />
+                <element signature="e#27649#27650#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="doForecasting.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="doForecasting.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/src/doForecasting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="38" column="118" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="118" />
+            <state relative-caret-position="584">
+              <caret line="49" column="111" lean-forward="false" selection-start-line="49" selection-start-column="111" selection-end-line="49" selection-end-column="111" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#doForecasting#0" expanded="false" />
+                <element signature="e#1684#1692#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,8 +152,8 @@
       <file leaf-file-name="MyHashMap.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/MyHashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="1481">
+              <caret line="95" column="58" lean-forward="true" selection-start-line="95" selection-start-column="58" selection-end-line="95" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,11 +171,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TSCV.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TSCV.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/TSCV.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="49" selection-end-column="34" />
+            <state relative-caret-position="603">
+              <caret line="54" column="58" lean-forward="false" selection-start-line="54" selection-start-column="58" selection-end-line="54" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -208,7 +281,6 @@
         <option value="$PROJECT_DIR$/src/src/AddHoliday.java" />
         <option value="$PROJECT_DIR$/src/src/applyMetaClassifier.java" />
         <option value="$PROJECT_DIR$/src/src/DrawGraph.java" />
-        <option value="$PROJECT_DIR$/src/anotherExample.java" />
         <option value="$PROJECT_DIR$/src/src/RandomSearch.java" />
         <option value="$PROJECT_DIR$/src/src/TSWrapper.java" />
         <option value="$PROJECT_DIR$/src/src/buildErrorGraph.java" />
@@ -218,8 +290,10 @@
         <option value="$PROJECT_DIR$/src/src/applyFilterClassifier.java" />
         <option value="$PROJECT_DIR$/src/src/MyHashMap.java" />
         <option value="$PROJECT_DIR$/src/src/BestFirst.java" />
-        <option value="$PROJECT_DIR$/src/src/doForecasting.java" />
         <option value="$PROJECT_DIR$/src/src/TSCV.java" />
+        <option value="$PROJECT_DIR$/src/anotherExample.java" />
+        <option value="$PROJECT_DIR$/src/src/MyThread.java" />
+        <option value="$PROJECT_DIR$/src/src/doForecasting.java" />
       </list>
     </option>
   </component>
@@ -251,10 +325,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="53" />
-    <option name="y" value="24" />
-    <option name="width" value="1867" />
-    <option name="height" value="1056" />
+    <option name="x" value="-2507" />
+    <option name="y" value="52" />
+    <option name="width" value="1254" />
+    <option name="height" value="1388" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -332,6 +406,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -378,9 +455,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -796,6 +870,8 @@
       <workItem from="1486127224441" duration="6416000" />
       <workItem from="1486663567249" duration="17946000" />
       <workItem from="1486723668417" duration="1579000" />
+      <workItem from="1486830522088" duration="61000" />
+      <workItem from="1486830597493" duration="9937000" />
     </task>
     <task id="LOCAL-00001" summary="updates">
       <created>1484761837664</created>
@@ -815,7 +891,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="609808000" />
+    <option name="totallyTimeSpent" value="619806000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -827,23 +903,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="24" width="1867" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="-2507" y="52" width="1254" height="1388" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286026" sideWeight="0.49808428" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27083334" sideWeight="0.49533224" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32619774" sideWeight="0.5079236" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.49786553" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3058455" sideWeight="0.4920764" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.26746726" sideWeight="0.49779457" order="2" side_tool="false" content_ui="tabs" x="-2315" y="788" width="1141" height="763" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22685185" sideWeight="0.4920764" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12963702" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19636963" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965213" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3425926" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24914286" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3955148" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -851,13 +931,9 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3955148" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27143922" sideWeight="0.49533224" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.26746726" sideWeight="0.49779457" order="2" side_tool="false" content_ui="tabs" x="61" y="-1028" width="934" height="1028" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3430276" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -932,7 +1008,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/src/myMLPRegressor.java" />
     <entry file="file://$USER_HOME$/wekafiles/pentaho/weka/timeseriesforecasting-ce/1.0.19/timeseriesforecasting-ce-1.0.19.jar.lastUpdated" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1129,13 +1204,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/anotherExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/nz/ac/waikato/cms/weka/weka-dev/3.9.1/weka-dev-3.9.1.jar!/weka/core/SelectedTag.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="713">
@@ -1183,19 +1251,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/SimmulatedAnnealing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4012">
-          <caret line="276" column="18" lean-forward="false" selection-start-line="276" selection-start-column="18" selection-end-line="276" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/src/normalInput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="52" column="43" lean-forward="false" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/BestFirst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13243">
+          <caret line="837" column="44" lean-forward="false" selection-start-line="837" selection-start-column="44" selection-end-line="837" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#27653#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3589#3590#0" expanded="false" />
+            <element signature="e#3616#3617#0" expanded="false" />
+            <element signature="e#3662#3663#0" expanded="false" />
+            <element signature="e#3730#3731#0" expanded="false" />
+            <element signature="e#3867#3868#0" expanded="false" />
+            <element signature="e#3931#3932#0" expanded="false" />
+            <element signature="e#6887#6888#0" expanded="false" />
+            <element signature="e#6951#6952#0" expanded="false" />
+            <element signature="e#9253#9254#0" expanded="false" />
+            <element signature="e#9277#9278#0" expanded="false" />
+            <element signature="e#12537#12538#0" expanded="false" />
+            <element signature="e#12565#12566#0" expanded="false" />
+            <element signature="e#14010#14011#0" expanded="false" />
+            <element signature="e#14051#14052#0" expanded="false" />
+            <element signature="e#14926#14927#0" expanded="false" />
+            <element signature="e#14953#14954#0" expanded="false" />
+            <element signature="e#15163#15164#0" expanded="false" />
+            <element signature="e#15214#15215#0" expanded="false" />
+            <element signature="e#27589#27590#0" expanded="false" />
+            <element signature="e#27649#27650#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/TSCV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="54" column="58" lean-forward="false" selection-start-line="54" selection-start-column="58" selection-end-line="54" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/SimmulatedAnnealing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="276" column="18" lean-forward="false" selection-start-line="276" selection-start-column="18" selection-end-line="276" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/anotherExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="18" lean-forward="false" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1209,38 +1326,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/MyHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="1481">
+          <caret line="95" column="58" lean-forward="true" selection-start-line="95" selection-start-column="58" selection-end-line="95" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/BestFirst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13243">
-          <caret line="837" column="44" lean-forward="false" selection-start-line="837" selection-start-column="44" selection-end-line="837" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/doForecasting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="38" column="118" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="118" />
+        <state relative-caret-position="584">
+          <caret line="49" column="111" lean-forward="false" selection-start-line="49" selection-start-column="111" selection-end-line="49" selection-end-column="111" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#doForecasting#0" expanded="false" />
+            <element signature="e#1684#1692#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/TSCV.java">
+    <entry file="file://$PROJECT_DIR$/src/src/MyThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="49" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="459">
+          <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="43" />
+          <folding>
+            <element signature="e#1591#1592#0" expanded="true" />
+            <element signature="e#1622#1623#0" expanded="true" />
+            <element signature="e#1667#1668#0" expanded="true" />
+            <element signature="e#1707#1708#0" expanded="true" />
+            <element signature="e#1737#1738#0" expanded="true" />
+            <element signature="e#1766#1767#0" expanded="true" />
+            <element signature="e#1807#1808#0" expanded="true" />
+            <element signature="e#1843#1844#0" expanded="true" />
+            <element signature="e#1880#1881#0" expanded="true" />
+            <element signature="e#1916#1917#0" expanded="true" />
+            <element signature="e#1971#1972#0" expanded="true" />
+            <element signature="e#2021#2022#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

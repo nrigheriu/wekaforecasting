@@ -32,15 +32,15 @@ import weka.core.Option;
 public class normalInput {
     public static void main(String[] args) {
         try {
-            String pathToWholeData = "/home/cycle/workspace/wekaforecasting-new-features/dataSets/3months_100aggregate_extraFeatures.arff";
-            String pathToHugeData = "/home/cycle/workspace/wekaforecasting-new-features/dataSets/6months_1aggregate_extraFeatures.arff";
+            String pathToWholeData = "dataSets/3months_100aggregate_extraFeatures.arff";
+            //String pathToHugeData = "/home/cycle/workspace/wekaforecasting-new-features/dataSets/6months_1aggregate_extraFeatures.arff";
 
             // load the data
             Instances wholeData  = new Instances(new BufferedReader(new FileReader(pathToWholeData)));
-            Instances hugeData = new Instances(new BufferedReader((new FileReader(pathToHugeData))));
+            //Instances hugeData = new Instances(new BufferedReader((new FileReader(pathToHugeData))));
 
             wholeData.setClassIndex(1);
-            hugeData.setClassIndex(1);
+            //hugeData.setClassIndex(1);
             //select_Attributes(airlineData);
             //AttributeSelectedClassifier attributeSelectedClassifier = applyMetaClassifier.applyMetaClassifier(airlineData);
             AttributeSelectedClassifier attributeSelectedClassifier2 = new AttributeSelectedClassifier();

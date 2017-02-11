@@ -37,8 +37,8 @@ public class rankerWrapper {
         actualValuesList.clear();
         forecastedValuesList.clear();
         for (int i = 0; i < minLagValues.length;i++){
-            forecaster.getTSLagMaker().setMinLag(minLagValues[i]);
-            forecaster.getTSLagMaker().setMaxLag(maxLagValues[i]);
+            forecaster.getTSLagMaker().setStartLag(minLagValues[i]);
+            forecaster.getTSLagMaker().setEndLag(maxLagValues[i]);
             doForecasting.crossValidateTS(data, forecaster);
             accuracy[i] = doForecasting.calculateErrors(true, "MAPE");
             System.out.println("Accuracy: " + accuracy[i]);

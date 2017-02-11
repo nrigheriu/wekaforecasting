@@ -49,7 +49,6 @@ public class MyHashMap extends HashMap{
                     break;
                 }
             }
-            System.out.println("Printing from hashmap:"  + features);
             return map;
         }
         return null;

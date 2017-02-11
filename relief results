@@ -1,9 +1,31 @@
 --Tested on set 3months_100aggregate
-i< 1392 lags, featureNumber 4, chosenLags 75, bestFirst with linear regression , ridge 1e-6 as wrapper, lag interval 48
-end result: 5.044867197367014
+i< 1392 lags, featureNumber 6, chosenLags 75, bestFirst with linear regression , ridge 1e-6 as wrapper, lag interval 48, TSCV 1 week
+end result: 7.65959861953651
+Time taken:2277.378
+Lags:1008, 1007, 961, 1005, 1006, 1004, 816, 815, 769, 814, 813, 812, 912, 1248, 865, 1057, 911, 909, 910, 1247, 1246, 908, 1058, 1245, 1103, 1104, 1244, 1201, 1345, 673, 1101, 1102, 720, 719, 1392, 1346, 717, 718, 1347, 674, 1348, 1391, 1056, 1152, 1055, 1344, 1054, 1053, 1151, 577, 1200, 672, 1343, 1153, 1249, 1150, 1052, 671, 1149, 1199, 1342, 1051, 1341, 1148, 1154, 670, 669, 1147, 578, 1250, 1297, 1340, 624, 1198, 623
+--Same config as above except featureNo. is 4
+end result:
+Time take:
+Lags:
+
+
+
+
+
+
+
+
+
+
 --Same config as above except featureNo. is 8 and lag interval 96
-end result:6.3816526961119076
+end result:
+Time take:
+Lags:
 --Same config as above except featureNo. is 2 and lag interval 24
 end result:
+Time taken:
+Lags:
 --Same config as above except featureNo. is 6 and lag interval 72
-end result:6.312025657453364
+end result:
+Time taken:
+Lags:

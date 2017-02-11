@@ -13,47 +13,49 @@ import java.util.*;
 /**
  * Created by cycle on 09.12.16.
  */
-public class doForecasting {
+public class doForecasting{
     List<Double> actualValuesList = new ArrayList<>();
     List<Double> forecastedValuesList = new ArrayList<>();
     HashMap<Integer, Float> map = new HashMap<Integer, Float>();
-    public doForecasting(){
-      resetOptions();
-    }
+    private Thread t;
+    private String threadName;
+    public doForecasting(){resetOptions();}
     public void doForecast(Instances data, Classifier classifier){
         try {
-            PrintWriter resultLog = new PrintWriter(new FileWriter("/home/cycle/workspace/wekaforecasting-new-features/results.txt", true));
+            PrintWriter resultLog = new PrintWriter(new FileWriter("results.txt", true));
 
             long startTime = System.currentTimeMillis();
             List<String> overlayFields = new ArrayList<String>();
-            WekaForecaster forecaster = new WekaForecaster();
+            int lagInterval = 12, lagLimit = 48, maxlag = 0;
+
             MyHashMap hashMap = new MyHashMap();
-            boolean breakLoop = false;
-            int lagInterval = 72, lagLimit = 1392, maxlag = 0;
+          /*  boolean breakLoop = false;
             for (int i = 1; i < 1392 ; i+=lagInterval) {
                 if(i+lagInterval-1 > lagLimit){
                     maxlag = lagLimit;
                     breakLoop = true;                                   //to break after ranking the last interval
                 }else
                     maxlag = i+lagInterval-1;
-                hashMap.fillUpHashMap(applyFilterClassifier.applyFilterClassifier(data, i, maxlag), 6, data.attribute(1).name());
+                hashMap.fillUpHashMap(applyFilterClassifier.applyFilterClassifier(data, i, maxlag), 4, data.attribute(1).name());
                 if(breakLoop)
                     break;
-            }
+            }*/
+          ArrayList<Thread> threadList = new ArrayList<Thread>();
+            MyThread t1 = new MyThread("Thread1", hashMap, data, 1, 24, 4, lagLimit, lagInterval);
+            t1.start();
+            threadList.add(t1);
+            MyThread t2 = new MyThread("Thread2", hashMap, data, 25, 48, 4, lagLimit, lagInterval);
+            t2.start();
+            threadList.add(t2);
+            for (int i = 0; i < threadList.size(); i++)                     //waiting for all threads to finish
+                threadList.get(i).join();
+
+
+            hashMap.printHashMapFeatures(8);
+
             hashMap.sortHashMapByValues();
             String chosenLags = hashMap.printHashMapFeatures(75);
             resultLog.println(chosenLags);
-            /*for (int i = 0; i < data.numAttributes()-2; i++)                                        //first 2 attributes are time and field to lag
-                overlayFields.add(i, data.attribute(i+2).name());
-            forecaster.getTSLagMaker().setOverlayFields(overlayFields);
-            forecaster.getTSLagMaker().setTimeStampField(data.attribute(0).name()); // date time stamp
-            forecaster.setFieldsToForecast(data.attribute(1).name());
-            forecaster.setBaseForecaster(classifier);
-            forecaster.getTSLagMaker().setIncludePowersOfTime(true);
-            forecaster.getTSLagMaker().setIncludeTimeLagProducts(false);
-            forecaster.getTSLagMaker().setFieldsToLagAsString(data.attribute(1).name() + ", " + data.attribute(2).name());
-            //crossValidateTS(data, forecaster);
-            calculateErrors(true,  "MAPE", resultLog);*/
 
             TSLagMaker tsLagMaker = new TSLagMaker();
             tsLagMaker.setFieldsToLagAsString(data.attribute(1).name());
@@ -63,7 +65,7 @@ public class doForecasting {
             tsLagMaker.setMinLag(1);
             tsLagMaker.setMaxLag(lagLimit);
             tsLagMaker.setLagRange(chosenLags);
-           // tsLagMaker.setLagRange("768, 1, 769, 2, 3, 4, 1291, 1292, 527, 528, 1296, 1049, 282, 1051, 286, 287, 1055, 288, 1056, 289, 290, 1058, 814, 815, 816, 817, 573, 1341, 574, 1342, 575, 1343, 576, 1344, 577, 578, 579, 1102, 335, 1103, 336, 1104, 93, 94, 862, 95, 863, 96, 864, 97, 865, 98, 99, 101, 1389, 1390, 1391, 624, 1392, 381, 1149, 382, 1150, 383, 1151, 384, 1152, 385, 910, 911, 912, 914, 668, 669, 671");
+            //tsLagMaker.setLagRange("1008, 1007, 961, 1005, 816, 815, 769, 814, 912, 1248, 865, 1057, 911, 909, 1247, 1246, 1058, 1245, 1103, 1104, 1345, 673, 720, 719, 1392, 1346, 717, 1347, 1056, 1152, 1055, 1344, 1054, 1053, 1151, 577, 1200, 672, 1343, 1153, 1249, 1150, 671, 1149, 1199, 1342, 1341, 1154, 670, 669, 578, 1250, 624, 623, 1251, 1252, 960, 959, 768, 767, 958, 957, 766, 765, 864, 863, 576, 575, 862, 861, 574, 573, 480, 481, 385");
            // tsLagMaker.setRemoveLeadingInstancesWithUnknownLagValues(true);
             //tsLagMaker.setLagRange("1008, 1007, 961, 1005, 816, 815, 769, 814, 912, 1248, 865, 1057, 911, 909, 1247, 1246, 1058, 1245, 1103, 1104, 1345, 673, 720, 719, 1392, 1346, 717, 1347, 1056, 1152, 1055, 1344, 1054, 1053, 1151, 577, 1200, 672, 1343, 1153, 1249, 1150, 671, 1149, 1199, 1342, 1341, 1154, 670, 669, 578, 1250, 624, 623, 1251, 1252, 960, 959, 768, 767, 958, 957, 766, 765, 864, 863, 576, 575, 862, 861, 574, 573, 480, 481, 385");
             for (int i = 0; i < data.numAttributes()-2; i++)                                        //first 2 attributes are time and field to lag
@@ -182,6 +184,18 @@ public class doForecasting {
     }
 }
 
+    /* WekaForecaster forecaster = new WekaForecaster();
+    for (int i = 0; i < data.numAttributes()-2; i++)                                        //first 2 attributes are time and field to lag
+        overlayFields.add(i, data.attribute(i+2).name());
+    forecaster.getTSLagMaker().setOverlayFields(overlayFields);
+    forecaster.getTSLagMaker().setTimeStampField(data.attribute(0).name()); // date time stamp
+    forecaster.setFieldsToForecast(data.attribute(1).name());
+    forecaster.setBaseForecaster(classifier);
+    forecaster.getTSLagMaker().setIncludePowersOfTime(true);
+    forecaster.getTSLagMaker().setIncludeTimeLagProducts(false);
+    forecaster.getTSLagMaker().setFieldsToLagAsString(data.attribute(1).name() + ", " + data.attribute(2).name());
+    //crossValidateTS(data, forecaster);
+    calculateErrors(true,  "MAPE", resultLog);*/
 
 /*TSEvaluation evaluation = new TSEvaluation(testData, stepNumber);
             evaluation.setEvaluateOnTestData(true);
@@ -227,7 +241,7 @@ public class doForecasting {
             ArrayList<Integer> selectedFeatures = rankerWrapperObj.populateSelectedFeatures(featureListForIntevals, percentFeaturesToGetFromInterval, 10);
 
             forecaster.setBaseForecaster(new MLPRegressor());                 //running classifier on attributes ranked by rankedWrapper
-            forecaster.getTSLagMaker().setMinLag(1);
-            forecaster.getTSLagMaker().setMaxLag(780);
+            forecaster.getTSLagMaker().setStartLag(1);
+            forecaster.getTSLagMaker().setEndLag(780);
             resultLog.println(selectedFeatures.toString());
             forecaster.getTSLagMaker().setLagRange(selectedFeatures.toString().substring(1, selectedFeatures.toString().length()-1)); */

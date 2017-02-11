@@ -19,84 +19,37 @@ import weka.core.Utils;
 /**
  * Created by cycle on 10.11.16.
  */
-public class anotherExample {
-    public class Graph extends JPanel {
-        public Graph() {
-            setSize(500, 500);
-        }
+public class anotherExample extends Thread{
+    private Thread t;
+    private String threadName;
 
-        @Override
-        public void paintComponent(Graphics g) {
-            Graphics2D gr = (Graphics2D) g; // This is if you want to use Graphics2D
-            // Now do the drawing here
-            ArrayList<Integer> scores = new ArrayList<Integer>(10);
-
-            Random r = new Random();
-
-            for (int i : scores) {
-                i = r.nextInt(20);
-                System.out.println(r);
-            }
-
-            int y1;
-            int y2;
-
-            for (int i = 0; i < scores.size() - 1; i++) {
-                y1 = (scores.get(i)) * 10;
-                y2 = (scores.get(i + 1)) * 10;
-                gr.drawLine(i * 10, y1, (i + 1) * 10, y2);
-            }
-        }
+    anotherExample (String name) {
+        threadName = name;
+        System.out.println("Creating " + threadName);
     }
-
-    public static void main(String[] args) {
-        Random r = new Random();
+    public void run() {
+        System.out.println("Running " +  threadName );
         try {
-            for (int i = 2; i < 102-2; i++) {
-                int chance = r.nextInt(100);
-                if(chance < 0)
-                    System.out.println("Yes");
-                else
-                    System.out.println("No");
+            for(int i = 4; i > 0; i--) {
+                System.out.println("Thread: " + threadName + ", " + i);
+                // Let the thread sleep for a while.
+                Thread.sleep(50);
             }
-
-        } catch (Exception e) {
-            e.printStackTrace();
+        }catch (InterruptedException e) {
+            System.out.println("Thread " +  threadName + " interrupted.");
         }
-    }
-    protected static BitSet changeBits(int numAttribs, BitSet bitSet){
-        Random r = new Random();
-        for (int i = 0; i < numAttribs; i++) {
-            float chance = r.nextFloat();
-            if(chance <= 0.02f){
-                if(bitSet.get(i))
-                    bitSet.set(i, false);
-                else
-                    bitSet.set(i, true);
-            }
-        }
-        return bitSet;
-    }
-    protected static boolean includesMoreThan25PercentOfFeatures(BitSet bitSet, int numAttribs){
-        int trueBits = 0;
-        for (int i = 0; i < numAttribs; i++) {
-            if(bitSet.get(i))
-                trueBits++;
-        }
-        if((float)trueBits/numAttribs > 0.25)
-            return true;
-        return  false;
-    }
-    protected static BitSet getStartSet (int numAttribs, int setPercentage){
-        BitSet bitSet = new BitSet(numAttribs);
-        Random r = new Random();
-        for (int i = 0; i < numAttribs; i++) {
-            float chance = r.nextFloat();
-            if (chance <= 0.25f) {
-                bitSet.set(i);
-            }
-        }
-        return bitSet;
+        System.out.println("Thread " +  threadName + " exiting.");
     }
 
+    public void start () {
+        System.out.println("Starting " +  threadName );
+        if (t == null) {
+            t = new Thread (this, threadName);
+            t.start ();
+        }
+    }
+    public static void main(String[] args) {
+       anotherExample T1 = new anotherExample("Thread-1");
+       T1.start();
+    }
 }
