@@ -1,5 +1,6 @@
 package src;
 
+import jdk.nashorn.internal.runtime.regexp.joni.exception.ValueException;
 import weka.classifiers.Classifier;
 import weka.classifiers.evaluation.NumericPrediction;
 import weka.core.Instances;
@@ -26,37 +27,14 @@ public class doForecasting{
 
             long startTime = System.currentTimeMillis();
             List<String> overlayFields = new ArrayList<String>();
-            int lagInterval = 12, lagLimit = 48, maxlag = 0;
 
             MyHashMap hashMap = new MyHashMap();
-          /*  boolean breakLoop = false;
-            for (int i = 1; i < 1392 ; i+=lagInterval) {
-                if(i+lagInterval-1 > lagLimit){
-                    maxlag = lagLimit;
-                    breakLoop = true;                                   //to break after ranking the last interval
-                }else
-                    maxlag = i+lagInterval-1;
-                hashMap.fillUpHashMap(applyFilterClassifier.applyFilterClassifier(data, i, maxlag), 4, data.attribute(1).name());
-                if(breakLoop)
-                    break;
-            }*/
-          ArrayList<Thread> threadList = new ArrayList<Thread>();
-            MyThread t1 = new MyThread("Thread1", hashMap, data, 1, 24, 4, lagLimit, lagInterval);
-            t1.start();
-            threadList.add(t1);
-            MyThread t2 = new MyThread("Thread2", hashMap, data, 25, 48, 4, lagLimit, lagInterval);
-            t2.start();
-            threadList.add(t2);
-            for (int i = 0; i < threadList.size(); i++)                     //waiting for all threads to finish
-                threadList.get(i).join();
-
-
-            hashMap.printHashMapFeatures(8);
-
+            int lagLimit = 1392;
+            /*rankWithRelief(hashMap, data, 48, lagLimit, 4);
             hashMap.sortHashMapByValues();
             String chosenLags = hashMap.printHashMapFeatures(75);
             resultLog.println(chosenLags);
-
+*/
             TSLagMaker tsLagMaker = new TSLagMaker();
             tsLagMaker.setFieldsToLagAsString(data.attribute(1).name());
             tsLagMaker.setTimeStampField(data.attribute(0).name());
@@ -64,16 +42,16 @@ public class doForecasting{
             tsLagMaker.setIncludeTimeLagProducts(false);
             tsLagMaker.setMinLag(1);
             tsLagMaker.setMaxLag(lagLimit);
-            tsLagMaker.setLagRange(chosenLags);
+           // tsLagMaker.setLagRange(chosenLags);
+            tsLagMaker.setLagRange("937, 984, 983, 938, 745, 792, 791, 790, 841, 888, 887, 886, 1333, 1334, 1380, 1335, 588, 587, 1091, 1045, 1089, 586, 1092, 1079, 541, 1284, 1237, 1141, 1077, 1080, 1283, 1282, 1078, 1032, 1142, 683, 1332, 684, 1188, 1031, 985, 1143, 1030, 681, 682, 1331, 1330, 1329, 1140, 1236, 1139, 1235, 1138, 1137, 1234, 1233, 936, 935, 934, 1381, 933, 1392, 1382, 1383, 685, 744, 743, 697, 686, 493, 742, 732, 731, 396, 494");
             //tsLagMaker.setLagRange("1008, 1007, 961, 1005, 816, 815, 769, 814, 912, 1248, 865, 1057, 911, 909, 1247, 1246, 1058, 1245, 1103, 1104, 1345, 673, 720, 719, 1392, 1346, 717, 1347, 1056, 1152, 1055, 1344, 1054, 1053, 1151, 577, 1200, 672, 1343, 1153, 1249, 1150, 671, 1149, 1199, 1342, 1341, 1154, 670, 669, 578, 1250, 624, 623, 1251, 1252, 960, 959, 768, 767, 958, 957, 766, 765, 864, 863, 576, 575, 862, 861, 574, 573, 480, 481, 385");
            // tsLagMaker.setRemoveLeadingInstancesWithUnknownLagValues(true);
-            //tsLagMaker.setLagRange("1008, 1007, 961, 1005, 816, 815, 769, 814, 912, 1248, 865, 1057, 911, 909, 1247, 1246, 1058, 1245, 1103, 1104, 1345, 673, 720, 719, 1392, 1346, 717, 1347, 1056, 1152, 1055, 1344, 1054, 1053, 1151, 577, 1200, 672, 1343, 1153, 1249, 1150, 671, 1149, 1199, 1342, 1341, 1154, 670, 669, 578, 1250, 624, 623, 1251, 1252, 960, 959, 768, 767, 958, 957, 766, 765, 864, 863, 576, 575, 862, 861, 574, 573, 480, 481, 385");
             for (int i = 0; i < data.numAttributes()-2; i++)                                        //first 2 attributes are time and field to lag
                 overlayFields.add(i, data.attribute(i+2).name());
             tsLagMaker.setOverlayFields(overlayFields);
             Instances laggedData = tsLagMaker.getTransformedData(data);
            src.BestFirst bestFirst = new src.BestFirst();
-           //bestFirst.setOptions(weka.core.Utils.splitOptions("-D 0"));
+           //bestFirst.setOptions(weka.core.Utils.splitOptions("-D 2"));
            SimmulatedAnnealing simmulatedAnnealing = new SimmulatedAnnealing();
            RandomSearch randomSearch = new RandomSearch();
 
@@ -82,13 +60,6 @@ public class doForecasting{
            // tsLagMaker.setLagRange("768, 1, 769, 2, 3, 4, 1291, 1292, 527, 528, 1296, 1049, 282, 1051, 286, 289, 290, 1058, 814, 815, 816, 817, 573, 1341, 574, 1342, 575, 1343, 576, 1344, 577, 578, 579, 1102, 335, 1103, 336, 1104, 93, 94, 862, 95, 863, 96, 864, 97, 865, 98, 99, 101, 1389, 1390, 1391, 624, 1392, 381, 1149, 382, 1150, 383, 1151, 384, 1152, 385, 910, 911, 912, 914, 668, 669, 671");
             //simmulatedAnnealing.search(laggedData, tsLagMaker, overlayFields);
             bestFirst.search(laggedData, tsLagMaker, overlayFields);
-       /*forecaster.setTSLagMaker(tsLagMaker);
-            forecaster.setFieldsToForecast(data.attribute(1).name());
-            tsLagMaker.setLagRange("3, 93, 94, 95, 97, 282, 287, 289, 290, 335, 381, 383, 384, 385, 573, 668, 669, 671, 768, 769, 814, 816, 817, 862, 863, 864, 910, 914, 1049, 1056, 1058, 1104, 1150, 1151, 1152, 1342, 1389, 1390, 1391");
-            crossValidateTS(data, forecaster);
-            resultLog.println(forecaster);
-            calculateErrors(true, "MAPE", resultLog);*/
-
             long stopTime = System.currentTimeMillis();
             double elapsedTime = ((double) stopTime - startTime)/1000;
             resultLog.println("Time taken: " + elapsedTime);
@@ -97,9 +68,31 @@ public class doForecasting{
             e.printStackTrace();
         }
     }
+    public void rankWithRelief(MyHashMap hashMap, Instances data, int lagInterval, int lagLimit, int featureNumber){
+        int startLag = 1, endLag = startLag+ lagInterval-1;
+        ArrayList<Thread> threadList = new ArrayList<Thread>();
+        int threadNumber = 4;
+        if(lagLimit % threadNumber != 0){
+            throw new ValueException("Lag limit has to be divisible with " + threadNumber + " because the lag intervals will be split to that number of threads!");
+        }
+        int threadLagInterval = lagLimit/threadNumber;                          //each thread has a Interval of the whole lag range which will be assigned to it; this Interval will be calculated by the thread split again in the per parameter given Interval size
+        for (int i = 0; i < threadNumber; i++) {
+            startLag = (threadLagInterval * i) + 1;
+            endLag = threadLagInterval * (i+1);
+            System.out.println("Start lag:" + startLag + " endLag:" + endLag);
+            threadList.add(i, new MyThread("Thread" + (i + 1), hashMap, data, startLag, endLag, featureNumber, lagLimit, lagInterval));
+        }
+        for (int i = 0; i < threadList.size(); i++)
+            threadList.get(i).start();
+        try{
+            for (int i = 0; i < threadList.size(); i++)                     //waiting for all threads to finish
+                threadList.get(i).join();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
     public void crossValidateTS(Instances data, weka.classifiers.timeseries.WekaForecaster forecaster){
         try {
-
             this.actualValuesList.clear();
             forecastedValuesList.clear();
             int stepNumber = 24;
@@ -174,8 +167,6 @@ public class doForecasting{
         for (int i = 0; i< array.length; i++)
             avg += array[i];
         return avg/array.length;
-
-
     }
     public void resetOptions(){
         actualValuesList = null;

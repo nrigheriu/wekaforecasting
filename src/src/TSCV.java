@@ -39,13 +39,13 @@ public class TSCV {
             long sTime = System.currentTimeMillis();
             for (int trainingPercentage = 70; trainingPercentage <= 80; trainingPercentage += 5) {
                 numUnitsForecasted = 1;
+                numberOfUnitsToForecast = 3;
                 trainData = getSplittedData(data, trainingPercentage, true);
                 testData = getSplittedData(data, trainingPercentage, false);
                 forecaster.buildForecaster(trainData);
                 forecaster.primeForecaster(trainData);
                 //numberOfUnitsToForecast = (int) Math.floor(testData.numInstances() / stepNumber);                                               //forecast until the end of the data set; can take a whole while longer
-                numberOfUnitsToForecast = 28;
-                while (numUnitsForecasted < numberOfUnitsToForecast){
+                while (numUnitsForecasted <= numberOfUnitsToForecast){
                     startTestData = (numUnitsForecasted-1)*(stepNumber);
                     endTestData = (int)testData.numInstances()-startTestData;
                     if(!forecaster.getTSLagMaker().getOverlayFields().isEmpty())                        //checking if any overlay fields are set

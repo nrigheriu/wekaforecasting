@@ -84,19 +84,24 @@ public class TSWrapper {
         }
         if(!remainingLags.isEmpty())
             remainingLags = remainingLags.substring(0, remainingLags.length()-2);
-        else
-            remainingLags += "1";
+        else if(remainingLags.isEmpty()) {
+            String attrName = m_data.attribute(11).name();
+            System.out.println("Remaining lags are empty so setting it to 0.");
+            remainingLags += "11";                                                                //we need at least one lag or else the classifier doesn't have what to train on, this is chosen to be the "worst" so it doesnt influence rest of evalution
+            //remainingLags +=  attrName.substring(attrName.length() - 4, attrName.length()).replaceAll("[^0-9]", "");
+        }
         System.out.println("Remaining lags: " + remainingLags);
         tsLagMaker.setLagRange(remainingLags);
         i = 0;
         for (int k = 0; k < overlayFields.size(); k++)                       //updating the tsLagmaker with the still available overlay Fields
             if(remainingAttributes.contains(overlayFields.get(k)))
                 newOverlayFields.add(i++, overlayFields.get(k));
-        System.out.println("Remaining overlay fields: " + newOverlayFields.toString());
+        //System.out.println("Remaining overlay fields: " + newOverlayFields.toString());
+        System.out.println("\n");
         tsLagMaker.setOverlayFields(newOverlayFields);
         TSCV tscv = new TSCV();
         tscv.crossValidateTS(trainCopy, m_BaseClassifier, tsLagMaker);
-        error = tscv.calculateErrors(true, "MAPE");
+        error = tscv.calculateErrors(false, "MAPE");
         return error;
     }
     public void buildEvaluator(Instances data) throws Exception{

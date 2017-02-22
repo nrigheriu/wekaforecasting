@@ -25,20 +25,21 @@ public class MyThread extends Thread{
     public void run() {
         System.out.println("Running " +  threadName );
         boolean breakLoop = false;
-        for (int i = startLag; i < lagLimit; i += lagInterval) {
+        int maxLag;
+        for (int i = startLag; i < endLag; i += lagInterval) {
             if(i+lagInterval-1 > lagLimit){
-                endLag = lagLimit;
+                maxLag = endLag;
                 breakLoop = true;                                   //to break after ranking the last interval
             }else
-                endLag = i+lagInterval-1;
-            String result = applyFilterClassifier.applyFilterClassifier(data, i, endLag);
+                maxLag = i+lagInterval-1;
+            String result = applyFilterClassifier.applyFilterClassifier(data, i, maxLag);
             addToHashmap(result);
             if(breakLoop)
                 break;
         }
         System.out.println("Thread " +  threadName + " exiting.");
     }
-    private synchronized void addToHashmap(String result){
+    private synchronized void addToHashmap(String result){                              //add a lock when writing in hashmap
         hashMap.fillUpHashMap(result, featureNumber, data.attribute(1).name());
     }
 
