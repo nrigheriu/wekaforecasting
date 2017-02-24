@@ -12,3 +12,5 @@ Time taken: 351.861
 Time taken: 319.262
 Time taken: 526.591
 Time taken: 520.707
+Time taken: 531.209
+Time taken: 553.252
