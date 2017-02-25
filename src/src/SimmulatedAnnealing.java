@@ -23,19 +23,12 @@ package src;
 
 import java.io.FileWriter;
 import java.io.PrintWriter;
-import java.io.Serializable;
 import java.util.*;
 import java.util.Random;
 
-import weka.attributeSelection.*;
 import weka.classifiers.functions.LinearRegression;
-import weka.classifiers.meta.FilteredClassifier;
 import weka.core.*;
-import weka.filters.Filter;
-import weka.filters.MultiFilter;
-import weka.filters.supervised.attribute.NominalToBinary;
 import weka.filters.supervised.attribute.TSLagMaker;
-import weka.filters.unsupervised.attribute.Normalize;
 
 /**
  * <!-- globalinfo-start -->
@@ -256,22 +249,6 @@ public class SimmulatedAnnealing {
     public void setStartSet(String startSet) throws Exception {
         m_startRange.setRanges(startSet);
     }
-
-    /**
-     * Returns a list of attributes (and or attribute ranges) as a String
-     *
-     * @return a list of attributes (and or attribute ranges)
-     */
-    protected void printGroup(BitSet tt) {
-        int i;
-        for (i = 0; i < m_numAttribs; i++) {
-            if (tt.get(i) == true) {
-                System.out.print((i + 1) + " ");
-            }
-        }
-        System.out.println();
-    }
-
     /**
      * Searches the attribute subset space by best first search
      *
@@ -287,91 +264,72 @@ public class SimmulatedAnnealing {
         tsWrapper.buildEvaluator(data);
         LinearRegression linearRegression = new LinearRegression();
         linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1 -R 1E-6"));
-    /*FilteredClassifier fc = new FilteredClassifier();
-    MultiFilter mf = new MultiFilter();
-    Normalize normalize = new Normalize();
-    NominalToBinary nbt = new NominalToBinary();
-    mf.setFilters(new Filter[]{normalize, nbt});
-    mf.setInputFormat(data);
-    fc.setFilter(mf);
-    fc.setClassifier(linearRegression);*/
-        //tsWrapper.setM_BaseClassifier(fc);
         tsWrapper.setM_BaseClassifier(linearRegression);
         m_numAttribs = data.numAttributes();
-        listOfAttributesWhichShouldAlwaysBeThere.add(m_numAttribs - 1);
-        listOfAttributesWhichShouldAlwaysBeThere.add(m_numAttribs - 2);                 //these are time stamp fields
-        BitSet best_group = new BitSet(m_numAttribs), temp_group;
-        best_group = getStartSet(m_numAttribs, 40);
-        float temp = 7, initialTemp = temp;
-        double best_merit = -Double.MAX_VALUE;
-        double merit;
-        int i = 0, counter = 0;
-        Hashtable<String, Double> lookup = new Hashtable<String, Double>();
+        SubsetHandler subsetHandler = new SubsetHandler();
+        subsetHandler.setM_numAttribs(m_numAttribs);
+        BitSet best_group;
+        best_group = subsetHandler.getStartSet(m_numAttribs, 40);
+        float temperature = 7, initialTemp = temperature;
+        double best_merit;
+        int i = 0, changedAltoughWorseCounter = 0;
+        Hashtable<String, Double> lookForExistingSubsets = new Hashtable<String, Double>();
         // evaluate the initial subset
-        printGroup(best_group);
+        subsetHandler.printGroup(best_group);
         best_merit = -tsWrapper.evaluateSubset(best_group, tsLagMaker, overlayFields);
         m_totalEvals++;
         String subset_string = best_group.toString();
-        lookup.put(subset_string, best_merit);
-        System.out.println("Initial group with numAttribs: " + m_numAttribs + " temp: " + temp + "/n");
+        lookForExistingSubsets.put(subset_string, best_merit);
+        System.out.println("Initial group with numAttribs: " + m_numAttribs + " temp: " + temperature + "/n");
         System.out.println("Merit: " + best_merit);
         errorLog.println(best_merit);
-        errorLog.println(temp);
+        errorLog.println(temperature);
         TheVeryBest theVeryBest = new TheVeryBest((BitSet) best_group.clone(), best_merit);
         boolean[] changedAlthoughWorse = new boolean[9];
         for (int j = 0; j < changedAlthoughWorse.length; j++)
             changedAlthoughWorse[j] = true;
-        while (temp > 0.0001) {
-            counter = 0;
-            BitSet s_new = changeBits(m_numAttribs, (BitSet) best_group.clone(), 1);
+        while (temperature > 0.0001) {
+            changedAltoughWorseCounter = 0;
+            BitSet s_new = subsetHandler.changeBits((BitSet) best_group.clone(), 1);
             subset_string = s_new.toString();
-            System.out.println(howMuchPercentOfBitsAreDifferent(s_new, best_group));
-            if (!lookup.containsKey(subset_string)) {
+            if (!lookForExistingSubsets.containsKey(subset_string)) {
                 double s_new_merit = -tsWrapper.evaluateSubset(s_new, tsLagMaker, overlayFields);
                 m_totalEvals++;
                 System.out.println("New merit: " + s_new_merit);
-                lookup.put(subset_string, s_new_merit);
-                if (decisionFunction(s_new_merit - best_merit, temp, best_merit, initialTemp, errorLog)) {
-                    if (best_merit - s_new_merit > 0)                   //it means this is a worse set than the best set, and we still change the best set to it.
+                lookForExistingSubsets.put(subset_string, s_new_merit);
+                if (decisionFunction(s_new_merit - best_merit, temperature, best_merit, initialTemp, errorLog)) {
+                    if (best_merit - s_new_merit > 0) {                   //it means this is a worse set than the best set, and we still change the best set to it.
                         changedAlthoughWorse[i++] = true;
+                        for (int j = 0; j < changedAlthoughWorse.length; j++)
+                            if (changedAlthoughWorse[j])
+                                changedAltoughWorseCounter++;
+                        System.out.println("Percentage of worse sets accepted: " + (float) changedAltoughWorseCounter * 100 / changedAlthoughWorse.length);
+                        i = i % changedAlthoughWorse.length;
+                    }
                     best_group = (BitSet) s_new.clone();
                     best_merit = s_new_merit;
                     errorLog.println(s_new_merit);
-                    errorLog.println(temp);
+                    errorLog.println(temperature);
                 } else
                     changedAlthoughWorse[i++] = false;
                 if (best_merit > theVeryBest.getMerit())                          //we have negative values for the scores, so bigger is better
                     theVeryBest.setNewSet((BitSet) best_group.clone(), best_merit);
-                if (temp > 5)
-                    temp = temp / (float) (1 + 0.0006 * (m_totalEvals - 1));
+                if (temperature > 5)
+                    temperature = temperature / (float) (1 + 0.0006 * (m_totalEvals - 1));
                     //temp *= 0.997;
                 else
-                    temp = temp / (float) (1 + 0.0006 * (m_totalEvals - 1));
+                    temperature = temperature / (float) (1 + 0.0006 * (m_totalEvals - 1));
                 // temp *= 0.97;
-                for (int j = 0; j < changedAlthoughWorse.length; j++)
-                    if (changedAlthoughWorse[j])
-                        counter++;
-                System.out.println("Percentage of worse sets accepted: " + (float) counter * 100 / changedAlthoughWorse.length);
-                i = i % changedAlthoughWorse.length;
             }
         }
         System.out.println("Best merit: " + theVeryBest.getMerit());
         System.out.println(m_totalEvals);
-        printGroup(theVeryBest.getSubset());
-        includesMoreThanXPercentOfFeatures(theVeryBest.getSubset(), true, 0);
+        subsetHandler.printGroup(theVeryBest.getSubset());
+        subsetHandler.includesMoreThanXPercentOfFeatures(theVeryBest.getSubset(), true, 0);
         errorLog.close();
         return attributeList(theVeryBest.getSubset());
     }
 
-    protected float howMuchPercentOfBitsAreDifferent(BitSet bitSet1, BitSet bitSet2) {
-        float percent = 0;
-        int differencesCounter = 0;
-        for (int i = 0; i < m_numAttribs; i++) {
-            if ((bitSet1.get(i) & !bitSet2.get(i)) || (!bitSet1.get(i)) && bitSet2.get(i))
-                differencesCounter++;
-        }
-        return (float) differencesCounter * 100 / m_numAttribs;
-    }
 
     protected boolean decisionFunction(double difference, float temp, double bestMerit, float initialTemp, PrintWriter errorLog) {
         boolean change = false;
@@ -387,75 +345,12 @@ public class SimmulatedAnnealing {
             System.out.println("Expfunction: " + expFunction + " Error% : " + -errorPercentage);
             if (expFunction >= randomNr) {
                 change = true;
-                //errorLog.println("Changed!");
                 System.out.println("Decided to change to a worse subset!");
             }
         }
         return change;
     }
 
-    /**
-     * @param numAttribs    size of the BitSet
-     * @param setPercentage Percentage of bits randomly being set to 1 for a start
-     * @return BitSet with setPercentage of Bits set to 1
-     */
-    protected BitSet getStartSet(int numAttribs, int setPercentage) {
-        BitSet bitSet = new BitSet(numAttribs);
-        Random r = new Random();
-        boolean includesMoreThanXPercent = false;
-        for (int i = 0; i < listOfAttributesWhichShouldAlwaysBeThere.size(); i++)
-            bitSet.set(listOfAttributesWhichShouldAlwaysBeThere.get(i));
-        while (!includesMoreThanXPercent) {
-            for (int i = 11; i < numAttribs - 2; i++) {
-                int chance = r.nextInt(100);
-                if (chance < setPercentage)
-                    bitSet.set(i);
-            }
-            if (includesMoreThanXPercentOfFeatures(bitSet, false, setPercentage))
-                includesMoreThanXPercent = true;
-        }
-        return bitSet;
-    }
-
-    /**
-     * changes 2 percent of the bits in the bitset
-     *
-     * @param numAttribs number of attributes (bits) to consider
-     * @param bitSet     the bitset to change
-     * @return the slightly mutated bitset
-     */
-    protected BitSet changeBits(int numAttribs, BitSet bitSet, int setPercentage) {
-        Random r = new Random();
-        boolean includesMoreThanXPercent = false;
-        while (!includesMoreThanXPercent) {
-            for (int i = 11; i < numAttribs - 2; i++) {              //starting from 2 because we need the time stamp and active_power attributes and not changing local time remapped products
-                int chance = r.nextInt(100);                        //gives random Int between 0 (inclusive) and n (exclusive)
-                if (chance < setPercentage)                                                       //set here the percent you want, just with the < symbol.
-                    if (bitSet.get(i))
-                        bitSet.set(i, false);
-                    else
-                        bitSet.set(i, true);
-                if (includesMoreThanXPercentOfFeatures(bitSet, false, 1))         //making sure we dont drop below the desired % of features included after the mutation
-                    includesMoreThanXPercent = true;
-                else
-                    System.out.println("Repeating loop because it doesnt include X% features!");
-
-            }
-        }
-        return bitSet;
-    }
-
-    protected boolean includesMoreThanXPercentOfFeatures(BitSet bitSet, boolean print, int percentage) {
-        int trueBits = 0;
-        for (int i = 11; i < m_numAttribs - 2; i++)              //this interval makes sure we just consider the lags
-            if (bitSet.get(i))
-                trueBits++;
-        if (print)
-            System.out.println("Including:" + ((float) trueBits / m_numAttribs) * 100 + "% of features.");
-        if ((float) trueBits / m_numAttribs > (float) percentage/100)
-            return true;
-        return false;
-    }
 
     /**
      * Reset options to default values
@@ -466,14 +361,6 @@ public class SimmulatedAnnealing {
         m_totalEvals = 0;
         m_cacheSize = 1;
         m_debug = false;
-        listOfAttributesWhichShouldAlwaysBeThere.add(0);                    //these are the best overlay, and time stamp fields
-        listOfAttributesWhichShouldAlwaysBeThere.add(1);
-        listOfAttributesWhichShouldAlwaysBeThere.add(2);
-        listOfAttributesWhichShouldAlwaysBeThere.add(3);
-        listOfAttributesWhichShouldAlwaysBeThere.add(6);
-        listOfAttributesWhichShouldAlwaysBeThere.add(7);
-        listOfAttributesWhichShouldAlwaysBeThere.add(9);
-        listOfAttributesWhichShouldAlwaysBeThere.add(10);
     }
 
     /**
@@ -486,21 +373,16 @@ public class SimmulatedAnnealing {
         int count = 0;
 
         // count how many were selected
-        for (int i = 0; i < m_numAttribs; i++) {
-            if (group.get(i)) {
+        for (int i = 0; i < m_numAttribs; i++)
+            if (group.get(i))
                 count++;
-            }
-        }
 
         int[] list = new int[count];
         count = 0;
 
-        for (int i = 0; i < m_numAttribs; i++) {
-            if (group.get(i)) {
+        for (int i = 0; i < m_numAttribs; i++)
+            if (group.get(i))
                 list[count++] = i;
-            }
-        }
-
         return list;
     }
 

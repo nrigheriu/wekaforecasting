@@ -14,3 +14,4 @@ Time taken: 526.591
 Time taken: 520.707
 Time taken: 531.209
 Time taken: 553.252
+Time taken: 500.029

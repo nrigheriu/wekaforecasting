@@ -23,18 +23,13 @@ package src;
 
 import java.io.FileWriter;
 import java.io.PrintWriter;
-import java.io.Serializable;
 import java.util.*;
 import java.util.Random;
-import weka.attributeSelection.*;
-import weka.classifiers.functions.LinearRegression;
-import weka.classifiers.meta.FilteredClassifier;
-import weka.core.*;
-import weka.filters.Filter;
-import weka.filters.MultiFilter;
-import weka.filters.supervised.attribute.NominalToBinary;
+
 import weka.filters.supervised.attribute.TSLagMaker;
-import weka.filters.unsupervised.attribute.Normalize;
+import weka.classifiers.functions.LinearRegression;
+import weka.core.*;
+
 /**
  <!-- globalinfo-start -->
  * SimmulatedAnnealing:<br/>
@@ -58,6 +53,10 @@ public class RandomSearch{
 
     /** for debugging */
     protected boolean m_debug;
+    /**
+     * Attributes which should always be included in the subset list
+     */
+    protected ArrayList<Integer> listOfAttributesWhichShouldAlwaysBeThere = new ArrayList<Integer>();
 
     /** holds the merit of the best subset found */
     protected double m_bestMerit;
@@ -193,20 +192,7 @@ public class RandomSearch{
         m_startRange.setRanges(startSet);
     }
 
-    /**
-     * Returns a list of attributes (and or attribute ranges) as a String
-     *
-     * @return a list of attributes (and or attribute ranges)
-     */
-    protected void printGroup(BitSet tt, int numAttribs) {
-        int i;
-        for (i = 0; i < numAttribs; i++) {
-            if (tt.get(i) == true) {
-                System.out.print((i + 1) + " ");
-            }
-        }
-        System.out.println();
-    }
+
 
     /**
      * Searches the attribute subset space by best first search
@@ -223,40 +209,31 @@ public class RandomSearch{
         tsWrapper.buildEvaluator(data);
         LinearRegression linearRegression = new LinearRegression();
         linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1 -R 1E-6"));
-        FilteredClassifier fc = new FilteredClassifier();
-        MultiFilter mf = new MultiFilter();
-        Normalize normalize = new Normalize();
-        NominalToBinary nbt = new NominalToBinary();
-        mf.setFilters(new Filter[]{normalize, nbt});
-        mf.setInputFormat(data);
-        fc.setFilter(mf);
-        fc.setClassifier(linearRegression);
-        tsWrapper.setM_BaseClassifier(fc);
-        //tsWrapper.setM_BaseClassifier(linearRegression);
+        tsWrapper.setM_BaseClassifier(linearRegression);
         m_numAttribs = data.numAttributes();
-        BitSet best_group = new BitSet(m_numAttribs), temp_group;
-        best_group = getStartSet(m_numAttribs, 0);
-        double best_merit = -Double.MAX_VALUE;
-        double merit; int i = 0, counter = 0;
-        Hashtable<String, Double> lookup = new Hashtable<String, Double>();
+        SubsetHandler subsetHandler = new SubsetHandler();
+        subsetHandler.setM_numAttribs(m_numAttribs);
+        BitSet best_group;
+        best_group = subsetHandler.getStartSet(m_numAttribs, 0);
+        double best_merit;
+        Hashtable<String, Double> lookForExistingSubsets = new Hashtable<String, Double>();
         // evaluate the initial subset
-        printGroup(best_group, m_numAttribs);
+        subsetHandler.printGroup(best_group);
         best_merit = tsWrapper.evaluateSubset(best_group, tsLagMaker, overlayFields);
         m_totalEvals++;
         String subset_string = best_group.toString();
-        lookup.put(subset_string, best_merit);
+        lookForExistingSubsets.put(subset_string, best_merit);
         System.out.println("Initial group with numAttribs: " + m_numAttribs + "/n");
         System.out.println("Merit: " + best_merit);
         errorLog.println(best_merit);
         while(m_totalEvals < 400){
-            counter = 0;
-            BitSet s_new = changeBits(m_numAttribs, (BitSet)best_group.clone());
+            BitSet s_new = subsetHandler.changeBits((BitSet)best_group.clone(), 1);
             subset_string = s_new.toString();
-            if(!lookup.containsKey(subset_string)){
+            if(!lookForExistingSubsets.containsKey(subset_string)){
                 double s_new_merit = tsWrapper.evaluateSubset(s_new, tsLagMaker, overlayFields);
                 m_totalEvals++;
                 System.out.println("New merit: " + s_new_merit);
-                lookup.put(subset_string, s_new_merit);
+                lookForExistingSubsets.put(subset_string, s_new_merit);
                 if(decisionFunction(best_merit - s_new_merit)){
                     best_group = (BitSet) s_new.clone();
                     best_merit = s_new_merit;
@@ -278,70 +255,6 @@ public class RandomSearch{
         else
             change = false;
         return change;
-    }
-    /**
-     *
-     * @param numAttribs size of the BitSet
-     *@param setPercentage Percentage of bits randomly being set to 1 for a start
-     * @return BitSet with setPercentage of Bits set to 1
-     */
-    protected BitSet getStartSet (int numAttribs, int setPercentage){
-        BitSet bitSet = new BitSet(numAttribs);
-        Random r = new Random();
-        boolean includesMoreThanXPercent = false;
-        bitSet.set(0); bitSet.set(1);                         //we always need the time stamp feed and the field to be forecasted; the time stamp field may be substituted later by time_remapped by the forecaster anyway
-        bitSet.set(numAttribs-1); bitSet.set(numAttribs-2);    //always setting local time remapped powers (for now at least)
-        //while(!includesMoreThanXPercent) {
-            for (int i = 2; i < numAttribs-2; i++) {
-                int chance = r.nextInt(100);
-                if (chance <= setPercentage) {
-                    bitSet.set(i);
-                }
-            }
-            //if(includesMoreThanXPercentOfFeatures(bitSet, numAttribs, false))
-              //  includesMoreThanXPercent = true;
-       // }
-        return bitSet;
-    }
-
-    /**
-     * changes 2 percent of the bits in the bitset
-     * @param numAttribs number of attributes (bits) to consider
-     * @param bitSet the bitset to change
-     * @return the slightly mutated bitset
-     */
-    protected BitSet changeBits(int numAttribs, BitSet bitSet){
-        Random r = new Random();
-        boolean includesMoreThanXPercent = false;
-        while(!includesMoreThanXPercent) {
-            for (int i = 2; i < numAttribs-2; i++) {              //starting from 2 because we need the time stamp and active_power attributes and not changing local time remapped products
-                int  chance = r.nextInt(100);
-                if (chance < 2) {
-                    if (bitSet.get(i))
-                        bitSet.set(i, false);
-                    else
-                        bitSet.set(i, true);
-                }
-                if(includesMoreThanXPercentOfFeatures(bitSet, numAttribs, false))         //making sure we dont drop below 25% of Features included after the mutation
-                    includesMoreThanXPercent = true;
-                else
-                    System.out.println("Repeating loop because it doesnt include X% features!");
-
-            }
-        }
-        return bitSet;
-    }
-    protected boolean includesMoreThanXPercentOfFeatures(BitSet bitSet, int numAttribs, boolean print){
-        int trueBits = 0;
-        for (int i = 2; i < numAttribs-2; i++) {              //We count as features just lags and overlay fields, the others are always there
-            if(bitSet.get(i))
-                trueBits++;
-        }
-        if (print)
-            System.out.println("Including:" + (float)trueBits/numAttribs + "% of features.");
-        if((float)trueBits/numAttribs > 0.12)
-            return true;
-        return  false;
     }
 
     /**

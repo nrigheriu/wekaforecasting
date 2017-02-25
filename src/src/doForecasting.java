@@ -5,7 +5,6 @@ import weka.classifiers.Classifier;
 import weka.classifiers.evaluation.NumericPrediction;
 import weka.core.Instances;
 import weka.filters.supervised.attribute.TSLagMaker;
-import weka.classifiers.timeseries.WekaForecaster;
 
 import java.io.*;
 import java.text.DecimalFormat;
@@ -35,6 +34,7 @@ public class doForecasting{
             String chosenLags = hashMap.printHashMapFeatures(75);
             resultLog.println(chosenLags);
 */
+
             TSLagMaker tsLagMaker = new TSLagMaker();
             tsLagMaker.setFieldsToLagAsString(data.attribute(1).name());
             tsLagMaker.setTimeStampField(data.attribute(0).name());
@@ -55,10 +55,10 @@ public class doForecasting{
            SimmulatedAnnealing simmulatedAnnealing = new SimmulatedAnnealing();
            RandomSearch randomSearch = new RandomSearch();
 
-            //randomSearch.search(laggedData, tsLagMaker, overlayFields);
+            randomSearch.search(laggedData, tsLagMaker, overlayFields);
            //simmulatedAnnealing.search(laggedData, tsLagMaker, overlayFields);
            // tsLagMaker.setLagRange("768, 1, 769, 2, 3, 4, 1291, 1292, 527, 528, 1296, 1049, 282, 1051, 286, 289, 290, 1058, 814, 815, 816, 817, 573, 1341, 574, 1342, 575, 1343, 576, 1344, 577, 578, 579, 1102, 335, 1103, 336, 1104, 93, 94, 862, 95, 863, 96, 864, 97, 865, 98, 99, 101, 1389, 1390, 1391, 624, 1392, 381, 1149, 382, 1150, 383, 1151, 384, 1152, 385, 910, 911, 912, 914, 668, 669, 671");
-            simmulatedAnnealing.search(laggedData, tsLagMaker, overlayFields);
+            //simmulatedAnnealing.search(laggedData, tsLagMaker, overlayFields);
             //bestFirst.search(laggedData, tsLagMaker, overlayFields);
             long stopTime = System.currentTimeMillis();
             double elapsedTime = ((double) stopTime - startTime)/1000;
@@ -72,9 +72,8 @@ public class doForecasting{
         int startLag = 1, endLag = startLag+ lagInterval-1;
         ArrayList<Thread> threadList = new ArrayList<Thread>();
         int threadNumber = 4;
-        if(lagLimit % threadNumber != 0){
+        if(lagLimit % threadNumber != 0)
             throw new ValueException("Lag limit has to be divisible with " + threadNumber + " because the lag intervals will be split to that number of threads!");
-        }
         int threadLagInterval = lagLimit/threadNumber;                          //each thread has a Interval of the whole lag range which will be assigned to it; this Interval will be calculated by the thread split again in the per parameter given Interval size
         for (int i = 0; i < threadNumber; i++) {
             startLag = (threadLagInterval * i) + 1;

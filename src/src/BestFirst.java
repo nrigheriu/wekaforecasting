@@ -26,23 +26,16 @@ import java.io.PrintWriter;
 import java.io.Serializable;
 import java.util.*;
 
-import weka.attributeSelection.*;
 import weka.classifiers.functions.LinearRegression;
-import weka.classifiers.meta.FilteredClassifier;
 import weka.core.Instances;
 import weka.core.Option;
-import weka.core.OptionHandler;
 import weka.core.Range;
 import weka.core.RevisionHandler;
 import weka.core.RevisionUtils;
 import weka.core.SelectedTag;
 import weka.core.Tag;
 import weka.core.Utils;
-import weka.filters.Filter;
-import weka.filters.MultiFilter;
-import weka.filters.supervised.attribute.NominalToBinary;
 import weka.filters.supervised.attribute.TSLagMaker;
-import weka.filters.unsupervised.attribute.Normalize;
 
 /**
  * <!-- globalinfo-start -->
@@ -697,53 +690,6 @@ public class BestFirst {
                 + Utils.doubleToString(Math.abs(m_bestMerit), 8, 3) + "\n");
         return BfString.toString();
     }
-
-    protected void printGroup(BitSet tt, int numAttribs) {
-        int i;
-
-        for (i = 0; i < numAttribs; i++) {
-            if (tt.get(i) == true) {
-                System.out.print((i + 1) + " ");
-            }
-        }
-
-        System.out.println();
-    }
-
-    protected BitSet getStartSet(int numAttribs, int setPercentage) {
-        BitSet bitSet = new BitSet(numAttribs);
-        Random r = new Random();
-        boolean atLeastOneLagSet = false;
-        boolean includesMoreThan25Percent = false;
-        for (int i = 0; i < listOfAttributesWhichShouldAlwaysBeThere.size(); i++)
-            bitSet.set(listOfAttributesWhichShouldAlwaysBeThere.get(i));
-        for (int i = 11; i < numAttribs - 2; i++) {
-            int chance = r.nextInt(100);
-            if (chance < setPercentage)
-                bitSet.set(i);
-        }
-    /*for (int i = 11; i < numAttribs-2; i++)
-      if(bitSet.get(i)) {
-        atLeastOneLagSet = true;
-        break;
-      }
-    if(!atLeastOneLagSet)
-      bitSet.set(11);*/                       //setting first lag because we need at least one lag to be set
-        return bitSet;
-    }
-
-    protected boolean includesMoreThanXPercentOfFeatures(BitSet bitSet, boolean print, int percentage) {
-        int trueBits = 0;
-        for (int i = 11; i < m_numAttribs - 2; i++)              //this interval makes sure we just consider the lags
-            if (bitSet.get(i))
-                trueBits++;
-        if (print)
-            System.out.println("Including:" + ((float) trueBits / m_numAttribs) * 100 + "% of features.");
-        if ((float) trueBits / m_numAttribs > (float) percentage/100)
-            return true;
-        return false;
-    }
-
     /**
      * Searches the attribute subset space by best first search
      *
@@ -757,21 +703,11 @@ public class BestFirst {
         tsWrapper.buildEvaluator(data);
         LinearRegression linearRegression = new LinearRegression();
         linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1 -R 1E-6"));
-   /* FilteredClassifier fc = new FilteredClassifier();
-    MultiFilter mf = new MultiFilter();
-    Normalize normalize = new Normalize();
-    NominalToBinary nbt = new NominalToBinary();
-    mf.setFilters(new Filter[]{normalize, nbt});
-    mf.setInputFormat(data);
-    fc.setFilter(mf);
-    fc.setClassifier(linearRegression);*/
         tsWrapper.setM_BaseClassifier(linearRegression);
-
-
+        SubsetHandler subsetHandler = new SubsetHandler();
+        subsetHandler.setM_numAttribs(m_numAttribs);
         m_totalEvals = 0;
         m_numAttribs = data.numAttributes();
-        listOfAttributesWhichShouldAlwaysBeThere.add(m_numAttribs - 1);
-        listOfAttributesWhichShouldAlwaysBeThere.add(m_numAttribs - 2);                 //these are time stamp fields
         int i, j;
         int best_size = 0;
         int size = 0;
@@ -784,13 +720,13 @@ public class BestFirst {
         boolean z;
         boolean added;
         Link2 tl;
-        Hashtable<String, Double> lookup = new Hashtable<String, Double>();
+        Hashtable<String, Double> lookForExistingSubsets = new Hashtable<String, Double>();
         int insertCount = 0;
         LinkedList2 bfList = new LinkedList2(m_maxStale);
         best_merit = -Double.MAX_VALUE;
         stale = 0;
 
-        best_group = getStartSet(data.numAttributes(), 0);
+        best_group = subsetHandler.getStartSet(data.numAttributes(), 0);
 
         m_startRange.setUpper(m_numAttribs - 1);
         if (!(getStartSet().equals("")))
@@ -837,7 +773,7 @@ public class BestFirst {
         bfList.addToList(best, best_merit);
         BitSet tt = (BitSet) best_group.clone();
         String hashC = tt.toString();
-        lookup.put(hashC, new Double(best_merit));
+        lookForExistingSubsets.put(hashC, new Double(best_merit));
         while (stale < m_maxStale) {
             added = false;
             if (m_searchDirection == SELECTION_BIDIRECTIONAL) {
@@ -866,11 +802,10 @@ public class BestFirst {
                     size++;
             do {
                 for (i = 11; i < m_numAttribs - 2; i++) {                                           //setting it to 11 to skip overlay fields, time stamps etc.
-                    if (sd == SELECTION_FORWARD) {
+                    if (sd == SELECTION_FORWARD)
                         z = ((i != m_classIndex) && (!temp_group.get(i)));
-                    } else {
+                    else
                         z = ((i != m_classIndex) && (temp_group.get(i)));
-                    }
                     if (z) {
                         // set the bit (attribute to add/delete)
                         if (sd == SELECTION_FORWARD) {
@@ -887,36 +822,36 @@ public class BestFirst {
                         tt = (BitSet) temp_group.clone();
                         hashC = tt.toString();
 
-                        if (lookup.containsKey(hashC) == false) {
+                        if (lookForExistingSubsets.containsKey(hashC) == false) {
                             //System.out.println("Before eval:" + temp_group);
                             merit = -tsWrapper.evaluateSubset(temp_group, tsLagMaker, overlayFields);
                             System.out.println("Merit: " + merit);
                             System.out.print("Group: ");
-                            printGroup(tt, m_numAttribs);
+                            subsetHandler.printGroup(tt);
                             m_totalEvals++;
                             errorLog.println(best_merit);
                             errorLog.println(m_totalEvals);
 
                              /* // insert this one in the hashtable
                               if (insertCount > m_cacheSize * m_numAttribs) {
-                                lookup = new Hashtable<String, Double>(m_cacheSize
+                                lookForExistingSubsets = new Hashtable<String, Double>(m_cacheSize
                                   * m_numAttribs);
                                 insertCount = 0;
                               }*/
                             hashC = tt.toString();
-                            lookup.put(hashC, new Double(merit));
+                            lookForExistingSubsets.put(hashC, new Double(merit));
                             insertCount++;
                             // insert this one in the list
 
                         } else {
-                            merit = lookup.get(hashC).doubleValue();
+                            merit = lookForExistingSubsets.get(hashC).doubleValue();
                         }
                         Object[] add = new Object[1];
                         add[0] = tt.clone();
                         bfList.addToList(add, merit);
                         if (m_debug) {
                             System.out.print("Group: ");
-                            printGroup(tt, m_numAttribs);
+                            subsetHandler.printGroup(tt);
                             System.out.println("Merit: " + merit);
                         }
 
@@ -965,12 +900,12 @@ public class BestFirst {
                 System.out.println("Stale:" + stale);
             }
         }
-        printGroup(best_group, m_numAttribs);
+        subsetHandler.printGroup(best_group);
         System.out.println("Best merit: " + best_merit);
         System.out.println(m_totalEvals);
         m_bestMerit = best_merit;
         tsWrapper.evaluateSubset(best_group, tsLagMaker, overlayFields);
-        includesMoreThanXPercentOfFeatures(best_group, true, 0);
+        subsetHandler.includesMoreThanXPercentOfFeatures(best_group, true, 0);
         return attributeList(best_group);
     }
 
@@ -986,14 +921,6 @@ public class BestFirst {
         m_totalEvals = 0;
         m_cacheSize = 1;
         m_debug = false;
-        listOfAttributesWhichShouldAlwaysBeThere.add(0);                    //best time stamp and overlay fields.
-        listOfAttributesWhichShouldAlwaysBeThere.add(1);
-        listOfAttributesWhichShouldAlwaysBeThere.add(2);
-        listOfAttributesWhichShouldAlwaysBeThere.add(3);
-        listOfAttributesWhichShouldAlwaysBeThere.add(6);
-        listOfAttributesWhichShouldAlwaysBeThere.add(7);
-        listOfAttributesWhichShouldAlwaysBeThere.add(9);
-        listOfAttributesWhichShouldAlwaysBeThere.add(10);
     }
 
     /**
@@ -1006,21 +933,16 @@ public class BestFirst {
         int count = 0;
 
         // count how many were selected
-        for (int i = 0; i < m_numAttribs; i++) {
-            if (group.get(i)) {
+        for (int i = 0; i < m_numAttribs; i++)
+            if (group.get(i));
                 count++;
-            }
-        }
 
         int[] list = new int[count];
         count = 0;
 
-        for (int i = 0; i < m_numAttribs; i++) {
-            if (group.get(i)) {
+        for (int i = 0; i < m_numAttribs; i++)
+            if (group.get(i))
                 list[count++] = i;
-            }
-        }
-
         return list;
     }
 

@@ -2,6 +2,7 @@ package src;
 
 import weka.attributeSelection.*;
 import weka.classifiers.functions.*;
+import weka.classifiers.meta.AttributeSelectedClassifier;
 import weka.classifiers.meta.multisearch.RandomSearch;
 import weka.core.Instances;
 import weka.classifiers.bayes.net.search.global.*;
@@ -10,9 +11,9 @@ import weka.classifiers.bayes.net.search.global.*;
  * Created by cycle on 09.12.16.
  */
 public class applyMetaClassifier {
-    public src.AttributeSelectedClassifier applyMetaClassifier(Instances trainData) {
+    public AttributeSelectedClassifier applyMetaClassifier(Instances trainData) {
         try {
-            src.AttributeSelectedClassifier attributeSelectedClassifier = new src.AttributeSelectedClassifier();
+            AttributeSelectedClassifier attributeSelectedClassifier = new AttributeSelectedClassifier();
             WrapperSubsetEval wrapperSubsetEval = new WrapperSubsetEval();
             //CfsSubsetEval cfsSubsetEval = new CfsSubsetEval();
             //HoltWinters holtWinters = new HoltWinters();

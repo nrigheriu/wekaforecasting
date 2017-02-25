@@ -5,8 +5,8 @@ import weka.classifiers.Classifier;
 import weka.classifiers.functions.LinearRegression;
 import weka.core.Instances;
 import weka.filters.Filter;
-import weka.filters.supervised.attribute.TSLagMaker;
 import weka.filters.unsupervised.attribute.Remove;
+import weka.filters.supervised.attribute.TSLagMaker;
 
 import java.util.ArrayList;
 import java.util.BitSet;

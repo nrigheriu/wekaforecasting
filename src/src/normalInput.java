@@ -2,33 +2,11 @@ package src;
 
 import java.io.*;
 
-import java.text.DecimalFormat;
-import java.util.*;
-import javax.swing.JPanel;
-
-import weka.attributeSelection.*;
 import weka.classifiers.functions.*;
 import weka.classifiers.lazy.IBk;
-import weka.classifiers.meta.multisearch.RandomSearch;
-import weka.classifiers.timeseries.HoltWinters;
-import weka.classifiers.timeseries.TSForecaster;
-import weka.classifiers.evaluation.NumericPrediction;
-import weka.classifiers.timeseries.eval.ErrorModule;
-import weka.classifiers.timeseries.WekaForecaster;
-import weka.classifiers.timeseries.core.TSLagUser;
-import weka.classifiers.timeseries.eval.TSEvaluation;
-import weka.classifiers.timeseries.eval.graph.JFreeChartDriver;
-import weka.classifiers.timeseries.eval.ErrorModule;
-import weka.classifiers.timeseries.core.TSLagUser;
 import weka.classifiers.meta.AttributeSelectedClassifier;
 import weka.core.Instances;
-import weka.core.Instance;
-import weka.core.Utils.*;
-import weka.core.Option;
-import weka.filters.Filter;
-import weka.filters.supervised.attribute.TSLagMaker;
-import weka.attributeSelection.ASSearch;
-import weka.core.Option;
+
 public class normalInput {
     public static void main(String[] args) {
         try {
