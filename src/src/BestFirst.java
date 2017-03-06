@@ -704,25 +704,25 @@ public class BestFirst {
         LinearRegression linearRegression = new LinearRegression();
         linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1 -R 1E-6"));
         tsWrapper.setM_BaseClassifier(linearRegression);
+
+        m_numAttribs = data.numAttributes();
         SubsetHandler subsetHandler = new SubsetHandler();
         subsetHandler.setM_numAttribs(m_numAttribs);
         m_totalEvals = 0;
-        m_numAttribs = data.numAttributes();
         int i, j;
         int best_size = 0;
         int size = 0;
         int done;
-        int sd = m_searchDirection;
+        int searchDirection = m_searchDirection;
         BitSet best_group, temp_group;
         int stale;
         double best_merit;
         double merit;
         boolean z;
         boolean added;
-        Link2 tl;
         Hashtable<String, Double> lookForExistingSubsets = new Hashtable<String, Double>();
         int insertCount = 0;
-        LinkedList2 bfList = new LinkedList2(m_maxStale);
+        LinkedList2 prioQueueList = new LinkedList2(m_maxStale);
         best_merit = -Double.MAX_VALUE;
         stale = 0;
 
@@ -739,13 +739,9 @@ public class BestFirst {
             best_size = m_starting.length;
             m_totalEvals++;
         } else {
-            System.out.println("This is being checked as it should be!");
             if (m_searchDirection == SELECTION_BACKWARD) {
-                for (int k = 0; k < listOfAttributesWhichShouldAlwaysBeThere.size(); k++)
-                    best_group.set(listOfAttributesWhichShouldAlwaysBeThere.get(k));
                 //setStartSet("1-last");
                 //m_starting = new int[m_numAttribs];
-
                 // init initial subset to all attributes
                 for (i = 11, j = 0; i < m_numAttribs; i++) {
                     if (i != m_classIndex) {
@@ -753,62 +749,62 @@ public class BestFirst {
                         //m_starting[j++] = i;
                     }
                 }
-
                 best_size = m_numAttribs - 1;
                 m_totalEvals++;
             }
         }
-        //best_group = getStartSet(m_numAttribs, 30);
-        //setStartSet(best_group.toString());
         // evaluate the initial subset
         best_merit = -tsWrapper.evaluateSubset(best_group, tsLagMaker, overlayFields);
         //printGroup(best_group, m_numAttribs);
         System.out.println("Merit:" + best_merit);
+        System.out.print("Group: ");
+        subsetHandler.printGroup(best_group);
+        System.out.println("\n");
         m_totalEvals++;
         errorLog.println(best_merit);
         errorLog.println(m_totalEvals);
         // add the initial group to the list and the hash table
         Object[] best = new Object[1];
         best[0] = best_group.clone();
-        bfList.addToList(best, best_merit);
-        BitSet tt = (BitSet) best_group.clone();
-        String hashC = tt.toString();
+        prioQueueList.addToList(best, best_merit);
+        String hashC = best_group.toString();
         lookForExistingSubsets.put(hashC, new Double(best_merit));
+
         while (stale < m_maxStale) {
             added = false;
             if (m_searchDirection == SELECTION_BIDIRECTIONAL) {
                 // bi-directional search
                 done = 2;
-                sd = SELECTION_FORWARD;
+                searchDirection = SELECTION_FORWARD;
             } else {
                 done = 1;
             }
             // finished search?
-            if (bfList.size() == 0) {
+            if (prioQueueList.size() == 0) {
                 stale = m_maxStale;
                 break;
             }
             // copy the attribute set at the head of the list
-            tl = bfList.getLinkAt(0);
-
-            temp_group = (BitSet) (tl.getData()[0]);
+            temp_group = (BitSet) (prioQueueList.getLinkAt(0).getData()[0]);
             temp_group = (BitSet) temp_group.clone();
             // remove the head of the list
-            bfList.removeLinkAt(0);
+            prioQueueList.removeLinkAt(0);
             // count the number of bits set (attributes)
             int kk;
             for (kk = 0, size = 0; kk < m_numAttribs; kk++)
                 if (temp_group.get(kk))
                     size++;
             do {
-                for (i = 11; i < m_numAttribs - 2; i++) {                                           //setting it to 11 to skip overlay fields, time stamps etc.
-                    if (sd == SELECTION_FORWARD)
+                for (i = 2; i < m_numAttribs; i++) {                                           //setting it to 11 to skip overlay fields, time stamps etc.
+                    if(i == 11)
+                        i = m_numAttribs - 2;
+                    if (searchDirection == SELECTION_FORWARD)
                         z = ((i != m_classIndex) && (!temp_group.get(i)));
                     else
                         z = ((i != m_classIndex) && (temp_group.get(i)));
                     if (z) {
                         // set the bit (attribute to add/delete)
-                        if (sd == SELECTION_FORWARD) {
+                        if (searchDirection == SELECTION_FORWARD) {
                             temp_group.set(i);
                             size++;
                         } else {
@@ -818,46 +814,39 @@ public class BestFirst {
                         /*
                          * if this subset has been seen before, then it is already in the
                          * list (or has been fully expanded)
-                         */
-                        tt = (BitSet) temp_group.clone();
-                        hashC = tt.toString();
+                        */
+                        hashC = temp_group.toString();
 
                         if (lookForExistingSubsets.containsKey(hashC) == false) {
                             //System.out.println("Before eval:" + temp_group);
                             merit = -tsWrapper.evaluateSubset(temp_group, tsLagMaker, overlayFields);
                             System.out.println("Merit: " + merit);
                             System.out.print("Group: ");
-                            subsetHandler.printGroup(tt);
+                            subsetHandler.printGroup(temp_group);
+                            System.out.println("\n");
                             m_totalEvals++;
                             errorLog.println(best_merit);
                             errorLog.println(m_totalEvals);
 
-                             /* // insert this one in the hashtable
-                              if (insertCount > m_cacheSize * m_numAttribs) {
-                                lookForExistingSubsets = new Hashtable<String, Double>(m_cacheSize
-                                  * m_numAttribs);
-                                insertCount = 0;
-                              }*/
-                            hashC = tt.toString();
+                            hashC = temp_group.toString();
                             lookForExistingSubsets.put(hashC, new Double(merit));
                             insertCount++;
                             // insert this one in the list
 
-                        } else {
+                        } else
                             merit = lookForExistingSubsets.get(hashC).doubleValue();
-                        }
                         Object[] add = new Object[1];
-                        add[0] = tt.clone();
-                        bfList.addToList(add, merit);
+                        add[0] = temp_group.clone();
+                        prioQueueList.addToList(add, merit);
                         if (m_debug) {
                             System.out.print("Group: ");
-                            subsetHandler.printGroup(tt);
+                            subsetHandler.printGroup(temp_group);
                             System.out.println("Merit: " + merit);
                         }
 
                         // is this better than the best?
-                        if (sd == SELECTION_FORWARD) {
-                            z = ((merit - best_merit) > 0.0001);                                 //they are both negative numbers; actually we are looking for the smallest error
+                        if (searchDirection == SELECTION_FORWARD) {
+                            z = ((merit - best_merit) > 0.000001);                                 //they are both negative numbers; actually we are looking for the smallest error
                         } else {
                             if (merit == best_merit) {
                                 z = (size < best_size);
@@ -877,7 +866,7 @@ public class BestFirst {
                         }
 
                         // unset this addition(deletion)
-                        if (sd == SELECTION_FORWARD) {
+                        if (searchDirection == SELECTION_FORWARD) {
                             temp_group.clear(i);
                             size--;
                         } else {
@@ -887,18 +876,14 @@ public class BestFirst {
                     }
                 }
                 if (done == 2)
-                    sd = SELECTION_BACKWARD;
+                    searchDirection = SELECTION_BACKWARD;
                 done--;
             } while (done > 0);
-
-      /*
-       * if we haven't added a new attribute subset then full expansion of this
-       * node hasen't resulted in anything better
-       */
-            if (!added) {
+           /* if we haven't added a new attribute subset then full expansion of this
+           * node hasen't resulted in anything better
+           */
+            if (!added)
                 stale++;
-                System.out.println("Stale:" + stale);
-            }
         }
         subsetHandler.printGroup(best_group);
         System.out.println("Best merit: " + best_merit);
@@ -931,15 +916,12 @@ public class BestFirst {
      **/
     protected int[] attributeList(BitSet group) {
         int count = 0;
-
         // count how many were selected
         for (int i = 0; i < m_numAttribs; i++)
-            if (group.get(i));
+            if (group.get(i))
                 count++;
-
         int[] list = new int[count];
         count = 0;
-
         for (int i = 0; i < m_numAttribs; i++)
             if (group.get(i))
                 list[count++] = i;
@@ -955,3 +937,14 @@ public class BestFirst {
         return RevisionUtils.extract("$Revision: 10396 $");
     }
 }
+
+
+
+
+
+/*   // insert this one in the hashtable
+  if (insertCount > m_cacheSize * m_numAttribs) {
+    lookForExistingSubsets = new Hashtable<String, Double>(m_cacheSize
+      * m_numAttribs);
+    insertCount = 0;
+  }*/

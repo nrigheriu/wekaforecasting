@@ -5,22 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7587b12-2478-48ce-a17b-10292d85196b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/src/SubsetHandler.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/src/AttributeSelectedClassifier.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/src/AttributeSelection.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/src/TSLagMaker.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/src/rankerWrapper.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/file1.png" afterPath="$PROJECT_DIR$/file1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/BestFirst.class" afterPath="$PROJECT_DIR$/target/classes/src/BestFirst.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/RandomSearch.class" afterPath="$PROJECT_DIR$/target/classes/src/RandomSearch.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/SimmulatedAnnealing.class" afterPath="$PROJECT_DIR$/target/classes/src/SimmulatedAnnealing.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/SubsetHandler.class" afterPath="$PROJECT_DIR$/target/classes/src/SubsetHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/TSWrapper.class" afterPath="$PROJECT_DIR$/target/classes/src/TSWrapper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/doForecasting.class" afterPath="$PROJECT_DIR$/target/classes/src/doForecasting.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BFerrorLog.txt" afterPath="$PROJECT_DIR$/BFerrorLog.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/errorLog.txt" afterPath="$PROJECT_DIR$/errorLog.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results.txt" afterPath="$PROJECT_DIR$/results.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/BestFirst.java" afterPath="$PROJECT_DIR$/src/src/BestFirst.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/RandomSearch.java" afterPath="$PROJECT_DIR$/src/src/RandomSearch.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/SimmulatedAnnealing.java" afterPath="$PROJECT_DIR$/src/src/SimmulatedAnnealing.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/SubsetHandler.java" afterPath="$PROJECT_DIR$/src/src/SubsetHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/TSCV.java" afterPath="$PROJECT_DIR$/src/src/TSCV.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/TSWrapper.java" afterPath="$PROJECT_DIR$/src/src/TSWrapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/applyMetaClassifier.java" afterPath="$PROJECT_DIR$/src/src/applyMetaClassifier.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/doForecasting.java" afterPath="$PROJECT_DIR$/src/src/doForecasting.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/normalInput.java" afterPath="$PROJECT_DIR$/src/src/normalInput.java" />
     </list>
@@ -47,65 +48,17 @@
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="RandomSearch.java" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/src/RandomSearch.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="1085">
-                    <caret line="238" column="39" lean-forward="false" selection-start-line="238" selection-start-column="39" selection-end-line="238" selection-end-column="39" />
-                    <folding>
-                      <element signature="imports" expanded="true" />
-                      <element signature="e#1757#1766#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="SubsetHandler.java" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/src/SubsetHandler.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="1462">
-                    <caret line="88" column="46" lean-forward="false" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
-                    <folding>
-                      <element signature="imports" expanded="true" />
-                      <element signature="e#365#374#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="wekaforecasting" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SimmulatedAnnealing.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/src/SimmulatedAnnealing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="316" column="25" lean-forward="false" selection-start-line="291" selection-start-column="22" selection-end-line="316" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BestFirst.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/BestFirst.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="872">
-              <caret line="710" column="16" lean-forward="false" selection-start-line="710" selection-start-column="16" selection-end-line="710" selection-end-column="16" />
+            <state relative-caret-position="289">
+              <caret line="848" column="61" lean-forward="false" selection-start-line="848" selection-start-column="61" selection-end-line="848" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,12 +66,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="buildErrorGraph.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/src/buildErrorGraph.java">
+      <file leaf-file-name="SubsetHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/SubsetHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="408">
+              <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+              <folding>
+                <element signature="e#2956#2957#0" expanded="false" />
+                <element signature="e#2991#2992#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,8 +82,8 @@
       <file leaf-file-name="doForecasting.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/doForecasting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="74" column="40" lean-forward="false" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
+            <state relative-caret-position="952">
+              <caret line="67" column="59" lean-forward="false" selection-start-line="67" selection-start-column="59" selection-end-line="67" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#doForecasting#0" expanded="false" />
@@ -136,26 +92,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applyFilterClassifier.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/src/applyFilterClassifier.java">
+      <file leaf-file-name="normalInput.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/src/normalInput.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="52" lean-forward="false" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applyMetaClassifier.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/src/applyMetaClassifier.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="12" column="54" lean-forward="false" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -163,28 +105,18 @@
       <file leaf-file-name="TSCV.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/TSCV.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="52" lean-forward="false" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+            <state relative-caret-position="629">
+              <caret line="52" column="24" lean-forward="true" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyHashMap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/src/MyHashMap.java">
+      <file leaf-file-name="buildErrorGraph.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/buildErrorGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="43" column="28" lean-forward="false" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DrawGraph.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/src/DrawGraph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+            <state relative-caret-position="527">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -193,11 +125,44 @@
       <file leaf-file-name="TSWrapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/TSWrapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="102" column="24" lean-forward="false" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
+            <state relative-caret-position="889">
+              <caret line="104" column="42" lean-forward="false" selection-start-line="104" selection-start-column="42" selection-end-line="104" selection-end-column="42" />
+              <folding>
+                <element signature="e#1940#1948#0" expanded="true" />
+                <element signature="e#2040#2048#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RandomSearch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/RandomSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="571">
+              <caret line="229" column="44" lean-forward="false" selection-start-line="229" selection-start-column="44" selection-end-line="229" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applyFilterClassifier.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/applyFilterClassifier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyThread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/MyThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -214,15 +179,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Remaining lags are em</find>
-      <find>745</find>
-      <find>7.83</find>
-      <find>7.8318910343895345</find>
-      <find>[temperature, monthOfYear, dayOfMonth, dayOfWeek, hourOfDay, Holiday]</find>
-      <find>temperature, dayOfMonth, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday</find>
-      <find>temperature, dayOfWeek, hourOfDay, quarterOfHour, Holiday</find>
-      <find>emperature, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday</find>
-      <find>temperature, monthOfYear, dayOfWeek, Weekend, hourOfDay</find>
       <find>[temperature, monthOfYear, Weekend, hourOfDay, Holiday]</find>
       <find>[temperature, monthOfYear, dayOfWeek, Weekend, hourOfDay, quarterOfHour]</find>
       <find>[temperature, dayOfWeek, hourOfDay, quarterOfHour, Holiday]</find>
@@ -244,6 +200,15 @@
       <find>8.85638349</find>
       <find>New merit: -8.8</find>
       <find>errorLog</find>
+      <find>Percentage</find>
+      <find>841</find>
+      <find>listofAt</find>
+      <find>7.5827</find>
+      <find>7.5711</find>
+      <find>7.571201782958175</find>
+      <find>7.247792136256468</find>
+      <find>12.697566082083478</find>
+      <find>10.879970136773547</find>
     </findStrings>
     <replaceStrings>
       <replace>firstpartexcludedRun</replace>
@@ -303,19 +268,19 @@
         <option value="$PROJECT_DIR$/src/src/DrawGraph.java" />
         <option value="$PROJECT_DIR$/src/src/buildErrorGraph.java" />
         <option value="$PROJECT_DIR$/src/src/myHashMap.java" />
-        <option value="$PROJECT_DIR$/src/src/normalInput.java" />
         <option value="$PROJECT_DIR$/src/anotherExample.java" />
         <option value="$PROJECT_DIR$/src/src/MyHashMap.java" />
         <option value="$PROJECT_DIR$/src/src/MyThread.java" />
-        <option value="$PROJECT_DIR$/src/src/TSWrapper.java" />
-        <option value="$PROJECT_DIR$/src/src/TSCV.java" />
-        <option value="$PROJECT_DIR$/src/src/SimmulatedAnnealing.java" />
-        <option value="$PROJECT_DIR$/src/src/BestFirst.java" />
-        <option value="$PROJECT_DIR$/src/src/RandomSearch.java" />
-        <option value="$PROJECT_DIR$/src/src/doForecasting.java" />
-        <option value="$PROJECT_DIR$/src/src/SubsetHandler.java" />
         <option value="$PROJECT_DIR$/src/src/applyFilterClassifier.java" />
         <option value="$PROJECT_DIR$/src/src/applyMetaClassifier.java" />
+        <option value="$PROJECT_DIR$/src/src/SimmulatedAnnealing.java" />
+        <option value="$PROJECT_DIR$/src/src/RandomSearch.java" />
+        <option value="$PROJECT_DIR$/src/src/SubsetHandler.java" />
+        <option value="$PROJECT_DIR$/src/src/doForecasting.java" />
+        <option value="$PROJECT_DIR$/src/src/BestFirst.java" />
+        <option value="$PROJECT_DIR$/src/src/TSCV.java" />
+        <option value="$PROJECT_DIR$/src/src/TSWrapper.java" />
+        <option value="$PROJECT_DIR$/src/src/normalInput.java" />
       </list>
     </option>
   </component>
@@ -348,8 +313,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="53" />
-    <option name="y" value="52" />
-    <option name="width" value="1254" />
+    <option name="y" value="-1388" />
+    <option name="width" value="1376" />
     <option name="height" value="1388" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -429,8 +394,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -477,6 +440,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -903,7 +868,12 @@
       <workItem from="1487713261927" duration="5138000" />
       <workItem from="1487763924855" duration="7430000" />
       <workItem from="1487935760958" duration="772000" />
-      <workItem from="1488042736211" duration="5861000" />
+      <workItem from="1488042736211" duration="6213000" />
+      <workItem from="1488193542571" duration="8800000" />
+      <workItem from="1488453649928" duration="1150000" />
+      <workItem from="1488543768477" duration="6216000" />
+      <workItem from="1488794552349" duration="7081000" />
+      <workItem from="1488802629561" duration="6640000" />
     </task>
     <task id="LOCAL-00001" summary="updates">
       <created>1484761837664</created>
@@ -923,7 +893,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="676588000" />
+    <option name="totallyTimeSpent" value="706827000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -935,22 +905,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="52" width="1254" height="1388" extended-state="4" />
-    <editor active="true" />
+    <frame x="53" y="-1388" width="1376" height="1388" extended-state="4" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286026" sideWeight="0.49808428" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27083334" sideWeight="0.49533224" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27039275" sideWeight="0.49533224" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32619774" sideWeight="0.5079236" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.49786553" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.26746726" sideWeight="0.49779457" order="2" side_tool="false" content_ui="tabs" x="1306" y="-1388" width="1254" height="1388" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.26746726" sideWeight="0.49779457" order="2" side_tool="false" content_ui="tabs" x="400" y="149" width="1284" height="1028" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22608025" sideWeight="0.4920764" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29537955" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2310231" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965213" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34182099" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24914286" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -966,8 +935,40 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34182099" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32619774" sideWeight="0.5079236" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965213" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24914286" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3955148" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286026" sideWeight="0.49808428" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27039275" sideWeight="0.49533224" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.49786553" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.26746726" sideWeight="0.49779457" order="2" side_tool="false" content_ui="tabs" x="1286" y="52" width="1274" height="1388" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22608025" sideWeight="0.4920764" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2310231" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34182099" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -1097,13 +1098,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/Evaluation.java" />
-    <entry file="file://$PROJECT_DIR$/src/src/AttributeSelectedClassifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="139" column="0" lean-forward="true" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/AttributeSelectedClassifier.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/nz/ac/waikato/cms/weka/weka-dev/3.9.1/weka-dev-3.9.1.jar!/weka/core/Range.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -1186,13 +1181,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/normalInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="52" column="43" lean-forward="false" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/anotherExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
@@ -1200,51 +1188,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/MyThread.java">
+    <entry file="file://$PROJECT_DIR$/src/src/TSLagMaker.java" />
+    <entry file="file://$PROJECT_DIR$/src/src/rankerWrapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/src/AttributeSelection.java" />
+    <entry file="file://$PROJECT_DIR$/src/src/DrawGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="357">
+          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/buildErrorGraph.java">
+    <entry file="file://$PROJECT_DIR$/src/src/applyMetaClassifier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/TSLagMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-948">
-          <caret line="2601" column="0" lean-forward="false" selection-start-line="2601" selection-start-column="0" selection-end-line="2601" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/TSWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="102" column="24" lean-forward="false" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/rankerWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="31" column="29" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="31" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/TSCV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="52" lean-forward="false" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+        <state relative-caret-position="136">
+          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1257,36 +1214,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/AttributeSelection.java">
+    <entry file="file://$PROJECT_DIR$/src/src/SimmulatedAnnealing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110">
-          <caret line="625" column="40" lean-forward="false" selection-start-line="625" selection-start-column="40" selection-end-line="625" selection-end-column="40" />
+        <state relative-caret-position="4046">
+          <caret line="272" column="33" lean-forward="false" selection-start-line="272" selection-start-column="33" selection-end-line="272" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/DrawGraph.java">
+    <entry file="file://$PROJECT_DIR$/src/src/applyFilterClassifier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        <state relative-caret-position="119">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/SubsetHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding>
+            <element signature="e#2956#2957#0" expanded="false" />
+            <element signature="e#2991#2992#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/BestFirst.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="872">
-          <caret line="710" column="16" lean-forward="false" selection-start-line="710" selection-start-column="16" selection-end-line="710" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/SimmulatedAnnealing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="316" column="25" lean-forward="false" selection-start-line="291" selection-start-column="22" selection-end-line="316" selection-end-column="25" />
+        <state relative-caret-position="289">
+          <caret line="848" column="61" lean-forward="false" selection-start-line="848" selection-start-column="61" selection-end-line="848" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1295,30 +1253,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/RandomSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1085">
-          <caret line="238" column="39" lean-forward="false" selection-start-line="238" selection-start-column="39" selection-end-line="238" selection-end-column="39" />
+        <state relative-caret-position="571">
+          <caret line="229" column="44" lean-forward="false" selection-start-line="229" selection-start-column="44" selection-end-line="229" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1757#1766#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/SubsetHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/src/MyThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="88" column="46" lean-forward="false" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
+        <state relative-caret-position="238">
+          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/buildErrorGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/TSCV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="52" column="24" lean-forward="true" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/TSWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="889">
+          <caret line="104" column="42" lean-forward="false" selection-start-line="104" selection-start-column="42" selection-end-line="104" selection-end-column="42" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#365#374#0" expanded="true" />
+            <element signature="e#1940#1948#0" expanded="true" />
+            <element signature="e#2040#2048#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/doForecasting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="74" column="40" lean-forward="false" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
+        <state relative-caret-position="952">
+          <caret line="67" column="59" lean-forward="false" selection-start-line="67" selection-start-column="59" selection-end-line="67" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#doForecasting#0" expanded="false" />
@@ -1326,23 +1307,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/applyFilterClassifier.java">
+    <entry file="file://$PROJECT_DIR$/src/src/normalInput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="52" lean-forward="false" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/applyMetaClassifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="12" column="54" lean-forward="false" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>

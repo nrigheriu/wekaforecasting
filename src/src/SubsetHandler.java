@@ -54,7 +54,7 @@ public class SubsetHandler {
         boolean includesMoreThan25Percent = false;
         for (int i = 0; i < listOfAttributesWhichShouldAlwaysBeThere.size(); i++)
             bitSet.set(listOfAttributesWhichShouldAlwaysBeThere.get(i));
-        for (int i = 11; i < numAttribs - 2; i++) {
+        for (int i = 2; i < 11; i++) {
             int chance = r.nextInt(100);
             if (chance < setPercentage)
                 bitSet.set(i);
@@ -79,8 +79,8 @@ public class SubsetHandler {
 
     public void setM_numAttribs(int m_numAttribs) {
         this.m_numAttribs = m_numAttribs;
-        listOfAttributesWhichShouldAlwaysBeThere.add(m_numAttribs - 1);
-        listOfAttributesWhichShouldAlwaysBeThere.add(m_numAttribs - 2);                 //these are time stamp fields
+        /*listOfAttributesWhichShouldAlwaysBeThere.add(m_numAttribs - 1);
+        listOfAttributesWhichShouldAlwaysBeThere.add(m_numAttribs - 2);                 *///these are time stamp fields
     }
 
     public float howMuchPercentOfBitsAreDifferent(BitSet bitSet1, BitSet bitSet2) {
@@ -107,12 +107,12 @@ public class SubsetHandler {
     public SubsetHandler() {
         listOfAttributesWhichShouldAlwaysBeThere.add(0);                    //best time stamp and overlay fields.
         listOfAttributesWhichShouldAlwaysBeThere.add(1);
-        listOfAttributesWhichShouldAlwaysBeThere.add(2);
+      /*  listOfAttributesWhichShouldAlwaysBeThere.add(2);
         listOfAttributesWhichShouldAlwaysBeThere.add(3);
         listOfAttributesWhichShouldAlwaysBeThere.add(6);
         listOfAttributesWhichShouldAlwaysBeThere.add(7);
         listOfAttributesWhichShouldAlwaysBeThere.add(9);
-        listOfAttributesWhichShouldAlwaysBeThere.add(10);
+        listOfAttributesWhichShouldAlwaysBeThere.add(10);*/
     }
 
 }

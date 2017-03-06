@@ -269,8 +269,8 @@ public class SimmulatedAnnealing {
         SubsetHandler subsetHandler = new SubsetHandler();
         subsetHandler.setM_numAttribs(m_numAttribs);
         BitSet best_group;
-        best_group = subsetHandler.getStartSet(m_numAttribs, 40);
-        float temperature = 7, initialTemp = temperature;
+        best_group = subsetHandler.getStartSet(m_numAttribs, 0);
+        double temperature = 0.17, initialTemp = temperature;
         double best_merit;
         int i = 0, changedAltoughWorseCounter = 0;
         Hashtable<String, Double> lookForExistingSubsets = new Hashtable<String, Double>();
@@ -285,10 +285,10 @@ public class SimmulatedAnnealing {
         errorLog.println(best_merit);
         errorLog.println(temperature);
         TheVeryBest theVeryBest = new TheVeryBest((BitSet) best_group.clone(), best_merit);
-        boolean[] changedAlthoughWorse = new boolean[9];
+        boolean[] changedAlthoughWorse = new boolean[6];
         for (int j = 0; j < changedAlthoughWorse.length; j++)
             changedAlthoughWorse[j] = true;
-        while (temperature > 0.0001) {
+        while (temperature > 0.000006) {
             changedAltoughWorseCounter = 0;
             BitSet s_new = subsetHandler.changeBits((BitSet) best_group.clone(), 1);
             subset_string = s_new.toString();
@@ -298,27 +298,26 @@ public class SimmulatedAnnealing {
                 System.out.println("New merit: " + s_new_merit);
                 lookForExistingSubsets.put(subset_string, s_new_merit);
                 if (decisionFunction(s_new_merit - best_merit, temperature, best_merit, initialTemp, errorLog)) {
-                    if (best_merit - s_new_merit > 0) {                   //it means this is a worse set than the best set, and we still change the best set to it.
+                    if (best_merit - s_new_merit > 0)                    //it means this is a worse set than the best set, and we still change the best set to it.
                         changedAlthoughWorse[i++] = true;
-                        for (int j = 0; j < changedAlthoughWorse.length; j++)
-                            if (changedAlthoughWorse[j])
-                                changedAltoughWorseCounter++;
-                        System.out.println("Percentage of worse sets accepted: " + (float) changedAltoughWorseCounter * 100 / changedAlthoughWorse.length);
-                        i = i % changedAlthoughWorse.length;
-                    }
                     best_group = (BitSet) s_new.clone();
                     best_merit = s_new_merit;
                     errorLog.println(s_new_merit);
                     errorLog.println(temperature);
                 } else
                     changedAlthoughWorse[i++] = false;
+                for (int j = 0; j < changedAlthoughWorse.length; j++)
+                    if (changedAlthoughWorse[j])
+                        changedAltoughWorseCounter++;
+                System.out.println("Percentage of worse sets accepted: " + (float) changedAltoughWorseCounter * 100 / changedAlthoughWorse.length);
+                i = i % changedAlthoughWorse.length;
                 if (best_merit > theVeryBest.getMerit())                          //we have negative values for the scores, so bigger is better
                     theVeryBest.setNewSet((BitSet) best_group.clone(), best_merit);
                 if (temperature > 5)
-                    temperature = temperature / (float) (1 + 0.0006 * (m_totalEvals - 1));
+                    temperature = temperature / (float) (1 + 0.0002 * (m_totalEvals - 1));
                     //temp *= 0.997;
                 else
-                    temperature = temperature / (float) (1 + 0.0006 * (m_totalEvals - 1));
+                    temperature = temperature / (float) (1 + 0.0002 * (m_totalEvals - 1));
                 // temp *= 0.97;
             }
         }
@@ -331,7 +330,7 @@ public class SimmulatedAnnealing {
     }
 
 
-    protected boolean decisionFunction(double difference, float temp, double bestMerit, float initialTemp, PrintWriter errorLog) {
+    protected boolean decisionFunction(double difference, double temp, double bestMerit, double initialTemp, PrintWriter errorLog) {
         boolean change = false;
         double randomNr = Math.random();
         int i = 0;
@@ -341,7 +340,7 @@ public class SimmulatedAnnealing {
         else {
             double tempPercentage = ((double) temp / initialTemp) * 100;
             double errorPercentage = -(difference * 100) / bestMerit;
-            double expFunction = Math.exp(errorPercentage / temp);
+            double expFunction = Math.exp(difference / temp);
             System.out.println("Expfunction: " + expFunction + " Error% : " + -errorPercentage);
             if (expFunction >= randomNr) {
                 change = true;

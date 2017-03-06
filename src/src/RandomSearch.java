@@ -214,7 +214,7 @@ public class RandomSearch{
         SubsetHandler subsetHandler = new SubsetHandler();
         subsetHandler.setM_numAttribs(m_numAttribs);
         BitSet best_group;
-        best_group = subsetHandler.getStartSet(m_numAttribs, 0);
+        best_group = subsetHandler.getStartSet(m_numAttribs, 1);
         double best_merit;
         Hashtable<String, Double> lookForExistingSubsets = new Hashtable<String, Double>();
         // evaluate the initial subset

@@ -77,6 +77,7 @@ public class TSWrapper {
         for (int k = 0; k < trainCopy.numAttributes(); k++) {
             String attrName = trainCopy.attribute(k).name();
             remainingAttributes.add(k, attrName);
+            System.out.print(attrName + ", ");
             if(attrName.contains("Lag_" + tsLagMaker.getFieldsToLagAsString())){                      //it means we have a lag attribute in the subset and we should update the lagmaker with it
                 remainingLags += attrName.substring(attrName.length() - 4, attrName.length()).replaceAll("[^0-9]", "");
                 remainingLags += ", ";
@@ -86,18 +87,18 @@ public class TSWrapper {
             remainingLags = remainingLags.substring(0, remainingLags.length()-2);
         else if(remainingLags.isEmpty()) {
             String attrName = m_data.attribute(11).name();
-            System.out.println("Remaining lags are empty so setting it to 0.");
+            //System.out.println("Remaining lags are empty so setting it to 0.");
             remainingLags += "11";                                                                //we need at least one lag or else the classifier doesn't have what to train on, this is chosen to be the "worst" so it doesnt influence rest of evalution
             //remainingLags +=  attrName.substring(attrName.length() - 4, attrName.length()).replaceAll("[^0-9]", "");
         }
+        remainingLags = "697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288";
         System.out.println("Remaining lags: " + remainingLags);
         tsLagMaker.setLagRange(remainingLags);
         i = 0;
         for (int k = 0; k < overlayFields.size(); k++)                       //updating the tsLagmaker with the still available overlay Fields
             if(remainingAttributes.contains(overlayFields.get(k)))
                 newOverlayFields.add(i++, overlayFields.get(k));
-        //System.out.println("Remaining overlay fields: " + newOverlayFields.toString());
-        System.out.println("\n");
+        System.out.println("Remaining overlay fields: " + newOverlayFields.toString());
         tsLagMaker.setOverlayFields(newOverlayFields);
         TSCV tscv = new TSCV();
         tscv.crossValidateTS(trainCopy, m_BaseClassifier, tsLagMaker);

@@ -39,7 +39,7 @@ public class TSCV {
             long sTime = System.currentTimeMillis();
             for (int trainingPercentage = 70; trainingPercentage <= 80; trainingPercentage += 5) {
                 numUnitsForecasted = 1;
-                numberOfUnitsToForecast = 3;
+                numberOfUnitsToForecast = 28;
                 trainData = getSplittedData(data, trainingPercentage, true);
                 testData = getSplittedData(data, trainingPercentage, false);
                 forecaster.buildForecaster(trainData);
@@ -77,11 +77,10 @@ public class TSCV {
     public Instances getSplittedData(Instances data, Integer trainPercent, boolean getTrainData){
         int trainSize = (int) Math.round(data.numInstances() * trainPercent/100);
         int testSize = data.numInstances()-trainSize;
-        if (getTrainData){
+        if (getTrainData)
             return new Instances(data, 0, trainSize);
-        }else {
+        else
             return new Instances(data, trainSize, testSize);
-        }
     }
     public double calculateErrors (boolean printOutput, String evaluationMeasure){
         double errorSum = 0;

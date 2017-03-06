@@ -1,0 +1,1181 @@
+/lib/jvm/jdk1.8.0_111/bin/java -Xmx8128m -Didea.launcher.port=7534 -Didea.launcher.bin.path=/home/cycle/programs/idea-IU-163.10154.41/bin -Dfile.encoding=UTF-8 -classpath /lib/jvm/jdk1.8.0_111/jre/lib/charsets.jar:/lib/jvm/jdk1.8.0_111/jre/lib/deploy.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/cldrdata.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/dnsns.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/jaccess.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/jfxrt.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/localedata.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/nashorn.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/sunec.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/sunjce_provider.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/sunpkcs11.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/zipfs.jar:/lib/jvm/jdk1.8.0_111/jre/lib/javaws.jar:/lib/jvm/jdk1.8.0_111/jre/lib/jce.jar:/lib/jvm/jdk1.8.0_111/jre/lib/jfr.jar:/lib/jvm/jdk1.8.0_111/jre/lib/jfxswt.jar:/lib/jvm/jdk1.8.0_111/jre/lib/jsse.jar:/lib/jvm/jdk1.8.0_111/jre/lib/management-agent.jar:/lib/jvm/jdk1.8.0_111/jre/lib/plugin.jar:/lib/jvm/jdk1.8.0_111/jre/lib/resources.jar:/lib/jvm/jdk1.8.0_111/jre/lib/rt.jar:/home/cycle/workspace/wekaforecasting-new-features/target/classes:/home/cycle/.m2/repository/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19.jar:/home/cycle/.m2/repository/org/jfree/jcommon/1.0.23/jcommon-1.0.23.jar:/home/cycle/.m2/repository/com/github/fracpete/multisearch-weka-package/2016.6.7/multisearch-weka-package-2016.6.7.jar:/home/cycle/.m2/repository/nz/ac/waikato/cms/weka/weka-dev/3.9.1/weka-dev-3.9.1.jar:/home/cycle/.m2/repository/nz/ac/waikato/cms/weka/thirdparty/java-cup-11b/2015.03.26/java-cup-11b-2015.03.26.jar:/home/cycle/.m2/repository/nz/ac/waikato/cms/weka/thirdparty/java-cup-11b-runtime/2015.03.26/java-cup-11b-runtime-2015.03.26.jar:/home/cycle/.m2/repository/nz/ac/waikato/cms/weka/thirdparty/bounce/0.18/bounce-0.18.jar:/home/cycle/.m2/repository/com/googlecode/matrix-toolkits-java/mtj/1.0.4/mtj-1.0.4.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.jar:/home/cycle/.m2/repository/com/github/fommil/jniloader/1.1/jniloader-1.1.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1-natives.jar:/home/cycle/.m2/repository/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar:/home/cycle/.m2/repository/com/googlecode/netlib-java/netlib-java/1.1/netlib-java-1.1.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/core/1.1/core-1.1.jar:/home/cycle/workspace/wekaforecasting-new-features/dependencies/multiLayerPerceptrons.jar:/home/cycle/workspace/wekaforecasting-new-features/dependencies/timeseriesForecasting-1.0.24.jar:/home/cycle/programs/idea-IU-163.10154.41/lib/idea_rt.jar com.intellij.rt.execution.application.AppMain src.normalInput
+Mar 06, 2017 1:19:43 PM com.github.fommil.jni.JniLoader liberalLoad
+INFO: successfully loaded /tmp/jniloader4468121754929429226netlib-native_system-linux-x86_64.so
+local_time, active_power, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: []
+Mar 06, 2017 1:19:44 PM com.github.fommil.jni.JniLoader load
+INFO: already loaded netlib-native_system-linux-x86_64.so
+Mar 06, 2017 1:19:44 PM com.github.fommil.jni.JniLoader load
+INFO: already loaded netlib-native_system-linux-x86_64.so
+Merit:-31.786671232082835
+Group: 1 2 
+
+
+local_time, active_power, temperature, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature]
+Merit: -16.343170658118343
+Group: 1 2 3 
+
+
+Setting best merit to:-16.343170658118343
+local_time, active_power, monthOfYear, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [monthOfYear]
+Merit: -32.212071245884424
+Group: 1 2 4 
+
+
+local_time, active_power, dayOfMonth, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [dayOfMonth]
+Merit: -34.381705734010154
+Group: 1 2 5 
+
+
+local_time, active_power, dayOfWeek, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [dayOfWeek]
+Merit: -31.254964049021467
+Group: 1 2 6 
+
+
+local_time, active_power, Weekend, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [Weekend]
+Merit: -31.38216676466474
+Group: 1 2 7 
+
+
+local_time, active_power, hourOfDay, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [hourOfDay]
+Merit: -10.772794211367648
+Group: 1 2 8 
+
+
+Setting best merit to:-10.772794211367648
+local_time, active_power, quarterOfHour, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [quarterOfHour]
+Merit: -31.844544895101052
+Group: 1 2 9 
+
+
+local_time, active_power, Holiday, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [Holiday]
+Merit: -31.921063461396862
+Group: 1 2 10 
+
+
+local_time, active_power, local_time-remapped, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: []
+Merit: -31.786671232082835
+Group: 1 2 11 
+
+
+local_time, active_power, local_time-remapped^2, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: []
+Merit: -31.786671232082835
+Group: 1 2 18 
+
+
+local_time, active_power, local_time-remapped^3, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: []
+Merit: -31.786671232082835
+Group: 1 2 19 
+
+
+local_time, active_power, temperature, hourOfDay, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, hourOfDay]
+Merit: -7.613057573038835
+Group: 1 2 3 8 
+
+
+Setting best merit to:-7.613057573038835
+local_time, active_power, monthOfYear, hourOfDay, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [monthOfYear, hourOfDay]
+Merit: -11.403118963313334
+Group: 1 2 4 8 
+
+
+local_time, active_power, dayOfMonth, hourOfDay, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [dayOfMonth, hourOfDay]
+Merit: -12.109048490119699
+Group: 1 2 5 8 
+
+
+local_time, active_power, dayOfWeek, hourOfDay, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [dayOfWeek, hourOfDay]
+Merit: -10.036639735112429
+Group: 1 2 6 8 
+
+
+local_time, active_power, Weekend, hourOfDay, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [Weekend, hourOfDay]
+Merit: -10.4904105707492
+Group: 1 2 7 8 
+
+
+local_time, active_power, hourOfDay, quarterOfHour, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [hourOfDay, quarterOfHour]
+Merit: -10.769181846004802
+Group: 1 2 8 9 
+
+
+local_time, active_power, hourOfDay, Holiday, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [hourOfDay, Holiday]
+Merit: -10.641745080442215
+Group: 1 2 8 10 
+
+
+local_time, active_power, hourOfDay, local_time-remapped, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [hourOfDay]
+Merit: -10.772794211367648
+Group: 1 2 8 11 
+
+
+local_time, active_power, hourOfDay, local_time-remapped^2, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [hourOfDay]
+Merit: -10.772794211367648
+Group: 1 2 8 18 
+
+
+local_time, active_power, hourOfDay, local_time-remapped^3, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [hourOfDay]
+Merit: -10.772794211367648
+Group: 1 2 8 19 
+
+
+local_time, active_power, temperature, monthOfYear, hourOfDay, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, monthOfYear, hourOfDay]
+Merit: -8.10483763574843
+Group: 1 2 3 4 8 
+
+
+local_time, active_power, temperature, dayOfMonth, hourOfDay, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, dayOfMonth, hourOfDay]
+Merit: -8.122149329325081
+Group: 1 2 3 5 8 
+
+
+local_time, active_power, temperature, dayOfWeek, hourOfDay, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, dayOfWeek, hourOfDay]
+Merit: -7.295921994546692
+Group: 1 2 3 6 8 
+
+
+Setting best merit to:-7.295921994546692
+local_time, active_power, temperature, Weekend, hourOfDay, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, Weekend, hourOfDay]
+Merit: -7.461501285850801
+Group: 1 2 3 7 8 
+
+
+local_time, active_power, temperature, hourOfDay, quarterOfHour, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, hourOfDay, quarterOfHour]
+Merit: -7.607392809879501
+Group: 1 2 3 8 9 
+
+
+local_time, active_power, temperature, hourOfDay, Holiday, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, hourOfDay, Holiday]
+Merit: -7.562387087568514
+Group: 1 2 3 8 10 
+
+
+local_time, active_power, temperature, hourOfDay, local_time-remapped, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, hourOfDay]
+Merit: -7.613057573038835
+Group: 1 2 3 8 11 
+
+
+local_time, active_power, temperature, hourOfDay, local_time-remapped^2, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, hourOfDay]
+Merit: -7.613057573038835
+Group: 1 2 3 8 18 
+
+
+local_time, active_power, temperature, hourOfDay, local_time-remapped^3, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, hourOfDay]
+Merit: -7.613057573038835
+Group: 1 2 3 8 19 
+
+
+local_time, active_power, temperature, monthOfYear, dayOfWeek, hourOfDay, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, monthOfYear, dayOfWeek, hourOfDay]
+Merit: -7.538784312456884
+Group: 1 2 3 4 6 8 
+
+
+local_time, active_power, temperature, dayOfMonth, dayOfWeek, hourOfDay, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, dayOfMonth, dayOfWeek, hourOfDay]
+Merit: -7.64399157312484
+Group: 1 2 3 5 6 8 
+
+
+local_time, active_power, temperature, dayOfWeek, Weekend, hourOfDay, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, dayOfWeek, Weekend, hourOfDay]
+Merit: -7.295921994508911
+Group: 1 2 3 6 7 8 
+
+
+local_time, active_power, temperature, dayOfWeek, hourOfDay, quarterOfHour, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, dayOfWeek, hourOfDay, quarterOfHour]
+Merit: -7.289554334007177
+Group: 1 2 3 6 8 9 
+
+
+Setting best merit to:-7.289554334007177
+local_time, active_power, temperature, dayOfWeek, hourOfDay, Holiday, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, dayOfWeek, hourOfDay, Holiday]
+Merit: -7.253694630678916
+Group: 1 2 3 6 8 10 
+
+
+Setting best merit to:-7.253694630678916
+local_time, active_power, temperature, dayOfWeek, hourOfDay, local_time-remapped, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, dayOfWeek, hourOfDay]
+Merit: -7.295921994546692
+Group: 1 2 3 6 8 11 
+
+
+local_time, active_power, temperature, dayOfWeek, hourOfDay, local_time-remapped^2, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, dayOfWeek, hourOfDay]
+Merit: -7.295921994546692
+Group: 1 2 3 6 8 18 
+
+
+local_time, active_power, temperature, dayOfWeek, hourOfDay, local_time-remapped^3, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, dayOfWeek, hourOfDay]
+Merit: -7.295921994546692
+Group: 1 2 3 6 8 19 
+
+
+local_time, active_power, temperature, monthOfYear, dayOfWeek, hourOfDay, Holiday, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, monthOfYear, dayOfWeek, hourOfDay, Holiday]
+Merit: -7.469166129936978
+Group: 1 2 3 4 6 8 10 
+
+
+local_time, active_power, temperature, dayOfMonth, dayOfWeek, hourOfDay, Holiday, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, dayOfMonth, dayOfWeek, hourOfDay, Holiday]
+Merit: -7.584702591951414
+Group: 1 2 3 5 6 8 10 
+
+
+local_time, active_power, temperature, dayOfWeek, Weekend, hourOfDay, Holiday, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, dayOfWeek, Weekend, hourOfDay, Holiday]
+Merit: -7.2536946306539365
+Group: 1 2 3 6 7 8 10 
+
+
+local_time, active_power, temperature, dayOfWeek, hourOfDay, quarterOfHour, Holiday, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, dayOfWeek, hourOfDay, quarterOfHour, Holiday]
+Merit: -7.247792136256468
+Group: 1 2 3 6 8 9 10 
+
+
+Setting best merit to:-7.247792136256468
+local_time, active_power, temperature, dayOfWeek, hourOfDay, Holiday, local_time-remapped, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, dayOfWeek, hourOfDay, Holiday]
+Merit: -7.253694630678916
+Group: 1 2 3 6 8 10 11 
+
+
+local_time, active_power, temperature, dayOfWeek, hourOfDay, Holiday, local_time-remapped^2, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, dayOfWeek, hourOfDay, Holiday]
+Merit: -7.253694630678916
+Group: 1 2 3 6 8 10 18 
+
+
+local_time, active_power, temperature, dayOfWeek, hourOfDay, Holiday, local_time-remapped^3, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, dayOfWeek, hourOfDay, Holiday]
+Merit: -7.253694630678916
+Group: 1 2 3 6 8 10 19 
+
+
+local_time, active_power, temperature, monthOfYear, dayOfWeek, hourOfDay, quarterOfHour, Holiday, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, monthOfYear, dayOfWeek, hourOfDay, quarterOfHour, Holiday]
+Merit: -7.466131015129781
+Group: 1 2 3 4 6 8 9 10 
+
+
+local_time, active_power, temperature, dayOfMonth, dayOfWeek, hourOfDay, quarterOfHour, Holiday, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, dayOfMonth, dayOfWeek, hourOfDay, quarterOfHour, Holiday]
+Merit: -7.5821891485825805
+Group: 1 2 3 5 6 8 9 10 
+
+
+local_time, active_power, temperature, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday]
+Merit: -7.247792136231466
+Group: 1 2 3 6 7 8 9 10 
+
+
+local_time, active_power, temperature, dayOfWeek, hourOfDay, quarterOfHour, Holiday, local_time-remapped, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, dayOfWeek, hourOfDay, quarterOfHour, Holiday]
+Merit: -7.247792136256468
+Group: 1 2 3 6 8 9 10 11 
+
+
+local_time, active_power, temperature, dayOfWeek, hourOfDay, quarterOfHour, Holiday, local_time-remapped^2, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, dayOfWeek, hourOfDay, quarterOfHour, Holiday]
+Merit: -7.247792136256468
+Group: 1 2 3 6 8 9 10 18 
+
+
+local_time, active_power, temperature, dayOfWeek, hourOfDay, quarterOfHour, Holiday, local_time-remapped^3, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, dayOfWeek, hourOfDay, quarterOfHour, Holiday]
+Merit: -7.247792136256468
+Group: 1 2 3 6 8 9 10 19 
+
+
+local_time, active_power, temperature, monthOfYear, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, monthOfYear, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday]
+Merit: -7.466131015112091
+Group: 1 2 3 4 6 7 8 9 10 
+
+
+local_time, active_power, temperature, dayOfMonth, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, dayOfMonth, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday]
+Merit: -7.582189148570527
+Group: 1 2 3 5 6 7 8 9 10 
+
+
+local_time, active_power, temperature, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday, local_time-remapped, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday]
+Merit: -7.247792136231466
+Group: 1 2 3 6 7 8 9 10 11 
+
+
+local_time, active_power, temperature, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday, local_time-remapped^2, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday]
+Merit: -7.247792136231466
+Group: 1 2 3 6 7 8 9 10 18 
+
+
+local_time, active_power, temperature, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday, local_time-remapped^3, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday]
+Merit: -7.247792136231466
+Group: 1 2 3 6 7 8 9 10 19 
+
+
+local_time, active_power, temperature, monthOfYear, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday, local_time-remapped, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, monthOfYear, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday]
+Merit: -7.466131015112091
+Group: 1 2 3 4 6 7 8 9 10 11 
+
+
+local_time, active_power, temperature, dayOfMonth, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday, local_time-remapped, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, dayOfMonth, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday]
+Merit: -7.582189148570527
+Group: 1 2 3 5 6 7 8 9 10 11 
+
+
+local_time, active_power, temperature, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday, local_time-remapped, local_time-remapped^2, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday]
+Merit: -7.247792136231466
+Group: 1 2 3 6 7 8 9 10 11 18 
+
+
+local_time, active_power, temperature, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday, local_time-remapped, local_time-remapped^3, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday]
+Merit: -7.247792136231466
+Group: 1 2 3 6 7 8 9 10 11 19 
+
+
+local_time, active_power, temperature, monthOfYear, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday, local_time-remapped^2, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, monthOfYear, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday]
+Merit: -7.466131015112091
+Group: 1 2 3 4 6 7 8 9 10 18 
+
+
+local_time, active_power, temperature, dayOfMonth, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday, local_time-remapped^2, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, dayOfMonth, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday]
+Merit: -7.582189148570527
+Group: 1 2 3 5 6 7 8 9 10 18 
+
+
+local_time, active_power, temperature, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday, local_time-remapped^2, local_time-remapped^3, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday]
+Merit: -7.247792136231466
+Group: 1 2 3 6 7 8 9 10 18 19 
+
+
+local_time, active_power, temperature, monthOfYear, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday, local_time-remapped^3, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, monthOfYear, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday]
+Merit: -7.466131015112091
+Group: 1 2 3 4 6 7 8 9 10 19 
+
+
+local_time, active_power, temperature, dayOfMonth, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday, local_time-remapped^3, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, dayOfMonth, dayOfWeek, Weekend, hourOfDay, quarterOfHour, Holiday]
+Merit: -7.582189148570527
+Group: 1 2 3 5 6 7 8 9 10 19 
+
+
+1 2 3 6 8 9 10 
+Best merit: -7.247792136256468
+66
+local_time, active_power, temperature, dayOfWeek, hourOfDay, quarterOfHour, Holiday, Remaining lags: 697, 792, 888, 1030, 1032, 1080
+Remaining overlay fields: [temperature, dayOfWeek, hourOfDay, quarterOfHour, Holiday]
+Including:0.0% of features.
+
+Process finished with exit code 0
+Time taken: 46.42
+
+
+1YEAR DATA:
+/lib/jvm/jdk1.8.0_111/bin/java -Xmx8128m -Didea.launcher.port=7539 -Didea.launcher.bin.path=/home/cycle/programs/idea-IU-163.10154.41/bin -Dfile.encoding=UTF-8 -classpath /lib/jvm/jdk1.8.0_111/jre/lib/charsets.jar:/lib/jvm/jdk1.8.0_111/jre/lib/deploy.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/cldrdata.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/dnsns.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/jaccess.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/jfxrt.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/localedata.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/nashorn.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/sunec.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/sunjce_provider.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/sunpkcs11.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/zipfs.jar:/lib/jvm/jdk1.8.0_111/jre/lib/javaws.jar:/lib/jvm/jdk1.8.0_111/jre/lib/jce.jar:/lib/jvm/jdk1.8.0_111/jre/lib/jfr.jar:/lib/jvm/jdk1.8.0_111/jre/lib/jfxswt.jar:/lib/jvm/jdk1.8.0_111/jre/lib/jsse.jar:/lib/jvm/jdk1.8.0_111/jre/lib/management-agent.jar:/lib/jvm/jdk1.8.0_111/jre/lib/plugin.jar:/lib/jvm/jdk1.8.0_111/jre/lib/resources.jar:/lib/jvm/jdk1.8.0_111/jre/lib/rt.jar:/home/cycle/workspace/wekaforecasting-new-features/target/classes:/home/cycle/.m2/repository/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19.jar:/home/cycle/.m2/repository/org/jfree/jcommon/1.0.23/jcommon-1.0.23.jar:/home/cycle/.m2/repository/com/github/fracpete/multisearch-weka-package/2016.6.7/multisearch-weka-package-2016.6.7.jar:/home/cycle/.m2/repository/nz/ac/waikato/cms/weka/weka-dev/3.9.1/weka-dev-3.9.1.jar:/home/cycle/.m2/repository/nz/ac/waikato/cms/weka/thirdparty/java-cup-11b/2015.03.26/java-cup-11b-2015.03.26.jar:/home/cycle/.m2/repository/nz/ac/waikato/cms/weka/thirdparty/java-cup-11b-runtime/2015.03.26/java-cup-11b-runtime-2015.03.26.jar:/home/cycle/.m2/repository/nz/ac/waikato/cms/weka/thirdparty/bounce/0.18/bounce-0.18.jar:/home/cycle/.m2/repository/com/googlecode/matrix-toolkits-java/mtj/1.0.4/mtj-1.0.4.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.jar:/home/cycle/.m2/repository/com/github/fommil/jniloader/1.1/jniloader-1.1.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1-natives.jar:/home/cycle/.m2/repository/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar:/home/cycle/.m2/repository/com/googlecode/netlib-java/netlib-java/1.1/netlib-java-1.1.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/core/1.1/core-1.1.jar:/home/cycle/workspace/wekaforecasting-new-features/dependencies/multiLayerPerceptrons.jar:/home/cycle/workspace/wekaforecasting-new-features/dependencies/timeseriesForecasting-1.0.24.jar:/home/cycle/programs/idea-IU-163.10154.41/lib/idea_rt.jar com.intellij.rt.execution.application.AppMain src.normalInput
+Mar 06, 2017 3:27:03 PM com.github.fommil.jni.JniLoader liberalLoad
+INFO: successfully loaded /tmp/jniloader122400136792829815netlib-native_system-linux-x86_64.so
+local_time, active_power, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: []
+Mar 06, 2017 3:27:04 PM com.github.fommil.jni.JniLoader load
+INFO: already loaded netlib-native_system-linux-x86_64.so
+Mar 06, 2017 3:27:04 PM com.github.fommil.jni.JniLoader load
+INFO: already loaded netlib-native_system-linux-x86_64.so
+Merit:-14.65621160457384
+Group: 1 2 
+
+
+local_time, active_power, temperature, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature]
+Merit: -14.669334868932626
+Group: 1 2 3 
+
+
+local_time, active_power, monthOfYear, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [monthOfYear]
+Merit: -15.204863335137457
+Group: 1 2 4 
+
+
+local_time, active_power, dayOfMonth, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [dayOfMonth]
+Merit: -15.22972476215371
+Group: 1 2 5 
+
+
+local_time, active_power, dayOfWeek, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [dayOfWeek]
+Merit: -14.74193529315244
+Group: 1 2 6 
+
+
+local_time, active_power, Weekend, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [Weekend]
+Merit: -14.672039552675038
+Group: 1 2 7 
+
+
+local_time, active_power, hourOfDay, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [hourOfDay]
+Merit: -12.697566082083478
+Group: 1 2 8 
+
+
+Setting best merit to:-12.697566082083478
+local_time, active_power, quarterOfHour, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [quarterOfHour]
+Merit: -14.639617498581467
+Group: 1 2 9 
+
+
+local_time, active_power, Holiday, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [Holiday]
+Merit: -14.63136393047234
+Group: 1 2 10 
+
+
+local_time, active_power, local_time-remapped, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: []
+Merit: -14.65621160457384
+Group: 1 2 11 
+
+
+local_time, active_power, local_time-remapped^2, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: []
+Merit: -14.65621160457384
+Group: 1 2 18 
+
+
+local_time, active_power, local_time-remapped^3, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: []
+Merit: -14.65621160457384
+Group: 1 2 19 
+
+
+local_time, active_power, temperature, hourOfDay, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, hourOfDay]
+Merit: -12.726813629804953
+Group: 1 2 3 8 
+
+
+local_time, active_power, monthOfYear, hourOfDay, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [monthOfYear, hourOfDay]
+Merit: -13.54456503845603
+Group: 1 2 4 8 
+
+
+local_time, active_power, dayOfMonth, hourOfDay, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [dayOfMonth, hourOfDay]
+Merit: -13.196987249491738
+Group: 1 2 5 8 
+
+
+local_time, active_power, dayOfWeek, hourOfDay, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [dayOfWeek, hourOfDay]
+Merit: -12.829496845327109
+Group: 1 2 6 8 
+
+
+local_time, active_power, Weekend, hourOfDay, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [Weekend, hourOfDay]
+Merit: -12.728771864800882
+Group: 1 2 7 8 
+
+
+local_time, active_power, hourOfDay, quarterOfHour, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [hourOfDay, quarterOfHour]
+Merit: -12.699997909865592
+Group: 1 2 8 9 
+
+
+local_time, active_power, hourOfDay, Holiday, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [hourOfDay, Holiday]
+Merit: -12.705405177353752
+Group: 1 2 8 10 
+
+
+local_time, active_power, hourOfDay, local_time-remapped, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [hourOfDay]
+Merit: -12.697566082083478
+Group: 1 2 8 11 
+
+
+local_time, active_power, hourOfDay, local_time-remapped^2, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [hourOfDay]
+Merit: -12.697566082083478
+Group: 1 2 8 18 
+
+
+local_time, active_power, hourOfDay, local_time-remapped^3, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [hourOfDay]
+Merit: -12.697566082083478
+Group: 1 2 8 19 
+
+
+local_time, active_power, temperature, hourOfDay, local_time-remapped, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, hourOfDay]
+Merit: -12.726813629804953
+Group: 1 2 3 8 11 
+
+
+local_time, active_power, monthOfYear, hourOfDay, local_time-remapped, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [monthOfYear, hourOfDay]
+Merit: -13.54456503845603
+Group: 1 2 4 8 11 
+
+
+local_time, active_power, dayOfMonth, hourOfDay, local_time-remapped, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [dayOfMonth, hourOfDay]
+Merit: -13.196987249491738
+Group: 1 2 5 8 11 
+
+
+local_time, active_power, dayOfWeek, hourOfDay, local_time-remapped, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [dayOfWeek, hourOfDay]
+Merit: -12.829496845327109
+Group: 1 2 6 8 11 
+
+
+local_time, active_power, Weekend, hourOfDay, local_time-remapped, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [Weekend, hourOfDay]
+Merit: -12.728771864800882
+Group: 1 2 7 8 11 
+
+
+local_time, active_power, hourOfDay, quarterOfHour, local_time-remapped, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [hourOfDay, quarterOfHour]
+Merit: -12.699997909865592
+Group: 1 2 8 9 11 
+
+
+local_time, active_power, hourOfDay, Holiday, local_time-remapped, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [hourOfDay, Holiday]
+Merit: -12.705405177353752
+Group: 1 2 8 10 11 
+
+
+local_time, active_power, hourOfDay, local_time-remapped, local_time-remapped^2, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [hourOfDay]
+Merit: -12.697566082083478
+Group: 1 2 8 11 18 
+
+
+local_time, active_power, hourOfDay, local_time-remapped, local_time-remapped^3, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [hourOfDay]
+Merit: -12.697566082083478
+Group: 1 2 8 11 19 
+
+
+local_time, active_power, temperature, hourOfDay, local_time-remapped^2, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, hourOfDay]
+Merit: -12.726813629804953
+Group: 1 2 3 8 18 
+
+
+local_time, active_power, monthOfYear, hourOfDay, local_time-remapped^2, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [monthOfYear, hourOfDay]
+Merit: -13.54456503845603
+Group: 1 2 4 8 18 
+
+
+local_time, active_power, dayOfMonth, hourOfDay, local_time-remapped^2, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [dayOfMonth, hourOfDay]
+Merit: -13.196987249491738
+Group: 1 2 5 8 18 
+
+
+local_time, active_power, dayOfWeek, hourOfDay, local_time-remapped^2, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [dayOfWeek, hourOfDay]
+Merit: -12.829496845327109
+Group: 1 2 6 8 18 
+
+
+local_time, active_power, Weekend, hourOfDay, local_time-remapped^2, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [Weekend, hourOfDay]
+Merit: -12.728771864800882
+Group: 1 2 7 8 18 
+
+
+local_time, active_power, hourOfDay, quarterOfHour, local_time-remapped^2, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [hourOfDay, quarterOfHour]
+Merit: -12.699997909865592
+Group: 1 2 8 9 18 
+
+
+local_time, active_power, hourOfDay, Holiday, local_time-remapped^2, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [hourOfDay, Holiday]
+Merit: -12.705405177353752
+Group: 1 2 8 10 18 
+
+
+local_time, active_power, hourOfDay, local_time-remapped^2, local_time-remapped^3, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [hourOfDay]
+Merit: -12.697566082083478
+Group: 1 2 8 18 19 
+
+
+local_time, active_power, temperature, hourOfDay, local_time-remapped^3, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, hourOfDay]
+Merit: -12.726813629804953
+Group: 1 2 3 8 19 
+
+
+local_time, active_power, monthOfYear, hourOfDay, local_time-remapped^3, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [monthOfYear, hourOfDay]
+Merit: -13.54456503845603
+Group: 1 2 4 8 19 
+
+
+local_time, active_power, dayOfMonth, hourOfDay, local_time-remapped^3, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [dayOfMonth, hourOfDay]
+Merit: -13.196987249491738
+Group: 1 2 5 8 19 
+
+
+local_time, active_power, dayOfWeek, hourOfDay, local_time-remapped^3, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [dayOfWeek, hourOfDay]
+Merit: -12.829496845327109
+Group: 1 2 6 8 19 
+
+
+local_time, active_power, Weekend, hourOfDay, local_time-remapped^3, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [Weekend, hourOfDay]
+Merit: -12.728771864800882
+Group: 1 2 7 8 19 
+
+
+local_time, active_power, hourOfDay, quarterOfHour, local_time-remapped^3, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [hourOfDay, quarterOfHour]
+Merit: -12.699997909865592
+Group: 1 2 8 9 19 
+
+
+local_time, active_power, hourOfDay, Holiday, local_time-remapped^3, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [hourOfDay, Holiday]
+Merit: -12.705405177353752
+Group: 1 2 8 10 19 
+
+
+local_time, active_power, temperature, hourOfDay, local_time-remapped, local_time-remapped^2, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, hourOfDay]
+Merit: -12.726813629804953
+Group: 1 2 3 8 11 18 
+
+
+local_time, active_power, monthOfYear, hourOfDay, local_time-remapped, local_time-remapped^2, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [monthOfYear, hourOfDay]
+Merit: -13.54456503845603
+Group: 1 2 4 8 11 18 
+
+
+local_time, active_power, dayOfMonth, hourOfDay, local_time-remapped, local_time-remapped^2, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [dayOfMonth, hourOfDay]
+Merit: -13.196987249491738
+Group: 1 2 5 8 11 18 
+
+
+local_time, active_power, dayOfWeek, hourOfDay, local_time-remapped, local_time-remapped^2, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [dayOfWeek, hourOfDay]
+Merit: -12.829496845327109
+Group: 1 2 6 8 11 18 
+
+
+local_time, active_power, Weekend, hourOfDay, local_time-remapped, local_time-remapped^2, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [Weekend, hourOfDay]
+Merit: -12.728771864800882
+Group: 1 2 7 8 11 18 
+
+
+local_time, active_power, hourOfDay, quarterOfHour, local_time-remapped, local_time-remapped^2, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [hourOfDay, quarterOfHour]
+Merit: -12.699997909865592
+Group: 1 2 8 9 11 18 
+
+
+local_time, active_power, hourOfDay, Holiday, local_time-remapped, local_time-remapped^2, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [hourOfDay, Holiday]
+Merit: -12.705405177353752
+Group: 1 2 8 10 11 18 
+
+
+local_time, active_power, hourOfDay, local_time-remapped, local_time-remapped^2, local_time-remapped^3, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [hourOfDay]
+Merit: -12.697566082083478
+Group: 1 2 8 11 18 19 
+
+
+1 2 8 
+Best merit: -12.697566082083478
+54
+local_time, active_power, hourOfDay, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [hourOfDay]
+Including:0.0% of features.
+Time taken: 977.275
+
+Process finished with exit code 0
+
+ONCE AGAIN, ON 6 MONTHS:
+/lib/jvm/jdk1.8.0_111/bin/java -Xmx8128m -Didea.launcher.port=7532 -Didea.launcher.bin.path=/home/cycle/programs/idea-IU-163.10154.41/bin -Dfile.encoding=UTF-8 -classpath /lib/jvm/jdk1.8.0_111/jre/lib/charsets.jar:/lib/jvm/jdk1.8.0_111/jre/lib/deploy.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/cldrdata.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/dnsns.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/jaccess.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/jfxrt.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/localedata.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/nashorn.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/sunec.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/sunjce_provider.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/sunpkcs11.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/zipfs.jar:/lib/jvm/jdk1.8.0_111/jre/lib/javaws.jar:/lib/jvm/jdk1.8.0_111/jre/lib/jce.jar:/lib/jvm/jdk1.8.0_111/jre/lib/jfr.jar:/lib/jvm/jdk1.8.0_111/jre/lib/jfxswt.jar:/lib/jvm/jdk1.8.0_111/jre/lib/jsse.jar:/lib/jvm/jdk1.8.0_111/jre/lib/management-agent.jar:/lib/jvm/jdk1.8.0_111/jre/lib/plugin.jar:/lib/jvm/jdk1.8.0_111/jre/lib/resources.jar:/lib/jvm/jdk1.8.0_111/jre/lib/rt.jar:/home/cycle/workspace/wekaforecasting-new-features/target/classes:/home/cycle/.m2/repository/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19.jar:/home/cycle/.m2/repository/org/jfree/jcommon/1.0.23/jcommon-1.0.23.jar:/home/cycle/.m2/repository/com/github/fracpete/multisearch-weka-package/2016.6.7/multisearch-weka-package-2016.6.7.jar:/home/cycle/.m2/repository/nz/ac/waikato/cms/weka/weka-dev/3.9.1/weka-dev-3.9.1.jar:/home/cycle/.m2/repository/nz/ac/waikato/cms/weka/thirdparty/java-cup-11b/2015.03.26/java-cup-11b-2015.03.26.jar:/home/cycle/.m2/repository/nz/ac/waikato/cms/weka/thirdparty/java-cup-11b-runtime/2015.03.26/java-cup-11b-runtime-2015.03.26.jar:/home/cycle/.m2/repository/nz/ac/waikato/cms/weka/thirdparty/bounce/0.18/bounce-0.18.jar:/home/cycle/.m2/repository/com/googlecode/matrix-toolkits-java/mtj/1.0.4/mtj-1.0.4.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.jar:/home/cycle/.m2/repository/com/github/fommil/jniloader/1.1/jniloader-1.1.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1-natives.jar:/home/cycle/.m2/repository/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar:/home/cycle/.m2/repository/com/googlecode/netlib-java/netlib-java/1.1/netlib-java-1.1.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/core/1.1/core-1.1.jar:/home/cycle/workspace/wekaforecasting-new-features/dependencies/multiLayerPerceptrons.jar:/home/cycle/workspace/wekaforecasting-new-features/dependencies/timeseriesForecasting-1.0.24.jar:/home/cycle/programs/idea-IU-163.10154.41/lib/idea_rt.jar com.intellij.rt.execution.application.AppMain src.normalInput
+Mar 06, 2017 3:46:17 PM com.github.fommil.jni.JniLoader liberalLoad
+INFO: successfully loaded /tmp/jniloader3620634136984997196netlib-native_system-linux-x86_64.so
+local_time, active_power, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: []
+Mar 06, 2017 3:46:18 PM com.github.fommil.jni.JniLoader load
+INFO: already loaded netlib-native_system-linux-x86_64.so
+Mar 06, 2017 3:46:18 PM com.github.fommil.jni.JniLoader load
+INFO: already loaded netlib-native_system-linux-x86_64.so
+Merit:-11.392264173101928
+Group: 1 2 
+
+
+local_time, active_power, temperature, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature]
+Merit: -11.448565950002637
+Group: 1 2 3 
+
+
+local_time, active_power, monthOfYear, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [monthOfYear]
+Merit: -10.989149394779806
+Group: 1 2 4 
+
+
+Setting best merit to:-10.989149394779806
+local_time, active_power, dayOfMonth, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [dayOfMonth]
+Merit: -11.476245821771906
+Group: 1 2 5 
+
+
+local_time, active_power, dayOfWeek, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [dayOfWeek]
+Merit: -11.443219622100886
+Group: 1 2 6 
+
+
+local_time, active_power, Weekend, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [Weekend]
+Merit: -11.386541926035724
+Group: 1 2 7 
+
+
+local_time, active_power, hourOfDay, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [hourOfDay]
+Merit: -11.688898399633278
+Group: 1 2 8 
+
+
+local_time, active_power, quarterOfHour, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [quarterOfHour]
+Merit: -11.413212501636393
+Group: 1 2 9 
+
+
+local_time, active_power, Holiday, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [Holiday]
+Merit: -11.442022302631925
+Group: 1 2 10 
+
+
+local_time, active_power, local_time-remapped, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: []
+Merit: -11.392264173101928
+Group: 1 2 11 
+
+
+local_time, active_power, local_time-remapped^2, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: []
+Merit: -11.392264173101928
+Group: 1 2 18 
+
+
+local_time, active_power, local_time-remapped^3, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: []
+Merit: -11.392264173101928
+Group: 1 2 19 
+
+
+local_time, active_power, temperature, monthOfYear, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear]
+Merit: -10.909676864028008
+Group: 1 2 3 4 
+
+
+Setting best merit to:-10.909676864028008
+local_time, active_power, monthOfYear, dayOfMonth, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [monthOfYear, dayOfMonth]
+Merit: -14.16791671741897
+Group: 1 2 4 5 
+
+
+local_time, active_power, monthOfYear, dayOfWeek, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [monthOfYear, dayOfWeek]
+Merit: -11.024386772384007
+Group: 1 2 4 6 
+
+
+local_time, active_power, monthOfYear, Weekend, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [monthOfYear, Weekend]
+Merit: -10.989422616019384
+Group: 1 2 4 7 
+
+
+local_time, active_power, monthOfYear, hourOfDay, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [monthOfYear, hourOfDay]
+Merit: -11.19323985477554
+Group: 1 2 4 8 
+
+
+local_time, active_power, monthOfYear, quarterOfHour, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [monthOfYear, quarterOfHour]
+Merit: -10.974005699663445
+Group: 1 2 4 9 
+
+
+local_time, active_power, monthOfYear, Holiday, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [monthOfYear, Holiday]
+Merit: -10.982286628559638
+Group: 1 2 4 10 
+
+
+local_time, active_power, monthOfYear, local_time-remapped, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [monthOfYear]
+Merit: -10.989149394779806
+Group: 1 2 4 11 
+
+
+local_time, active_power, monthOfYear, local_time-remapped^2, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [monthOfYear]
+Merit: -10.989149394779806
+Group: 1 2 4 18 
+
+
+local_time, active_power, monthOfYear, local_time-remapped^3, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [monthOfYear]
+Merit: -10.989149394779806
+Group: 1 2 4 19 
+
+
+local_time, active_power, temperature, monthOfYear, dayOfMonth, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, dayOfMonth]
+Merit: -14.067117773392074
+Group: 1 2 3 4 5 
+
+
+local_time, active_power, temperature, monthOfYear, dayOfWeek, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, dayOfWeek]
+Merit: -10.937988948655088
+Group: 1 2 3 4 6 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, Weekend]
+Merit: -10.888753447332585
+Group: 1 2 3 4 7 
+
+
+Setting best merit to:-10.888753447332585
+local_time, active_power, temperature, monthOfYear, hourOfDay, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, hourOfDay]
+Merit: -11.163904087279072
+Group: 1 2 3 4 8 
+
+
+local_time, active_power, temperature, monthOfYear, quarterOfHour, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, quarterOfHour]
+Merit: -10.899047741389232
+Group: 1 2 3 4 9 
+
+
+local_time, active_power, temperature, monthOfYear, Holiday, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, Holiday]
+Merit: -10.919034573703247
+Group: 1 2 3 4 10 
+
+
+local_time, active_power, temperature, monthOfYear, local_time-remapped, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear]
+Merit: -10.909676864028008
+Group: 1 2 3 4 11 
+
+
+local_time, active_power, temperature, monthOfYear, local_time-remapped^2, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear]
+Merit: -10.909676864028008
+Group: 1 2 3 4 18 
+
+
+local_time, active_power, temperature, monthOfYear, local_time-remapped^3, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear]
+Merit: -10.909676864028008
+Group: 1 2 3 4 19 
+
+
+local_time, active_power, temperature, monthOfYear, dayOfMonth, Weekend, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, dayOfMonth, Weekend]
+Merit: -14.081387840955363
+Group: 1 2 3 4 5 7 
+
+
+local_time, active_power, temperature, monthOfYear, dayOfWeek, Weekend, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, dayOfWeek, Weekend]
+Merit: -10.937988942830449
+Group: 1 2 3 4 6 7 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, hourOfDay, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay]
+Merit: -11.127372888271353
+Group: 1 2 3 4 7 8 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, Weekend, quarterOfHour]
+Merit: -10.879970136773547
+Group: 1 2 3 4 7 9 
+
+
+Setting best merit to:-10.879970136773547
+local_time, active_power, temperature, monthOfYear, Weekend, Holiday, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, Weekend, Holiday]
+Merit: -10.895638936780148
+Group: 1 2 3 4 7 10 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, local_time-remapped, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, Weekend]
+Merit: -10.888753447332585
+Group: 1 2 3 4 7 11 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, local_time-remapped^2, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, Weekend]
+Merit: -10.888753447332585
+Group: 1 2 3 4 7 18 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, local_time-remapped^3, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, Weekend]
+Merit: -10.888753447332585
+Group: 1 2 3 4 7 19 
+
+
+local_time, active_power, temperature, monthOfYear, dayOfMonth, Weekend, quarterOfHour, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, dayOfMonth, Weekend, quarterOfHour]
+Merit: -14.032087738968604
+Group: 1 2 3 4 5 7 9 
+
+
+local_time, active_power, temperature, monthOfYear, dayOfWeek, Weekend, quarterOfHour, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, dayOfWeek, Weekend, quarterOfHour]
+Merit: -10.931360793978623
+Group: 1 2 3 4 6 7 9 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, hourOfDay, quarterOfHour, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, quarterOfHour]
+Merit: -11.127485230783567
+Group: 1 2 3 4 7 8 9 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Merit: -10.888150271594505
+Group: 1 2 3 4 7 9 10 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, local_time-remapped, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, Weekend, quarterOfHour]
+Merit: -10.879970136773547
+Group: 1 2 3 4 7 9 11 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, local_time-remapped^2, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, Weekend, quarterOfHour]
+Merit: -10.879970136773547
+Group: 1 2 3 4 7 9 18 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, local_time-remapped^3, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, Weekend, quarterOfHour]
+Merit: -10.879970136773547
+Group: 1 2 3 4 7 9 19 
+
+
+local_time, active_power, temperature, monthOfYear, dayOfMonth, Weekend, quarterOfHour, local_time-remapped, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, dayOfMonth, Weekend, quarterOfHour]
+Merit: -14.032087738968604
+Group: 1 2 3 4 5 7 9 11 
+
+
+local_time, active_power, temperature, monthOfYear, dayOfWeek, Weekend, quarterOfHour, local_time-remapped, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, dayOfWeek, Weekend, quarterOfHour]
+Merit: -10.931360793978623
+Group: 1 2 3 4 6 7 9 11 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, hourOfDay, quarterOfHour, local_time-remapped, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, quarterOfHour]
+Merit: -11.127485230783567
+Group: 1 2 3 4 7 8 9 11 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, local_time-remapped, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Merit: -10.888150271594505
+Group: 1 2 3 4 7 9 10 11 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, local_time-remapped, local_time-remapped^2, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, Weekend, quarterOfHour]
+Merit: -10.879970136773547
+Group: 1 2 3 4 7 9 11 18 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, local_time-remapped, local_time-remapped^3, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, Weekend, quarterOfHour]
+Merit: -10.879970136773547
+Group: 1 2 3 4 7 9 11 19 
+
+
+local_time, active_power, temperature, monthOfYear, dayOfMonth, Weekend, quarterOfHour, local_time-remapped^2, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, dayOfMonth, Weekend, quarterOfHour]
+Merit: -14.032087738968604
+Group: 1 2 3 4 5 7 9 18 
+
+
+local_time, active_power, temperature, monthOfYear, dayOfWeek, Weekend, quarterOfHour, local_time-remapped^2, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, dayOfWeek, Weekend, quarterOfHour]
+Merit: -10.931360793978623
+Group: 1 2 3 4 6 7 9 18 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, hourOfDay, quarterOfHour, local_time-remapped^2, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, quarterOfHour]
+Merit: -11.127485230783567
+Group: 1 2 3 4 7 8 9 18 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, local_time-remapped^2, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Merit: -10.888150271594505
+Group: 1 2 3 4 7 9 10 18 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, local_time-remapped^2, local_time-remapped^3, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, Weekend, quarterOfHour]
+Merit: -10.879970136773547
+Group: 1 2 3 4 7 9 18 19 
+
+
+local_time, active_power, temperature, monthOfYear, dayOfMonth, Weekend, quarterOfHour, local_time-remapped^3, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, dayOfMonth, Weekend, quarterOfHour]
+Merit: -14.032087738968604
+Group: 1 2 3 4 5 7 9 19 
+
+
+local_time, active_power, temperature, monthOfYear, dayOfWeek, Weekend, quarterOfHour, local_time-remapped^3, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, dayOfWeek, Weekend, quarterOfHour]
+Merit: -10.931360793978623
+Group: 1 2 3 4 6 7 9 19 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, hourOfDay, quarterOfHour, local_time-remapped^3, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, quarterOfHour]
+Merit: -11.127485230783567
+Group: 1 2 3 4 7 8 9 19 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, local_time-remapped^3, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Merit: -10.888150271594505
+Group: 1 2 3 4 7 9 10 19 
+
+
+local_time, active_power, temperature, monthOfYear, dayOfMonth, Weekend, quarterOfHour, local_time-remapped, local_time-remapped^2, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, dayOfMonth, Weekend, quarterOfHour]
+Merit: -14.032087738968604
+Group: 1 2 3 4 5 7 9 11 18 
+
+
+local_time, active_power, temperature, monthOfYear, dayOfWeek, Weekend, quarterOfHour, local_time-remapped, local_time-remapped^2, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, dayOfWeek, Weekend, quarterOfHour]
+Merit: -10.931360793978623
+Group: 1 2 3 4 6 7 9 11 18 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, hourOfDay, quarterOfHour, local_time-remapped, local_time-remapped^2, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, quarterOfHour]
+Merit: -11.127485230783567
+Group: 1 2 3 4 7 8 9 11 18 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, local_time-remapped, local_time-remapped^2, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Merit: -10.888150271594505
+Group: 1 2 3 4 7 9 10 11 18 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, local_time-remapped, local_time-remapped^2, local_time-remapped^3, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, Weekend, quarterOfHour]
+Merit: -10.879970136773547
+Group: 1 2 3 4 7 9 11 18 19 
+
+
+1 2 3 4 7 9 
+Best merit: -10.879970136773547
+66
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, Weekend, quarterOfHour]
+Including:0.0% of features.
+Time taken: 605.516
+
+Process finished with exit code 0
