@@ -10,7 +10,7 @@ import weka.core.Instances;
 public class normalInput {
     public static void main(String[] args) {
         try {
-            String pathToWholeData = "dataSets/6months_100aggregate_extraFeatures.arff";
+            String pathToWholeData = "dataSets/1year3months_100aggregate_extraFeaturesz.arff";
             //String pathToHugeData = "/home/cycle/workspace/wekaforecasting-new-features/dataSets/6months_1aggregate_extraFeatures.arff";
 
             // load the data
