@@ -247,26 +247,62 @@ def insertTempToData(data, tempData):
 		if(tempLines[l] == "@data\n"):
 			break
 	for i in range(k+1, len(dataLines)):
-		newData += dataLines[i][0:-1] + "," + tempLines[l+1][23:-1]
+		newData += dataLines[i][0:-1] + "," + tempLines[l+1][25:-1]
 		newData += "\n"
 		l += 1
 	return newData
 
+def adjustTimeStamp(data):
+	newData = ""
+	timeStamp = []
+	restOfFeatures = []
+	lines = data.readlines()
+	for k in range(len(lines)):					#copying previous header
+		newData += lines[k]
+		if(lines[k] == "@data\n"):
+			break
+	for i in range(k+1, len(lines)):
+		timeStamp.append(lines[i][0:10] + "T" + lines[i][11:19] + "-0600")
+		restOfFeatures.append(lines[i][19:-1])
+	for i in range(len(timeStamp)):
+		string = ""
+		string += timeStamp[i]
+		string += restOfFeatures[i]
+		newData += string
+		newData += "\n"
+	return newData
 if __name__ == '__main__':
-	path = os.path.join(os.path.expanduser('~'), 'workspace/dataSets','1year_AllAggregate_weather.arff')
-	pathWrite = os.path.join(os.path.expanduser('~'), 'workspace/dataSets','1year_AllAggregate_extraFeatures.arff')
+	path = os.path.join(os.path.expanduser('~'), 
+		'workspace/wekaforecasting-new-features/dataSets','1year3months_1aggregate2_extraFeaturesx.arff')
+	pathWrite = os.path.join(os.path.expanduser('~'), 
+		'workspace/wekaforecasting-new-features/dataSets','1year3months_1aggregate2_extraFeaturesz.arff')
 	firstDayInSet = 4;
-	#pathTemp = os.path.join(os.path.expanduser('~'), 'workspace/dataSets','weather_15min_6months.arff')
-	#tempData = open(pathTemp)
-	#newData = insertTempToData(data, tempData)
-	#pathWriteTemp = os.path.join(os.path.expanduser('~'), 'workspace/dataSets','6months_AllAggregate_weather.arff')
-	#output = open(pathWriteTemp, 'w')
-	#output.write(newData)
-	#output.close()
-
+	pathTemp = os.path.join(os.path.expanduser('~'),
+	 'workspace/wekaforecasting-new-features/dataSets','1year3months_weather_interpolated.arff')
+	
+	#pathWriteTemp = os.path.join(os.path.expanduser('~'), 'workspace/wekaforecasting-new-features/dataSets','1year3months_weather_interpolated.arff')
 	# data = open(pathTemp)
 	# newData = interpolateTemperatures(data)
 	# output = open(pathWriteTemp, 'w')
+	# output.write(newData)
+	# output.close()
+
+	# data = open(pathTemp)
+	# newData = adjustTimeStamp(data)
+	# output = open(pathWrite, 'w')
+	# output.write(newData)
+	# output.close()
+
+	# tempData = open(pathTemp)
+	# data = open(path)
+	# newData = insertTempToData(data, tempData)
+	# output = open(pathWrite, 'w')
+	# output.write(newData)
+	# output.close()
+
+	# data = open(path)
+	# newData = multiplyPowerBy100(data)
+	# output = open(pathWrite, 'w')
 	# output.write(newData)
 	# output.close()
 
@@ -305,3 +341,4 @@ if __name__ == '__main__':
 	output = open(pathWrite, 'w')
 	output.write(newData)
 	output.close()
+	

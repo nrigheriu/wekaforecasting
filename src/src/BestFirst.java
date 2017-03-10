@@ -726,7 +726,7 @@ public class BestFirst {
         best_merit = -Double.MAX_VALUE;
         stale = 0;
 
-        best_group = subsetHandler.getStartSet(data.numAttributes(), 0);
+        best_group = subsetHandler.getStartSet(0);
 
         m_startRange.setUpper(m_numAttribs - 1);
         if (!(getStartSet().equals("")))
@@ -795,9 +795,7 @@ public class BestFirst {
                 if (temp_group.get(kk))
                     size++;
             do {
-                for (i = 2; i < m_numAttribs; i++) {                                           //setting it to 11 to skip overlay fields, time stamps etc.
-                    if(i == 11)
-                        i = m_numAttribs - 2;
+                for (i = 11; i < m_numAttribs - 2; i++) {                                           //setting it to 11 to skip overlay fields, time stamps etc.
                     if (searchDirection == SELECTION_FORWARD)
                         z = ((i != m_classIndex) && (!temp_group.get(i)));
                     else
@@ -846,7 +844,7 @@ public class BestFirst {
 
                         // is this better than the best?
                         if (searchDirection == SELECTION_FORWARD) {
-                            z = ((merit - best_merit) > 0.000001);                                 //they are both negative numbers; actually we are looking for the smallest error
+                            z = merit > best_merit;                          //they are both negative numbers; actually we are looking for the smallest error
                         } else {
                             if (merit == best_merit) {
                                 z = (size < best_size);

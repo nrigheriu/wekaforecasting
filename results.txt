@@ -40,3 +40,4 @@ Time taken: 138.816
 Time taken: 982.107
 Time taken: 977.275
 Time taken: 605.516
+Time taken: 1064.437

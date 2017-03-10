@@ -269,7 +269,7 @@ public class SimmulatedAnnealing {
         SubsetHandler subsetHandler = new SubsetHandler();
         subsetHandler.setM_numAttribs(m_numAttribs);
         BitSet best_group;
-        best_group = subsetHandler.getStartSet(m_numAttribs, 0);
+        best_group = subsetHandler.getStartSet(0);
         double temperature = 0.17, initialTemp = temperature;
         double best_merit;
         int i = 0, changedAltoughWorseCounter = 0;

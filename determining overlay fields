@@ -1,4 +1,37 @@
-/lib/jvm/jdk1.8.0_111/bin/java -Xmx8128m -Didea.launcher.port=7534 -Didea.launcher.bin.path=/home/cycle/programs/idea-IU-163.10154.41/bin -Dfile.encoding=UTF-8 -classpath /lib/jvm/jdk1.8.0_111/jre/lib/charsets.jar:/lib/jvm/jdk1.8.0_111/jre/lib/deploy.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/cldrdata.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/dnsns.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/jaccess.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/jfxrt.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/localedata.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/nashorn.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/sunec.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/sunjce_provider.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/sunpkcs11.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/zipfs.jar:/lib/jvm/jdk1.8.0_111/jre/lib/javaws.jar:/lib/jvm/jdk1.8.0_111/jre/lib/jce.jar:/lib/jvm/jdk1.8.0_111/jre/lib/jfr.jar:/lib/jvm/jdk1.8.0_111/jre/lib/jfxswt.jar:/lib/jvm/jdk1.8.0_111/jre/lib/jsse.jar:/lib/jvm/jdk1.8.0_111/jre/lib/management-agent.jar:/lib/jvm/jdk1.8.0_111/jre/lib/plugin.jar:/lib/jvm/jdk1.8.0_111/jre/lib/resources.jar:/lib/jvm/jdk1.8.0_111/jre/lib/rt.jar:/home/cycle/workspace/wekaforecasting-new-features/target/classes:/home/cycle/.m2/repository/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19.jar:/home/cycle/.m2/repository/org/jfree/jcommon/1.0.23/jcommon-1.0.23.jar:/home/cycle/.m2/repository/com/github/fracpete/multisearch-weka-package/2016.6.7/multisearch-weka-package-2016.6.7.jar:/home/cycle/.m2/repository/nz/ac/waikato/cms/weka/weka-dev/3.9.1/weka-dev-3.9.1.jar:/home/cycle/.m2/repository/nz/ac/waikato/cms/weka/thirdparty/java-cup-11b/2015.03.26/java-cup-11b-2015.03.26.jar:/home/cycle/.m2/repository/nz/ac/waikato/cms/weka/thirdparty/java-cup-11b-runtime/2015.03.26/java-cup-11b-runtime-2015.03.26.jar:/home/cycle/.m2/repository/nz/ac/waikato/cms/weka/thirdparty/bounce/0.18/bounce-0.18.jar:/home/cycle/.m2/repository/com/googlecode/matrix-toolkits-java/mtj/1.0.4/mtj-1.0.4.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.jar:/home/cycle/.m2/repository/com/github/fommil/jniloader/1.1/jniloader-1.1.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1-natives.jar:/home/cycle/.m2/repository/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar:/home/cycle/.m2/repository/com/googlecode/netlib-java/netlib-java/1.1/netlib-java-1.1.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/core/1.1/core-1.1.jar:/home/cycle/workspace/wekaforecasting-new-features/dependencies/multiLayerPerceptrons.jar:/home/cycle/workspace/wekaforecasting-new-features/dependencies/timeseriesForecasting-1.0.24.jar:/home/cycle/programs/idea-IU-163.10154.41/lib/idea_rt.jar com.intellij.rt.execution.application.AppMain src.normalInput
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, Weekend, quarterOfHour]
+Merit: -10.879970136773547
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, local_time-remapped, local_time-remapped^3, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, Weekend, quarterOfHour]
+Merit: -10.879970136773547
+
+local_time, active_power, temperature, monthOfYear, Weekend, Holiday, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, Weekend, Holiday]
+Merit: -10.895638936780148
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Remaining lags: 697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288
+Remaining overlay fields: [temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Merit: -10.888150271594505
+
+temperature, monthOfYear, Weekend, quarterOfHour, Holiday, dayOfWeek, (hourOfDay)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Mar 06, 2017 1:19:43 PM com.github.fommil.jni.JniLoader liberalLoad
 INFO: successfully loaded /tmp/jniloader4468121754929429226netlib-native_system-linux-x86_64.so
 local_time, active_power, Remaining lags: 697, 792, 888, 1030, 1032, 1080

@@ -14,7 +14,6 @@ public class SubsetHandler {
      */
     public ArrayList<Integer> listOfAttributesWhichShouldAlwaysBeThere = new ArrayList<Integer>();
 
-
     /**
      * changes 2 percent of the bits in the bitset
      * @param bitSet     the bitset to change
@@ -35,7 +34,6 @@ public class SubsetHandler {
                     includesMoreThanXPercent = true;
                 else
                     System.out.println("Repeating loop because it doesnt include X% features!");
-
             }
         }
         return bitSet;
@@ -43,18 +41,17 @@ public class SubsetHandler {
 
     /**
      *
-     * @param numAttribs size of the BitSet
      *@param setPercentage Percentage of bits randomly being set to 1 for a start
      * @return BitSet with setPercentage of Bits set to 1
      */
-    protected BitSet getStartSet(int numAttribs, int setPercentage) {
-        BitSet bitSet = new BitSet(numAttribs);
+    protected BitSet getStartSet(int setPercentage) {
+        BitSet bitSet = new BitSet(m_numAttribs);
         Random r = new Random();
         boolean atLeastOneLagSet = false;
         boolean includesMoreThan25Percent = false;
         for (int i = 0; i < listOfAttributesWhichShouldAlwaysBeThere.size(); i++)
             bitSet.set(listOfAttributesWhichShouldAlwaysBeThere.get(i));
-        for (int i = 2; i < 11; i++) {
+        for (int i = 11; i < m_numAttribs - 2; i++) {
             int chance = r.nextInt(100);
             if (chance < setPercentage)
                 bitSet.set(i);
@@ -79,8 +76,6 @@ public class SubsetHandler {
 
     public void setM_numAttribs(int m_numAttribs) {
         this.m_numAttribs = m_numAttribs;
-        /*listOfAttributesWhichShouldAlwaysBeThere.add(m_numAttribs - 1);
-        listOfAttributesWhichShouldAlwaysBeThere.add(m_numAttribs - 2);                 *///these are time stamp fields
     }
 
     public float howMuchPercentOfBitsAreDifferent(BitSet bitSet1, BitSet bitSet2) {
@@ -105,14 +100,13 @@ public class SubsetHandler {
     }
 
     public SubsetHandler() {
-        listOfAttributesWhichShouldAlwaysBeThere.add(0);                    //best time stamp and overlay fields.
+        listOfAttributesWhichShouldAlwaysBeThere.add(0);                    //time stamp and best overlay fields.
         listOfAttributesWhichShouldAlwaysBeThere.add(1);
-      /*  listOfAttributesWhichShouldAlwaysBeThere.add(2);
+        listOfAttributesWhichShouldAlwaysBeThere.add(2);
         listOfAttributesWhichShouldAlwaysBeThere.add(3);
         listOfAttributesWhichShouldAlwaysBeThere.add(6);
-        listOfAttributesWhichShouldAlwaysBeThere.add(7);
+        listOfAttributesWhichShouldAlwaysBeThere.add(8);
         listOfAttributesWhichShouldAlwaysBeThere.add(9);
-        listOfAttributesWhichShouldAlwaysBeThere.add(10);*/
     }
 
 }
