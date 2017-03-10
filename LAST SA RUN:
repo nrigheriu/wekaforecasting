@@ -1,0 +1,1203 @@
+LAST SA RUN:
+/lib/jvm/jdk1.8.0_111/bin/java -Xmx8128m -Didea.launcher.port=7533 -Didea.launcher.bin.path=/home/cycle/programs/idea-IU-163.10154.41/bin -Dfile.encoding=UTF-8 -classpath /lib/jvm/jdk1.8.0_111/jre/lib/charsets.jar:/lib/jvm/jdk1.8.0_111/jre/lib/deploy.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/cldrdata.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/dnsns.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/jaccess.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/jfxrt.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/localedata.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/nashorn.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/sunec.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/sunjce_provider.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/sunpkcs11.jar:/lib/jvm/jdk1.8.0_111/jre/lib/ext/zipfs.jar:/lib/jvm/jdk1.8.0_111/jre/lib/javaws.jar:/lib/jvm/jdk1.8.0_111/jre/lib/jce.jar:/lib/jvm/jdk1.8.0_111/jre/lib/jfr.jar:/lib/jvm/jdk1.8.0_111/jre/lib/jfxswt.jar:/lib/jvm/jdk1.8.0_111/jre/lib/jsse.jar:/lib/jvm/jdk1.8.0_111/jre/lib/management-agent.jar:/lib/jvm/jdk1.8.0_111/jre/lib/plugin.jar:/lib/jvm/jdk1.8.0_111/jre/lib/resources.jar:/lib/jvm/jdk1.8.0_111/jre/lib/rt.jar:/home/cycle/workspace/wekaforecasting-new-features/target/classes:/home/cycle/.m2/repository/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19.jar:/home/cycle/.m2/repository/org/jfree/jcommon/1.0.23/jcommon-1.0.23.jar:/home/cycle/.m2/repository/com/github/fracpete/multisearch-weka-package/2016.6.7/multisearch-weka-package-2016.6.7.jar:/home/cycle/.m2/repository/nz/ac/waikato/cms/weka/weka-dev/3.9.1/weka-dev-3.9.1.jar:/home/cycle/.m2/repository/nz/ac/waikato/cms/weka/thirdparty/java-cup-11b/2015.03.26/java-cup-11b-2015.03.26.jar:/home/cycle/.m2/repository/nz/ac/waikato/cms/weka/thirdparty/java-cup-11b-runtime/2015.03.26/java-cup-11b-runtime-2015.03.26.jar:/home/cycle/.m2/repository/nz/ac/waikato/cms/weka/thirdparty/bounce/0.18/bounce-0.18.jar:/home/cycle/.m2/repository/com/googlecode/matrix-toolkits-java/mtj/1.0.4/mtj-1.0.4.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.jar:/home/cycle/.m2/repository/com/github/fommil/jniloader/1.1/jniloader-1.1.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1-natives.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1-natives.jar:/home/cycle/.m2/repository/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar:/home/cycle/.m2/repository/com/googlecode/netlib-java/netlib-java/1.1/netlib-java-1.1.jar:/home/cycle/.m2/repository/com/github/fommil/netlib/core/1.1/core-1.1.jar:/home/cycle/workspace/wekaforecasting-new-features/dependencies/multiLayerPerceptrons.jar:/home/cycle/workspace/wekaforecasting-new-features/dependencies/timeseriesForecasting-1.0.24.jar:/home/cycle/programs/idea-IU-163.10154.41/lib/idea_rt.jar com.intellij.rt.execution.application.AppMain src.normalInput
+Feb 22, 2017 1:00:36 PM com.github.fommil.jni.JniLoader liberalLoad
+INFO: successfully loaded /tmp/jniloader1910629297402728274netlib-native_system-linux-x86_64.so
+1 2 3 4 7 8 10 11 15 87 88 
+Remaining lags: 541
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+Feb 22, 2017 1:00:37 PM com.github.fommil.jni.JniLoader load
+INFO: already loaded netlib-native_system-linux-x86_64.so
+Feb 22, 2017 1:00:37 PM com.github.fommil.jni.JniLoader load
+INFO: already loaded netlib-native_system-linux-x86_64.so
+Initial group with numAttribs: 88 temp: 7.0/n
+Merit: -8.678600654475842
+Remaining lags: 541, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -9.352373805911949
+Difference : -0.6737731514361069 Temp: 7.0 Randomnr: 0.5088677066648992
+Expfunction: 0.3298596980520593 Error% : 7.7636151064125745
+Percentage of worse sets accepted: 88.888885
+Remaining lags: 541, 732, 1335
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.416725170013454
+Difference : -2.7381245155376117 Temp: 6.995803 Randomnr: 0.20090542158234892
+Expfunction: 0.010999672833536702 Error% : 31.55029969175353
+Percentage of worse sets accepted: 77.77778
+Remaining lags: 541, 790, 841
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -8.963124591005519
+Difference : -0.284523936529677 Temp: 6.987418 Randomnr: 0.9247030405567948
+Expfunction: 0.6255062779009918 Error% : 3.278454071774101
+Percentage of worse sets accepted: 66.666664
+Remaining lags: 541, 685, 887, 984
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -8.900192394445117
+Difference : -0.22159173996927528 Temp: 6.974864 Randomnr: 0.341747975586988
+Expfunction: 0.6934519317071907 Error% : 2.553311862033807
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 66.666664
+Remaining lags: 541, 685, 887, 984, 1032
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -8.853184338966468
+Difference : 0.04700805547864917 Temp: 6.958164 Randomnr: 0.10062301725543432
+Percentage of worse sets accepted: 66.666664
+Remaining lags: 541, 685, 887, 984, 1032, 1284
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.864340731350346
+Difference : -2.011156392383878 Temp: 6.937352 Randomnr: 0.6087480563978778
+Expfunction: 0.03783361450084236 Error% : 22.71675721843902
+Percentage of worse sets accepted: 55.555557
+Remaining lags: 541, 685, 887, 984, 1032, 1091
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -9.565545242505937
+Difference : -0.7123609035394693 Temp: 6.9124675 Randomnr: 0.47445212688236327
+Expfunction: 0.3122226167816113 Error% : 8.04638055941159
+Percentage of worse sets accepted: 44.444443
+Remaining lags: 541, 685, 887, 984, 1032, 1140, 1283
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.959281424918924
+Difference : -2.106097085952456 Temp: 6.883557 Randomnr: 0.5177846217836287
+Expfunction: 0.031557680693793985 Error% : 23.78914755770605
+Percentage of worse sets accepted: 33.333332
+Remaining lags: 541, 685, 887, 984, 1032, 1329
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -9.48732922267843
+Difference : -0.6341448837119614 Temp: 6.8506737 Randomnr: 0.7300014278483505
+Expfunction: 0.3514892194442124 Error% : 7.1629016118057285
+Percentage of worse sets accepted: 22.222221
+Remaining lags: 541, 685, 887, 984, 1032, 1392
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.912828269455787
+Difference : -2.059643930489319 Temp: 6.813879 Randomnr: 0.4264180607067837
+Expfunction: 0.032900322325398586 Error% : 23.264441941234494
+Percentage of worse sets accepted: 11.111111
+Remaining lags: 541, 685, 887, 984, 1032, 1237
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -9.319026889100005
+Difference : -0.46584255013353726 Temp: 6.773239 Randomnr: 0.7545484798455104
+Expfunction: 0.4598472753004349 Error% : 5.261864345048985
+Percentage of worse sets accepted: 11.111111
+Remaining lags: 541, 685, 731, 886, 887, 984, 1032, 1188
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.748389493558937
+Difference : -2.8952051545924693 Temp: 6.728829 Randomnr: 0.2239082564420668
+Expfunction: 0.007750129920556384 Error% : 32.70241580590944
+Percentage of worse sets accepted: 11.111111
+Remaining lags: 541, 685, 731, 887, 937, 984, 1032
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.90436537169398
+Difference : -2.051181032727513 Temp: 6.6807275 Randomnr: 0.1522182894367421
+Expfunction: 0.031178918792779495 Error% : 23.168850372847544
+Percentage of worse sets accepted: 11.111111
+Remaining lags: 494, 541, 685, 887, 935, 984, 1032
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -9.358658947490682
+Difference : -0.5054746085242137 Temp: 6.629021 Randomnr: 0.09068675212085586
+Expfunction: 0.42261569456890974 Error% : 5.709523140723662
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 11.111111
+Remaining lags: 494, 541, 887, 935, 984, 1032
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -9.09025670054327
+Difference : 0.2684022469474119 Temp: 6.5738015 Randomnr: 0.1962606461605947
+Percentage of worse sets accepted: 11.111111
+Remaining lags: 494, 541, 792, 887, 935, 984, 1032
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -9.141143804938551
+Difference : -0.05088710439528121 Temp: 6.5151653 Randomnr: 0.01120695128342919
+Expfunction: 0.9176654844155997 Error% : 0.5597983211215586
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 22.222221
+Remaining lags: 494, 541, 792, 887, 935, 984, 1032, 1079
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -9.120040361286861
+Difference : 0.0211034436516897 Temp: 6.453214 Randomnr: 0.37757706802128044
+Percentage of worse sets accepted: 22.222221
+Remaining lags: 494, 541, 792, 887, 935, 984, 1032, 1079, 1234, 1335, 1381
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.884861943562884
+Difference : -2.7648215822760225 Temp: 6.388056 Randomnr: 0.885080374314669
+Expfunction: 0.008688847641317712 Error% : 30.315891956051598
+Percentage of worse sets accepted: 22.222221
+Remaining lags: 494, 541, 792, 887, 935, 984, 1032, 1079, 1137
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -9.20389685793122
+Difference : -0.08385649664435846 Temp: 6.319802 Randomnr: 0.7293143465360641
+Expfunction: 0.8645975652687081 Error% : 0.9194750606621886
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 33.333332
+Remaining lags: 494, 541, 792, 887, 935, 984, 1032, 1079, 1137, 1329
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -9.536752145542458
+Difference : -0.3328552876112383 Temp: 6.248568 Randomnr: 0.9499715788374963
+Expfunction: 0.560589556327828 Error% : 3.6164604270245473
+Percentage of worse sets accepted: 33.333332
+Remaining lags: 494, 792, 887, 935, 984, 1032, 1079, 1137
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -8.940021825829353
+Difference : 0.2638750321018666 Temp: 6.1744747 Randomnr: 0.8320167379675436
+Percentage of worse sets accepted: 33.333332
+Remaining lags: 494, 686, 792, 887, 935, 984, 1032, 1079, 1137
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -9.129810794456365
+Difference : -0.18978896862701156 Temp: 6.097645 Randomnr: 0.4865334961575082
+Expfunction: 0.7059907822021905 Error% : 2.122913929344967
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 44.444443
+Remaining lags: 494, 686, 792, 887, 935, 984, 1032, 1079, 1137, 1141
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -9.364259495343797
+Difference : -0.23444870088743208 Temp: 6.018204 Randomnr: 0.80043835699478
+Expfunction: 0.6526615713734043 Error% : 2.5679469834116353
+Percentage of worse sets accepted: 44.444443
+Remaining lags: 494, 686, 792, 887, 935, 984, 1032, 1079, 1092, 1137, 1142
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.212288532406946
+Difference : -1.0824777379505814 Temp: 5.9362836 Randomnr: 0.7420081539831102
+Expfunction: 0.1357016476570212 Error% : 11.856518851495407
+Percentage of worse sets accepted: 44.444443
+Remaining lags: 494, 686, 792, 887, 935, 936, 984, 1032, 1079, 1137
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -9.126452958330399
+Difference : 0.003357836125966074 Temp: 5.8520145 Randomnr: 0.8570158219905674
+Percentage of worse sets accepted: 44.444443
+Remaining lags: 494, 686, 791, 792, 887, 935, 936, 984, 1032, 1079, 1137
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -9.163432625273433
+Difference : -0.03697966694303467 Temp: 5.7655315 Randomnr: 0.8969079719187774
+Expfunction: 0.9321343141017032 Error% : 0.40519210597892313
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 55.555557
+Remaining lags: 494, 686, 791, 792, 887, 935, 936, 984, 1032, 1079, 1137, 1382
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.348729822262102
+Difference : -1.1852971969886692 Temp: 5.676971 Randomnr: 0.05916293540381923
+Expfunction: 0.10243594190437963 Error% : 12.935078430320216
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 55.555557
+Remaining lags: 494, 686, 744, 791, 792, 935, 936, 984, 1032, 1079, 1137, 1382
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.054875021792698
+Difference : -0.7061451995305958 Temp: 5.5864706 Randomnr: 0.06097080568709712
+Expfunction: 0.29480757500535243 Error% : 6.823496329100622
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 55.555557
+Remaining lags: 494, 686, 744, 791, 792, 935, 936, 984, 1030, 1032, 1079, 1137, 1382
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.121073894348383
+Difference : -0.06619887255568457 Temp: 5.4941683 Randomnr: 0.884576627129304
+Expfunction: 0.8967375516416498 Error% : 0.5988206327541957
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 66.666664
+Remaining lags: 494, 686, 744, 791, 792, 935, 936, 984, 1030, 1032, 1079, 1382
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.088324413128925
+Difference : 0.032749481219457977 Temp: 5.4002047 Randomnr: 0.46350987115496356
+Percentage of worse sets accepted: 66.666664
+Remaining lags: 494, 686, 744, 791, 792, 936, 984, 1030, 1032, 1079, 1382
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.107859173650938
+Difference : -0.019534760522013528 Temp: 5.3047194 Randomnr: 0.22286424580977093
+Expfunction: 0.9673345935978778 Error% : 0.176174143127376
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 66.666664
+Remaining lags: 494, 686, 731, 744, 791, 792, 936, 984, 1030, 1032, 1079, 1382
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -12.135628736517601
+Difference : -1.0277695628666628 Temp: 5.2078533 Randomnr: 0.5831483215118085
+Expfunction: 0.1692007353672129 Error% : 9.252634074661705
+Percentage of worse sets accepted: 66.666664
+Remaining lags: 494, 686, 743, 744, 791, 792, 936, 984, 1030, 1032, 1079, 1382
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.22554770596066
+Difference : -0.11768853230972098 Temp: 5.1097465 Randomnr: 0.6708651568680932
+Expfunction: 0.8127349912235065 Error% : 1.059506881297983
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 66.666664
+Remaining lags: 494, 686, 743, 744, 791, 792, 936, 984, 1030, 1032, 1079
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.253545787448715
+Difference : 0.9720019185119444 Temp: 5.010538 Randomnr: 0.21715038240072315
+Percentage of worse sets accepted: 66.666664
+Remaining lags: 494, 686, 743, 744, 791, 792, 936, 937, 984, 1030, 1032, 1079
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.28099334740721
+Difference : -0.02744755995849424 Temp: 4.9103665 Randomnr: 0.1965246305549634
+Expfunction: 0.9469443355388818 Error% : 0.2676884711637274
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 77.77778
+Remaining lags: 396, 494, 686, 743, 744, 791, 792, 936, 937, 984, 1030, 1032, 1079
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.76359852870821
+Difference : -0.4826051813010004 Temp: 4.8093696 Randomnr: 0.8361762399989898
+Expfunction: 0.37679931610473116 Error% : 4.6941493393992895
+Percentage of worse sets accepted: 77.77778
+Remaining lags: 686, 743, 744, 791, 792, 936, 937, 984, 1030, 1032, 1079
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -9.95794981333039
+Difference : 0.3230435340768185 Temp: 4.7076836 Randomnr: 0.30118392642046377
+Percentage of worse sets accepted: 77.77778
+Remaining lags: 686, 732, 743, 744, 791, 792, 937, 984, 1030, 1032, 1079
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.940032449964551
+Difference : -0.9820826366341606 Temp: 4.605443 Randomnr: 0.8119608849506029
+Expfunction: 0.11748509167317105 Error% : 9.862297511476488
+Percentage of worse sets accepted: 66.666664
+Remaining lags: 686, 743, 744, 791, 792, 936, 937, 984, 1030, 1079, 1140
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -9.983048991193698
+Difference : -0.025099177863307176 Temp: 4.50278 Randomnr: 0.8674053821891299
+Expfunction: 0.9455609787282735 Error% : 0.2520516605708105
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 66.666664
+Remaining lags: 683, 686, 743, 744, 791, 792, 888, 936, 937, 984, 1030, 1079, 1140
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.01899303247683
+Difference : -0.03594404128313222 Temp: 4.399824 Randomnr: 0.6894351320998608
+Expfunction: 0.9214258394372399 Error% : 0.3600507351495458
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 66.666664
+Remaining lags: 683, 686, 743, 744, 791, 792, 888, 936, 937, 984, 1030, 1031, 1079, 1140
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.059664382778658
+Difference : -0.04067135030182811 Temp: 4.296703 Randomnr: 0.2893059793742736
+Expfunction: 0.9098480470594197 Error% : 0.4059424951189292
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 66.666664
+Remaining lags: 681, 683, 686, 743, 744, 791, 792, 841, 888, 936, 937, 984, 1030, 1031, 1079, 1140, 1141
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.409835247335408
+Difference : -0.35017086455675006 Temp: 4.1935415 Randomnr: 0.9380864823779154
+Expfunction: 0.4360180550715148 Error% : 3.4809398329055052
+Percentage of worse sets accepted: 55.555557
+Remaining lags: 494, 683, 686, 743, 744, 791, 792, 888, 936, 937, 984, 1030, 1031, 1079, 1140
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.315014646949779
+Difference : -0.2553502641711205 Temp: 4.0904617 Randomnr: 0.120805024523572
+Expfunction: 0.5376458025161566 Error% : 2.538357687243123
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 66.666664
+Remaining lags: 494, 586, 681, 683, 686, 743, 744, 791, 792, 888, 936, 937, 984, 1030, 1031, 1079, 1140, 1331
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.909904396563427
+Difference : -0.5948897496136478 Temp: 3.9875822 Randomnr: 0.03743568133808539
+Expfunction: 0.2354409025719352 Error% : 5.767221569477469
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 66.666664
+Remaining lags: 396, 494, 586, 681, 683, 686, 743, 744, 791, 792, 888, 936, 937, 984, 1030, 1031, 1079, 1140, 1331
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.422446904067034
+Difference : -0.512542507503607 Temp: 3.8850179 Randomnr: 0.9858002895224701
+Expfunction: 0.2984211547547823 Error% : 4.697955993684562
+Percentage of worse sets accepted: 55.555557
+Remaining lags: 494, 586, 681, 683, 686, 743, 744, 791, 792, 888, 936, 937, 984, 1030, 1031, 1079, 1089, 1140, 1331
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.384503236374115
+Difference : -0.47459883981068884 Temp: 3.7828803 Randomnr: 0.1965463148944946
+Expfunction: 0.31664910550867387 Error% : 4.350164974499552
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 66.666664
+Remaining lags: 494, 586, 681, 683, 686, 743, 744, 791, 792, 888, 936, 937, 984, 1031, 1079, 1089, 1140, 1331
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.359035829157255
+Difference : 0.02546740721686014 Temp: 3.6812768 Randomnr: 0.5303028443647617
+Percentage of worse sets accepted: 66.666664
+Remaining lags: 494, 586, 681, 683, 686, 743, 744, 791, 792, 886, 888, 936, 937, 984, 1031, 1079, 1089, 1140, 1331
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.382234979365084
+Difference : -0.023199150207828367 Temp: 3.5803118 Randomnr: 0.9862790906024533
+Expfunction: 0.9445525342753409 Error% : 0.20423520584624785
+Percentage of worse sets accepted: 66.666664
+Remaining lags: 494, 586, 681, 683, 686, 743, 744, 791, 792, 888, 936, 937, 984, 1031, 1079, 1089, 1140, 1283, 1331
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -12.107429778248427
+Difference : -0.748393949091172 Temp: 3.4800854 Randomnr: 0.682830418491664
+Expfunction: 0.1505875734944163 Error% : 6.58853410049237
+Percentage of worse sets accepted: 55.555557
+Remaining lags: 494, 586, 681, 683, 686, 743, 744, 791, 888, 936, 937, 984, 1031, 1079, 1089, 1140, 1331
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.316948034867377
+Difference : 0.042087794289878744 Temp: 3.380693 Randomnr: 0.07496300461645167
+Percentage of worse sets accepted: 55.555557
+Remaining lags: 494, 586, 681, 683, 686, 743, 744, 791, 888, 936, 937, 984, 1031, 1079, 1089, 1140, 1236, 1331, 1335
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.535014112041036
+Difference : -0.21806607717365978 Temp: 3.2822263 Randomnr: 0.8643638817616125
+Expfunction: 0.5559535620197743 Error% : 1.9268982812486273
+Percentage of worse sets accepted: 44.444443
+Remaining lags: 494, 586, 681, 683, 743, 744, 791, 888, 936, 937, 984, 1031, 1079, 1089, 1140, 1331
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.277330732755567
+Difference : 0.03961730211180914 Temp: 3.1847725 Randomnr: 0.6433214582005371
+Percentage of worse sets accepted: 44.444443
+Remaining lags: 494, 586, 681, 743, 744, 791, 888, 936, 937, 984, 1031, 1079, 1089, 1140, 1331
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.28087834481108
+Difference : -0.0035476120555131274 Temp: 3.0884137 Randomnr: 0.2570094152022139
+Expfunction: 0.9898659184327576 Error% : 0.031457905594707014
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 44.444443
+Remaining lags: 494, 586, 681, 743, 744, 791, 888, 936, 937, 984, 1031, 1089, 1140, 1331
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.072970433948331
+Difference : 0.2079079108627493 Temp: 2.993229 Randomnr: 0.8435278915863506
+Percentage of worse sets accepted: 44.444443
+Remaining lags: 494, 586, 681, 743, 744, 791, 886, 888, 936, 937, 984, 1031, 1089, 1140, 1331
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.10878487140944
+Difference : -0.03581443746110935 Temp: 2.8992918 Randomnr: 0.020907950918114482
+Expfunction: 0.8944392013692269 Error% : 0.32344019768450566
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 55.555557
+Remaining lags: 494, 586, 681, 743, 744, 791, 886, 888, 936, 937, 984, 1031, 1089, 1140, 1282, 1331, 1392
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -12.218535755870537
+Difference : -1.1097508844610964 Temp: 2.8066716 Randomnr: 0.43145905374979177
+Expfunction: 0.028458098488912266 Error% : 9.98984945074641
+Percentage of worse sets accepted: 44.444443
+Remaining lags: 494, 586, 681, 697, 743, 744, 791, 886, 887, 888, 936, 937, 984, 1031, 1089, 1140, 1331
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.582250884468243
+Difference : -0.4734660130588022 Temp: 2.7154331 Randomnr: 0.9272460071670746
+Expfunction: 0.2081328159903312 Error% : 4.262086434650081
+Percentage of worse sets accepted: 33.333332
+Remaining lags: 494, 586, 681, 731, 743, 744, 886, 888, 936, 937, 984, 1031, 1089, 1140, 1331
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.857406082917246
+Difference : -0.748621211507805 Temp: 2.6256366 Randomnr: 0.9024822012266883
+Expfunction: 0.07679495289429566 Error% : 6.739001791586794
+Percentage of worse sets accepted: 33.333332
+Remaining lags: 494, 586, 681, 743, 744, 791, 886, 888, 936, 937, 984, 1031, 1089, 1140, 1331, 1332
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.165744739168675
+Difference : -0.05695986775923423 Temp: 2.537337 Randomnr: 0.25242247993499134
+Expfunction: 0.817029213547089 Error% : 0.5127461591756198
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 33.333332
+Remaining lags: 494, 586, 587, 681, 743, 744, 791, 886, 888, 936, 937, 984, 1031, 1079, 1089, 1140, 1331, 1332
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.33207360363153
+Difference : -0.1663288644628551 Temp: 2.4505863 Randomnr: 0.7019908807719482
+Expfunction: 0.5445100400958629 Error% : 1.489635204353049
+Percentage of worse sets accepted: 33.333332
+Remaining lags: 494, 586, 681, 743, 744, 791, 886, 888, 936, 937, 984, 1031, 1089, 1140, 1236, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.235077772699062
+Difference : -0.06933303353038767 Temp: 2.3654308 Randomnr: 0.7211183133194252
+Expfunction: 0.7691203458888226 Error% : 0.6209441031476574
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 44.444443
+Remaining lags: 494, 541, 586, 681, 743, 744, 791, 886, 888, 936, 937, 984, 1031, 1089, 1140, 1236, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.332513844336376
+Difference : -0.09743607163731305 Temp: 2.2819128 Randomnr: 0.35555915113502035
+Expfunction: 0.6838248826117955 Error% : 0.8672487508193321
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 55.555557
+Remaining lags: 494, 541, 586, 681, 743, 744, 791, 886, 888, 936, 937, 984, 1031, 1089, 1092, 1140, 1236, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.41836508740125
+Difference : -0.0858512430648748 Temp: 2.2000701 Randomnr: 0.5764246112623795
+Expfunction: 0.7086899969447185 Error% : 0.7575657461718476
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 55.555557
+Remaining lags: 494, 541, 586, 681, 684, 743, 744, 791, 886, 888, 936, 937, 984, 1031, 1089, 1092, 1140, 1236, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.424733167032162
+Difference : -0.006368079630911794 Temp: 2.1199367 Randomnr: 0.3038041218797798
+Expfunction: 0.9740354044777739 Error% : 0.055770502888703215
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 55.555557
+Remaining lags: 494, 541, 586, 681, 684, 743, 744, 791, 886, 888, 936, 937, 1031, 1089, 1092, 1140, 1236, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.421852320135375
+Difference : 0.002880846896786693 Temp: 2.0415413 Randomnr: 0.5411630041602253
+Percentage of worse sets accepted: 55.555557
+Remaining lags: 494, 541, 586, 681, 684, 743, 744, 791, 886, 888, 936, 937, 1031, 1089, 1092, 1140, 1188, 1236, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -12.062431587647
+Difference : -0.6405792675116242 Temp: 1.9649098 Randomnr: 0.3582452765453109
+Expfunction: 0.057598356385424904 Error% : 5.608365872340678
+Percentage of worse sets accepted: 55.555557
+Remaining lags: 494, 541, 586, 681, 684, 743, 744, 791, 886, 888, 936, 937, 1031, 1089, 1092, 1137, 1140, 1236, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.4162065767513
+Difference : 0.00564574338407553 Temp: 1.8900633 Randomnr: 0.07955529991990673
+Percentage of worse sets accepted: 55.555557
+Remaining lags: 494, 586, 587, 681, 684, 743, 744, 791, 886, 888, 936, 937, 1031, 1089, 1092, 1137, 1140, 1236, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.364373835328673
+Difference : 0.05183274142262739 Temp: 1.8170191 Randomnr: 0.6816663089466801
+Percentage of worse sets accepted: 55.555557
+Remaining lags: 494, 586, 587, 681, 684, 743, 744, 791, 886, 888, 936, 937, 1031, 1089, 1092, 1137, 1140, 1143, 1236, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.35783207887509
+Difference : 0.006541756453582792 Temp: 1.7457908 Randomnr: 0.30156960050151915
+Percentage of worse sets accepted: 55.555557
+Remaining lags: 494, 586, 587, 681, 743, 744, 791, 886, 888, 936, 937, 1030, 1031, 1089, 1092, 1137, 1140, 1143, 1236, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.37104476098312
+Difference : -0.013212682108029838 Temp: 1.6763884 Randomnr: 0.09538390960532239
+Expfunction: 0.9329591741083436 Error% : 0.1163310217678307
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 66.666664
+Remaining lags: 494, 541, 586, 587, 681, 743, 744, 791, 886, 888, 936, 937, 1030, 1031, 1089, 1092, 1137, 1140, 1143, 1236, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.41858367158347
+Difference : -0.04753891060035009 Temp: 1.6088179 Randomnr: 0.418314430764275
+Expfunction: 0.7711583764433694 Error% : 0.4180698572524128
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 77.77778
+Remaining lags: 494, 541, 586, 587, 743, 744, 791, 886, 888, 936, 937, 1030, 1031, 1089, 1092, 1137, 1140, 1143, 1235, 1236, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.970218276984735
+Difference : 0.4483653945987349 Temp: 1.5430826 Randomnr: 0.022698488773970737
+Percentage of worse sets accepted: 77.77778
+Remaining lags: 494, 541, 586, 587, 743, 744, 791, 886, 888, 936, 937, 1030, 1031, 1089, 1092, 1137, 1140, 1143, 1235, 1236, 1331, 1332, 1333, 1382
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -12.121321357185815
+Difference : -1.1511030802010804 Temp: 1.4791819 Randomnr: 0.4661207067925972
+Expfunction: 8.302577916584459E-4 Error% : 10.492982465226497
+Percentage of worse sets accepted: 66.666664
+Remaining lags: 494, 541, 586, 587, 743, 744, 791, 886, 888, 936, 937, 1030, 1031, 1077, 1089, 1092, 1137, 1140, 1143, 1235, 1236, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.268126256826164
+Difference : -0.2979079798414297 Temp: 1.4171124 Randomnr: 0.07955747817612446
+Expfunction: 0.14715100679038493 Error% : 2.715606675451789
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 77.77778
+Remaining lags: 494, 541, 586, 587, 743, 744, 791, 886, 888, 936, 937, 1030, 1031, 1077, 1089, 1092, 1137, 1140, 1143, 1188, 1235, 1236, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.95075430510841
+Difference : -0.6826280482822451 Temp: 1.3568674 Randomnr: 0.1954224563515804
+Expfunction: 0.011507825494980967 Error% : 6.058044014804263
+Percentage of worse sets accepted: 66.666664
+Remaining lags: 494, 541, 586, 743, 744, 791, 886, 888, 936, 937, 1030, 1031, 1077, 1089, 1092, 1137, 1140, 1143, 1235, 1236, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.274916814396162
+Difference : -0.006790557569997802 Temp: 1.2984378 Randomnr: 0.9476411236178648
+Expfunction: 0.9546483327305624 Error% : 0.06026341394501257
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 66.666664
+Remaining lags: 494, 541, 586, 743, 744, 791, 886, 888, 936, 937, 1030, 1031, 1077, 1089, 1092, 1137, 1140, 1142, 1143, 1235, 1236, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.27727054875532
+Difference : -0.0023537343591577553 Temp: 1.2418112 Randomnr: 0.4598210431806382
+Expfunction: 0.9833297068430897 Error% : 0.020875846783653736
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 66.666664
+Remaining lags: 494, 541, 586, 743, 744, 791, 886, 888, 934, 936, 937, 1030, 1031, 1077, 1089, 1092, 1140, 1142, 1143, 1235, 1236, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.288084421628012
+Difference : -0.010813872872692087 Temp: 1.186973 Randomnr: 0.8298495703620407
+Expfunction: 0.9223910064815659 Error% : 0.09589087027698934
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 66.666664
+Remaining lags: 494, 541, 586, 743, 744, 791, 886, 888, 933, 934, 936, 937, 1030, 1031, 1077, 1089, 1092, 1140, 1142, 1143, 1235, 1236, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.282154540995311
+Difference : 0.005929880632701057 Temp: 1.1339061 Randomnr: 0.048020733252127856
+Percentage of worse sets accepted: 66.666664
+Remaining lags: 494, 541, 586, 587, 743, 744, 791, 886, 888, 933, 934, 936, 937, 1030, 1031, 1077, 1089, 1092, 1140, 1142, 1143, 1235, 1236, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.271616651098864
+Difference : 0.010537889896447439 Temp: 1.0825913 Randomnr: 0.25231509988478296
+Percentage of worse sets accepted: 66.666664
+Remaining lags: 494, 541, 586, 587, 588, 743, 744, 791, 886, 888, 933, 934, 936, 937, 1030, 1031, 1077, 1089, 1092, 1140, 1142, 1143, 1235, 1236, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.27692725270457
+Difference : -0.005310601605707177 Temp: 1.033007 Randomnr: 0.8495092796276766
+Expfunction: 0.9554150866690087 Error% : 0.04711481742230339
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 77.77778
+Remaining lags: 494, 541, 586, 587, 588, 743, 744, 791, 886, 888, 933, 934, 936, 937, 1030, 1031, 1077, 1089, 1092, 1140, 1142, 1143, 1233, 1235, 1236, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.275089388565169
+Difference : 0.0018378641394019013 Temp: 0.9851298 Randomnr: 0.8900013493346808
+Percentage of worse sets accepted: 77.77778
+Remaining lags: 494, 541, 586, 587, 588, 743, 744, 791, 886, 888, 933, 934, 936, 937, 1030, 1031, 1077, 1089, 1140, 1142, 1143, 1233, 1235, 1236, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.200073359469267
+Difference : 0.07501602909590233 Temp: 0.93893415 Randomnr: 0.22239926430272583
+Percentage of worse sets accepted: 77.77778
+Remaining lags: 494, 541, 586, 587, 588, 743, 744, 791, 886, 888, 933, 934, 936, 937, 938, 1030, 1031, 1077, 1089, 1140, 1142, 1143, 1233, 1235, 1236, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.220317970393472
+Difference : -0.020244610924205375 Temp: 0.8943933 Randomnr: 0.2447178333683684
+Expfunction: 0.8170156160505457 Error% : 0.18075427074849712
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 77.77778
+Remaining lags: 494, 541, 586, 587, 588, 743, 744, 791, 886, 888, 933, 934, 936, 937, 938, 1030, 1031, 1077, 1078, 1089, 1140, 1142, 1143, 1233, 1235, 1236, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.203570503722517
+Difference : 0.016747466670954836 Temp: 0.85147876 Randomnr: 0.8928485992152543
+Percentage of worse sets accepted: 77.77778
+Remaining lags: 493, 494, 541, 586, 587, 588, 743, 744, 791, 886, 888, 933, 934, 936, 937, 938, 1030, 1031, 1077, 1078, 1089, 1140, 1142, 1143, 1233, 1235, 1236, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.280670510656744
+Difference : -0.07710000693422714 Temp: 0.8101606 Randomnr: 0.5756418214729131
+Expfunction: 0.42765924360415525 Error% : 0.6881735327912629
+Percentage of worse sets accepted: 66.666664
+Remaining lags: 494, 541, 586, 587, 588, 743, 744, 791, 886, 888, 933, 934, 935, 936, 937, 938, 1030, 1077, 1078, 1089, 1140, 1142, 1143, 1233, 1235, 1236, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.183501048018712
+Difference : 0.020069455703804806 Temp: 0.77040756 Randomnr: 0.1296673693590381
+Percentage of worse sets accepted: 66.666664
+Remaining lags: 494, 541, 586, 587, 588, 743, 744, 791, 886, 888, 933, 934, 935, 936, 937, 938, 1030, 1077, 1078, 1089, 1140, 1142, 1143, 1233, 1234, 1235, 1236, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.183900410676278
+Difference : -3.9936265756601586E-4 Temp: 0.7321874 Randomnr: 0.2944847180253226
+Expfunction: 0.9951347093125313 Error% : 0.003570998525875469
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 77.77778
+Remaining lags: 494, 541, 586, 587, 588, 684, 743, 744, 791, 886, 888, 933, 934, 935, 936, 937, 938, 1030, 1077, 1078, 1089, 1140, 1142, 1143, 1233, 1234, 1235, 1236, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.378892390973785
+Difference : -0.19499198029750708 Temp: 0.6954667 Randomnr: 0.04044318080424525
+Expfunction: 0.08151580434771705 Error% : 1.7435060501018547
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 77.77778
+Remaining lags: 494, 541, 586, 587, 588, 684, 743, 744, 791, 886, 888, 933, 934, 935, 936, 937, 938, 1030, 1077, 1078, 1089, 1140, 1142, 1143, 1233, 1234, 1235, 1236, 1330, 1331, 1332, 1333, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.416683626470387
+Difference : -0.03779123549660213 Temp: 0.6602114 Randomnr: 0.8021842619369579
+Expfunction: 0.6046857041802686 Error% : 0.3321169952057875
+Percentage of worse sets accepted: 77.77778
+Remaining lags: 494, 541, 586, 587, 588, 684, 743, 744, 791, 886, 888, 933, 934, 935, 936, 937, 938, 1030, 1045, 1077, 1078, 1089, 1140, 1142, 1143, 1233, 1234, 1235, 1236, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.741376378884882
+Difference : -0.36248398791109615 Temp: 0.6263865 Randomnr: 0.8777586857433108
+Expfunction: 0.0061848682818304 Error% : 3.185582352449643
+Percentage of worse sets accepted: 66.666664
+Remaining lags: 494, 541, 586, 587, 588, 684, 743, 744, 791, 888, 933, 934, 935, 936, 937, 938, 1030, 1077, 1078, 1089, 1140, 1142, 1143, 1233, 1234, 1235, 1236, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.370003267856642
+Difference : 0.008889123117143072 Temp: 0.5939565 Randomnr: 0.313984463011278
+Percentage of worse sets accepted: 66.666664
+Remaining lags: 494, 541, 586, 587, 588, 684, 743, 744, 791, 888, 933, 934, 935, 936, 937, 938, 1077, 1078, 1079, 1089, 1140, 1142, 1143, 1233, 1234, 1235, 1236, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.48644946976533
+Difference : -0.11644620190868693 Temp: 0.5628852 Randomnr: 0.24242940675907487
+Expfunction: 0.16211165404308298 Error% : 1.0241527567356468
+Percentage of worse sets accepted: 55.555557
+Remaining lags: 396, 494, 541, 586, 587, 588, 684, 686, 743, 744, 791, 933, 934, 935, 936, 937, 938, 1030, 1077, 1078, 1089, 1140, 1142, 1143, 1233, 1234, 1235, 1236, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.848725052045918
+Difference : -0.47872178418927547 Temp: 0.53313625 Randomnr: 0.8381466284066379
+Expfunction: 3.717070123244551E-4 Error% : 4.210392670181872
+Percentage of worse sets accepted: 44.444443
+Remaining lags: 494, 541, 586, 587, 588, 682, 684, 743, 744, 791, 888, 933, 934, 935, 936, 937, 938, 1030, 1077, 1078, 1089, 1140, 1142, 1143, 1233, 1234, 1235, 1236, 1330, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.57870149225878
+Difference : -0.2086982244021378 Temp: 0.5046727 Randomnr: 0.05738927065996613
+Expfunction: 0.02633010660584994 Error% : 1.8355159579604896
+Percentage of worse sets accepted: 33.333332
+Remaining lags: 494, 541, 586, 587, 588, 684, 743, 744, 791, 888, 933, 934, 935, 936, 937, 938, 1030, 1077, 1078, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.367258793697836
+Difference : 0.002744474158806298 Temp: 0.4774576 Randomnr: 0.02410629896386962
+Percentage of worse sets accepted: 33.333332
+Remaining lags: 494, 541, 586, 587, 588, 684, 743, 744, 790, 791, 888, 933, 934, 935, 936, 937, 938, 1030, 1077, 1078, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.394389758575064
+Difference : -0.027130964877228436 Temp: 0.45145386 Randomnr: 0.4587425545917213
+Expfunction: 0.5893801200447694 Error% : 0.23867640712350294
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 33.333332
+Remaining lags: 494, 541, 586, 587, 588, 684, 743, 744, 790, 791, 888, 933, 934, 935, 936, 937, 938, 1030, 1077, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.398773576224292
+Difference : -0.00438381764922724 Temp: 0.42662433 Randomnr: 0.8530664877080515
+Expfunction: 0.9137656371572751 Error% : 0.038473474596813
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 44.444443
+Remaining lags: 494, 541, 586, 587, 588, 684, 743, 744, 790, 791, 888, 933, 934, 935, 936, 937, 938, 1030, 1077, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1283, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -12.421251951662322
+Difference : -1.0224783754380304 Temp: 0.40293193 Randomnr: 0.12306363995484315
+Expfunction: 2.1465106205438072E-10 Error% : 8.970073566253909
+Percentage of worse sets accepted: 33.333332
+Remaining lags: 494, 541, 586, 587, 588, 684, 743, 744, 790, 791, 888, 933, 934, 935, 936, 937, 938, 1030, 1077, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1329, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.42096184848051
+Difference : -0.02218827225621922 Temp: 0.38033977 Randomnr: 0.022835776485124915
+Expfunction: 0.5994203660843184 Error% : 0.19465490833592664
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 33.333332
+Remaining lags: 494, 541, 586, 587, 588, 684, 731, 743, 744, 790, 791, 888, 933, 934, 935, 936, 937, 938, 1030, 1077, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1329, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.995025811869997
+Difference : -0.5740639633894862 Temp: 0.3588111 Randomnr: 0.6013605320153611
+Expfunction: 8.244883459868922E-7 Error% : 5.026406453374694
+Percentage of worse sets accepted: 33.333332
+Remaining lags: 494, 541, 586, 587, 588, 683, 684, 743, 744, 790, 791, 888, 933, 934, 935, 936, 937, 938, 1030, 1077, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1329, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.451688188012934
+Difference : -0.030726339532423097 Temp: 0.33830953 Randomnr: 0.6848459972313353
+Expfunction: 0.45147642269970695 Error% : 0.2690346044410528
+Percentage of worse sets accepted: 33.333332
+Remaining lags: 494, 541, 586, 587, 588, 684, 743, 744, 790, 791, 888, 933, 934, 935, 936, 937, 938, 1030, 1077, 1079, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1329, 1330, 1331, 1332, 1333, 1380
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -12.497002002541446
+Difference : -1.0760401540609354 Temp: 0.31879902 Randomnr: 0.5549502976765573
+Expfunction: 1.4624498953024385E-13 Error% : 9.421624626161377
+Percentage of worse sets accepted: 33.333332
+Remaining lags: 494, 541, 586, 587, 588, 684, 743, 744, 790, 888, 933, 934, 935, 936, 937, 938, 1030, 1077, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1329, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.398800433110633
+Difference : 0.0221614153698777 Temp: 0.30024394 Randomnr: 0.871005417555402
+Percentage of worse sets accepted: 33.333332
+Remaining lags: 541, 586, 587, 588, 684, 743, 744, 790, 888, 933, 934, 935, 936, 937, 938, 984, 1030, 1077, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1329, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.3120175251596
+Difference : 0.08678290795103294 Temp: 0.28260913 Randomnr: 0.24717869424094507
+Percentage of worse sets accepted: 33.333332
+Remaining lags: 541, 586, 587, 588, 684, 743, 744, 790, 888, 933, 934, 935, 937, 938, 984, 1030, 1077, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1329, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.314222374570726
+Difference : -0.002204849411125309 Temp: 0.26585996 Randomnr: 0.3382761577190918
+Expfunction: 0.9293091363479483 Error% : 0.019491212829377234
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 44.444443
+Remaining lags: 541, 586, 587, 588, 684, 685, 743, 744, 790, 888, 933, 934, 935, 937, 938, 984, 1030, 1077, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1329, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.306956064846492
+Difference : 0.007266309724233366 Temp: 0.24996237 Randomnr: 0.6134247948908651
+Percentage of worse sets accepted: 44.444443
+Remaining lags: 541, 586, 587, 588, 684, 685, 743, 744, 790, 888, 933, 934, 935, 937, 938, 984, 1030, 1077, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1329, 1330, 1331, 1332, 1333, 1380
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -12.452754091309124
+Difference : -1.1457980264626322 Temp: 0.23488288 Randomnr: 0.6371451452762888
+Expfunction: 1.833176821141465E-19 Error% : 10.133567512700758
+Percentage of worse sets accepted: 44.444443
+Remaining lags: 541, 586, 587, 588, 685, 743, 744, 790, 792, 888, 933, 934, 935, 937, 938, 984, 1030, 1077, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1329, 1330, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.343252166269677
+Difference : -0.036296101423184624 Temp: 0.22058873 Randomnr: 0.8517703343213355
+Expfunction: 0.23334722125755653 Error% : 0.3210068316797461
+Percentage of worse sets accepted: 33.333332
+Remaining lags: 541, 586, 587, 588, 684, 685, 732, 743, 790, 888, 933, 934, 935, 937, 938, 984, 1030, 1077, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1329, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.963093704181682
+Difference : -0.6561376393351903 Temp: 0.2070478 Randomnr: 0.34465358491284503
+Expfunction: 6.729339386914955E-13 Error% : 5.802955592753499
+Percentage of worse sets accepted: 22.222221
+Remaining lags: 541, 586, 587, 588, 684, 685, 732, 743, 744, 790, 888, 933, 934, 935, 937, 938, 984, 1030, 1077, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1329, 1330, 1331, 1332, 1333
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.959868593052752
+Difference : -0.6529125282062598 Temp: 0.19422871 Randomnr: 0.9053051107405496
+Expfunction: 1.2257343498742025E-13 Error% : 5.774432344671217
+Percentage of worse sets accepted: 22.222221
+Remaining lags: 541, 586, 587, 588, 684, 685, 743, 744, 790, 888, 933, 934, 935, 937, 938, 984, 1030, 1077, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1329, 1330, 1331, 1332, 1333, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.312140805144782
+Difference : -0.00518474029829008 Temp: 0.1821008 Randomnr: 0.6021464158842144
+Expfunction: 0.7773940197727909 Error% : 0.045854430392716576
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 22.222221
+Remaining lags: 541, 586, 587, 588, 684, 685, 743, 744, 790, 888, 933, 934, 935, 938, 984, 1030, 1077, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1329, 1330, 1331, 1332, 1333, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.307028470642935
+Difference : 0.005112334501847116 Temp: 0.1706342 Randomnr: 0.8671400554581242
+Percentage of worse sets accepted: 22.222221
+Remaining lags: 541, 586, 587, 588, 684, 685, 743, 744, 790, 888, 933, 934, 935, 938, 984, 985, 1030, 1077, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1329, 1330, 1331, 1332, 1333, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.328524333228122
+Difference : -0.021495862585187098 Temp: 0.15979977 Randomnr: 0.26181722606731295
+Expfunction: 0.30431856189365947 Error% : 0.19011062580233168
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 33.333332
+Remaining lags: 541, 586, 587, 588, 684, 685, 743, 744, 790, 792, 888, 933, 934, 935, 938, 984, 985, 1030, 1077, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1329, 1330, 1331, 1332, 1333, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.429228504512823
+Difference : -0.10070417128470055 Temp: 0.14956923 Randomnr: 0.16928036917146827
+Expfunction: 0.002623207042474614 Error% : 0.8889434168342769
+Percentage of worse sets accepted: 33.333332
+Remaining lags: 541, 586, 587, 588, 684, 685, 743, 744, 790, 888, 933, 934, 935, 938, 984, 1030, 1077, 1080, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1330, 1331, 1332, 1333, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.308132940048274
+Difference : 0.02039139317984784 Temp: 0.1399151 Randomnr: 0.11449366702786168
+Percentage of worse sets accepted: 33.333332
+Remaining lags: 541, 586, 587, 588, 683, 684, 685, 743, 744, 790, 888, 933, 934, 935, 938, 984, 1030, 1077, 1080, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1330, 1331, 1332, 1333, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.32795014248148
+Difference : -0.01981720243320595 Temp: 0.13081068 Randomnr: 0.12067804413394922
+Expfunction: 0.2619236796128857 Error% : 0.17524734222943572
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 44.444443
+Remaining lags: 541, 586, 587, 588, 683, 684, 685, 743, 744, 888, 933, 934, 935, 938, 984, 1030, 1077, 1080, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1330, 1331, 1332, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.323430074139786
+Difference : 0.004520068341694383 Temp: 0.12223013 Randomnr: 0.2745965946653951
+Percentage of worse sets accepted: 44.444443
+Remaining lags: 541, 586, 587, 588, 683, 684, 685, 743, 744, 886, 888, 933, 934, 935, 938, 984, 1030, 1077, 1080, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1330, 1331, 1332, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.331905786359675
+Difference : -0.008475712219889076 Temp: 0.11414842 Randomnr: 0.6577609768680271
+Expfunction: 0.5190604765286223 Error% : 0.07485110222251233
+Percentage of worse sets accepted: 33.333332
+Remaining lags: 541, 586, 587, 588, 683, 684, 685, 743, 744, 888, 933, 934, 935, 938, 984, 1030, 1080, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1330, 1331, 1332, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.260710558825954
+Difference : 0.06271951531383202 Temp: 0.106541365 Randomnr: 0.9081048575878155
+Percentage of worse sets accepted: 33.333332
+Remaining lags: 541, 586, 587, 588, 683, 684, 685, 743, 744, 888, 933, 934, 935, 938, 984, 1030, 1080, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1330, 1332, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.263345093035639
+Difference : -0.0026345342096849578 Temp: 0.0993856 Randomnr: 0.04787481281662309
+Expfunction: 0.7902511986150846 Error% : 0.023395807892602784
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 44.444443
+Remaining lags: 541, 587, 588, 683, 684, 685, 743, 744, 888, 933, 934, 935, 938, 984, 1030, 1045, 1080, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1330, 1332, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.676154132694531
+Difference : -0.4128090396588924 Temp: 0.09265858 Randomnr: 0.06757678065690831
+Expfunction: 6.6326664074671346E-18 Error% : 3.6650660727259505
+Percentage of worse sets accepted: 44.444443
+Remaining lags: 541, 586, 587, 588, 683, 684, 685, 743, 744, 888, 933, 935, 938, 984, 1030, 1080, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1330, 1332, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.275080292944859
+Difference : -0.011735199909219673 Temp: 0.086338595 Randomnr: 0.2433541502993839
+Expfunction: 0.299167315982035 Error% : 0.10418929556261036
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 55.555557
+Remaining lags: 541, 586, 587, 588, 683, 684, 685, 743, 744, 888, 933, 935, 938, 984, 1030, 1079, 1080, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1330, 1332, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.295330785862651
+Difference : -0.020250492917792684 Temp: 0.08040473 Randomnr: 0.5473626956847019
+Expfunction: 0.10712606415274428 Error% : 0.17960397967599395
+Percentage of worse sets accepted: 55.555557
+Remaining lags: 494, 541, 586, 587, 588, 683, 684, 685, 743, 744, 888, 933, 935, 938, 984, 1030, 1080, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1330, 1332, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.313421540538215
+Difference : -0.03834124759335644 Temp: 0.07483687 Randomnr: 0.8879584049111062
+Expfunction: 0.010631616361040796 Error% : 0.3400529893995315
+Percentage of worse sets accepted: 44.444443
+Remaining lags: 541, 586, 587, 588, 681, 683, 684, 685, 743, 744, 888, 933, 935, 938, 984, 1030, 1080, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1330, 1332, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.45984447271692
+Difference : -0.1847641797720616 Temp: 0.06961569 Randomnr: 0.8852501149104082
+Expfunction: 5.985107975995081E-11 Error% : 1.6386950245283296
+Percentage of worse sets accepted: 33.333332
+Remaining lags: 493, 541, 586, 587, 588, 683, 684, 685, 743, 744, 888, 933, 935, 984, 1030, 1080, 1089, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1330, 1332, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.301141381253101
+Difference : -0.02606108830824283 Temp: 0.06472266 Randomnr: 0.9103961000743309
+Expfunction: 0.028121533640094322 Error% : 0.2311388267855618
+Percentage of worse sets accepted: 33.333332
+Remaining lags: 541, 586, 587, 588, 683, 684, 685, 743, 744, 888, 933, 935, 938, 984, 1030, 1080, 1089, 1137, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1330, 1332, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.27787768438047
+Difference : -0.0027973914356120844 Temp: 0.06013999 Randomnr: 0.04770671234479895
+Expfunction: 0.6619640940121994 Error% : 0.024810390373561177
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 33.333332
+Remaining lags: 541, 586, 587, 588, 683, 685, 743, 744, 888, 933, 935, 938, 984, 1030, 1080, 1089, 1091, 1137, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1330, 1332, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.34160348199286
+Difference : -0.06372579761239017 Temp: 0.055850662 Randomnr: 0.7494663276756021
+Expfunction: 4.037974634853396E-5 Error% : 0.5650513278810296
+Percentage of worse sets accepted: 33.333332
+Remaining lags: 541, 586, 587, 588, 683, 684, 685, 743, 744, 888, 933, 935, 938, 984, 1030, 1080, 1089, 1137, 1140, 1141, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1330, 1332, 1334, 1381
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -12.404298737599255
+Difference : -1.1264210532187846 Temp: 0.051838372 Randomnr: 0.9690378838508252
+Expfunction: 2.1035584738401863E-84 Error% : 9.987881450238149
+Percentage of worse sets accepted: 22.222221
+Remaining lags: 541, 586, 587, 588, 683, 684, 685, 743, 744, 888, 933, 935, 938, 984, 1030, 1079, 1080, 1089, 1137, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1330, 1332, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.298487712252376
+Difference : -0.020610027871905245 Temp: 0.048087545 Randomnr: 0.6054481023232656
+Expfunction: 0.022363921909074682 Error% : 0.18274739670611545
+Percentage of worse sets accepted: 22.222221
+Remaining lags: 541, 586, 587, 588, 683, 684, 685, 743, 744, 888, 933, 935, 938, 984, 985, 1030, 1080, 1089, 1137, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1330, 1332, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.302568627288508
+Difference : -0.024690942908037528 Temp: 0.044583295 Randomnr: 0.1351959035462199
+Expfunction: 0.007367768114857811 Error% : 0.2189325296747433
+Percentage of worse sets accepted: 11.111111
+Remaining lags: 541, 586, 587, 588, 683, 684, 685, 743, 744, 888, 933, 935, 938, 984, 1030, 1077, 1080, 1089, 1137, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1330, 1332, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.345058384430416
+Difference : -0.06718070004994559 Temp: 0.041311428 Randomnr: 0.5318671607241289
+Expfunction: 5.466857736290293E-7 Error% : 0.5956856593948424
+Percentage of worse sets accepted: 11.111111
+Remaining lags: 541, 586, 587, 588, 682, 683, 684, 685, 744, 888, 933, 935, 938, 984, 1030, 1080, 1089, 1137, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1330, 1332, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.350297652960577
+Difference : -0.0724199685801068 Temp: 0.038258407 Randomnr: 0.36633003432217626
+Expfunction: 5.1363800805661984E-8 Error% : 0.6421418161007929
+Percentage of worse sets accepted: 11.111111
+Remaining lags: 541, 586, 587, 588, 683, 684, 685, 743, 744, 888, 933, 935, 938, 984, 1030, 1080, 1089, 1091, 1137, 1139, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1330, 1332, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.340489494547862
+Difference : -0.06261181016739137 Temp: 0.035411336 Randomnr: 0.5153905298429258
+Expfunction: 1.5530848521618834E-7 Error% : 0.5551736941969755
+Percentage of worse sets accepted: 11.111111
+Remaining lags: 541, 587, 588, 683, 685, 743, 744, 888, 933, 935, 984, 1030, 1077, 1080, 1089, 1137, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1330, 1332, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.286521769966196
+Difference : -0.008644085585725492 Temp: 0.03275794 Randomnr: 0.05473999788010375
+Expfunction: 0.09634880721989843 Error% : 0.07664638531855418
+Decided to change to a worse subset!
+Percentage of worse sets accepted: 22.222221
+Remaining lags: 493, 541, 587, 588, 683, 685, 743, 744, 888, 933, 935, 984, 1030, 1077, 1080, 1089, 1137, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1330, 1332, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.364170835046115
+Difference : -0.07764906507991931 Temp: 0.03028656 Randomnr: 0.04969781049283417
+Expfunction: 1.3636282612897064E-10 Error% : 0.6879804661037913
+Percentage of worse sets accepted: 11.111111
+Remaining lags: 541, 587, 588, 683, 685, 743, 744, 888, 933, 935, 984, 1030, 1077, 1080, 1089, 1137, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1330, 1332, 1334, 1381
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -12.472299526551526
+Difference : -1.1857777565853294 Temp: 0.027986102 Randomnr: 0.44360430830287334
+Expfunction: 9.192045996348728E-164 Error% : 10.506139807754794
+Percentage of worse sets accepted: 11.111111
+Remaining lags: 541, 587, 588, 683, 685, 743, 744, 888, 933, 934, 935, 984, 1030, 1077, 1080, 1089, 1137, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1330, 1332, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.261507996611128
+Difference : 0.02501377335506838 Temp: 0.025846047 Randomnr: 0.7177255524688833
+Percentage of worse sets accepted: 11.111111
+Remaining lags: 541, 587, 588, 683, 685, 743, 744, 888, 933, 934, 935, 937, 984, 1030, 1077, 1080, 1089, 1137, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1332, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.288452183988372
+Difference : -0.026944187377244688 Temp: 0.023856422 Randomnr: 0.3142373271492702
+Expfunction: 4.409653439410948E-5 Error% : 0.23925914171843482
+Percentage of worse sets accepted: 11.111111
+Remaining lags: 541, 587, 588, 683, 685, 743, 933, 934, 935, 984, 1030, 1077, 1080, 1089, 1137, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1330, 1332, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.39808609458135
+Difference : -0.13657809797022225 Temp: 0.022007769 Randomnr: 0.3472838606159535
+Expfunction: 1.1674519375627054E-24 Error% : 1.2127869376936202
+Percentage of worse sets accepted: 11.111111
+Remaining lags: 541, 587, 588, 685, 743, 744, 888, 933, 934, 935, 984, 1030, 1077, 1080, 1089, 1137, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1330, 1332, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.18917685032075
+Difference : 0.07233114629037729 Temp: 0.020291138 Randomnr: 0.303851056594619
+Percentage of worse sets accepted: 11.111111
+Remaining lags: 587, 588, 685, 743, 744, 888, 933, 934, 935, 984, 1030, 1077, 1080, 1089, 1137, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1330, 1332, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.141552227171543
+Difference : 0.04762462314920768 Temp: 0.018698065 Randomnr: 0.804925661483326
+Percentage of worse sets accepted: 11.111111
+Remaining lags: 587, 588, 685, 743, 744, 888, 933, 934, 984, 1030, 1077, 1080, 1089, 1137, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1330, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.13645776272856
+Difference : 0.0050944644429833374 Temp: 0.017220542 Randomnr: 0.26064560894416533
+Percentage of worse sets accepted: 11.111111
+Remaining lags: 586, 587, 588, 685, 743, 744, 888, 933, 934, 984, 1030, 1077, 1080, 1089, 1137, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1284, 1329, 1330, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.977776569660595
+Difference : -0.8413188069320352 Temp: 0.015851013 Randomnr: 0.11496247904548085
+Expfunction: 1.0329536850280514E-207 Error% : 7.554635637803583
+Percentage of worse sets accepted: 11.111111
+Remaining lags: 587, 588, 685, 743, 744, 888, 933, 934, 984, 1030, 1077, 1080, 1089, 1137, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.134285368575473
+Difference : 0.0021723941530868984 Temp: 0.014582349 Randomnr: 0.7079432389815908
+Percentage of worse sets accepted: 11.111111
+Remaining lags: 587, 588, 685, 743, 744, 888, 933, 934, 984, 1030, 1080, 1089, 1137, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.01610488553319
+Difference : 0.11818048304228235 Temp: 0.013407824 Randomnr: 0.5231414119202318
+Percentage of worse sets accepted: 11.111111
+Remaining lags: 587, 588, 685, 743, 744, 888, 933, 934, 984, 1030, 1080, 1089, 1092, 1137, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1283, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.966153954594892
+Difference : -0.9500490690617021 Temp: 0.012321102 Randomnr: 0.9240514055939785
+Expfunction: 1.0342023541128002E-304 Error% : 8.624183220235551
+Percentage of worse sets accepted: 11.111111
+Remaining lags: 587, 588, 685, 743, 744, 933, 934, 984, 1030, 1080, 1089, 1137, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.154862229909726
+Difference : -0.1387573443765362 Temp: 0.011316222 Randomnr: 0.32182835013670463
+Expfunction: 4.5660598400306414E-49 Error% : 1.2595862677266094
+Percentage of worse sets accepted: 11.111111
+Remaining lags: 587, 588, 685, 732, 743, 744, 888, 933, 934, 984, 1030, 1080, 1089, 1137, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.840811099226194
+Difference : -0.8247062136930037 Temp: 0.010387572 Randomnr: 0.030255790945665884
+Expfunction: 1.00480414376E-313 Error% : 7.4863685691304775
+Percentage of worse sets accepted: 11.111111
+Remaining lags: 587, 588, 685, 743, 744, 888, 933, 934, 984, 1030, 1079, 1080, 1089, 1137, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.045179251251902
+Difference : -0.029074365718711803 Temp: 0.009529883 Randomnr: 0.6853092250069859
+Expfunction: 9.38428863757398E-13 Error% : 0.26392600670399824
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 685, 743, 744, 887, 888, 933, 934, 984, 1030, 1080, 1089, 1137, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.018779327122116
+Difference : -0.0026744415889261575 Temp: 0.008738202 Randomnr: 0.1370932468838847
+Expfunction: 0.0621425384011744 Error% : 0.024277561050079926
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 685, 742, 743, 744, 888, 933, 934, 938, 984, 1030, 1080, 1089, 1137, 1140, 1142, 1143, 1233, 1234, 1236, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.154842264634382
+Difference : -0.1387373791011921 Temp: 0.008007883 Randomnr: 0.6653751899723485
+Expfunction: 4.991392961171459E-69 Error% : 1.25940503056927
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 685, 743, 744, 888, 933, 934, 984, 1030, 1080, 1089, 1137, 1140, 1142, 1143, 1233, 1234, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.014294750257491
+Difference : 0.0018101352756989542 Temp: 0.00733457 Randomnr: 0.24075234394814748
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 685, 743, 744, 888, 933, 934, 984, 1030, 1080, 1137, 1140, 1142, 1143, 1233, 1234, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.616303088831643
+Difference : 0.3979916614258485 Temp: 0.00671418 Randomnr: 0.6196755767334651
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 682, 685, 743, 744, 888, 933, 934, 984, 1030, 1080, 1137, 1140, 1142, 1143, 1233, 1234, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.841778311454505
+Difference : -0.2254752226228618 Temp: 0.006142891 Randomnr: 0.5396315749935918
+Expfunction: 7.013934575493117E-151 Error% : 2.123858189957499
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 685, 743, 744, 888, 933, 934, 984, 1080, 1137, 1140, 1142, 1143, 1233, 1234, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.742997616729763
+Difference : -0.1266945278981204 Temp: 0.0056171278 Randomnr: 0.20500674306830413
+Expfunction: 5.3860041799509535E-93 Error% : 1.1933959198226276
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 743, 744, 888, 933, 934, 984, 1030, 1080, 1137, 1140, 1142, 1143, 1233, 1234, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.370857595510516
+Difference : 0.2454454933211263 Temp: 0.0051335474 Randomnr: 0.8989212855312821
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 743, 744, 888, 933, 934, 984, 1030, 1080, 1137, 1140, 1142, 1143, 1233, 1234, 1237, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.45981505906661
+Difference : -0.08895746355609369 Temp: 0.0046890276 Randomnr: 0.19698133667200346
+Expfunction: 3.585173748465363E-80 Error% : 0.85776381303898
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 743, 744, 790, 888, 933, 934, 984, 1030, 1080, 1137, 1140, 1142, 1143, 1233, 1234, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.357597081042185
+Difference : 0.013260514468331763 Temp: 0.0042806533 Randomnr: 0.712349127107856
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 683, 743, 744, 790, 933, 934, 984, 1030, 1080, 1137, 1140, 1142, 1143, 1233, 1234, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.876188136753218
+Difference : -0.5185910557110329 Temp: 0.0039057056 Randomnr: 0.5942421804275339
+Expfunction: 0.0 Error% : 5.006866473501131
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 743, 744, 790, 888, 933, 934, 984, 1030, 1080, 1137, 1140, 1142, 1143, 1233, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.359566424978265
+Difference : -0.001969343936080392 Temp: 0.00356165 Randomnr: 0.6693574413619183
+Expfunction: 0.004803537619908716 Error% : 0.019013521386006996
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 743, 744, 790, 888, 933, 934, 984, 1030, 1080, 1137, 1140, 1142, 1233, 1234, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.35261760805384
+Difference : 0.0049794729883441136 Temp: 0.0032461262 Randomnr: 0.04302592681275785
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 743, 744, 790, 888, 933, 934, 984, 1030, 1080, 1092, 1137, 1140, 1142, 1233, 1234, 1237, 1329, 1334, 1381
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -12.080366254719312
+Difference : -1.7277486466654715 Temp: 0.0029569378 Randomnr: 0.3480032413966634
+Expfunction: 0.0 Error% : 16.689002840415604
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 697, 743, 744, 790, 933, 934, 984, 1030, 1080, 1137, 1140, 1142, 1233, 1234, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.51484019384951
+Difference : -0.16222258579566962 Temp: 0.002692041 Randomnr: 0.6555438174644713
+Expfunction: 1.6133542441917355E-253 Error% : 1.5669716774767013
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 743, 744, 790, 888, 933, 934, 984, 1030, 1080, 1137, 1140, 1142, 1233, 1234, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.355800825194784
+Difference : -0.003183217140943384 Temp: 0.002449537 Randomnr: 0.9244493895676131
+Expfunction: 3.5358597903009465E-6 Error% : 0.03074794473686533
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 743, 744, 790, 888, 933, 934, 984, 1030, 1080, 1137, 1140, 1142, 1188, 1233, 1234, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.56538099228401
+Difference : -1.2127633842301702 Temp: 0.002227662 Randomnr: 0.8880582192529003
+Expfunction: 0.0 Error% : 11.714557903565359
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 743, 744, 790, 888, 933, 934, 984, 1030, 1080, 1137, 1139, 1140, 1142, 1233, 1234, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.356033034299633
+Difference : -0.0034154262457928297 Temp: 0.0020247789 Randomnr: 0.06534110239229596
+Expfunction: 8.390309288189833E-8 Error% : 0.032990943692692676
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 743, 744, 790, 888, 933, 934, 984, 1030, 1080, 1137, 1140, 1142, 1233, 1234, 1237, 1329, 1334, 1382
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.96100731300098
+Difference : -1.6083897049471396 Temp: 0.0018393702 Randomnr: 0.6520447407967905
+Expfunction: 0.0 Error% : 15.53606793798594
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 681, 743, 744, 790, 888, 933, 934, 984, 1030, 1080, 1137, 1140, 1142, 1233, 1234, 1237, 1329, 1334, 1392
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.93875434173117
+Difference : -1.5861367336773302 Temp: 0.0016700292 Randomnr: 0.5865469492091722
+Expfunction: 0.0 Error% : 15.321117747490177
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 743, 744, 790, 888, 933, 934, 984, 1030, 1137, 1139, 1140, 1142, 1233, 1234, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.405233758665673
+Difference : -0.05261615061183278 Temp: 0.001515453 Randomnr: 0.13041686776532646
+Expfunction: 2.2382810461062615E-146 Error% : 0.5082400664629971
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 685, 743, 744, 790, 888, 933, 934, 984, 1030, 1080, 1137, 1140, 1142, 1233, 1234, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.615593112459766
+Difference : -0.2629755044059259 Temp: 0.0013744358 Randomnr: 0.19822803113878684
+Expfunction: 0.0 Error% : 2.54018369423153
+Percentage of worse sets accepted: 0.0
+Remaining lags: 493, 587, 588, 743, 744, 790, 888, 933, 934, 984, 1030, 1080, 1137, 1140, 1142, 1233, 1234, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.561130799289613
+Difference : -0.20851319123577206 Temp: 0.0012458628 Randomnr: 0.5020573235439617
+Expfunction: 0.0 Error% : 2.0141108184422727
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 743, 744, 745, 790, 888, 933, 934, 984, 1030, 1080, 1137, 1140, 1142, 1233, 1234, 1237, 1329, 1331, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.374970123866785
+Difference : -0.022352515812944063 Temp: 0.0011287034 Randomnr: 0.48014684194668944
+Expfunction: 8.375559781655262E-84 Error% : 0.2159117303391451
+Percentage of worse sets accepted: 0.0
+Remaining lags: 586, 587, 588, 731, 743, 744, 790, 888, 933, 934, 984, 1030, 1080, 1137, 1140, 1142, 1233, 1234, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.283944015715674
+Difference : -0.9313264076618335 Temp: 0.0010220059 Randomnr: 0.5990699027938046
+Expfunction: 0.0 Error% : 8.996047598022999
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 743, 744, 790, 888, 933, 934, 984, 1030, 1077, 1080, 1137, 1140, 1142, 1233, 1234, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.571957153250409
+Difference : -0.2193395451965685 Temp: 9.248922E-4 Randomnr: 0.651328020891147
+Expfunction: 0.0 Error% : 2.1186868239577676
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 743, 744, 790, 888, 933, 934, 984, 1030, 1080, 1137, 1140, 1142, 1233, 1234, 1237, 1283, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.630743362357302
+Difference : -1.2781257543034616 Temp: 8.365523E-4 Randomnr: 0.3550935521240689
+Expfunction: 0.0 Error% : 12.34591871054081
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 743, 744, 790, 792, 888, 933, 934, 984, 1030, 1080, 1137, 1140, 1142, 1233, 1234, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.542634098680537
+Difference : -0.19001649062669657 Temp: 7.5623963E-4 Randomnr: 0.11404932287676706
+Expfunction: 0.0 Error% : 1.8354439217273208
+Percentage of worse sets accepted: 0.0
+Remaining lags: 396, 587, 588, 743, 744, 790, 888, 933, 934, 984, 1030, 1080, 1137, 1140, 1142, 1233, 1234, 1237, 1329, 1334, 1335
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.093750606027422
+Difference : -0.7411329979735815 Temp: 6.832668E-4 Randomnr: 0.18817997512574536
+Expfunction: 0.0 Error% : 7.158894745586038
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 742, 743, 744, 790, 888, 933, 934, 984, 1030, 1080, 1137, 1140, 1142, 1233, 1234, 1237, 1329, 1333, 1334, 1392
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.649814594523667
+Difference : -1.2971969864698263 Temp: 6.170009E-4 Randomnr: 0.7037146268821308
+Expfunction: 0.0 Error% : 12.530135233244481
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 743, 744, 790, 888, 933, 934, 984, 1030, 1080, 1137, 1140, 1142, 1233, 1234, 1237, 1329, 1330, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.357739547306167
+Difference : -0.005121939252326513 Temp: 5.5686E-4 Randomnr: 0.40223109540933977
+Expfunction: 2.5980157278941534E-39 Error% : 0.04947482314368387
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 697, 743, 744, 790, 888, 933, 934, 984, 1030, 1080, 1137, 1140, 1142, 1233, 1234, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.437643598906504
+Difference : -0.08502599085266382 Temp: 5.0230924E-4 Randomnr: 0.9941017478156495
+Expfunction: 0.0 Error% : 0.821299443983304
+Percentage of worse sets accepted: 0.0
+Remaining lags: 396, 587, 588, 743, 744, 790, 888, 933, 934, 984, 1030, 1080, 1137, 1140, 1142, 1233, 1234, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.985764895631036
+Difference : -0.6331472875771951 Temp: 4.5285723E-4 Randomnr: 0.5065477295903377
+Expfunction: 0.0 Error% : 6.115818351917459
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 743, 744, 790, 888, 933, 934, 1030, 1080, 1137, 1140, 1141, 1142, 1233, 1234, 1237, 1284, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.64390096665554
+Difference : -1.2912833586016994 Temp: 4.0805302E-4 Randomnr: 0.4630792771717642
+Expfunction: 0.0 Error% : 12.473013178784301
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 743, 744, 790, 886, 888, 933, 934, 984, 1030, 1080, 1137, 1140, 1142, 1233, 1234, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.375967663923495
+Difference : -0.02335005586965444 Temp: 3.6748292E-4 Randomnr: 0.5290094719466591
+Expfunction: 2.7937308513496705E-267 Error% : 0.2255473615821492
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 743, 744, 790, 888, 933, 934, 936, 984, 1030, 1080, 1137, 1140, 1142, 1233, 1234, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.344449295880393
+Difference : 0.00816831217344749 Temp: 3.307677E-4 Randomnr: 0.2790600172435824
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 743, 744, 790, 888, 933, 934, 936, 984, 1030, 1031, 1080, 1137, 1140, 1142, 1233, 1234, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.365363773362567
+Difference : -0.02091447748217412 Temp: 2.9756E-4 Randomnr: 0.9357628273278219
+Expfunction: 8.193397835129763E-296 Error% : 0.20218067568375214
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 743, 744, 745, 790, 888, 933, 934, 936, 984, 1030, 1080, 1137, 1142, 1233, 1234, 1237, 1282, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.498391944620156
+Difference : -1.153942648739763 Temp: 2.6754182E-4 Randomnr: 0.5257435874888888
+Expfunction: 0.0 Error% : 11.155186861414778
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 743, 744, 790, 888, 933, 934, 936, 984, 1030, 1045, 1080, 1137, 1140, 1142, 1233, 1234, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.964871190665027
+Difference : -0.6204218947846343 Temp: 2.404222E-4 Randomnr: 0.43564281920758163
+Expfunction: 0.0 Error% : 5.997630971343376
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 743, 744, 790, 888, 933, 934, 936, 984, 1030, 1080, 1137, 1140, 1142, 1233, 1234, 1237, 1329, 1333, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.370023684381566
+Difference : -0.025574388501173217 Temp: 2.1593516E-4 Randomnr: 0.835262333454341
+Expfunction: 0.0 Error% : 0.2472281294989579
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 743, 744, 790, 888, 933, 934, 936, 984, 985, 1030, 1080, 1137, 1140, 1142, 1233, 1234, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.385588391351439
+Difference : -0.04113909547104555 Temp: 1.9383767E-4 Randomnr: 0.5231185488532367
+Expfunction: 0.0 Error% : 0.39769246573066885
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 743, 744, 790, 888, 933, 934, 936, 937, 984, 1030, 1080, 1137, 1140, 1142, 1233, 1234, 1237, 1331, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.425047286623284
+Difference : -0.08059799074289131 Temp: 1.7390784E-4 Randomnr: 0.2814708312472729
+Expfunction: 0.0 Error% : 0.779142402244544
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 743, 744, 790, 888, 933, 934, 936, 984, 1030, 1080, 1137, 1139, 1140, 1142, 1233, 1234, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.347120685607209
+Difference : -0.002671389726815576 Temp: 1.5594318E-4 Randomnr: 0.14718737552652272
+Expfunction: 1.2031303708207666E-72 Error% : 0.025824378373428145
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 743, 744, 790, 888, 933, 934, 936, 937, 984, 1030, 1080, 1140, 1142, 1233, 1234, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.398772737753632
+Difference : -0.054323441873238565 Temp: 1.3975908E-4 Randomnr: 0.5202237537284881
+Expfunction: 0.0 Error% : 0.5251458083406384
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 743, 744, 790, 888, 933, 934, 936, 984, 1030, 1080, 1137, 1140, 1142, 1233, 1234, 1237, 1329, 1334, 1392
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -11.581401045238733
+Difference : -1.2369517493583402 Temp: 1.2518729E-4 Randomnr: 0.9488222963415195
+Expfunction: 0.0 Error% : 11.957637511461803
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 743, 744, 790, 888, 933, 934, 936, 984, 1030, 1080, 1137, 1140, 1233, 1234, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.35389620730173
+Difference : -0.009446911421337134 Temp: 1.12074566E-4 Randomnr: 0.21711119921657474
+Expfunction: 0.0 Error% : 0.09132348326265471
+Percentage of worse sets accepted: 0.0
+Remaining lags: 587, 588, 743, 744, 888, 933, 934, 936, 984, 1030, 1080, 1137, 1140, 1142, 1233, 1234, 1237, 1329, 1334
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]
+New merit: -10.355873767575202
+Difference : -0.011424471694809313 Temp: 1.0028147E-4 Randomnr: 0.41540286541706384
+Expfunction: 0.0 Error% : 0.1104405983154563
+Percentage of worse sets accepted: 0.0
+Best merit: -8.678600654475842
+198
+1 2 3 4 7 8 10 11 15 87 88 
+Including:1.1363636% of features.
+
+Process finished with exit code 0

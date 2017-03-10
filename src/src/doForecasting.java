@@ -1,5 +1,6 @@
 package src;
 
+import jdk.nashorn.internal.runtime.regexp.joni.exception.ValueException;
 import weka.classifiers.Classifier;
 import weka.classifiers.evaluation.NumericPrediction;
 import weka.core.Instances;
@@ -17,45 +18,25 @@ public class doForecasting {
     List<Double> actualValuesList = new ArrayList<>();
     List<Double> forecastedValuesList = new ArrayList<>();
     HashMap<Integer, Float> map = new HashMap<Integer, Float>();
-    public doForecasting(){
-      resetOptions();
+    private Thread t;
+    private String threadName;
+
+    public doForecasting() {
+        resetOptions();
     }
-    public void doForecast(Instances data, Classifier classifier){
+
+    public void doForecast(Instances data) {
         try {
             PrintWriter resultLog = new PrintWriter(new FileWriter("results.txt", true));
-
             long startTime = System.currentTimeMillis();
             List<String> overlayFields = new ArrayList<String>();
-            int lagInterval = 36, lagLimit = 1392, maxlag = 0;
-
-            /* WekaForecaster forecaster = new WekaForecaster();
             MyHashMap hashMap = new MyHashMap();
-            boolean breakLoop = false;
-            for (int i = 1; i < 1392 ; i+=lagInterval) {
-                if(i+lagInterval-1 > lagLimit){
-                    maxlag = lagLimit;
-                    breakLoop = true;                                   //to break after ranking the last interval
-                }else
-                    maxlag = i+lagInterval-1;
-                hashMap.fillUpHashMap(applyFilterClassifier.applyFilterClassifier(data, i, maxlag), 3, data.attribute(1).name());
-                if(breakLoop)
-                    break;
-            }
+            int lagLimit = 1392;
+
+            rankWithRelief(hashMap, data, 48, lagLimit, 4);
             hashMap.sortHashMapByValues();
             String chosenLags = hashMap.printHashMapFeatures(75);
-            resultLog.println(chosenLags);*/
-
-            /*for (int i = 0; i < data.numAttributes()-2; i++)                                        //first 2 attributes are time and field to lag
-                overlayFields.add(i, data.attribute(i+2).name());
-            forecaster.getTSLagMaker().setOverlayFields(overlayFields);
-            forecaster.getTSLagMaker().setTimeStampField(data.attribute(0).name()); // date time stamp
-            forecaster.setFieldsToForecast(data.attribute(1).name());
-            forecaster.setBaseForecaster(classifier);
-            forecaster.getTSLagMaker().setIncludePowersOfTime(true);
-            forecaster.getTSLagMaker().setIncludeTimeLagProducts(false);
-            forecaster.getTSLagMaker().setFieldsToLagAsString(data.attribute(1).name() + ", " + data.attribute(2).name());
-            //crossValidateTS(data, forecaster);
-            calculateErrors(true,  "MAPE", resultLog);*/
+            resultLog.println(chosenLags);
 
             TSLagMaker tsLagMaker = new TSLagMaker();
             tsLagMaker.setFieldsToLagAsString(data.attribute(1).name());
@@ -64,42 +45,58 @@ public class doForecasting {
             tsLagMaker.setIncludeTimeLagProducts(false);
             tsLagMaker.setMinLag(1);
             tsLagMaker.setMaxLag(lagLimit);
-            //tsLagMaker.setLagRange(chosenLags);
-            tsLagMaker.setLagRange("1008, 1007, 961, 1005, 816, 815, 769, 814, 912, 1248, 865, 1057, 911, 909, 1247, 1246, 1058, 1245, 1103, 1104, 1345, 673, 720, 719, 1392, 1346, 717, 1347, 1056, 1152, 1055, 1344, 1054, 1053, 1151, 577, 1200, 672, 1343, 1153, 1249, 1150, 671, 1149, 1199, 1342, 1341, 1154, 670, 669, 578, 1250, 624, 623, 1251, 1252, 960, 959, 768, 767, 958, 957, 766, 765, 864, 863, 576, 575, 862, 861, 574, 573, 480, 481, 385");
-           // tsLagMaker.setRemoveLeadingInstancesWithUnknownLagValues(true);
-            //tsLagMaker.setLagRange("1008, 1007, 961, 1005, 816, 815, 769, 814, 912, 1248, 865, 1057, 911, 909, 1247, 1246, 1058, 1245, 1103, 1104, 1345, 673, 720, 719, 1392, 1346, 717, 1347, 1056, 1152, 1055, 1344, 1054, 1053, 1151, 577, 1200, 672, 1343, 1153, 1249, 1150, 671, 1149, 1199, 1342, 1341, 1154, 670, 669, 578, 1250, 624, 623, 1251, 1252, 960, 959, 768, 767, 958, 957, 766, 765, 864, 863, 576, 575, 862, 861, 574, 573, 480, 481, 385");
-            for (int i = 0; i < data.numAttributes()-2; i++)                                        //first 2 attributes are time and field to lag
-                overlayFields.add(i, data.attribute(i+2).name());
+            tsLagMaker.setLagRange(chosenLags);
+            //tsLagMaker.setLagRange("937, 984, 983, 938, 745, 792, 791, 790, 841, 888, 887, 886, 1333, 1334, 1380, 1335, 588, 587, 1091, 1045, 1089, 586, 1092, 1079, 541, 1284, 1237, 1141, 1077, 1080, 1283, 1282, 1078, 1032, 1142, 683, 1332, 684, 1188, 1031, 985, 1143, 1030, 681, 682, 1331, 1330, 1329, 1140, 1236, 1139, 1235, 1138, 1137, 1234, 1233, 936, 935, 934, 1381, 933, 1392, 1382, 1383, 685, 744, 743, 697, 686, 493, 742, 732, 731, 396, 494");
+            //tsLagMaker.setLagRange("697, 792, 888, 1030, 1032, 1080");
+            for (int i = 0; i < data.numAttributes() - 2; i++)                                        //first 2 attributes are time and field to lag
+                overlayFields.add(i, data.attribute(i + 2).name());
             tsLagMaker.setOverlayFields(overlayFields);
             Instances laggedData = tsLagMaker.getTransformedData(data);
-           src.BestFirst bestFirst = new src.BestFirst();
-           //bestFirst.setOptions(weka.core.Utils.splitOptions("-D 0"));
-           SimmulatedAnnealing simmulatedAnnealing = new SimmulatedAnnealing();
-           RandomSearch randomSearch = new RandomSearch();
+            src.BestFirst bestFirst = new src.BestFirst();
+            //bestFirst.setOptions(weka.core.Utils.splitOptions("-D 2"));
+            SimmulatedAnnealing simmulatedAnnealing = new SimmulatedAnnealing();
+            RandomSearch randomSearch = new RandomSearch();
 
             //randomSearch.search(laggedData, tsLagMaker, overlayFields);
-           //simmulatedAnnealing.search(laggedData, tsLagMaker, overlayFields);
-           // tsLagMaker.setLagRange("768, 1, 769, 2, 3, 4, 1291, 1292, 527, 528, 1296, 1049, 282, 1051, 286, 289, 290, 1058, 814, 815, 816, 817, 573, 1341, 574, 1342, 575, 1343, 576, 1344, 577, 578, 579, 1102, 335, 1103, 336, 1104, 93, 94, 862, 95, 863, 96, 864, 97, 865, 98, 99, 101, 1389, 1390, 1391, 624, 1392, 381, 1149, 382, 1150, 383, 1151, 384, 1152, 385, 910, 911, 912, 914, 668, 669, 671");
+            //simmulatedAnnealing.search(laggedData, tsLagMaker, overlayFields);
+            // tsLagMaker.setLagRange("768, 1, 769, 2, 3, 4, 1291, 1292, 527, 528, 1296, 1049, 282, 1051, 286, 289, 290, 1058, 814, 815, 816, 817, 573, 1341, 574, 1342, 575, 1343, 576, 1344, 577, 578, 579, 1102, 335, 1103, 336, 1104, 93, 94, 862, 95, 863, 96, 864, 97, 865, 98, 99, 101, 1389, 1390, 1391, 624, 1392, 381, 1149, 382, 1150, 383, 1151, 384, 1152, 385, 910, 911, 912, 914, 668, 669, 671");
             //simmulatedAnnealing.search(laggedData, tsLagMaker, overlayFields);
             bestFirst.search(laggedData, tsLagMaker, overlayFields);
-       /*forecaster.setTSLagMaker(tsLagMaker);
-            forecaster.setFieldsToForecast(data.attribute(1).name());
-            tsLagMaker.setLagRange("3, 93, 94, 95, 97, 282, 287, 289, 290, 335, 381, 383, 384, 385, 573, 668, 669, 671, 768, 769, 814, 816, 817, 862, 863, 864, 910, 914, 1049, 1056, 1058, 1104, 1150, 1151, 1152, 1342, 1389, 1390, 1391");
-            crossValidateTS(data, forecaster);
-            resultLog.println(forecaster);
-            calculateErrors(true, "MAPE", resultLog);*/
-
             long stopTime = System.currentTimeMillis();
-            double elapsedTime = ((double) stopTime - startTime)/1000;
+            double elapsedTime = ((double) stopTime - startTime) / 1000;
+            System.out.println("Time taken: " + elapsedTime);
             resultLog.println("Time taken: " + elapsedTime);
             resultLog.close();
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
-    public void crossValidateTS(Instances data, weka.classifiers.timeseries.WekaForecaster forecaster){
-        try {
 
+    public void rankWithRelief(MyHashMap hashMap, Instances data, int lagInterval, int lagLimit, int featureNumber) {
+        int startLag = 1, endLag = startLag + lagInterval - 1;
+        ArrayList<Thread> threadList = new ArrayList<Thread>();
+        int threadNumber = 4;
+        if (lagLimit % threadNumber != 0)
+            throw new ValueException("Lag limit has to be divisible with " + threadNumber + " because the lag intervals will be split to that number of threads!");
+        int threadLagInterval = lagLimit / threadNumber;                          //each thread has a Interval of the whole lag range which will be assigned to it; this Interval will be calculated by the thread split again in the per parameter given Interval size
+        for (int i = 0; i < threadNumber; i++) {
+            startLag = (threadLagInterval * i) + 1;
+            endLag = threadLagInterval * (i + 1);
+            System.out.println("Start lag:" + startLag + " endLag:" + endLag);
+            threadList.add(i, new MyThread("Thread" + (i + 1), hashMap, data, startLag, endLag, featureNumber, lagLimit, lagInterval));
+        }
+        for (int i = 0; i < threadList.size(); i++)
+            threadList.get(i).start();
+        try {
+            for (int i = 0; i < threadList.size(); i++)                     //waiting for all threads to finish
+                threadList.get(i).join();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void crossValidateTS(Instances data, WekaForecaster forecaster) {
+        try {
             this.actualValuesList.clear();
             forecastedValuesList.clear();
             int stepNumber = 24;
@@ -111,36 +108,39 @@ public class doForecasting {
                 testData = getSplittedData(data, trainingPercentage, false);
                 forecaster.buildForecaster(trainData);
                 forecaster.primeForecaster(trainData);
-                if(!forecaster.getTSLagMaker().getOverlayFields().isEmpty())                        //checking if any overlay fields are set
+                if (!forecaster.getTSLagMaker().getOverlayFields().isEmpty())                        //checking if any overlay fields are set
                     forecast = forecaster.forecast(stepNumber, testData);
                 else
                     forecast = forecaster.forecast(stepNumber);
                 //System.out.println(forecaster.getTSLagMaker().getTransformedData(testData));
                 addToValuesLists(forecast, testData, stepNumber);
                 long eTime = System.currentTimeMillis();
-                System.out.println(((double)(eTime-sTime))/1000);
+                System.out.println(((double) (eTime - sTime)) / 1000);
             }
             buildErrorGraph.buildErrorGraph(testData, forecaster, forecast, stepNumber);
-        } catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
-    public void addToValuesLists(List<List<NumericPrediction>> forecast, Instances testData, int stepNumber){
+
+    public void addToValuesLists(List<List<NumericPrediction>> forecast, Instances testData, int stepNumber) {
         for (int i = 0; i < stepNumber; i++) {
             actualValuesList.add(testData.get(i).value(1));
             forecastedValuesList.add(forecast.get(i).get(0).predicted());
         }
     }
-    public Instances getSplittedData(Instances data, Integer trainPercent, boolean getTrainData){
-        int trainSize = (int) Math.round(data.numInstances() * trainPercent/100);
-        int testSize = data.numInstances()-trainSize;
-        if (getTrainData){
+
+    public Instances getSplittedData(Instances data, Integer trainPercent, boolean getTrainData) {
+        int trainSize = (int) Math.round(data.numInstances() * trainPercent / 100);
+        int testSize = data.numInstances() - trainSize;
+        if (getTrainData) {
             return new Instances(data, 0, trainSize);
-        }else {
+        } else {
             return new Instances(data, trainSize, testSize);
         }
     }
-    public double calculateErrors (boolean printOutput, String evaluationMeasure, PrintWriter resultLog){
+
+    public double calculateErrors(boolean printOutput, String evaluationMeasure, PrintWriter resultLog) {
         double errorSum = 0;
         double piErrorSum = 0;
         double squaredErrorSum = 0;
@@ -154,36 +154,47 @@ public class doForecasting {
             double piError = 100 * error / actualValue;
             piErrorSum += piError;
             errorSum += error;
-            squaredErrorSum += error*error;
+            squaredErrorSum += error * error;
             String errorOutput = "Step: " + i + " Prediction:" + df.format(forecastedValuesList.get(i)) +
                     " Act: " + actualValue +
                     " MAE: " + df.format(errorSum / (i + 1)) + " RMSE:" + df.format(Math.sqrt(squaredErrorSum / (i + 1))) +
                     " MAPE:" + df.format(piErrorSum / (i + 1));
-            if(printOutput)
+            if (printOutput)
                 resultLog.println(errorOutput);
         }
-        if(evaluationMeasure == "RMSE")
-            getLastError = Math.sqrt(squaredErrorSum/ (i + 1));
+        if (evaluationMeasure == "RMSE")
+            getLastError = Math.sqrt(squaredErrorSum / (i + 1));
         else if (evaluationMeasure == "MAPE")
-            getLastError = piErrorSum/(i+1);
+            getLastError = piErrorSum / (i + 1);
         return getLastError;
     }
 
-    public Float getAvg(Float[] array){
+    public Float getAvg(Float[] array) {
         Float avg = (float) 0;
-        for (int i = 0; i< array.length; i++)
+        for (int i = 0; i < array.length; i++)
             avg += array[i];
-        return avg/array.length;
-
-
+        return avg / array.length;
     }
-    public void resetOptions(){
+
+    public void resetOptions() {
         actualValuesList = null;
         forecastedValuesList = null;
         map = null;
     }
 }
 
+    /* WekaForecaster forecaster = new WekaForecaster();
+    for (int i = 0; i < data.numAttributes()-2; i++)                                        //first 2 attributes are time and field to lag
+        overlayFields.add(i, data.attribute(i+2).name());
+    forecaster.getTSLagMaker().setOverlayFields(overlayFields);
+    forecaster.getTSLagMaker().setTimeStampField(data.attribute(0).name()); // date time stamp
+    forecaster.setFieldsToForecast(data.attribute(1).name());
+    forecaster.setBaseForecaster(classifier);
+    forecaster.getTSLagMaker().setIncludePowersOfTime(true);
+    forecaster.getTSLagMaker().setIncludeTimeLagProducts(false);
+    forecaster.getTSLagMaker().setFieldsToLagAsString(data.attribute(1).name() + ", " + data.attribute(2).name());
+    //crossValidateTS(data, forecaster);
+    calculateErrors(true,  "MAPE", resultLog);*/
 
 /*TSEvaluation evaluation = new TSEvaluation(testData, stepNumber);
             evaluation.setEvaluateOnTestData(true);
@@ -229,7 +240,7 @@ public class doForecasting {
             ArrayList<Integer> selectedFeatures = rankerWrapperObj.populateSelectedFeatures(featureListForIntevals, percentFeaturesToGetFromInterval, 10);
 
             forecaster.setBaseForecaster(new MLPRegressor());                 //running classifier on attributes ranked by rankedWrapper
-            forecaster.getTSLagMaker().setMinLag(1);
-            forecaster.getTSLagMaker().setMaxLag(780);
+            forecaster.getTSLagMaker().setStartLag(1);
+            forecaster.getTSLagMaker().setEndLag(780);
             resultLog.println(selectedFeatures.toString());
             forecaster.getTSLagMaker().setLagRange(selectedFeatures.toString().substring(1, selectedFeatures.toString().length()-1)); */

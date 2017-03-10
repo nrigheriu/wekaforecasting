@@ -5,13 +5,80 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7587b12-2478-48ce-a17b-10292d85196b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/anotherExample$Graph.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/src/MyThread.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/src/SubsetHandler.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BFerrorLog.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LAST SA RUN:" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataSets/1year3months_100aggregate_extraFeaturesz.arff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataSets/1year3months_10aggregate_extraFeaturesz.arff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataSets/1year3months_1aggregate10_extraFeaturesz.arff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataSets/1year3months_1aggregate1_extraFeaturesz.arff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataSets/1year3months_1aggregate2_extraFeaturesz.arff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataSets/1year3months_1aggregate3_extraFeaturesz.arff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataSets/1year3months_1aggregate4_extraFeaturesz.arff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataSets/1year3months_1aggregate5_extraFeaturesz.arff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataSets/1year3months_1aggregate6_extraFeaturesz.arff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataSets/1year3months_1aggregate7_extraFeaturesz.arff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataSets/1year3months_1aggregate8_extraFeaturesz.arff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataSets/1year3months_1aggregate9_extraFeaturesz.arff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataSets/1year3months_50aggregate_extraFeaturesz.arff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataSets/1year3months_allaggregate_extraFeaturesz.arff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataSets/1year3months_weather_interpolated.arff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataSets/addFeatures.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/determining overlay fields" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/errorLogSAw0Start.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/src/MyThread.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/src/SubsetHandler.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataSets/1year_100aggregate_extraFeatures.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataSets/1year_10aggregate_extraFeatures.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataSets/1year_1aggregate_extraFeatures.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataSets/1year_50aggregate_extraFeatures.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataSets/1year_AllAggregate_extraFeatures.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataSets/3months_10aggregate_extraFeatures.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataSets/6months_10aggregate_extraFeatures.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataSets/6months_50aggregate_extraFeatures.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/src/AttributeSelectedClassifier.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/src/AttributeSelection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/src/TSLagMaker.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/src/rankerWrapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/AttributeSelectedClassifier.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/AttributeSelection.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/rankerWrapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/weka/filters/supervised/attribute/TSLagMaker$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/weka/filters/supervised/attribute/TSLagMaker$LogFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/weka/filters/supervised/attribute/TSLagMaker$Periodicity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/weka/filters/supervised/attribute/TSLagMaker$PeriodicityHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/weka/filters/supervised/attribute/TSLagMaker.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/file1.png" afterPath="$PROJECT_DIR$/file1.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/anotherExample.class" afterPath="$PROJECT_DIR$/target/classes/anotherExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/BestFirst$Link2.class" afterPath="$PROJECT_DIR$/target/classes/src/BestFirst$Link2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/BestFirst$LinkedList2.class" afterPath="$PROJECT_DIR$/target/classes/src/BestFirst$LinkedList2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/BestFirst.class" afterPath="$PROJECT_DIR$/target/classes/src/BestFirst.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/RandomSearch.class" afterPath="$PROJECT_DIR$/target/classes/src/RandomSearch.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/SimmulatedAnnealing$TheVeryBest.class" afterPath="$PROJECT_DIR$/target/classes/src/SimmulatedAnnealing$TheVeryBest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/SimmulatedAnnealing.class" afterPath="$PROJECT_DIR$/target/classes/src/SimmulatedAnnealing.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/TSCV.class" afterPath="$PROJECT_DIR$/target/classes/src/TSCV.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/TSWrapper.class" afterPath="$PROJECT_DIR$/target/classes/src/TSWrapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/applyMetaClassifier.class" afterPath="$PROJECT_DIR$/target/classes/src/applyMetaClassifier.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/doForecasting.class" afterPath="$PROJECT_DIR$/target/classes/src/doForecasting.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/normalInput.class" afterPath="$PROJECT_DIR$/target/classes/src/normalInput.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/errorLog.txt" afterPath="$PROJECT_DIR$/errorLog.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSets/3months_100aggregate_extraFeatures.arff" afterPath="$PROJECT_DIR$/dataSets/3months_100aggregate_extraFeatures.arff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plot.py" afterPath="$PROJECT_DIR$/plot.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/relief results" afterPath="$PROJECT_DIR$/relief results" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results.txt" afterPath="$PROJECT_DIR$/results.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/anotherExample.java" afterPath="$PROJECT_DIR$/src/anotherExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/BestFirst.java" afterPath="$PROJECT_DIR$/src/src/BestFirst.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/RandomSearch.java" afterPath="$PROJECT_DIR$/src/src/RandomSearch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/SimmulatedAnnealing.java" afterPath="$PROJECT_DIR$/src/src/SimmulatedAnnealing.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/TSCV.java" afterPath="$PROJECT_DIR$/src/src/TSCV.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/TSWrapper.java" afterPath="$PROJECT_DIR$/src/src/TSWrapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/applyMetaClassifier.java" afterPath="$PROJECT_DIR$/src/src/applyMetaClassifier.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/doForecasting.java" afterPath="$PROJECT_DIR$/src/src/doForecasting.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/src/normalInput.java" afterPath="$PROJECT_DIR$/src/src/normalInput.java" />
     </list>
     <ignored path="wekaforecasting.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,21 +109,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SimmulatedAnnealing.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/src/SimmulatedAnnealing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3540">
-              <caret line="276" column="18" lean-forward="false" selection-start-line="276" selection-start-column="18" selection-end-line="276" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BestFirst.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/BestFirst.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9135">
-              <caret line="667" column="19" lean-forward="false" selection-start-line="667" selection-start-column="19" selection-end-line="667" selection-end-column="19" />
+            <state relative-caret-position="-1359">
+              <caret line="727" column="0" lean-forward="true" selection-start-line="727" selection-start-column="0" selection-end-line="727" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -65,60 +122,22 @@
       <file leaf-file-name="doForecasting.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/doForecasting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="37" selection-end-column="21" />
+            <state relative-caret-position="725">
+              <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding>
                 <element signature="docComment;class#doForecasting#0" expanded="false" />
+                <element signature="e#712#713#0" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="normalInput.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/src/normalInput.java">
+      <file leaf-file-name="BFerrorLog.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BFerrorLog.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyHashMap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/src/MyHashMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applyFilterClassifier.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/src/applyFilterClassifier.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TSCV.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/src/TSCV.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="89" column="52" lean-forward="false" selection-start-line="89" selection-start-column="52" selection-end-line="89" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="anotherExample.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/anotherExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -127,8 +146,18 @@
       <file leaf-file-name="TSWrapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/TSWrapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="98" column="41" lean-forward="false" selection-start-line="98" selection-start-column="41" selection-end-line="98" selection-end-column="41" />
+            <state relative-caret-position="-60">
+              <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TSCV.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/TSCV.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -239,13 +268,14 @@
         <option value="$PROJECT_DIR$/src/src/SimmulatedAnnealing.java" />
         <option value="$PROJECT_DIR$/src/src/myHashMap.java" />
         <option value="$PROJECT_DIR$/src/src/applyFilterClassifier.java" />
-        <option value="$PROJECT_DIR$/src/src/normalInput.java" />
         <option value="$PROJECT_DIR$/src/src/MyHashMap.java" />
         <option value="$PROJECT_DIR$/src/src/BestFirst.java" />
-        <option value="$PROJECT_DIR$/src/src/doForecasting.java" />
+        <option value="$PROJECT_DIR$/src/anotherExample.java" />
+        <option value="$PROJECT_DIR$/src/src/normalInput.java" />
         <option value="$PROJECT_DIR$/src/src/TSWrapper.java" />
         <option value="$PROJECT_DIR$/src/src/TSCV.java" />
-        <option value="$PROJECT_DIR$/src/anotherExample.java" />
+        <option value="$PROJECT_DIR$/src/src/doForecasting.java" />
+        <option value="$PROJECT_DIR$/BFerrorLog.txt" />
       </list>
     </option>
   </component>
@@ -418,15 +448,15 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project-senselab-daq-minimal" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -441,7 +471,7 @@
       <recent name="$PROJECT_DIR$/src/src/evaluation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.anotherExample">
+  <component name="RunManager" selected="Application.normalInput">
     <configuration default="false" name="normalInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="src.normalInput" />
@@ -933,8 +963,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.anotherExample" />
-        <item index="1" class="java.lang.String" itemvalue="Application.normalInput" />
+        <item index="0" class="java.lang.String" itemvalue="Application.normalInput" />
+        <item index="1" class="java.lang.String" itemvalue="Application.anotherExample" />
         <item index="2" class="java.lang.String" itemvalue="Application.DrawGraph" />
         <item index="3" class="java.lang.String" itemvalue="Application.example1" />
         <item index="4" class="java.lang.String" itemvalue="Application.lagInput" />
@@ -1039,6 +1069,7 @@
       <workItem from="1486743612079" duration="5041000" />
       <workItem from="1487092060104" duration="778000" />
       <workItem from="1488877989703" duration="3000" />
+      <workItem from="1489140532701" duration="4594000" />
     </task>
     <task id="LOCAL-00001" summary="updates">
       <created>1484761837664</created>
@@ -1058,7 +1089,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="623489000" />
+    <option name="totallyTimeSpent" value="628083000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1076,30 +1107,30 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286026" sideWeight="0.49808428" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27143922" sideWeight="0.49533224" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32619774" sideWeight="0.5079236" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.26746726" sideWeight="0.49779457" order="2" side_tool="false" content_ui="tabs" x="867" y="-998" width="815" height="998" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.49786553" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.26746726" sideWeight="0.49779457" order="2" side_tool="false" content_ui="tabs" x="855" y="-998" width="825" height="998" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3144059" sideWeight="0.4920764" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3139785" sideWeight="0.4920764" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14180478" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14150347" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965213" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24914286" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3955148" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27143922" sideWeight="0.49533224" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3430276" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1175,22 +1206,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/src/myMLPRegressor.java" />
-    <entry file="file://$USER_HOME$/wekafiles/pentaho/weka/timeseriesforecasting-ce/1.0.19/timeseriesforecasting-ce-1.0.19.jar.lastUpdated" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/nz/ac/waikato/cms/weka/weka-dev/3.9.1/weka-dev-3.9.1.jar!/weka/attributeSelection/SubsetEvaluator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/src/SubsetEvaluator.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/nz/ac/waikato/cms/weka/weka-dev/3.9.1/weka-dev-3.9.1.jar!/weka/classifiers/bayes/net/search/global/SimulatedAnnealing.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -1214,13 +1229,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/AttributeSelection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="625" column="40" lean-forward="false" selection-start-line="625" selection-start-column="40" selection-end-line="625" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/AttributeSelection.java" />
     <entry file="file://$PROJECT_DIR$/src/example1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1266,13 +1275,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/Evaluation.java" />
-    <entry file="file://$PROJECT_DIR$/src/src/AttributeSelectedClassifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="139" column="0" lean-forward="true" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/AttributeSelectedClassifier.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/nz/ac/waikato/cms/weka/weka-dev/3.9.1/weka-dev-3.9.1.jar!/weka/core/Range.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -1291,13 +1294,7 @@
     <entry file="jar://$USER_HOME$/wekafiles/timeseriesForecasting-1.0.24.jar!/weka/classifiers/timeseries/WekaForecaster.class" />
     <entry file="jar://$USER_HOME$/.ideaLibSources/timeseriesForecasting-1.0.24-sources.jar!/weka/filters/supervised/attribute/TSLagMaker.java" />
     <entry file="file://$PROJECT_DIR$/src/src/evaluation/Evaluation.java" />
-    <entry file="file://$PROJECT_DIR$/src/src/rankerWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/rankerWrapper.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/nz/ac/waikato/cms/weka/weka-dev/3.9.1/weka-dev-3.9.1.jar!/weka/filters/MultiFilter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1306,13 +1303,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/AddHoliday.java" />
-    <entry file="file://$PROJECT_DIR$/src/src/TSLagMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="2601" column="0" lean-forward="false" selection-start-line="2601" selection-start-column="0" selection-end-line="2601" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/TSLagMaker.java" />
     <entry file="file://$PROJECT_DIR$/src/src/lagInput.java" />
     <entry file="file://$PROJECT_DIR$/src/src/WekaForecaster.java" />
     <entry file="jar:///lib/jvm/jdk1.8.0_111/src.zip!/javax/swing/JComponent.java" />
@@ -1367,26 +1358,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/BestFirst.java">
+    <entry file="file://$PROJECT_DIR$/src/anotherExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9135">
-          <caret line="667" column="19" lean-forward="false" selection-start-line="667" selection-start-column="19" selection-end-line="667" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/SimmulatedAnnealing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3540">
-          <caret line="276" column="18" lean-forward="false" selection-start-line="276" selection-start-column="18" selection-end-line="276" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/TSWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="98" column="41" lean-forward="false" selection-start-line="98" selection-start-column="41" selection-end-line="98" selection-end-column="41" />
+        <state relative-caret-position="165">
+          <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1401,42 +1376,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/MyHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
+        <state relative-caret-position="552">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataSets/1year3months_100aggregate_extraFeaturesz.arff">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/normalInput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+        <state relative-caret-position="375">
+          <caret line="30" column="46" lean-forward="false" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/SimmulatedAnnealing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="276" column="18" lean-forward="false" selection-start-line="276" selection-start-column="18" selection-end-line="276" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/BestFirst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1359">
+          <caret line="727" column="0" lean-forward="true" selection-start-line="727" selection-start-column="0" selection-end-line="727" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/SubsetHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="26" column="91" lean-forward="false" selection-start-line="26" selection-start-column="91" selection-end-line="26" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/TSCV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/TSWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/doForecasting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="37" selection-end-column="21" />
+        <state relative-caret-position="725">
+          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#doForecasting#0" expanded="false" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/TSCV.java">
+    <entry file="file://$PROJECT_DIR$/BFerrorLog.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="89" column="52" lean-forward="false" selection-start-line="89" selection-start-column="52" selection-end-line="89" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/anotherExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -21,6 +21,7 @@ def plotData(data):
 	plt.show()
 
 if __name__ == '__main__':
-	path = os.path.join(os.path.expanduser('~'), 'workspace/wekaforecasting-new-features','errorLog.txt')
+	path = os.path.join(os.path.expanduser('~'), 'workspace/wekaforecasting-new-features','errorLogSAw0Start.txt')
 	data = open(path)
 	plotData(data)
+	#errorLogSAw0Start

@@ -37,15 +37,16 @@ public class TSCV {
             List<List<NumericPrediction>> forecast = null;
             //System.out.println("Lag range: " + tsLagMaker.getLagRange());
             long sTime = System.currentTimeMillis();
-            for (int trainingPercentage = 70; trainingPercentage <= 80; trainingPercentage += 5) {
+            int[] trainingPercentages = {30, 60, 80};
+            for (int trainingPercentage:trainingPercentages) {
                 numUnitsForecasted = 1;
+                numberOfUnitsToForecast = 28;
                 trainData = getSplittedData(data, trainingPercentage, true);
                 testData = getSplittedData(data, trainingPercentage, false);
                 forecaster.buildForecaster(trainData);
                 forecaster.primeForecaster(trainData);
                 //numberOfUnitsToForecast = (int) Math.floor(testData.numInstances() / stepNumber);                                               //forecast until the end of the data set; can take a whole while longer
-                numberOfUnitsToForecast = 28;
-                while (numUnitsForecasted < numberOfUnitsToForecast){
+                while (numUnitsForecasted <= numberOfUnitsToForecast){
                     startTestData = (numUnitsForecasted-1)*(stepNumber);
                     endTestData = (int)testData.numInstances()-startTestData;
                     if(!forecaster.getTSLagMaker().getOverlayFields().isEmpty())                        //checking if any overlay fields are set
@@ -77,11 +78,10 @@ public class TSCV {
     public Instances getSplittedData(Instances data, Integer trainPercent, boolean getTrainData){
         int trainSize = (int) Math.round(data.numInstances() * trainPercent/100);
         int testSize = data.numInstances()-trainSize;
-        if (getTrainData){
+        if (getTrainData)
             return new Instances(data, 0, trainSize);
-        }else {
+        else
             return new Instances(data, trainSize, testSize);
-        }
     }
     public double calculateErrors (boolean printOutput, String evaluationMeasure){
         double errorSum = 0;
