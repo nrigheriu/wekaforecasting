@@ -8,6 +8,8 @@ import weka.filters.Filter;
 import weka.filters.unsupervised.attribute.Remove;
 import weka.filters.supervised.attribute.TSLagMaker;
 
+import java.io.FileWriter;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.BitSet;
 import java.util.List;
@@ -51,6 +53,7 @@ public class TSWrapper {
         return text.toString();
     }
     public double evaluateSubset(BitSet subset, TSLagMaker tsLagMaker, List<String> overlayFields)throws Exception{
+        PrintWriter resultLog = new PrintWriter(new FileWriter("results.txt", true));
         double error = 0;
         int numAttributes = 0;
         int i, j;
@@ -93,6 +96,7 @@ public class TSWrapper {
         }
         //remainingLags = "697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288";
         System.out.println("Remaining lags: " + remainingLags);
+        resultLog.println("Remaining lags: " + remainingLags);
         tsLagMaker.setLagRange(remainingLags);
         i = 0;
         for (int k = 0; k < overlayFields.size(); k++)                       //updating the tsLagmaker with the still available overlay Fields
@@ -103,6 +107,7 @@ public class TSWrapper {
         TSCV tscv = new TSCV();
         tscv.crossValidateTS(trainCopy, m_BaseClassifier, tsLagMaker);
         error = tscv.calculateErrors(false, "MAPE");
+        resultLog.close();
         return error;
     }
     public void buildEvaluator(Instances data) throws Exception{

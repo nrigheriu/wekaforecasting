@@ -270,6 +270,8 @@ public class BestFirst {
      */
     protected int m_maxStale;
 
+
+
     /**
      * 0 == backward search, 1 == forward search, 2 == bidirectional
      */
@@ -690,6 +692,9 @@ public class BestFirst {
                 + Utils.doubleToString(Math.abs(m_bestMerit), 8, 3) + "\n");
         return BfString.toString();
     }
+    public void logResults(String input){
+        System.out.println("asd");
+    }
     /**
      * Searches the attribute subset space by best first search
      *
@@ -699,6 +704,8 @@ public class BestFirst {
      */
     public int[] search(Instances data, TSLagMaker tsLagMaker, List<String> overlayFields) throws Exception {
         PrintWriter errorLog = new PrintWriter(new FileWriter("BFerrorLog.txt", true));
+        PrintWriter bfResultLog = new PrintWriter(new FileWriter("BFresultLog.txt", true));
+
         TSWrapper tsWrapper = new TSWrapper();
         tsWrapper.buildEvaluator(data);
         LinearRegression linearRegression = new LinearRegression();
@@ -756,6 +763,7 @@ public class BestFirst {
         // evaluate the initial subset
         best_merit = -tsWrapper.evaluateSubset(best_group, tsLagMaker, overlayFields);
         //printGroup(best_group, m_numAttribs);
+        bfResultLog.println("Merit:" + best_merit);
         System.out.println("Merit:" + best_merit);
         System.out.print("Group: ");
         subsetHandler.printGroup(best_group);
@@ -820,6 +828,8 @@ public class BestFirst {
                             merit = -tsWrapper.evaluateSubset(temp_group, tsLagMaker, overlayFields);
                             System.out.println("Merit: " + merit);
                             System.out.print("Group: ");
+                            bfResultLog.println("Merit:" + best_merit);
+
                             subsetHandler.printGroup(temp_group);
                             System.out.println("\n");
                             m_totalEvals++;
@@ -857,6 +867,7 @@ public class BestFirst {
                             added = true;
                             stale = 0;
                             System.out.println("Setting best merit to:" + merit);
+                            bfResultLog.println("Setting best merit to:" + merit);
                             best_merit = merit;
                             // best_size = (size + best_size);
                             best_size = size;
@@ -885,6 +896,8 @@ public class BestFirst {
         }
         subsetHandler.printGroup(best_group);
         System.out.println("Best merit: " + best_merit);
+        bfResultLog.println("Best merit:" + best_merit);
+
         System.out.println(m_totalEvals);
         m_bestMerit = best_merit;
         tsWrapper.evaluateSubset(best_group, tsLagMaker, overlayFields);

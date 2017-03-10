@@ -1,5 +1,7 @@
 package src;
 
+import java.io.FileWriter;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.BitSet;
 import java.util.Random;
@@ -88,12 +90,21 @@ public class SubsetHandler {
     }
 
     public boolean includesMoreThanXPercentOfFeatures(BitSet bitSet, boolean print, int percentage) {
-        int trueBits = 0;
-        for (int i = 11; i < m_numAttribs - 2; i++)              //this interval makes sure we just consider the lags
-            if (bitSet.get(i))
-                trueBits++;
-        if (print)
-            System.out.println("Including:" + ((float) trueBits / m_numAttribs) * 100 + "% of features.");
+            int trueBits = 0;
+        try {
+            PrintWriter resultLog = new PrintWriter(new FileWriter("resultLog.txt", true));
+
+            for (int i = 11; i < m_numAttribs - 2; i++)              //this interval makes sure we just consider the lags
+                if (bitSet.get(i))
+                    trueBits++;
+            if (print) {
+                System.out.println("Including:" + ((float) trueBits / m_numAttribs) * 100 + "% of features.");
+                resultLog.println("Including:"+ ((float) trueBits / m_numAttribs) * 100 + "% of features.");
+            }
+
+        }catch (Exception e){
+            e.printStackTrace();
+        }
         if ((float) trueBits / m_numAttribs > (float) percentage/100)
             return true;
         return false;
