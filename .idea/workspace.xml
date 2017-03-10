@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+
+
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/TimeSeriesExample.java" line="73" />
@@ -44,16 +47,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="doForecasting.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="doForecasting.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/doForecasting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+            <state relative-caret-position="599">
+              <caret line="74" column="16" lean-forward="false" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
               <folding>
                 <element signature="docComment;class#doForecasting#0" expanded="false" />
                 <element signature="e#712#713#0" expanded="true" />
                 <element signature="e#742#743#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="38" lean-forward="false" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -191,6 +204,7 @@
         <option value="$PROJECT_DIR$/src/src/TSCV.java" />
         <option value="$PROJECT_DIR$/src/src/doForecasting.java" />
         <option value="$PROJECT_DIR$/BFerrorLog.txt" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -357,7 +371,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dataSets" />
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -984,7 +998,7 @@
       <workItem from="1486743612079" duration="5041000" />
       <workItem from="1487092060104" duration="778000" />
       <workItem from="1488877989703" duration="3000" />
-      <workItem from="1489140532701" duration="4715000" />
+      <workItem from="1489140532701" duration="4992000" />
     </task>
     <task id="LOCAL-00001" summary="updates">
       <created>1484761837664</created>
@@ -1004,7 +1018,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="628204000" />
+    <option name="totallyTimeSpent" value="628481000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1121,7 +1135,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/src/SubsetEvaluator.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/nz/ac/waikato/cms/weka/weka-dev/3.9.1/weka-dev-3.9.1.jar!/weka/classifiers/bayes/net/search/global/SimulatedAnnealing.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-19">
@@ -1371,13 +1384,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/doForecasting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        <state relative-caret-position="599">
+          <caret line="74" column="16" lean-forward="false" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
           <folding>
             <element signature="docComment;class#doForecasting#0" expanded="false" />
             <element signature="e#712#713#0" expanded="true" />
             <element signature="e#742#743#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="38" lean-forward="false" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
