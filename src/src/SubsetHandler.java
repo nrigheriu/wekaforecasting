@@ -63,11 +63,12 @@ public class SubsetHandler {
      *
      * @return a list of attributes (and or attribute ranges)
      */
-    protected void printGroup(BitSet tt) {
+    protected String printGroup(BitSet tt) {
         for (int i = 0; i < m_numAttribs; i++)
             if (tt.get(i) == true)
                 System.out.print((i + 1) + " ");
         System.out.println();
+        return "";
     }
 
     public int getM_numAttribs() {

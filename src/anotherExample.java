@@ -19,37 +19,17 @@ import weka.core.Utils;
 /**
  * Created by cycle on 10.11.16.
  */
-public class anotherExample extends Thread{
-    private Thread t;
-    private String threadName;
+public class anotherExample{
 
-    anotherExample (String name) {
-        threadName = name;
-        System.out.println("Creating " + threadName);
-    }
-    public void run() {
-        System.out.println("Running " +  threadName );
-        try {
-            for(int i = 4; i > 0; i--) {
-                System.out.println("Thread: " + threadName + ", " + i);
-                // Let the thread sleep for a while.
-                Thread.sleep(50);
-            }
-        }catch (InterruptedException e) {
-            System.out.println("Thread " +  threadName + " interrupted.");
-        }
-        System.out.println("Thread " +  threadName + " exiting.");
-    }
-
-    public void start () {
-        System.out.println("Starting " +  threadName );
-        if (t == null) {
-            t = new Thread (this, threadName);
-            t.start ();
-        }
-    }
     public static void main(String[] args) {
-       anotherExample T1 = new anotherExample("Thread-1");
-       T1.start();
+        try {
+            PrintWriter errorLog = new PrintWriter(new FileWriter("bestFirst/BFerrorLog.txt", true));
+            errorLog.println("Asd");
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+    public static void functionOne(){
+        System.out.println("asdasda");
     }
 }

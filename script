@@ -1,0 +1,3 @@
+#!/bin/bash
+"$JAVA_HOME"/usr/bin/java -jar ~/workspace/wekaforecasting-new-features/wekaforecasting.jar
+"$JAVA_HOME"/usr/bin/java -jar ~/workspace/wekaforecasting-new-features/wekaforecasting1.jar

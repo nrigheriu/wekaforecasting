@@ -698,12 +698,15 @@ public class BestFirst {
      * @throws Exception if the search can't be completed
      */
     public int[] search(Instances data, TSLagMaker tsLagMaker, List<String> overlayFields) throws Exception {
-        PrintWriter errorLog = new PrintWriter(new FileWriter("BFerrorLog.txt", true));
+        PrintWriter errorLog = new PrintWriter(new FileWriter("bestFirst/BFerrorLog.txt", true));
+        PrintWriter errorTracker = new PrintWriter(new FileWriter("bestFirst/BFerrorTracker.txt", true));
+
         TSWrapper tsWrapper = new TSWrapper();
         tsWrapper.buildEvaluator(data);
         LinearRegression linearRegression = new LinearRegression();
         linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1 -R 1E-6"));
         tsWrapper.setM_BaseClassifier(linearRegression);
+        errorLog.println("Using " + tsWrapper.getM_BaseClassifier() + " as classifier.");
 
         m_numAttribs = data.numAttributes();
         SubsetHandler subsetHandler = new SubsetHandler();
@@ -725,8 +728,8 @@ public class BestFirst {
         LinkedList2 prioQueueList = new LinkedList2(m_maxStale);
         best_merit = -Double.MAX_VALUE;
         stale = 0;
-
-        best_group = subsetHandler.getStartSet(0);
+        int startSetPercentage = 0;
+        best_group = subsetHandler.getStartSet(startSetPercentage);
 
         m_startRange.setUpper(m_numAttribs - 1);
         if (!(getStartSet().equals("")))
@@ -761,14 +764,15 @@ public class BestFirst {
         subsetHandler.printGroup(best_group);
         System.out.println("\n");
         m_totalEvals++;
-        errorLog.println(best_merit);
-        errorLog.println(m_totalEvals);
+        errorTracker.println(best_merit);
+        errorTracker.println(m_totalEvals);
         // add the initial group to the list and the hash table
         Object[] best = new Object[1];
         best[0] = best_group.clone();
         prioQueueList.addToList(best, best_merit);
         String hashC = best_group.toString();
         lookForExistingSubsets.put(hashC, new Double(best_merit));
+        errorLog.println("StartsetPercentage:" + startSetPercentage + ", maxStale:" + m_maxStale);
 
         while (stale < m_maxStale) {
             added = false;
@@ -823,8 +827,8 @@ public class BestFirst {
                             subsetHandler.printGroup(temp_group);
                             System.out.println("\n");
                             m_totalEvals++;
-                            errorLog.println(best_merit);
-                            errorLog.println(m_totalEvals);
+                            errorTracker.println(best_merit);
+                            errorTracker.println(m_totalEvals);
 
                             hashC = temp_group.toString();
                             lookForExistingSubsets.put(hashC, new Double(merit));
@@ -844,7 +848,7 @@ public class BestFirst {
 
                         // is this better than the best?
                         if (searchDirection == SELECTION_FORWARD) {
-                            z = merit > best_merit;                          //they are both negative numbers; actually we are looking for the smallest error
+                            z = (merit - best_merit) > 0.0001;                          //they are both negative numbers; actually we are looking for the smallest error
                         } else {
                             if (merit == best_merit) {
                                 z = (size < best_size);

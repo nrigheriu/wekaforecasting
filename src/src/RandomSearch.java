@@ -226,7 +226,7 @@ public class RandomSearch{
         System.out.println("Initial group with numAttribs: " + m_numAttribs + "/n");
         System.out.println("Merit: " + best_merit);
         errorLog.println(best_merit);
-        while(m_totalEvals < 400){
+        while(m_totalEvals < 3){
             BitSet s_new = subsetHandler.changeBits((BitSet)best_group.clone(), 1);
             subset_string = s_new.toString();
             if(!lookForExistingSubsets.containsKey(subset_string)){
