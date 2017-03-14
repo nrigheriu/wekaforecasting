@@ -1,0 +1,36 @@
+--Tested on set 3months_100aggregate
+Config: i< 1392 lags, featureNumber 6, chosenLags 75, bestFirst with linear regression , ridge 1e-6 as wrapper, lag interval 48, TSCV 1 week
+end result: 7.65959861953651
+Time taken:1313.044; 614 iterations
+Lags:937, 984, 983, 938, 982, 981, 745, 792, 791, 790, 746, 789, 841, 888, 887, 886, 885, 842, 1333, 1334, 1380, 1335, 1336, 1379, 588, 587, 1091, 1045, 1089, 586, 1092, 1079, 585, 541, 1284, 1237, 1090, 584, 1141, 1077, 1080, 1283, 1282, 1078, 1088, 1238, 1281, 1032, 1033, 1076, 1142, 683, 1332, 684, 1188, 1031, 985, 1143, 1030, 681, 682, 1187, 1029, 1331, 1144, 986, 1330, 680, 1329, 637, 1328, 1285, 1140, 1236, 1139
+--Same config as above except featureNo. is 5
+end result:same as above
+Time take: 1312.323
+Lags:937, 984, 983, 938, 982, 745, 792, 791, 790, 746, 841, 888, 887, 886, 885, 1333, 1334, 1380, 1335, 1336, 588, 587, 1091, 1045, 1089, 586, 1092, 1079, 585, 541, 1284, 1237, 1090, 1141, 1077, 1080, 1283, 1282, 1078, 1238, 1032, 1033, 1142, 683, 1332, 684, 1188, 1031, 985, 1143, 1030, 681, 682, 1187, 1029, 1331, 1330, 680, 1329, 1328, 1140, 1236, 1139, 1235, 1138, 1137, 1234, 1233, 1136, 1232, 936, 935, 934, 1381, 933
+--Same config, featureNo 4:
+937, 984, 983, 938, 745, 792, 791, 790, 841, 888, 887, 886, 1333, 1334, 1380, 1335, 588, 587, 1091, 1045, 1089, 586, 1092, 1079, 541, 1284, 1237, 1141, 1077, 1080, 1283, 1282, 1078, 1032, 1142, 683, 1332, 684, 1188, 1031, 985, 1143, 1030, 681, 682, 1331, 1330, 1329, 1140, 1236, 1139, 1235, 1138, 1137, 1234, 1233, 936, 935, 934, 1381, 933, 1392, 1382, 1383, 685, 744, 743, 697, 686, 493, 742, 732, 731, 396, 494
+result the same!
+
+1st Result SA:8.856383499859657
+Time taken: 351.861
+
+
+--Same config as above except featureNo. is 8 and lag interval 96
+end result:
+Time take:
+Lags:
+--Same config as above except featureNo. is 2 and lag interval 24
+end result:
+Time taken:
+Lags:
+--Same config as above except featureNo. is 6 and lag interval 72
+end result:
+Time taken:
+Lags:
+
+Best overlay fields, tested with first lag set and overlay fields variable:
+1 2 3 4 7 8 10 11 12 13 14 
+Best merit: -7.8318910343895345
+68
+Remaining lags: 1
+Remaining overlay fields: [temperature, monthOfYear, Weekend, hourOfDay, Holiday]

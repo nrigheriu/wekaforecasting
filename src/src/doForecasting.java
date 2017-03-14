@@ -33,6 +33,7 @@ public class doForecasting {
             MyHashMap hashMap = new MyHashMap();
             int lagLimit = 192, lagInterval = 48, featureLimitFromInterval = 48, reliefFeatureCutOff = 75;
 
+
             rankWithRelief(hashMap, data, lagInterval, lagLimit, featureLimitFromInterval);
             hashMap.sortHashMapByValues();
             String chosenLags = hashMap.printHashMapFeatures(reliefFeatureCutOff);
@@ -50,7 +51,7 @@ public class doForecasting {
             tsLagMaker.setMaxLag(lagLimit);
             tsLagMaker.setLagRange(chosenLags);
             //tsLagMaker.setLagRange("937, 984, 983, 938, 745, 792, 791, 790, 841, 888, 887, 886, 1333, 1334, 1380, 1335, 588, 587, 1091, 1045, 1089, 586, 1092, 1079, 541, 1284, 1237, 1141, 1077, 1080, 1283, 1282, 1078, 1032, 1142, 683, 1332, 684, 1188, 1031, 985, 1143, 1030, 681, 682, 1331, 1330, 1329, 1140, 1236, 1139, 1235, 1138, 1137, 1234, 1233, 936, 935, 934, 1381, 933, 1392, 1382, 1383, 685, 744, 743, 697, 686, 493, 742, 732, 731, 396, 494");
-            //tsLagMaker.setLagRange("697, 792, 888, 1030, 1032, 1080");
+            //tsLagMaker.setLagRange("697, 792, 888, 1030, 1032, 1080, 1333, 588");
             for (int i = 0; i < data.numAttributes() - 2; i++)                                        //first 2 attributes are time and field to lag
                 overlayFields.add(i, data.attribute(i + 2).name());
             tsLagMaker.setOverlayFields(overlayFields);
