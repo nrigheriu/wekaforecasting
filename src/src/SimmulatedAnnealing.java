@@ -276,7 +276,7 @@ public class SimmulatedAnnealing {
         Hashtable<String, Double> lookForExistingSubsets = new Hashtable<String, Double>();
         // evaluate the initial subset
         subsetHandler.printGroup(best_group);
-        best_merit = -tsWrapper.evaluateSubset(best_group, tsLagMaker, overlayFields);
+        best_merit = -tsWrapper.evaluateSubset(best_group, tsLagMaker, overlayFields, false);
         m_totalEvals++;
         String subset_string = best_group.toString();
         lookForExistingSubsets.put(subset_string, best_merit);
@@ -293,7 +293,7 @@ public class SimmulatedAnnealing {
             BitSet s_new = subsetHandler.changeBits((BitSet) best_group.clone(), 1);
             subset_string = s_new.toString();
             if (!lookForExistingSubsets.containsKey(subset_string)) {
-                double s_new_merit = -tsWrapper.evaluateSubset(s_new, tsLagMaker, overlayFields);
+                double s_new_merit = -tsWrapper.evaluateSubset(s_new, tsLagMaker, overlayFields, false);
                 m_totalEvals++;
                 System.out.println("New merit: " + s_new_merit);
                 lookForExistingSubsets.put(subset_string, s_new_merit);
@@ -325,6 +325,7 @@ public class SimmulatedAnnealing {
         System.out.println(m_totalEvals);
         subsetHandler.printGroup(theVeryBest.getSubset());
         subsetHandler.includesMoreThanXPercentOfFeatures(theVeryBest.getSubset(), true, 0);
+        tsWrapper.evaluateSubset(theVeryBest.getSubset(), tsLagMaker, overlayFields, true);
         errorLog.close();
         return attributeList(theVeryBest.getSubset());
     }

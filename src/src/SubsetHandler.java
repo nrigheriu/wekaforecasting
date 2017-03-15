@@ -34,8 +34,6 @@ public class SubsetHandler {
                         bitSet.set(i, true);
                 if (includesMoreThanXPercentOfFeatures(bitSet, false, 1))         //making sure we dont drop below the desired % of features included after the mutation
                     includesMoreThanXPercent = true;
-                else
-                    System.out.println("Repeating loop because it doesnt include X% features!");
             }
         }
         return bitSet;
@@ -93,16 +91,11 @@ public class SubsetHandler {
     public boolean includesMoreThanXPercentOfFeatures(BitSet bitSet, boolean print, int percentage) {
             int trueBits = 0;
         try {
-            PrintWriter resultLog = new PrintWriter(new FileWriter("resultLog.txt", true));
-
             for (int i = 11; i < m_numAttribs - 2; i++)              //this interval makes sure we just consider the lags
                 if (bitSet.get(i))
                     trueBits++;
-            if (print) {
+            if (print)
                 System.out.println("Including:" + ((float) trueBits / m_numAttribs) * 100 + "% of features.");
-                resultLog.println("Including:"+ ((float) trueBits / m_numAttribs) * 100 + "% of features.");
-            }
-
         }catch (Exception e){
             e.printStackTrace();
         }

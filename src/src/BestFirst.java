@@ -711,7 +711,7 @@ public class BestFirst {
         LinearRegression linearRegression = new LinearRegression();
         linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1 -R 1E-6"));
         tsWrapper.setM_BaseClassifier(linearRegression);
-        errorLog.println("Using " + tsWrapper.getM_BaseClassifier() + " as classifier.");
+        System.out.println("Using " + tsWrapper.getM_BaseClassifier() + " as classifier.");
 
         m_numAttribs = data.numAttributes();
         SubsetHandler subsetHandler = new SubsetHandler();
@@ -762,7 +762,7 @@ public class BestFirst {
             }
         }
         // evaluate the initial subset
-        best_merit = -tsWrapper.evaluateSubset(best_group, tsLagMaker, overlayFields);
+        best_merit = -tsWrapper.evaluateSubset(best_group, tsLagMaker, overlayFields, false);
         //printGroup(best_group, m_numAttribs);
         errorLog.println("Merit:" + best_merit);
         System.out.println("Merit:" + best_merit);
@@ -827,10 +827,9 @@ public class BestFirst {
 
                         if (lookForExistingSubsets.containsKey(hashC) == false) {
                             //System.out.println("Before eval:" + temp_group);
-                            merit = -tsWrapper.evaluateSubset(temp_group, tsLagMaker, overlayFields);
+                            merit = -tsWrapper.evaluateSubset(temp_group, tsLagMaker, overlayFields, false);
                             System.out.println("Merit: " + merit);
                             System.out.print("Group: ");
-                            errorLog.println("Merit:" + best_merit);
 
                             subsetHandler.printGroup(temp_group);
                             System.out.println("\n");
@@ -856,7 +855,7 @@ public class BestFirst {
 
                         // is this better than the best?
                         if (searchDirection == SELECTION_FORWARD) {
-                            z = (merit - best_merit) > 0.0001;                          //they are both negative numbers; actually we are looking for the smallest error
+                            z = (merit - best_merit) > 0.01;                          //they are both negative numbers; actually we are looking for the smallest error
                         } else {
                             if (merit == best_merit) {
                                 z = (size < best_size);
@@ -869,7 +868,6 @@ public class BestFirst {
                             added = true;
                             stale = 0;
                             System.out.println("Setting best merit to:" + merit);
-                            errorLog.println("Setting best merit to:" + merit);
                             best_merit = merit;
                             // best_size = (size + best_size);
                             best_size = size;
@@ -893,17 +891,18 @@ public class BestFirst {
            /* if we haven't added a new attribute subset then full expansion of this
            * node hasen't resulted in anything better
            */
-            if (!added)
+            if (!added) {
                 stale++;
+                System.out.println("Stale:"  + stale);
+            }
         }
         subsetHandler.printGroup(best_group);
         System.out.println("Best merit: " + best_merit);
-        errorLog.println("Best merit:" + best_merit);
 
         System.out.println(m_totalEvals);
         m_bestMerit = best_merit;
-        tsWrapper.evaluateSubset(best_group, tsLagMaker, overlayFields);
         subsetHandler.includesMoreThanXPercentOfFeatures(best_group, true, 0);
+        tsWrapper.evaluateSubset(best_group, tsLagMaker, overlayFields, true);
         return attributeList(best_group);
     }
 

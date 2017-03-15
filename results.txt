@@ -1,10 +1,267 @@
-<<<<<<< HEAD
-=======
 Remaining lags: 11
-Remaining lags: 96
-Remaining lags: 95
 Remaining lags: 1
+Remaining lags: 83
+Remaining lags: 84
+Remaining lags: 85
+Remaining lags: 86
+Remaining lags: 87
+Remaining lags: 88
+Remaining lags: 89
+Remaining lags: 90
+Remaining lags: 91
+Remaining lags: 92
+Remaining lags: 93
+Remaining lags: 94
+Remaining lags: 95
+Remaining lags: 96
 Remaining lags: 97
-192, 191, 190, 189, 97, 96, 98, 95, 94, 93, 99, 1, 100, 2, 3, 4
-Time taken: 70.064
->>>>>>> 8da7fa9817a68afa883bc2e7433ba78f880754f0
+Remaining lags: 98
+Remaining lags: 99
+Remaining lags: 100
+Remaining lags: 101
+Remaining lags: 102
+Remaining lags: 103
+Remaining lags: 104
+Remaining lags: 105
+Remaining lags: 106
+Remaining lags: 143
+Remaining lags: 144
+Remaining lags: 145
+Remaining lags: 146
+Remaining lags: 147
+Remaining lags: 148
+Remaining lags: 149
+Remaining lags: 150
+Remaining lags: 151
+Remaining lags: 152
+Remaining lags: 153
+Remaining lags: 154
+Remaining lags: 155
+Remaining lags: 156
+Remaining lags: 157
+Remaining lags: 158
+Remaining lags: 159
+Remaining lags: 160
+Remaining lags: 161
+Remaining lags: 162
+Remaining lags: 163
+Remaining lags: 164
+Remaining lags: 165
+Remaining lags: 166
+Remaining lags: 167
+Remaining lags: 168
+Remaining lags: 169
+Remaining lags: 170
+Remaining lags: 171
+Remaining lags: 172
+Remaining lags: 173
+Remaining lags: 174
+Remaining lags: 175
+Remaining lags: 176
+Remaining lags: 177
+Remaining lags: 178
+Remaining lags: 179
+Remaining lags: 180
+Remaining lags: 181
+Remaining lags: 182
+Remaining lags: 183
+Remaining lags: 184
+Remaining lags: 185
+Remaining lags: 186
+Remaining lags: 187
+Remaining lags: 188
+Remaining lags: 189
+Remaining lags: 190
+Remaining lags: 191
+Remaining lags: 192
+Remaining lags: 1, 100
+Remaining lags: 83, 100
+Remaining lags: 84, 100
+Remaining lags: 85, 100
+Remaining lags: 86, 100
+Remaining lags: 87, 100
+Remaining lags: 88, 100
+Remaining lags: 89, 100
+Remaining lags: 90, 100
+Remaining lags: 91, 100
+Remaining lags: 92, 100
+Remaining lags: 93, 100
+Remaining lags: 94, 100
+Remaining lags: 95, 100
+Remaining lags: 96, 100
+Remaining lags: 97, 100
+Remaining lags: 98, 100
+Remaining lags: 99, 100
+Remaining lags: 100, 101
+Remaining lags: 100, 102
+Remaining lags: 100, 103
+Remaining lags: 100, 104
+Remaining lags: 100, 105
+Remaining lags: 100, 106
+Remaining lags: 100, 143
+Remaining lags: 100, 144
+Remaining lags: 100, 145
+Remaining lags: 100, 146
+Remaining lags: 100, 147
+Remaining lags: 100, 148
+Remaining lags: 100, 149
+Remaining lags: 100, 150
+Remaining lags: 100, 151
+Remaining lags: 100, 152
+Remaining lags: 100, 153
+Remaining lags: 100, 154
+Remaining lags: 100, 155
+Remaining lags: 100, 156
+Remaining lags: 100, 157
+Remaining lags: 100, 158
+Remaining lags: 100, 159
+Remaining lags: 100, 160
+Remaining lags: 100, 161
+Remaining lags: 100, 162
+Remaining lags: 100, 163
+Remaining lags: 100, 164
+Remaining lags: 100, 165
+Remaining lags: 100, 166
+Remaining lags: 100, 167
+Remaining lags: 100, 168
+Remaining lags: 100, 169
+Remaining lags: 100, 170
+Remaining lags: 100, 171
+Remaining lags: 100, 172
+Remaining lags: 100, 173
+Remaining lags: 100, 174
+Remaining lags: 100, 175
+Remaining lags: 100, 176
+Remaining lags: 100, 177
+Remaining lags: 100, 178
+Remaining lags: 100, 179
+Remaining lags: 100, 180
+Remaining lags: 100, 181
+Remaining lags: 100, 182
+Remaining lags: 100, 183
+Remaining lags: 100, 184
+Remaining lags: 100, 185
+Remaining lags: 100, 186
+Remaining lags: 100, 187
+Remaining lags: 100, 188
+Remaining lags: 100, 189
+Remaining lags: 100, 190
+Remaining lags: 100, 191
+Remaining lags: 100, 192
+Remaining lags: 1, 100, 156
+Remaining lags: 83, 100, 156
+Remaining lags: 84, 100, 156
+Remaining lags: 85, 100, 156
+Remaining lags: 86, 100, 156
+Remaining lags: 87, 100, 156
+Remaining lags: 88, 100, 156
+Remaining lags: 89, 100, 156
+Remaining lags: 90, 100, 156
+Remaining lags: 91, 100, 156
+Remaining lags: 92, 100, 156
+Remaining lags: 93, 100, 156
+Remaining lags: 94, 100, 156
+Remaining lags: 95, 100, 156
+Remaining lags: 96, 100, 156
+Remaining lags: 97, 100, 156
+Remaining lags: 98, 100, 156
+Remaining lags: 99, 100, 156
+Remaining lags: 100, 101, 156
+Remaining lags: 100, 102, 156
+Remaining lags: 100, 103, 156
+Remaining lags: 100, 104, 156
+Remaining lags: 100, 105, 156
+Remaining lags: 100, 106, 156
+Remaining lags: 100, 143, 156
+Remaining lags: 100, 144, 156
+Remaining lags: 100, 145, 156
+Remaining lags: 100, 146, 156
+Remaining lags: 100, 147, 156
+Remaining lags: 100, 148, 156
+Remaining lags: 100, 149, 156
+Remaining lags: 100, 150, 156
+Remaining lags: 100, 151, 156
+Remaining lags: 100, 152, 156
+Remaining lags: 100, 153, 156
+Remaining lags: 100, 154, 156
+Remaining lags: 100, 155, 156
+Remaining lags: 100, 156, 157
+Remaining lags: 100, 156, 158
+Remaining lags: 100, 156, 159
+Remaining lags: 100, 156, 160
+Remaining lags: 100, 156, 161
+Remaining lags: 100, 156, 162
+Remaining lags: 100, 156, 163
+Remaining lags: 100, 156, 164
+Remaining lags: 100, 156, 165
+Remaining lags: 100, 156, 166
+Remaining lags: 100, 156, 167
+Remaining lags: 100, 156, 168
+Remaining lags: 100, 156, 169
+Remaining lags: 100, 156, 170
+Remaining lags: 100, 156, 171
+Remaining lags: 100, 156, 172
+Remaining lags: 100, 156, 173
+Remaining lags: 100, 156, 174
+Remaining lags: 100, 156, 175
+Remaining lags: 100, 156, 176
+Remaining lags: 100, 156, 177
+Remaining lags: 100, 156, 178
+Remaining lags: 100, 156, 179
+Remaining lags: 100, 156, 180
+Remaining lags: 100, 156, 181
+Remaining lags: 100, 156, 182
+Remaining lags: 100, 156, 183
+Remaining lags: 100, 156, 184
+Remaining lags: 100, 156, 185
+Remaining lags: 100, 156, 186
+Remaining lags: 100, 156, 187
+Remaining lags: 100, 156, 188
+Remaining lags: 100, 156, 189
+Remaining lags: 100, 156, 190
+Remaining lags: 100, 156, 191
+Remaining lags: 100, 156, 192
+Remaining lags: 1, 96, 100, 156
+Remaining lags: 83, 96, 100, 156
+Remaining lags: 84, 96, 100, 156
+Remaining lags: 85, 96, 100, 156
+Remaining lags: 86, 96, 100, 156
+Remaining lags: 87, 96, 100, 156
+Remaining lags: 88, 96, 100, 156
+Remaining lags: 89, 96, 100, 156
+Remaining lags: 90, 96, 100, 156
+Remaining lags: 91, 96, 100, 156
+Remaining lags: 92, 96, 100, 156
+Remaining lags: 93, 96, 100, 156
+Remaining lags: 94, 96, 100, 156
+Remaining lags: 95, 96, 100, 156
+Remaining lags: 96, 97, 100, 156
+Remaining lags: 96, 98, 100, 156
+Remaining lags: 96, 99, 100, 156
+Remaining lags: 96, 100, 101, 156
+Remaining lags: 96, 100, 102, 156
+Remaining lags: 96, 100, 103, 156
+Remaining lags: 96, 100, 104, 156
+Remaining lags: 96, 100, 105, 156
+Remaining lags: 96, 100, 106, 156
+Remaining lags: 96, 100, 143, 156
+Remaining lags: 96, 100, 144, 156
+Remaining lags: 96, 100, 145, 156
+Remaining lags: 96, 100, 146, 156
+Remaining lags: 96, 100, 147, 156
+Remaining lags: 96, 100, 148, 156
+Remaining lags: 96, 100, 149, 156
+Remaining lags: 96, 100, 150, 156
+Remaining lags: 96, 100, 151, 156
+Remaining lags: 96, 100, 152, 156
+Remaining lags: 96, 100, 153, 156
+Remaining lags: 96, 100, 154, 156
+Remaining lags: 96, 100, 155, 156
+Remaining lags: 96, 100, 156, 157
+Remaining lags: 96, 100, 156, 158
+Remaining lags: 96, 100, 156, 159
+Remaining lags: 96, 100, 156, 160
+Remaining lags: 96, 100, 156, 161
+Remaining lags: 96, 100, 156, 162
+Remaining lags: 96, 100, 156, 163
+Remaining lags: 96, 100, 156, 164

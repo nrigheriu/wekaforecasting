@@ -23,7 +23,6 @@ public class TSCV {
         }
     public void crossValidateTS(Instances data, Classifier classifier, TSLagMaker tsLagMaker){
         try {
-            PrintWriter resultLog = new PrintWriter(new FileWriter("results.txt", true));
             actualValuesList.clear();
             forecastedValuesList.clear();
             WekaForecaster forecaster = new WekaForecaster();
@@ -35,7 +34,6 @@ public class TSCV {
             int startTestData = 0, endTestData = 0;
             Instances testData = null, trainData = null;
             List<List<NumericPrediction>> forecast = null;
-            //System.out.println("Lag range: " + tsLagMaker.getLagRange());
             long sTime = System.currentTimeMillis();
             int[] trainingPercentages = {65, 70, 75};
             for (int trainingPercentage:trainingPercentages) {
@@ -61,8 +59,7 @@ public class TSCV {
                     numUnitsForecasted++;
                 }
                 long eTime = System.currentTimeMillis();
-            //    System.out.println(("Time taken to evaluate again:" + ((double)(eTime-sTime))/1000));
-                resultLog.close();
+                System.out.println(("Time taken to evaluate again:" + ((double)(eTime-sTime))/1000));
             }
             buildErrorGraph.buildErrorGraph(new Instances(testData, startTestData, endTestData), forecaster, forecast, stepNumber);
         } catch (Exception e){
@@ -71,7 +68,6 @@ public class TSCV {
     }
     public void testBestModel(Instances data, Classifier classifier, TSLagMaker tsLagMaker){
         try {
-            PrintWriter bestModelErrors = new PrintWriter(new FileWriter("bestModelResults.txt", true));
             resetOptions();
             WekaForecaster forecaster = new WekaForecaster();
             forecaster.setTSLagMaker(tsLagMaker);
@@ -106,8 +102,7 @@ public class TSCV {
                     numUnitsForecasted++;
                 }
                 long eTime = System.currentTimeMillis();
-                //    System.out.println(("Time taken to evaluate again:" + ((double)(eTime-sTime))/1000));
-                bestModelErrors.close();
+                System.out.println(("Time taken to evaluate final model:" + ((double)(eTime-sTime))/1000));
             }
         }catch (Exception e){
             e.printStackTrace();

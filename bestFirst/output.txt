@@ -1,0 +1,2806 @@
+Start lag:1 endLag:48
+Start lag:49 endLag:96
+Start lag:97 endLag:144
+Start lag:145 endLag:192
+Running Thread1
+Running Thread2
+Running Thread3
+Running Thread4
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.01584    3 local_time-remapped
+ 0.01477    4 Lag_active_power-97
+ 0.01301    5 Lag_active_power-98
+ 0.01161    6 Lag_active_power-99
+ 0.01082    7 Lag_active_power-100
+ 0.01039    8 Lag_active_power-101
+ 0.01004    9 Lag_active_power-102
+ 0.00991   10 Lag_active_power-103
+ 0.00971   51 Lag_active_power-144
+ 0.00969   11 Lag_active_power-104
+ 0.00953   12 Lag_active_power-105
+ 0.00945   50 Lag_active_power-143
+ 0.00936   52 local_time-remapped^2
+ 0.00927   13 Lag_active_power-106
+ 0.00919   49 Lag_active_power-142
+ 0.00917   14 Lag_active_power-107
+ 0.00912   15 Lag_active_power-108
+ 0.00908   16 Lag_active_power-109
+ 0.00907   21 Lag_active_power-114
+ 0.00907   22 Lag_active_power-115
+ 0.00907   23 Lag_active_power-116
+ 0.00907   48 Lag_active_power-141
+ 0.00905   17 Lag_active_power-110
+ 0.00897   18 Lag_active_power-111
+ 0.00892   24 Lag_active_power-117
+ 0.0088    20 Lag_active_power-113
+ 0.00878   19 Lag_active_power-112
+ 0.00874   25 Lag_active_power-118
+ 0.00863   26 Lag_active_power-119
+ 0.00849   47 Lag_active_power-140
+ 0.00836   27 Lag_active_power-120
+ 0.00826   28 Lag_active_power-121
+ 0.00823   31 Lag_active_power-124
+ 0.00819   46 Lag_active_power-139
+ 0.00815   32 Lag_active_power-125
+ 0.0081    30 Lag_active_power-123
+ 0.0081    29 Lag_active_power-122
+ 0.00804   35 Lag_active_power-128
+ 0.00803   33 Lag_active_power-126
+ 0.00796   45 Lag_active_power-138
+ 0.00795   36 Lag_active_power-129
+ 0.00794   38 Lag_active_power-131
+ 0.00786   34 Lag_active_power-127
+ 0.00779   37 Lag_active_power-130
+ 0.00775   43 Lag_active_power-136
+ 0.00774   39 Lag_active_power-132
+ 0.00774   44 Lag_active_power-137
+ 0.0077    41 Lag_active_power-134
+ 0.00761   40 Lag_active_power-133
+ 0.00761   42 Lag_active_power-135
+ 0.006     53 local_time-remapped^3
+ 0          1 local_time
+
+Selected attributes: 3,4,5,6,7,8,9,10,51,11,12,50,52,13,49,14,15,16,21,22,23,48,17,18,24,20,19,25,26,47,27,28,31,46,32,30,29,35,33,45,36,38,34,37,43,39,44,41,40,42,53,1 : 52
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.0278    3 local_time-remapped
+ 0.024    51 Lag_active_power-192
+ 0.0231   50 Lag_active_power-191
+ 0.0224   49 Lag_active_power-190
+ 0.0213   48 Lag_active_power-189
+ 0.0205   47 Lag_active_power-188
+ 0.02     46 Lag_active_power-187
+ 0.0198   45 Lag_active_power-186
+ 0.0191   44 Lag_active_power-185
+ 0.0186   43 Lag_active_power-184
+ 0.0184   42 Lag_active_power-183
+ 0.0181   41 Lag_active_power-182
+ 0.0181   40 Lag_active_power-181
+ 0.018    52 local_time-remapped^2
+ 0.0177   39 Lag_active_power-180
+ 0.0172   38 Lag_active_power-179
+ 0.0171   37 Lag_active_power-178
+ 0.0166   36 Lag_active_power-177
+ 0.0165   35 Lag_active_power-176
+ 0.0162   34 Lag_active_power-175
+ 0.0161   33 Lag_active_power-174
+ 0.0161   32 Lag_active_power-173
+ 0.0155   31 Lag_active_power-172
+ 0.0152    4 Lag_active_power-145
+ 0.015    30 Lag_active_power-171
+ 0.0149   28 Lag_active_power-169
+ 0.0148   29 Lag_active_power-170
+ 0.0148   27 Lag_active_power-168
+ 0.0144   23 Lag_active_power-164
+ 0.0144   26 Lag_active_power-167
+ 0.0143   24 Lag_active_power-165
+ 0.0141   22 Lag_active_power-163
+ 0.0141    5 Lag_active_power-146
+ 0.014    25 Lag_active_power-166
+ 0.0136   21 Lag_active_power-162
+ 0.013     6 Lag_active_power-147
+ 0.0129   20 Lag_active_power-161
+ 0.0126   17 Lag_active_power-158
+ 0.0126   19 Lag_active_power-160
+ 0.0126   18 Lag_active_power-159
+ 0.0121    7 Lag_active_power-148
+ 0.0121   16 Lag_active_power-157
+ 0.012    53 local_time-remapped^3
+ 0.0118   15 Lag_active_power-156
+ 0.0116   14 Lag_active_power-155
+ 0.0115   12 Lag_active_power-153
+ 0.0115    8 Lag_active_power-149
+ 0.0115   13 Lag_active_power-154
+ 0.0113    9 Lag_active_power-150
+ 0.0113   11 Lag_active_power-152
+ 0.0112   10 Lag_active_power-151
+ 0         1 local_time
+
+Selected attributes: 3,51,50,49,48,47,46,45,44,43,42,41,40,52,39,38,37,36,35,34,33,32,31,4,30,28,29,27,23,26,24,22,5,25,21,6,20,17,19,18,7,16,53,15,14,12,8,13,9,11,10,1 : 52
+
+Thread Thread3 exiting.
+Thread Thread4 exiting.
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.01145    4 Lag_active_power-1
+ 0.00747    5 Lag_active_power-2
+ 0.00582    6 Lag_active_power-3
+ 0.00497    7 Lag_active_power-4
+ 0.00471   19 Lag_active_power-16
+ 0.00459   20 Lag_active_power-17
+ 0.00458   18 Lag_active_power-15
+ 0.00452    8 Lag_active_power-5
+ 0.0045    17 Lag_active_power-14
+ 0.00444   21 Lag_active_power-18
+ 0.00443    9 Lag_active_power-6
+ 0.00441   12 Lag_active_power-9
+ 0.00437   10 Lag_active_power-7
+ 0.00429   11 Lag_active_power-8
+ 0.00429   15 Lag_active_power-12
+ 0.00428   16 Lag_active_power-13
+ 0.00427   13 Lag_active_power-10
+ 0.00426   28 Lag_active_power-25
+ 0.0042    14 Lag_active_power-11
+ 0.00411   29 Lag_active_power-26
+ 0.0041    23 Lag_active_power-20
+ 0.00407   24 Lag_active_power-21
+ 0.00406   27 Lag_active_power-24
+ 0.00404   22 Lag_active_power-19
+ 0.00401   25 Lag_active_power-22
+ 0.0039    26 Lag_active_power-23
+ 0.00382   30 Lag_active_power-27
+ 0.00376   51 Lag_active_power-48
+ 0.00373   50 Lag_active_power-47
+ 0.00363   31 Lag_active_power-28
+ 0.0036    46 Lag_active_power-43
+ 0.00356   36 Lag_active_power-33
+ 0.00354   32 Lag_active_power-29
+ 0.00354   45 Lag_active_power-42
+ 0.00351   43 Lag_active_power-40
+ 0.00348   49 Lag_active_power-46
+ 0.00345   48 Lag_active_power-45
+ 0.00339   35 Lag_active_power-32
+ 0.00338   37 Lag_active_power-34
+ 0.00335   42 Lag_active_power-39
+ 0.00333   44 Lag_active_power-41
+ 0.00331   41 Lag_active_power-38
+ 0.00331   34 Lag_active_power-31
+ 0.0033    33 Lag_active_power-30
+ 0.00328   38 Lag_active_power-35
+ 0.00327   40 Lag_active_power-37
+ 0.00327   47 Lag_active_power-44
+ 0.00326   39 Lag_active_power-36
+ 0.00326   53 local_time-remapped^3
+ 0.00324    3 local_time-remapped
+ 0.00315   52 local_time-remapped^2
+ 0          1 local_time
+
+Selected attributes: 4,5,6,7,19,20,18,8,17,21,9,12,10,11,15,16,13,28,14,29,23,24,27,22,25,26,30,51,50,31,46,36,32,45,43,49,48,35,37,42,44,41,34,33,38,40,47,39,53,3,52,1 : 52
+
+Thread Thread1 exiting.
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.02035    3 local_time-remapped
+ 0.01382   51 Lag_active_power-96
+ 0.01302   52 local_time-remapped^2
+ 0.01299   50 Lag_active_power-95
+ 0.01233   49 Lag_active_power-94
+ 0.01199   48 Lag_active_power-93
+ 0.01137   47 Lag_active_power-92
+ 0.01103   46 Lag_active_power-91
+ 0.01093   44 Lag_active_power-89
+ 0.01088   45 Lag_active_power-90
+ 0.01069   43 Lag_active_power-88
+ 0.01034   42 Lag_active_power-87
+ 0.01026   41 Lag_active_power-86
+ 0.0099    40 Lag_active_power-85
+ 0.00956   39 Lag_active_power-84
+ 0.00949   38 Lag_active_power-83
+ 0.00917   37 Lag_active_power-82
+ 0.0088    36 Lag_active_power-81
+ 0.00867   33 Lag_active_power-78
+ 0.00864   35 Lag_active_power-80
+ 0.0086    32 Lag_active_power-77
+ 0.00856   53 local_time-remapped^3
+ 0.0085    34 Lag_active_power-79
+ 0.00828   31 Lag_active_power-76
+ 0.00779   30 Lag_active_power-75
+ 0.00755   29 Lag_active_power-74
+ 0.00749   28 Lag_active_power-73
+ 0.00728   27 Lag_active_power-72
+ 0.00714   26 Lag_active_power-71
+ 0.00665   25 Lag_active_power-70
+ 0.00626   24 Lag_active_power-69
+ 0.00595   23 Lag_active_power-68
+ 0.00569   22 Lag_active_power-67
+ 0.00554    4 Lag_active_power-49
+ 0.0055    21 Lag_active_power-66
+ 0.00499   20 Lag_active_power-65
+ 0.00498    5 Lag_active_power-50
+ 0.00466   19 Lag_active_power-64
+ 0.00457   18 Lag_active_power-63
+ 0.00456   17 Lag_active_power-62
+ 0.00454    6 Lag_active_power-51
+ 0.00444   16 Lag_active_power-61
+ 0.00425    7 Lag_active_power-52
+ 0.0042    15 Lag_active_power-60
+ 0.00405    8 Lag_active_power-53
+ 0.00397   14 Lag_active_power-59
+ 0.00395   13 Lag_active_power-58
+ 0.00395   12 Lag_active_power-57
+ 0.00391   11 Lag_active_power-56
+ 0.00386    9 Lag_active_power-54
+ 0.00378   10 Lag_active_power-55
+ 0          1 local_time
+
+Selected attributes: 3,51,52,50,49,48,47,46,44,45,43,42,41,40,39,38,37,36,33,35,32,53,34,31,30,29,28,27,26,25,24,23,22,4,21,20,5,19,18,17,6,16,7,15,8,14,13,12,11,9,10,1 : 52
+
+Thread Thread2 exiting.
+HashMapFeatures: 192 value: 0.024
+191 value: 0.0231
+190 value: 0.0224
+189 value: 0.0213
+188 value: 0.0205
+187 value: 0.02
+186 value: 0.0198
+185 value: 0.0191
+184 value: 0.0186
+183 value: 0.0184
+182 value: 0.0181
+181 value: 0.0181
+180 value: 0.0177
+179 value: 0.0172
+178 value: 0.0171
+177 value: 0.0166
+176 value: 0.0165
+175 value: 0.0162
+174 value: 0.0161
+173 value: 0.0161
+172 value: 0.0155
+145 value: 0.0152
+171 value: 0.015
+169 value: 0.0149
+170 value: 0.0148
+168 value: 0.0148
+97 value: 0.01477
+167 value: 0.0144
+164 value: 0.0144
+165 value: 0.0143
+163 value: 0.0141
+146 value: 0.0141
+166 value: 0.014
+96 value: 0.01382
+162 value: 0.0136
+98 value: 0.01301
+147 value: 0.013
+95 value: 0.01299
+161 value: 0.0129
+160 value: 0.0126
+159 value: 0.0126
+158 value: 0.0126
+94 value: 0.01233
+157 value: 0.0121
+148 value: 0.0121
+93 value: 0.01199
+156 value: 0.0118
+99 value: 0.01161
+155 value: 0.0116
+154 value: 0.0115
+153 value: 0.0115
+149 value: 0.0115
+1 value: 0.01145
+92 value: 0.01137
+152 value: 0.0113
+150 value: 0.0113
+151 value: 0.0112
+91 value: 0.01103
+89 value: 0.01093
+90 value: 0.01088
+100 value: 0.01082
+88 value: 0.01069
+101 value: 0.01039
+87 value: 0.01034
+86 value: 0.01026
+102 value: 0.01004
+103 value: 0.00991
+85 value: 0.0099
+144 value: 0.00971
+104 value: 0.00969
+84 value: 0.00956
+105 value: 0.00953
+83 value: 0.00949
+143 value: 0.00945
+106 value: 0.00927
+
+Just lags: 192, 191, 190, 189, 188, 187, 186, 185, 184, 183, 182, 181, 180, 179, 178, 177, 176, 175, 174, 173, 172, 145, 171, 169, 170, 168, 97, 167, 164, 165, 163, 146, 166, 96, 162, 98, 147, 95, 161, 160, 159, 158, 94, 157, 148, 93, 156, 99, 155, 154, 153, 149, 1, 92, 152, 150, 151, 91, 89, 90, 100, 88, 101, 87, 86, 102, 103, 85, 144, 104, 84, 105, 83, 143, 106
+Relief configuration, lagLimit:192 lagInterval:48 featureLimitFromInterval:48reliefFeatureCutOff:75
+Time taken to rank lags w/Rrelief:55.775
+Lags chosen by relief:192, 191, 190, 189, 188, 187, 186, 185, 184, 183, 182, 181, 180, 179, 178, 177, 176, 175, 174, 173, 172, 145, 171, 169, 170, 168, 97, 167, 164, 165, 163, 146, 166, 96, 162, 98, 147, 95, 161, 160, 159, 158, 94, 157, 148, 93, 156, 99, 155, 154, 153, 149, 1, 92, 152, 150, 151, 91, 89, 90, 100, 88, 101, 87, 86, 102, 103, 85, 144, 104, 84, 105, 83, 143, 106
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Remaining lags: 11
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.328
+Time taken to evaluate again:2.052
+Time taken to evaluate again:2.674
+Merit:-12.053764992708437
+Group: 1 2 3 4 7 9 10 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-1, Remaining lags: 1
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.803
+Time taken to evaluate again:1.498
+Time taken to evaluate again:2.122
+Merit: -10.48177251653873
+Group: 1 2 3 4 7 9 10 12 
+
+
+Setting best merit to:-10.48177251653873
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-83, Remaining lags: 83
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.769
+Time taken to evaluate again:1.491
+Time taken to evaluate again:2.133
+Merit: -18.89244126795284
+Group: 1 2 3 4 7 9 10 13 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-84, Remaining lags: 84
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.696
+Time taken to evaluate again:1.346
+Time taken to evaluate again:1.969
+Merit: -19.264744267373867
+Group: 1 2 3 4 7 9 10 14 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-85, Remaining lags: 85
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.68
+Time taken to evaluate again:1.344
+Time taken to evaluate again:1.97
+Merit: -19.461464604063277
+Group: 1 2 3 4 7 9 10 15 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-86, Remaining lags: 86
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.7
+Time taken to evaluate again:1.411
+Time taken to evaluate again:2.025
+Merit: -19.43210670763738
+Group: 1 2 3 4 7 9 10 16 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-87, Remaining lags: 87
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.68
+Time taken to evaluate again:1.337
+Time taken to evaluate again:1.958
+Merit: -19.18359806161441
+Group: 1 2 3 4 7 9 10 17 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-88, Remaining lags: 88
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.718
+Time taken to evaluate again:1.401
+Time taken to evaluate again:2.034
+Merit: -18.6819898570106
+Group: 1 2 3 4 7 9 10 18 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-89, Remaining lags: 89
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.759
+Time taken to evaluate again:1.438
+Time taken to evaluate again:2.076
+Merit: -17.994925016629754
+Group: 1 2 3 4 7 9 10 19 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-90, Remaining lags: 90
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.704
+Time taken to evaluate again:1.367
+Time taken to evaluate again:1.977
+Merit: -17.145452359889735
+Group: 1 2 3 4 7 9 10 20 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-91, Remaining lags: 91
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.71
+Time taken to evaluate again:1.373
+Time taken to evaluate again:1.991
+Merit: -16.124331656551885
+Group: 1 2 3 4 7 9 10 21 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-92, Remaining lags: 92
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.701
+Time taken to evaluate again:1.38
+Time taken to evaluate again:1.986
+Merit: -15.109932657883032
+Group: 1 2 3 4 7 9 10 22 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-93, Remaining lags: 93
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.737
+Time taken to evaluate again:1.469
+Time taken to evaluate again:2.123
+Merit: -13.994545579026653
+Group: 1 2 3 4 7 9 10 23 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-94, Remaining lags: 94
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.711
+Time taken to evaluate again:1.387
+Time taken to evaluate again:2.029
+Merit: -12.983007195919262
+Group: 1 2 3 4 7 9 10 24 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-95, Remaining lags: 95
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.704
+Time taken to evaluate again:1.394
+Time taken to evaluate again:2.017
+Merit: -12.057686531489484
+Group: 1 2 3 4 7 9 10 25 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Remaining lags: 96
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.67
+Time taken to evaluate again:1.306
+Time taken to evaluate again:1.945
+Merit: -11.242004857250935
+Group: 1 2 3 4 7 9 10 26 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-97, Remaining lags: 97
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.707
+Time taken to evaluate again:1.393
+Time taken to evaluate again:2.018
+Merit: -10.760778857357801
+Group: 1 2 3 4 7 9 10 27 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-98, Remaining lags: 98
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.692
+Time taken to evaluate again:1.322
+Time taken to evaluate again:1.971
+Merit: -10.452806756283998
+Group: 1 2 3 4 7 9 10 28 
+
+
+Setting best merit to:-10.452806756283998
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-99, Remaining lags: 99
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.725
+Time taken to evaluate again:1.48
+Time taken to evaluate again:2.099
+Merit: -10.2996462501006
+Group: 1 2 3 4 7 9 10 29 
+
+
+Setting best merit to:-10.2996462501006
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Remaining lags: 100
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.685
+Time taken to evaluate again:1.348
+Time taken to evaluate again:1.988
+Merit: -10.200896719689583
+Group: 1 2 3 4 7 9 10 30 
+
+
+Setting best merit to:-10.200896719689583
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-101, Remaining lags: 101
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.698
+Time taken to evaluate again:1.352
+Time taken to evaluate again:1.993
+Merit: -10.237475914237718
+Group: 1 2 3 4 7 9 10 31 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-102, Remaining lags: 102
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.733
+Time taken to evaluate again:1.359
+Time taken to evaluate again:1.966
+Merit: -10.34179209459679
+Group: 1 2 3 4 7 9 10 32 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-103, Remaining lags: 103
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.679
+Time taken to evaluate again:1.316
+Time taken to evaluate again:1.97
+Merit: -10.520429314881566
+Group: 1 2 3 4 7 9 10 33 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-104, Remaining lags: 104
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.735
+Time taken to evaluate again:1.409
+Time taken to evaluate again:1.993
+Merit: -10.742511830424773
+Group: 1 2 3 4 7 9 10 34 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-105, Remaining lags: 105
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.71
+Time taken to evaluate again:1.427
+Time taken to evaluate again:2.043
+Merit: -10.995964863294283
+Group: 1 2 3 4 7 9 10 35 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-106, Remaining lags: 106
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.699
+Time taken to evaluate again:1.37
+Time taken to evaluate again:1.988
+Merit: -11.244872698640215
+Group: 1 2 3 4 7 9 10 36 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-143, Remaining lags: 143
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.69
+Time taken to evaluate again:1.368
+Time taken to evaluate again:1.977
+Merit: -14.844349595109811
+Group: 1 2 3 4 7 9 10 37 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-144, Remaining lags: 144
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.704
+Time taken to evaluate again:1.368
+Time taken to evaluate again:1.99
+Merit: -14.587803450539502
+Group: 1 2 3 4 7 9 10 38 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-145, Remaining lags: 145
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.689
+Time taken to evaluate again:1.325
+Time taken to evaluate again:1.93
+Merit: -14.297875212157095
+Group: 1 2 3 4 7 9 10 39 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-146, Remaining lags: 146
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.67
+Time taken to evaluate again:1.3
+Time taken to evaluate again:1.888
+Merit: -14.098943399222769
+Group: 1 2 3 4 7 9 10 40 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-147, Remaining lags: 147
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.666
+Time taken to evaluate again:1.289
+Time taken to evaluate again:1.876
+Merit: -13.908676874409243
+Group: 1 2 3 4 7 9 10 41 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-148, Remaining lags: 148
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.74
+Time taken to evaluate again:1.376
+Time taken to evaluate again:2.038
+Merit: -13.757355918358982
+Group: 1 2 3 4 7 9 10 42 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-149, Remaining lags: 149
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.691
+Time taken to evaluate again:1.387
+Time taken to evaluate again:2.01
+Merit: -13.61199284927504
+Group: 1 2 3 4 7 9 10 43 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-150, Remaining lags: 150
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.687
+Time taken to evaluate again:1.323
+Time taken to evaluate again:1.913
+Merit: -13.499164100833642
+Group: 1 2 3 4 7 9 10 44 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-151, Remaining lags: 151
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.668
+Time taken to evaluate again:1.315
+Time taken to evaluate again:1.917
+Merit: -13.398910711666025
+Group: 1 2 3 4 7 9 10 45 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-152, Remaining lags: 152
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.693
+Time taken to evaluate again:1.362
+Time taken to evaluate again:1.957
+Merit: -13.296009392054465
+Group: 1 2 3 4 7 9 10 46 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-153, Remaining lags: 153
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.751
+Time taken to evaluate again:1.431
+Time taken to evaluate again:2.075
+Merit: -13.18932842405424
+Group: 1 2 3 4 7 9 10 47 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-154, Remaining lags: 154
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.713
+Time taken to evaluate again:1.379
+Time taken to evaluate again:2.043
+Merit: -13.175754533270222
+Group: 1 2 3 4 7 9 10 48 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-155, Remaining lags: 155
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.72
+Time taken to evaluate again:1.392
+Time taken to evaluate again:2.025
+Merit: -13.138022638250188
+Group: 1 2 3 4 7 9 10 49 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-156, Remaining lags: 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.72
+Time taken to evaluate again:1.408
+Time taken to evaluate again:2.026
+Merit: -13.121187699181872
+Group: 1 2 3 4 7 9 10 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-157, Remaining lags: 157
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.689
+Time taken to evaluate again:1.319
+Time taken to evaluate again:1.921
+Merit: -13.157900266090587
+Group: 1 2 3 4 7 9 10 51 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-158, Remaining lags: 158
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.749
+Time taken to evaluate again:1.442
+Time taken to evaluate again:2.103
+Merit: -13.17463653182359
+Group: 1 2 3 4 7 9 10 52 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-159, Remaining lags: 159
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.717
+Time taken to evaluate again:1.382
+Time taken to evaluate again:1.985
+Merit: -13.162567992842213
+Group: 1 2 3 4 7 9 10 53 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-160, Remaining lags: 160
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.708
+Time taken to evaluate again:1.382
+Time taken to evaluate again:1.999
+Merit: -13.199495486511399
+Group: 1 2 3 4 7 9 10 54 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-161, Remaining lags: 161
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.76
+Time taken to evaluate again:1.515
+Time taken to evaluate again:2.146
+Merit: -13.256149528296811
+Group: 1 2 3 4 7 9 10 55 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-162, Remaining lags: 162
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.667
+Time taken to evaluate again:1.305
+Time taken to evaluate again:1.896
+Merit: -13.310931250334646
+Group: 1 2 3 4 7 9 10 56 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-163, Remaining lags: 163
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.668
+Time taken to evaluate again:1.302
+Time taken to evaluate again:1.938
+Merit: -13.351860388713405
+Group: 1 2 3 4 7 9 10 57 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-164, Remaining lags: 164
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.699
+Time taken to evaluate again:1.385
+Time taken to evaluate again:1.996
+Merit: -13.375314482183594
+Group: 1 2 3 4 7 9 10 58 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-165, Remaining lags: 165
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.723
+Time taken to evaluate again:1.375
+Time taken to evaluate again:2.034
+Merit: -13.481396590379923
+Group: 1 2 3 4 7 9 10 59 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-166, Remaining lags: 166
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.706
+Time taken to evaluate again:1.45
+Time taken to evaluate again:3.217
+Merit: -13.589215141805965
+Group: 1 2 3 4 7 9 10 60 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-167, Remaining lags: 167
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.671
+Time taken to evaluate again:1.319
+Time taken to evaluate again:1.947
+Merit: -13.71080672116925
+Group: 1 2 3 4 7 9 10 61 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-168, Remaining lags: 168
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.706
+Time taken to evaluate again:1.387
+Time taken to evaluate again:2.104
+Merit: -13.819547996385946
+Group: 1 2 3 4 7 9 10 62 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-169, Remaining lags: 169
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.771
+Time taken to evaluate again:1.506
+Time taken to evaluate again:2.153
+Merit: -13.962927754777253
+Group: 1 2 3 4 7 9 10 63 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-170, Remaining lags: 170
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.738
+Time taken to evaluate again:1.459
+Time taken to evaluate again:2.166
+Merit: -14.133999404001674
+Group: 1 2 3 4 7 9 10 64 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-171, Remaining lags: 171
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.707
+Time taken to evaluate again:1.362
+Time taken to evaluate again:2.027
+Merit: -14.344494560478429
+Group: 1 2 3 4 7 9 10 65 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-172, Remaining lags: 172
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.7
+Time taken to evaluate again:1.371
+Time taken to evaluate again:1.982
+Merit: -14.685307999349476
+Group: 1 2 3 4 7 9 10 66 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-173, Remaining lags: 173
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.68
+Time taken to evaluate again:1.347
+Time taken to evaluate again:1.939
+Merit: -15.103871383328519
+Group: 1 2 3 4 7 9 10 67 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-174, Remaining lags: 174
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.669
+Time taken to evaluate again:1.297
+Time taken to evaluate again:1.892
+Merit: -15.593198889787239
+Group: 1 2 3 4 7 9 10 68 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-175, Remaining lags: 175
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.704
+Time taken to evaluate again:1.43
+Time taken to evaluate again:2.12
+Merit: -16.191107680127907
+Group: 1 2 3 4 7 9 10 69 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-176, Remaining lags: 176
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.694
+Time taken to evaluate again:1.343
+Time taken to evaluate again:1.945
+Merit: -16.856906153528225
+Group: 1 2 3 4 7 9 10 70 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-177, Remaining lags: 177
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.665
+Time taken to evaluate again:1.317
+Time taken to evaluate again:1.982
+Merit: -17.564048655455846
+Group: 1 2 3 4 7 9 10 71 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-178, Remaining lags: 178
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.728
+Time taken to evaluate again:1.39
+Time taken to evaluate again:1.995
+Merit: -18.265469670806677
+Group: 1 2 3 4 7 9 10 72 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-179, Remaining lags: 179
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.672
+Time taken to evaluate again:1.405
+Time taken to evaluate again:2.026
+Merit: -18.91760614646541
+Group: 1 2 3 4 7 9 10 73 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-180, Remaining lags: 180
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.698
+Time taken to evaluate again:1.394
+Time taken to evaluate again:2.017
+Merit: -19.467417649797355
+Group: 1 2 3 4 7 9 10 74 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-181, Remaining lags: 181
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.713
+Time taken to evaluate again:1.415
+Time taken to evaluate again:2.022
+Merit: -19.87573045694149
+Group: 1 2 3 4 7 9 10 75 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-182, Remaining lags: 182
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.674
+Time taken to evaluate again:1.319
+Time taken to evaluate again:1.926
+Merit: -20.098996894563953
+Group: 1 2 3 4 7 9 10 76 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-183, Remaining lags: 183
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.688
+Time taken to evaluate again:1.351
+Time taken to evaluate again:1.946
+Merit: -20.1405008290036
+Group: 1 2 3 4 7 9 10 77 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-184, Remaining lags: 184
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.695
+Time taken to evaluate again:1.368
+Time taken to evaluate again:1.996
+Merit: -19.945222775822675
+Group: 1 2 3 4 7 9 10 78 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-185, Remaining lags: 185
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.706
+Time taken to evaluate again:1.34
+Time taken to evaluate again:1.935
+Merit: -19.585333556883285
+Group: 1 2 3 4 7 9 10 79 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-186, Remaining lags: 186
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.665
+Time taken to evaluate again:1.299
+Time taken to evaluate again:1.892
+Merit: -19.05901644794516
+Group: 1 2 3 4 7 9 10 80 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-187, Remaining lags: 187
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.707
+Time taken to evaluate again:1.35
+Time taken to evaluate again:1.948
+Merit: -18.34912626398553
+Group: 1 2 3 4 7 9 10 81 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-188, Remaining lags: 188
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.684
+Time taken to evaluate again:1.333
+Time taken to evaluate again:1.931
+Merit: -17.6197210448623
+Group: 1 2 3 4 7 9 10 82 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-189, Remaining lags: 189
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.673
+Time taken to evaluate again:1.381
+Time taken to evaluate again:2.004
+Merit: -14.922002113318769
+Group: 1 2 3 4 7 9 10 83 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-190, Remaining lags: 190
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.686
+Time taken to evaluate again:1.389
+Time taken to evaluate again:2.011
+Merit: -13.951584991157745
+Group: 1 2 3 4 7 9 10 84 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-191, Remaining lags: 191
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.715
+Time taken to evaluate again:1.362
+Time taken to evaluate again:1.982
+Merit: -13.081351523023926
+Group: 1 2 3 4 7 9 10 85 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-192, Remaining lags: 192
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.71
+Time taken to evaluate again:1.423
+Time taken to evaluate again:2.049
+Merit: -12.308474748713895
+Group: 1 2 3 4 7 9 10 86 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-1, Lag_active_power-100, Remaining lags: 1, 100
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.891
+Time taken to evaluate again:1.717
+Time taken to evaluate again:2.462
+Merit: -9.695747313245224
+Group: 1 2 3 4 7 9 10 12 30 
+
+
+Setting best merit to:-9.695747313245224
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-83, Lag_active_power-100, Remaining lags: 83, 100
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.863
+Time taken to evaluate again:1.714
+Time taken to evaluate again:2.53
+Merit: -9.919818835782882
+Group: 1 2 3 4 7 9 10 13 30 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-84, Lag_active_power-100, Remaining lags: 84, 100
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.918
+Time taken to evaluate again:1.729
+Time taken to evaluate again:2.516
+Merit: -9.983104629639003
+Group: 1 2 3 4 7 9 10 14 30 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-85, Lag_active_power-100, Remaining lags: 85, 100
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.915
+Time taken to evaluate again:1.777
+Time taken to evaluate again:2.577
+Merit: -10.039571570680327
+Group: 1 2 3 4 7 9 10 15 30 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-86, Lag_active_power-100, Remaining lags: 86, 100
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.881
+Time taken to evaluate again:1.724
+Time taken to evaluate again:2.512
+Merit: -10.098286766185149
+Group: 1 2 3 4 7 9 10 16 30 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-87, Lag_active_power-100, Remaining lags: 87, 100
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.928
+Time taken to evaluate again:1.796
+Time taken to evaluate again:2.568
+Merit: -10.145557140941282
+Group: 1 2 3 4 7 9 10 17 30 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-88, Lag_active_power-100, Remaining lags: 88, 100
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.938
+Time taken to evaluate again:1.798
+Time taken to evaluate again:2.557
+Merit: -10.198672924866258
+Group: 1 2 3 4 7 9 10 18 30 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-89, Lag_active_power-100, Remaining lags: 89, 100
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.868
+Time taken to evaluate again:1.735
+Time taken to evaluate again:2.536
+Merit: -10.23287833610135
+Group: 1 2 3 4 7 9 10 19 30 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-90, Lag_active_power-100, Remaining lags: 90, 100
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.93
+Time taken to evaluate again:1.808
+Time taken to evaluate again:2.576
+Merit: -10.265602513373363
+Group: 1 2 3 4 7 9 10 20 30 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-91, Lag_active_power-100, Remaining lags: 91, 100
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.896
+Time taken to evaluate again:1.791
+Time taken to evaluate again:2.617
+Merit: -10.284309095223003
+Group: 1 2 3 4 7 9 10 21 30 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-92, Lag_active_power-100, Remaining lags: 92, 100
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.877
+Time taken to evaluate again:1.697
+Time taken to evaluate again:2.439
+Merit: -10.295834765863647
+Group: 1 2 3 4 7 9 10 22 30 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-93, Lag_active_power-100, Remaining lags: 93, 100
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.842
+Time taken to evaluate again:1.631
+Time taken to evaluate again:2.371
+Merit: -10.275769046410991
+Group: 1 2 3 4 7 9 10 23 30 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-94, Lag_active_power-100, Remaining lags: 94, 100
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.838
+Time taken to evaluate again:1.635
+Time taken to evaluate again:2.411
+Merit: -10.250751629124924
+Group: 1 2 3 4 7 9 10 24 30 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-95, Lag_active_power-100, Remaining lags: 95, 100
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.88
+Time taken to evaluate again:1.767
+Time taken to evaluate again:2.563
+Merit: -10.228814950207337
+Group: 1 2 3 4 7 9 10 25 30 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-100, Remaining lags: 96, 100
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.923
+Time taken to evaluate again:1.849
+Time taken to evaluate again:2.737
+Merit: -10.140067111258283
+Group: 1 2 3 4 7 9 10 26 30 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-97, Lag_active_power-100, Remaining lags: 97, 100
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.893
+Time taken to evaluate again:1.76
+Time taken to evaluate again:2.547
+Merit: -10.111079992048088
+Group: 1 2 3 4 7 9 10 27 30 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-98, Lag_active_power-100, Remaining lags: 98, 100
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.907
+Time taken to evaluate again:1.749
+Time taken to evaluate again:2.595
+Merit: -10.099713556083247
+Group: 1 2 3 4 7 9 10 28 30 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-99, Lag_active_power-100, Remaining lags: 99, 100
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.908
+Time taken to evaluate again:1.769
+Time taken to evaluate again:2.544
+Merit: -10.110615690608327
+Group: 1 2 3 4 7 9 10 29 30 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-101, Remaining lags: 100, 101
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.907
+Time taken to evaluate again:1.812
+Time taken to evaluate again:2.621
+Merit: -10.087078645181613
+Group: 1 2 3 4 7 9 10 30 31 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-102, Remaining lags: 100, 102
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.932
+Time taken to evaluate again:1.76
+Time taken to evaluate again:2.534
+Merit: -10.100193919952604
+Group: 1 2 3 4 7 9 10 30 32 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-103, Remaining lags: 100, 103
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.887
+Time taken to evaluate again:1.826
+Time taken to evaluate again:2.625
+Merit: -10.11498535148087
+Group: 1 2 3 4 7 9 10 30 33 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-104, Remaining lags: 100, 104
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.914
+Time taken to evaluate again:1.715
+Time taken to evaluate again:2.533
+Merit: -10.135370043794179
+Group: 1 2 3 4 7 9 10 30 34 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-105, Remaining lags: 100, 105
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.921
+Time taken to evaluate again:1.819
+Time taken to evaluate again:2.651
+Merit: -10.15748417517997
+Group: 1 2 3 4 7 9 10 30 35 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-106, Remaining lags: 100, 106
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.874
+Time taken to evaluate again:1.721
+Time taken to evaluate again:2.496
+Merit: -10.168711638201945
+Group: 1 2 3 4 7 9 10 30 36 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-143, Remaining lags: 100, 143
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.918
+Time taken to evaluate again:1.826
+Time taken to evaluate again:2.708
+Merit: -9.283693103949968
+Group: 1 2 3 4 7 9 10 30 37 
+
+
+Setting best merit to:-9.283693103949968
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-144, Remaining lags: 100, 144
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.971
+Time taken to evaluate again:1.855
+Time taken to evaluate again:2.634
+Merit: -9.228698185672906
+Group: 1 2 3 4 7 9 10 30 38 
+
+
+Setting best merit to:-9.228698185672906
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-145, Remaining lags: 100, 145
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.833
+Time taken to evaluate again:1.678
+Time taken to evaluate again:2.438
+Merit: -9.171203406518087
+Group: 1 2 3 4 7 9 10 30 39 
+
+
+Setting best merit to:-9.171203406518087
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-146, Remaining lags: 100, 146
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.911
+Time taken to evaluate again:1.764
+Time taken to evaluate again:2.562
+Merit: -9.121470002830877
+Group: 1 2 3 4 7 9 10 30 40 
+
+
+Setting best merit to:-9.121470002830877
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-147, Remaining lags: 100, 147
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.929
+Time taken to evaluate again:1.779
+Time taken to evaluate again:2.566
+Merit: -9.07697302703007
+Group: 1 2 3 4 7 9 10 30 41 
+
+
+Setting best merit to:-9.07697302703007
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-148, Remaining lags: 100, 148
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.881
+Time taken to evaluate again:1.697
+Time taken to evaluate again:2.464
+Merit: -9.028077527801068
+Group: 1 2 3 4 7 9 10 30 42 
+
+
+Setting best merit to:-9.028077527801068
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-149, Remaining lags: 100, 149
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.911
+Time taken to evaluate again:1.751
+Time taken to evaluate again:2.496
+Merit: -9.027442508751648
+Group: 1 2 3 4 7 9 10 30 43 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-150, Remaining lags: 100, 150
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.871
+Time taken to evaluate again:1.699
+Time taken to evaluate again:2.449
+Merit: -9.005648386590055
+Group: 1 2 3 4 7 9 10 30 44 
+
+
+Setting best merit to:-9.005648386590055
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-151, Remaining lags: 100, 151
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.831
+Time taken to evaluate again:1.657
+Time taken to evaluate again:2.405
+Merit: -8.970085491694839
+Group: 1 2 3 4 7 9 10 30 45 
+
+
+Setting best merit to:-8.970085491694839
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-152, Remaining lags: 100, 152
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.835
+Time taken to evaluate again:1.635
+Time taken to evaluate again:2.381
+Merit: -8.935408306415868
+Group: 1 2 3 4 7 9 10 30 46 
+
+
+Setting best merit to:-8.935408306415868
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-153, Remaining lags: 100, 153
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.829
+Time taken to evaluate again:1.628
+Time taken to evaluate again:2.387
+Merit: -8.910470672404317
+Group: 1 2 3 4 7 9 10 30 47 
+
+
+Setting best merit to:-8.910470672404317
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-154, Remaining lags: 100, 154
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.939
+Time taken to evaluate again:1.804
+Time taken to evaluate again:2.607
+Merit: -8.87292626931726
+Group: 1 2 3 4 7 9 10 30 48 
+
+
+Setting best merit to:-8.87292626931726
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-155, Remaining lags: 100, 155
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.89
+Time taken to evaluate again:1.805
+Time taken to evaluate again:2.625
+Merit: -8.866732930473493
+Group: 1 2 3 4 7 9 10 30 49 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Remaining lags: 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.893
+Time taken to evaluate again:1.844
+Time taken to evaluate again:2.617
+Merit: -8.864545270648554
+Group: 1 2 3 4 7 9 10 30 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-157, Remaining lags: 100, 157
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.895
+Time taken to evaluate again:1.918
+Time taken to evaluate again:2.732
+Merit: -8.885735471398519
+Group: 1 2 3 4 7 9 10 30 51 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-158, Remaining lags: 100, 158
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.887
+Time taken to evaluate again:1.744
+Time taken to evaluate again:2.533
+Merit: -8.865448389904529
+Group: 1 2 3 4 7 9 10 30 52 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-159, Remaining lags: 100, 159
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.905
+Time taken to evaluate again:1.744
+Time taken to evaluate again:2.543
+Merit: -8.87177441337672
+Group: 1 2 3 4 7 9 10 30 53 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-160, Remaining lags: 100, 160
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.89
+Time taken to evaluate again:1.77
+Time taken to evaluate again:2.58
+Merit: -8.866240936416489
+Group: 1 2 3 4 7 9 10 30 54 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-161, Remaining lags: 100, 161
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.908
+Time taken to evaluate again:1.701
+Time taken to evaluate again:2.486
+Merit: -8.890153118514998
+Group: 1 2 3 4 7 9 10 30 55 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-162, Remaining lags: 100, 162
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.885
+Time taken to evaluate again:1.78
+Time taken to evaluate again:2.585
+Merit: -8.872028156592982
+Group: 1 2 3 4 7 9 10 30 56 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-163, Remaining lags: 100, 163
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.912
+Time taken to evaluate again:1.724
+Time taken to evaluate again:2.547
+Merit: -8.886880753814081
+Group: 1 2 3 4 7 9 10 30 57 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-164, Remaining lags: 100, 164
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.938
+Time taken to evaluate again:1.785
+Time taken to evaluate again:2.592
+Merit: -8.892068600861295
+Group: 1 2 3 4 7 9 10 30 58 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-165, Remaining lags: 100, 165
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.84
+Time taken to evaluate again:1.634
+Time taken to evaluate again:2.386
+Merit: -8.933572897173365
+Group: 1 2 3 4 7 9 10 30 59 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-166, Remaining lags: 100, 166
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.839
+Time taken to evaluate again:1.651
+Time taken to evaluate again:2.408
+Merit: -8.96220853971512
+Group: 1 2 3 4 7 9 10 30 60 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-167, Remaining lags: 100, 167
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.905
+Time taken to evaluate again:1.789
+Time taken to evaluate again:2.585
+Merit: -9.006727079547957
+Group: 1 2 3 4 7 9 10 30 61 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-168, Remaining lags: 100, 168
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.86
+Time taken to evaluate again:1.658
+Time taken to evaluate again:2.411
+Merit: -9.07722755418979
+Group: 1 2 3 4 7 9 10 30 62 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-169, Remaining lags: 100, 169
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.899
+Time taken to evaluate again:1.742
+Time taken to evaluate again:2.534
+Merit: -9.118910375661574
+Group: 1 2 3 4 7 9 10 30 63 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-170, Remaining lags: 100, 170
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.913
+Time taken to evaluate again:1.787
+Time taken to evaluate again:2.591
+Merit: -9.196610262766535
+Group: 1 2 3 4 7 9 10 30 64 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-171, Remaining lags: 100, 171
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.896
+Time taken to evaluate again:1.728
+Time taken to evaluate again:2.485
+Merit: -9.240347356700653
+Group: 1 2 3 4 7 9 10 30 65 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-172, Remaining lags: 100, 172
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.842
+Time taken to evaluate again:1.701
+Time taken to evaluate again:2.504
+Merit: -9.320315137717882
+Group: 1 2 3 4 7 9 10 30 66 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-173, Remaining lags: 100, 173
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.905
+Time taken to evaluate again:1.748
+Time taken to evaluate again:2.552
+Merit: -9.411873647938998
+Group: 1 2 3 4 7 9 10 30 67 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-174, Remaining lags: 100, 174
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.902
+Time taken to evaluate again:1.809
+Time taken to evaluate again:2.63
+Merit: -9.505223774053974
+Group: 1 2 3 4 7 9 10 30 68 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-175, Remaining lags: 100, 175
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.909
+Time taken to evaluate again:1.727
+Time taken to evaluate again:2.513
+Merit: -9.61328381305904
+Group: 1 2 3 4 7 9 10 30 69 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-176, Remaining lags: 100, 176
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.839
+Time taken to evaluate again:1.64
+Time taken to evaluate again:2.39
+Merit: -9.721974744308268
+Group: 1 2 3 4 7 9 10 30 70 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-177, Remaining lags: 100, 177
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.978
+Time taken to evaluate again:1.843
+Time taken to evaluate again:2.606
+Merit: -9.832786333050498
+Group: 1 2 3 4 7 9 10 30 71 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-178, Remaining lags: 100, 178
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.955
+Time taken to evaluate again:1.853
+Time taken to evaluate again:2.672
+Merit: -9.955170471339754
+Group: 1 2 3 4 7 9 10 30 72 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-179, Remaining lags: 100, 179
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.942
+Time taken to evaluate again:1.818
+Time taken to evaluate again:2.634
+Merit: -10.086061011221604
+Group: 1 2 3 4 7 9 10 30 73 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-180, Remaining lags: 100, 180
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.952
+Time taken to evaluate again:1.823
+Time taken to evaluate again:2.63
+Merit: -10.215738850683062
+Group: 1 2 3 4 7 9 10 30 74 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-181, Remaining lags: 100, 181
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.923
+Time taken to evaluate again:1.735
+Time taken to evaluate again:2.544
+Merit: -10.355945877709285
+Group: 1 2 3 4 7 9 10 30 75 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-182, Remaining lags: 100, 182
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.841
+Time taken to evaluate again:1.644
+Time taken to evaluate again:2.408
+Merit: -10.499017230040895
+Group: 1 2 3 4 7 9 10 30 76 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-183, Remaining lags: 100, 183
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.938
+Time taken to evaluate again:1.803
+Time taken to evaluate again:2.587
+Merit: -10.626816258474685
+Group: 1 2 3 4 7 9 10 30 77 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-184, Remaining lags: 100, 184
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.864
+Time taken to evaluate again:1.719
+Time taken to evaluate again:2.613
+Merit: -10.737785126440354
+Group: 1 2 3 4 7 9 10 30 78 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-185, Remaining lags: 100, 185
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.903
+Time taken to evaluate again:1.729
+Time taken to evaluate again:2.536
+Merit: -10.85072292657126
+Group: 1 2 3 4 7 9 10 30 79 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-186, Remaining lags: 100, 186
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.85
+Time taken to evaluate again:1.659
+Time taken to evaluate again:2.446
+Merit: -10.951530335756015
+Group: 1 2 3 4 7 9 10 30 80 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-187, Remaining lags: 100, 187
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.951
+Time taken to evaluate again:1.816
+Time taken to evaluate again:2.624
+Merit: -11.008483664933864
+Group: 1 2 3 4 7 9 10 30 81 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-188, Remaining lags: 100, 188
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.842
+Time taken to evaluate again:1.636
+Time taken to evaluate again:2.391
+Merit: -11.075286483116358
+Group: 1 2 3 4 7 9 10 30 82 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-189, Remaining lags: 100, 189
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.843
+Time taken to evaluate again:1.739
+Time taken to evaluate again:2.544
+Merit: -11.121133734886891
+Group: 1 2 3 4 7 9 10 30 83 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-190, Remaining lags: 100, 190
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.905
+Time taken to evaluate again:1.719
+Time taken to evaluate again:2.493
+Merit: -11.104697953562123
+Group: 1 2 3 4 7 9 10 30 84 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-191, Remaining lags: 100, 191
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.956
+Time taken to evaluate again:1.806
+Time taken to evaluate again:2.612
+Merit: -11.068962238316038
+Group: 1 2 3 4 7 9 10 30 85 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-192, Remaining lags: 100, 192
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:0.906
+Time taken to evaluate again:1.782
+Time taken to evaluate again:2.577
+Merit: -11.027244158243514
+Group: 1 2 3 4 7 9 10 30 86 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-1, Lag_active_power-100, Lag_active_power-156, Remaining lags: 1, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.086
+Time taken to evaluate again:2.175
+Time taken to evaluate again:3.145
+Merit: -9.797374022331757
+Group: 1 2 3 4 7 9 10 12 30 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-83, Lag_active_power-100, Lag_active_power-156, Remaining lags: 83, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.192
+Time taken to evaluate again:2.233
+Time taken to evaluate again:3.217
+Merit: -8.881318832475309
+Group: 1 2 3 4 7 9 10 13 30 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-84, Lag_active_power-100, Lag_active_power-156, Remaining lags: 84, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.074
+Time taken to evaluate again:2.141
+Time taken to evaluate again:3.155
+Merit: -8.868795445647583
+Group: 1 2 3 4 7 9 10 14 30 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-85, Lag_active_power-100, Lag_active_power-156, Remaining lags: 85, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.167
+Time taken to evaluate again:2.225
+Time taken to evaluate again:3.232
+Merit: -8.853976769625426
+Group: 1 2 3 4 7 9 10 15 30 50 
+
+
+Setting best merit to:-8.853976769625426
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-86, Lag_active_power-100, Lag_active_power-156, Remaining lags: 86, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.119
+Time taken to evaluate again:2.131
+Time taken to evaluate again:3.11
+Merit: -8.834895774759612
+Group: 1 2 3 4 7 9 10 16 30 50 
+
+
+Setting best merit to:-8.834895774759612
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-87, Lag_active_power-100, Lag_active_power-156, Remaining lags: 87, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.08
+Time taken to evaluate again:2.13
+Time taken to evaluate again:3.112
+Merit: -8.81618684046476
+Group: 1 2 3 4 7 9 10 17 30 50 
+
+
+Setting best merit to:-8.81618684046476
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-88, Lag_active_power-100, Lag_active_power-156, Remaining lags: 88, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.088
+Time taken to evaluate again:2.135
+Time taken to evaluate again:3.104
+Merit: -8.786660272869325
+Group: 1 2 3 4 7 9 10 18 30 50 
+
+
+Setting best merit to:-8.786660272869325
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-89, Lag_active_power-100, Lag_active_power-156, Remaining lags: 89, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.115
+Time taken to evaluate again:2.157
+Time taken to evaluate again:3.147
+Merit: -8.76359578730316
+Group: 1 2 3 4 7 9 10 19 30 50 
+
+
+Setting best merit to:-8.76359578730316
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-90, Lag_active_power-100, Lag_active_power-156, Remaining lags: 90, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.027
+Time taken to evaluate again:2.029
+Time taken to evaluate again:3.015
+Merit: -8.733796428813465
+Group: 1 2 3 4 7 9 10 20 30 50 
+
+
+Setting best merit to:-8.733796428813465
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-91, Lag_active_power-100, Lag_active_power-156, Remaining lags: 91, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.065
+Time taken to evaluate again:2.102
+Time taken to evaluate again:3.109
+Merit: -8.682489714651394
+Group: 1 2 3 4 7 9 10 21 30 50 
+
+
+Setting best merit to:-8.682489714651394
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-92, Lag_active_power-100, Lag_active_power-156, Remaining lags: 92, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.164
+Time taken to evaluate again:2.229
+Time taken to evaluate again:3.217
+Merit: -8.646574711340778
+Group: 1 2 3 4 7 9 10 22 30 50 
+
+
+Setting best merit to:-8.646574711340778
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-93, Lag_active_power-100, Lag_active_power-156, Remaining lags: 93, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.067
+Time taken to evaluate again:2.109
+Time taken to evaluate again:3.138
+Merit: -8.60602892901414
+Group: 1 2 3 4 7 9 10 23 30 50 
+
+
+Setting best merit to:-8.60602892901414
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-94, Lag_active_power-100, Lag_active_power-156, Remaining lags: 94, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.096
+Time taken to evaluate again:2.096
+Time taken to evaluate again:3.108
+Merit: -8.550837129395639
+Group: 1 2 3 4 7 9 10 24 30 50 
+
+
+Setting best merit to:-8.550837129395639
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-95, Lag_active_power-100, Lag_active_power-156, Remaining lags: 95, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.063
+Time taken to evaluate again:2.11
+Time taken to evaluate again:3.078
+Merit: -8.52356777028309
+Group: 1 2 3 4 7 9 10 25 30 50 
+
+
+Setting best merit to:-8.52356777028309
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-100, Lag_active_power-156, Remaining lags: 96, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.091
+Time taken to evaluate again:2.099
+Time taken to evaluate again:3.071
+Merit: -8.483624219271078
+Group: 1 2 3 4 7 9 10 26 30 50 
+
+
+Setting best merit to:-8.483624219271078
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-97, Lag_active_power-100, Lag_active_power-156, Remaining lags: 97, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.114
+Time taken to evaluate again:2.159
+Time taken to evaluate again:3.156
+Merit: -8.521650935630156
+Group: 1 2 3 4 7 9 10 27 30 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-98, Lag_active_power-100, Lag_active_power-156, Remaining lags: 98, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.162
+Time taken to evaluate again:2.248
+Time taken to evaluate again:3.241
+Merit: -8.614164503713617
+Group: 1 2 3 4 7 9 10 28 30 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-99, Lag_active_power-100, Lag_active_power-156, Remaining lags: 99, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.109
+Time taken to evaluate again:2.122
+Time taken to evaluate again:3.086
+Merit: -8.730701451193267
+Group: 1 2 3 4 7 9 10 29 30 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-101, Lag_active_power-156, Remaining lags: 100, 101, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.022
+Time taken to evaluate again:2.063
+Time taken to evaluate again:3.04
+Merit: -8.826752427944964
+Group: 1 2 3 4 7 9 10 30 31 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-102, Lag_active_power-156, Remaining lags: 100, 102, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.075
+Time taken to evaluate again:2.103
+Time taken to evaluate again:3.071
+Merit: -8.848560493325753
+Group: 1 2 3 4 7 9 10 30 32 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-103, Lag_active_power-156, Remaining lags: 100, 103, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.081
+Time taken to evaluate again:2.096
+Time taken to evaluate again:3.05
+Merit: -8.864800469538629
+Group: 1 2 3 4 7 9 10 30 33 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-104, Lag_active_power-156, Remaining lags: 100, 104, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.089
+Time taken to evaluate again:2.11
+Time taken to evaluate again:3.106
+Merit: -8.871267049456337
+Group: 1 2 3 4 7 9 10 30 34 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-105, Lag_active_power-156, Remaining lags: 100, 105, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.09
+Time taken to evaluate again:2.17
+Time taken to evaluate again:3.206
+Merit: -8.863149735923223
+Group: 1 2 3 4 7 9 10 30 35 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-106, Lag_active_power-156, Remaining lags: 100, 106, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.055
+Time taken to evaluate again:2.098
+Time taken to evaluate again:3.089
+Merit: -8.853351759162624
+Group: 1 2 3 4 7 9 10 30 36 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-143, Lag_active_power-156, Remaining lags: 100, 143, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.085
+Time taken to evaluate again:2.106
+Time taken to evaluate again:3.114
+Merit: -8.874473928345486
+Group: 1 2 3 4 7 9 10 30 37 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-144, Lag_active_power-156, Remaining lags: 100, 144, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.068
+Time taken to evaluate again:2.143
+Time taken to evaluate again:3.142
+Merit: -8.884590415830138
+Group: 1 2 3 4 7 9 10 30 38 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-145, Lag_active_power-156, Remaining lags: 100, 145, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.076
+Time taken to evaluate again:2.057
+Time taken to evaluate again:3.059
+Merit: -8.893044540584627
+Group: 1 2 3 4 7 9 10 30 39 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-146, Lag_active_power-156, Remaining lags: 100, 146, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.121
+Time taken to evaluate again:2.197
+Time taken to evaluate again:3.209
+Merit: -8.899150972730117
+Group: 1 2 3 4 7 9 10 30 40 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-147, Lag_active_power-156, Remaining lags: 100, 147, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.124
+Time taken to evaluate again:2.257
+Time taken to evaluate again:3.229
+Merit: -8.910498996422511
+Group: 1 2 3 4 7 9 10 30 41 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-148, Lag_active_power-156, Remaining lags: 100, 148, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.134
+Time taken to evaluate again:2.187
+Time taken to evaluate again:3.165
+Merit: -8.912665372035558
+Group: 1 2 3 4 7 9 10 30 42 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-149, Lag_active_power-156, Remaining lags: 100, 149, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.117
+Time taken to evaluate again:2.15
+Time taken to evaluate again:3.179
+Merit: -8.921352743906423
+Group: 1 2 3 4 7 9 10 30 43 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-150, Lag_active_power-156, Remaining lags: 100, 150, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.15
+Time taken to evaluate again:2.191
+Time taken to evaluate again:3.212
+Merit: -8.92104556802627
+Group: 1 2 3 4 7 9 10 30 44 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-151, Lag_active_power-156, Remaining lags: 100, 151, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.103
+Time taken to evaluate again:2.23
+Time taken to evaluate again:3.253
+Merit: -8.915620966661793
+Group: 1 2 3 4 7 9 10 30 45 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-152, Lag_active_power-156, Remaining lags: 100, 152, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.049
+Time taken to evaluate again:2.054
+Time taken to evaluate again:3.032
+Merit: -8.910785252186272
+Group: 1 2 3 4 7 9 10 30 46 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-153, Lag_active_power-156, Remaining lags: 100, 153, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.112
+Time taken to evaluate again:2.17
+Time taken to evaluate again:3.19
+Merit: -8.888176517456104
+Group: 1 2 3 4 7 9 10 30 47 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-154, Lag_active_power-156, Remaining lags: 100, 154, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.143
+Time taken to evaluate again:2.158
+Time taken to evaluate again:3.15
+Merit: -8.873070410702027
+Group: 1 2 3 4 7 9 10 30 48 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-155, Lag_active_power-156, Remaining lags: 100, 155, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.099
+Time taken to evaluate again:2.129
+Time taken to evaluate again:3.09
+Merit: -8.870903038150269
+Group: 1 2 3 4 7 9 10 30 49 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-157, Remaining lags: 100, 156, 157
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.025
+Time taken to evaluate again:2.179
+Time taken to evaluate again:3.144
+Merit: -8.874277547076394
+Group: 1 2 3 4 7 9 10 30 50 51 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-158, Remaining lags: 100, 156, 158
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.09
+Time taken to evaluate again:2.084
+Time taken to evaluate again:3.05
+Merit: -8.859378432863862
+Group: 1 2 3 4 7 9 10 30 50 52 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-159, Remaining lags: 100, 156, 159
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.136
+Time taken to evaluate again:2.29
+Time taken to evaluate again:3.344
+Merit: -8.873627203345956
+Group: 1 2 3 4 7 9 10 30 50 53 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-160, Remaining lags: 100, 156, 160
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.077
+Time taken to evaluate again:2.139
+Time taken to evaluate again:3.175
+Merit: -8.864831619522475
+Group: 1 2 3 4 7 9 10 30 50 54 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-161, Remaining lags: 100, 156, 161
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.132
+Time taken to evaluate again:2.183
+Time taken to evaluate again:3.16
+Merit: -8.871000554945027
+Group: 1 2 3 4 7 9 10 30 50 55 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-162, Remaining lags: 100, 156, 162
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.128
+Time taken to evaluate again:2.177
+Time taken to evaluate again:3.145
+Merit: -8.8409950516791
+Group: 1 2 3 4 7 9 10 30 50 56 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-163, Remaining lags: 100, 156, 163
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.035
+Time taken to evaluate again:2.072
+Time taken to evaluate again:3.114
+Merit: -8.833462466008417
+Group: 1 2 3 4 7 9 10 30 50 57 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-164, Remaining lags: 100, 156, 164
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.123
+Time taken to evaluate again:2.154
+Time taken to evaluate again:3.156
+Merit: -8.816659675493707
+Group: 1 2 3 4 7 9 10 30 50 58 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-165, Remaining lags: 100, 156, 165
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.217
+Time taken to evaluate again:2.27
+Time taken to evaluate again:3.244
+Merit: -8.827899013231251
+Group: 1 2 3 4 7 9 10 30 50 59 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-166, Remaining lags: 100, 156, 166
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.181
+Time taken to evaluate again:2.193
+Time taken to evaluate again:3.172
+Merit: -8.820577175396577
+Group: 1 2 3 4 7 9 10 30 50 60 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-167, Remaining lags: 100, 156, 167
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.103
+Time taken to evaluate again:2.162
+Time taken to evaluate again:3.138
+Merit: -8.824009597611045
+Group: 1 2 3 4 7 9 10 30 50 61 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-168, Remaining lags: 100, 156, 168
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.089
+Time taken to evaluate again:2.143
+Time taken to evaluate again:3.092
+Merit: -8.83421392416862
+Group: 1 2 3 4 7 9 10 30 50 62 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-169, Remaining lags: 100, 156, 169
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.2
+Time taken to evaluate again:2.333
+Time taken to evaluate again:3.274
+Merit: -8.833571094373248
+Group: 1 2 3 4 7 9 10 30 50 63 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-170, Remaining lags: 100, 156, 170
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.055
+Time taken to evaluate again:2.177
+Time taken to evaluate again:3.295
+Merit: -8.839440172915433
+Group: 1 2 3 4 7 9 10 30 50 64 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-171, Remaining lags: 100, 156, 171
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.062
+Time taken to evaluate again:2.113
+Time taken to evaluate again:3.071
+Merit: -8.84322838191943
+Group: 1 2 3 4 7 9 10 30 50 65 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-172, Remaining lags: 100, 156, 172
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.149
+Time taken to evaluate again:2.299
+Time taken to evaluate again:3.303
+Merit: -8.85109606803677
+Group: 1 2 3 4 7 9 10 30 50 66 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-173, Remaining lags: 100, 156, 173
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.078
+Time taken to evaluate again:2.12
+Time taken to evaluate again:3.098
+Merit: -8.860717226627981
+Group: 1 2 3 4 7 9 10 30 50 67 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-174, Remaining lags: 100, 156, 174
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.107
+Time taken to evaluate again:2.223
+Time taken to evaluate again:3.227
+Merit: -8.871073241477783
+Group: 1 2 3 4 7 9 10 30 50 68 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-175, Remaining lags: 100, 156, 175
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.026
+Time taken to evaluate again:2.16
+Time taken to evaluate again:3.231
+Merit: -8.882537542584307
+Group: 1 2 3 4 7 9 10 30 50 69 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-176, Remaining lags: 100, 156, 176
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.06
+Time taken to evaluate again:2.103
+Time taken to evaluate again:3.072
+Merit: -8.897241731018973
+Group: 1 2 3 4 7 9 10 30 50 70 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-177, Remaining lags: 100, 156, 177
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.189
+Time taken to evaluate again:2.266
+Time taken to evaluate again:3.313
+Merit: -8.911278729594251
+Group: 1 2 3 4 7 9 10 30 50 71 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-178, Remaining lags: 100, 156, 178
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.115
+Time taken to evaluate again:2.137
+Time taken to evaluate again:3.069
+Merit: -8.931655823935689
+Group: 1 2 3 4 7 9 10 30 50 72 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-179, Remaining lags: 100, 156, 179
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.055
+Time taken to evaluate again:2.115
+Time taken to evaluate again:3.129
+Merit: -8.951739279747775
+Group: 1 2 3 4 7 9 10 30 50 73 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-180, Remaining lags: 100, 156, 180
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.115
+Time taken to evaluate again:2.198
+Time taken to evaluate again:3.232
+Merit: -8.980049964631691
+Group: 1 2 3 4 7 9 10 30 50 74 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-181, Remaining lags: 100, 156, 181
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.093
+Time taken to evaluate again:2.217
+Time taken to evaluate again:3.247
+Merit: -8.997017950125425
+Group: 1 2 3 4 7 9 10 30 50 75 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-182, Remaining lags: 100, 156, 182
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.03
+Time taken to evaluate again:2.142
+Time taken to evaluate again:3.172
+Merit: -9.031938539424578
+Group: 1 2 3 4 7 9 10 30 50 76 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-183, Remaining lags: 100, 156, 183
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.126
+Time taken to evaluate again:2.199
+Time taken to evaluate again:3.221
+Merit: -9.063775603344629
+Group: 1 2 3 4 7 9 10 30 50 77 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-184, Remaining lags: 100, 156, 184
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.117
+Time taken to evaluate again:2.181
+Time taken to evaluate again:3.215
+Merit: -9.09151757714561
+Group: 1 2 3 4 7 9 10 30 50 78 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-185, Remaining lags: 100, 156, 185
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.118
+Time taken to evaluate again:2.164
+Time taken to evaluate again:3.125
+Merit: -9.109548806840433
+Group: 1 2 3 4 7 9 10 30 50 79 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-186, Remaining lags: 100, 156, 186
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.169
+Time taken to evaluate again:2.228
+Time taken to evaluate again:3.159
+Merit: -9.130588356644573
+Group: 1 2 3 4 7 9 10 30 50 80 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-187, Remaining lags: 100, 156, 187
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.027
+Time taken to evaluate again:2.027
+Time taken to evaluate again:2.96
+Merit: -9.14232864367471
+Group: 1 2 3 4 7 9 10 30 50 81 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-188, Remaining lags: 100, 156, 188
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.03
+Time taken to evaluate again:2.059
+Time taken to evaluate again:3.085
+Merit: -9.16859542801854
+Group: 1 2 3 4 7 9 10 30 50 82 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-189, Remaining lags: 100, 156, 189
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.079
+Time taken to evaluate again:2.175
+Time taken to evaluate again:3.152
+Merit: -9.198512453307446
+Group: 1 2 3 4 7 9 10 30 50 83 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-190, Remaining lags: 100, 156, 190
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.026
+Time taken to evaluate again:2.14
+Time taken to evaluate again:3.153
+Merit: -9.17756117095037
+Group: 1 2 3 4 7 9 10 30 50 84 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-191, Remaining lags: 100, 156, 191
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.076
+Time taken to evaluate again:2.165
+Time taken to evaluate again:3.167
+Merit: -9.194194711060547
+Group: 1 2 3 4 7 9 10 30 50 85 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-100, Lag_active_power-156, Lag_active_power-192, Remaining lags: 100, 156, 192
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.093
+Time taken to evaluate again:2.139
+Time taken to evaluate again:3.32
+Merit: -9.180078051333933
+Group: 1 2 3 4 7 9 10 30 50 86 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-1, Lag_active_power-96, Lag_active_power-100, Lag_active_power-156, Remaining lags: 1, 96, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.223
+Time taken to evaluate again:2.558
+Time taken to evaluate again:3.712
+Merit: -8.357335740752125
+Group: 1 2 3 4 7 9 10 12 26 30 50 
+
+
+Setting best merit to:-8.357335740752125
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-83, Lag_active_power-96, Lag_active_power-100, Lag_active_power-156, Remaining lags: 83, 96, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.314
+Time taken to evaluate again:2.608
+Time taken to evaluate again:3.95
+Merit: -8.548028880187339
+Group: 1 2 3 4 7 9 10 13 26 30 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-84, Lag_active_power-96, Lag_active_power-100, Lag_active_power-156, Remaining lags: 84, 96, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.25
+Time taken to evaluate again:2.438
+Time taken to evaluate again:3.603
+Merit: -8.536402407671652
+Group: 1 2 3 4 7 9 10 14 26 30 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-85, Lag_active_power-96, Lag_active_power-100, Lag_active_power-156, Remaining lags: 85, 96, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.288
+Time taken to evaluate again:2.511
+Time taken to evaluate again:3.598
+Merit: -8.527782016029159
+Group: 1 2 3 4 7 9 10 15 26 30 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-86, Lag_active_power-96, Lag_active_power-100, Lag_active_power-156, Remaining lags: 86, 96, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.201
+Time taken to evaluate again:2.404
+Time taken to evaluate again:3.589
+Merit: -8.519248684131405
+Group: 1 2 3 4 7 9 10 16 26 30 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-87, Lag_active_power-96, Lag_active_power-100, Lag_active_power-156, Remaining lags: 87, 96, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.326
+Time taken to evaluate again:2.596
+Time taken to evaluate again:3.783
+Merit: -8.509499849098281
+Group: 1 2 3 4 7 9 10 17 26 30 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-88, Lag_active_power-96, Lag_active_power-100, Lag_active_power-156, Remaining lags: 88, 96, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.267
+Time taken to evaluate again:2.484
+Time taken to evaluate again:3.626
+Merit: -8.511685038860495
+Group: 1 2 3 4 7 9 10 18 26 30 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-89, Lag_active_power-96, Lag_active_power-100, Lag_active_power-156, Remaining lags: 89, 96, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.251
+Time taken to evaluate again:2.461
+Time taken to evaluate again:3.629
+Merit: -8.504113625058993
+Group: 1 2 3 4 7 9 10 19 26 30 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-90, Lag_active_power-96, Lag_active_power-100, Lag_active_power-156, Remaining lags: 90, 96, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.276
+Time taken to evaluate again:2.481
+Time taken to evaluate again:3.644
+Merit: -8.49735835631783
+Group: 1 2 3 4 7 9 10 20 26 30 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-91, Lag_active_power-96, Lag_active_power-100, Lag_active_power-156, Remaining lags: 91, 96, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.385
+Time taken to evaluate again:2.61
+Time taken to evaluate again:3.809
+Merit: -8.493967149573889
+Group: 1 2 3 4 7 9 10 21 26 30 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-92, Lag_active_power-96, Lag_active_power-100, Lag_active_power-156, Remaining lags: 92, 96, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.317
+Time taken to evaluate again:2.545
+Time taken to evaluate again:3.671
+Merit: -8.487311657925991
+Group: 1 2 3 4 7 9 10 22 26 30 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-93, Lag_active_power-96, Lag_active_power-100, Lag_active_power-156, Remaining lags: 93, 96, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.241
+Time taken to evaluate again:2.453
+Time taken to evaluate again:3.592
+Merit: -8.475602400897987
+Group: 1 2 3 4 7 9 10 23 26 30 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-94, Lag_active_power-96, Lag_active_power-100, Lag_active_power-156, Remaining lags: 94, 96, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.239
+Time taken to evaluate again:2.433
+Time taken to evaluate again:3.579
+Merit: -8.463652815736221
+Group: 1 2 3 4 7 9 10 24 26 30 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-95, Lag_active_power-96, Lag_active_power-100, Lag_active_power-156, Remaining lags: 95, 96, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.264
+Time taken to evaluate again:2.513
+Time taken to evaluate again:3.696
+Merit: -8.458693147507866
+Group: 1 2 3 4 7 9 10 25 26 30 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-97, Lag_active_power-100, Lag_active_power-156, Remaining lags: 96, 97, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.274
+Time taken to evaluate again:2.563
+Time taken to evaluate again:3.77
+Merit: -8.445076664963231
+Group: 1 2 3 4 7 9 10 26 27 30 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-98, Lag_active_power-100, Lag_active_power-156, Remaining lags: 96, 98, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.264
+Time taken to evaluate again:2.494
+Time taken to evaluate again:3.654
+Merit: -8.456299422999162
+Group: 1 2 3 4 7 9 10 26 28 30 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-99, Lag_active_power-100, Lag_active_power-156, Remaining lags: 96, 99, 100, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.205
+Time taken to evaluate again:2.438
+Time taken to evaluate again:3.567
+Merit: -8.471861311292502
+Group: 1 2 3 4 7 9 10 26 29 30 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-100, Lag_active_power-101, Lag_active_power-156, Remaining lags: 96, 100, 101, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.221
+Time taken to evaluate again:2.423
+Time taken to evaluate again:3.609
+Merit: -8.472961371733797
+Group: 1 2 3 4 7 9 10 26 30 31 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-100, Lag_active_power-102, Lag_active_power-156, Remaining lags: 96, 100, 102, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.3
+Time taken to evaluate again:2.503
+Time taken to evaluate again:3.674
+Merit: -8.481182606588014
+Group: 1 2 3 4 7 9 10 26 30 32 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-100, Lag_active_power-103, Lag_active_power-156, Remaining lags: 96, 100, 103, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.259
+Time taken to evaluate again:2.573
+Time taken to evaluate again:3.778
+Merit: -8.483513211991818
+Group: 1 2 3 4 7 9 10 26 30 33 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-100, Lag_active_power-104, Lag_active_power-156, Remaining lags: 96, 100, 104, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.258
+Time taken to evaluate again:2.509
+Time taken to evaluate again:3.717
+Merit: -8.49517998667537
+Group: 1 2 3 4 7 9 10 26 30 34 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-100, Lag_active_power-105, Lag_active_power-156, Remaining lags: 96, 100, 105, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.244
+Time taken to evaluate again:2.52
+Time taken to evaluate again:3.71
+Merit: -8.498530446981356
+Group: 1 2 3 4 7 9 10 26 30 35 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-100, Lag_active_power-106, Lag_active_power-156, Remaining lags: 96, 100, 106, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.266
+Time taken to evaluate again:2.469
+Time taken to evaluate again:3.612
+Merit: -8.49851533547583
+Group: 1 2 3 4 7 9 10 26 30 36 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-100, Lag_active_power-143, Lag_active_power-156, Remaining lags: 96, 100, 143, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.255
+Time taken to evaluate again:2.451
+Time taken to evaluate again:3.616
+Merit: -8.61714615227862
+Group: 1 2 3 4 7 9 10 26 30 37 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-100, Lag_active_power-144, Lag_active_power-156, Remaining lags: 96, 100, 144, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.258
+Time taken to evaluate again:2.487
+Time taken to evaluate again:3.649
+Merit: -8.60772723016391
+Group: 1 2 3 4 7 9 10 26 30 38 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-100, Lag_active_power-145, Lag_active_power-156, Remaining lags: 96, 100, 145, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.269
+Time taken to evaluate again:2.436
+Time taken to evaluate again:3.597
+Merit: -8.607348961088114
+Group: 1 2 3 4 7 9 10 26 30 39 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-100, Lag_active_power-146, Lag_active_power-156, Remaining lags: 96, 100, 146, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.315
+Time taken to evaluate again:2.536
+Time taken to evaluate again:3.718
+Merit: -8.596029972189946
+Group: 1 2 3 4 7 9 10 26 30 40 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-100, Lag_active_power-147, Lag_active_power-156, Remaining lags: 96, 100, 147, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.272
+Time taken to evaluate again:2.587
+Time taken to evaluate again:3.758
+Merit: -8.603713957725123
+Group: 1 2 3 4 7 9 10 26 30 41 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-100, Lag_active_power-148, Lag_active_power-156, Remaining lags: 96, 100, 148, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.268
+Time taken to evaluate again:2.479
+Time taken to evaluate again:3.623
+Merit: -8.598786994443621
+Group: 1 2 3 4 7 9 10 26 30 42 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-100, Lag_active_power-149, Lag_active_power-156, Remaining lags: 96, 100, 149, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.271
+Time taken to evaluate again:2.501
+Time taken to evaluate again:3.59
+Merit: -8.597115093306138
+Group: 1 2 3 4 7 9 10 26 30 43 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-100, Lag_active_power-150, Lag_active_power-156, Remaining lags: 96, 100, 150, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.26
+Time taken to evaluate again:2.529
+Time taken to evaluate again:3.696
+Merit: -8.586678706351085
+Group: 1 2 3 4 7 9 10 26 30 44 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-100, Lag_active_power-151, Lag_active_power-156, Remaining lags: 96, 100, 151, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.304
+Time taken to evaluate again:2.489
+Time taken to evaluate again:3.639
+Merit: -8.58321103255129
+Group: 1 2 3 4 7 9 10 26 30 45 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-100, Lag_active_power-152, Lag_active_power-156, Remaining lags: 96, 100, 152, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.28
+Time taken to evaluate again:2.502
+Time taken to evaluate again:3.634
+Merit: -8.575079768113216
+Group: 1 2 3 4 7 9 10 26 30 46 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-100, Lag_active_power-153, Lag_active_power-156, Remaining lags: 96, 100, 153, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.256
+Time taken to evaluate again:2.532
+Time taken to evaluate again:3.665
+Merit: -8.540109290705098
+Group: 1 2 3 4 7 9 10 26 30 47 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-100, Lag_active_power-154, Lag_active_power-156, Remaining lags: 96, 100, 154, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.262
+Time taken to evaluate again:2.435
+Time taken to evaluate again:3.508
+Merit: -8.515326649999125
+Group: 1 2 3 4 7 9 10 26 30 48 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-100, Lag_active_power-155, Lag_active_power-156, Remaining lags: 96, 100, 155, 156
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.212
+Time taken to evaluate again:2.35
+Time taken to evaluate again:3.492
+Merit: -8.501703125406808
+Group: 1 2 3 4 7 9 10 26 30 49 50 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-100, Lag_active_power-156, Lag_active_power-157, Remaining lags: 96, 100, 156, 157
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.291
+Time taken to evaluate again:2.494
+Time taken to evaluate again:3.656
+Merit: -8.489224038632896
+Group: 1 2 3 4 7 9 10 26 30 50 51 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-100, Lag_active_power-156, Lag_active_power-158, Remaining lags: 96, 100, 156, 158
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.276
+Time taken to evaluate again:2.447
+Time taken to evaluate again:3.607
+Merit: -8.45760484803094
+Group: 1 2 3 4 7 9 10 26 30 50 52 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-100, Lag_active_power-156, Lag_active_power-159, Remaining lags: 96, 100, 156, 159
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.196
+Time taken to evaluate again:2.344
+Time taken to evaluate again:3.443
+Merit: -8.468522856127047
+Group: 1 2 3 4 7 9 10 26 30 50 53 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-100, Lag_active_power-156, Lag_active_power-160, Remaining lags: 96, 100, 156, 160
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.287
+Time taken to evaluate again:2.503
+Time taken to evaluate again:3.649
+Merit: -8.437509048182436
+Group: 1 2 3 4 7 9 10 26 30 50 54 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-100, Lag_active_power-156, Lag_active_power-161, Remaining lags: 96, 100, 156, 161
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.267
+Time taken to evaluate again:2.512
+Time taken to evaluate again:3.653
+Merit: -8.418837180794311
+Group: 1 2 3 4 7 9 10 26 30 50 55 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-100, Lag_active_power-156, Lag_active_power-162, Remaining lags: 96, 100, 156, 162
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.304
+Time taken to evaluate again:2.518
+Time taken to evaluate again:3.736
+Merit: -8.383782719650506
+Group: 1 2 3 4 7 9 10 26 30 50 56 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-100, Lag_active_power-156, Lag_active_power-163, Remaining lags: 96, 100, 156, 163
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.297
+Time taken to evaluate again:2.504
+Time taken to evaluate again:3.675
+Merit: -8.376324134638452
+Group: 1 2 3 4 7 9 10 26 30 50 57 
+
+
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-100, Lag_active_power-156, Lag_active_power-164, Remaining lags: 96, 100, 156, 164
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.316
+Time taken to evaluate again:2.599
+Time taken to evaluate again:3.758
+Merit: -8.346450605757202
+Group: 1 2 3 4 7 9 10 26 30 50 58 
+
+
+Setting best merit to:-8.346450605757202
+local_time, active_power, temperature, monthOfYear, Weekend, quarterOfHour, Holiday, Lag_active_power-96, Lag_active_power-100, Lag_active_power-156, Lag_active_power-165, Remaining lags: 96, 100, 156, 165
+[temperature, monthOfYear, Weekend, quarterOfHour, Holiday]
+Time taken to evaluate again:1.316
+Time taken to evaluate again:2.509
+Time taken to evaluate again:3.683
