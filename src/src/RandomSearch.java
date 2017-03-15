@@ -200,7 +200,7 @@ public class RandomSearch{
      */
     public int[] search(Instances data, TSLagMaker tsLagMaker, List<String> overlayFields) throws Exception {
         m_totalEvals = 0;
-        int m_totalEvals = 0, m_maxEvals = 10;
+        int m_maxEvals = 10;
         PrintWriter errorLog = new PrintWriter(new FileWriter("RA/errorLog.txt", true));
         TSWrapper tsWrapper = new TSWrapper();
         tsWrapper.buildEvaluator(data);

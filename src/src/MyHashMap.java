@@ -79,7 +79,7 @@ public class MyHashMap extends HashMap{
         map = sortedMap;
         return sortedMap;
     }
-    public  String printHashMapFeatures( int featureNumber){
+    public  String printHashMapFeatures(int featureNumber){
         Set<Integer> mapKeys = this.map.keySet();
         String combinedFeatures = "";
         String justLags = "";
@@ -92,7 +92,6 @@ public class MyHashMap extends HashMap{
             j++;
         }
         System.out.println("HashMapFeatures: " + combinedFeatures);
-        System.out.println("Just lags: " + justLags.substring(0, justLags.length()-2));
         return justLags.substring(0, justLags.length()-2);
     }
 }

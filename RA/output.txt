@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 Start lag:1 endLag:48
 Start lag:49 endLag:96
 Start lag:97 endLag:144
 Start lag:145 endLag:192
+=======
+Start lag:1 endLag:348
+Start lag:349 endLag:696
+Start lag:697 endLag:1044
+Start lag:1045 endLag:1392
+>>>>>>> 115626e7b107ff8d5c8ab9b44adddd4efad753b9
 Running Thread1
 Running Thread2
 Running Thread3
@@ -20,6 +27,7 @@ Attribute Evaluator (supervised, Class (numeric): 2 active_power):
 	Equal influence nearest neighbours
 
 Ranked attributes:
+<<<<<<< HEAD
  0.01145    4 Lag_active_power-1
  0.00747    5 Lag_active_power-2
  0.00582    6 Lag_active_power-3
@@ -76,6 +84,62 @@ Ranked attributes:
 Selected attributes: 4,5,6,7,19,20,18,8,17,21,9,12,10,11,15,16,13,28,14,29,23,24,27,22,25,26,30,51,50,31,46,36,32,45,43,49,48,35,37,42,44,41,34,33,38,40,47,39,53,3,52,1 : 52
 
 Thread Thread1 exiting.
+=======
+ 0.1036    3 local_time-remapped
+ 0.088    50 Lag_active_power-1091
+ 0.0862   51 Lag_active_power-1092
+ 0.0861   52 local_time-remapped^2
+ 0.0853    4 Lag_active_power-1045
+ 0.0834   49 Lag_active_power-1090
+ 0.0818   48 Lag_active_power-1089
+ 0.0811    5 Lag_active_power-1046
+ 0.0801   47 Lag_active_power-1088
+ 0.0785   46 Lag_active_power-1087
+ 0.0765   45 Lag_active_power-1086
+ 0.0764    6 Lag_active_power-1047
+ 0.0731    7 Lag_active_power-1048
+ 0.0728   44 Lag_active_power-1085
+ 0.0724   43 Lag_active_power-1084
+ 0.0715   22 Lag_active_power-1063
+ 0.0715   40 Lag_active_power-1081
+ 0.0713   53 local_time-remapped^3
+ 0.0711   15 Lag_active_power-1056
+ 0.0705   30 Lag_active_power-1071
+ 0.0704   42 Lag_active_power-1083
+ 0.0704   11 Lag_active_power-1052
+ 0.0704   17 Lag_active_power-1058
+ 0.07     32 Lag_active_power-1073
+ 0.0699   38 Lag_active_power-1079
+ 0.0698   21 Lag_active_power-1062
+ 0.0696    8 Lag_active_power-1049
+ 0.0696   10 Lag_active_power-1051
+ 0.0696    9 Lag_active_power-1050
+ 0.0694   23 Lag_active_power-1064
+ 0.0693   31 Lag_active_power-1072
+ 0.0692   20 Lag_active_power-1061
+ 0.069    27 Lag_active_power-1068
+ 0.069    25 Lag_active_power-1066
+ 0.0688   41 Lag_active_power-1082
+ 0.0687   16 Lag_active_power-1057
+ 0.0687   33 Lag_active_power-1074
+ 0.0685   18 Lag_active_power-1059
+ 0.0684   24 Lag_active_power-1065
+ 0.0681   35 Lag_active_power-1076
+ 0.0679   28 Lag_active_power-1069
+ 0.0677   29 Lag_active_power-1070
+ 0.0675   37 Lag_active_power-1078
+ 0.0674   13 Lag_active_power-1054
+ 0.0674   39 Lag_active_power-1080
+ 0.0674   19 Lag_active_power-1060
+ 0.0674   12 Lag_active_power-1053
+ 0.0668   34 Lag_active_power-1075
+ 0.0665   26 Lag_active_power-1067
+ 0.0662   14 Lag_active_power-1055
+ 0.066    36 Lag_active_power-1077
+ 0         1 local_time
+
+Selected attributes: 3,50,51,52,4,49,48,5,47,46,45,6,7,44,43,22,40,53,15,30,42,11,17,32,38,21,8,10,9,23,31,20,27,25,41,16,33,18,24,35,28,29,37,13,39,19,12,34,26,14,36,1 : 52
+
 
 
 === Attribute Selection on all input data ===
@@ -90,6 +154,77 @@ Attribute Evaluator (supervised, Class (numeric): 2 active_power):
 	Equal influence nearest neighbours
 
 Ranked attributes:
+ 0.01143    4 Lag_active_power-1
+ 0.00695    5 Lag_active_power-2
+ 0.00527    6 Lag_active_power-3
+ 0.00465    7 Lag_active_power-4
+ 0.00443    8 Lag_active_power-5
+ 0.00429    9 Lag_active_power-6
+ 0.00424   10 Lag_active_power-7
+ 0.00404   53 local_time-remapped^3
+ 0.00398   11 Lag_active_power-8
+ 0.0039    12 Lag_active_power-9
+ 0.00369   13 Lag_active_power-10
+ 0.00367   14 Lag_active_power-11
+ 0.00358   19 Lag_active_power-16
+ 0.00356   52 local_time-remapped^2
+ 0.00353   15 Lag_active_power-12
+ 0.00353   18 Lag_active_power-15
+ 0.00346   17 Lag_active_power-14
+ 0.00342   16 Lag_active_power-13
+ 0.0034    20 Lag_active_power-17
+ 0.00339    3 local_time-remapped
+ 0.00326   21 Lag_active_power-18
+ 0.00324   23 Lag_active_power-20
+ 0.00319   22 Lag_active_power-19
+ 0.00314   24 Lag_active_power-21
+ 0.00298   51 Lag_active_power-48
+ 0.00294   25 Lag_active_power-22
+ 0.00292   28 Lag_active_power-25
+ 0.00286   29 Lag_active_power-26
+ 0.00282   26 Lag_active_power-23
+ 0.0028    27 Lag_active_power-24
+ 0.00278   50 Lag_active_power-47
+ 0.00263   49 Lag_active_power-46
+ 0.0026    48 Lag_active_power-45
+ 0.00259   45 Lag_active_power-42
+ 0.00257   46 Lag_active_power-43
+ 0.00253   30 Lag_active_power-27
+ 0.0025    36 Lag_active_power-33
+ 0.00248   31 Lag_active_power-28
+ 0.00246   41 Lag_active_power-38
+ 0.00243   47 Lag_active_power-44
+ 0.00242   35 Lag_active_power-32
+ 0.00242   44 Lag_active_power-41
+ 0.00241   42 Lag_active_power-39
+ 0.00236   43 Lag_active_power-40
+ 0.00234   32 Lag_active_power-29
+ 0.00234   40 Lag_active_power-37
+ 0.00233   38 Lag_active_power-35
+ 0.0023    37 Lag_active_power-34
+ 0.00228   39 Lag_active_power-36
+ 0.00227   34 Lag_active_power-31
+ 0.00227   33 Lag_active_power-30
+ 0          1 local_time
+
+Selected attributes: 4,5,6,7,8,9,10,53,11,12,13,14,19,52,15,18,17,16,20,3,21,23,22,24,51,25,28,29,26,27,50,49,48,45,46,30,36,31,41,47,35,44,42,43,32,40,38,37,39,34,33,1 : 52
+
+>>>>>>> 115626e7b107ff8d5c8ab9b44adddd4efad753b9
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+<<<<<<< HEAD
  0.0278    3 local_time-remapped
  0.024    51 Lag_active_power-192
  0.0231   50 Lag_active_power-191
@@ -146,6 +281,62 @@ Ranked attributes:
 Selected attributes: 3,51,50,49,48,47,46,45,44,43,42,41,40,52,39,38,37,36,35,34,33,32,31,4,30,28,29,27,23,26,24,22,5,25,21,6,20,17,19,18,7,16,53,15,14,12,8,13,9,11,10,1 : 52
 
 Thread Thread4 exiting.
+=======
+ 0.033     3 local_time-remapped
+ 0.0259   52 local_time-remapped^2
+ 0.0238   51 Lag_active_power-396
+ 0.0233   50 Lag_active_power-395
+ 0.0227   49 Lag_active_power-394
+ 0.0226   48 Lag_active_power-393
+ 0.0225   27 Lag_active_power-372
+ 0.0225   26 Lag_active_power-371
+ 0.0223   47 Lag_active_power-392
+ 0.0217   25 Lag_active_power-370
+ 0.0217   28 Lag_active_power-373
+ 0.0214   24 Lag_active_power-369
+ 0.0212   46 Lag_active_power-391
+ 0.0211   41 Lag_active_power-386
+ 0.0209   40 Lag_active_power-385
+ 0.0208   43 Lag_active_power-388
+ 0.0208   38 Lag_active_power-383
+ 0.0208   23 Lag_active_power-368
+ 0.0207   37 Lag_active_power-382
+ 0.0206   42 Lag_active_power-387
+ 0.0205   39 Lag_active_power-384
+ 0.0205   45 Lag_active_power-390
+ 0.0205   44 Lag_active_power-389
+ 0.0203   21 Lag_active_power-366
+ 0.0203   29 Lag_active_power-374
+ 0.0203   53 local_time-remapped^3
+ 0.0202   22 Lag_active_power-367
+ 0.0202   20 Lag_active_power-365
+ 0.02      4 Lag_active_power-349
+ 0.0199   36 Lag_active_power-381
+ 0.0198   31 Lag_active_power-376
+ 0.0197   35 Lag_active_power-380
+ 0.0197   34 Lag_active_power-379
+ 0.0196   33 Lag_active_power-378
+ 0.0196   19 Lag_active_power-364
+ 0.0195   32 Lag_active_power-377
+ 0.0195   30 Lag_active_power-375
+ 0.0191    5 Lag_active_power-350
+ 0.019     6 Lag_active_power-351
+ 0.0189   18 Lag_active_power-363
+ 0.0185   17 Lag_active_power-362
+ 0.0181    7 Lag_active_power-352
+ 0.0178   16 Lag_active_power-361
+ 0.0173   14 Lag_active_power-359
+ 0.0173    9 Lag_active_power-354
+ 0.0173    8 Lag_active_power-353
+ 0.0173   13 Lag_active_power-358
+ 0.0171   15 Lag_active_power-360
+ 0.0171   10 Lag_active_power-355
+ 0.0169   12 Lag_active_power-357
+ 0.0167   11 Lag_active_power-356
+ 0         1 local_time
+
+Selected attributes: 3,52,51,50,49,48,27,26,47,25,28,24,46,41,40,43,38,23,37,42,39,45,44,21,29,53,22,20,4,36,31,35,34,33,19,32,30,5,6,18,17,7,16,14,9,8,13,15,10,12,11,1 : 52
+
 
 
 === Attribute Selection on all input data ===
@@ -160,6 +351,974 @@ Attribute Evaluator (supervised, Class (numeric): 2 active_power):
 	Equal influence nearest neighbours
 
 Ranked attributes:
+ 0.02188    3 local_time-remapped
+ 0.01654   52 local_time-remapped^2
+ 0.01564    4 Lag_active_power-697
+ 0.01483   51 Lag_active_power-744
+ 0.01404    5 Lag_active_power-698
+ 0.01384   50 Lag_active_power-743
+ 0.01351   49 Lag_active_power-742
+ 0.01322   53 local_time-remapped^3
+ 0.01308    6 Lag_active_power-699
+ 0.0128    48 Lag_active_power-741
+ 0.01268   47 Lag_active_power-740
+ 0.01249    7 Lag_active_power-700
+ 0.01221    8 Lag_active_power-701
+ 0.01212   46 Lag_active_power-739
+ 0.01184   11 Lag_active_power-704
+ 0.0116    10 Lag_active_power-703
+ 0.01154    9 Lag_active_power-702
+ 0.01133   45 Lag_active_power-738
+ 0.01126   12 Lag_active_power-705
+ 0.01112   41 Lag_active_power-734
+ 0.01109   44 Lag_active_power-737
+ 0.01105   43 Lag_active_power-736
+ 0.01097   40 Lag_active_power-733
+ 0.01066   13 Lag_active_power-706
+ 0.01066   42 Lag_active_power-735
+ 0.01065   22 Lag_active_power-715
+ 0.0105    39 Lag_active_power-732
+ 0.0105    23 Lag_active_power-716
+ 0.01048   25 Lag_active_power-718
+ 0.01046   38 Lag_active_power-731
+ 0.01045   16 Lag_active_power-709
+ 0.01032   15 Lag_active_power-708
+ 0.0103    14 Lag_active_power-707
+ 0.01029   24 Lag_active_power-717
+ 0.01023   36 Lag_active_power-729
+ 0.01015   21 Lag_active_power-714
+ 0.01014   35 Lag_active_power-728
+ 0.01013   18 Lag_active_power-711
+ 0.01007   37 Lag_active_power-730
+ 0.01006   34 Lag_active_power-727
+ 0.01006   20 Lag_active_power-713
+ 0.01004   33 Lag_active_power-726
+ 0.01002   19 Lag_active_power-712
+ 0.01      31 Lag_active_power-724
+ 0.00997   26 Lag_active_power-719
+ 0.00994   32 Lag_active_power-725
+ 0.00993   17 Lag_active_power-710
+ 0.00985   30 Lag_active_power-723
+ 0.00973   27 Lag_active_power-720
+ 0.00968   29 Lag_active_power-722
+ 0.00965   28 Lag_active_power-721
+ 0          1 local_time
+
+Selected attributes: 3,52,4,51,5,50,49,53,6,48,47,7,8,46,11,10,9,45,12,41,44,43,40,13,42,22,39,23,25,38,16,15,14,24,36,21,35,18,37,34,20,33,19,31,26,32,17,30,27,29,28,1 : 52
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.1489    3 local_time-remapped
+ 0.1378   50 Lag_active_power-791
+ 0.1378   51 Lag_active_power-792
+ 0.1365    4 Lag_active_power-745
+ 0.1356   49 Lag_active_power-790
+ 0.1323   48 Lag_active_power-789
+ 0.1297    5 Lag_active_power-746
+ 0.1284   47 Lag_active_power-788
+ 0.1253   46 Lag_active_power-787
+ 0.1239   45 Lag_active_power-786
+ 0.1217    6 Lag_active_power-747
+ 0.1214   44 Lag_active_power-785
+ 0.1197   43 Lag_active_power-784
+ 0.1186   40 Lag_active_power-781
+ 0.1181   41 Lag_active_power-782
+ 0.1175   42 Lag_active_power-783
+ 0.1171   22 Lag_active_power-763
+ 0.1166   38 Lag_active_power-779
+ 0.1155    7 Lag_active_power-748
+ 0.1155   39 Lag_active_power-780
+ 0.1152   23 Lag_active_power-764
+ 0.1143   37 Lag_active_power-778
+ 0.1139   36 Lag_active_power-777
+ 0.1131   11 Lag_active_power-752
+ 0.1129    8 Lag_active_power-749
+ 0.1128   24 Lag_active_power-765
+ 0.1127   21 Lag_active_power-762
+ 0.1126   25 Lag_active_power-766
+ 0.1125   12 Lag_active_power-753
+ 0.1122   35 Lag_active_power-776
+ 0.1121   33 Lag_active_power-774
+ 0.1121   10 Lag_active_power-751
+ 0.112     9 Lag_active_power-750
+ 0.1118   26 Lag_active_power-767
+ 0.1116   13 Lag_active_power-754
+ 0.1114   27 Lag_active_power-768
+ 0.1113   32 Lag_active_power-773
+ 0.1111   16 Lag_active_power-757
+ 0.1111   34 Lag_active_power-775
+ 0.1107   15 Lag_active_power-756
+ 0.1106   52 local_time-remapped^2
+ 0.1105   17 Lag_active_power-758
+ 0.1104   31 Lag_active_power-772
+ 0.1098   20 Lag_active_power-761
+ 0.1095   14 Lag_active_power-755
+ 0.1094   30 Lag_active_power-771
+ 0.1084   18 Lag_active_power-759
+ 0.108    19 Lag_active_power-760
+ 0.1079   29 Lag_active_power-770
+ 0.1078   28 Lag_active_power-769
+ 0.083    53 local_time-remapped^3
+ 0         1 local_time
+
+Selected attributes: 3,50,51,4,49,48,5,47,46,45,6,44,43,40,41,42,22,38,7,39,23,37,36,11,8,24,21,25,12,35,33,10,9,26,13,27,32,16,34,15,52,17,31,20,14,30,18,19,29,28,53,1 : 52
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.02042    3 local_time-remapped
+ 0.01731   52 local_time-remapped^2
+ 0.01469   53 local_time-remapped^3
+ 0.01305   51 Lag_active_power-1140
+ 0.01261   50 Lag_active_power-1139
+ 0.01178   49 Lag_active_power-1138
+ 0.01151   48 Lag_active_power-1137
+ 0.01113   47 Lag_active_power-1136
+ 0.01086   46 Lag_active_power-1135
+ 0.01058   45 Lag_active_power-1134
+ 0.01022   44 Lag_active_power-1133
+ 0.00995   43 Lag_active_power-1132
+ 0.00955   42 Lag_active_power-1131
+ 0.00932   40 Lag_active_power-1129
+ 0.00927   41 Lag_active_power-1130
+ 0.00879   38 Lag_active_power-1127
+ 0.00877   39 Lag_active_power-1128
+ 0.00842   37 Lag_active_power-1126
+ 0.00817   36 Lag_active_power-1125
+ 0.00816   35 Lag_active_power-1124
+ 0.00781   34 Lag_active_power-1123
+ 0.00771   33 Lag_active_power-1122
+ 0.00746    4 Lag_active_power-1093
+ 0.00742   32 Lag_active_power-1121
+ 0.00708   31 Lag_active_power-1120
+ 0.00695   30 Lag_active_power-1119
+ 0.00674    5 Lag_active_power-1094
+ 0.00651   29 Lag_active_power-1118
+ 0.00638   28 Lag_active_power-1117
+ 0.0063    27 Lag_active_power-1116
+ 0.00605    6 Lag_active_power-1095
+ 0.00597   25 Lag_active_power-1114
+ 0.00589   26 Lag_active_power-1115
+ 0.00576   24 Lag_active_power-1113
+ 0.00574   22 Lag_active_power-1111
+ 0.00572   23 Lag_active_power-1112
+ 0.00561    7 Lag_active_power-1096
+ 0.0055    21 Lag_active_power-1110
+ 0.00526   20 Lag_active_power-1109
+ 0.00525   15 Lag_active_power-1104
+ 0.00524    8 Lag_active_power-1097
+ 0.00522   11 Lag_active_power-1100
+ 0.00514    9 Lag_active_power-1098
+ 0.00513   17 Lag_active_power-1106
+ 0.00512   13 Lag_active_power-1102
+ 0.00511   12 Lag_active_power-1101
+ 0.00502   18 Lag_active_power-1107
+ 0.005     16 Lag_active_power-1105
+ 0.00499   10 Lag_active_power-1099
+ 0.00492   14 Lag_active_power-1103
+ 0.00491   19 Lag_active_power-1108
+ 0          1 local_time
+
+Selected attributes: 3,52,53,51,50,49,48,47,46,45,44,43,42,40,41,38,39,37,36,35,34,33,4,32,31,30,5,29,28,27,6,25,26,24,22,23,7,21,20,15,8,11,9,17,13,12,18,16,10,14,19,1 : 52
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.0153     3 local_time-remapped
+ 0.0119    52 local_time-remapped^2
+ 0.01021    4 Lag_active_power-397
+ 0.00986   53 local_time-remapped^3
+ 0.00916    5 Lag_active_power-398
+ 0.00853   51 Lag_active_power-444
+ 0.00837    6 Lag_active_power-399
+ 0.00805   50 Lag_active_power-443
+ 0.00779    7 Lag_active_power-400
+ 0.00757   49 Lag_active_power-442
+ 0.00747    8 Lag_active_power-401
+ 0.00733    9 Lag_active_power-402
+ 0.00728   48 Lag_active_power-441
+ 0.0071    10 Lag_active_power-403
+ 0.00702   23 Lag_active_power-416
+ 0.00698   47 Lag_active_power-440
+ 0.00698   11 Lag_active_power-404
+ 0.00689   12 Lag_active_power-405
+ 0.00688   24 Lag_active_power-417
+ 0.00687   22 Lag_active_power-415
+ 0.00682   13 Lag_active_power-406
+ 0.00678   14 Lag_active_power-407
+ 0.00677   20 Lag_active_power-413
+ 0.00676   21 Lag_active_power-414
+ 0.00673   46 Lag_active_power-439
+ 0.00672   45 Lag_active_power-438
+ 0.00669   25 Lag_active_power-418
+ 0.00668   26 Lag_active_power-419
+ 0.00665   44 Lag_active_power-437
+ 0.00664   16 Lag_active_power-409
+ 0.00661   19 Lag_active_power-412
+ 0.00658   43 Lag_active_power-436
+ 0.00657   17 Lag_active_power-410
+ 0.00655   42 Lag_active_power-435
+ 0.00655   15 Lag_active_power-408
+ 0.00651   41 Lag_active_power-434
+ 0.00648   18 Lag_active_power-411
+ 0.00646   27 Lag_active_power-420
+ 0.00645   37 Lag_active_power-430
+ 0.00643   36 Lag_active_power-429
+ 0.00639   38 Lag_active_power-431
+ 0.00636   39 Lag_active_power-432
+ 0.00635   35 Lag_active_power-428
+ 0.00633   40 Lag_active_power-433
+ 0.0063    28 Lag_active_power-421
+ 0.00623   34 Lag_active_power-427
+ 0.00621   30 Lag_active_power-423
+ 0.00617   29 Lag_active_power-422
+ 0.00614   32 Lag_active_power-425
+ 0.00612   33 Lag_active_power-426
+ 0.00611   31 Lag_active_power-424
+ 0          1 local_time
+
+Selected attributes: 3,52,4,53,5,51,6,50,7,49,8,9,48,10,23,47,11,12,24,22,13,14,20,21,46,45,25,26,44,16,19,43,17,42,15,41,18,27,37,36,38,39,35,40,28,34,30,29,32,33,31,1 : 52
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.01586    3 local_time-remapped
+ 0.01344   52 local_time-remapped^2
+ 0.01214   51 Lag_active_power-96
+ 0.01146   53 local_time-remapped^3
+ 0.01129   50 Lag_active_power-95
+ 0.01055   49 Lag_active_power-94
+ 0.01011   48 Lag_active_power-93
+ 0.00966   47 Lag_active_power-92
+ 0.00925   46 Lag_active_power-91
+ 0.00903   44 Lag_active_power-89
+ 0.00902   43 Lag_active_power-88
+ 0.00901   45 Lag_active_power-90
+ 0.00886   42 Lag_active_power-87
+ 0.00871   41 Lag_active_power-86
+ 0.00858   40 Lag_active_power-85
+ 0.00839   39 Lag_active_power-84
+ 0.00831   38 Lag_active_power-83
+ 0.00825   37 Lag_active_power-82
+ 0.008     35 Lag_active_power-80
+ 0.00793   36 Lag_active_power-81
+ 0.00787   27 Lag_active_power-72
+ 0.00779   28 Lag_active_power-73
+ 0.00776   31 Lag_active_power-76
+ 0.00775   26 Lag_active_power-71
+ 0.00774   29 Lag_active_power-74
+ 0.00772   32 Lag_active_power-77
+ 0.00772   33 Lag_active_power-78
+ 0.0077    34 Lag_active_power-79
+ 0.00764   30 Lag_active_power-75
+ 0.00761   25 Lag_active_power-70
+ 0.00759   24 Lag_active_power-69
+ 0.00733   23 Lag_active_power-68
+ 0.00699   22 Lag_active_power-67
+ 0.00677   21 Lag_active_power-66
+ 0.00646   20 Lag_active_power-65
+ 0.00629   19 Lag_active_power-64
+ 0.00624    4 Lag_active_power-49
+ 0.00613   18 Lag_active_power-63
+ 0.0059     5 Lag_active_power-50
+ 0.00589   17 Lag_active_power-62
+ 0.00588   16 Lag_active_power-61
+ 0.00583   14 Lag_active_power-59
+ 0.00581   15 Lag_active_power-60
+ 0.00569    6 Lag_active_power-51
+ 0.00555   13 Lag_active_power-58
+ 0.00544    7 Lag_active_power-52
+ 0.00537   12 Lag_active_power-57
+ 0.00524    8 Lag_active_power-53
+ 0.0052     9 Lag_active_power-54
+ 0.0052    10 Lag_active_power-55
+ 0.00518   11 Lag_active_power-56
+ 0          1 local_time
+
+Selected attributes: 3,52,51,53,50,49,48,47,46,44,43,45,42,41,40,39,38,37,35,36,27,28,31,26,29,32,33,34,30,25,24,23,22,21,20,19,4,18,5,17,16,14,15,6,13,7,12,8,9,10,11,1 : 52
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.01974    3 local_time-remapped
+ 0.01623   52 local_time-remapped^2
+ 0.01366   53 local_time-remapped^3
+ 0.01149    4 Lag_active_power-793
+ 0.01142   51 Lag_active_power-840
+ 0.01055   50 Lag_active_power-839
+ 0.01027   49 Lag_active_power-838
+ 0.01017    5 Lag_active_power-794
+ 0.0096    48 Lag_active_power-837
+ 0.00941   47 Lag_active_power-836
+ 0.00936    6 Lag_active_power-795
+ 0.0089    46 Lag_active_power-835
+ 0.00871    7 Lag_active_power-796
+ 0.00863    8 Lag_active_power-797
+ 0.00841   45 Lag_active_power-834
+ 0.00828   11 Lag_active_power-800
+ 0.00823   44 Lag_active_power-833
+ 0.00819    9 Lag_active_power-798
+ 0.00817   43 Lag_active_power-832
+ 0.00816   10 Lag_active_power-799
+ 0.00785   41 Lag_active_power-830
+ 0.00784   12 Lag_active_power-801
+ 0.00769   42 Lag_active_power-831
+ 0.00763   40 Lag_active_power-829
+ 0.00757   16 Lag_active_power-805
+ 0.00752   13 Lag_active_power-802
+ 0.00743   22 Lag_active_power-811
+ 0.00742   15 Lag_active_power-804
+ 0.00738   38 Lag_active_power-827
+ 0.00737   39 Lag_active_power-828
+ 0.00724   14 Lag_active_power-803
+ 0.00719   36 Lag_active_power-825
+ 0.00716   21 Lag_active_power-810
+ 0.00715   37 Lag_active_power-826
+ 0.0071    31 Lag_active_power-820
+ 0.00705   33 Lag_active_power-822
+ 0.00705   32 Lag_active_power-821
+ 0.00702   25 Lag_active_power-814
+ 0.007     18 Lag_active_power-807
+ 0.007     17 Lag_active_power-806
+ 0.007     23 Lag_active_power-812
+ 0.00697   34 Lag_active_power-823
+ 0.00692   35 Lag_active_power-824
+ 0.00691   20 Lag_active_power-809
+ 0.00691   30 Lag_active_power-819
+ 0.0069    26 Lag_active_power-815
+ 0.00689   19 Lag_active_power-808
+ 0.00668   24 Lag_active_power-813
+ 0.00667   29 Lag_active_power-818
+ 0.00665   27 Lag_active_power-816
+ 0.00654   28 Lag_active_power-817
+ 0          1 local_time
+
+Selected attributes: 3,52,53,4,51,50,49,5,48,47,6,46,7,8,45,11,44,9,43,10,41,12,42,40,16,13,22,15,38,39,14,36,21,37,31,33,32,25,18,17,23,34,35,20,30,26,19,24,29,27,28,1 : 52
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.0557    3 local_time-remapped
+ 0.0485   52 local_time-remapped^2
+ 0.0413   53 local_time-remapped^3
+ 0.0386   51 Lag_active_power-492
+ 0.0378   50 Lag_active_power-491
+ 0.0362   49 Lag_active_power-490
+ 0.0361    4 Lag_active_power-445
+ 0.0352   48 Lag_active_power-489
+ 0.0341    5 Lag_active_power-446
+ 0.034    47 Lag_active_power-488
+ 0.0335   46 Lag_active_power-487
+ 0.0329   45 Lag_active_power-486
+ 0.032    44 Lag_active_power-485
+ 0.032     6 Lag_active_power-447
+ 0.0315   22 Lag_active_power-463
+ 0.0315   23 Lag_active_power-464
+ 0.0313   43 Lag_active_power-484
+ 0.0312   33 Lag_active_power-474
+ 0.031    32 Lag_active_power-473
+ 0.0309   38 Lag_active_power-479
+ 0.0309   31 Lag_active_power-472
+ 0.0307   24 Lag_active_power-465
+ 0.0307   40 Lag_active_power-481
+ 0.0306   39 Lag_active_power-480
+ 0.0306   21 Lag_active_power-462
+ 0.0306   35 Lag_active_power-476
+ 0.0306   41 Lag_active_power-482
+ 0.0305   34 Lag_active_power-475
+ 0.0305   30 Lag_active_power-471
+ 0.0305   28 Lag_active_power-469
+ 0.0304   25 Lag_active_power-466
+ 0.0303   36 Lag_active_power-477
+ 0.0302   42 Lag_active_power-483
+ 0.03     27 Lag_active_power-468
+ 0.03     29 Lag_active_power-470
+ 0.0299   37 Lag_active_power-478
+ 0.0299    7 Lag_active_power-448
+ 0.0298   26 Lag_active_power-467
+ 0.0296   18 Lag_active_power-459
+ 0.0295   20 Lag_active_power-461
+ 0.0294   17 Lag_active_power-458
+ 0.0292   16 Lag_active_power-457
+ 0.0289   19 Lag_active_power-460
+ 0.0287   15 Lag_active_power-456
+ 0.0284    8 Lag_active_power-449
+ 0.0277   14 Lag_active_power-455
+ 0.0277    9 Lag_active_power-450
+ 0.0277   13 Lag_active_power-454
+ 0.0276   12 Lag_active_power-453
+ 0.0276   11 Lag_active_power-452
+ 0.0276   10 Lag_active_power-451
+ 0         1 local_time
+
+Selected attributes: 3,52,53,51,50,49,4,48,5,47,46,45,44,6,22,23,43,33,32,38,31,24,40,39,21,35,41,34,30,28,25,36,42,27,29,37,7,26,18,20,17,16,19,15,8,14,9,13,12,11,10,1 : 52
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.0989    3 local_time-remapped
+ 0.093     4 Lag_active_power-1141
+ 0.0909   50 Lag_active_power-1187
+ 0.0905   51 Lag_active_power-1188
+ 0.0896    5 Lag_active_power-1142
+ 0.0876   49 Lag_active_power-1186
+ 0.0855   48 Lag_active_power-1185
+ 0.0851    6 Lag_active_power-1143
+ 0.0838   47 Lag_active_power-1184
+ 0.0827   46 Lag_active_power-1183
+ 0.0811   45 Lag_active_power-1182
+ 0.0811    7 Lag_active_power-1144
+ 0.0776   40 Lag_active_power-1177
+ 0.0774   11 Lag_active_power-1148
+ 0.0774   23 Lag_active_power-1160
+ 0.0772   41 Lag_active_power-1178
+ 0.077     8 Lag_active_power-1145
+ 0.0766   10 Lag_active_power-1147
+ 0.0765   42 Lag_active_power-1179
+ 0.0764   44 Lag_active_power-1181
+ 0.0762    9 Lag_active_power-1146
+ 0.0762   24 Lag_active_power-1161
+ 0.076    22 Lag_active_power-1159
+ 0.0758   52 local_time-remapped^2
+ 0.0756   43 Lag_active_power-1180
+ 0.0755   17 Lag_active_power-1154
+ 0.0752   12 Lag_active_power-1149
+ 0.0751   37 Lag_active_power-1174
+ 0.075    38 Lag_active_power-1175
+ 0.0749   39 Lag_active_power-1176
+ 0.0745   32 Lag_active_power-1169
+ 0.0742   35 Lag_active_power-1172
+ 0.0742   33 Lag_active_power-1170
+ 0.0741   34 Lag_active_power-1171
+ 0.0739   27 Lag_active_power-1164
+ 0.0739   13 Lag_active_power-1150
+ 0.0733   15 Lag_active_power-1152
+ 0.0731   18 Lag_active_power-1155
+ 0.0729   36 Lag_active_power-1173
+ 0.0728   19 Lag_active_power-1156
+ 0.0728   30 Lag_active_power-1167
+ 0.0726   31 Lag_active_power-1168
+ 0.0725   14 Lag_active_power-1151
+ 0.072    25 Lag_active_power-1162
+ 0.0718   21 Lag_active_power-1158
+ 0.0718   16 Lag_active_power-1153
+ 0.0716   20 Lag_active_power-1157
+ 0.0715   28 Lag_active_power-1165
+ 0.0715   29 Lag_active_power-1166
+ 0.0709   26 Lag_active_power-1163
+ 0.058    53 local_time-remapped^3
+ 0         1 local_time
+
+Selected attributes: 3,4,50,51,5,49,48,6,47,46,45,7,40,11,23,41,8,10,42,44,9,24,22,52,43,17,12,37,38,39,32,35,33,34,27,13,15,18,36,19,30,31,14,25,21,16,20,28,29,26,53,1 : 52
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.01746    3 local_time-remapped
+ 0.01316   52 local_time-remapped^2
+ 0.01233    4 Lag_active_power-97
+ 0.01102    5 Lag_active_power-98
+ 0.01054   53 local_time-remapped^3
+ 0.01034    6 Lag_active_power-99
+ 0.01008   51 Lag_active_power-144
+ 0.00975   50 Lag_active_power-143
+ 0.00971    7 Lag_active_power-100
+ 0.00946    8 Lag_active_power-101
+ 0.00942   49 Lag_active_power-142
+ 0.00937   23 Lag_active_power-116
+ 0.00935   24 Lag_active_power-117
+ 0.00929   26 Lag_active_power-119
+ 0.00929    9 Lag_active_power-102
+ 0.00928   27 Lag_active_power-120
+ 0.00926   48 Lag_active_power-141
+ 0.00921   10 Lag_active_power-103
+ 0.00918   22 Lag_active_power-115
+ 0.00915   25 Lag_active_power-118
+ 0.00897   19 Lag_active_power-112
+ 0.00897   11 Lag_active_power-104
+ 0.00896   47 Lag_active_power-140
+ 0.00896   20 Lag_active_power-113
+ 0.00895   21 Lag_active_power-114
+ 0.00894   14 Lag_active_power-107
+ 0.00892   12 Lag_active_power-105
+ 0.0089    13 Lag_active_power-106
+ 0.00889   28 Lag_active_power-121
+ 0.00885   18 Lag_active_power-111
+ 0.00883   17 Lag_active_power-110
+ 0.00878   16 Lag_active_power-109
+ 0.00861   15 Lag_active_power-108
+ 0.00858   29 Lag_active_power-122
+ 0.00853   38 Lag_active_power-131
+ 0.00852   37 Lag_active_power-130
+ 0.00851   46 Lag_active_power-139
+ 0.00842   40 Lag_active_power-133
+ 0.00841   39 Lag_active_power-132
+ 0.00841   41 Lag_active_power-134
+ 0.00835   31 Lag_active_power-124
+ 0.00833   35 Lag_active_power-128
+ 0.00833   36 Lag_active_power-129
+ 0.00828   30 Lag_active_power-123
+ 0.00826   33 Lag_active_power-126
+ 0.00824   34 Lag_active_power-127
+ 0.0082    32 Lag_active_power-125
+ 0.00815   43 Lag_active_power-136
+ 0.00814   42 Lag_active_power-135
+ 0.00811   45 Lag_active_power-138
+ 0.00806   44 Lag_active_power-137
+ 0          1 local_time
+
+Selected attributes: 3,52,4,5,53,6,51,50,7,8,49,23,24,26,9,27,48,10,22,25,19,11,47,20,21,14,12,13,28,18,17,16,15,29,38,37,46,40,39,41,31,35,36,30,33,34,32,43,42,45,44,1 : 52
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.02103    3 local_time-remapped
+ 0.01704   52 local_time-remapped^2
+ 0.01446   51 Lag_active_power-192
+ 0.01411   53 local_time-remapped^3
+ 0.0137    50 Lag_active_power-191
+ 0.013     49 Lag_active_power-190
+ 0.01261   48 Lag_active_power-189
+ 0.01206   47 Lag_active_power-188
+ 0.01157   46 Lag_active_power-187
+ 0.01122   45 Lag_active_power-186
+ 0.0111    41 Lag_active_power-182
+ 0.01108   39 Lag_active_power-180
+ 0.01106   40 Lag_active_power-181
+ 0.011     43 Lag_active_power-184
+ 0.01095   42 Lag_active_power-183
+ 0.01095   44 Lag_active_power-185
+ 0.0109    37 Lag_active_power-178
+ 0.01081   27 Lag_active_power-168
+ 0.01077   38 Lag_active_power-179
+ 0.01055   28 Lag_active_power-169
+ 0.01054   26 Lag_active_power-167
+ 0.01053   24 Lag_active_power-165
+ 0.01042   29 Lag_active_power-170
+ 0.0104    25 Lag_active_power-166
+ 0.01039   36 Lag_active_power-177
+ 0.01034   23 Lag_active_power-164
+ 0.01025   35 Lag_active_power-176
+ 0.01019   30 Lag_active_power-171
+ 0.01013   31 Lag_active_power-172
+ 0.00992   34 Lag_active_power-175
+ 0.00983   32 Lag_active_power-173
+ 0.00982   33 Lag_active_power-174
+ 0.00976    4 Lag_active_power-145
+ 0.00971   22 Lag_active_power-163
+ 0.00929   21 Lag_active_power-162
+ 0.00922    5 Lag_active_power-146
+ 0.009     20 Lag_active_power-161
+ 0.00888    6 Lag_active_power-147
+ 0.00861   19 Lag_active_power-160
+ 0.00846    7 Lag_active_power-148
+ 0.00839   18 Lag_active_power-159
+ 0.00829   14 Lag_active_power-155
+ 0.00815   17 Lag_active_power-158
+ 0.00811   16 Lag_active_power-157
+ 0.00807    8 Lag_active_power-149
+ 0.00797   15 Lag_active_power-156
+ 0.00792   13 Lag_active_power-154
+ 0.00788    9 Lag_active_power-150
+ 0.00775   12 Lag_active_power-153
+ 0.00766   10 Lag_active_power-151
+ 0.00741   11 Lag_active_power-152
+ 0          1 local_time
+
+Selected attributes: 3,52,51,53,50,49,48,47,46,45,41,39,40,43,42,44,37,27,38,28,26,24,29,25,36,23,35,30,31,34,32,33,4,22,21,5,20,6,19,7,18,14,17,16,8,15,13,9,12,10,11,1 : 52
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.171    3 local_time-remapped
+ 0.157   50 Lag_active_power-887
+ 0.157   51 Lag_active_power-888
+ 0.154   49 Lag_active_power-886
+ 0.153    4 Lag_active_power-841
+ 0.15    48 Lag_active_power-885
+ 0.146    5 Lag_active_power-842
+ 0.145   47 Lag_active_power-884
+ 0.141   46 Lag_active_power-883
+ 0.14    45 Lag_active_power-882
+ 0.137   44 Lag_active_power-881
+ 0.136    6 Lag_active_power-843
+ 0.134   43 Lag_active_power-880
+ 0.133   40 Lag_active_power-877
+ 0.133   22 Lag_active_power-859
+ 0.132   41 Lag_active_power-878
+ 0.132   52 local_time-remapped^2
+ 0.132   42 Lag_active_power-879
+ 0.131   38 Lag_active_power-875
+ 0.131   23 Lag_active_power-860
+ 0.13    39 Lag_active_power-876
+ 0.129    7 Lag_active_power-844
+ 0.128   37 Lag_active_power-874
+ 0.128   21 Lag_active_power-858
+ 0.128   36 Lag_active_power-873
+ 0.127   24 Lag_active_power-861
+ 0.127   35 Lag_active_power-872
+ 0.126   11 Lag_active_power-848
+ 0.126   33 Lag_active_power-870
+ 0.126   25 Lag_active_power-862
+ 0.126    8 Lag_active_power-845
+ 0.126   32 Lag_active_power-869
+ 0.126   26 Lag_active_power-863
+ 0.126   34 Lag_active_power-871
+ 0.126   10 Lag_active_power-847
+ 0.126   12 Lag_active_power-849
+ 0.126    9 Lag_active_power-846
+ 0.126   27 Lag_active_power-864
+ 0.126   16 Lag_active_power-853
+ 0.125   13 Lag_active_power-850
+ 0.125   17 Lag_active_power-854
+ 0.125   15 Lag_active_power-852
+ 0.125   31 Lag_active_power-868
+ 0.124   20 Lag_active_power-857
+ 0.124   30 Lag_active_power-867
+ 0.123   14 Lag_active_power-851
+ 0.122   18 Lag_active_power-855
+ 0.122   29 Lag_active_power-866
+ 0.122   28 Lag_active_power-865
+ 0.121   19 Lag_active_power-856
+ 0.102   53 local_time-remapped^3
+ 0        1 local_time
+
+Selected attributes: 3,50,51,49,4,48,5,47,46,45,44,6,43,40,22,41,52,42,38,23,39,7,37,21,36,24,35,11,33,25,8,32,26,34,10,12,9,27,16,13,17,15,31,20,30,14,18,29,28,19,53,1 : 52
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.01625    3 local_time-remapped
+ 0.01304   52 local_time-remapped^2
+ 0.01119   51 Lag_active_power-1236
+ 0.01051   53 local_time-remapped^3
+ 0.01032   50 Lag_active_power-1235
+ 0.00982   49 Lag_active_power-1234
+ 0.00932   48 Lag_active_power-1233
+ 0.0091    47 Lag_active_power-1232
+ 0.0088    46 Lag_active_power-1231
+ 0.00828   45 Lag_active_power-1230
+ 0.00797   44 Lag_active_power-1229
+ 0.00777   43 Lag_active_power-1228
+ 0.00753   42 Lag_active_power-1227
+ 0.00739   41 Lag_active_power-1226
+ 0.00703   40 Lag_active_power-1225
+ 0.00691   39 Lag_active_power-1224
+ 0.00673   38 Lag_active_power-1223
+ 0.00639   37 Lag_active_power-1222
+ 0.006     36 Lag_active_power-1221
+ 0.00569   34 Lag_active_power-1219
+ 0.00568   35 Lag_active_power-1220
+ 0.00538   33 Lag_active_power-1218
+ 0.00518   32 Lag_active_power-1217
+ 0.00487   31 Lag_active_power-1216
+ 0.00468   30 Lag_active_power-1215
+ 0.0044    29 Lag_active_power-1214
+ 0.00415   28 Lag_active_power-1213
+ 0.0041     4 Lag_active_power-1189
+ 0.00387   27 Lag_active_power-1212
+ 0.00377   26 Lag_active_power-1211
+ 0.00358   25 Lag_active_power-1210
+ 0.00358    5 Lag_active_power-1190
+ 0.00347   24 Lag_active_power-1209
+ 0.00346   23 Lag_active_power-1208
+ 0.00325    6 Lag_active_power-1191
+ 0.00311   22 Lag_active_power-1207
+ 0.00305    7 Lag_active_power-1192
+ 0.00297   21 Lag_active_power-1206
+ 0.00293    8 Lag_active_power-1193
+ 0.00288    9 Lag_active_power-1194
+ 0.00276   20 Lag_active_power-1205
+ 0.00274   10 Lag_active_power-1195
+ 0.00266   11 Lag_active_power-1196
+ 0.00258   12 Lag_active_power-1197
+ 0.00254   19 Lag_active_power-1204
+ 0.00251   13 Lag_active_power-1198
+ 0.00243   18 Lag_active_power-1203
+ 0.00242   17 Lag_active_power-1202
+ 0.0024    14 Lag_active_power-1199
+ 0.00239   16 Lag_active_power-1201
+ 0.00227   15 Lag_active_power-1200
+ 0          1 local_time
+
+Selected attributes: 3,52,51,53,50,49,48,47,46,45,44,43,42,41,40,39,38,37,36,34,35,33,32,31,30,29,28,4,27,26,25,5,24,23,6,22,7,21,8,9,20,10,11,12,19,13,18,17,14,16,15,1 : 52
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.0237    3 local_time-remapped
+ 0.0179   52 local_time-remapped^2
+ 0.0175    4 Lag_active_power-493
+ 0.016     5 Lag_active_power-494
+ 0.0156   51 Lag_active_power-540
+ 0.0152   50 Lag_active_power-539
+ 0.0148    6 Lag_active_power-495
+ 0.0148   49 Lag_active_power-538
+ 0.0144   48 Lag_active_power-537
+ 0.0142   53 local_time-remapped^3
+ 0.014    47 Lag_active_power-536
+ 0.0139    7 Lag_active_power-496
+ 0.0136   46 Lag_active_power-535
+ 0.0135    8 Lag_active_power-497
+ 0.0134   23 Lag_active_power-512
+ 0.0134   45 Lag_active_power-534
+ 0.0134    9 Lag_active_power-498
+ 0.0133   24 Lag_active_power-513
+ 0.0133   12 Lag_active_power-501
+ 0.0133   11 Lag_active_power-500
+ 0.0133   10 Lag_active_power-499
+ 0.0133   22 Lag_active_power-511
+ 0.0131   25 Lag_active_power-514
+ 0.0131   13 Lag_active_power-502
+ 0.0131   44 Lag_active_power-533
+ 0.0131   41 Lag_active_power-530
+ 0.013    43 Lag_active_power-532
+ 0.0129   40 Lag_active_power-529
+ 0.0129   42 Lag_active_power-531
+ 0.0129   14 Lag_active_power-503
+ 0.0129   21 Lag_active_power-510
+ 0.0129   36 Lag_active_power-525
+ 0.0129   26 Lag_active_power-515
+ 0.0128   38 Lag_active_power-527
+ 0.0128   37 Lag_active_power-526
+ 0.0127   15 Lag_active_power-504
+ 0.0127   39 Lag_active_power-528
+ 0.0126   27 Lag_active_power-516
+ 0.0126   35 Lag_active_power-524
+ 0.0126   20 Lag_active_power-509
+ 0.0126   16 Lag_active_power-505
+ 0.0125   17 Lag_active_power-506
+ 0.0125   34 Lag_active_power-523
+ 0.0124   19 Lag_active_power-508
+ 0.0124   18 Lag_active_power-507
+ 0.0123   33 Lag_active_power-522
+ 0.0122   28 Lag_active_power-517
+ 0.0122   29 Lag_active_power-518
+ 0.0121   32 Lag_active_power-521
+ 0.0121   30 Lag_active_power-519
+ 0.0121   31 Lag_active_power-520
+ 0         1 local_time
+
+Selected attributes: 3,52,4,5,51,50,6,49,48,53,47,7,46,8,23,45,9,24,12,11,10,22,25,13,44,41,43,40,42,14,21,36,26,38,37,15,39,27,35,20,16,17,34,19,18,33,28,29,32,30,31,1 : 52
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.0225    3 local_time-remapped
+ 0.0169   52 local_time-remapped^2
+ 0.015     4 Lag_active_power-193
+ 0.0139    5 Lag_active_power-194
+ 0.0136   53 local_time-remapped^3
+ 0.0133    6 Lag_active_power-195
+ 0.0133   51 Lag_active_power-240
+ 0.013    50 Lag_active_power-239
+ 0.0127   26 Lag_active_power-215
+ 0.0126   27 Lag_active_power-216
+ 0.0126    7 Lag_active_power-196
+ 0.0126   25 Lag_active_power-214
+ 0.0126   24 Lag_active_power-213
+ 0.0126   23 Lag_active_power-212
+ 0.0125   49 Lag_active_power-238
+ 0.0123   20 Lag_active_power-209
+ 0.0122   19 Lag_active_power-208
+ 0.0122   21 Lag_active_power-210
+ 0.0122   22 Lag_active_power-211
+ 0.0122   48 Lag_active_power-237
+ 0.0121    8 Lag_active_power-197
+ 0.0121   28 Lag_active_power-217
+ 0.0121   18 Lag_active_power-207
+ 0.012    47 Lag_active_power-236
+ 0.012     9 Lag_active_power-198
+ 0.0119   17 Lag_active_power-206
+ 0.0119   16 Lag_active_power-205
+ 0.0118   13 Lag_active_power-202
+ 0.0117   14 Lag_active_power-203
+ 0.0116   12 Lag_active_power-201
+ 0.0116   10 Lag_active_power-199
+ 0.0115   15 Lag_active_power-204
+ 0.0115   29 Lag_active_power-218
+ 0.0114   11 Lag_active_power-200
+ 0.0113   46 Lag_active_power-235
+ 0.0113   37 Lag_active_power-226
+ 0.0113   40 Lag_active_power-229
+ 0.0112   31 Lag_active_power-220
+ 0.0112   30 Lag_active_power-219
+ 0.0111   38 Lag_active_power-227
+ 0.0111   41 Lag_active_power-230
+ 0.0111   39 Lag_active_power-228
+ 0.011    42 Lag_active_power-231
+ 0.0109   43 Lag_active_power-232
+ 0.0109   33 Lag_active_power-222
+ 0.0109   35 Lag_active_power-224
+ 0.0109   34 Lag_active_power-223
+ 0.0109   32 Lag_active_power-221
+ 0.0108   36 Lag_active_power-225
+ 0.0108   45 Lag_active_power-234
+ 0.0107   44 Lag_active_power-233
+ 0         1 local_time
+
+Selected attributes: 3,52,4,5,53,6,51,50,26,27,7,25,24,23,49,20,19,21,22,48,8,28,18,47,9,17,16,13,14,12,10,15,29,11,46,37,40,31,30,38,41,39,42,43,33,35,34,32,36,45,44,1 : 52
+
+>>>>>>> 115626e7b107ff8d5c8ab9b44adddd4efad753b9
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+<<<<<<< HEAD
  0.02035    3 local_time-remapped
  0.01382   51 Lag_active_power-96
  0.01302   52 local_time-remapped^2
@@ -214,6 +1373,855 @@ Ranked attributes:
  0          1 local_time
 
 Selected attributes: 3,51,52,50,49,48,47,46,44,45,43,42,41,40,39,38,37,36,33,35,32,53,34,31,30,29,28,27,26,25,24,23,22,4,21,20,5,19,18,17,6,16,7,15,8,14,13,12,11,9,10,1 : 52
+=======
+ 0.0649   51 Lag_active_power-1284
+ 0.0648   50 Lag_active_power-1283
+ 0.0637   49 Lag_active_power-1282
+ 0.0631    4 Lag_active_power-1237
+ 0.0625   48 Lag_active_power-1281
+ 0.0615   47 Lag_active_power-1280
+ 0.0607    3 local_time-remapped
+ 0.0607   46 Lag_active_power-1279
+ 0.0604    5 Lag_active_power-1238
+ 0.059    45 Lag_active_power-1278
+ 0.0582    6 Lag_active_power-1239
+ 0.0571    9 Lag_active_power-1242
+ 0.0569    7 Lag_active_power-1240
+ 0.0567    8 Lag_active_power-1241
+ 0.0567   10 Lag_active_power-1243
+ 0.0567   44 Lag_active_power-1277
+ 0.0562   41 Lag_active_power-1274
+ 0.056    40 Lag_active_power-1273
+ 0.0558   11 Lag_active_power-1244
+ 0.0556   42 Lag_active_power-1275
+ 0.0553   43 Lag_active_power-1276
+ 0.0551   39 Lag_active_power-1272
+ 0.0544   38 Lag_active_power-1271
+ 0.0544   12 Lag_active_power-1245
+ 0.0538   37 Lag_active_power-1270
+ 0.0531   33 Lag_active_power-1266
+ 0.053    22 Lag_active_power-1255
+ 0.0529   23 Lag_active_power-1256
+ 0.0528   31 Lag_active_power-1264
+ 0.0528   36 Lag_active_power-1269
+ 0.0528   32 Lag_active_power-1265
+ 0.0527   13 Lag_active_power-1246
+ 0.0525   21 Lag_active_power-1254
+ 0.0524   30 Lag_active_power-1263
+ 0.0523   34 Lag_active_power-1267
+ 0.0523   14 Lag_active_power-1247
+ 0.0522   15 Lag_active_power-1248
+ 0.0522   24 Lag_active_power-1257
+ 0.0521   20 Lag_active_power-1253
+ 0.052    29 Lag_active_power-1262
+ 0.052    19 Lag_active_power-1252
+ 0.0519   16 Lag_active_power-1249
+ 0.0519   35 Lag_active_power-1268
+ 0.0516   17 Lag_active_power-1250
+ 0.0515   25 Lag_active_power-1258
+ 0.0515   18 Lag_active_power-1251
+ 0.0511   28 Lag_active_power-1261
+ 0.0509   26 Lag_active_power-1259
+ 0.0506   27 Lag_active_power-1260
+ 0.0404   52 local_time-remapped^2
+ 0.0262   53 local_time-remapped^3
+ 0         1 local_time
+
+Selected attributes: 51,50,49,4,48,47,3,46,5,45,6,9,7,8,10,44,41,40,11,42,43,39,38,12,37,33,22,23,31,36,32,13,21,30,34,14,15,24,20,29,19,16,35,17,25,18,28,26,27,52,53,1 : 52
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.02333    3 local_time-remapped
+ 0.01951   52 local_time-remapped^2
+ 0.01642   53 local_time-remapped^3
+ 0.01445   51 Lag_active_power-936
+ 0.01426    4 Lag_active_power-889
+ 0.01378   50 Lag_active_power-935
+ 0.01318   49 Lag_active_power-934
+ 0.01283    5 Lag_active_power-890
+ 0.01265   48 Lag_active_power-933
+ 0.01221   47 Lag_active_power-932
+ 0.0118     6 Lag_active_power-891
+ 0.01158   46 Lag_active_power-931
+ 0.0112    45 Lag_active_power-930
+ 0.01109    7 Lag_active_power-892
+ 0.01105   44 Lag_active_power-929
+ 0.01079   43 Lag_active_power-928
+ 0.01068    8 Lag_active_power-893
+ 0.01038    9 Lag_active_power-894
+ 0.01038   11 Lag_active_power-896
+ 0.01037   40 Lag_active_power-925
+ 0.01035   42 Lag_active_power-927
+ 0.01035   41 Lag_active_power-926
+ 0.0103    10 Lag_active_power-895
+ 0.01014   39 Lag_active_power-924
+ 0.0101    38 Lag_active_power-923
+ 0.01008   22 Lag_active_power-907
+ 0.01003   12 Lag_active_power-897
+ 0.01002   36 Lag_active_power-921
+ 0.00992   16 Lag_active_power-901
+ 0.0099    35 Lag_active_power-920
+ 0.00986   37 Lag_active_power-922
+ 0.00985   21 Lag_active_power-906
+ 0.00982   15 Lag_active_power-900
+ 0.0098    23 Lag_active_power-908
+ 0.00979   25 Lag_active_power-910
+ 0.00976   13 Lag_active_power-898
+ 0.00968   26 Lag_active_power-911
+ 0.00968   17 Lag_active_power-902
+ 0.00966   31 Lag_active_power-916
+ 0.00964   24 Lag_active_power-909
+ 0.00961   32 Lag_active_power-917
+ 0.0096    14 Lag_active_power-899
+ 0.00958   33 Lag_active_power-918
+ 0.00956   18 Lag_active_power-903
+ 0.00956   34 Lag_active_power-919
+ 0.00953   30 Lag_active_power-915
+ 0.00952   20 Lag_active_power-905
+ 0.00937   27 Lag_active_power-912
+ 0.00936   29 Lag_active_power-914
+ 0.00934   19 Lag_active_power-904
+ 0.00923   28 Lag_active_power-913
+ 0          1 local_time
+
+Selected attributes: 3,52,53,51,4,50,49,5,48,47,6,46,45,7,44,43,8,9,11,40,42,41,10,39,38,22,12,36,16,35,37,21,15,23,25,13,26,17,31,24,32,14,33,18,34,30,20,27,29,19,28,1 : 52
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.0836    3 local_time-remapped
+ 0.0677   52 local_time-remapped^2
+ 0.0669   51 Lag_active_power-588
+ 0.066    50 Lag_active_power-587
+ 0.0638   49 Lag_active_power-586
+ 0.0628    4 Lag_active_power-541
+ 0.0623   48 Lag_active_power-585
+ 0.0606   47 Lag_active_power-584
+ 0.0596   46 Lag_active_power-583
+ 0.0595    5 Lag_active_power-542
+ 0.0584   45 Lag_active_power-582
+ 0.0571   44 Lag_active_power-581
+ 0.0562   43 Lag_active_power-580
+ 0.0561    6 Lag_active_power-543
+ 0.056    41 Lag_active_power-578
+ 0.0557   40 Lag_active_power-577
+ 0.0552   42 Lag_active_power-579
+ 0.0551   39 Lag_active_power-576
+ 0.055    38 Lag_active_power-575
+ 0.0548   23 Lag_active_power-560
+ 0.0547   53 local_time-remapped^3
+ 0.0541   22 Lag_active_power-559
+ 0.0539   33 Lag_active_power-570
+ 0.0539   36 Lag_active_power-573
+ 0.0538   35 Lag_active_power-572
+ 0.0538   24 Lag_active_power-561
+ 0.0537   34 Lag_active_power-571
+ 0.0536   37 Lag_active_power-574
+ 0.0531   32 Lag_active_power-569
+ 0.053    25 Lag_active_power-562
+ 0.0528   31 Lag_active_power-568
+ 0.0527    7 Lag_active_power-544
+ 0.0525   21 Lag_active_power-558
+ 0.0523   28 Lag_active_power-565
+ 0.0523   30 Lag_active_power-567
+ 0.0522   26 Lag_active_power-563
+ 0.0521   27 Lag_active_power-564
+ 0.0518   29 Lag_active_power-566
+ 0.0512   18 Lag_active_power-555
+ 0.0512   16 Lag_active_power-553
+ 0.0511   17 Lag_active_power-554
+ 0.0509   20 Lag_active_power-557
+ 0.0506    8 Lag_active_power-545
+ 0.0506   15 Lag_active_power-552
+ 0.0503   12 Lag_active_power-549
+ 0.0502   19 Lag_active_power-556
+ 0.0501   11 Lag_active_power-548
+ 0.0501   13 Lag_active_power-550
+ 0.05     10 Lag_active_power-547
+ 0.05     14 Lag_active_power-551
+ 0.0499    9 Lag_active_power-546
+ 0         1 local_time
+
+Selected attributes: 3,52,51,50,49,4,48,47,46,5,45,44,43,6,41,40,42,39,38,23,53,22,33,36,35,24,34,37,32,25,31,7,21,28,30,26,27,29,18,16,17,20,8,15,12,19,11,13,10,14,9,1 : 52
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.02107    3 local_time-remapped
+ 0.01812   51 Lag_active_power-1332
+ 0.01707   50 Lag_active_power-1331
+ 0.01649   49 Lag_active_power-1330
+ 0.01635   52 local_time-remapped^2
+ 0.01602   48 Lag_active_power-1329
+ 0.0155    47 Lag_active_power-1328
+ 0.01505   46 Lag_active_power-1327
+ 0.0143    45 Lag_active_power-1326
+ 0.01376   44 Lag_active_power-1325
+ 0.01352   43 Lag_active_power-1324
+ 0.01334   41 Lag_active_power-1322
+ 0.01329    4 Lag_active_power-1285
+ 0.01329   42 Lag_active_power-1323
+ 0.01314   40 Lag_active_power-1321
+ 0.01275   39 Lag_active_power-1320
+ 0.01258   53 local_time-remapped^3
+ 0.01247   38 Lag_active_power-1319
+ 0.01218   37 Lag_active_power-1318
+ 0.01212    5 Lag_active_power-1286
+ 0.01192   36 Lag_active_power-1317
+ 0.01154   33 Lag_active_power-1314
+ 0.01148   35 Lag_active_power-1316
+ 0.01143    6 Lag_active_power-1287
+ 0.01143   34 Lag_active_power-1315
+ 0.01135    8 Lag_active_power-1289
+ 0.0113     7 Lag_active_power-1288
+ 0.01118   32 Lag_active_power-1313
+ 0.0111     9 Lag_active_power-1290
+ 0.01107   10 Lag_active_power-1291
+ 0.01103   11 Lag_active_power-1292
+ 0.01097   31 Lag_active_power-1312
+ 0.01067   30 Lag_active_power-1311
+ 0.01067   12 Lag_active_power-1293
+ 0.01055   22 Lag_active_power-1303
+ 0.01031   29 Lag_active_power-1310
+ 0.01025   23 Lag_active_power-1304
+ 0.01021   21 Lag_active_power-1302
+ 0.01014   25 Lag_active_power-1306
+ 0.01013   20 Lag_active_power-1301
+ 0.01012   13 Lag_active_power-1294
+ 0.01008   24 Lag_active_power-1305
+ 0.01007   19 Lag_active_power-1300
+ 0.00996   28 Lag_active_power-1309
+ 0.00994   14 Lag_active_power-1295
+ 0.00992   15 Lag_active_power-1296
+ 0.0099    27 Lag_active_power-1308
+ 0.00987   16 Lag_active_power-1297
+ 0.00983   26 Lag_active_power-1307
+ 0.00973   18 Lag_active_power-1299
+ 0.0097    17 Lag_active_power-1298
+ 0          1 local_time
+
+Selected attributes: 3,51,50,49,52,48,47,46,45,44,43,41,4,42,40,39,53,38,37,5,36,33,35,6,34,8,7,32,9,10,11,31,30,12,22,29,23,21,25,20,13,24,19,28,14,15,27,16,26,18,17,1 : 52
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.1755    3 local_time-remapped
+ 0.166    50 Lag_active_power-983
+ 0.1652   51 Lag_active_power-984
+ 0.1629   49 Lag_active_power-982
+ 0.1628    4 Lag_active_power-937
+ 0.1592   48 Lag_active_power-981
+ 0.1552    5 Lag_active_power-938
+ 0.1539   47 Lag_active_power-980
+ 0.1503   46 Lag_active_power-979
+ 0.1493   45 Lag_active_power-978
+ 0.1461   44 Lag_active_power-977
+ 0.1456    6 Lag_active_power-939
+ 0.1437   43 Lag_active_power-976
+ 0.1434   40 Lag_active_power-973
+ 0.1428   41 Lag_active_power-974
+ 0.1424   42 Lag_active_power-975
+ 0.1409   38 Lag_active_power-971
+ 0.1401   22 Lag_active_power-955
+ 0.14     39 Lag_active_power-972
+ 0.1394   23 Lag_active_power-956
+ 0.1387   37 Lag_active_power-970
+ 0.1378    7 Lag_active_power-940
+ 0.137    36 Lag_active_power-969
+ 0.1364   24 Lag_active_power-957
+ 0.1355   35 Lag_active_power-968
+ 0.1352   21 Lag_active_power-954
+ 0.1352   12 Lag_active_power-945
+ 0.135     9 Lag_active_power-942
+ 0.1348    8 Lag_active_power-941
+ 0.1348   11 Lag_active_power-944
+ 0.1347   13 Lag_active_power-946
+ 0.1346   25 Lag_active_power-958
+ 0.1346   10 Lag_active_power-943
+ 0.1343   26 Lag_active_power-959
+ 0.1343   34 Lag_active_power-967
+ 0.1343   33 Lag_active_power-966
+ 0.1334   27 Lag_active_power-960
+ 0.1328   15 Lag_active_power-948
+ 0.1327   32 Lag_active_power-965
+ 0.1325   16 Lag_active_power-949
+ 0.1323   14 Lag_active_power-947
+ 0.1322   17 Lag_active_power-950
+ 0.132    52 local_time-remapped^2
+ 0.1315   20 Lag_active_power-953
+ 0.131    31 Lag_active_power-964
+ 0.1302   30 Lag_active_power-963
+ 0.1292   18 Lag_active_power-951
+ 0.1291   28 Lag_active_power-961
+ 0.1291   19 Lag_active_power-952
+ 0.1291   29 Lag_active_power-962
+ 0.099    53 local_time-remapped^3
+ 0         1 local_time
+
+Selected attributes: 3,50,51,49,4,48,5,47,46,45,44,6,43,40,41,42,38,22,39,23,37,7,36,24,35,21,12,9,8,11,13,25,10,26,34,33,27,15,32,16,14,17,52,20,31,30,18,28,19,29,53,1 : 52
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.01934    3 local_time-remapped
+ 0.01635   52 local_time-remapped^2
+ 0.01418   53 local_time-remapped^3
+ 0.01017    4 Lag_active_power-589
+ 0.00897    5 Lag_active_power-590
+ 0.00874   51 Lag_active_power-636
+ 0.00829   50 Lag_active_power-635
+ 0.00806    6 Lag_active_power-591
+ 0.00771   49 Lag_active_power-634
+ 0.00741    7 Lag_active_power-592
+ 0.00741   48 Lag_active_power-633
+ 0.0072    47 Lag_active_power-632
+ 0.00715    8 Lag_active_power-593
+ 0.00715    9 Lag_active_power-594
+ 0.00714   22 Lag_active_power-607
+ 0.0071    46 Lag_active_power-631
+ 0.00709   13 Lag_active_power-598
+ 0.00708   15 Lag_active_power-600
+ 0.00705   45 Lag_active_power-630
+ 0.00702   16 Lag_active_power-601
+ 0.00702   21 Lag_active_power-606
+ 0.00698   10 Lag_active_power-595
+ 0.00693   17 Lag_active_power-602
+ 0.00691   14 Lag_active_power-599
+ 0.00691   11 Lag_active_power-596
+ 0.0069    12 Lag_active_power-597
+ 0.00689   23 Lag_active_power-608
+ 0.00684   44 Lag_active_power-629
+ 0.00681   20 Lag_active_power-605
+ 0.00675   25 Lag_active_power-610
+ 0.00674   18 Lag_active_power-603
+ 0.0067    19 Lag_active_power-604
+ 0.00669   32 Lag_active_power-617
+ 0.00669   31 Lag_active_power-616
+ 0.00667   30 Lag_active_power-615
+ 0.00667   24 Lag_active_power-609
+ 0.00665   33 Lag_active_power-618
+ 0.00663   26 Lag_active_power-611
+ 0.00656   27 Lag_active_power-612
+ 0.00656   43 Lag_active_power-628
+ 0.00651   29 Lag_active_power-614
+ 0.00649   35 Lag_active_power-620
+ 0.00649   28 Lag_active_power-613
+ 0.00647   34 Lag_active_power-619
+ 0.00645   36 Lag_active_power-621
+ 0.00642   38 Lag_active_power-623
+ 0.00638   42 Lag_active_power-627
+ 0.00635   37 Lag_active_power-622
+ 0.00634   40 Lag_active_power-625
+ 0.00631   39 Lag_active_power-624
+ 0.0063    41 Lag_active_power-626
+ 0          1 local_time
+
+Selected attributes: 3,52,53,4,5,51,50,6,49,7,48,47,8,9,22,46,13,15,45,16,21,10,17,14,11,12,23,44,20,25,18,19,32,31,30,24,33,26,27,43,29,35,28,34,36,38,42,37,40,39,41,1 : 52
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.02219    3 local_time-remapped
+ 0.0177    52 local_time-remapped^2
+ 0.01446   51 Lag_active_power-288
+ 0.01433   53 local_time-remapped^3
+ 0.01376   50 Lag_active_power-287
+ 0.01297   49 Lag_active_power-286
+ 0.01258   48 Lag_active_power-285
+ 0.01214   47 Lag_active_power-284
+ 0.01166   46 Lag_active_power-283
+ 0.01129   27 Lag_active_power-264
+ 0.01124   45 Lag_active_power-282
+ 0.01117   41 Lag_active_power-278
+ 0.01111   44 Lag_active_power-281
+ 0.01107   43 Lag_active_power-280
+ 0.01103   26 Lag_active_power-263
+ 0.01094   40 Lag_active_power-277
+ 0.01091   42 Lag_active_power-279
+ 0.01088   25 Lag_active_power-262
+ 0.01081   28 Lag_active_power-265
+ 0.01078   37 Lag_active_power-274
+ 0.01073   24 Lag_active_power-261
+ 0.0107    38 Lag_active_power-275
+ 0.01068   39 Lag_active_power-276
+ 0.01045   31 Lag_active_power-268
+ 0.01035   29 Lag_active_power-266
+ 0.01034   23 Lag_active_power-260
+ 0.01029   36 Lag_active_power-273
+ 0.01016   35 Lag_active_power-272
+ 0.01016   30 Lag_active_power-267
+ 0.01001   33 Lag_active_power-270
+ 0.00997   34 Lag_active_power-271
+ 0.00995   32 Lag_active_power-269
+ 0.00986   22 Lag_active_power-259
+ 0.0097     4 Lag_active_power-241
+ 0.00967   21 Lag_active_power-258
+ 0.00941   20 Lag_active_power-257
+ 0.00912   19 Lag_active_power-256
+ 0.00907    5 Lag_active_power-242
+ 0.00904   18 Lag_active_power-255
+ 0.00883    6 Lag_active_power-243
+ 0.00861   17 Lag_active_power-254
+ 0.00849   16 Lag_active_power-253
+ 0.00849    7 Lag_active_power-244
+ 0.00811    8 Lag_active_power-245
+ 0.00802   15 Lag_active_power-252
+ 0.00802   14 Lag_active_power-251
+ 0.00791    9 Lag_active_power-246
+ 0.00784   13 Lag_active_power-250
+ 0.00777   10 Lag_active_power-247
+ 0.00772   12 Lag_active_power-249
+ 0.0075    11 Lag_active_power-248
+ 0          1 local_time
+
+Selected attributes: 3,52,51,53,50,49,48,47,46,27,45,41,44,43,26,40,42,25,28,37,24,38,39,31,29,23,36,35,30,33,34,32,22,4,21,20,19,5,18,6,17,16,7,8,15,14,9,13,10,12,11,1 : 52
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.0346    3 local_time-remapped
+ 0.026    52 local_time-remapped^2
+ 0.0236    4 Lag_active_power-289
+ 0.0232   27 Lag_active_power-312
+ 0.0231   26 Lag_active_power-311
+ 0.0228   51 Lag_active_power-336
+ 0.0228   50 Lag_active_power-335
+ 0.0226   25 Lag_active_power-310
+ 0.0225   23 Lag_active_power-308
+ 0.0224   24 Lag_active_power-309
+ 0.0223    5 Lag_active_power-290
+ 0.0222   28 Lag_active_power-313
+ 0.0221   49 Lag_active_power-334
+ 0.022    22 Lag_active_power-307
+ 0.0219   48 Lag_active_power-333
+ 0.0218   21 Lag_active_power-306
+ 0.0218    6 Lag_active_power-291
+ 0.0217   20 Lag_active_power-305
+ 0.0215   19 Lag_active_power-304
+ 0.0213   47 Lag_active_power-332
+ 0.0209   29 Lag_active_power-314
+ 0.0209   18 Lag_active_power-303
+ 0.0208    7 Lag_active_power-292
+ 0.0205   17 Lag_active_power-302
+ 0.0202   16 Lag_active_power-301
+ 0.0202    8 Lag_active_power-293
+ 0.0202   46 Lag_active_power-331
+ 0.0201   14 Lag_active_power-299
+ 0.02     37 Lag_active_power-322
+ 0.02     53 local_time-remapped^3
+ 0.0199   38 Lag_active_power-323
+ 0.0199   13 Lag_active_power-298
+ 0.0199    9 Lag_active_power-294
+ 0.0199   40 Lag_active_power-325
+ 0.0199   41 Lag_active_power-326
+ 0.0198   31 Lag_active_power-316
+ 0.0198   30 Lag_active_power-315
+ 0.0197   39 Lag_active_power-324
+ 0.0196   10 Lag_active_power-295
+ 0.0196   12 Lag_active_power-297
+ 0.0195   15 Lag_active_power-300
+ 0.0195   43 Lag_active_power-328
+ 0.0194   42 Lag_active_power-327
+ 0.0193   45 Lag_active_power-330
+ 0.0193   32 Lag_active_power-317
+ 0.0192   35 Lag_active_power-320
+ 0.0192   33 Lag_active_power-318
+ 0.0192   44 Lag_active_power-329
+ 0.0191   36 Lag_active_power-321
+ 0.0191   11 Lag_active_power-296
+ 0.0191   34 Lag_active_power-319
+ 0         1 local_time
+
+Selected attributes: 3,52,4,27,26,51,50,25,23,24,5,28,49,22,48,21,6,20,19,47,29,18,7,17,16,8,46,14,37,53,38,13,9,40,41,31,30,39,10,12,15,43,42,45,32,35,33,44,36,11,34,1 : 52
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.0972    4 Lag_active_power-1333
+ 0.0965   51 Lag_active_power-1380
+ 0.0962   50 Lag_active_power-1379
+ 0.0941   49 Lag_active_power-1378
+ 0.0931   48 Lag_active_power-1377
+ 0.0931    5 Lag_active_power-1334
+ 0.0912   47 Lag_active_power-1376
+ 0.0892    6 Lag_active_power-1335
+ 0.0883   46 Lag_active_power-1375
+ 0.0872   45 Lag_active_power-1374
+ 0.0865    3 local_time-remapped
+ 0.0857    7 Lag_active_power-1336
+ 0.085     9 Lag_active_power-1338
+ 0.0846    8 Lag_active_power-1337
+ 0.0845   44 Lag_active_power-1373
+ 0.084    41 Lag_active_power-1370
+ 0.0838   42 Lag_active_power-1371
+ 0.0837   10 Lag_active_power-1339
+ 0.083    11 Lag_active_power-1340
+ 0.0829   43 Lag_active_power-1372
+ 0.0823   12 Lag_active_power-1341
+ 0.0818   40 Lag_active_power-1369
+ 0.0812   39 Lag_active_power-1368
+ 0.0808   38 Lag_active_power-1367
+ 0.0796   13 Lag_active_power-1342
+ 0.0785   37 Lag_active_power-1366
+ 0.0784   14 Lag_active_power-1343
+ 0.0782   32 Lag_active_power-1361
+ 0.0781   31 Lag_active_power-1360
+ 0.078    36 Lag_active_power-1365
+ 0.078    23 Lag_active_power-1352
+ 0.0777   33 Lag_active_power-1362
+ 0.0777   17 Lag_active_power-1346
+ 0.0776   15 Lag_active_power-1344
+ 0.0776   24 Lag_active_power-1353
+ 0.0776   30 Lag_active_power-1359
+ 0.0773   16 Lag_active_power-1345
+ 0.0773   34 Lag_active_power-1363
+ 0.0772   20 Lag_active_power-1349
+ 0.0771   22 Lag_active_power-1351
+ 0.077    21 Lag_active_power-1350
+ 0.0769   35 Lag_active_power-1364
+ 0.0768   25 Lag_active_power-1354
+ 0.0766   19 Lag_active_power-1348
+ 0.0764   18 Lag_active_power-1347
+ 0.0763   29 Lag_active_power-1358
+ 0.0762   26 Lag_active_power-1355
+ 0.076    27 Lag_active_power-1356
+ 0.0754   28 Lag_active_power-1357
+ 0.0565   52 local_time-remapped^2
+ 0.0354   53 local_time-remapped^3
+ 0         1 local_time
+
+Selected attributes: 4,51,50,49,48,5,47,6,46,45,3,7,9,8,44,41,42,10,11,43,12,40,39,38,13,37,14,32,31,36,23,33,17,15,24,30,16,34,20,22,21,35,25,19,18,29,26,27,28,52,53,1 : 52
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.02306    3 local_time-remapped
+ 0.01831   52 local_time-remapped^2
+ 0.0149    53 local_time-remapped^3
+ 0.01445   51 Lag_active_power-1032
+ 0.01431    4 Lag_active_power-985
+ 0.01366   50 Lag_active_power-1031
+ 0.01317   49 Lag_active_power-1030
+ 0.01304    5 Lag_active_power-986
+ 0.01282   48 Lag_active_power-1029
+ 0.0124    47 Lag_active_power-1028
+ 0.01196   46 Lag_active_power-1027
+ 0.01195    6 Lag_active_power-987
+ 0.01162   45 Lag_active_power-1026
+ 0.01152   44 Lag_active_power-1025
+ 0.01145   43 Lag_active_power-1024
+ 0.01124    7 Lag_active_power-988
+ 0.01119   42 Lag_active_power-1023
+ 0.01117   41 Lag_active_power-1022
+ 0.01113   40 Lag_active_power-1021
+ 0.01085    8 Lag_active_power-989
+ 0.01076   39 Lag_active_power-1020
+ 0.01075   38 Lag_active_power-1019
+ 0.0106    11 Lag_active_power-992
+ 0.01048   10 Lag_active_power-991
+ 0.01045    9 Lag_active_power-990
+ 0.01042   37 Lag_active_power-1018
+ 0.01034   12 Lag_active_power-993
+ 0.01033   36 Lag_active_power-1017
+ 0.01023   35 Lag_active_power-1016
+ 0.0102    22 Lag_active_power-1003
+ 0.01014   13 Lag_active_power-994
+ 0.01006   25 Lag_active_power-1006
+ 0.01005   23 Lag_active_power-1004
+ 0.00997   24 Lag_active_power-1005
+ 0.00986   34 Lag_active_power-1015
+ 0.00985   14 Lag_active_power-995
+ 0.00985   33 Lag_active_power-1014
+ 0.00981   15 Lag_active_power-996
+ 0.00981   31 Lag_active_power-1012
+ 0.00981   26 Lag_active_power-1007
+ 0.00979   16 Lag_active_power-997
+ 0.00973   21 Lag_active_power-1002
+ 0.00966   30 Lag_active_power-1011
+ 0.00965   27 Lag_active_power-1008
+ 0.00964   32 Lag_active_power-1013
+ 0.00957   17 Lag_active_power-998
+ 0.00955   29 Lag_active_power-1010
+ 0.0095    20 Lag_active_power-1001
+ 0.0094    18 Lag_active_power-999
+ 0.00939   28 Lag_active_power-1009
+ 0.00937   19 Lag_active_power-1000
+ 0          1 local_time
+
+Selected attributes: 3,52,53,51,4,50,49,5,48,47,46,6,45,44,43,7,42,41,40,8,39,38,11,10,9,37,12,36,35,22,13,25,23,24,34,14,33,15,31,26,16,21,30,27,32,17,29,20,18,28,19,1 : 52
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.0912    3 local_time-remapped
+ 0.0766   52 local_time-remapped^2
+ 0.0694   51 Lag_active_power-684
+ 0.0686   50 Lag_active_power-683
+ 0.066    49 Lag_active_power-682
+ 0.0647    4 Lag_active_power-637
+ 0.0645   48 Lag_active_power-681
+ 0.0638   53 local_time-remapped^3
+ 0.0624   47 Lag_active_power-680
+ 0.0615   46 Lag_active_power-679
+ 0.0614    5 Lag_active_power-638
+ 0.0604   45 Lag_active_power-678
+ 0.0586   44 Lag_active_power-677
+ 0.0579    6 Lag_active_power-639
+ 0.0576   43 Lag_active_power-676
+ 0.0571   23 Lag_active_power-656
+ 0.0569   22 Lag_active_power-655
+ 0.0567   38 Lag_active_power-671
+ 0.0567   33 Lag_active_power-666
+ 0.0566   41 Lag_active_power-674
+ 0.0566   40 Lag_active_power-673
+ 0.0562   32 Lag_active_power-665
+ 0.056    39 Lag_active_power-672
+ 0.056    42 Lag_active_power-675
+ 0.0559   31 Lag_active_power-664
+ 0.0559   24 Lag_active_power-657
+ 0.0556   35 Lag_active_power-668
+ 0.0554   34 Lag_active_power-667
+ 0.0554   21 Lag_active_power-654
+ 0.0554   36 Lag_active_power-669
+ 0.0553   25 Lag_active_power-658
+ 0.0552   28 Lag_active_power-661
+ 0.0552   30 Lag_active_power-663
+ 0.055    37 Lag_active_power-670
+ 0.0549   27 Lag_active_power-660
+ 0.0544   26 Lag_active_power-659
+ 0.0544   29 Lag_active_power-662
+ 0.0543    7 Lag_active_power-640
+ 0.054    18 Lag_active_power-651
+ 0.0538   20 Lag_active_power-653
+ 0.0538   17 Lag_active_power-650
+ 0.0535   16 Lag_active_power-649
+ 0.0529   19 Lag_active_power-652
+ 0.0527   15 Lag_active_power-648
+ 0.0519    8 Lag_active_power-641
+ 0.0514   14 Lag_active_power-647
+ 0.0514   13 Lag_active_power-646
+ 0.0512   12 Lag_active_power-645
+ 0.0511    9 Lag_active_power-642
+ 0.0509   11 Lag_active_power-644
+ 0.0507   10 Lag_active_power-643
+ 0         1 local_time
+
+Selected attributes: 3,52,51,50,49,4,48,53,47,46,5,45,44,6,43,23,22,38,33,41,40,32,39,42,31,24,35,34,21,36,25,28,30,37,27,26,29,7,18,20,17,16,19,15,8,14,13,12,9,11,10,1 : 52
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.01409   4 Lag_active_power-1381
+ 0.01351   5 Lag_active_power-1382
+ 0.01292  15 Lag_active_power-1392
+ 0.01269   6 Lag_active_power-1383
+ 0.01259   9 Lag_active_power-1386
+ 0.01256  10 Lag_active_power-1387
+ 0.01248   8 Lag_active_power-1385
+ 0.0124    7 Lag_active_power-1384
+ 0.01211  14 Lag_active_power-1391
+ 0.01202  11 Lag_active_power-1388
+ 0.01171  13 Lag_active_power-1390
+ 0.01162  12 Lag_active_power-1389
+ 0.00656   3 local_time-remapped
+ 0.00307  16 local_time-remapped^2
+ 0.00201  17 local_time-remapped^3
+ 0         1 local_time
+
+Selected attributes: 4,5,15,6,9,10,8,7,14,11,13,12,3,16,17,1 : 16
+
+Thread Thread4 exiting.
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.0313    3 local_time-remapped
+ 0.0256   52 local_time-remapped^2
+ 0.022     4 Lag_active_power-685
+ 0.0216   53 local_time-remapped^3
+ 0.0203    5 Lag_active_power-686
+ 0.0192   51 Lag_active_power-732
+ 0.0188    6 Lag_active_power-687
+ 0.0187   50 Lag_active_power-731
+ 0.0182   49 Lag_active_power-730
+ 0.0175    7 Lag_active_power-688
+ 0.0174   48 Lag_active_power-729
+ 0.0173   47 Lag_active_power-728
+ 0.0168    8 Lag_active_power-689
+ 0.0166   46 Lag_active_power-727
+ 0.0165   11 Lag_active_power-692
+ 0.0164    9 Lag_active_power-690
+ 0.0163   10 Lag_active_power-691
+ 0.0163   45 Lag_active_power-726
+ 0.0162   16 Lag_active_power-697
+ 0.0161   22 Lag_active_power-703
+ 0.0161   12 Lag_active_power-693
+ 0.0159   17 Lag_active_power-698
+ 0.0159   44 Lag_active_power-725
+ 0.0158   15 Lag_active_power-696
+ 0.0158   13 Lag_active_power-694
+ 0.0157   23 Lag_active_power-704
+ 0.0156   43 Lag_active_power-724
+ 0.0156   18 Lag_active_power-699
+ 0.0155   21 Lag_active_power-702
+ 0.0154   14 Lag_active_power-695
+ 0.0153   20 Lag_active_power-701
+ 0.0153   19 Lag_active_power-700
+ 0.0152   32 Lag_active_power-713
+ 0.0152   40 Lag_active_power-721
+ 0.0152   31 Lag_active_power-712
+ 0.0152   25 Lag_active_power-706
+ 0.0152   27 Lag_active_power-708
+ 0.0152   30 Lag_active_power-711
+ 0.0151   38 Lag_active_power-719
+ 0.0151   24 Lag_active_power-705
+ 0.015    41 Lag_active_power-722
+ 0.015    26 Lag_active_power-707
+ 0.015    33 Lag_active_power-714
+ 0.0149   42 Lag_active_power-723
+ 0.0148   36 Lag_active_power-717
+ 0.0148   39 Lag_active_power-720
+ 0.0148   34 Lag_active_power-715
+ 0.0148   35 Lag_active_power-716
+ 0.0147   29 Lag_active_power-710
+ 0.0147   28 Lag_active_power-709
+ 0.0147   37 Lag_active_power-718
+ 0         1 local_time
+
+Selected attributes: 3,52,4,53,5,51,6,50,49,7,48,47,8,46,11,9,10,45,16,22,12,17,44,15,13,23,43,18,21,14,20,19,32,40,31,25,27,30,38,24,41,26,33,42,36,39,34,35,29,28,37,1 : 52
+>>>>>>> 115626e7b107ff8d5c8ab9b44adddd4efad753b9
 
 Thread Thread2 exiting.
 
@@ -230,6 +2238,7 @@ Attribute Evaluator (supervised, Class (numeric): 2 active_power):
 	Equal influence nearest neighbours
 
 Ranked attributes:
+<<<<<<< HEAD
  0.01584    3 local_time-remapped
  0.01477    4 Lag_active_power-97
  0.01301    5 Lag_active_power-98
@@ -1737,3 +3746,1151 @@ Step: 1341 Prediction:282.9561 Act: 209.2 MAE: 14.9777 RMSE:20.8192 MAPE:9.0493
 Step: 1342 Prediction:284.3094 Act: 243.06 MAE: 14.9972 RMSE:20.8419 MAPE:9.0552
 Step: 1343 Prediction:285.0679 Act: 245.83 MAE: 15.0153 RMSE:20.8616 MAPE:9.0603
 Time taken: 89.041
+=======
+ 0.02323    3 local_time-remapped
+ 0.01898   52 local_time-remapped^2
+ 0.01549   53 local_time-remapped^3
+ 0.01499   51 Lag_active_power-384
+ 0.01446   50 Lag_active_power-383
+ 0.01387   49 Lag_active_power-382
+ 0.01361   48 Lag_active_power-381
+ 0.01328   47 Lag_active_power-380
+ 0.01261   46 Lag_active_power-379
+ 0.01214   45 Lag_active_power-378
+ 0.01203   27 Lag_active_power-360
+ 0.01198   43 Lag_active_power-376
+ 0.01196   26 Lag_active_power-359
+ 0.01193   44 Lag_active_power-377
+ 0.01181   41 Lag_active_power-374
+ 0.01174   42 Lag_active_power-375
+ 0.01173   40 Lag_active_power-373
+ 0.01151   38 Lag_active_power-371
+ 0.01149   28 Lag_active_power-361
+ 0.01146   39 Lag_active_power-372
+ 0.01145   25 Lag_active_power-358
+ 0.01143   37 Lag_active_power-370
+ 0.01117   24 Lag_active_power-357
+ 0.01105   23 Lag_active_power-356
+ 0.01094   29 Lag_active_power-362
+ 0.01079   36 Lag_active_power-369
+ 0.01063   35 Lag_active_power-368
+ 0.01061   22 Lag_active_power-355
+ 0.0106    31 Lag_active_power-364
+ 0.01054   30 Lag_active_power-363
+ 0.01053   33 Lag_active_power-366
+ 0.01052    4 Lag_active_power-337
+ 0.01046   34 Lag_active_power-367
+ 0.01044   32 Lag_active_power-365
+ 0.01034   21 Lag_active_power-354
+ 0.01024   20 Lag_active_power-353
+ 0.01008    5 Lag_active_power-338
+ 0.00987   19 Lag_active_power-352
+ 0.00978    6 Lag_active_power-339
+ 0.00964   18 Lag_active_power-351
+ 0.0093    17 Lag_active_power-350
+ 0.00927    7 Lag_active_power-340
+ 0.00907   16 Lag_active_power-349
+ 0.0089    14 Lag_active_power-347
+ 0.00887    8 Lag_active_power-341
+ 0.00881    9 Lag_active_power-342
+ 0.0088    13 Lag_active_power-346
+ 0.00863   15 Lag_active_power-348
+ 0.00858   12 Lag_active_power-345
+ 0.00848   10 Lag_active_power-343
+ 0.00828   11 Lag_active_power-344
+ 0          1 local_time
+
+Selected attributes: 3,52,53,51,50,49,48,47,46,45,27,43,26,44,41,42,40,38,28,39,25,37,24,23,29,36,35,22,31,30,33,4,34,32,21,20,5,19,6,18,17,7,16,14,8,9,13,15,12,10,11,1 : 52
+
+Thread Thread1 exiting.
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (numeric): 2 active_power):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.1074    3 local_time-remapped
+ 0.0929   50 Lag_active_power-1079
+ 0.0916   51 Lag_active_power-1080
+ 0.0887   52 local_time-remapped^2
+ 0.0886    4 Lag_active_power-1033
+ 0.0886   49 Lag_active_power-1078
+ 0.0863   48 Lag_active_power-1077
+ 0.0853   47 Lag_active_power-1076
+ 0.0845    5 Lag_active_power-1034
+ 0.0838   46 Lag_active_power-1075
+ 0.0813   45 Lag_active_power-1074
+ 0.0799    6 Lag_active_power-1035
+ 0.0773   44 Lag_active_power-1073
+ 0.077    40 Lag_active_power-1069
+ 0.0769   43 Lag_active_power-1072
+ 0.0763    7 Lag_active_power-1036
+ 0.0753   42 Lag_active_power-1071
+ 0.0752   30 Lag_active_power-1059
+ 0.0752   22 Lag_active_power-1051
+ 0.075    32 Lag_active_power-1061
+ 0.0744   38 Lag_active_power-1067
+ 0.0741   31 Lag_active_power-1060
+ 0.0741   41 Lag_active_power-1070
+ 0.0738   11 Lag_active_power-1040
+ 0.0737   23 Lag_active_power-1052
+ 0.0736   33 Lag_active_power-1062
+ 0.0734   27 Lag_active_power-1056
+ 0.0732   35 Lag_active_power-1064
+ 0.0731   17 Lag_active_power-1046
+ 0.0731   53 local_time-remapped^3
+ 0.073    15 Lag_active_power-1044
+ 0.0728   25 Lag_active_power-1054
+ 0.0727   24 Lag_active_power-1053
+ 0.0726    8 Lag_active_power-1037
+ 0.0724   29 Lag_active_power-1058
+ 0.0724   10 Lag_active_power-1039
+ 0.0724   28 Lag_active_power-1057
+ 0.0724   37 Lag_active_power-1066
+ 0.0723   21 Lag_active_power-1050
+ 0.0722   39 Lag_active_power-1068
+ 0.072     9 Lag_active_power-1038
+ 0.0719   34 Lag_active_power-1063
+ 0.0719   20 Lag_active_power-1049
+ 0.0717   18 Lag_active_power-1047
+ 0.0712   16 Lag_active_power-1045
+ 0.0709   36 Lag_active_power-1065
+ 0.0707   19 Lag_active_power-1048
+ 0.0703   26 Lag_active_power-1055
+ 0.0699   12 Lag_active_power-1041
+ 0.0695   13 Lag_active_power-1042
+ 0.0683   14 Lag_active_power-1043
+ 0         1 local_time
+
+Selected attributes: 3,50,51,52,4,49,48,47,5,46,45,6,44,40,43,7,42,30,22,32,38,31,41,11,23,33,27,35,17,53,15,25,24,8,29,10,28,37,21,39,9,34,20,18,16,36,19,26,12,13,14,1 : 52
+
+Thread Thread3 exiting.
+HashMapFeatures: 983 value: 0.166
+984 value: 0.1652
+982 value: 0.1629
+937 value: 0.1628
+888 value: 0.157
+887 value: 0.157
+886 value: 0.154
+841 value: 0.153
+792 value: 0.1378
+791 value: 0.1378
+745 value: 0.1365
+790 value: 0.1356
+1333 value: 0.0972
+1380 value: 0.0965
+1379 value: 0.0962
+1378 value: 0.0941
+1141 value: 0.093
+1079 value: 0.0929
+1080 value: 0.0916
+1187 value: 0.0909
+1188 value: 0.0905
+1142 value: 0.0896
+1078 value: 0.0886
+1033 value: 0.0886
+1091 value: 0.088
+1092 value: 0.0862
+1045 value: 0.0853
+1090 value: 0.0834
+684 value: 0.0694
+683 value: 0.0686
+588 value: 0.0669
+682 value: 0.066
+587 value: 0.066
+1284 value: 0.0649
+1283 value: 0.0648
+637 value: 0.0647
+586 value: 0.0638
+1282 value: 0.0637
+1237 value: 0.0631
+541 value: 0.0628
+492 value: 0.0386
+491 value: 0.0378
+490 value: 0.0362
+445 value: 0.0361
+396 value: 0.0238
+289 value: 0.0236
+395 value: 0.0233
+312 value: 0.0232
+311 value: 0.0231
+336 value: 0.0228
+394 value: 0.0227
+393 value: 0.0226
+685 value: 0.022
+686 value: 0.0203
+732 value: 0.0192
+687 value: 0.0188
+1332 value: 0.01812
+493 value: 0.0175
+1331 value: 0.01707
+1330 value: 0.01649
+1329 value: 0.01602
+494 value: 0.016
+697 value: 0.01564
+540 value: 0.0156
+539 value: 0.0152
+193 value: 0.015
+384 value: 0.01499
+744 value: 0.01483
+383 value: 0.01446
+288 value: 0.01446
+192 value: 0.01446
+1032 value: 0.01445
+936 value: 0.01445
+985 value: 0.01431
+889 value: 0.01426
+
+Relief configuration, lagLimit:1392 lagInterval:48 featureLimitFromInterval:4 reliefFeatureCutOff:75
+Time taken to rank lags w/Rrelief:1927.243
+Lags chosen by relief:983, 984, 982, 937, 888, 887, 886, 841, 792, 791, 745, 790, 1333, 1380, 1379, 1378, 1141, 1079, 1080, 1187, 1188, 1142, 1078, 1033, 1091, 1092, 1045, 1090, 684, 683, 588, 682, 587, 1284, 1283, 637, 586, 1282, 1237, 541, 492, 491, 490, 445, 396, 289, 395, 312, 311, 336, 394, 393, 685, 686, 732, 687, 1332, 493, 1331, 1330, 1329, 494, 697, 540, 539, 193, 384, 744, 383, 288, 192, 1032, 936, 985, 889
+1 2 3 4 7 9 10 65 
+Remaining lags: 1078
+Time taken to evaluate again:2.685
+Time taken to evaluate again:4.176
+Time taken to evaluate again:5.528
+Initial group with numAttribs: 88/n
+Merit: 37.035842019916586
+Remaining lags: 744, 1078
+Time taken to evaluate again:1.935
+Time taken to evaluate again:3.716
+Time taken to evaluate again:5.397
+New merit: 36.85713949967721
+New best merit!
+Remaining lags: 744
+Time taken to evaluate again:1.469
+Time taken to evaluate again:2.847
+Time taken to evaluate again:4.172
+New merit: 37.04483565635663
+Remaining lags: 744, 841, 1078, 1333
+Time taken to evaluate again:2.69
+Time taken to evaluate again:5.296
+Time taken to evaluate again:7.771
+New merit: 32.377591594764795
+New best merit!
+Remaining lags: 336, 744, 841, 1078, 1333
+Time taken to evaluate again:3.099
+Time taken to evaluate again:6.079
+Time taken to evaluate again:8.963
+New merit: 31.032578977118302
+New best merit!
+Remaining lags: 336, 744, 841, 1078, 1092, 1333
+Time taken to evaluate again:3.706
+Time taken to evaluate again:7.208
+Time taken to evaluate again:10.548
+New merit: 27.61886134870715
+New best merit!
+Remaining lags: 336, 396, 744, 841, 1078, 1092, 1333
+Time taken to evaluate again:4.073
+Time taken to evaluate again:8.008
+Time taken to evaluate again:11.85
+New merit: 23.21246630403119
+New best merit!
+Remaining lags: 336, 396, 686, 744, 841, 1078, 1092, 1333
+Time taken to evaluate again:4.602
+Time taken to evaluate again:9.026
+Time taken to evaluate again:13.25
+New merit: 22.752916782506293
+New best merit!
+Remaining lags: 336, 396, 493, 686, 744, 841, 886, 1078, 1092, 1333
+Time taken to evaluate again:5.545
+Time taken to evaluate again:10.877
+Time taken to evaluate again:16.09
+New merit: 22.820711376124443
+Remaining lags: 336, 383, 396, 744, 841, 1078, 1092, 1141, 1333
+Time taken to evaluate again:5.064
+Time taken to evaluate again:9.931
+Time taken to evaluate again:14.67
+New merit: 20.002100257881935
+New best merit!
+Remaining lags: 193, 336, 383, 396, 682, 744, 841, 1078, 1092, 1141, 1333
+Time taken to evaluate again:6.065
+Time taken to evaluate again:11.945
+Time taken to evaluate again:17.615
+New merit: 15.610224062598757
+New best merit!
+Remaining lags: 193, 336, 383, 396, 682, 744, 841, 1078, 1092, 1141, 1237
+Time taken to evaluate again:6.017
+Time taken to evaluate again:11.947
+Time taken to evaluate again:17.573
+New merit: 15.725859796552925
+Remaining lags: 193, 336, 383, 396, 682, 744, 841, 887, 1078, 1092, 1141, 1333
+Time taken to evaluate again:6.612
+Time taken to evaluate again:12.975
+Time taken to evaluate again:19.103
+New merit: 16.108254046896587
+Remaining lags: 193, 336, 383, 396, 682, 744, 841, 1078, 1141, 1333
+Time taken to evaluate again:5.579
+Time taken to evaluate again:10.928
+Time taken to evaluate again:16.095
+New merit: 16.267275029287784
+Remaining lags: 193, 336, 383, 396, 491, 682, 744, 841, 1078, 1092, 1333
+Time taken to evaluate again:6.111
+Time taken to evaluate again:11.964
+Time taken to evaluate again:17.608
+New merit: 15.69053351066514
+Remaining lags: 193, 336, 383, 396, 637, 682, 744, 841, 1078, 1092, 1141, 1333, 1378
+Time taken to evaluate again:7.066
+Time taken to evaluate again:13.989
+Time taken to evaluate again:20.715
+New merit: 15.840514079904764
+Remaining lags: 193, 336, 383, 396, 540, 682, 744, 841, 1078, 1092, 1141, 1333
+Time taken to evaluate again:6.573
+Time taken to evaluate again:13.048
+Time taken to evaluate again:19.266
+New merit: 15.710544700851434
+Remaining lags: 193, 336, 383, 396, 682, 687, 744, 841, 1033, 1078, 1092, 1141, 1142, 1333
+Time taken to evaluate again:7.788
+Time taken to evaluate again:15.267
+Time taken to evaluate again:22.528
+New merit: 15.727458366915714
+Remaining lags: 193, 336, 383, 396, 682, 683, 744, 841, 1078, 1092, 1141, 1333
+Time taken to evaluate again:6.558
+Time taken to evaluate again:12.971
+Time taken to evaluate again:19.253
+New merit: 15.609960579332462
+New best merit!
+Remaining lags: 193, 336, 383, 396, 683, 744, 841, 1078, 1092, 1141, 1333
+Time taken to evaluate again:6.065
+Time taken to evaluate again:11.997
+Time taken to evaluate again:17.656
+New merit: 15.573078749019878
+New best merit!
+Remaining lags: 193, 336, 383, 396, 493, 683, 744, 841, 1078, 1092, 1141, 1333
+Time taken to evaluate again:6.522
+Time taken to evaluate again:12.889
+Time taken to evaluate again:19.061
+New merit: 15.897048263704297
+Remaining lags: 193, 336, 383, 396, 494, 683, 744, 841, 1078, 1092, 1141, 1333, 1379
+Time taken to evaluate again:7.073
+Time taken to evaluate again:13.917
+Time taken to evaluate again:20.554
+New merit: 16.12905177764098
+Remaining lags: 193, 336, 383, 396, 683, 744, 841, 1078, 1092, 1141, 1331, 1333
+Time taken to evaluate again:6.607
+Time taken to evaluate again:13.063
+Time taken to evaluate again:19.24
+New merit: 15.582502304691719
+Remaining lags: 193, 336, 383, 396, 683, 744, 841, 889, 984, 1078, 1092, 1141, 1333
+Time taken to evaluate again:7.134
+Time taken to evaluate again:14.031
+Time taken to evaluate again:20.73
+New merit: 16.280033035714908
+Remaining lags: 193, 336, 383, 396, 683, 744, 841, 1078, 1092, 1141, 1187, 1282, 1333
+Time taken to evaluate again:7.154
+Time taken to evaluate again:14.045
+Time taken to evaluate again:20.752
+New merit: 15.420427282314447
+New best merit!
+Remaining lags: 193, 336, 383, 396, 637, 683, 744, 841, 1078, 1092, 1141, 1187, 1282, 1333
+Time taken to evaluate again:7.772
+Time taken to evaluate again:15.308
+Time taken to evaluate again:22.667
+New merit: 15.65178705354178
+Remaining lags: 193, 336, 383, 396, 683, 744, 841, 983, 1078, 1092, 1141, 1187, 1282, 1333
+Time taken to evaluate again:7.786
+Time taken to evaluate again:15.321
+Time taken to evaluate again:22.653
+New merit: 15.850160397748649
+Remaining lags: 193, 336, 383, 396, 683, 841, 1078, 1092, 1141, 1187, 1282, 1333
+Time taken to evaluate again:6.576
+Time taken to evaluate again:12.948
+Time taken to evaluate again:19.117
+New merit: 15.13298633166873
+New best merit!
+Remaining lags: 193, 336, 383, 396, 541, 683, 841, 1032, 1078, 1092, 1141, 1187, 1282, 1333
+Time taken to evaluate again:7.829
+Time taken to evaluate again:15.62
+Time taken to evaluate again:22.988
+New merit: 15.851085870171321
+Remaining lags: 193, 336, 383, 396, 683, 841, 1078, 1092, 1141, 1187, 1188, 1282, 1333
+Time taken to evaluate again:7.091
+Time taken to evaluate again:14.025
+Time taken to evaluate again:20.705
+New merit: 15.119272642343633
+New best merit!
+Remaining lags: 193, 336, 383, 384, 396, 493, 683, 841, 1078, 1092, 1141, 1187, 1188, 1282, 1333
+Time taken to evaluate again:8.343
+Time taken to evaluate again:16.473
+Time taken to evaluate again:24.385
+New merit: 15.439622448526437
+Remaining lags: 193, 336, 383, 395, 396, 683, 841, 1032, 1078, 1092, 1141, 1187, 1188, 1282, 1333
+Time taken to evaluate again:8.594
+Time taken to evaluate again:16.985
+Time taken to evaluate again:25.394
+New merit: 15.201965234256368
+Remaining lags: 193, 336, 383, 396, 587, 683, 841, 1078, 1092, 1141, 1187, 1188, 1282, 1333
+Time taken to evaluate again:7.823
+Time taken to evaluate again:15.465
+Time taken to evaluate again:22.691
+New merit: 14.967813791705078
+New best merit!
+Remaining lags: 193, 336, 383, 396, 587, 683, 841, 1078, 1090, 1092, 1141, 1187, 1188, 1282, 1333
+Time taken to evaluate again:8.284
+Time taken to evaluate again:16.575
+Time taken to evaluate again:24.848
+New merit: 14.965031946133669
+New best merit!
+Remaining lags: 193, 336, 383, 396, 587, 683, 684, 841, 1078, 1090, 1092, 1141, 1187, 1188, 1282, 1333
+Time taken to evaluate again:9.303
+Time taken to evaluate again:18.009
+Time taken to evaluate again:26.373
+New merit: 14.968439479844358
+Remaining lags: 193, 336, 383, 396, 587, 683, 841, 1078, 1090, 1092, 1187, 1188, 1282, 1333
+Time taken to evaluate again:7.808
+Time taken to evaluate again:15.797
+Time taken to evaluate again:23.255
+New merit: 14.881779431491845
+New best merit!
+Remaining lags: 193, 336, 383, 396, 587, 683, 841, 1078, 1090, 1092, 1187, 1188, 1282, 1283, 1333
+Time taken to evaluate again:8.497
+Time taken to evaluate again:16.965
+Time taken to evaluate again:24.876
+New merit: 14.880756011864003
+New best merit!
+Remaining lags: 193, 336, 383, 396, 539, 587, 683, 841, 982, 1078, 1090, 1092, 1187, 1188, 1282, 1283, 1333
+Time taken to evaluate again:9.515
+Time taken to evaluate again:18.768
+Time taken to evaluate again:27.985
+New merit: 15.72036510108489
+Remaining lags: 193, 336, 383, 396, 587, 683, 841, 1078, 1090, 1092, 1187, 1188, 1282, 1283
+Time taken to evaluate again:7.959
+Time taken to evaluate again:15.608
+Time taken to evaluate again:23.006
+New merit: 14.74351201217109
+New best merit!
+Remaining lags: 193, 336, 383, 396, 587, 683, 841, 886, 1078, 1090, 1092, 1187, 1188, 1282, 1283
+Time taken to evaluate again:8.523
+Time taken to evaluate again:16.66
+Time taken to evaluate again:24.736
+New merit: 14.857829915480746
+Remaining lags: 193, 336, 383, 396, 587, 683, 1078, 1090, 1092, 1187, 1188, 1282, 1283
+Time taken to evaluate again:7.449
+Time taken to evaluate again:14.615
+Time taken to evaluate again:21.429
+New merit: 15.066910414926696
+Remaining lags: 193, 336, 383, 396, 587, 683, 685, 841, 1078, 1090, 1092, 1187, 1188, 1282, 1283
+Time taken to evaluate again:8.504
+Time taken to evaluate again:16.702
+Time taken to evaluate again:24.427
+New merit: 14.783382446892594
+Remaining lags: 193, 336, 383, 396, 587, 683, 841, 1078, 1090, 1092, 1187, 1188, 1282, 1283, 1379
+Time taken to evaluate again:8.685
+Time taken to evaluate again:16.948
+Time taken to evaluate again:24.979
+New merit: 14.656438950863205
+New best merit!
+Remaining lags: 193, 336, 383, 396, 494, 587, 683, 841, 1078, 1090, 1092, 1187, 1188, 1282, 1283, 1379
+Time taken to evaluate again:9.151
+Time taken to evaluate again:18.021
+Time taken to evaluate again:26.572
+New merit: 15.170354365600655
+Remaining lags: 193, 336, 383, 587, 683, 841, 1078, 1090, 1092, 1187, 1188, 1282, 1283, 1379
+Time taken to evaluate again:7.724
+Time taken to evaluate again:15.174
+Time taken to evaluate again:22.553
+New merit: 14.495693761008745
+New best merit!
+Remaining lags: 193, 336, 383, 384, 587, 683, 841, 1078, 1090, 1092, 1187, 1188, 1282, 1283
+Time taken to evaluate again:7.965
+Time taken to evaluate again:15.476
+Time taken to evaluate again:22.993
+New merit: 14.552023991865305
+Remaining lags: 193, 336, 383, 587, 683, 841, 1078, 1090, 1092, 1187, 1188, 1282, 1283, 1333, 1379
+Time taken to evaluate again:8.687
+Time taken to evaluate again:16.917
+Time taken to evaluate again:24.921
+New merit: 14.722499585548748
+Remaining lags: 193, 336, 383, 395, 587, 683, 841, 1078, 1090, 1092, 1187, 1188, 1282, 1283, 1379
+Time taken to evaluate again:8.304
+Time taken to evaluate again:16.475
+Time taken to evaluate again:24.477
+New merit: 14.60734157178745
+Remaining lags: 193, 336, 383, 587, 683, 697, 841, 1078, 1090, 1092, 1187, 1188, 1282, 1283, 1379
+Time taken to evaluate again:8.808
+Time taken to evaluate again:17.044
+Time taken to evaluate again:25.26
+New merit: 14.980156359710016
+Remaining lags: 193, 336, 383, 587, 683, 841, 1078, 1090, 1187, 1188, 1282, 1283, 1379
+Time taken to evaluate again:7.249
+Time taken to evaluate again:14.523
+Time taken to evaluate again:21.57
+New merit: 14.458467051803984
+New best merit!
+Remaining lags: 193, 289, 336, 383, 587, 683, 841, 1078, 1090, 1187, 1188, 1282, 1283, 1379
+Time taken to evaluate again:8.057
+Time taken to evaluate again:15.761
+Time taken to evaluate again:23.07
+New merit: 14.335949582742327
+New best merit!
+Remaining lags: 193, 289, 336, 383, 587, 683, 841, 1033, 1078, 1090, 1092, 1187, 1188, 1282, 1283, 1379
+Time taken to evaluate again:8.867
+Time taken to evaluate again:17.496
+Time taken to evaluate again:25.988
+New merit: 14.431273126958976
+Remaining lags: 193, 289, 336, 383, 445, 587, 683, 841, 1078, 1090, 1187, 1188, 1282, 1283, 1379
+Time taken to evaluate again:8.504
+Time taken to evaluate again:16.693
+Time taken to evaluate again:24.64
+New merit: 15.09958836789606
+Remaining lags: 193, 289, 336, 383, 587, 683, 1078, 1090, 1187, 1188, 1282, 1283, 1379
+Time taken to evaluate again:7.309
+Time taken to evaluate again:14.442
+Time taken to evaluate again:21.219
+New merit: 14.734500218155341
+Remaining lags: 193, 289, 336, 383, 587, 683, 841, 1045, 1078, 1090, 1187, 1188, 1282, 1283, 1379
+Time taken to evaluate again:8.414
+Time taken to evaluate again:16.689
+Time taken to evaluate again:24.935
+New merit: 14.435549529167913
+Remaining lags: 193, 289, 336, 383, 587, 683, 841, 1078, 1080, 1090, 1187, 1188, 1282, 1283, 1332, 1379
+Time taken to evaluate again:8.955
+Time taken to evaluate again:17.649
+Time taken to evaluate again:26.193
+New merit: 14.540126234295505
+Remaining lags: 193, 289, 336, 683, 841, 1078, 1090, 1187, 1188, 1282, 1283, 1379
+Time taken to evaluate again:6.808
+Time taken to evaluate again:13.354
+Time taken to evaluate again:19.759
+New merit: 14.413787740371397
+Remaining lags: 193, 289, 336, 383, 587, 683, 841, 1090, 1187, 1188, 1282, 1283, 1379
+Time taken to evaluate again:7.44
+Time taken to evaluate again:14.384
+Time taken to evaluate again:21.187
+New merit: 14.339272707212777
+Remaining lags: 193, 289, 336, 383, 587, 682, 683, 841, 1078, 1090, 1187, 1188, 1282, 1283, 1379
+Time taken to evaluate again:8.297
+Time taken to evaluate again:16.314
+Time taken to evaluate again:24.232
+New merit: 14.401943308556682
+Remaining lags: 289, 336, 383, 395, 587, 637, 683, 841, 1078, 1090, 1187, 1188, 1282, 1283, 1379
+Time taken to evaluate again:8.63
+Time taken to evaluate again:16.976
+Time taken to evaluate again:24.945
+New merit: 17.349792803850605
+Remaining lags: 193, 289, 336, 383, 492, 494, 587, 683, 841, 1078, 1090, 1187, 1188, 1282, 1283, 1379
+Time taken to evaluate again:8.955
+Time taken to evaluate again:17.912
+Time taken to evaluate again:26.707
+New merit: 15.050596698859458
+Remaining lags: 193, 289, 336, 383, 683, 841, 1078, 1090, 1187, 1188, 1282, 1283, 1379
+Time taken to evaluate again:7.462
+Time taken to evaluate again:14.525
+Time taken to evaluate again:21.392
+New merit: 14.431456163009592
+Remaining lags: 193, 289, 336, 383, 587, 683, 841, 1078, 1090, 1187, 1282, 1283, 1379
+Time taken to evaluate again:7.276
+Time taken to evaluate again:14.216
+Time taken to evaluate again:21.06
+New merit: 14.340201508524737
+Remaining lags: 193, 289, 311, 336, 383, 587, 683, 841, 1078, 1090, 1187, 1188, 1282, 1283, 1379
+Time taken to evaluate again:8.539
+Time taken to evaluate again:16.816
+Time taken to evaluate again:25.008
+New merit: 14.88423600522347
+Remaining lags: 193, 289, 336, 383, 587, 683, 687, 841, 937, 1078, 1090, 1187, 1188, 1282, 1283, 1379
+Time taken to evaluate again:9.029
+Time taken to evaluate again:17.725
+Time taken to evaluate again:26.148
+New merit: 14.624468406415794
+Remaining lags: 193, 289, 336, 383, 494, 587, 683, 841, 1078, 1080, 1090, 1187, 1188, 1282, 1283, 1379
+Time taken to evaluate again:8.971
+Time taken to evaluate again:17.52
+Time taken to evaluate again:25.904
+New merit: 15.066179475351191
+Remaining lags: 193, 289, 336, 383, 587, 841, 1078, 1090, 1187, 1188, 1282, 1283, 1379
+Time taken to evaluate again:7.239
+Time taken to evaluate again:14.305
+Time taken to evaluate again:21.306
+New merit: 15.185007400001764
+Remaining lags: 193, 289, 336, 383, 587, 683, 841, 1078, 1090, 1188, 1282, 1283, 1379
+Time taken to evaluate again:7.348
+Time taken to evaluate again:14.443
+Time taken to evaluate again:21.421
+New merit: 14.326679940195655
+New best merit!
+Remaining lags: 193, 289, 336, 383, 587, 683, 841, 984, 1078, 1090, 1188, 1282, 1283, 1379
+Time taken to evaluate again:7.856
+Time taken to evaluate again:15.378
+Time taken to evaluate again:22.859
+New merit: 14.570911037090555
+Remaining lags: 193, 289, 336, 383, 395, 587, 683, 841, 1090, 1188, 1282, 1283, 1379
+Time taken to evaluate again:7.458
+Time taken to evaluate again:14.525
+Time taken to evaluate again:21.531
+New merit: 14.453565796548993
+Remaining lags: 192, 193, 289, 336, 383, 587, 588, 683, 841, 1078, 1090, 1188, 1282, 1283, 1379
+Time taken to evaluate again:8.495
+Time taken to evaluate again:16.662
+Time taken to evaluate again:24.608
+New merit: 14.312000236552409
+New best merit!
+Remaining lags: 192, 193, 289, 336, 383, 587, 588, 683, 841, 1078, 1090, 1188, 1282, 1379
+Time taken to evaluate again:8.073
+Time taken to evaluate again:15.542
+Time taken to evaluate again:22.692
+New merit: 14.307100961704073
+New best merit!
+Remaining lags: 192, 193, 289, 336, 383, 587, 588, 683, 684, 841, 1078, 1090, 1188, 1282, 1379
+Time taken to evaluate again:8.354
+Time taken to evaluate again:16.473
+Time taken to evaluate again:24.388
+New merit: 14.315121411116294
+Remaining lags: 192, 193, 289, 336, 383, 587, 588, 683, 790, 841, 1078, 1090, 1188, 1282, 1379
+Time taken to evaluate again:8.621
+Time taken to evaluate again:16.919
+Time taken to evaluate again:24.772
+New merit: 14.317368863351989
+Remaining lags: 192, 193, 289, 336, 383, 587, 588, 683, 841, 1078, 1090, 1188, 1282, 1332, 1379
+Time taken to evaluate again:8.335
+Time taken to evaluate again:16.305
+Time taken to evaluate again:24.193
+New merit: 14.489077974235013
+Remaining lags: 192, 193, 289, 336, 383, 586, 587, 588, 683, 841, 1078, 1090, 1188, 1282, 1379
+Time taken to evaluate again:8.305
+Time taken to evaluate again:16.492
+Time taken to evaluate again:24.543
+New merit: 14.325458703821331
+Remaining lags: 192, 193, 289, 336, 383, 587, 588, 683, 792, 841, 1078, 1090, 1188, 1282, 1379
+Time taken to evaluate again:8.265
+Time taken to evaluate again:16.365
+Time taken to evaluate again:24.169
+New merit: 14.336343531448215
+Remaining lags: 192, 193, 289, 336, 383, 587, 588, 683, 841, 1078, 1090, 1141, 1188, 1282, 1379
+Time taken to evaluate again:8.22
+Time taken to evaluate again:16.191
+Time taken to evaluate again:23.906
+New merit: 14.59639541380314
+Remaining lags: 192, 193, 289, 336, 383, 587, 588, 683, 841, 937, 1078, 1090, 1188, 1282, 1331, 1379
+Time taken to evaluate again:8.882
+Time taken to evaluate again:17.326
+Time taken to evaluate again:25.746
+New merit: 14.523843344978332
+Remaining lags: 192, 193, 289, 336, 383, 587, 588, 683, 841, 1045, 1078, 1090, 1188, 1282, 1379
+Time taken to evaluate again:8.271
+Time taken to evaluate again:16.416
+Time taken to evaluate again:24.109
+New merit: 14.383334786879773
+Remaining lags: 192, 193, 289, 336, 587, 588, 683, 841, 886, 1078, 1090, 1188, 1282, 1379
+Time taken to evaluate again:7.79
+Time taken to evaluate again:15.229
+Time taken to evaluate again:22.566
+New merit: 14.38375701158853
+Remaining lags: 192, 193, 289, 336, 383, 587, 588, 683, 841, 1078, 1090, 1188, 1282
+Time taken to evaluate again:7.318
+Time taken to evaluate again:14.2
+Time taken to evaluate again:20.928
+New merit: 14.358708553918918
+Remaining lags: 192, 193, 289, 336, 383, 587, 588, 683, 841, 983, 1078, 1090, 1188, 1282, 1379
+Time taken to evaluate again:8.292
+Time taken to evaluate again:16.366
+Time taken to evaluate again:24.194
+New merit: 14.58398587732233
+Remaining lags: 192, 193, 289, 336, 383, 587, 588, 683, 841, 1090, 1188, 1282, 1379
+Time taken to evaluate again:7.108
+Time taken to evaluate again:14.073
+Time taken to evaluate again:20.746
+New merit: 14.317752256927612
+Remaining lags: 192, 193, 289, 336, 383, 540, 587, 588, 683, 697, 841, 1078, 1090, 1188, 1282, 1379
+Time taken to evaluate again:8.869
+Time taken to evaluate again:17.645
+Time taken to evaluate again:26.221
+New merit: 15.957929864281033
+Remaining lags: 192, 193, 288, 289, 336, 383, 587, 588, 683, 841, 1078, 1188, 1282, 1379
+Time taken to evaluate again:7.699
+Time taken to evaluate again:15.174
+Time taken to evaluate again:22.417
+New merit: 14.248465363085854
+New best merit!
+Remaining lags: 192, 193, 288, 289, 336, 383, 393, 587, 588, 683, 841, 1078, 1188, 1282, 1378, 1379
+Time taken to evaluate again:8.843
+Time taken to evaluate again:17.591
+Time taken to evaluate again:25.844
+New merit: 14.31739150250564
+Remaining lags: 192, 193, 288, 289, 336, 383, 587, 588, 683, 841, 984, 1078, 1091, 1188, 1282, 1379
+Time taken to evaluate again:8.739
+Time taken to evaluate again:17.339
+Time taken to evaluate again:25.61
+New merit: 14.572754875464122
+Remaining lags: 192, 193, 289, 336, 383, 587, 588, 683, 841, 1078, 1188, 1282, 1379
+Time taken to evaluate again:7.047
+Time taken to evaluate again:13.91
+Time taken to evaluate again:20.514
+New merit: 14.273077949255676
+Remaining lags: 192, 193, 288, 289, 336, 383, 445, 587, 588, 683, 841, 1078, 1188, 1282, 1379
+Time taken to evaluate again:8.227
+Time taken to evaluate again:16.302
+Time taken to evaluate again:24.13
+New merit: 14.979982676158347
+Remaining lags: 192, 193, 288, 289, 336, 383, 587, 588, 637, 683, 841, 1078, 1188, 1282, 1379
+Time taken to evaluate again:8.5
+Time taken to evaluate again:16.413
+Time taken to evaluate again:24.292
+New merit: 15.009266982828873
+Remaining lags: 192, 193, 288, 289, 336, 383, 587, 588, 683, 790, 841, 1078, 1188, 1282, 1379
+Time taken to evaluate again:8.361
+Time taken to evaluate again:16.449
+Time taken to evaluate again:24.345
+New merit: 14.35799163553291
+Remaining lags: 192, 193, 288, 289, 336, 383, 587, 588, 683, 841, 1078, 1188, 1282, 1378, 1379
+Time taken to evaluate again:8.21
+Time taken to evaluate again:16.287
+Time taken to evaluate again:24.133
+New merit: 14.245615032284237
+New best merit!
+Remaining lags: 192, 193, 288, 289, 336, 383, 396, 587, 588, 683, 841, 1078, 1188, 1282, 1378, 1379
+Time taken to evaluate again:8.946
+Time taken to evaluate again:17.632
+Time taken to evaluate again:26.106
+New merit: 14.412267976951322
+Remaining lags: 192, 193, 288, 289, 336, 383, 587, 588, 683, 732, 841, 1078, 1188, 1282, 1332, 1378, 1379
+Time taken to evaluate again:9.434
+Time taken to evaluate again:18.585
+Time taken to evaluate again:27.453
+New merit: 14.86946086976198
+Remaining lags: 192, 193, 288, 289, 336, 383, 587, 588, 683, 687, 841, 1078, 1188, 1282, 1378, 1379
+Time taken to evaluate again:8.772
+Time taken to evaluate again:17.343
+Time taken to evaluate again:25.79
+New merit: 14.43847630732848
+Remaining lags: 192, 193, 288, 289, 336, 383, 587, 588, 683, 697, 841, 1078, 1188, 1282, 1378, 1379
+Time taken to evaluate again:8.837
+Time taken to evaluate again:17.582
+Time taken to evaluate again:25.983
+New merit: 14.688190332548947
+Remaining lags: 192, 193, 288, 289, 336, 383, 587, 588, 683, 841, 1078, 1092, 1188, 1282, 1378, 1379
+Time taken to evaluate again:8.82
+Time taken to evaluate again:17.34
+Time taken to evaluate again:25.694
+New merit: 14.326808836530914
+Remaining lags: 192, 193, 288, 289, 383, 587, 588, 683, 841, 1078, 1188, 1282, 1378, 1379
+Time taken to evaluate again:8.174
+Time taken to evaluate again:16.05
+Time taken to evaluate again:23.461
+New merit: 14.226964640422594
+New best merit!
+Remaining lags: 192, 193, 288, 289, 383, 587, 588, 683, 841, 1078, 1188, 1237, 1282, 1378, 1379
+Time taken to evaluate again:8.426
+Time taken to evaluate again:16.487
+Time taken to evaluate again:24.341
+New merit: 14.385266811520669
+Remaining lags: 192, 193, 288, 289, 383, 492, 587, 588, 683, 841, 1032, 1078, 1188, 1282, 1378, 1379
+Time taken to evaluate again:8.972
+Time taken to evaluate again:17.717
+Time taken to evaluate again:26.273
+New merit: 14.52684643593601
+Remaining lags: 192, 193, 288, 289, 383, 587, 588, 683, 792, 841, 1078, 1188, 1282, 1378, 1379
+Time taken to evaluate again:8.33
+Time taken to evaluate again:16.41
+Time taken to evaluate again:24.278
+New merit: 14.189992288609677
+New best merit!
+Remaining lags: 192, 193, 288, 289, 383, 587, 588, 683, 792, 841, 1188, 1282, 1378, 1379
+Time taken to evaluate again:7.643
+Time taken to evaluate again:15.025
+Time taken to evaluate again:22.349
+New merit: 14.206465986383002
+Remaining lags: 192, 193, 288, 289, 383, 587, 588, 683, 792, 841, 1078, 1080, 1188, 1282, 1378, 1379
+Time taken to evaluate again:8.883
+Time taken to evaluate again:17.464
+Time taken to evaluate again:25.906
+New merit: 14.19179865657234
+Remaining lags: 192, 193, 288, 289, 383, 587, 588, 683, 792, 841, 1078, 1188, 1282, 1329, 1378, 1379
+Time taken to evaluate again:8.939
+Time taken to evaluate again:17.579
+Time taken to evaluate again:26.033
+New merit: 14.22660651291239
+Remaining lags: 192, 193, 288, 289, 383, 396, 587, 588, 683, 792, 841, 1078, 1188, 1282, 1378, 1379
+Time taken to evaluate again:8.75
+Time taken to evaluate again:17.344
+Time taken to evaluate again:25.526
+New merit: 14.40768709059249
+Remaining lags: 192, 193, 288, 289, 383, 384, 587, 588, 683, 792, 841, 983, 1078, 1188, 1282, 1378, 1379
+Time taken to evaluate again:9.483
+Time taken to evaluate again:18.991
+Time taken to evaluate again:27.92
+New merit: 14.550758019276486
+Remaining lags: 192, 193, 288, 289, 383, 587, 588, 683, 744, 792, 841, 888, 1078, 1188, 1282, 1378, 1379
+Time taken to evaluate again:9.356
+Time taken to evaluate again:18.635
+Time taken to evaluate again:27.623
+New merit: 14.991948311781295
+Remaining lags: 192, 193, 288, 289, 383, 493, 587, 588, 683, 792, 841, 1078, 1188, 1282, 1331, 1378, 1379
+Time taken to evaluate again:9.54
+Time taken to evaluate again:19.02
+Time taken to evaluate again:28.007
+New merit: 14.532122225332396
+Remaining lags: 192, 193, 288, 289, 383, 587, 588, 683, 792, 841, 1078, 1142, 1188, 1282, 1378, 1379
+Time taken to evaluate again:9.029
+Time taken to evaluate again:17.622
+Time taken to evaluate again:25.948
+New merit: 14.753103161479237
+Remaining lags: 192, 193, 288, 289, 383, 539, 540, 587, 588, 682, 683, 792, 841, 1078, 1188, 1282, 1378, 1379
+Time taken to evaluate again:9.991
+Time taken to evaluate again:20.024
+Time taken to evaluate again:29.588
+New merit: 14.769249756511616
+Remaining lags: 192, 193, 288, 289, 383, 490, 587, 588, 683, 792, 841, 1078, 1188, 1282, 1378, 1379
+Time taken to evaluate again:9.034
+Time taken to evaluate again:17.683
+Time taken to evaluate again:26.17
+New merit: 14.351194556526403
+Remaining lags: 192, 193, 288, 289, 383, 587, 588, 683, 792, 841, 1078, 1188, 1282, 1333, 1378, 1379
+Time taken to evaluate again:8.96
+Time taken to evaluate again:17.521
+Time taken to evaluate again:25.889
+New merit: 14.406984615833103
+Remaining lags: 192, 193, 288, 289, 383, 490, 587, 588, 683, 792, 841, 1078, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:9.43
+Time taken to evaluate again:18.652
+Time taken to evaluate again:27.67
+New merit: 14.343992618007361
+Remaining lags: 192, 193, 288, 289, 383, 587, 588, 683, 792, 841, 1078, 1187, 1188, 1282, 1378, 1379
+Time taken to evaluate again:9.108
+Time taken to evaluate again:18.069
+Time taken to evaluate again:26.477
+New merit: 14.19138082474427
+Remaining lags: 192, 193, 288, 289, 383, 587, 588, 683, 792, 841, 1033, 1078, 1188, 1282, 1378, 1379
+Time taken to evaluate again:9.129
+Time taken to evaluate again:17.668
+Time taken to evaluate again:26.063
+New merit: 14.322707714958854
+Remaining lags: 192, 193, 288, 289, 383, 587, 588, 683, 686, 792, 841, 889, 1078, 1092, 1188, 1282, 1378, 1379
+Time taken to evaluate again:10.065
+Time taken to evaluate again:19.823
+Time taken to evaluate again:29.362
+New merit: 14.58809845097431
+Remaining lags: 192, 193, 288, 289, 383, 587, 588, 683, 686, 792, 841, 982, 1078, 1188, 1282, 1378, 1379
+Time taken to evaluate again:9.36
+Time taken to evaluate again:18.563
+Time taken to evaluate again:27.736
+New merit: 14.541219714419025
+Remaining lags: 192, 193, 288, 289, 383, 587, 792, 841, 1078, 1188, 1282, 1378, 1379
+Time taken to evaluate again:7.234
+Time taken to evaluate again:14.458
+Time taken to evaluate again:21.44
+New merit: 14.424866717770332
+Remaining lags: 192, 193, 288, 289, 383, 587, 588, 683, 792, 841, 886, 1078, 1188, 1282, 1378, 1379
+Time taken to evaluate again:8.991
+Time taken to evaluate again:17.585
+Time taken to evaluate again:26.135
+New merit: 14.428552948255113
+Remaining lags: 192, 193, 288, 289, 383, 494, 587, 588, 683, 792, 841, 1078, 1188, 1282, 1378, 1379
+Time taken to evaluate again:8.984
+Time taken to evaluate again:17.781
+Time taken to evaluate again:26.073
+New merit: 14.504498102536562
+Remaining lags: 192, 193, 288, 289, 383, 587, 588, 683, 732, 792, 841, 1078, 1188, 1282, 1378, 1379
+Time taken to evaluate again:8.783
+Time taken to evaluate again:17.387
+Time taken to evaluate again:25.879
+New merit: 15.46049791943269
+Remaining lags: 192, 193, 288, 289, 383, 587, 588, 683, 792, 841, 887, 937, 1078, 1188, 1282, 1378, 1379
+Time taken to evaluate again:9.5
+Time taken to evaluate again:18.917
+Time taken to evaluate again:28.166
+New merit: 14.698487434323239
+Remaining lags: 192, 193, 288, 289, 383, 587, 588, 683, 685, 792, 841, 1078, 1188, 1282, 1378, 1379
+Time taken to evaluate again:8.974
+Time taken to evaluate again:18.129
+Time taken to evaluate again:26.466
+New merit: 14.191340550465497
+Remaining lags: 192, 193, 288, 289, 383, 493, 587, 588, 683, 792, 841, 1032, 1078, 1188, 1282, 1378, 1379
+Time taken to evaluate again:9.871
+Time taken to evaluate again:19.688
+Time taken to evaluate again:28.755
+New merit: 14.562558925970492
+Remaining lags: 192, 193, 288, 289, 383, 393, 587, 588, 682, 683, 792, 841, 1078, 1188, 1282, 1378, 1379
+Time taken to evaluate again:9.486
+Time taken to evaluate again:18.767
+Time taken to evaluate again:27.695
+New merit: 14.372641328157853
+Remaining lags: 192, 193, 288, 289, 587, 588, 683, 792, 841, 1078, 1188, 1282, 1378, 1379
+Time taken to evaluate again:7.825
+Time taken to evaluate again:15.92
+Time taken to evaluate again:23.563
+New merit: 14.071939252615225
+New best merit!
+Remaining lags: 192, 193, 288, 289, 587, 588, 683, 792, 841, 1045, 1078, 1187, 1188, 1282, 1378, 1379
+Time taken to evaluate again:9.668
+Time taken to evaluate again:18.551
+Time taken to evaluate again:26.802
+New merit: 14.354412585607575
+Remaining lags: 192, 193, 288, 289, 445, 587, 588, 683, 686, 792, 841, 1032, 1078, 1188, 1282, 1378, 1379
+Time taken to evaluate again:9.529
+Time taken to evaluate again:18.811
+Time taken to evaluate again:27.727
+New merit: 14.967796471742197
+Remaining lags: 192, 193, 288, 587, 588, 683, 792, 841, 1078, 1188, 1282, 1378, 1379
+Time taken to evaluate again:7.18
+Time taken to evaluate again:14.316
+Time taken to evaluate again:21.005
+New merit: 14.059272288093874
+New best merit!
+Remaining lags: 192, 193, 288, 587, 588, 683, 792, 841, 1078, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:7.695
+Time taken to evaluate again:15.158
+Time taken to evaluate again:22.633
+New merit: 14.051699867013177
+New best merit!
+Remaining lags: 193, 288, 587, 683, 792, 841, 1078, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:6.839
+Time taken to evaluate again:13.51
+Time taken to evaluate again:19.754
+New merit: 14.061477892245447
+Remaining lags: 192, 193, 288, 493, 587, 588, 683, 792, 841, 1078, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:8.43
+Time taken to evaluate again:16.512
+Time taken to evaluate again:24.583
+New merit: 14.104163713956396
+Remaining lags: 192, 193, 288, 493, 587, 588, 683, 841, 1078, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:7.679
+Time taken to evaluate again:15.497
+Time taken to evaluate again:23.013
+New merit: 14.139339995947452
+Remaining lags: 192, 193, 288, 492, 587, 588, 683, 792, 841, 1078, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:8.473
+Time taken to evaluate again:16.438
+Time taken to evaluate again:24.137
+New merit: 14.077812114989044
+Remaining lags: 192, 193, 288, 587, 588, 683, 792, 841, 936, 1078, 1188, 1282, 1333, 1378, 1379, 1380
+Time taken to evaluate again:8.979
+Time taken to evaluate again:17.521
+Time taken to evaluate again:25.837
+New merit: 14.204227454917726
+Remaining lags: 192, 193, 288, 587, 588, 683, 792, 841, 1033, 1078, 1188, 1282, 1284, 1378, 1379, 1380
+Time taken to evaluate again:8.785
+Time taken to evaluate again:17.42
+Time taken to evaluate again:26.082
+New merit: 14.230231459697904
+Remaining lags: 192, 193, 288, 587, 588, 683, 744, 792, 841, 1078, 1282, 1378, 1379, 1380
+Time taken to evaluate again:7.746
+Time taken to evaluate again:15.238
+Time taken to evaluate again:22.503
+New merit: 14.423824145810205
+Remaining lags: 192, 193, 288, 587, 588, 683, 792, 841, 889, 1078, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:8.27
+Time taken to evaluate again:16.628
+Time taken to evaluate again:25.029
+New merit: 14.243518919054875
+Remaining lags: 192, 193, 288, 540, 587, 588, 683, 792, 841, 1078, 1188, 1282, 1378, 1379
+Time taken to evaluate again:7.738
+Time taken to evaluate again:15.463
+Time taken to evaluate again:22.861
+New merit: 15.142559663511118
+Remaining lags: 192, 193, 288, 587, 588, 683, 792, 1078, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:7.275
+Time taken to evaluate again:14.207
+Time taken to evaluate again:21.069
+New merit: 14.004210014741203
+New best merit!
+Remaining lags: 192, 193, 288, 396, 587, 588, 683, 792, 1078, 1188, 1378, 1379, 1380
+Time taken to evaluate again:7.113
+Time taken to evaluate again:14.308
+Time taken to evaluate again:21.096
+New merit: 14.042582393149582
+Remaining lags: 193, 288, 587, 588, 683, 792, 1078, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:6.773
+Time taken to evaluate again:13.506
+Time taken to evaluate again:19.693
+New merit: 14.41528363893187
+Remaining lags: 192, 193, 288, 493, 587, 588, 683, 792, 1078, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:7.97
+Time taken to evaluate again:15.864
+Time taken to evaluate again:23.292
+New merit: 14.062162636883128
+Remaining lags: 192, 193, 288, 541, 587, 588, 683, 792, 1078, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:7.762
+Time taken to evaluate again:15.246
+Time taken to evaluate again:22.493
+New merit: 15.096891273396375
+Remaining lags: 192, 193, 288, 336, 587, 588, 683, 745, 792, 1078, 1079, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:8.913
+Time taken to evaluate again:17.437
+Time taken to evaluate again:25.912
+New merit: 14.500953463514659
+Remaining lags: 192, 193, 288, 383, 587, 588, 682, 683, 792, 984, 1078, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:9.324
+Time taken to evaluate again:17.962
+Time taken to evaluate again:26.304
+New merit: 15.101027725475431
+Remaining lags: 192, 193, 288, 587, 588, 683, 792, 1078, 1141, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:7.714
+Time taken to evaluate again:15.298
+Time taken to evaluate again:22.807
+New merit: 15.024039227580019
+Remaining lags: 192, 193, 288, 383, 587, 588, 683, 792, 1078, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:7.786
+Time taken to evaluate again:15.25
+Time taken to evaluate again:22.415
+New merit: 14.651352234924122
+Remaining lags: 192, 193, 288, 586, 587, 588, 683, 792, 1078, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:7.574
+Time taken to evaluate again:14.971
+Time taken to evaluate again:22.225
+New merit: 14.031766189674203
+Remaining lags: 192, 193, 288, 587, 588, 683, 686, 792, 887, 1078, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:8.25
+Time taken to evaluate again:16.264
+Time taken to evaluate again:23.976
+New merit: 14.190893236263934
+Remaining lags: 192, 193, 288, 587, 588, 683, 792, 1078, 1188, 1378, 1379, 1380
+Time taken to evaluate again:6.557
+Time taken to evaluate again:13.03
+Time taken to evaluate again:19.156
+New merit: 14.02834488581649
+Remaining lags: 192, 193, 288, 587, 588, 683, 792, 1078, 1187, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:7.811
+Time taken to evaluate again:15.535
+Time taken to evaluate again:23.362
+New merit: 14.002641055825153
+New best merit!
+Remaining lags: 192, 193, 288, 586, 587, 588, 683, 792, 1078, 1187, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:8.414
+Time taken to evaluate again:16.454
+Time taken to evaluate again:24.259
+New merit: 14.029031786553082
+Remaining lags: 192, 193, 288, 587, 588, 683, 791, 792, 1187, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:7.656
+Time taken to evaluate again:15.273
+Time taken to evaluate again:22.583
+New merit: 13.980847048982833
+New best merit!
+Remaining lags: 192, 193, 288, 587, 588, 683, 684, 791, 792, 1187, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:8.307
+Time taken to evaluate again:16.423
+Time taken to evaluate again:24.138
+New merit: 13.9952715978319
+Remaining lags: 192, 193, 288, 586, 587, 588, 683, 791, 792, 985, 1187, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:8.753
+Time taken to evaluate again:17.429
+Time taken to evaluate again:26.088
+New merit: 14.241022193122985
+Remaining lags: 192, 193, 288, 587, 588, 683, 791, 792, 936, 1187, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:8.694
+Time taken to evaluate again:16.705
+Time taken to evaluate again:24.427
+New merit: 14.170766759125142
+Remaining lags: 192, 193, 288, 384, 587, 588, 683, 791, 792, 1032, 1187, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:8.842
+Time taken to evaluate again:17.472
+Time taken to evaluate again:25.79
+New merit: 14.577468668360964
+Remaining lags: 192, 193, 288, 587, 588, 683, 790, 791, 792, 936, 1187, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:8.863
+Time taken to evaluate again:17.351
+Time taken to evaluate again:25.896
+New merit: 14.169907761225437
+Remaining lags: 192, 193, 288, 587, 588, 683, 791, 792, 1187, 1188, 1282, 1378, 1379
+Time taken to evaluate again:7.235
+Time taken to evaluate again:14.318
+Time taken to evaluate again:21.151
+New merit: 13.98697621105255
+Remaining lags: 192, 193, 288, 587, 588, 683, 791, 792, 1079, 1187, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:8.443
+Time taken to evaluate again:16.57
+Time taken to evaluate again:24.345
+New merit: 13.995632138795107
+Remaining lags: 192, 193, 288, 384, 587, 588, 683, 791, 792, 1187, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:8.215
+Time taken to evaluate again:16.122
+Time taken to evaluate again:23.823
+New merit: 14.543820326118636
+Remaining lags: 192, 193, 288, 587, 588, 683, 791, 792, 1187, 1188, 1282, 1331, 1378, 1379, 1380
+Time taken to evaluate again:8.152
+Time taken to evaluate again:16.234
+Time taken to evaluate again:23.987
+New merit: 14.575629851779617
+Remaining lags: 192, 193, 288, 587, 588, 683, 791, 792, 985, 1187, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:8.165
+Time taken to evaluate again:16.115
+Time taken to evaluate again:23.923
+New merit: 14.203166049786777
+Remaining lags: 192, 193, 288, 587, 588, 791, 792, 1187, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:7.117
+Time taken to evaluate again:13.983
+Time taken to evaluate again:20.751
+New merit: 13.80517931042447
+New best merit!
+Remaining lags: 192, 193, 288, 587, 588, 791, 792, 1187, 1282, 1378, 1379, 1380
+Time taken to evaluate again:6.66
+Time taken to evaluate again:13.103
+Time taken to evaluate again:19.333
+New merit: 13.831684225152957
+Remaining lags: 192, 193, 288, 587, 588, 791, 792, 1080, 1187, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:7.667
+Time taken to evaluate again:15.195
+Time taken to evaluate again:22.338
+New merit: 13.807385005665813
+Remaining lags: 192, 193, 288, 587, 588, 687, 791, 792, 1187, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:7.842
+Time taken to evaluate again:15.359
+Time taken to evaluate again:22.656
+New merit: 13.822083005966153
+Remaining lags: 192, 193, 288, 587, 588, 745, 791, 792, 1187, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:7.685
+Time taken to evaluate again:15.135
+Time taken to evaluate again:22.4
+New merit: 14.360571542341505
+Remaining lags: 192, 193, 288, 587, 588, 791, 792, 937, 1187, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:7.69
+Time taken to evaluate again:15.034
+Time taken to evaluate again:22.265
+New merit: 13.983889534377454
+Remaining lags: 192, 193, 288, 587, 588, 791, 792, 1078, 1187, 1188, 1237, 1282, 1378, 1379, 1380
+Time taken to evaluate again:8.305
+Time taken to evaluate again:16.309
+Time taken to evaluate again:23.985
+New merit: 14.691333434045948
+Remaining lags: 192, 193, 288, 587, 588, 791, 792, 936, 1187, 1188, 1378, 1379, 1380
+Time taken to evaluate again:7.072
+Time taken to evaluate again:13.834
+Time taken to evaluate again:20.449
+New merit: 14.285754953347228
+Remaining lags: 192, 193, 288, 587, 588, 687, 791, 792, 1032, 1187, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:8.129
+Time taken to evaluate again:16.023
+Time taken to evaluate again:23.782
+New merit: 14.276024233627906
+Remaining lags: 192, 193, 288, 587, 588, 791, 1187, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:6.533
+Time taken to evaluate again:12.816
+Time taken to evaluate again:18.946
+New merit: 13.81591575506587
+Remaining lags: 192, 193, 288, 587, 588, 744, 791, 792, 1187, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:7.628
+Time taken to evaluate again:15.119
+Time taken to evaluate again:22.341
+New merit: 14.364102184086152
+Remaining lags: 192, 193, 587, 588, 791, 792, 1187, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:6.568
+Time taken to evaluate again:12.857
+Time taken to evaluate again:19.071
+New merit: 14.608053087660716
+Remaining lags: 192, 193, 288, 494, 587, 588, 732, 791, 792, 1187, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:8.238
+Time taken to evaluate again:16.206
+Time taken to evaluate again:24.009
+New merit: 14.98926903758816
+Remaining lags: 193, 288, 587, 588, 791, 792, 1187, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:6.563
+Time taken to evaluate again:12.932
+Time taken to evaluate again:19.171
+New merit: 14.240817633063436
+Remaining lags: 192, 193, 288, 587, 588, 685, 791, 792, 1187, 1188, 1282, 1378, 1379, 1380
+Time taken to evaluate again:7.686
+Time taken to evaluate again:15.041
+Time taken to evaluate again:22.265
+New merit: 13.876016444498275
+Remaining lags: 192, 193, 288, 587, 588, 791, 792, 889, 1187, 1188, 1237, 1282, 1378, 1379, 1380
+Time taken to evaluate again:8.24
+Time taken to evaluate again:16.237
+>>>>>>> 115626e7b107ff8d5c8ab9b44adddd4efad753b9
