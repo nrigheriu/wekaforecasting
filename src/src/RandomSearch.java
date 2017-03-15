@@ -206,6 +206,8 @@ public class RandomSearch{
         LinearRegression linearRegression = new LinearRegression();
         linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1 -R 1E-6"));
         tsWrapper.setM_BaseClassifier(linearRegression);
+        System.out.println("Using RA and " + tsWrapper.getM_BaseClassifier() + " as classifier.");
+
         m_numAttribs = data.numAttributes();
         SubsetHandler subsetHandler = new SubsetHandler();
         subsetHandler.setM_numAttribs(m_numAttribs);

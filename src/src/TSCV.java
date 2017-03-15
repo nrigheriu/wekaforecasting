@@ -31,7 +31,7 @@ public class TSCV {
             forecaster.setFieldsToForecast(tsLagMaker.getFieldsToLagAsString());
             forecaster.setBaseForecaster(classifier);
             int stepNumber = 24;                           //stepNumber is how many steps in future it should be forecasted. 15 min * 24 =  6 hours
-            int numberOfUnitsToForecast, numUnitsForecasted;               //this specifies how many times the stepNumber above should be evaluated with the same forecaster built.
+            int numberOfUnitsToForecast = 1, numUnitsForecasted;               //this specifies how many times the stepNumber above should be evaluated with the same forecaster built.
             int startTestData = 0, endTestData = 0;
             Instances testData = null, trainData = null;
             List<List<NumericPrediction>> forecast = null;
@@ -39,7 +39,6 @@ public class TSCV {
             int[] trainingPercentages = {65, 70, 75};
             for (int trainingPercentage:trainingPercentages) {
                 numUnitsForecasted = 1;
-                numberOfUnitsToForecast = 56;
                 trainData = getSplittedData(data, trainingPercentage, true);
                 testData = getSplittedData(data, trainingPercentage, false);
                 forecaster.buildForecaster(trainData);
