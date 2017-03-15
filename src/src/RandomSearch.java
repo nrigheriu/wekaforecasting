@@ -191,9 +191,6 @@ public class RandomSearch{
     public void setStartSet(String startSet) throws Exception {
         m_startRange.setRanges(startSet);
     }
-
-
-
     /**
      * Searches the attribute subset space by best first search
      *
@@ -203,8 +200,8 @@ public class RandomSearch{
      */
     public int[] search(Instances data, TSLagMaker tsLagMaker, List<String> overlayFields) throws Exception {
         m_totalEvals = 0;
-        int m_totalEvals = 0;
-        PrintWriter errorLog = new PrintWriter(new FileWriter("errorLog.txt", true));
+        int m_totalEvals = 0, m_maxEvals = 10;
+        PrintWriter errorLog = new PrintWriter(new FileWriter("RA/errorLog.txt", true));
         TSWrapper tsWrapper = new TSWrapper();
         tsWrapper.buildEvaluator(data);
         LinearRegression linearRegression = new LinearRegression();
@@ -219,22 +216,18 @@ public class RandomSearch{
         Hashtable<String, Double> lookForExistingSubsets = new Hashtable<String, Double>();
         // evaluate the initial subset
         subsetHandler.printGroup(best_group);
-        best_merit = tsWrapper.evaluateSubset(best_group, tsLagMaker, overlayFields);
+        best_merit = tsWrapper.evaluateSubset(best_group, tsLagMaker, overlayFields, false);
         m_totalEvals++;
         String subset_string = best_group.toString();
         lookForExistingSubsets.put(subset_string, best_merit);
         System.out.println("Initial group with numAttribs: " + m_numAttribs + "/n");
         System.out.println("Merit: " + best_merit);
         errorLog.println(best_merit);
-<<<<<<< HEAD
-        while(m_totalEvals < 3){
-=======
-        while(m_totalEvals < 5){
->>>>>>> 8da7fa9817a68afa883bc2e7433ba78f880754f0
+        while(m_totalEvals < m_maxEvals){
             BitSet s_new = subsetHandler.changeBits((BitSet)best_group.clone(), 1);
             subset_string = s_new.toString();
             if(!lookForExistingSubsets.containsKey(subset_string)){
-                double s_new_merit = tsWrapper.evaluateSubset(s_new, tsLagMaker, overlayFields);
+                double s_new_merit = tsWrapper.evaluateSubset(s_new, tsLagMaker, overlayFields, false);
                 m_totalEvals++;
                 System.out.println("New merit: " + s_new_merit);
                 errorLog.println(s_new_merit);
@@ -242,7 +235,6 @@ public class RandomSearch{
                 if(decisionFunction(best_merit - s_new_merit)){
                     best_group = (BitSet) s_new.clone();
                     best_merit = s_new_merit;
-                    errorLog.println(s_new_merit);
                     System.out.println("New best merit!");
                 }
             }
@@ -250,6 +242,7 @@ public class RandomSearch{
         System.out.println("Best merit:" + best_merit);
         errorLog.println("Best merit:" + best_merit);
         System.out.println(m_totalEvals);
+        tsWrapper.evaluateSubset(best_group, tsLagMaker, overlayFields, true);
         errorLog.println(m_totalEvals);
         errorLog.close();
         return attributeList(best_group);

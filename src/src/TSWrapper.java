@@ -52,8 +52,7 @@ public class TSWrapper {
             text.append("\tWrapper Subset Evaluator\n");
         return text.toString();
     }
-    public double evaluateSubset(BitSet subset, TSLagMaker tsLagMaker, List<String> overlayFields)throws Exception{
-        PrintWriter resultLog = new PrintWriter(new FileWriter("results.txt", true));
+    public double evaluateSubset(BitSet subset, TSLagMaker tsLagMaker, List<String> overlayFields, boolean testBestModel) throws Exception{
         double error = 0;
         int numAttributes = 0;
         int i, j;
@@ -80,7 +79,6 @@ public class TSWrapper {
         for (int k = 0; k < trainCopy.numAttributes(); k++) {
             String attrName = trainCopy.attribute(k).name();
             remainingAttributes.add(k, attrName);
-            System.out.print(attrName + ", ");
             if(attrName.contains("Lag_" + tsLagMaker.getFieldsToLagAsString())){                      //it means we have a lag attribute in the subset and we should update the lagmaker with it
                 remainingLags += attrName.substring(attrName.length() - 4, attrName.length()).replaceAll("[^0-9]", "");
                 remainingLags += ", ";
@@ -96,18 +94,21 @@ public class TSWrapper {
         }
         //remainingLags = "697, 1032, 1080, 4, 1, 2, 8, 96, 192, 672, 1344, 288";
         System.out.println("Remaining lags: " + remainingLags);
-        resultLog.println("Remaining lags: " + remainingLags);
         tsLagMaker.setLagRange(remainingLags);
         i = 0;
         for (int k = 0; k < overlayFields.size(); k++)                       //updating the tsLagmaker with the still available overlay Fields
             if(remainingAttributes.contains(overlayFields.get(k)))
                 newOverlayFields.add(i++, overlayFields.get(k));
         tsLagMaker.setOverlayFields(newOverlayFields);
-        System.out.println(tsLagMaker.getOverlayFields());
         TSCV tscv = new TSCV();
-        tscv.crossValidateTS(trainCopy, m_BaseClassifier, tsLagMaker);
-        error = tscv.calculateErrors(false, "MAPE");
-        resultLog.close();
+        if(!testBestModel) {
+            tscv.crossValidateTS(trainCopy, m_BaseClassifier, tsLagMaker);
+            error = tscv.calculateErrors(false, "MAPE");
+        }
+        else {
+            tscv.testBestModel(trainCopy, m_BaseClassifier, tsLagMaker);
+            error = tscv.calculateErrors(true, "MAPE");
+        }
         return error;
     }
     public void buildEvaluator(Instances data) throws Exception{

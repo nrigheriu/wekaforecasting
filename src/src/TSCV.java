@@ -18,12 +18,12 @@ import java.util.List;
 public class TSCV {
         private List<Double> actualValuesList = new ArrayList<>();
         private List<Double> forecastedValuesList = new ArrayList<>();
+        private String searchMethod = "";
         public TSCV(){
             resetOptions();
         }
     public void crossValidateTS(Instances data, Classifier classifier, TSLagMaker tsLagMaker){
         try {
-            PrintWriter resultLog = new PrintWriter(new FileWriter("results.txt", true));
             actualValuesList.clear();
             forecastedValuesList.clear();
             WekaForecaster forecaster = new WekaForecaster();
@@ -62,7 +62,6 @@ public class TSCV {
                 }
                 long eTime = System.currentTimeMillis();
             //    System.out.println(("Time taken to evaluate again:" + ((double)(eTime-sTime))/1000));
-                resultLog.close();
             }
             buildErrorGraph.buildErrorGraph(new Instances(testData, startTestData, endTestData), forecaster, forecast, stepNumber);
         } catch (Exception e){
@@ -71,7 +70,7 @@ public class TSCV {
     }
     public void testBestModel(Instances data, Classifier classifier, TSLagMaker tsLagMaker){
         try {
-            PrintWriter bestModelErrors = new PrintWriter(new FileWriter("bestModelResults.txt", true));
+            //PrintWriter bestModelErrors = new PrintWriter(new FileWriter("bestModelResults.txt", true));
             resetOptions();
             WekaForecaster forecaster = new WekaForecaster();
             forecaster.setTSLagMaker(tsLagMaker);
@@ -107,7 +106,7 @@ public class TSCV {
                 }
                 long eTime = System.currentTimeMillis();
                 //    System.out.println(("Time taken to evaluate again:" + ((double)(eTime-sTime))/1000));
-                bestModelErrors.close();
+                //bestModelErrors.close();
             }
         }catch (Exception e){
             e.printStackTrace();
@@ -153,6 +152,12 @@ public class TSCV {
         else if (evaluationMeasure == "MAPE")
             getLastError = piErrorSum/(i+1);
         return getLastError;
+    }
+    public String getSearchMethod() {
+        return searchMethod;
+    }
+    public void setSearchMethod(String searchMethod) {
+        this.searchMethod = searchMethod;
     }
     protected void resetOptions(){
         actualValuesList.clear();
