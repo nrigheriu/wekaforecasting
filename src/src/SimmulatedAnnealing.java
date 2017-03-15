@@ -259,7 +259,6 @@ public class SimmulatedAnnealing {
     public int[] search(Instances data, TSLagMaker tsLagMaker, List<String> overlayFields) throws Exception {
         m_totalEvals = 0;
         int m_totalEvals = 0;
-        PrintWriter errorLog = new PrintWriter(new FileWriter("SA/errorLog.txt", true));
         TSWrapper tsWrapper = new TSWrapper();
         tsWrapper.buildEvaluator(data);
         LinearRegression linearRegression = new LinearRegression();
@@ -282,8 +281,6 @@ public class SimmulatedAnnealing {
         lookForExistingSubsets.put(subset_string, best_merit);
         System.out.println("Initial group with numAttribs: " + m_numAttribs + " temp: " + temperature + "/n");
         System.out.println("Merit: " + best_merit);
-        errorLog.println(best_merit);
-        errorLog.println(temperature);
         TheVeryBest theVeryBest = new TheVeryBest((BitSet) best_group.clone(), best_merit);
         boolean[] changedAlthoughWorse = new boolean[6];
         for (int j = 0; j < changedAlthoughWorse.length; j++)
@@ -297,13 +294,13 @@ public class SimmulatedAnnealing {
                 m_totalEvals++;
                 System.out.println("New merit: " + s_new_merit);
                 lookForExistingSubsets.put(subset_string, s_new_merit);
-                if (decisionFunction(s_new_merit - best_merit, temperature, best_merit, initialTemp, errorLog)) {
+                if (decisionFunction(s_new_merit - best_merit, temperature, best_merit, initialTemp)) {
                     if (best_merit - s_new_merit > 0)                    //it means this is a worse set than the best set, and we still change the best set to it.
                         changedAlthoughWorse[i++] = true;
                     best_group = (BitSet) s_new.clone();
                     best_merit = s_new_merit;
-                    errorLog.println(s_new_merit);
-                    errorLog.println(temperature);
+                    System.out.println(s_new_merit);
+                    System.out.println(temperature);
                 } else
                     changedAlthoughWorse[i++] = false;
                 for (int j = 0; j < changedAlthoughWorse.length; j++)
@@ -326,12 +323,11 @@ public class SimmulatedAnnealing {
         subsetHandler.printGroup(theVeryBest.getSubset());
         subsetHandler.includesMoreThanXPercentOfFeatures(theVeryBest.getSubset(), true, 0);
         tsWrapper.evaluateSubset(theVeryBest.getSubset(), tsLagMaker, overlayFields, true);
-        errorLog.close();
         return attributeList(theVeryBest.getSubset());
     }
 
 
-    protected boolean decisionFunction(double difference, double temp, double bestMerit, double initialTemp, PrintWriter errorLog) {
+    protected boolean decisionFunction(double difference, double temp, double bestMerit, double initialTemp) {
         boolean change = false;
         double randomNr = Math.random();
         int i = 0;

@@ -31,7 +31,7 @@ public class doForecasting {
             long startTime = System.currentTimeMillis();
             List<String> overlayFields = new ArrayList<String>();
             MyHashMap hashMap = new MyHashMap();
-            int lagLimit = 1392, lagInterval = 48, featureLimitFromInterval = 4, reliefFeatureCutOff = 75;
+            int lagLimit = 1392, lagInterval = 48, featureLimitFromInterval = 4, reliefFeatureCutOff = 100;
 
             rankWithRelief(hashMap, data, lagInterval, lagLimit, featureLimitFromInterval);
             hashMap.sortHashMapByValues();

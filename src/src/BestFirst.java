@@ -703,8 +703,6 @@ public class BestFirst {
      * @throws Exception if the search can't be completed
      */
     public int[] search(Instances data, TSLagMaker tsLagMaker, List<String> overlayFields) throws Exception {
-        PrintWriter errorLog = new PrintWriter(new FileWriter("bestFirst/BFerrorLog.txt", true));
-        PrintWriter errorTracker = new PrintWriter(new FileWriter("bestFirst/BFerrorTracker.txt", true));
 
         TSWrapper tsWrapper = new TSWrapper();
         tsWrapper.buildEvaluator(data);
@@ -764,21 +762,18 @@ public class BestFirst {
         // evaluate the initial subset
         best_merit = -tsWrapper.evaluateSubset(best_group, tsLagMaker, overlayFields, false);
         //printGroup(best_group, m_numAttribs);
-        errorLog.println("Merit:" + best_merit);
         System.out.println("Merit:" + best_merit);
         System.out.print("Group: ");
         subsetHandler.printGroup(best_group);
         System.out.println("\n");
         m_totalEvals++;
-        errorTracker.println(best_merit);
-        errorTracker.println(m_totalEvals);
         // add the initial group to the list and the hash table
         Object[] best = new Object[1];
         best[0] = best_group.clone();
         prioQueueList.addToList(best, best_merit);
         String hashC = best_group.toString();
         lookForExistingSubsets.put(hashC, new Double(best_merit));
-        errorLog.println("StartsetPercentage:" + startSetPercentage + ", maxStale:" + m_maxStale);
+        System.out.println("StartsetPercentage:" + startSetPercentage + ", maxStale:" + m_maxStale);
 
         while (stale < m_maxStale) {
             added = false;
@@ -834,8 +829,6 @@ public class BestFirst {
                             subsetHandler.printGroup(temp_group);
                             System.out.println("\n");
                             m_totalEvals++;
-                            errorTracker.println(best_merit);
-                            errorTracker.println(m_totalEvals);
 
                             hashC = temp_group.toString();
                             lookForExistingSubsets.put(hashC, new Double(merit));
