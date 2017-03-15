@@ -52,11 +52,7 @@ public class TSWrapper {
             text.append("\tWrapper Subset Evaluator\n");
         return text.toString();
     }
-<<<<<<< HEAD
     public double evaluateSubset(BitSet subset, TSLagMaker tsLagMaker, List<String> overlayFields, boolean testBestModel) throws Exception{
-=======
-    public double evaluateSubset(BitSet subset, TSLagMaker tsLagMaker, List<String> overlayFields, boolean testBestModel)throws Exception{
->>>>>>> 115626e7b107ff8d5c8ab9b44adddd4efad753b9
         double error = 0;
         int numAttributes = 0;
         int i, j;
@@ -108,13 +104,8 @@ public class TSWrapper {
         if(!testBestModel) {
             tscv.crossValidateTS(trainCopy, m_BaseClassifier, tsLagMaker);
             error = tscv.calculateErrors(false, "MAPE");
-<<<<<<< HEAD
-        }
-        else {
-=======
         }else{
             tscv.resetOptions();
->>>>>>> 115626e7b107ff8d5c8ab9b44adddd4efad753b9
             tscv.testBestModel(trainCopy, m_BaseClassifier, tsLagMaker);
             error = tscv.calculateErrors(true, "MAPE");
         }

@@ -63,7 +63,7 @@ public class doForecasting {
             SimmulatedAnnealing simmulatedAnnealing = new SimmulatedAnnealing();
             RandomSearch randomSearch = new RandomSearch();
 
-            //randomSearch.search(laggedData, tsLagMaker, overlayFields);
+            randomSearch.search(laggedData, tsLagMaker, overlayFields);
             //simmulatedAnnealing.search(laggedData, tsLagMaker, overlayFields);
             //bestFirst.search(laggedData, tsLagMaker, overlayFields);
             stopTime = System.currentTimeMillis();
