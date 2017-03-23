@@ -104,7 +104,7 @@ public class SubsetHandler {
         return false;
     }
 
-    public SubsetHandler() {
+    public SubsetHandler() { //TODO change this back after manual set
         listOfAttributesWhichShouldAlwaysBeThere.add(0);                    //time stamp and best overlay fields.
         listOfAttributesWhichShouldAlwaysBeThere.add(1);
         listOfAttributesWhichShouldAlwaysBeThere.add(2);
@@ -112,6 +112,8 @@ public class SubsetHandler {
         listOfAttributesWhichShouldAlwaysBeThere.add(6);
         listOfAttributesWhichShouldAlwaysBeThere.add(8);
         listOfAttributesWhichShouldAlwaysBeThere.add(9);
+        /*listOfAttributesWhichShouldAlwaysBeThere.add(5);
+        listOfAttributesWhichShouldAlwaysBeThere.add(7);*/
     }
 
 }

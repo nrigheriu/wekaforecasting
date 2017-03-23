@@ -26,6 +26,7 @@ import java.io.PrintWriter;
 import java.util.*;
 import java.util.Random;
 
+import weka.classifiers.functions.MLPRegressor;
 import weka.filters.supervised.attribute.TSLagMaker;
 import weka.classifiers.functions.LinearRegression;
 import weka.core.*;
@@ -199,13 +200,15 @@ public class RandomSearch{
      * @throws Exception if the search can't be completed
      */
     public int[] search(Instances data, TSLagMaker tsLagMaker, List<String> overlayFields) throws Exception {
+        long startTime = System.currentTimeMillis(), stopTime;
         m_totalEvals = 0;
-        int m_maxEvals = 300;
+        int m_maxEvals = 550;
         TSWrapper tsWrapper = new TSWrapper();
         tsWrapper.buildEvaluator(data);
         LinearRegression linearRegression = new LinearRegression();
-        linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1 -R 1E-6"));
         tsWrapper.setM_BaseClassifier(linearRegression);
+       /* MLPRegressor mlpRegressor = new MLPRegressor();
+        tsWrapper.setM_BaseClassifier(mlpRegressor);*/
         System.out.println("Using RA and " + tsWrapper.getM_BaseClassifier() + " as classifier.");
 
         m_numAttribs = data.numAttributes();
@@ -240,12 +243,13 @@ public class RandomSearch{
         }
         System.out.println("Best merit:" + best_merit);
         System.out.println(m_totalEvals);
+        stopTime = System.currentTimeMillis();
+        System.out.println("Time taken for wrapper part:" + ((double) stopTime - startTime) / 1000);
         tsWrapper.evaluateSubset(best_group, tsLagMaker, overlayFields, true);
         return attributeList(best_group);
     }
     protected boolean decisionFunction(double difference){
         boolean change = false;
-        int i = 0;
         if(difference > 0)
             change = true;
         else

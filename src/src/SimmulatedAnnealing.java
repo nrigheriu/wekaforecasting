@@ -257,6 +257,7 @@ public class SimmulatedAnnealing {
      * @throws Exception if the search can't be completed
      */
     public int[] search(Instances data, TSLagMaker tsLagMaker, List<String> overlayFields) throws Exception {
+        long startTime = System.currentTimeMillis(), stopTime;
         m_totalEvals = 0;
         int m_totalEvals = 0;
         TSWrapper tsWrapper = new TSWrapper();
@@ -321,6 +322,8 @@ public class SimmulatedAnnealing {
         }
         System.out.println("Best merit: " + theVeryBest.getMerit());
         System.out.println(m_totalEvals);
+        stopTime = System.currentTimeMillis();
+        System.out.println("Time taken for wrapper part:" + ((double) stopTime - startTime) / 1000);
         subsetHandler.printGroup(theVeryBest.getSubset());
         subsetHandler.includesMoreThanXPercentOfFeatures(theVeryBest.getSubset(), true, 0);
         tsWrapper.evaluateSubset(theVeryBest.getSubset(), tsLagMaker, overlayFields, true);

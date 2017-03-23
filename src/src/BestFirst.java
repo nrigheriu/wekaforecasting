@@ -703,7 +703,7 @@ public class BestFirst {
      * @throws Exception if the search can't be completed
      */
     public int[] search(Instances data, TSLagMaker tsLagMaker, List<String> overlayFields) throws Exception {
-
+        long startTime = System.currentTimeMillis(), stopTime;
         TSWrapper tsWrapper = new TSWrapper();
         tsWrapper.buildEvaluator(data);
         LinearRegression linearRegression = new LinearRegression();
@@ -890,8 +890,9 @@ public class BestFirst {
         }
         subsetHandler.printGroup(best_group);
         System.out.println("Best merit: " + best_merit);
-
         System.out.println(m_totalEvals);
+        stopTime = System.currentTimeMillis();
+        System.out.println("Time taken for wrapper part:" + ((double) stopTime - startTime) / 1000);
         m_bestMerit = best_merit;
         tsWrapper.evaluateSubset(best_group, tsLagMaker, overlayFields, true);
         subsetHandler.includesMoreThanXPercentOfFeatures(best_group, true, 0);
@@ -903,7 +904,7 @@ public class BestFirst {
      * Reset options to default values
      */
     protected void resetOptions() {
-        m_maxStale = 5;
+        m_maxStale = 2;
         m_searchDirection = SELECTION_FORWARD;
         m_starting = null;
         m_startRange = new Range();

@@ -1,0 +1,2563 @@
+Manual feature set with lags:1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 96, 192, 288, 672
+Using RA and Linear Regression: No model built yet. as classifier.
+1 2 3 6 8 
+Remaining lags: 11
+Time taken to evaluate again:2.496
+Initial group with numAttribs: 29/n
+Merit: 14.326714144961278
+Remaining lags: 1
+Time taken to evaluate again:1.81
+New merit: 13.305042053940234
+New best merit!
+Remaining lags: 1, 6
+Time taken to evaluate again:2.075
+New merit: 13.032282924412657
+New best merit!
+Remaining lags: 1, 6, 96
+Time taken to evaluate again:2.256
+New merit: 11.072928945502762
+New best merit!
+Remaining lags: 1, 6, 7, 96
+Time taken to evaluate again:2.715
+New merit: 11.072044461935953
+New best merit!
+Remaining lags: 1, 3, 6, 7, 96
+Time taken to evaluate again:3.104
+New merit: 11.115828002420297
+Remaining lags: 1, 4, 6, 7, 96
+Time taken to evaluate again:2.808
+New merit: 11.105139804315685
+Remaining lags: 1, 5, 6, 7, 96
+Time taken to evaluate again:2.808
+New merit: 11.09109676899917
+Remaining lags: 1, 6, 7, 96, 192
+Time taken to evaluate again:2.839
+New merit: 11.124141447520289
+Remaining lags: 1, 7, 96
+Time taken to evaluate again:2.184
+New merit: 11.054567253105157
+New best merit!
+Remaining lags: 1, 7
+Time taken to evaluate again:1.887
+New merit: 13.049338708429522
+Remaining lags: 1, 96
+Time taken to evaluate again:1.825
+New merit: 11.146190553889586
+Remaining lags: 1, 2, 7, 96
+Time taken to evaluate again:2.511
+New merit: 11.141130411071822
+Remaining lags: 1, 7, 8, 96
+Time taken to evaluate again:2.512
+New merit: 11.06594667032864
+Remaining lags: 1, 5, 7, 96
+Time taken to evaluate again:2.481
+New merit: 11.092395807125097
+Remaining lags: 1, 7, 96, 192
+Time taken to evaluate again:2.527
+New merit: 11.105650420621059
+Remaining lags: 1, 7, 10, 96
+Time taken to evaluate again:2.527
+New merit: 11.25715563928121
+Remaining lags: 1, 3, 7, 96
+Time taken to evaluate again:2.543
+New merit: 11.123408135055872
+Remaining lags: 1, 7, 12, 96
+Time taken to evaluate again:2.496
+New merit: 11.34221152344091
+Remaining lags: 1, 2, 7, 10, 96
+Time taken to evaluate again:2.761
+New merit: 11.33925734054919
+Remaining lags: 1, 6, 7
+Time taken to evaluate again:2.153
+New merit: 13.045012561829457
+Remaining lags: 1, 7, 96, 672
+Time taken to evaluate again:2.465
+New merit: 11.984019581242727
+Remaining lags: 1, 6, 7, 96, 288
+Time taken to evaluate again:2.776
+New merit: 10.955538493118661
+New best merit!
+Remaining lags: 1, 6, 7, 12, 96, 288
+Time taken to evaluate again:3.151
+New merit: 11.22803754984156
+Remaining lags: 1, 6, 7, 8, 96, 288
+Time taken to evaluate again:3.105
+New merit: 10.942554736681851
+New best merit!
+Remaining lags: 1, 7, 8, 96, 288
+Time taken to evaluate again:2.886
+New merit: 10.939641115608262
+New best merit!
+Remaining lags: 1, 7, 8, 11, 96, 288
+Time taken to evaluate again:3.151
+New merit: 11.173174178988921
+Remaining lags: 1, 7, 8, 288
+Time taken to evaluate again:2.452
+New merit: 12.484448994221935
+Remaining lags: 1, 7, 8, 10, 96, 288
+Time taken to evaluate again:3.136
+New merit: 10.9685486643608
+Remaining lags: 1, 5, 7, 8, 96, 288
+Time taken to evaluate again:3.12
+New merit: 10.974036070276966
+Remaining lags: 1, 7, 8, 96, 288, 672
+Time taken to evaluate again:3.105
+New merit: 11.908981407852211
+Remaining lags: 1, 3, 7, 8, 96, 288
+Time taken to evaluate again:3.167
+New merit: 11.032822126458948
+Remaining lags: 1, 7, 8, 96, 192, 288
+Time taken to evaluate again:3.154
+New merit: 11.022806484801894
+Remaining lags: 1, 7, 8, 12, 96, 288
+Time taken to evaluate again:3.245
+New merit: 11.214033163673514
+Remaining lags: 1, 7, 8, 9, 96, 288
+Time taken to evaluate again:3.136
+New merit: 10.946413886527594
+Remaining lags: 1, 4, 7, 8, 96, 288
+Time taken to evaluate again:3.167
+New merit: 11.026263406891447
+Remaining lags: 1, 7, 96, 288
+Time taken to evaluate again:2.45
+New merit: 10.93204825365067
+New best merit!
+Remaining lags: 7, 96, 288
+Time taken to evaluate again:2.044
+New merit: 11.424539923374851
+Remaining lags: 1, 3, 7, 96, 288
+Time taken to evaluate again:2.792
+New merit: 11.01151025305934
+Remaining lags: 1, 5, 7, 96, 288
+Time taken to evaluate again:2.808
+New merit: 10.983608084048614
+Remaining lags: 1, 4, 7, 96, 288
+Time taken to evaluate again:2.777
+New merit: 11.001900026501984
+Remaining lags: 1, 2, 7, 96, 288
+Time taken to evaluate again:2.777
+New merit: 11.027369921476124
+Remaining lags: 1, 7, 9, 96, 288
+Time taken to evaluate again:2.793
+New merit: 10.945952305853805
+Remaining lags: 1, 7, 96, 288, 672
+Time taken to evaluate again:2.808
+New merit: 11.897684088788381
+Remaining lags: 1, 9, 10, 96, 288
+Time taken to evaluate again:2.776
+New merit: 10.957590795632031
+Remaining lags: 1, 96, 192, 288
+Time taken to evaluate again:2.465
+New merit: 11.211306211983675
+Remaining lags: 1, 7, 288
+Time taken to evaluate again:2.153
+New merit: 12.479313452229295
+Remaining lags: 1, 3, 7, 12, 96, 288
+Time taken to evaluate again:3.136
+New merit: 11.279510018830265
+Remaining lags: 1, 7, 9, 12, 96, 288
+Time taken to evaluate again:3.167
+New merit: 11.216160249595363
+Remaining lags: 1, 7, 96, 192, 288
+Time taken to evaluate again:2.777
+New merit: 11.016293813708385
+Remaining lags: 1, 7, 10, 96, 288
+Time taken to evaluate again:2.793
+New merit: 10.969237617652764
+Remaining lags: 1, 7, 12, 96, 288
+Time taken to evaluate again:2.808
+New merit: 11.213233879299073
+Remaining lags: 1, 96, 288
+Time taken to evaluate again:2.152
+New merit: 11.110092593641438
+Remaining lags: 1, 7, 11, 96, 288
+Time taken to evaluate again:2.793
+New merit: 11.148390001016121
+Remaining lags: 1, 4, 96, 288
+Time taken to evaluate again:2.434
+New merit: 11.019060781616888
+Remaining lags: 1, 7, 96, 192, 288, 672
+Time taken to evaluate again:3.229
+New merit: 11.994307856252055
+Remaining lags: 1, 7, 11, 96, 192, 288
+Time taken to evaluate again:3.136
+New merit: 11.263481046303873
+Remaining lags: 7, 10, 96, 288
+Time taken to evaluate again:2.345
+New merit: 11.43865088379374
+Remaining lags: 1, 6, 7, 96, 288, 672
+Time taken to evaluate again:3.231
+New merit: 11.88033603049371
+Remaining lags: 1, 4, 7, 288
+Time taken to evaluate again:2.523
+New merit: 12.567594845283708
+Remaining lags: 1, 3, 6, 7, 96, 288
+Time taken to evaluate again:3.187
+New merit: 11.007388290977529
+Remaining lags: 1, 3, 4, 7, 96, 288
+Time taken to evaluate again:3.308
+New merit: 11.02829618964786
+Remaining lags: 1, 7, 10, 288
+Time taken to evaluate again:2.512
+New merit: 12.509895750845098
+Remaining lags: 7, 8, 96, 288
+Time taken to evaluate again:2.371
+New merit: 11.31707518454932
+Remaining lags: 1, 5, 7, 12, 96, 288
+Time taken to evaluate again:3.245
+New merit: 11.254558481624025
+Remaining lags: 1, 2, 7, 10, 96, 288
+Time taken to evaluate again:3.166
+New merit: 11.224697837919658
+Remaining lags: 1, 6, 7, 11, 96, 288
+Time taken to evaluate again:3.198
+New merit: 11.184137330155776
+Remaining lags: 7, 288
+Time taken to evaluate again:1.841
+New merit: 12.87829397365518
+Remaining lags: 1, 6, 96, 288
+Time taken to evaluate again:2.464
+New merit: 10.960031032425915
+Remaining lags: 1, 7, 288, 672
+Time taken to evaluate again:2.496
+New merit: 14.057583627921582
+Remaining lags: 1, 7, 10, 96, 288, 672
+Time taken to evaluate again:3.183
+New merit: 11.941401574185285
+Remaining lags: 1, 2, 7, 96, 288, 672
+Time taken to evaluate again:3.225
+New merit: 11.95801326515859
+Remaining lags: 1, 6, 7, 9, 96, 288
+Time taken to evaluate again:3.156
+New merit: 10.951352263761507
+Remaining lags: 1, 3, 5, 7, 96, 288
+Time taken to evaluate again:3.136
+New merit: 11.016621836719258
+Remaining lags: 7, 12, 96, 288
+Time taken to evaluate again:2.371
+New merit: 11.539477657584854
+Remaining lags: 1, 7, 9, 11, 96, 288
+Time taken to evaluate again:3.136
+New merit: 11.148399220572681
+Remaining lags: 1, 4, 7, 96, 192, 288
+Time taken to evaluate again:3.159
+New merit: 11.085425502956333
+Remaining lags: 1, 4, 7, 11, 96, 288
+Time taken to evaluate again:3.145
+New merit: 11.263645516039198
+Remaining lags: 96, 288
+Time taken to evaluate again:1.935
+New merit: 13.803701684803123
+Remaining lags: 1, 5, 7, 288
+Time taken to evaluate again:2.465
+New merit: 12.531970175202556
+Remaining lags: 1, 5, 7, 96, 192, 288
+Time taken to evaluate again:3.166
+New merit: 11.065551629618867
+Remaining lags: 1, 3, 96, 288, 672
+Time taken to evaluate again:2.821
+New merit: 11.925436856850196
+Remaining lags: 7, 96
+Time taken to evaluate again:1.809
+New merit: 11.571953954391809
+Remaining lags: 1, 3, 7, 9, 96, 288
+Time taken to evaluate again:3.178
+New merit: 11.046468937039764
+Remaining lags: 1, 10, 96, 288
+Time taken to evaluate again:2.464
+New merit: 10.94275070574268
+Remaining lags: 1, 7, 11, 288
+Time taken to evaluate again:2.527
+New merit: 12.53590407311672
+Remaining lags: 1, 3, 7, 11, 96, 288
+Time taken to evaluate again:3.151
+New merit: 11.274117064443201
+Remaining lags: 1, 2, 7, 11, 96, 288
+Time taken to evaluate again:3.12
+New merit: 11.243149843466512
+Remaining lags: 1, 4, 6, 7, 96, 288
+Time taken to evaluate again:3.151
+New merit: 10.999095935500684
+Remaining lags: 1, 2, 96, 288
+Time taken to evaluate again:2.464
+New merit: 11.033493972809264
+Remaining lags: 1, 5, 7, 96, 288, 672
+Time taken to evaluate again:3.16
+New merit: 11.924883855852132
+Remaining lags: 1, 5, 96, 288
+Time taken to evaluate again:2.528
+New merit: 10.98344532664521
+Remaining lags: 7, 9, 96, 288
+Time taken to evaluate again:2.368
+New merit: 11.387862387216687
+Remaining lags: 1, 7, 10, 11, 96, 288
+Time taken to evaluate again:3.195
+New merit: 11.174357878257537
+Remaining lags: 1, 2, 5, 7, 96, 288
+Time taken to evaluate again:3.193
+New merit: 11.036173313294427
+Remaining lags: 1, 2, 4, 7, 96, 288
+Time taken to evaluate again:3.214
+New merit: 11.060747827239616
+Remaining lags: 1, 4, 7, 10, 96, 288
+Time taken to evaluate again:3.356
+New merit: 11.247082042703536
+Remaining lags: 1, 4, 7, 96, 288, 672
+Time taken to evaluate again:3.307
+New merit: 11.921642622069788
+Remaining lags: 1, 7, 9, 96
+Time taken to evaluate again:2.487
+New merit: 11.075590174106665
+Remaining lags: 1, 2, 6, 7, 96, 288
+Time taken to evaluate again:3.151
+New merit: 11.02320180323667
+Remaining lags: 1, 11, 96, 288
+Time taken to evaluate again:2.548
+New merit: 10.951770498891996
+Remaining lags: 1, 2, 7, 8, 96, 288
+Time taken to evaluate again:3.198
+New merit: 11.04265312343717
+Remaining lags: 1, 2, 7, 12, 96, 288
+Time taken to evaluate again:3.183
+New merit: 11.277377833401927
+Remaining lags: 1, 3, 7, 96, 288, 672
+Time taken to evaluate again:3.171
+New merit: 11.940648925656804
+Remaining lags: 1, 5, 6, 7, 96, 288
+Time taken to evaluate again:3.14
+New merit: 10.982485791929149
+Remaining lags: 1, 7, 9, 10, 96, 288
+Time taken to evaluate again:3.196
+New merit: 10.967116911123444
+Remaining lags: 1, 3, 96, 288
+Time taken to evaluate again:2.48
+New merit: 11.003662553955147
+Remaining lags: 1, 7, 11, 96
+Time taken to evaluate again:2.487
+New merit: 11.301534590358322
+Remaining lags: 1, 4, 7, 12, 96, 288
+Time taken to evaluate again:3.229
+New merit: 11.301933679148197
+Remaining lags: 1, 7, 12, 96, 192, 288
+Time taken to evaluate again:3.216
+New merit: 11.303456518043225
+Remaining lags: 1, 4, 7, 96
+Time taken to evaluate again:2.468
+New merit: 11.109177146104328
+Remaining lags: 7, 96, 192, 288
+Time taken to evaluate again:2.371
+New merit: 11.480871677069869
+Remaining lags: 1, 5, 7, 9, 96, 288
+Time taken to evaluate again:3.183
+New merit: 10.98729325520255
+Remaining lags: 1, 7, 12, 96, 288, 672
+Time taken to evaluate again:3.323
+New merit: 12.029694785676158
+Remaining lags: 7, 11, 96, 288
+Time taken to evaluate again:2.388
+New merit: 11.486614040992075
+Remaining lags: 1, 5, 7, 10, 96, 288
+Time taken to evaluate again:3.359
+New merit: 11.171194032379958
+Remaining lags: 7, 288, 672
+Time taken to evaluate again:2.182
+New merit: 14.862820602467364
+Remaining lags: 1, 3, 7, 10, 96, 288
+Time taken to evaluate again:3.185
+New merit: 11.256062045148237
+Remaining lags: 1, 7, 11, 12, 96, 288
+Time taken to evaluate again:3.208
+New merit: 11.21120240686692
+Remaining lags: 1, 2, 7, 9, 96, 288
+Time taken to evaluate again:3.089
+New merit: 11.032367082049369
+Remaining lags: 1, 6, 7, 10, 96, 288
+Time taken to evaluate again:3.152
+New merit: 11.139425253745264
+Remaining lags: 1, 4, 7, 9, 96, 288
+Time taken to evaluate again:3.104
+New merit: 11.039898652694347
+Remaining lags: 2, 7, 96, 288
+Time taken to evaluate again:2.418
+New merit: 11.132427764900726
+Remaining lags: 1, 3, 7, 288
+Time taken to evaluate again:2.449
+New merit: 12.510134861503904
+Remaining lags: 1, 12, 96, 288
+Time taken to evaluate again:2.48
+New merit: 11.110092593641438
+Remaining lags: 1, 7, 9, 288
+Time taken to evaluate again:2.48
+New merit: 12.466069394894033
+Remaining lags: 1, 2, 7, 96, 192, 288
+Time taken to evaluate again:3.12
+New merit: 11.10428070288692
+Remaining lags: 1, 288
+Time taken to evaluate again:1.841
+New merit: 12.548665646034507
+Remaining lags: 1, 96, 288, 672
+Time taken to evaluate again:2.559
+New merit: 11.939324567799257
+Remaining lags: 1, 7, 11, 96, 288, 672
+Time taken to evaluate again:3.182
+New merit: 11.963067198695782
+Remaining lags: 1, 7, 12, 288
+Time taken to evaluate again:2.465
+New merit: 12.59700907613967
+Remaining lags: 1, 7, 192, 288
+Time taken to evaluate again:2.465
+New merit: 12.496197420980451
+Remaining lags: 1, 9, 96, 288
+Time taken to evaluate again:2.465
+New merit: 10.946364087681022
+Remaining lags: 1, 6, 7, 96, 192, 288
+Time taken to evaluate again:3.12
+New merit: 11.03787580217045
+Remaining lags: 1, 2, 7, 11, 96, 288, 672
+Time taken to evaluate again:3.494
+New merit: 12.018133474839367
+Remaining lags: 1, 6, 7, 288
+Time taken to evaluate again:2.481
+New merit: 12.485659883014796
+Remaining lags: 1, 2, 7, 288
+Time taken to evaluate again:2.481
+New merit: 12.529918852052575
+Remaining lags: 1, 7, 9, 96, 288, 672
+Time taken to evaluate again:3.276
+New merit: 11.915333587530265
+Remaining lags: 1, 7, 9, 96, 192, 288
+Time taken to evaluate again:3.136
+New merit: 11.028483505470552
+Remaining lags: 1, 7, 10, 96, 192, 288
+Time taken to evaluate again:3.136
+New merit: 11.059069645441204
+Remaining lags: 1, 8, 96, 288
+Time taken to evaluate again:2.434
+New merit: 10.939661232061363
+Remaining lags: 7, 96, 288, 672
+Time taken to evaluate again:2.387
+New merit: 12.262555359718931
+Remaining lags: 1, 3, 10, 96, 288
+Time taken to evaluate again:2.808
+New merit: 11.212324206047857
+Remaining lags: 1, 4, 7, 9, 288
+Time taken to evaluate again:2.793
+New merit: 12.603539612592797
+Remaining lags: 3, 7, 96, 288
+Time taken to evaluate again:2.418
+New merit: 11.245067281518224
+Remaining lags: 4, 7, 96, 288
+Time taken to evaluate again:2.371
+New merit: 11.288974410161966
+Remaining lags: 1, 2, 3, 7, 96, 288
+Time taken to evaluate again:3.167
+New merit: 11.050781539864236
+Remaining lags: 1, 4, 5, 7, 96, 288
+Time taken to evaluate again:3.105
+New merit: 11.002804202216984
+Remaining lags: 1, 7, 10, 12, 96, 288
+Time taken to evaluate again:3.135
+New merit: 11.211069837483755
+Remaining lags: 1, 2, 4, 6, 7, 9, 96, 288
+Time taken to evaluate again:3.853
+New merit: 11.101461972549043
+Remaining lags: 6, 7, 96, 288
+Time taken to evaluate again:2.434
+New merit: 11.261892558330498
+Remaining lags: 1, 8, 10, 96, 288
+Time taken to evaluate again:2.793
+New merit: 10.958771546257623
+Remaining lags: 1, 4, 5, 7, 96, 192, 288
+Time taken to evaluate again:3.448
+New merit: 11.087425230952322
+Remaining lags: 7, 9, 96
+Time taken to evaluate again:2.012
+New merit: 11.531003173656721
+Remaining lags: 10, 96, 288
+Time taken to evaluate again:2.059
+New merit: 11.820682853772244
+Remaining lags: 5, 7, 96, 288
+Time taken to evaluate again:2.371
+New merit: 11.230377125093185
+Remaining lags: 1, 3, 7, 96, 192, 288
+Time taken to evaluate again:3.151
+New merit: 11.091784858931678
+Remaining lags: 1, 3, 5, 7, 11, 96, 288
+Time taken to evaluate again:3.479
+New merit: 11.282882497329892
+Remaining lags: 1, 5, 7, 11, 96, 288
+Time taken to evaluate again:3.182
+New merit: 11.2132596037036
+Remaining lags: 1, 7, 11, 12, 96, 192, 288
+Time taken to evaluate again:3.479
+New merit: 11.30138666670911
+Remaining lags: 3, 6, 7, 96, 288
+Time taken to evaluate again:2.652
+New merit: 11.335864488129076
+Remaining lags: 7, 10, 11, 96, 288
+Time taken to evaluate again:2.652
+New merit: 11.478231638399112
+Remaining lags: 5, 7, 96, 192, 288
+Time taken to evaluate again:2.683
+New merit: 11.294239114467983
+Remaining lags: 1, 3, 7, 9, 12, 96, 288
+Time taken to evaluate again:3.448
+New merit: 11.279510018830265
+Remaining lags: 1, 2, 4, 7, 288
+Time taken to evaluate again:2.808
+New merit: 12.580076121559951
+Remaining lags: 1, 3, 4, 6, 7, 96, 288
+Time taken to evaluate again:3.463
+New merit: 11.02450610958707
+Remaining lags: 1, 2, 7, 10, 288
+Time taken to evaluate again:2.777
+New merit: 12.60706914696487
+Remaining lags: 1, 3, 7, 8, 12, 96, 288
+Time taken to evaluate again:3.479
+New merit: 11.279510018830265
+Remaining lags: 1, 7, 8, 10, 96, 288, 672
+Time taken to evaluate again:3.463
+New merit: 11.940262456367284
+Remaining lags: 1, 7, 10, 11, 12, 96, 288
+Time taken to evaluate again:3.526
+New merit: 11.210481913254572
+Remaining lags: 1, 5, 7
+Time taken to evaluate again:2.215
+New merit: 13.08087228169262
+Remaining lags: 1, 7, 10, 11, 96, 288, 672
+Time taken to evaluate again:3.572
+New merit: 11.963828697671829
+Remaining lags: 1, 3, 7, 11, 96, 288, 672
+Time taken to evaluate again:3.494
+New merit: 12.016513023551598
+Remaining lags: 1, 4, 96, 288, 672
+Time taken to evaluate again:2.761
+New merit: 11.932883967636561
+Remaining lags: 3, 7, 96
+Time taken to evaluate again:2.059
+New merit: 11.35358650556742
+Remaining lags: 1, 5, 6, 7, 9, 96, 288
+Time taken to evaluate again:3.432
+New merit: 11.006294778863053
+Remaining lags: 1, 5, 7, 96, 672
+Time taken to evaluate again:2.745
+New merit: 12.008084838228353
+Remaining lags: 1, 7, 9, 11, 96, 192, 288
+Time taken to evaluate again:3.541
+New merit: 11.262865881758364
+Remaining lags: 1, 3, 96
+Time taken to evaluate again:2.122
+New merit: 11.110876662096056
+Remaining lags: 1, 2, 7, 11, 288
+Time taken to evaluate again:2.715
+New merit: 12.657232356451727
+Remaining lags: 5, 7, 96, 288, 672
+Time taken to evaluate again:2.667
+New merit: 12.016725775340886
+Remaining lags: 1, 2, 3, 5, 7, 96, 288
+Time taken to evaluate again:3.451
+New merit: 11.052386233529594
+Remaining lags: 1, 7, 9, 10, 96, 288, 672
+Time taken to evaluate again:3.447
+New merit: 11.939704568211125
+Remaining lags: 1, 2, 4, 7, 9, 12, 96, 288
+Time taken to evaluate again:3.884
+New merit: 11.333222708814063
+Remaining lags: 2, 6, 7, 96, 288
+Time taken to evaluate again:2.715
+New merit: 11.169975228479316
+Remaining lags: 1, 4, 6, 7, 96, 192, 288
+Time taken to evaluate again:3.417
+New merit: 11.083436374317099
+Remaining lags: 5, 7, 11, 96, 288
+Time taken to evaluate again:2.683
+New merit: 11.273191413959193
+Remaining lags: 1, 4, 7, 192, 288
+Time taken to evaluate again:2.761
+New merit: 12.532241301759537
+Remaining lags: 6, 7, 9, 96, 192, 288
+Time taken to evaluate again:3.026
+New merit: 11.375893030175014
+Remaining lags: 1, 3, 7, 12, 288
+Time taken to evaluate again:2.73
+New merit: 12.725279180154134
+Remaining lags: 1, 4, 7, 9, 11, 96, 288
+Time taken to evaluate again:3.525
+New merit: 11.263645516039198
+Remaining lags: 1, 8, 12, 96, 288
+Time taken to evaluate again:2.792
+New merit: 11.201919696421035
+Remaining lags: 8, 96, 288
+Time taken to evaluate again:2.028
+New merit: 11.474645617392028
+Remaining lags: 1, 6, 7, 8, 96, 288, 672
+Time taken to evaluate again:3.556
+New merit: 11.898184775280752
+Remaining lags: 288
+Time taken to evaluate again:1.622
+New merit: 19.828656129633334
+Remaining lags: 1, 4, 7, 8, 96, 288, 672
+Time taken to evaluate again:3.463
+New merit: 11.947791143719996
+Remaining lags: 1, 4, 192, 288
+Time taken to evaluate again:2.481
+New merit: 12.538709114396541
+Remaining lags: 1, 2, 7, 8, 288
+Time taken to evaluate again:2.839
+New merit: 12.538052404628262
+Remaining lags: 1, 5, 8, 96, 288
+Time taken to evaluate again:2.785
+New merit: 10.973177499074055
+Remaining lags: 1, 2, 6, 7, 288
+Time taken to evaluate again:2.792
+New merit: 12.522326289939407
+Remaining lags: 1, 6, 7, 8, 9, 96, 288
+Time taken to evaluate again:3.447
+New merit: 10.95306630418732
+Remaining lags: 1, 5, 7, 9, 11, 96, 288
+Time taken to evaluate again:3.603
+New merit: 11.212898000928783
+Remaining lags: 1, 4, 7, 8, 11, 96, 288
+Time taken to evaluate again:3.494
+New merit: 11.265011794610142
+Remaining lags: 1, 96, 192
+Time taken to evaluate again:2.168
+New merit: 11.321806982410045
+Remaining lags: 1, 3, 7, 9, 11, 96, 288
+Time taken to evaluate again:3.51
+New merit: 11.274117064443201
+Remaining lags: 7, 8, 11, 96, 288
+Time taken to evaluate again:2.621
+New merit: 11.361713220010175
+Remaining lags: 1, 12, 96, 288, 672
+Time taken to evaluate again:2.808
+New merit: 11.939324567799257
+Remaining lags: 1, 3, 7, 10, 288
+Time taken to evaluate again:2.746
+New merit: 12.614676385443863
+Remaining lags: 1, 2, 12, 96, 288
+Time taken to evaluate again:2.793
+New merit: 11.235423826288853
+Remaining lags: 1, 7, 10, 11, 288
+Time taken to evaluate again:2.777
+New merit: 12.538871401259811
+Remaining lags: 1, 4, 7, 11, 96
+Time taken to evaluate again:2.871
+New merit: 11.376221826729706
+Remaining lags: 1, 2, 4, 5, 7, 8, 9, 96, 288
+Time taken to evaluate again:4.165
+New merit: 11.108025397238812
+Remaining lags: 1, 2, 7, 192, 288
+Time taken to evaluate again:2.793
+New merit: 12.548950826331046
+Remaining lags: 6, 96, 288
+Time taken to evaluate again:2.045
+New merit: 11.392230478256291
+Remaining lags: 1, 2, 7, 96, 192, 288, 672
+Time taken to evaluate again:3.588
+New merit: 12.053626233378909
+Remaining lags: 3, 7, 8, 96, 288
+Time taken to evaluate again:2.699
+New merit: 11.260622599120643
+Remaining lags: 5, 7, 8, 288
+Time taken to evaluate again:2.434
+New merit: 12.801708857590697
+Remaining lags: 7, 96, 192
+Time taken to evaluate again:2.013
+New merit: 11.58015756301462
+Remaining lags: 1, 2, 7, 11, 96, 192, 288
+Time taken to evaluate again:3.479
+New merit: 11.326435022071196
+Remaining lags: 7, 10, 96, 288, 672
+Time taken to evaluate again:2.621
+New merit: 12.278918668072047
+Remaining lags: 1, 12, 288
+Time taken to evaluate again:2.153
+New merit: 12.524945473714284
+Remaining lags: 1, 2, 8, 96, 288
+Time taken to evaluate again:2.746
+New merit: 11.01567241478625
+Remaining lags: 1, 5, 7, 9, 96, 288, 672
+Time taken to evaluate again:3.588
+New merit: 11.926528529140294
+Remaining lags: 1, 2, 5, 7, 10, 96, 288
+Time taken to evaluate again:3.478
+New merit: 11.288099543974907
+Remaining lags: 1, 2, 4, 6, 7, 96, 288
+Time taken to evaluate again:3.463
+New merit: 11.056766718471714
+Remaining lags: 3, 7, 10, 96, 288
+Time taken to evaluate again:2.715
+New merit: 11.264058792340485
+Remaining lags: 1, 3, 7, 8, 96
+Time taken to evaluate again:2.761
+New merit: 11.147301795087785
+Remaining lags: 1, 4, 7, 12, 96, 192, 288
+Time taken to evaluate again:3.526
+New merit: 11.386454627324081
+Remaining lags: 1, 2, 6, 7, 11, 96, 288
+Time taken to evaluate again:3.542
+New merit: 11.29441264223604
+Remaining lags: 2, 3, 7, 96, 288
+Time taken to evaluate again:2.745
+New merit: 11.058487468906186
+Remaining lags: 4, 7, 9, 96, 288
+Time taken to evaluate again:2.667
+New merit: 11.250375326544656
+Remaining lags: 1, 5, 7, 11, 12, 96, 288
+Time taken to evaluate again:3.463
+New merit: 11.251593477196858
+Remaining lags: 1, 5, 7, 8, 288
+Time taken to evaluate again:2.792
+New merit: 12.55570714946565
+Remaining lags: 3, 7, 11, 96, 288
+Time taken to evaluate again:2.699
+New merit: 11.32060714610094
+Remaining lags: 1, 5, 7, 8, 9, 96, 288
+Time taken to evaluate again:3.432
+New merit: 10.989099964900555
+Remaining lags: 7, 11, 96
+Time taken to evaluate again:2.028
+New merit: 11.643044595474153
+Remaining lags: 1, 3, 5, 7, 288
+Time taken to evaluate again:2.777
+New merit: 12.521758128093982
+Remaining lags: 1, 7, 12, 192, 288
+Time taken to evaluate again:2.793
+New merit: 12.684971397098034
+Remaining lags: 1, 7, 8, 9, 96, 192, 288
+Time taken to evaluate again:3.51
+New merit: 11.028864417319609
+Remaining lags: 1, 4, 7, 11, 96, 192, 288
+Time taken to evaluate again:3.494
+New merit: 11.34722563004434
+Remaining lags: 1, 7, 9, 12, 288
+Time taken to evaluate again:2.855
+New merit: 12.598412332993064
+Remaining lags: 1, 4, 6, 7, 11, 96, 288
+Time taken to evaluate again:3.51
+New merit: 11.262787896072497
+Remaining lags: 1, 7, 10, 96, 192
+Time taken to evaluate again:2.793
+New merit: 11.311542728794263
+Remaining lags: 1, 7, 11, 12, 96, 288, 672
+Time taken to evaluate again:3.478
+New merit: 12.027595599177875
+Remaining lags: 4, 7, 12, 96, 288
+Time taken to evaluate again:2.667
+New merit: 11.256262181458926
+Remaining lags: 1, 2, 7, 96, 672
+Time taken to evaluate again:2.808
+New merit: 12.043450945054616
+Remaining lags: 1, 5, 9, 96, 288
+Time taken to evaluate again:2.793
+New merit: 10.986804046805466
+Remaining lags: 96, 192, 288
+Time taken to evaluate again:2.215
+New merit: 13.895629189424907
+Remaining lags: 1, 7, 9, 10, 96, 192
+Time taken to evaluate again:3.136
+New merit: 11.310477965654501
+Remaining lags: 1, 4, 7
+Time taken to evaluate again:2.2
+New merit: 13.113893411236578
+Remaining lags: 1, 5, 7, 11, 96, 192, 288
+Time taken to evaluate again:3.463
+New merit: 11.297916474200887
+Remaining lags: 1, 7, 9, 10, 96, 192, 288
+Time taken to evaluate again:3.478
+New merit: 11.058384214660895
+Remaining lags: 1, 3, 7, 8, 288
+Time taken to evaluate again:2.777
+New merit: 12.548861457963387
+Remaining lags: 1, 2, 3, 7, 9, 96, 288
+Time taken to evaluate again:3.417
+New merit: 11.216240692717877
+Remaining lags: 12, 96, 288
+Time taken to evaluate again:2.075
+New merit: 11.912197430285111
+Remaining lags: 1, 3, 5, 7, 10, 96, 288
+Time taken to evaluate again:3.588
+New merit: 11.26302123770078
+Remaining lags: 1, 2, 7, 288, 672
+Time taken to evaluate again:2.777
+New merit: 14.015001908286562
+Remaining lags: 1, 7, 8, 10, 96, 192, 288
+Time taken to evaluate again:3.463
+New merit: 11.058821326326491
+Remaining lags: 1, 5, 6, 96, 288
+Time taken to evaluate again:2.749
+New merit: 10.98344532664521
+Remaining lags: 1, 2, 7, 11, 12, 288
+Time taken to evaluate again:3.198
+New merit: 12.713623675464667
+Remaining lags: 1, 7, 8, 9, 12, 96, 288
+Time taken to evaluate again:3.479
+New merit: 11.216160249595363
+Remaining lags: 1, 5, 7, 8, 96
+Time taken to evaluate again:2.777
+New merit: 11.109942737970455
+Remaining lags: 9, 96, 288
+Time taken to evaluate again:2.012
+New merit: 11.657392605477876
+Remaining lags: 2, 7, 9, 96, 288
+Time taken to evaluate again:2.715
+New merit: 11.13246742912207
+Remaining lags: 1, 3, 7, 8, 11, 96, 288
+Time taken to evaluate again:3.588
+New merit: 11.274883832150325
+Remaining lags: 1, 7, 8, 9, 10, 96, 288
+Time taken to evaluate again:3.478
+New merit: 10.967116911123444
+Remaining lags: 7, 10, 12, 96, 288
+Time taken to evaluate again:2.683
+New merit: 11.54269385567687
+Remaining lags: 6, 7, 96, 288, 672
+Time taken to evaluate again:2.699
+New merit: 12.079892343127481
+Remaining lags: 1, 10, 96, 192, 288
+Time taken to evaluate again:2.813
+New merit: 11.038234086162355
+Remaining lags: 1, 2, 3, 7, 10, 96, 288
+Time taken to evaluate again:3.448
+New merit: 11.24849152888983
+Remaining lags: 3, 7, 96, 192, 288
+Time taken to evaluate again:2.699
+New merit: 11.297699947501536
+Remaining lags: 1, 4, 5, 7, 8, 96, 288
+Time taken to evaluate again:3.448
+New merit: 11.028312472198053
+Remaining lags: 1, 3, 5, 7, 96, 288, 672
+Time taken to evaluate again:3.541
+New merit: 11.936887137283533
+Remaining lags: 1, 6, 12, 96, 288
+Time taken to evaluate again:2.793
+New merit: 11.225099505101483
+Remaining lags: 2, 7, 96, 192, 288
+Time taken to evaluate again:2.761
+New merit: 11.181484029380641
+Remaining lags: 1, 7, 9, 11, 96, 288, 672
+Time taken to evaluate again:3.51
+New merit: 11.962483154137141
+Remaining lags: 1, 6, 7, 11, 12, 96, 288
+Time taken to evaluate again:3.494
+New merit: 11.22437995229956
+Remaining lags: 5, 7, 8, 96, 288
+Time taken to evaluate again:2.745
+New merit: 11.228450761027062
+Remaining lags: 1, 4, 5, 7, 11, 96, 288
+Time taken to evaluate again:3.463
+New merit: 11.26568763867742
+Remaining lags: 1, 4, 7, 8, 9, 96, 288
+Time taken to evaluate again:3.416
+New merit: 11.042374186220917
+Remaining lags: 1, 2, 4, 7, 10, 96, 288
+Time taken to evaluate again:3.432
+New merit: 11.276598838903414
+Remaining lags: 1, 2, 5, 7, 96, 288, 672
+Time taken to evaluate again:3.494
+New merit: 11.957873389020486
+Remaining lags: 1, 3, 9, 96, 288
+Time taken to evaluate again:2.761
+New merit: 11.043861942511677
+Remaining lags: 1, 3, 5, 7, 9, 288
+Time taken to evaluate again:3.12
+New merit: 12.602128890286211
+Remaining lags: 1, 6, 96, 288, 672
+Time taken to evaluate again:2.777
+New merit: 11.909053676963508
+Remaining lags: 1, 7, 8, 9, 11, 96, 288
+Time taken to evaluate again:3.494
+New merit: 11.148399220572681
+Remaining lags: 6, 7, 96, 192, 288
+Time taken to evaluate again:2.652
+New merit: 11.32700655933663
+Remaining lags: 1, 7, 10, 12, 288
+Time taken to evaluate again:2.745
+New merit: 12.596965690609856
+Remaining lags: 5, 7, 12, 96, 288
+Time taken to evaluate again:2.761
+New merit: 11.283800091823869
+Remaining lags: 3, 7, 12, 96, 288
+Time taken to evaluate again:2.745
+New merit: 11.351271969115844
+Remaining lags: 1, 6, 7, 9, 12, 96, 288
+Time taken to evaluate again:3.463
+New merit: 11.229244827641711
+Remaining lags: 1, 3, 7, 9, 288
+Time taken to evaluate again:2.839
+New merit: 12.575353902930054
+Remaining lags: 1, 5, 7, 8, 10, 96, 288
+Time taken to evaluate again:3.526
+New merit: 11.171194032379958
+Remaining lags: 1, 7, 8, 11, 96, 288, 672
+Time taken to evaluate again:3.51
+New merit: 11.96223828092891
+Remaining lags: 1, 4, 5, 7, 9, 96, 288
+Time taken to evaluate again:3.478
+New merit: 11.042607724140112
+Remaining lags: 4, 5, 7, 96, 288
+Time taken to evaluate again:2.699
+New merit: 11.28486204928744
+Remaining lags: 1, 3, 4, 7, 11, 96, 288
+Time taken to evaluate again:3.525
+New merit: 11.295983356256981
+Remaining lags: 1, 10, 288
+Time taken to evaluate again:2.152
+New merit: 12.50261747173234
+Remaining lags: 1, 7, 10, 12, 96
+Time taken to evaluate again:2.793
+New merit: 11.340612094284538
+Remaining lags: 1, 9, 288
+Time taken to evaluate again:2.153
+New merit: 12.494894956582506
+Remaining lags: 1, 6, 7, 12, 96
+Time taken to evaluate again:2.776
+New merit: 11.352432205569379
+Remaining lags: 1, 7, 11, 96, 192
+Time taken to evaluate again:2.823
+New merit: 11.357155545550333
+Remaining lags: 1, 3, 7, 288, 672
+Time taken to evaluate again:2.933
+New merit: 13.943784827754465
+Remaining lags: 4, 7, 288
+Time taken to evaluate again:2.122
+New merit: 12.917401522801967
+Remaining lags: 1, 11, 96, 288, 672
+Time taken to evaluate again:2.839
+New merit: 11.923578833640663
+Remaining lags: 1, 4, 7, 8, 96, 192, 288
+Time taken to evaluate again:3.432
+New merit: 11.107349991416642
+Remaining lags: 1, 2, 6, 7, 96, 288, 672
+Time taken to evaluate again:3.463
+New merit: 11.94761092131211
+Remaining lags: 1, 2, 288
+Time taken to evaluate again:2.153
+New merit: 12.531102263626233
+Remaining lags: 1, 3, 5, 96, 288
+Time taken to evaluate again:2.761
+New merit: 10.999435878588589
+Remaining lags: 4, 7, 96
+Time taken to evaluate again:2.059
+New merit: 11.402757021508608
+Remaining lags: 5, 7, 10, 96, 288
+Time taken to evaluate again:2.699
+New merit: 11.189831746395049
+Remaining lags: 2, 7, 11, 96, 288
+Time taken to evaluate again:2.761
+New merit: 11.164734134375747
+Remaining lags: 2, 7, 288
+Time taken to evaluate again:2.184
+New merit: 12.7240856376451
+Remaining lags: 1, 7, 11, 96, 192, 288, 672
+Time taken to evaluate again:3.604
+New merit: 12.077210666446215
+Remaining lags: 1, 12, 96, 192, 288
+Time taken to evaluate again:2.808
+New merit: 11.211306211983675
+Remaining lags: 1, 4, 8, 96, 288
+Time taken to evaluate again:2.761
+New merit: 11.024943645029529
+Remaining lags: 7, 10, 96, 192, 288
+Time taken to evaluate again:2.636
+New merit: 11.494190742909778
+Remaining lags: 5, 6, 7, 96, 288
+Time taken to evaluate again:2.652
+New merit: 11.171222588391592
+Remaining lags: 1, 5, 7, 9, 96, 192, 288
+Time taken to evaluate again:3.51
+New merit: 11.070203299626575
+Remaining lags: 1, 10, 96, 288, 672
+Time taken to evaluate again:2.84
+New merit: 11.916322888638627
+Remaining lags: 1, 6, 7, 12, 96, 192, 288
+Time taken to evaluate again:3.494
+New merit: 11.31640185149122
+Remaining lags: 1, 7, 8, 9, 96
+Time taken to evaluate again:2.761
+New merit: 11.076206847032568
+Remaining lags: 1, 2, 4, 7, 9, 96, 288
+Time taken to evaluate again:3.448
+New merit: 11.104248074212636
+Remaining lags: 1, 7, 9, 96, 192, 288, 672
+Time taken to evaluate again:3.526
+New merit: 12.017464273503547
+Remaining lags: 1, 11, 96
+Time taken to evaluate again:2.09
+New merit: 11.125442797653852
+Remaining lags: 1, 2, 6, 7, 9, 96, 288
+Time taken to evaluate again:3.448
+New merit: 11.05713453592798
+Remaining lags: 1, 4, 12, 96, 288
+Time taken to evaluate again:2.826
+New merit: 11.303630266292455
+Remaining lags: 1, 7, 10, 11, 96
+Time taken to evaluate again:2.776
+New merit: 11.30217567299672
+Remaining lags: 1, 5, 7, 9, 288
+Time taken to evaluate again:2.745
+New merit: 12.579108266955329
+Remaining lags: 1, 2, 7, 11, 96
+Time taken to evaluate again:2.762
+New merit: 11.360178612932003
+Remaining lags: 1, 192, 288
+Time taken to evaluate again:2.137
+New merit: 12.660278845698507
+Remaining lags: 1, 2, 5, 6, 7, 11, 96, 288
+Time taken to evaluate again:3.853
+New merit: 11.309978601385804
+Remaining lags: 1, 3, 5, 7, 8, 96, 288
+Time taken to evaluate again:3.541
+New merit: 11.042774117759581
+Remaining lags: 1, 7, 8, 11, 12, 96, 288
+Time taken to evaluate again:3.51
+New merit: 11.211631708437075
+Remaining lags: 1, 8, 9, 96, 288
+Time taken to evaluate again:2.777
+New merit: 10.942524592558543
+Remaining lags: 1, 6, 7, 9, 96
+Time taken to evaluate again:2.808
+New merit: 11.226012204860275
+Remaining lags: 1, 7, 9, 192, 288
+Time taken to evaluate again:2.777
+New merit: 12.525235181584588
+Remaining lags: 1, 5, 7, 96, 192
+Time taken to evaluate again:2.886
+New merit: 11.14952522420635
+Remaining lags: 3, 5, 7, 96, 288
+Time taken to evaluate again:2.652
+New merit: 11.204986496742045
+Remaining lags: 1, 3, 7, 11, 96, 192, 288
+Time taken to evaluate again:3.463
+New merit: 11.355578588562858
+Remaining lags: 1, 2, 7, 12, 288
+Time taken to evaluate again:2.839
+New merit: 12.713776804079822
+Remaining lags: 7, 12, 96, 288, 672
+Time taken to evaluate again:2.652
+New merit: 12.403500873810442
+Remaining lags: 1, 2, 4, 5, 7, 96, 288
+Time taken to evaluate again:3.416
+New merit: 11.0608023831062
+Remaining lags: 1, 7, 8, 10, 96
+Time taken to evaluate again:2.792
+New merit: 11.255669982329826
+Remaining lags: 1, 5, 7, 192, 288
+Time taken to evaluate again:2.777
+New merit: 12.548051076082034
+Remaining lags: 1, 4, 7, 8, 288
+Time taken to evaluate again:2.761
+New merit: 12.59798351710729
+Remaining lags: 9, 288
+Time taken to evaluate again:1.81
+New merit: 12.89490135615631
+Remaining lags: 96, 288, 672
+Time taken to evaluate again:2.247
+New merit: 14.303287132682913
+Remaining lags: 1, 2, 6, 96, 288
+Time taken to evaluate again:2.808
+New merit: 11.014925166221815
+Remaining lags: 1, 7, 8, 9, 96, 288, 672
+Time taken to evaluate again:3.432
+New merit: 11.916377022109709
+Remaining lags: 1, 3, 6, 7, 10, 96, 288
+Time taken to evaluate again:3.479
+New merit: 11.25382784341876
+Remaining lags: 1, 9, 96, 288, 672
+Time taken to evaluate again:2.777
+New merit: 11.925161873538284
+Remaining lags: 5, 96, 288
+Time taken to evaluate again:2.091
+New merit: 11.346830356081423
+Remaining lags: 1, 4, 7, 9, 12, 96, 288
+Time taken to evaluate again:3.495
+New merit: 11.301933679148197
+Remaining lags: 1, 4, 7, 8, 96, 192, 288, 672
+Time taken to evaluate again:3.9
+New merit: 12.046864848035472
+Remaining lags: 1, 5, 7, 10, 96, 288, 672
+Time taken to evaluate again:3.464
+New merit: 11.953725600730042
+Remaining lags: 1, 7, 8
+Time taken to evaluate again:2.2
+New merit: 13.065551976384064
+Remaining lags: 7, 8, 96
+Time taken to evaluate again:2.043
+New merit: 11.46552405379724
+Remaining lags: 1, 2, 7, 9, 96, 288, 672
+Time taken to evaluate again:3.51
+New merit: 11.955790644084063
+Remaining lags: 1, 6, 9, 96, 288
+Time taken to evaluate again:2.776
+New merit: 10.951013506464854
+Remaining lags: 1, 8, 11, 96, 288
+Time taken to evaluate again:2.792
+New merit: 10.9763661256054
+Remaining lags: 7, 9, 10, 96, 288
+Time taken to evaluate again:2.636
+New merit: 11.403591752857128
+Remaining lags: 1, 96, 192, 288, 672
+Time taken to evaluate again:2.824
+New merit: 12.05443126889368
+Remaining lags: 1, 6, 7, 12, 96, 288, 672
+Time taken to evaluate again:3.557
+New merit: 12.029728943631486
+Remaining lags: 1, 5, 96, 192, 288
+Time taken to evaluate again:2.777
+New merit: 11.063990937350814
+Remaining lags: 1, 3, 7, 10, 96, 288, 672
+Time taken to evaluate again:3.51
+New merit: 11.997542848083574
+Remaining lags: 5, 7, 288
+Time taken to evaluate again:2.122
+New merit: 12.792870118179964
+Remaining lags: 1, 2, 7, 9, 10, 96, 288
+Time taken to evaluate again:3.494
+New merit: 11.22404613214926
+Remaining lags: 7, 8, 10, 96, 288
+Time taken to evaluate again:2.621
+New merit: 11.32431925313944
+Remaining lags: 1, 5, 8, 96
+Time taken to evaluate again:2.449
+New merit: 11.087511068993116
+Remaining lags: 1, 10, 11, 96, 288
+Time taken to evaluate again:2.777
+New merit: 10.952441570687887
+Remaining lags: 1, 3, 6, 7, 11, 96, 288
+Time taken to evaluate again:3.542
+New merit: 11.274448536621424
+Remaining lags: 1, 2, 3, 7, 8, 96, 288
+Time taken to evaluate again:3.416
+New merit: 11.053543762745264
+Remaining lags: 1, 7, 8, 12, 96
+Time taken to evaluate again:2.777
+New merit: 11.342812492430433
+Remaining lags: 7, 12, 96, 192, 288
+Time taken to evaluate again:2.683
+New merit: 11.597459267067993
+Remaining lags: 1, 6, 7, 11, 96, 192, 288
+Time taken to evaluate again:3.479
+New merit: 11.268866092606387
+Remaining lags: 1, 5, 7, 11, 96, 288, 672
+Time taken to evaluate again:3.479
+New merit: 11.9749522667582
+Remaining lags: 1, 5, 7, 9, 12, 96, 288
+Time taken to evaluate again:3.588
+New merit: 11.254558481624025
+Remaining lags: 1, 6, 7, 8, 288
+Time taken to evaluate again:2.761
+New merit: 12.500634773487798
+Remaining lags: 1, 3, 5, 7, 96, 192, 288
+Time taken to evaluate again:3.416
+New merit: 11.099352403054443
+Remaining lags: 1, 4, 7, 9, 96
+Time taken to evaluate again:2.761
+New merit: 11.301297658548927
+Remaining lags: 1, 7, 12, 96, 672
+Time taken to evaluate again:2.855
+New merit: 12.131441433034217
+Remaining lags: 1, 5, 7, 9, 96
+Time taken to evaluate again:2.777
+New merit: 11.250296968660232
+Remaining lags: 1, 2, 9, 96, 288
+Time taken to evaluate again:2.777
+New merit: 11.019631781288844
+Remaining lags: 96
+Time taken to evaluate again:1.654
+New merit: 14.262814574833499
+Remaining lags: 1, 2, 4, 7, 8, 96, 288
+Time taken to evaluate again:3.432
+New merit: 11.087834153090125
+Remaining lags: 1, 7, 9, 11, 12, 96, 288
+Time taken to evaluate again:3.526
+New merit: 11.213573529684211
+Remaining lags: 1, 4, 7, 11, 12, 96, 288
+Time taken to evaluate again:3.479
+New merit: 11.300394193677786
+Remaining lags: 1, 3, 7, 10, 96
+Time taken to evaluate again:2.777
+New merit: 11.370521709906697
+Remaining lags: 1, 2, 11, 96, 288
+Time taken to evaluate again:2.808
+New merit: 11.216395483394711
+Remaining lags: 1, 7, 8, 12, 96, 192, 288
+Time taken to evaluate again:3.604
+New merit: 11.303845337810944
+Remaining lags: 6, 7, 8, 96, 288
+Time taken to evaluate again:2.699
+New merit: 11.266697032551129
+Remaining lags: 1, 4, 7, 96, 192
+Time taken to evaluate again:2.808
+New merit: 11.167409335490705
+Remaining lags: 1, 2, 7, 12, 96
+Time taken to evaluate again:2.777
+New merit: 11.39618066394531
+Remaining lags: 3, 7, 288
+Time taken to evaluate again:2.122
+New merit: 12.738582519328101
+Remaining lags: 1, 5, 6, 7, 11, 96, 288
+Time taken to evaluate again:3.464
+New merit: 11.212195357083761
+Remaining lags: 1, 6, 7, 9, 96, 192, 288
+Time taken to evaluate again:3.448
+New merit: 11.033990353506255
+Remaining lags: 1, 3, 5, 7, 9, 96, 288
+Time taken to evaluate again:3.448
+New merit: 11.057728910194609
+Remaining lags: 1, 5, 10, 96, 288
+Time taken to evaluate again:2.824
+New merit: 11.174608148374766
+Remaining lags: 1, 5, 7, 12, 288
+Time taken to evaluate again:2.808
+New merit: 12.739774753358224
+Best merit:10.93204825365067
+400
+Time taken for wrapper part:1218.278
+Remaining lags: 1, 7, 96, 288
+Time taken to evaluate final model:4.102
+Step: 0 Prediction:264,1621 Act: 265.04082807 MAE: 0,8787 RMSE:0,8787 MAPE:0,3315
+Step: 1 Prediction:264,6537 Act: 255.053115789 MAE: 5,2396 RMSE:6,817 MAPE:2,0478
+Step: 2 Prediction:265,8908 Act: 269.008849123 MAE: 4,5324 RMSE:5,8499 MAPE:1,7516
+Step: 3 Prediction:268,2778 Act: 275.005010526 MAE: 5,0811 RMSE:6,0811 MAPE:1,9252
+Step: 4 Prediction:271,6642 Act: 273.025936842 MAE: 4,3372 RMSE:5,4731 MAPE:1,6399
+Step: 5 Prediction:275,3145 Act: 278.039466667 MAE: 4,0685 RMSE:5,1186 MAPE:1,53
+Step: 6 Prediction:279,2084 Act: 273.004821053 MAE: 4,3735 RMSE:5,2872 MAPE:1,636
+Step: 7 Prediction:282,6595 Act: 269.048140351 MAE: 5,5283 RMSE:6,9007 MAPE:2,0639
+Step: 8 Prediction:286,134 Act: 278.061242105 MAE: 5,811 RMSE:7,0405 MAPE:2,1572
+Step: 9 Prediction:291,194 Act: 299.007389474 MAE: 6,0112 RMSE:7,1216 MAPE:2,2028
+Step: 10 Prediction:296,7201 Act: 294.058077193 MAE: 5,7068 RMSE:6,8375 MAPE:2,0848
+Step: 11 Prediction:301,8041 Act: 290.067978947 MAE: 6,2092 RMSE:7,3711 MAPE:2,2482
+Step: 12 Prediction:305,9117 Act: 296.026505263 MAE: 6,492 RMSE:7,5941 MAPE:2,3322
+Step: 13 Prediction:306,8443 Act: 308.044463158 MAE: 6,114 RMSE:7,3249 MAPE:2,1934
+Step: 14 Prediction:308,1264 Act: 305.014287719 MAE: 5,9139 RMSE:7,122 MAPE:2,1152
+Step: 15 Prediction:308,8789 Act: 307.052217544 MAE: 5,6584 RMSE:6,9109 MAPE:2,0202
+Step: 16 Prediction:310,3278 Act: 303.044757895 MAE: 5,754 RMSE:6,9334 MAPE:2,0427
+Step: 17 Prediction:308,2948 Act: 290.033824561 MAE: 6,4488 RMSE:7,9954 MAPE:2,279
+Step: 18 Prediction:307,3633 Act: 284.036652632 MAE: 7,3371 RMSE:9,4446 MAPE:2,5913
+Step: 19 Prediction:305,9742 Act: 291.003024561 MAE: 7,7188 RMSE:9,7953 MAPE:2,719
+Step: 20 Prediction:303,8524 Act: 312.020631579 MAE: 7,7402 RMSE:9,724 MAPE:2,7142
+Step: 21 Prediction:300,3126 Act: 278.071607018 MAE: 8,3993 RMSE:10,618 MAPE:2,9544
+Step: 22 Prediction:297,4774 Act: 271.078442105 MAE: 9,1819 RMSE:11,7533 MAPE:3,2493
+Step: 23 Prediction:294,819 Act: 274.096266667 MAE: 9,6628 RMSE:12,2588 MAPE:3,4289
+Step: 24 Prediction:273,1652 Act: 257.076301754 MAE: 9,9198 RMSE:12,4347 MAPE:3,5421
+Step: 25 Prediction:271,2846 Act: 260.003263158 MAE: 9,9722 RMSE:12,3923 MAPE:3,5728
+Step: 26 Prediction:269,4374 Act: 276.084098246 MAE: 9,849 RMSE:12,2277 MAPE:3,5296
+Step: 27 Prediction:268,2782 Act: 252.097705263 MAE: 10,0752 RMSE:12,3906 MAPE:3,6328
+Step: 28 Prediction:265,5737 Act: 253.088814035 MAE: 10,1583 RMSE:12,3939 MAPE:3,6776
+Step: 29 Prediction:260,6957 Act: 243.089164912 MAE: 10,4065 RMSE:12,6024 MAPE:3,7965
+Step: 30 Prediction:254,6749 Act: 236.096821053 MAE: 10,6701 RMSE:12,8387 MAPE:3,9278
+Step: 31 Prediction:248,5803 Act: 243.063459649 MAE: 10,5091 RMSE:12,6741 MAPE:3,876
+Step: 32 Prediction:243,3674 Act: 214.048126316 MAE: 11,0791 RMSE:13,4838 MAPE:4,1736
+Step: 33 Prediction:236,7406 Act: 206.007326316 MAE: 11,6572 RMSE:14,2915 MAPE:4,4897
+Step: 34 Prediction:230,5815 Act: 190.017782456 MAE: 12,4831 RMSE:15,666 MAPE:4,9713
+Step: 35 Prediction:225,0775 Act: 181.061192982 MAE: 13,359 RMSE:17,1004 MAPE:5,5085
+Step: 36 Prediction:217,8986 Act: 181.064757895 MAE: 13,9934 RMSE:17,9217 MAPE:5,9094
+Step: 37 Prediction:213,0537 Act: 171.087417544 MAE: 14,7296 RMSE:18,9495 MAPE:6,3994
+Step: 38 Prediction:207,8097 Act: 182.024666667 MAE: 15,013 RMSE:19,1552 MAPE:6,5985
+Step: 39 Prediction:203,4165 Act: 157.08165614 MAE: 15,7961 RMSE:20,2836 MAPE:7,171
+Step: 40 Prediction:197,9775 Act: 146.026 MAE: 16,6779 RMSE:21,6152 MAPE:7,8638
+Step: 41 Prediction:194,0117 Act: 152.088610526 MAE: 17,279 RMSE:22,3145 MAPE:8,3329
+Step: 42 Prediction:189,4839 Act: 161.098336842 MAE: 17,5373 RMSE:22,4743 MAPE:8,5489
+Step: 43 Prediction:185,3577 Act: 149.041129825 MAE: 17,9641 RMSE:22,8821 MAPE:8,9084
+Step: 44 Prediction:181,5333 Act: 144.031263158 MAE: 18,3983 RMSE:23,3069 MAPE:9,289
+Step: 45 Prediction:178,7483 Act: 141.085221053 MAE: 18,8171 RMSE:23,7116 MAPE:9,6674
+Step: 46 Prediction:175,2636 Act: 145.060792982 MAE: 19,0593 RMSE:23,8681 MAPE:9,9047
+Step: 47 Prediction:172,0812 Act: 128.008582456 MAE: 19,5804 RMSE:24,4598 MAPE:10,4157
+Step: 48 Prediction:129,0389 Act: 128.094785965 MAE: 19,2001 RMSE:24,2093 MAPE:10,2181
+Step: 49 Prediction:130,3081 Act: 121.092217544 MAE: 19,0004 RMSE:24,0014 MAPE:10,166
+Step: 50 Prediction:131,622 Act: 121.071101754 MAE: 18,8347 RMSE:23,8108 MAPE:10,1375
+Step: 51 Prediction:132,3137 Act: 109.031108772 MAE: 18,9203 RMSE:23,8008 MAPE:10,3532
+Step: 52 Prediction:131,4433 Act: 116.0708 MAE: 18,8533 RMSE:23,6695 MAPE:10,4078
+Step: 53 Prediction:132,9872 Act: 117.006091228 MAE: 18,8001 RMSE:23,55 MAPE:10,468
+Step: 54 Prediction:132,59 Act: 119.045452632 MAE: 18,7046 RMSE:23,4063 MAPE:10,4845
+Step: 55 Prediction:133,6224 Act: 107.096982456 MAE: 18,8442 RMSE:23,4656 MAPE:10,7396
+Step: 56 Prediction:133,7996 Act: 110.063614035 MAE: 18,9301 RMSE:23,4704 MAPE:10,9295
+Step: 57 Prediction:133,8731 Act: 102.001298246 MAE: 19,1532 RMSE:23,6405 MAPE:11,2798
+Step: 58 Prediction:133,107 Act: 100.04725614 MAE: 19,3889 RMSE:23,8312 MAPE:11,6487
+Step: 59 Prediction:132,2629 Act: 108.068203509 MAE: 19,469 RMSE:23,8373 MAPE:11,8277
+Step: 60 Prediction:131,724 Act: 96.041242105 MAE: 19,7348 RMSE:24,0785 MAPE:12,2429
+Step: 61 Prediction:134,525 Act: 92.014764912 MAE: 20,1021 RMSE:24,4862 MAPE:12,7905
+Step: 62 Prediction:136,9073 Act: 84.049473684 MAE: 20,6221 RMSE:25,1874 MAPE:13,5858
+Step: 63 Prediction:138,3936 Act: 87.031333333 MAE: 21,1024 RMSE:25,8014 MAPE:14,2956
+Step: 64 Prediction:139,6639 Act: 94.005985965 MAE: 21,4802 RMSE:26,221 MAPE:14,8229
+Step: 65 Prediction:138,8807 Act: 94.030884211 MAE: 21,8343 RMSE:26,6008 MAPE:15,321
+Step: 66 Prediction:138,4779 Act: 93.056280702 MAE: 22,1863 RMSE:26,9784 MAPE:15,8208
+Step: 67 Prediction:137,7469 Act: 83.084070175 MAE: 22,6639 RMSE:27,5875 MAPE:16,5557
+Step: 68 Prediction:138,3265 Act: 89.030449123 MAE: 23,0499 RMSE:28,0225 MAPE:17,1182
+Step: 69 Prediction:137,2703 Act: 94.068421053 MAE: 23,3378 RMSE:28,2967 MAPE:17,5298
+Step: 70 Prediction:137,0323 Act: 109.03245614 MAE: 23,4034 RMSE:28,2926 MAPE:17,6446
+Step: 71 Prediction:137,5192 Act: 109.002491228 MAE: 23,4744 RMSE:28,2957 MAPE:17,7629
+Step: 72 Prediction:111,4591 Act: 115.088084211 MAE: 23,2026 RMSE:28,1044 MAPE:17,5627
+Step: 73 Prediction:114,2059 Act: 131.07957193 MAE: 23,1171 RMSE:27,9827 MAPE:17,4993
+Step: 74 Prediction:116,9082 Act: 146.034582456 MAE: 23,1972 RMSE:27,9983 MAPE:17,532
+Step: 75 Prediction:119,3193 Act: 125.011515789 MAE: 22,9669 RMSE:27,8211 MAPE:17,3612
+Step: 76 Prediction:122,0595 Act: 164.004680702 MAE: 23,2133 RMSE:28,0502 MAPE:17,4679
+Step: 77 Prediction:126,0987 Act: 143.040729825 MAE: 23,1329 RMSE:27,9357 MAPE:17,3958
+Step: 78 Prediction:130,0063 Act: 138.019578947 MAE: 22,9415 RMSE:27,773 MAPE:17,2491
+Step: 79 Prediction:134,3505 Act: 170.05437193 MAE: 23,1011 RMSE:27,886 MAPE:17,2959
+Step: 80 Prediction:138,9037 Act: 176.062533333 MAE: 23,2746 RMSE:28,0192 MAPE:17,3429
+Step: 81 Prediction:144,0757 Act: 193.071185965 MAE: 23,5883 RMSE:28,3686 MAPE:17,4409
+Step: 82 Prediction:149,3285 Act: 182.005010526 MAE: 23,6978 RMSE:28,4244 MAPE:17,4471
+Step: 83 Prediction:154,5821 Act: 211.005410526 MAE: 24,0874 RMSE:28,9176 MAPE:17,5577
+Step: 84 Prediction:160,5455 Act: 204.017733333 MAE: 24,3154 RMSE:29,1311 MAPE:17,6018
+Step: 85 Prediction:165,9403 Act: 212.065831579 MAE: 24,569 RMSE:29,3853 MAPE:17,6501
+Step: 86 Prediction:169,9071 Act: 228.045761404 MAE: 24,9549 RMSE:29,8734 MAPE:17,7402
+Step: 87 Prediction:174,2837 Act: 224.066575439 MAE: 25,237 RMSE:30,1736 MAPE:17,7911
+Step: 88 Prediction:178,0292 Act: 217.041221053 MAE: 25,3918 RMSE:30,2872 MAPE:17,7932
+Step: 89 Prediction:182,8069 Act: 225.014540351 MAE: 25,5786 RMSE:30,4453 MAPE:17,8039
+Step: 90 Prediction:187,8691 Act: 222.00525614 MAE: 25,6727 RMSE:30,4883 MAPE:17,7772
+Step: 91 Prediction:193,4497 Act: 243.019480702 MAE: 25,9324 RMSE:30,7594 MAPE:17,8057
+Step: 92 Prediction:198,3688 Act: 258.081859649 MAE: 26,2957 RMSE:31,2139 MAPE:17,863
+Step: 93 Prediction:202,8168 Act: 255.024722807 MAE: 26,5713 RMSE:31,5109 MAPE:17,8908
+Step: 94 Prediction:207,9047 Act: 262.044035088 MAE: 26,8615 RMSE:31,833 MAPE:17,9199
+Step: 95 Prediction:212,6389 Act: 253.044919298 MAE: 27,0026 RMSE:31,9342 MAPE:17,8996
+Step: 96 Prediction:254,0585 Act: 276.055298246 MAE: 26,951 RMSE:31,8475 MAPE:17,7972
+Step: 97 Prediction:256,0694 Act: 282.03677193 MAE: 26,941 RMSE:31,793 MAPE:17,7096
+Step: 98 Prediction:259,6533 Act: 287.029480702 MAE: 26,9454 RMSE:31,7515 MAPE:17,627
+Step: 99 Prediction:263,5925 Act: 313.078947368 MAE: 27,1708 RMSE:31,9776 MAPE:17,6088
+Step: 100 Prediction:266,8424 Act: 290.092603509 MAE: 27,132 RMSE:31,9029 MAPE:17,5138
+Step: 101 Prediction:270,5842 Act: 262.072870175 MAE: 26,9494 RMSE:31,7573 MAPE:17,374
+Step: 102 Prediction:273,5112 Act: 279.03685614 MAE: 26,7414 RMSE:31,6074 MAPE:17,2245
+Step: 103 Prediction:275,848 Act: 286.047150877 MAE: 26,5823 RMSE:31,471 MAPE:17,0932
+Step: 104 Prediction:278,4949 Act: 290.033319298 MAE: 26,4391 RMSE:31,341 MAPE:16,9683
+Step: 105 Prediction:284,0918 Act: 270.088638596 MAE: 26,3217 RMSE:31,2225 MAPE:16,8571
+Step: 106 Prediction:289,038 Act: 279.097894737 MAE: 26,1686 RMSE:31,0911 MAPE:16,7328
+Step: 107 Prediction:293,3905 Act: 305.091536842 MAE: 26,0347 RMSE:30,9673 MAPE:16,6134
+Step: 108 Prediction:297,7208 Act: 314.081536842 MAE: 25,9459 RMSE:30,8647 MAPE:16,5088
+Step: 109 Prediction:300,4237 Act: 320.006238596 MAE: 25,8881 RMSE:30,7808 MAPE:16,4143
+Step: 110 Prediction:302,5659 Act: 311.077915789 MAE: 25,7315 RMSE:30,6524 MAPE:16,2911
+Step: 111 Prediction:304,7264 Act: 310.046610526 MAE: 25,5493 RMSE:30,5194 MAPE:16,161
+Step: 112 Prediction:306,4199 Act: 316.068364912 MAE: 25,4086 RMSE:30,3977 MAPE:16,045
+Step: 113 Prediction:304,3208 Act: 290.0628 MAE: 25,3108 RMSE:30,2935 MAPE:15,9473
+Step: 114 Prediction:302,2521 Act: 295.074989474 MAE: 25,1531 RMSE:30,1689 MAPE:15,8298
+Step: 115 Prediction:301,0107 Act: 298.065950877 MAE: 24,9616 RMSE:30,0398 MAPE:15,7019
+Step: 116 Prediction:301,2192 Act: 316.02954386 MAE: 24,8749 RMSE:29,9425 MAPE:15,6077
+Step: 117 Prediction:297,9342 Act: 307.056975439 MAE: 24,7414 RMSE:29,8272 MAPE:15,5006
+Step: 118 Prediction:294,6763 Act: 304.092708772 MAE: 24,6126 RMSE:29,7141 MAPE:15,3964
+Step: 119 Prediction:291,8661 Act: 293.043705263 MAE: 24,4173 RMSE:29,5903 MAPE:15,2714
+Step: 120 Prediction:288,8531 Act: 281.085333333 MAE: 24,2797 RMSE:29,4762 MAPE:15,1681
+Step: 121 Prediction:284,7589 Act: 275.036392982 MAE: 24,1604 RMSE:29,3683 MAPE:15,0727
+Step: 122 Prediction:282,0819 Act: 276.053031579 MAE: 24,013 RMSE:29,2538 MAPE:14,9679
+Step: 123 Prediction:278,7647 Act: 284.05482807 MAE: 23,862 RMSE:29,1394 MAPE:14,8622
+Step: 124 Prediction:275,776 Act: 273.092280702 MAE: 23,6926 RMSE:29,0236 MAPE:14,7512
+Step: 125 Prediction:269,2129 Act: 284.051087719 MAE: 23,6223 RMSE:28,9384 MAPE:14,6756
+Step: 126 Prediction:262,6572 Act: 286.066785965 MAE: 23,6206 RMSE:28,899 MAPE:14,6245
+Step: 127 Prediction:257,1907 Act: 257.014870175 MAE: 23,4375 RMSE:28,7859 MAPE:14,5108
+Step: 128 Prediction:250,3719 Act: 237.068547368 MAE: 23,3589 RMSE:28,6981 MAPE:14,4418
+Step: 129 Prediction:242,0028 Act: 244.090168421 MAE: 23,1953 RMSE:28,5881 MAPE:14,3373
+Step: 130 Prediction:233,5715 Act: 219.087087719 MAE: 23,1288 RMSE:28,5068 MAPE:14,2783
+Step: 131 Prediction:225,2434 Act: 208.001957895 MAE: 23,0842 RMSE:28,4383 MAPE:14,2329
+Step: 132 Prediction:217,7321 Act: 197.005992982 MAE: 23,0664 RMSE:28,3881 MAPE:14,205
+Step: 133 Prediction:211,1431 Act: 179.068273684 MAE: 23,1337 RMSE:28,4174 MAPE:14,2327
+Step: 134 Prediction:205,747 Act: 182.050624561 MAE: 23,1378 RMSE:28,3853 MAPE:14,2236
+Step: 135 Prediction:198,8654 Act: 185.099782456 MAE: 23,0689 RMSE:28,3054 MAPE:14,1737
+Step: 136 Prediction:191,8974 Act: 181.0504 MAE: 22,9797 RMSE:28,2171 MAPE:14,114
+Step: 137 Prediction:187,6597 Act: 151.021950877 MAE: 23,0787 RMSE:28,2871 MAPE:14,1875
+Step: 138 Prediction:184,0951 Act: 156.03725614 MAE: 23,1145 RMSE:28,2855 MAPE:14,2148
+Step: 139 Prediction:179,894 Act: 151.099522807 MAE: 23,1551 RMSE:28,2892 MAPE:14,2494
+Step: 140 Prediction:175,5172 Act: 159.000477193 MAE: 23,108 RMSE:28,223 MAPE:14,222
+Step: 141 Prediction:172,6493 Act: 162.013635088 MAE: 23,0202 RMSE:28,1376 MAPE:14,1681
+Step: 142 Prediction:169,9634 Act: 136.062533333 MAE: 23,0962 RMSE:28,182 MAPE:14,2433
+Step: 143 Prediction:166,4132 Act: 140.012252632 MAE: 23,1192 RMSE:28,17 MAPE:14,2753
+Step: 144 Prediction:138,6922 Act: 137.070898246 MAE: 22,9709 RMSE:28,073 MAPE:14,185
+Step: 145 Prediction:137,8059 Act: 140.038512281 MAE: 22,8289 RMSE:27,9773 MAPE:14,0988
+Step: 146 Prediction:136,9771 Act: 139.042217544 MAE: 22,6876 RMSE:27,8825 MAPE:14,013
+Step: 147 Prediction:135,705 Act: 128.050863158 MAE: 22,5861 RMSE:27,7953 MAPE:13,9587
+Step: 148 Prediction:135,0706 Act: 122.067235088 MAE: 22,5218 RMSE:27,7223 MAPE:13,9365
+Step: 149 Prediction:134,4837 Act: 127.099192982 MAE: 22,4208 RMSE:27,6363 MAPE:13,8823
+Step: 150 Prediction:134,1952 Act: 119.086694737 MAE: 22,3724 RMSE:27,5721 MAPE:13,8744
+Step: 151 Prediction:133,2013 Act: 124.049066667 MAE: 22,2854 RMSE:27,4913 MAPE:13,8316
+Step: 152 Prediction:132,3835 Act: 120.00277193 MAE: 22,2207 RMSE:27,4196 MAPE:13,8087
+Step: 153 Prediction:131,0371 Act: 112.099782456 MAE: 22,1994 RMSE:27,373 MAPE:13,8287
+Step: 154 Prediction:129,8865 Act: 120.098364912 MAE: 22,1193 RMSE:27,2958 MAPE:13,7921
+Step: 155 Prediction:129,1862 Act: 109.005445614 MAE: 22,1069 RMSE:27,2562 MAPE:13,8223
+Step: 156 Prediction:127,8995 Act: 110.09514386 MAE: 22,0795 RMSE:27,2063 MAPE:13,8373
+Step: 157 Prediction:130,1741 Act: 91.072842105 MAE: 22,1872 RMSE:27,2979 MAPE:14,0215
+Step: 158 Prediction:131,6421 Act: 100.068280702 MAE: 22,2462 RMSE:27,3269 MAPE:14,1317
+Step: 159 Prediction:133,1595 Act: 120.072442105 MAE: 22,189 RMSE:27,261 MAPE:14,1115
+Step: 160 Prediction:134,8684 Act: 119.031642105 MAE: 22,1495 RMSE:27,2049 MAPE:14,1065
+Step: 161 Prediction:134,0204 Act: 107.053775439 MAE: 22,1793 RMSE:27,2034 MAPE:14,1749
+Step: 162 Prediction:133,2528 Act: 96.061445614 MAE: 22,2714 RMSE:27,2758 MAPE:14,3255
+Step: 163 Prediction:132,0183 Act: 99.010757895 MAE: 22,3368 RMSE:27,3144 MAPE:14,4414
+Step: 164 Prediction:131,5259 Act: 107.064736842 MAE: 22,3497 RMSE:27,298 MAPE:14,4923
+Step: 165 Prediction:130,083 Act: 118.073585965 MAE: 22,2874 RMSE:27,2317 MAPE:14,4663
+Step: 166 Prediction:129,6328 Act: 101.04837193 MAE: 22,3251 RMSE:27,24 MAPE:14,5491
+Step: 167 Prediction:129,3413 Act: 104.09525614 MAE: 22,3425 RMSE:27,2285 MAPE:14,6068
+Step: 168 Prediction:106,1753 Act: 103.05717193 MAE: 22,2288 RMSE:27,1489 MAPE:14,5383
+Step: 169 Prediction:109,3387 Act: 121.088652632 MAE: 22,1671 RMSE:27,0839 MAPE:14,5099
+Step: 170 Prediction:113,3587 Act: 131.019445614 MAE: 22,1408 RMSE:27,0384 MAPE:14,5038
+Step: 171 Prediction:115,7564 Act: 121.028470175 MAE: 22,0427 RMSE:26,9627 MAPE:14,4448
+Step: 172 Prediction:120,4625 Act: 130.064112281 MAE: 21,9708 RMSE:26,8945 MAPE:14,404
+Step: 173 Prediction:123,8862 Act: 123.06365614 MAE: 21,8492 RMSE:26,8172 MAPE:14,3251
+Step: 174 Prediction:126,8242 Act: 132.093298246 MAE: 21,7545 RMSE:26,7434 MAPE:14,266
+Step: 175 Prediction:131,4993 Act: 142.042757895 MAE: 21,6908 RMSE:26,6792 MAPE:14,2271
+Step: 176 Prediction:136,1003 Act: 139.036329825 MAE: 21,5848 RMSE:26,6046 MAPE:14,1587
+Step: 177 Prediction:142,8495 Act: 157.071789474 MAE: 21,5435 RMSE:26,5512 MAPE:14,13
+Step: 178 Prediction:148,4177 Act: 151.097087719 MAE: 21,4381 RMSE:26,4777 MAPE:14,061
+Step: 179 Prediction:155,3897 Act: 172.017621053 MAE: 21,4114 RMSE:26,4331 MAPE:14,0366
+Step: 180 Prediction:161,289 Act: 170.061073684 MAE: 21,3415 RMSE:26,3681 MAPE:13,9875
+Step: 181 Prediction:166,4701 Act: 174.085115789 MAE: 21,2661 RMSE:26,3016 MAPE:13,9347
+Step: 182 Prediction:172,3036 Act: 178.010673684 MAE: 21,1811 RMSE:26,233 MAPE:13,8761
+Step: 183 Prediction:177,3796 Act: 177.015592982 MAE: 21,068 RMSE:26,1616 MAPE:13,8018
+Step: 184 Prediction:181,7678 Act: 203.039263158 MAE: 21,0691 RMSE:26,1377 MAPE:13,7838
+Step: 185 Prediction:186,3611 Act: 204.061522807 MAE: 21,0509 RMSE:26,0996 MAPE:13,7563
+Step: 186 Prediction:190,5264 Act: 231.038063158 MAE: 21,155 RMSE:26,1978 MAPE:13,7765
+Step: 187 Prediction:195,4817 Act: 221.025761404 MAE: 21,1784 RMSE:26,1943 MAPE:13,7647
+Step: 188 Prediction:201,0421 Act: 224.041452632 MAE: 21,188 RMSE:26,1784 MAPE:13,7462
+Step: 189 Prediction:205,7652 Act: 229.015978947 MAE: 21,1989 RMSE:26,1639 MAPE:13,7273
+Step: 190 Prediction:210,4547 Act: 219.040245614 MAE: 21,1328 RMSE:26,1027 MAPE:13,6759
+Step: 191 Prediction:214,208 Act: 236.093614035 MAE: 21,1367 RMSE:26,0825 MAPE:13,653
+Step: 192 Prediction:239,0555 Act: 234.06237193 MAE: 21,0531 RMSE:26,0173 MAPE:13,5933
+Step: 193 Prediction:244,2512 Act: 242.014645614 MAE: 20,9561 RMSE:25,9507 MAPE:13,528
+Step: 194 Prediction:248,8816 Act: 262.025557895 MAE: 20,916 RMSE:25,9012 MAPE:13,4844
+Step: 195 Prediction:254,8764 Act: 273.099249123 MAE: 20,9023 RMSE:25,8678 MAPE:13,4496
+Step: 196 Prediction:259,1343 Act: 271.04917193 MAE: 20,8567 RMSE:25,816 MAPE:13,4036
+Step: 197 Prediction:261,5771 Act: 278.042498246 MAE: 20,8345 RMSE:25,7773 MAPE:13,3659
+Step: 198 Prediction:265,3671 Act: 285.075094737 MAE: 20,8288 RMSE:25,7504 MAPE:13,3334
+Step: 199 Prediction:269,2075 Act: 300.008638596 MAE: 20,8787 RMSE:25,7781 MAPE:13,3181
+Step: 200 Prediction:273,0779 Act: 297.03725614 MAE: 20,894 RMSE:25,7694 MAPE:13,292
+Step: 201 Prediction:277,0773 Act: 289.014617544 MAE: 20,8497 RMSE:25,7192 MAPE:13,2466
+Step: 202 Prediction:281,513 Act: 290.061698246 MAE: 20,7891 RMSE:25,6628 MAPE:13,1959
+Step: 203 Prediction:287,1385 Act: 301.007270175 MAE: 20,7552 RMSE:25,6182 MAPE:13,1538
+Step: 204 Prediction:292,6266 Act: 315.095838596 MAE: 20,7635 RMSE:25,6038 MAPE:13,1244
+Step: 205 Prediction:295,6491 Act: 339.07434386 MAE: 20,8735 RMSE:25,7202 MAPE:13,1229
+Step: 206 Prediction:297,9315 Act: 336.036021053 MAE: 20,9568 RMSE:25,7943 MAPE:13,1142
+Step: 207 Prediction:299,9137 Act: 344.07474386 MAE: 21,0683 RMSE:25,9138 MAPE:13,1129
+Step: 208 Prediction:302,257 Act: 328.098168421 MAE: 21,0912 RMSE:25,9134 MAPE:13,0878
+Step: 209 Prediction:299,9692 Act: 330.018315789 MAE: 21,1338 RMSE:25,9347 MAPE:13,0689
+Step: 210 Prediction:298,5562 Act: 328.065936842 MAE: 21,1735 RMSE:25,9528 MAPE:13,0496
+Step: 211 Prediction:297,5259 Act: 321.085852632 MAE: 21,1848 RMSE:25,942 MAPE:13,0226
+Step: 212 Prediction:297,6364 Act: 301.026414035 MAE: 21,1012 RMSE:25,8821 MAPE:12,9668
+Step: 213 Prediction:295,9367 Act: 292.097578947 MAE: 21,0206 RMSE:25,8229 MAPE:12,9123
+Step: 214 Prediction:294,3408 Act: 288.048519298 MAE: 20,9521 RMSE:25,7663 MAPE:12,8624
+Step: 215 Prediction:292,3069 Act: 307.072077193 MAE: 20,9234 RMSE:25,7262 MAPE:12,8251
+Step: 216 Prediction:303,5994 Act: 291.048547368 MAE: 20,8848 RMSE:25,681 MAPE:12,7859
+Step: 217 Prediction:299,3103 Act: 289.017831579 MAE: 20,8363 RMSE:25,6315 MAPE:12,7436
+Step: 218 Prediction:295,3037 Act: 273.081964912 MAE: 20,8426 RMSE:25,617 MAPE:12,7226
+Step: 219 Prediction:291,6203 Act: 255.083494737 MAE: 20,9139 RMSE:25,6771 MAPE:12,7298
+Step: 220 Prediction:287,3477 Act: 242.023249123 MAE: 21,0244 RMSE:25,7998 MAPE:12,757
+Step: 221 Prediction:281,3823 Act: 254.079347368 MAE: 21,0527 RMSE:25,8067 MAPE:12,7479
+Step: 222 Prediction:276,5141 Act: 236.083929825 MAE: 21,1396 RMSE:25,8907 MAPE:12,7675
+Step: 223 Prediction:270,2419 Act: 234.069691228 MAE: 21,2067 RMSE:25,9457 MAPE:12,7795
+Step: 224 Prediction:263,4174 Act: 230.032821053 MAE: 21,2608 RMSE:25,9835 MAPE:12,7872
+Step: 225 Prediction:255,9308 Act: 221.021592982 MAE: 21,3212 RMSE:26,0297 MAPE:12,8005
+Step: 226 Prediction:247,6705 Act: 220.058357895 MAE: 21,3489 RMSE:26,0369 MAPE:12,7994
+Step: 227 Prediction:239,6102 Act: 211.031845614 MAE: 21,3806 RMSE:26,0486 MAPE:12,8027
+Step: 228 Prediction:231,2509 Act: 200.034652632 MAE: 21,4235 RMSE:26,0734 MAPE:12,8149
+Step: 229 Prediction:223,596 Act: 193.089291228 MAE: 21,463 RMSE:26,0943 MAPE:12,8279
+Step: 230 Prediction:216,6786 Act: 178.024792982 MAE: 21,5375 RMSE:26,1617 MAPE:12,8664
+Step: 231 Prediction:210,6 Act: 162.069592982 MAE: 21,6538 RMSE:26,2989 MAPE:12,94
+Step: 232 Prediction:204,5508 Act: 164.035403509 MAE: 21,7348 RMSE:26,3763 MAPE:12,9904
+Step: 233 Prediction:198,7855 Act: 162.045901754 MAE: 21,7989 RMSE:26,4293 MAPE:13,0318
+Step: 234 Prediction:193,5736 Act: 166.072392982 MAE: 21,8231 RMSE:26,4339 MAPE:13,0468
+Step: 235 Prediction:188,4313 Act: 163.054336842 MAE: 21,8382 RMSE:26,4295 MAPE:13,0575
+Step: 236 Prediction:184,1114 Act: 155.003985965 MAE: 21,8689 RMSE:26,4414 MAPE:13,0816
+Step: 237 Prediction:181,4534 Act: 151.097101754 MAE: 21,9045 RMSE:26,459 MAPE:13,1111
+Step: 238 Prediction:177,188 Act: 152.053214035 MAE: 21,9181 RMSE:26,4536 MAPE:13,1254
+Step: 239 Prediction:173,4888 Act: 146.079101754 MAE: 21,9409 RMSE:26,4577 MAPE:13,1489
+Step: 240 Prediction:144,5438 Act: 145.028708772 MAE: 21,8519 RMSE:26,4028 MAPE:13,0957
+Step: 241 Prediction:144,0369 Act: 140.055733333 MAE: 21,7781 RMSE:26,3494 MAPE:13,0533
+Step: 242 Prediction:143,5437 Act: 131.055670175 MAE: 21,7398 RMSE:26,3073 MAPE:13,0388
+Step: 243 Prediction:142,1423 Act: 132.078715789 MAE: 21,692 RMSE:26,2613 MAPE:13,0166
+Step: 244 Prediction:140,1691 Act: 130.061417544 MAE: 21,6447 RMSE:26,2156 MAPE:12,9952
+Step: 245 Prediction:139,8035 Act: 125.057164912 MAE: 21,6167 RMSE:26,1791 MAPE:12,9903
+Step: 246 Prediction:138,6153 Act: 145.081340351 MAE: 21,5553 RMSE:26,1293 MAPE:12,9558
+Step: 247 Prediction:138,0788 Act: 132.000919298 MAE: 21,4929 RMSE:26,0794 MAPE:12,9221
+Step: 248 Prediction:137,2007 Act: 127.024035088 MAE: 21,4475 RMSE:26,035 MAPE:12,9024
+Step: 249 Prediction:135,9105 Act: 124.081305263 MAE: 21,409 RMSE:25,9937 MAPE:12,8889
+Step: 250 Prediction:135,0849 Act: 108.09834386 MAE: 21,4312 RMSE:25,9977 MAPE:12,937
+Step: 251 Prediction:133,5928 Act: 115.040154386 MAE: 21,4198 RMSE:25,9724 MAPE:12,9497
+Step: 252 Prediction:132,3605 Act: 108.081592982 MAE: 21,4311 RMSE:25,9659 MAPE:12,9873
+Step: 253 Prediction:133,7548 Act: 122.041691228 MAE: 21,3928 RMSE:25,9251 MAPE:12,9739
+Step: 254 Prediction:135,4794 Act: 115.080582456 MAE: 21,3889 RMSE:25,9058 MAPE:12,9926
+Step: 255 Prediction:138,0597 Act: 113.099936842 MAE: 21,4029 RMSE:25,9021 MAPE:13,028
+Step: 256 Prediction:140,261 Act: 123.089059649 MAE: 21,3864 RMSE:25,8739 MAPE:13,0316
+Step: 257 Prediction:139,3368 Act: 123.013291228 MAE: 21,3668 RMSE:25,8437 MAPE:13,0325
+Step: 258 Prediction:137,8723 Act: 121.055649123 MAE: 21,3492 RMSE:25,8149 MAPE:13,0359
+Step: 259 Prediction:136,6669 Act: 116.021192982 MAE: 21,3465 RMSE:25,797 MAPE:13,0542
+Step: 260 Prediction:136,3427 Act: 123.048147368 MAE: 21,3157 RMSE:25,7607 MAPE:13,0455
+Step: 261 Prediction:135,358 Act: 118.033494737 MAE: 21,3004 RMSE:25,7337 MAPE:13,0518
+Step: 262 Prediction:133,6613 Act: 108.086512281 MAE: 21,3167 RMSE:25,7331 MAPE:13,0921
+Step: 263 Prediction:132,5296 Act: 115.099214035 MAE: 21,302 RMSE:25,7067 MAPE:13,0999
+Step: 264 Prediction:115,5239 Act: 121.003115789 MAE: 21,2423 RMSE:25,6604 MAPE:13,0675
+Step: 265 Prediction:117,6195 Act: 120.008905263 MAE: 21,1714 RMSE:25,6125 MAPE:13,0259
+Step: 266 Prediction:120,001 Act: 128.086147368 MAE: 21,1224 RMSE:25,5693 MAPE:13,0008
+Step: 267 Prediction:121,6968 Act: 136.037298246 MAE: 21,0971 RMSE:25,5366 MAPE:12,9916
+Step: 268 Prediction:123,6607 Act: 140.086512281 MAE: 21,0797 RMSE:25,5088 MAPE:12,9869
+Step: 269 Prediction:125,5908 Act: 133.099024561 MAE: 21,0294 RMSE:25,4656 MAPE:12,9597
+Step: 270 Prediction:128,1311 Act: 147.022147368 MAE: 21,0215 RMSE:25,4444 MAPE:12,9593
+Step: 271 Prediction:131,1411 Act: 139.094203509 MAE: 20,9735 RMSE:25,4022 MAPE:12,9326
+Step: 272 Prediction:133,7501 Act: 166.040105263 MAE: 21,0149 RMSE:25,4308 MAPE:12,9565
+Step: 273 Prediction:138,4844 Act: 178.069333333 MAE: 21,0827 RMSE:25,4968 MAPE:12,9903
+Step: 274 Prediction:142,4463 Act: 163.09402807 MAE: 21,0811 RMSE:25,4808 MAPE:12,9891
+Step: 275 Prediction:147,3943 Act: 172.031621053 MAE: 21,094 RMSE:25,4778 MAPE:12,994
+Step: 276 Prediction:151,9258 Act: 178.055024561 MAE: 21,1122 RMSE:25,4802 MAPE:13
+Step: 277 Prediction:155,6658 Act: 186.014140351 MAE: 21,1454 RMSE:25,4994 MAPE:13,012
+Step: 278 Prediction:159,1315 Act: 195.092842105 MAE: 21,1985 RMSE:25,5445 MAPE:13,0314
+Step: 279 Prediction:162,3781 Act: 212.070526316 MAE: 21,3003 RMSE:25,6712 MAPE:13,0685
+Step: 280 Prediction:166,8767 Act: 208.049178947 MAE: 21,371 RMSE:25,7429 MAPE:13,0925
+Step: 281 Prediction:171,2565 Act: 225.093185965 MAE: 21,4861 RMSE:25,8965 MAPE:13,1308
+Step: 282 Prediction:177,0041 Act: 199.01517193 MAE: 21,488 RMSE:25,8838 MAPE:13,1235
+Step: 283 Prediction:181,8018 Act: 210.067291228 MAE: 21,5119 RMSE:25,8925 MAPE:13,1247
+Step: 284 Prediction:186,2761 Act: 217.012357895 MAE: 21,5442 RMSE:25,9111 MAPE:13,1283
+Step: 285 Prediction:190,3494 Act: 219.008084211 MAE: 21,5691 RMSE:25,9212 MAPE:13,1282
+Step: 286 Prediction:193,6402 Act: 238.015270175 MAE: 21,6486 RMSE:26,0083 MAPE:13,1474
+Step: 287 Prediction:197,7057 Act: 239.022968421 MAE: 21,7169 RMSE:26,077 MAPE:13,1618
+Step: 288 Prediction:239,4983 Act: 253.097122807 MAE: 21,6888 RMSE:26,0441 MAPE:13,1348
+Step: 289 Prediction:240,9845 Act: 261.084301754 MAE: 21,6833 RMSE:26,0259 MAPE:13,1161
+Step: 290 Prediction:243,9976 Act: 256.06042807 MAE: 21,6502 RMSE:25,9908 MAPE:13,0872
+Step: 291 Prediction:247,6094 Act: 269.082870175 MAE: 21,6496 RMSE:25,9767 MAPE:13,0697
+Step: 292 Prediction:250,7215 Act: 272.006477193 MAE: 21,6484 RMSE:25,9621 MAPE:13,0518
+Step: 293 Prediction:255,2486 Act: 294.0572 MAE: 21,7067 RMSE:26,0166 MAPE:13,0523
+Step: 294 Prediction:259,6503 Act: 287.096596491 MAE: 21,7262 RMSE:26,0215 MAPE:13,0405
+Step: 295 Prediction:264,4118 Act: 287.035136842 MAE: 21,7292 RMSE:26,0108 MAPE:13,023
+Step: 296 Prediction:268,5887 Act: 287.041726316 MAE: 21,7182 RMSE:25,989 MAPE:13,0008
+Step: 297 Prediction:273,7032 Act: 309.069803509 MAE: 21,764 RMSE:26,0262 MAPE:12,9956
+Step: 298 Prediction:278,3426 Act: 305.034119298 MAE: 21,7805 RMSE:26,0284 MAPE:12,9814
+Step: 299 Prediction:283,1525 Act: 317.052821053 MAE: 21,8209 RMSE:26,0586 MAPE:12,9738
+Step: 300 Prediction:288,4549 Act: 295.097031579 MAE: 21,7705 RMSE:26,0181 MAPE:12,9381
+Step: 301 Prediction:292,6929 Act: 325.097705263 MAE: 21,8057 RMSE:26,0418 MAPE:12,9283
+Step: 302 Prediction:296,3662 Act: 310.041684211 MAE: 21,7788 RMSE:26,0107 MAPE:12,9002
+Step: 303 Prediction:300,2442 Act: 301.094526316 MAE: 21,71 RMSE:25,9679 MAPE:12,8587
+Step: 304 Prediction:302,8213 Act: 313.005445614 MAE: 21,6722 RMSE:25,9319 MAPE:12,8272
+Step: 305 Prediction:302,4036 Act: 320.003031579 MAE: 21,6589 RMSE:25,909 MAPE:12,8033
+Step: 306 Prediction:301,9925 Act: 316.026484211 MAE: 21,6341 RMSE:25,8792 MAPE:12,776
+Step: 307 Prediction:301,443 Act: 328.066715789 MAE: 21,6503 RMSE:25,8816 MAPE:12,7609
+Step: 308 Prediction:300,1069 Act: 311.079950877 MAE: 21,6157 RMSE:25,8473 MAPE:12,731
+Step: 309 Prediction:296,8785 Act: 309.09562807 MAE: 21,5854 RMSE:25,8149 MAPE:12,7027
+Step: 310 Prediction:293,8168 Act: 311.079094737 MAE: 21,5715 RMSE:25,7919 MAPE:12,6797
+Step: 311 Prediction:292,3603 Act: 292.095024561 MAE: 21,5032 RMSE:25,7505 MAPE:12,6393
+Step: 312 Prediction:290,2091 Act: 301.008119298 MAE: 21,469 RMSE:25,7166 MAPE:12,6104
+Step: 313 Prediction:287,5152 Act: 309.059550877 MAE: 21,4692 RMSE:25,7044 MAPE:12,5925
+Step: 314 Prediction:284,7174 Act: 286.064778947 MAE: 21,4054 RMSE:25,6637 MAPE:12,554
+Step: 315 Prediction:280,37 Act: 291.06842807 MAE: 21,3715 RMSE:25,6301 MAPE:12,5259
+Step: 316 Prediction:275,6859 Act: 266.097803509 MAE: 21,3343 RMSE:25,5953 MAPE:12,4977
+Step: 317 Prediction:269,422 Act: 283.048884211 MAE: 21,3101 RMSE:25,5665 MAPE:12,4736
+Step: 318 Prediction:262,1369 Act: 282.003045614 MAE: 21,3055 RMSE:25,5506 MAPE:12,4566
+Step: 319 Prediction:255,5894 Act: 258.039789474 MAE: 21,2466 RMSE:25,511 MAPE:12,4206
+Step: 320 Prediction:249,1512 Act: 265.040238596 MAE: 21,2299 RMSE:25,4867 MAPE:12,4006
+Step: 321 Prediction:241,0561 Act: 252.007922807 MAE: 21,198 RMSE:25,4544 MAPE:12,3756
+Step: 322 Prediction:233,5274 Act: 226.067087719 MAE: 21,1555 RMSE:25,4183 MAPE:12,3475
+Step: 323 Prediction:226,0817 Act: 232.081985965 MAE: 21,1087 RMSE:25,3813 MAPE:12,3173
+Step: 324 Prediction:218,641 Act: 216.083754386 MAE: 21,0516 RMSE:25,3426 MAPE:12,2831
+Step: 325 Prediction:212,5338 Act: 208.08602807 MAE: 21,0007 RMSE:25,3049 MAPE:12,252
+Step: 326 Prediction:206,143 Act: 187.058035088 MAE: 20,9948 RMSE:25,2882 MAPE:12,2457
+Step: 327 Prediction:199,0564 Act: 182.025712281 MAE: 20,9827 RMSE:25,2671 MAPE:12,2369
+Step: 328 Prediction:192,5339 Act: 193.071529825 MAE: 20,9206 RMSE:25,2287 MAPE:12,2005
+Step: 329 Prediction:188,2233 Act: 183.064736842 MAE: 20,8728 RMSE:25,1921 MAPE:12,1721
+Step: 330 Prediction:184,5218 Act: 181.032449123 MAE: 20,8203 RMSE:25,1547 MAPE:12,1411
+Step: 331 Prediction:180,7034 Act: 166.010792982 MAE: 20,8019 RMSE:25,1297 MAPE:12,1312
+Step: 332 Prediction:176,5976 Act: 173.001817544 MAE: 20,7502 RMSE:25,0927 MAPE:12,101
+Step: 333 Prediction:173,7619 Act: 152.082940351 MAE: 20,753 RMSE:25,0832 MAPE:12,1075
+Step: 334 Prediction:171,1368 Act: 157.028414035 MAE: 20,7331 RMSE:25,0576 MAPE:12,0982
+Step: 335 Prediction:168,0669 Act: 162.032659649 MAE: 20,6894 RMSE:25,0225 MAPE:12,0733
+Step: 336 Prediction:159,6634 Act: 161.028105263 MAE: 20,632 RMSE:24,9854 MAPE:12,0399
+Step: 337 Prediction:157,789 Act: 164.087094737 MAE: 20,5896 RMSE:24,9508 MAPE:12,0157
+Step: 338 Prediction:155,1264 Act: 153.011347368 MAE: 20,5351 RMSE:24,9142 MAPE:11,9843
+Step: 339 Prediction:152,9137 Act: 136.0768 MAE: 20,5243 RMSE:24,8943 MAPE:11,9855
+Step: 340 Prediction:150,2682 Act: 148.049003509 MAE: 20,4706 RMSE:24,8581 MAPE:11,9547
+Step: 341 Prediction:148,5951 Act: 139.086357895 MAE: 20,4385 RMSE:24,827 MAPE:11,9397
+Step: 342 Prediction:148,4953 Act: 144.033438596 MAE: 20,392 RMSE:24,792 MAPE:11,914
+Step: 343 Prediction:147,4154 Act: 131.034891228 MAE: 20,3803 RMSE:24,7717 MAPE:11,9157
+Step: 344 Prediction:146,1358 Act: 127.058070175 MAE: 20,3765 RMSE:24,7571 MAPE:11,9246
+Step: 345 Prediction:144,6561 Act: 142.011354386 MAE: 20,3253 RMSE:24,7217 MAPE:11,8956
+Step: 346 Prediction:142,2966 Act: 136.019522807 MAE: 20,2848 RMSE:24,6883 MAPE:11,8746
+Step: 347 Prediction:140,6345 Act: 127.075522807 MAE: 20,2655 RMSE:24,6635 MAPE:11,8711
+Step: 348 Prediction:138,5622 Act: 129.030617544 MAE: 20,2347 RMSE:24,6335 MAPE:11,8583
+Step: 349 Prediction:141,2531 Act: 128.054589474 MAE: 20,2146 RMSE:24,6084 MAPE:11,8538
+Step: 350 Prediction:143,0913 Act: 127.050989474 MAE: 20,2027 RMSE:24,5882 MAPE:11,856
+Step: 351 Prediction:144,5896 Act: 131.099361404 MAE: 20,1836 RMSE:24,5638 MAPE:11,8516
+Step: 352 Prediction:146,5448 Act: 115.083073684 MAE: 20,2156 RMSE:24,586 MAPE:11,8955
+Step: 353 Prediction:146,0256 Act: 125.059508772 MAE: 20,2177 RMSE:24,5766 MAPE:11,9092
+Step: 354 Prediction:145,3902 Act: 129.045122807 MAE: 20,2068 RMSE:24,5572 MAPE:11,9113
+Step: 355 Prediction:144,3556 Act: 133.030561404 MAE: 20,1818 RMSE:24,5301 MAPE:11,9018
+Step: 356 Prediction:144,0149 Act: 125.040912281 MAE: 20,1785 RMSE:24,5163 MAPE:11,911
+Step: 357 Prediction:142,1764 Act: 133.054764912 MAE: 20,1476 RMSE:24,4868 MAPE:11,8968
+Step: 358 Prediction:140,1704 Act: 132.012435088 MAE: 20,1142 RMSE:24,4564 MAPE:11,8809
+Step: 359 Prediction:138,885 Act: 138.050954386 MAE: 20,0606 RMSE:24,4225 MAPE:11,8496
+Step: 360 Prediction:136,7793 Act: 116.094982456 MAE: 20,0624 RMSE:24,4129 MAPE:11,8661
+Step: 361 Prediction:136,557 Act: 131.079031579 MAE: 20,0221 RMSE:24,3809 MAPE:11,8449
+Step: 362 Prediction:137,1418 Act: 134.044378947 MAE: 19,9754 RMSE:24,3478 MAPE:11,8186
+Step: 363 Prediction:137,6684 Act: 126.078329825 MAE: 19,9524 RMSE:24,3219 MAPE:11,8114
+Step: 364 Prediction:139,0617 Act: 134.031101754 MAE: 19,9115 RMSE:24,29 MAPE:11,7893
+Step: 365 Prediction:140,4984 Act: 132.004652632 MAE: 19,8803 RMSE:24,2609 MAPE:11,7747
+Step: 366 Prediction:142,7454 Act: 140.014287719 MAE: 19,8336 RMSE:24,2282 MAPE:11,7479
+Step: 367 Prediction:144,5785 Act: 136.046364912 MAE: 19,8029 RMSE:24,1993 MAPE:11,7331
+Step: 368 Prediction:147,8879 Act: 155.063607018 MAE: 19,7687 RMSE:24,1694 MAPE:11,7138
+Step: 369 Prediction:153,0784 Act: 159.050708772 MAE: 19,7314 RMSE:24,1387 MAPE:11,6923
+Step: 370 Prediction:156,6693 Act: 154.059375439 MAE: 19,6852 RMSE:24,1066 MAPE:11,6653
+Step: 371 Prediction:160,7519 Act: 171.043578947 MAE: 19,66 RMSE:24,0801 MAPE:11,6502
+Step: 372 Prediction:164,6989 Act: 172.0464 MAE: 19,627 RMSE:24,0508 MAPE:11,6304
+Step: 373 Prediction:168,1188 Act: 183.093466667 MAE: 19,6145 RMSE:24,0311 MAPE:11,6211
+Step: 374 Prediction:171,9261 Act: 196.049403509 MAE: 19,6266 RMSE:24,0313 MAPE:11,623
+Step: 375 Prediction:176,3765 Act: 204.083649123 MAE: 19,648 RMSE:24,0418 MAPE:11,6282
+Step: 376 Prediction:180,1571 Act: 215.085536842 MAE: 19,6886 RMSE:24,0772 MAPE:11,6404
+Step: 377 Prediction:184,7307 Act: 217.093501754 MAE: 19,7221 RMSE:24,1029 MAPE:11,649
+Step: 378 Prediction:187,3038 Act: 199.020926316 MAE: 19,701 RMSE:24,0786 MAPE:11,6338
+Step: 379 Prediction:190,6014 Act: 207.073298246 MAE: 19,6925 RMSE:24,0617 MAPE:11,6242
+Step: 380 Prediction:194,2107 Act: 222.060722807 MAE: 19,7139 RMSE:24,0725 MAPE:11,6266
+Step: 381 Prediction:197,2532 Act: 220.021915789 MAE: 19,7219 RMSE:24,0691 MAPE:11,6232
+Step: 382 Prediction:201,3036 Act: 225.020252632 MAE: 19,7323 RMSE:24,0682 MAPE:11,6204
+Step: 383 Prediction:204,966 Act: 237.052975439 MAE: 19,7645 RMSE:24,0926 MAPE:11,6254
+Step: 384 Prediction:238,81 Act: 238.0832 MAE: 19,715 RMSE:24,0613 MAPE:11,596
+Step: 385 Prediction:241,8541 Act: 259.004512281 MAE: 19,7084 RMSE:24,046 MAPE:11,5831
+Step: 386 Prediction:244,547 Act: 280.066329825 MAE: 19,7493 RMSE:24,0827 MAPE:11,5859
+Step: 387 Prediction:248,4599 Act: 282.028477193 MAE: 19,7849 RMSE:24,1119 MAPE:11,5867
+Step: 388 Prediction:251,7804 Act: 285.074105263 MAE: 19,8196 RMSE:24,14 MAPE:11,587
+Step: 389 Prediction:256,6012 Act: 277.083249123 MAE: 19,8213 RMSE:24,1313 MAPE:11,5762
+Step: 390 Prediction:261,0024 Act: 296.019908772 MAE: 19,8602 RMSE:24,1654 MAPE:11,5769
+Step: 391 Prediction:265,0218 Act: 284.06285614 MAE: 19,8581 RMSE:24,1537 MAPE:11,5644
+Step: 392 Prediction:268,7141 Act: 303.053466667 MAE: 19,8949 RMSE:24,1851 MAPE:11,5638
+Step: 393 Prediction:274,7467 Act: 314.040161404 MAE: 19,9442 RMSE:24,2354 MAPE:11,5662
+Step: 394 Prediction:280,0556 Act: 326.04205614 MAE: 20,0101 RMSE:24,315 MAPE:11,5727
+Step: 395 Prediction:285,8586 Act: 318.070491228 MAE: 20,0409 RMSE:24,3382 MAPE:11,569
+Step: 396 Prediction:289,9148 Act: 323.084891228 MAE: 20,074 RMSE:24,3644 MAPE:11,5657
+Step: 397 Prediction:293,3463 Act: 339.025115789 MAE: 20,1383 RMSE:24,4413 MAPE:11,5705
+Step: 398 Prediction:295,4965 Act: 324.044764912 MAE: 20,1594 RMSE:24,4524 MAPE:11,5636
+Step: 399 Prediction:296,9579 Act: 315.054540351 MAE: 20,1542 RMSE:24,4386 MAPE:11,5491
+Step: 400 Prediction:299,2143 Act: 313.097305263 MAE: 20,1386 RMSE:24,418 MAPE:11,5313
+Step: 401 Prediction:298,6959 Act: 293.061873684 MAE: 20,1025 RMSE:24,3892 MAPE:11,5074
+Step: 402 Prediction:298,2253 Act: 311.061368421 MAE: 20,0845 RMSE:24,3673 MAPE:11,4891
+Step: 403 Prediction:298,6841 Act: 301.096007018 MAE: 20,0407 RMSE:24,3374 MAPE:11,4627
+Step: 404 Prediction:298,3649 Act: 300.093775439 MAE: 19,9955 RMSE:24,3075 MAPE:11,4358
+Step: 405 Prediction:296,6809 Act: 315.024638596 MAE: 19,9915 RMSE:24,2946 MAPE:11,4219
+Step: 406 Prediction:295,3164 Act: 314.081101754 MAE: 19,9884 RMSE:24,2826 MAPE:11,4086
+Step: 407 Prediction:292,9091 Act: 314.071466667 MAE: 19,9913 RMSE:24,2754 MAPE:11,3971
+Step: 408 Prediction:309,6978 Act: 301.049354386 MAE: 19,9636 RMSE:24,2495 MAPE:11,3763
+Step: 409 Prediction:305,9865 Act: 320.036119298 MAE: 19,9492 RMSE:24,2299 MAPE:11,3592
+Step: 410 Prediction:301,0215 Act: 292.085347368 MAE: 19,9224 RMSE:24,2044 MAPE:11,339
+Step: 411 Prediction:296,9839 Act: 295.026589474 MAE: 19,8788 RMSE:24,1752 MAPE:11,3131
+Step: 412 Prediction:292,245 Act: 276.006708772 MAE: 19,8699 RMSE:24,1591 MAPE:11,3
+Step: 413 Prediction:286,3669 Act: 268.027396491 MAE: 19,8662 RMSE:24,1467 MAPE:11,2892
+Step: 414 Prediction:281,1212 Act: 274.05594386 MAE: 19,8354 RMSE:24,1201 MAPE:11,2682
+Step: 415 Prediction:274,5806 Act: 270.048301754 MAE: 19,7986 RMSE:24,0921 MAPE:11,2452
+Step: 416 Prediction:268,8776 Act: 222.068105263 MAE: 19,8634 RMSE:24,1722 MAPE:11,2688
+Step: 417 Prediction:261,2867 Act: 239.052778947 MAE: 19,8691 RMSE:24,1677 MAPE:11,264
+Step: 418 Prediction:252,6137 Act: 232.059957895 MAE: 19,8707 RMSE:24,1597 MAPE:11,2583
+Step: 419 Prediction:245,0374 Act: 220.030294737 MAE: 19,8829 RMSE:24,1618 MAPE:11,2586
+Step: 420 Prediction:237,0727 Act: 221.041677193 MAE: 19,8738 RMSE:24,1457 MAPE:11,249
+Step: 421 Prediction:230,675 Act: 204.003031579 MAE: 19,8899 RMSE:24,152 MAPE:11,2534
+Step: 422 Prediction:223,5805 Act: 182.050610526 MAE: 19,941 RMSE:24,2078 MAPE:11,2807
+Step: 423 Prediction:216,8584 Act: 199.009740351 MAE: 19,9361 RMSE:24,1948 MAPE:11,2752
+Step: 424 Prediction:211,2958 Act: 169.038 MAE: 19,9886 RMSE:24,2531 MAPE:11,3075
+Step: 425 Prediction:206,9182 Act: 163.006147368 MAE: 20,0448 RMSE:24,3178 MAPE:11,3442
+Step: 426 Prediction:202,7441 Act: 180.044645614 MAE: 20,051 RMSE:24,3142 MAPE:11,3472
+Step: 427 Prediction:197,8474 Act: 168.003592982 MAE: 20,0739 RMSE:24,3286 MAPE:11,3622
+Step: 428 Prediction:193,8248 Act: 173.011178947 MAE: 20,0756 RMSE:24,321 MAPE:11,3637
+Step: 429 Prediction:190,083 Act: 167.018547368 MAE: 20,0826 RMSE:24,3181 MAPE:11,3694
+Step: 430 Prediction:186,5767 Act: 149.091803509 MAE: 20,1229 RMSE:24,3569 MAPE:11,4014
+Step: 431 Prediction:183,6474 Act: 148.070715789 MAE: 20,1587 RMSE:24,3888 MAPE:11,4306
+Step: 432 Prediction:148,025 Act: 146.084301754 MAE: 20,1166 RMSE:24,3608 MAPE:11,4073
+Step: 433 Prediction:149,3824 Act: 154.084560284 MAE: 20,0811 RMSE:24,3338 MAPE:11,388
+Step: 434 Prediction:149,5338 Act: 150.019219858 MAE: 20,0361 RMSE:24,3058 MAPE:11,3626
+Step: 435 Prediction:148,6811 Act: 135.042035461 MAE: 20,0214 RMSE:24,2867 MAPE:11,3597
+Step: 436 Prediction:148,3955 Act: 147.029134752 MAE: 19,9787 RMSE:24,259 MAPE:11,3358
+Step: 437 Prediction:147,9138 Act: 136.042404255 MAE: 19,9602 RMSE:24,2379 MAPE:11,3299
+Step: 438 Prediction:147,6638 Act: 140.03641844 MAE: 19,9321 RMSE:24,213 MAPE:11,3165
+Step: 439 Prediction:146,7127 Act: 132.071638298 MAE: 19,9201 RMSE:24,1956 MAPE:11,3159
+Step: 440 Prediction:145,6283 Act: 125.001943262 MAE: 19,9217 RMSE:24,1881 MAPE:11,3277
+Step: 441 Prediction:145,4845 Act: 145.048148936 MAE: 19,8776 RMSE:24,1607 MAPE:11,3027
+Step: 442 Prediction:145,059 Act: 118.083262411 MAE: 19,8936 RMSE:24,1674 MAPE:11,3288
+Step: 443 Prediction:144,0143 Act: 129.091907801 MAE: 19,8824 RMSE:24,1506 MAPE:11,3293
+Step: 444 Prediction:143,2056 Act: 141.09906383 MAE: 19,8425 RMSE:24,1237 MAPE:11,3072
+Step: 445 Prediction:145,9466 Act: 104.08870922 MAE: 19,8918 RMSE:24,178 MAPE:11,372
+Step: 446 Prediction:148,3791 Act: 113.093737589 MAE: 19,9263 RMSE:24,2085 MAPE:11,4164
+Step: 447 Prediction:150,9598 Act: 134.012390071 MAE: 19,9196 RMSE:24,1947 MAPE:11,4191
+Step: 448 Prediction:152,2623 Act: 135.044822695 MAE: 19,9136 RMSE:24,1814 MAPE:11,4221
+Step: 449 Prediction:151,6988 Act: 118.046297872 MAE: 19,9441 RMSE:24,2066 MAPE:11,4601
+Step: 450 Prediction:151,2887 Act: 116.051914894 MAE: 19,978 RMSE:24,2366 MAPE:11,502
+Step: 451 Prediction:151,1753 Act: 117.009262411 MAE: 20,0094 RMSE:24,263 MAPE:11,5411
+Step: 452 Prediction:150,7695 Act: 121.006652482 MAE: 20,031 RMSE:24,2766 MAPE:11,5699
+Step: 453 Prediction:149,7394 Act: 115.027028369 MAE: 20,0633 RMSE:24,3045 MAPE:11,6109
+Step: 454 Prediction:148,6652 Act: 112.085900709 MAE: 20,0996 RMSE:24,3382 MAPE:11,6571
+Step: 455 Prediction:148,1595 Act: 126.011184397 MAE: 20,1041 RMSE:24,3336 MAPE:11,6701
+Step: 456 Prediction:125,7556 Act: 138.081177305 MAE: 20,0871 RMSE:24,3138 MAPE:11,6641
+Step: 457 Prediction:127,2316 Act: 129.025382979 MAE: 20,0471 RMSE:24,2874 MAPE:11,6417
+Step: 458 Prediction:128,8611 Act: 128.072340426 MAE: 20,0052 RMSE:24,261 MAPE:11,6177
+Step: 459 Prediction:129,8434 Act: 133.041390071 MAE: 19,9686 RMSE:24,2351 MAPE:11,5976
+Step: 460 Prediction:131,1133 Act: 135.081794326 MAE: 19,9339 RMSE:24,2095 MAPE:11,5788
+Step: 461 Prediction:132,8337 Act: 123.006865248 MAE: 19,9121 RMSE:24,1876 MAPE:11,5711
+Step: 462 Prediction:135,3738 Act: 128.055815603 MAE: 19,8849 RMSE:24,1638 MAPE:11,5584
+Step: 463 Prediction:137,4926 Act: 140.030631206 MAE: 19,8475 RMSE:24,1381 MAPE:11,5374
+Step: 464 Prediction:140,5314 Act: 133.049304965 MAE: 19,8209 RMSE:24,1146 MAPE:11,5247
+Step: 465 Prediction:145,0431 Act: 151.027964539 MAE: 19,7912 RMSE:24,0903 MAPE:11,5085
+Step: 466 Prediction:148,7062 Act: 165.058177305 MAE: 19,7838 RMSE:24,0764 MAPE:11,505
+Step: 467 Prediction:153,2457 Act: 173.049950355 MAE: 19,7839 RMSE:24,0681 MAPE:11,5049
+Step: 468 Prediction:157,361 Act: 202.020042553 MAE: 19,8369 RMSE:24,1307 MAPE:11,5275
+Step: 469 Prediction:161,0821 Act: 180.027659574 MAE: 19,835 RMSE:24,1208 MAPE:11,5254
+Step: 470 Prediction:165,267 Act: 192.089950355 MAE: 19,8498 RMSE:24,1269 MAPE:11,5306
+Step: 471 Prediction:169,5405 Act: 203.064652482 MAE: 19,8788 RMSE:24,1507 MAPE:11,5411
+Step: 472 Prediction:174,4135 Act: 205.017787234 MAE: 19,9015 RMSE:24,1661 MAPE:11,5483
+Step: 473 Prediction:178,9767 Act: 206.037156028 MAE: 19,9166 RMSE:24,1726 MAPE:11,5516
+Step: 474 Prediction:182,3665 Act: 205.096361702 MAE: 19,9225 RMSE:24,1696 MAPE:11,5506
+Step: 475 Prediction:185,8692 Act: 221.015510638 MAE: 19,9545 RMSE:24,1979 MAPE:11,5598
+Step: 476 Prediction:190,02 Act: 221.041780142 MAE: 19,9777 RMSE:24,2142 MAPE:11,565
+Step: 477 Prediction:193,3988 Act: 218.001609929 MAE: 19,9874 RMSE:24,2151 MAPE:11,5644
+Step: 478 Prediction:196,7119 Act: 222.072687943 MAE: 19,9986 RMSE:24,2175 MAPE:11,5641
+Step: 479 Prediction:200,7062 Act: 234.07364539 MAE: 20,0264 RMSE:24,2402 MAPE:11,5697
+Step: 480 Prediction:234,7527 Act: 233.099673759 MAE: 19,9882 RMSE:24,2151 MAPE:11,5471
+Step: 481 Prediction:238,1701 Act: 237.013560284 MAE: 19,9492 RMSE:24,19 MAPE:11,5242
+Step: 482 Prediction:243,1701 Act: 260.020588652 MAE: 19,9428 RMSE:24,1771 MAPE:11,5137
+Step: 483 Prediction:247,8338 Act: 279.042375887 MAE: 19,966 RMSE:24,1937 MAPE:11,513
+Step: 484 Prediction:252,0266 Act: 269.06422695 MAE: 19,96 RMSE:24,1812 MAPE:11,5023
+Step: 485 Prediction:256,1707 Act: 236.088382979 MAE: 19,9603 RMSE:24,1734 MAPE:11,4962
+Step: 486 Prediction:261,4204 Act: 261.069666667 MAE: 19,92 RMSE:24,1486 MAPE:11,4729
+Step: 487 Prediction:265,5291 Act: 258.033446809 MAE: 19,8945 RMSE:24,1262 MAPE:11,4553
+Step: 488 Prediction:270,3768 Act: 265.023822695 MAE: 19,8648 RMSE:24,1028 MAPE:11,436
+Step: 489 Prediction:276,9694 Act: 266.056780142 MAE: 19,8465 RMSE:24,0832 MAPE:11,421
+Step: 490 Prediction:283,6739 Act: 296.020765957 MAE: 19,8312 RMSE:24,0651 MAPE:11,4063
+Step: 491 Prediction:289,371 Act: 294.058723404 MAE: 19,8005 RMSE:24,0416 MAPE:11,3863
+Step: 492 Prediction:294,9913 Act: 298.028588652 MAE: 19,7665 RMSE:24,0176 MAPE:11,3653
+Step: 493 Prediction:299,1862 Act: 334.022730496 MAE: 19,797 RMSE:24,0444 MAPE:11,3634
+Step: 494 Prediction:302,0831 Act: 325.041255319 MAE: 19,8034 RMSE:24,0423 MAPE:11,3547
+Step: 495 Prediction:304,3377 Act: 319.086595745 MAE: 19,7932 RMSE:24,0271 MAPE:11,3411
+Step: 496 Prediction:306,2361 Act: 309.092893617 MAE: 19,7591 RMSE:24,0033 MAPE:11,3202
+Step: 497 Prediction:304,1262 Act: 301.065702128 MAE: 19,7256 RMSE:23,9796 MAPE:11,2995
+Step: 498 Prediction:303,4879 Act: 294.096078014 MAE: 19,7048 RMSE:23,9592 MAPE:11,2832
+Step: 499 Prediction:302,4113 Act: 290.041929078 MAE: 19,6902 RMSE:23,9416 MAPE:11,2692
+Step: 500 Prediction:301,2984 Act: 294.085347518 MAE: 19,6653 RMSE:23,9199 MAPE:11,2516
+Step: 501 Prediction:299,9508 Act: 278.090957447 MAE: 19,6696 RMSE:23,916 MAPE:11,2449
+Step: 502 Prediction:298,7195 Act: 279.04993617 MAE: 19,6696 RMSE:23,9083 MAPE:11,2365
+Step: 503 Prediction:297,8902 Act: 276.025524823 MAE: 19,674 RMSE:23,9044 MAPE:11,2299
+Step: 504 Prediction:276,7007 Act: 277.006624113 MAE: 19,6356 RMSE:23,8807 MAPE:11,2079
+Step: 505 Prediction:277,3862 Act: 287.082340426 MAE: 19,616 RMSE:23,861 MAPE:11,1924
+Step: 506 Prediction:276,0041 Act: 278.097992908 MAE: 19,5814 RMSE:23,8377 MAPE:11,1719
+Step: 507 Prediction:274,8776 Act: 256.097858156 MAE: 19,5799 RMSE:23,8288 MAPE:11,1643
+Step: 508 Prediction:272,0952 Act: 256.050843972 MAE: 19,5729 RMSE:23,816 MAPE:11,1547
+Step: 509 Prediction:266,5171 Act: 260.097368794 MAE: 19,5471 RMSE:23,7943 MAPE:11,1376
+Step: 510 Prediction:261,6487 Act: 246.033085106 MAE: 19,5394 RMSE:23,781 MAPE:11,1283
+Step: 511 Prediction:257,0943 Act: 264.078815603 MAE: 19,5149 RMSE:23,7598 MAPE:11,1117
+Step: 512 Prediction:250,1518 Act: 252.017092199 MAE: 19,4805 RMSE:23,7368 MAPE:11,0915
+Step: 513 Prediction:243,2032 Act: 243.07558156 MAE: 19,4429 RMSE:23,7137 MAPE:11,07
+Step: 514 Prediction:236,5895 Act: 209.06993617 MAE: 19,4585 RMSE:23,7217 MAPE:11,0741
+Step: 515 Prediction:229,8293 Act: 220.09512766 MAE: 19,4397 RMSE:23,7025 MAPE:11,0612
+Step: 516 Prediction:223,6161 Act: 232.038326241 MAE: 19,4184 RMSE:23,6825 MAPE:11,0468
+Step: 517 Prediction:217,8348 Act: 193.025730496 MAE: 19,4288 RMSE:23,6847 MAPE:11,0503
+Step: 518 Prediction:211,0931 Act: 194.032680851 MAE: 19,4242 RMSE:23,6737 MAPE:11,0459
+Step: 519 Prediction:205,7587 Act: 196.00606383 MAE: 19,4056 RMSE:23,6548 MAPE:11,0343
+Step: 520 Prediction:199,0439 Act: 173.044503546 MAE: 19,4183 RMSE:23,6596 MAPE:11,0419
+Step: 521 Prediction:194,2598 Act: 185.01429078 MAE: 19,3988 RMSE:23,6404 MAPE:11,0303
+Step: 522 Prediction:190,8876 Act: 168.087241135 MAE: 19,4053 RMSE:23,6388 MAPE:11,0352
+Step: 523 Prediction:186,9546 Act: 151.092191489 MAE: 19,4367 RMSE:23,6681 MAPE:11,0594
+Step: 524 Prediction:183,5089 Act: 160.043283688 MAE: 19,4444 RMSE:23,6677 MAPE:11,0663
+Step: 525 Prediction:181,1096 Act: 141.054439716 MAE: 19,4836 RMSE:23,7096 MAPE:11,0992
+Step: 526 Prediction:177,754 Act: 162.017815603 MAE: 19,4765 RMSE:23,697 MAPE:11,0966
+Step: 527 Prediction:174,451 Act: 165.036510638 MAE: 19,4574 RMSE:23,6781 MAPE:11,0864
+Step: 528 Prediction:162,6426 Act: 148.054929078 MAE: 19,4482 RMSE:23,6642 MAPE:11,0841
+Step: 529 Prediction:161,0895 Act: 140.006985816 MAE: 19,4513 RMSE:23,6596 MAPE:11,0916
+Step: 530 Prediction:158,8481 Act: 134.030368794 MAE: 19,4614 RMSE:23,6619 MAPE:11,1055
+Step: 531 Prediction:156,2501 Act: 128.051815603 MAE: 19,4778 RMSE:23,6712 MAPE:11,1261
+Step: 532 Prediction:154,0658 Act: 133.095801418 MAE: 19,4806 RMSE:23,6664 MAPE:11,1347
+Step: 533 Prediction:152,8679 Act: 129.049021277 MAE: 19,4887 RMSE:23,6667 MAPE:11,1485
+Step: 534 Prediction:152,3604 Act: 134.037539007 MAE: 19,4865 RMSE:23,6579 MAPE:11,1532
+Step: 535 Prediction:151,2134 Act: 128.011971631 MAE: 19,4935 RMSE:23,657 MAPE:11,1662
+Step: 536 Prediction:149,6699 Act: 126.087361702 MAE: 19,5011 RMSE:23,6569 MAPE:11,1802
+Step: 537 Prediction:149,4075 Act: 135.016588652 MAE: 19,4916 RMSE:23,643 MAPE:11,1792
+Step: 538 Prediction:147,2982 Act: 124.066730496 MAE: 19,4985 RMSE:23,6423 MAPE:11,1932
+Step: 539 Prediction:146,1046 Act: 108.004758865 MAE: 19,533 RMSE:23,6772 MAPE:11,2378
+Step: 540 Prediction:145,6576 Act: 118.034886525 MAE: 19,5479 RMSE:23,6851 MAPE:11,2603
+Step: 541 Prediction:146,907 Act: 110.012269504 MAE: 19,5799 RMSE:23,7163 MAPE:11,3014
+Step: 542 Prediction:148,441 Act: 107.094687943 MAE: 19,62 RMSE:23,7607 MAPE:11,3517
+Step: 543 Prediction:150,9858 Act: 111.072361702 MAE: 19,6573 RMSE:23,8005 MAPE:11,3969
+Step: 544 Prediction:153,3996 Act: 115.086446809 MAE: 19,6916 RMSE:23,8352 MAPE:11,4371
+Step: 545 Prediction:152,2763 Act: 124.089567376 MAE: 19,7071 RMSE:23,8439 MAPE:11,4577
+Step: 546 Prediction:151,1086 Act: 120.010950355 MAE: 19,7279 RMSE:23,8592 MAPE:11,4842
+Step: 547 Prediction:150,0682 Act: 121.056900709 MAE: 19,7449 RMSE:23,8696 MAPE:11,5069
+Step: 548 Prediction:149,5081 Act: 128.090985816 MAE: 19,7479 RMSE:23,8654 MAPE:11,5164
+Step: 549 Prediction:147,2978 Act: 128.085021277 MAE: 19,747 RMSE:23,8577 MAPE:11,5228
+Step: 550 Prediction:145,1438 Act: 122.065382979 MAE: 19,753 RMSE:23,8563 MAPE:11,5362
+Step: 551 Prediction:144,2368 Act: 113.02529078 MAE: 19,7738 RMSE:23,8717 MAPE:11,5653
+Step: 552 Prediction:115,7395 Act: 126.088262411 MAE: 19,7567 RMSE:23,8542 MAPE:11,5592
+Step: 553 Prediction:118,1232 Act: 138.018397163 MAE: 19,757 RMSE:23,8476 MAPE:11,5644
+Step: 554 Prediction:120,3044 Act: 125.086248227 MAE: 19,73 RMSE:23,827 MAPE:11,5504
+Step: 555 Prediction:122,8454 Act: 128.07941844 MAE: 19,7039 RMSE:23,8066 MAPE:11,537
+Step: 556 Prediction:125,2691 Act: 123.001815603 MAE: 19,6726 RMSE:23,7854 MAPE:11,5196
+Step: 557 Prediction:127,3132 Act: 138.035702128 MAE: 19,6566 RMSE:23,7684 MAPE:11,5129
+Step: 558 Prediction:129,308 Act: 153.074460993 MAE: 19,6639 RMSE:23,7684 MAPE:11,52
+Step: 559 Prediction:131,7965 Act: 160.038106383 MAE: 19,6792 RMSE:23,7772 MAPE:11,531
+Step: 560 Prediction:133,9556 Act: 146.040241135 MAE: 19,6657 RMSE:23,7614 MAPE:11,5252
+Step: 561 Prediction:138,4803 Act: 152.001453901 MAE: 19,6548 RMSE:23,7471 MAPE:11,5205
+Step: 562 Prediction:143,2456 Act: 167.067269504 MAE: 19,6622 RMSE:23,7473 MAPE:11,5254
+Step: 563 Prediction:148,1204 Act: 188.00722695 MAE: 19,698 RMSE:23,7856 MAPE:11,5426
+Step: 564 Prediction:154,3094 Act: 181.064666667 MAE: 19,7105 RMSE:23,7912 MAPE:11,5483
+Step: 565 Prediction:157,902 Act: 195.061489362 MAE: 19,7413 RMSE:23,8214 MAPE:11,5615
+Step: 566 Prediction:161,9884 Act: 190.037737589 MAE: 19,756 RMSE:23,8295 MAPE:11,5672
+Step: 567 Prediction:166,523 Act: 193.043687943 MAE: 19,7679 RMSE:23,8345 MAPE:11,571
+Step: 568 Prediction:170,7526 Act: 201.042248227 MAE: 19,7864 RMSE:23,8474 MAPE:11,5771
+Step: 569 Prediction:174,8985 Act: 207.002304965 MAE: 19,808 RMSE:23,8644 MAPE:11,584
+Step: 570 Prediction:178,3757 Act: 206.011553191 MAE: 19,8217 RMSE:23,8715 MAPE:11,5872
+Step: 571 Prediction:182,7248 Act: 209.000957447 MAE: 19,833 RMSE:23,8759 MAPE:11,589
+Step: 572 Prediction:186,7641 Act: 219.058411348 MAE: 19,8548 RMSE:23,8932 MAPE:11,5945
+Step: 573 Prediction:189,9485 Act: 211.052992908 MAE: 19,8569 RMSE:23,8886 MAPE:11,5917
+Step: 574 Prediction:193,361 Act: 230.061758865 MAE: 19,8862 RMSE:23,9169 MAPE:11,5993
+Step: 575 Prediction:197,2446 Act: 238.033262411 MAE: 19,9225 RMSE:23,9564 MAPE:11,6089
+Step: 576 Prediction:237,9528 Act: 235.069390071 MAE: 19,893 RMSE:23,936 MAPE:11,5909
+Step: 577 Prediction:239,6749 Act: 258.051843972 MAE: 19,8904 RMSE:23,9275 MAPE:11,5832
+Step: 578 Prediction:242,6191 Act: 258.047879433 MAE: 19,8827 RMSE:23,9154 MAPE:11,5735
+Step: 579 Prediction:246,8203 Act: 281.095120567 MAE: 19,9075 RMSE:23,9371 MAPE:11,5745
+Step: 580 Prediction:249,7227 Act: 268.059758865 MAE: 19,9048 RMSE:23,9286 MAPE:11,5664
+Step: 581 Prediction:251,8483 Act: 288.083929078 MAE: 19,9328 RMSE:23,9552 MAPE:11,5681
+Step: 582 Prediction:255,3982 Act: 276.05822695 MAE: 19,9341 RMSE:23,9499 MAPE:11,5611
+Step: 583 Prediction:258,3514 Act: 294.049843972 MAE: 19,9611 RMSE:23,975 MAPE:11,5621
+Step: 584 Prediction:261,4359 Act: 297.039524823 MAE: 19,9878 RMSE:23,9996 MAPE:11,5628
+Step: 585 Prediction:266,1384 Act: 310.08122695 MAE: 20,0287 RMSE:24,0478 MAPE:11,5673
+Step: 586 Prediction:272,1809 Act: 306.009737589 MAE: 20,0522 RMSE:24,0678 MAPE:11,5664
+Step: 587 Prediction:277,6254 Act: 289.008907801 MAE: 20,0374 RMSE:24,0519 MAPE:11,5535
+Step: 588 Prediction:282,4997 Act: 313.074510638 MAE: 20,0553 RMSE:24,0645 MAPE:11,5504
+Step: 589 Prediction:287,254 Act: 311.062865248 MAE: 20,0617 RMSE:24,0641 MAPE:11,5438
+Step: 590 Prediction:290,8375 Act: 327.092950355 MAE: 20,0891 RMSE:24,0899 MAPE:11,543
+Step: 591 Prediction:293,6394 Act: 307.016787234 MAE: 20,0778 RMSE:24,0758 MAPE:11,5309
+Step: 592 Prediction:295,7867 Act: 312.024808511 MAE: 20,0713 RMSE:24,0648 MAPE:11,5202
+Step: 593 Prediction:294,6537 Act: 314.091829787 MAE: 20,0702 RMSE:24,0577 MAPE:11,5113
+Step: 594 Prediction:293,3486 Act: 299.037815603 MAE: 20,0461 RMSE:24,0386 MAPE:11,4951
+Step: 595 Prediction:292,2256 Act: 302.060148936 MAE: 20,0289 RMSE:24,0218 MAPE:11,4813
+Step: 596 Prediction:291,4269 Act: 296.099269504 MAE: 20,0032 RMSE:24,0025 MAPE:11,4647
+Step: 597 Prediction:288,5965 Act: 282.04706383 MAE: 19,9807 RMSE:23,9839 MAPE:11,4494
+Step: 598 Prediction:286,2511 Act: 275.076489362 MAE: 19,966 RMSE:23,9682 MAPE:11,4371
+Step: 599 Prediction:283,8439 Act: 269.047489362 MAE: 19,9574 RMSE:23,9558 MAPE:11,4272
+Step: 600 Prediction:269,3458 Act: 271.068673759 MAE: 19,927 RMSE:23,936 MAPE:11,4092
+Step: 601 Prediction:269,0241 Act: 264.088255319 MAE: 19,9021 RMSE:23,917 MAPE:11,3934
+Step: 602 Prediction:268,0326 Act: 270.009787234 MAE: 19,8724 RMSE:23,8972 MAPE:11,3757
+Step: 603 Prediction:265,6987 Act: 263.034609929 MAE: 19,8439 RMSE:23,8777 MAPE:11,3585
+Step: 604 Prediction:262,9191 Act: 240.046978723 MAE: 19,8489 RMSE:23,8761 MAPE:11,3555
+Step: 605 Prediction:257,8775 Act: 247.051617021 MAE: 19,834 RMSE:23,8604 MAPE:11,344
+Step: 606 Prediction:252,3718 Act: 254.02170922 MAE: 19,8041 RMSE:23,8409 MAPE:11,3264
+Step: 607 Prediction:248,3285 Act: 253.063971631 MAE: 19,7793 RMSE:23,822 MAPE:11,3108
+Step: 608 Prediction:244,0899 Act: 237.044361702 MAE: 19,7584 RMSE:23,8042 MAPE:11,2971
+Step: 609 Prediction:237,9428 Act: 233.005978723 MAE: 19,7341 RMSE:23,7855 MAPE:11,2821
+Step: 610 Prediction:230,0996 Act: 236.078673759 MAE: 19,7116 RMSE:23,7672 MAPE:11,2678
+Step: 611 Prediction:223,8028 Act: 219.049553191 MAE: 19,6871 RMSE:23,7486 MAPE:11,2529
+Step: 612 Prediction:218,6164 Act: 218.074333333 MAE: 19,6559 RMSE:23,7292 MAPE:11,235
+Step: 613 Prediction:212,6484 Act: 210.052787234 MAE: 19,6281 RMSE:23,7101 MAPE:11,2187
+Step: 614 Prediction:207,0722 Act: 208.029751773 MAE: 19,5978 RMSE:23,6909 MAPE:11,2012
+Step: 615 Prediction:202,071 Act: 193.011411348 MAE: 19,5807 RMSE:23,6744 MAPE:11,1906
+Step: 616 Prediction:196,1971 Act: 190.050070922 MAE: 19,5589 RMSE:23,6565 MAPE:11,1777
+Step: 617 Prediction:193,113 Act: 190.038588652 MAE: 19,5322 RMSE:23,6377 MAPE:11,1622
+Step: 618 Prediction:189,1487 Act: 177.009319149 MAE: 19,5203 RMSE:23,6237 MAPE:11,1553
+Step: 619 Prediction:184,2933 Act: 160.090638298 MAE: 19,5278 RMSE:23,6246 MAPE:11,1617
+Step: 620 Prediction:180,4285 Act: 176.009078014 MAE: 19,5035 RMSE:23,6062 MAPE:11,1478
+Step: 621 Prediction:176,7252 Act: 165.04087234 MAE: 19,4909 RMSE:23,5919 MAPE:11,1412
+Step: 622 Prediction:174,6083 Act: 164.088943262 MAE: 19,4765 RMSE:23,5767 MAPE:11,1336
+Step: 623 Prediction:172,789 Act: 148.059056738 MAE: 19,4849 RMSE:23,5786 MAPE:11,1425
+Step: 624 Prediction:148,0923 Act: 159.025652482 MAE: 19,4713 RMSE:23,5638 MAPE:11,1357
+Step: 625 Prediction:147,9274 Act: 155.016219858 MAE: 19,4515 RMSE:23,5467 MAPE:11,1252
+Step: 626 Prediction:146,7787 Act: 146.014156028 MAE: 19,4217 RMSE:23,5279 MAPE:11,1083
+Step: 627 Prediction:145,705 Act: 143.058730496 MAE: 19,395 RMSE:23,5094 MAPE:11,0936
+Step: 628 Prediction:144,8521 Act: 137.097666667 MAE: 19,3764 RMSE:23,4928 MAPE:11,0849
+Step: 629 Prediction:144,5321 Act: 152.014815603 MAE: 19,3576 RMSE:23,476 MAPE:11,0752
+Step: 630 Prediction:144,1103 Act: 139.093347518 MAE: 19,3348 RMSE:23,4582 MAPE:11,0633
+Step: 631 Prediction:143,2323 Act: 133.07429078 MAE: 19,3203 RMSE:23,4432 MAPE:11,0579
+Step: 632 Prediction:142,291 Act: 132.073624113 MAE: 19,3059 RMSE:23,4282 MAPE:11,0526
+Step: 633 Prediction:142,1246 Act: 136.06770922 MAE: 19,285 RMSE:23,4109 MAPE:11,0422
+Step: 634 Prediction:141,2205 Act: 150.036751773 MAE: 19,2686 RMSE:23,3951 MAPE:11,0341
+Step: 635 Prediction:139,3311 Act: 132.024950355 MAE: 19,2497 RMSE:23,3785 MAPE:11,0255
+Step: 636 Prediction:138,2759 Act: 116.051879433 MAE: 19,2544 RMSE:23,3767 MAPE:11,0382
+Step: 637 Prediction:140,5689 Act: 114.051531915 MAE: 19,2658 RMSE:23,382 MAPE:11,0573
+Step: 638 Prediction:142,3825 Act: 106.085028369 MAE: 19,2925 RMSE:23,4077 MAPE:11,0936
+Step: 639 Prediction:144,2404 Act: 131.024141844 MAE: 19,283 RMSE:23,3953 MAPE:11,092
+Step: 640 Prediction:145,9425 Act: 127.093950355 MAE: 19,2823 RMSE:23,3889 MAPE:11,0978
+Step: 641 Prediction:145,9007 Act: 117.051028369 MAE: 19,2972 RMSE:23,3984 MAPE:11,119
+Step: 642 Prediction:145,6072 Act: 122.041624113 MAE: 19,3038 RMSE:23,3986 MAPE:11,1317
+Step: 643 Prediction:145,4248 Act: 120.095397163 MAE: 19,3132 RMSE:23,4018 MAPE:11,1472
+Step: 644 Prediction:145,6718 Act: 131.099141844 MAE: 19,3058 RMSE:23,3907 MAPE:11,1471
+Step: 645 Prediction:144,6857 Act: 131.028248227 MAE: 19,2971 RMSE:23,3787 MAPE:11,146
+Step: 646 Prediction:143,5048 Act: 141.006368794 MAE: 19,2711 RMSE:23,3609 MAPE:11,1315
+Step: 647 Prediction:142,0435 Act: 142.050716312 MAE: 19,2414 RMSE:23,3428 MAPE:11,1143
+Step: 648 Prediction:140,4205 Act: 135.055439716 MAE: 19,22 RMSE:23,3258 MAPE:11,1033
+Step: 649 Prediction:140,6787 Act: 139.085751773 MAE: 19,1929 RMSE:23,3079 MAPE:11,088
+Step: 650 Prediction:140,1114 Act: 131.087950355 MAE: 19,1773 RMSE:23,2927 MAPE:11,0815
+Step: 651 Prediction:140,0496 Act: 142.007851064 MAE: 19,1509 RMSE:23,2749 MAPE:11,0667
+Step: 652 Prediction:139,7841 Act: 161.037070922 MAE: 19,1541 RMSE:23,272 MAPE:11,0699
+Step: 653 Prediction:141,6263 Act: 174.033971631 MAE: 19,1743 RMSE:23,2887 MAPE:11,0815
+Step: 654 Prediction:144,2898 Act: 168.075028369 MAE: 19,1814 RMSE:23,2895 MAPE:11,0862
+Step: 655 Prediction:146,98 Act: 168.072489362 MAE: 19,1843 RMSE:23,2863 MAPE:11,0884
+Step: 656 Prediction:148,7445 Act: 179.051758865 MAE: 19,2012 RMSE:23,2986 MAPE:11,0973
+Step: 657 Prediction:152,0266 Act: 197.047659574 MAE: 19,2405 RMSE:23,3469 MAPE:11,1151
+Step: 658 Prediction:155,7867 Act: 192.077815603 MAE: 19,2663 RMSE:23,372 MAPE:11,1269
+Step: 659 Prediction:160,5587 Act: 188.026163121 MAE: 19,2788 RMSE:23,3787 MAPE:11,1322
+Step: 660 Prediction:164,4374 Act: 197.039985816 MAE: 19,2989 RMSE:23,3954 MAPE:11,1404
+Step: 661 Prediction:168,2072 Act: 188.071758865 MAE: 19,2998 RMSE:23,3905 MAPE:11,1395
+Step: 662 Prediction:171,4706 Act: 204.003985816 MAE: 19,3197 RMSE:23,407 MAPE:11,1468
+Step: 663 Prediction:174,6865 Act: 210.081439716 MAE: 19,344 RMSE:23,4296 MAPE:11,1554
+Step: 664 Prediction:178,2397 Act: 215.077992908 MAE: 19,3703 RMSE:23,4556 MAPE:11,1644
+Step: 665 Prediction:181,8868 Act: 213.032524823 MAE: 19,3879 RMSE:23,469 MAPE:11,1695
+Step: 666 Prediction:185,0055 Act: 250.091914894 MAE: 19,4565 RMSE:23,5864 MAPE:11,1918
+Step: 667 Prediction:188,1565 Act: 250.062340426 MAE: 19,52 RMSE:23,6902 MAPE:11,2121
+Step: 668 Prediction:191,8342 Act: 244.037411348 MAE: 19,5689 RMSE:23,7583 MAPE:11,2273
+Step: 669 Prediction:194,3309 Act: 266.042815603 MAE: 19,6467 RMSE:23,9017 MAPE:11,2508
+Step: 670 Prediction:197,8398 Act: 275.091801418 MAE: 19,7325 RMSE:24,0694 MAPE:11,2759
+Step: 671 Prediction:201,6676 Act: 292.080730496 MAE: 19,8377 RMSE:24,303 MAPE:11,3052
+Step: 672 Prediction:285,8912 Act: 305.071546099 MAE: 19,8367 RMSE:24,2962 MAPE:11,2977
+Step: 673 Prediction:284,6718 Act: 319.003021277 MAE: 19,8582 RMSE:24,3142 MAPE:11,2969
+Step: 674 Prediction:283,8278 Act: 299.023106383 MAE: 19,8513 RMSE:24,3032 MAPE:11,2877
+Step: 675 Prediction:284,3071 Act: 322.099035461 MAE: 19,8779 RMSE:24,3287 MAPE:11,2884
+Step: 676 Prediction:284,6604 Act: 321.029865248 MAE: 19,9022 RMSE:24,3508 MAPE:11,2884
+Step: 677 Prediction:287,0832 Act: 310.071453901 MAE: 19,9068 RMSE:24,3489 MAPE:11,2827
+Step: 678 Prediction:289,234 Act: 324.062042553 MAE: 19,9288 RMSE:24,3676 MAPE:11,2819
+Step: 679 Prediction:291,8965 Act: 342.088843972 MAE: 19,9733 RMSE:24,4257 MAPE:11,2869
+Step: 680 Prediction:294,6032 Act: 341.044134752 MAE: 20,0121 RMSE:24,4725 MAPE:11,2903
+Step: 681 Prediction:299,4563 Act: 333.011907801 MAE: 20,032 RMSE:24,4883 MAPE:11,2886
+Step: 682 Prediction:303,6479 Act: 320.047964539 MAE: 20,0267 RMSE:24,4784 MAPE:11,2795
+Step: 683 Prediction:306,2536 Act: 314.048340426 MAE: 20,0088 RMSE:24,4623 MAPE:11,2667
+Step: 684 Prediction:310,1329 Act: 315.043439716 MAE: 19,9867 RMSE:24,4452 MAPE:11,2525
+Step: 685 Prediction:311,5249 Act: 310.017276596 MAE: 19,9598 RMSE:24,4274 MAPE:11,2368
+Step: 686 Prediction:313,6318 Act: 339.023730496 MAE: 19,9677 RMSE:24,4289 MAPE:11,2314
+Step: 687 Prediction:314,2672 Act: 306.055035461 MAE: 19,9506 RMSE:24,4131 MAPE:11,2189
+Step: 688 Prediction:315,2534 Act: 300.025276596 MAE: 19,9438 RMSE:24,4023 MAPE:11,21
+Step: 689 Prediction:313,346 Act: 304.064737589 MAE: 19,9283 RMSE:24,3871 MAPE:11,1982
+Step: 690 Prediction:311,0249 Act: 312.083546099 MAE: 19,901 RMSE:24,3695 MAPE:11,1825
+Step: 691 Prediction:309,1558 Act: 299.021255319 MAE: 19,8869 RMSE:24,355 MAPE:11,1712
+Step: 692 Prediction:307,1687 Act: 302.098049645 MAE: 19,8655 RMSE:24,3381 MAPE:11,1575
+Step: 693 Prediction:303,5449 Act: 307.044751773 MAE: 19,8419 RMSE:24,321 MAPE:11,1431
+Step: 694 Prediction:299,9209 Act: 307.062134752 MAE: 19,8237 RMSE:24,305 MAPE:11,1304
+Step: 695 Prediction:296,3746 Act: 308.047170213 MAE: 19,812 RMSE:24,2915 MAPE:11,1198
+Step: 696 Prediction:303,1827 Act: 317.092553191 MAE: 19,8035 RMSE:24,2798 MAPE:11,1102
+Step: 697 Prediction:298,0995 Act: 287.083382979 MAE: 19,7909 RMSE:24,266 MAPE:11,0998
+Step: 698 Prediction:293,2452 Act: 262.057276596 MAE: 19,8072 RMSE:24,2773 MAPE:11,1009
+Step: 699 Prediction:288,6544 Act: 286.054432624 MAE: 19,7826 RMSE:24,2602 MAPE:11,0864
+Step: 700 Prediction:283,1492 Act: 260.058851064 MAE: 19,7873 RMSE:24,2585 MAPE:11,0832
+Step: 701 Prediction:275,8158 Act: 271.008666667 MAE: 19,766 RMSE:24,2419 MAPE:11,0699
+Step: 702 Prediction:269,8408 Act: 248.007907801 MAE: 19,7689 RMSE:24,2387 MAPE:11,0667
+Step: 703 Prediction:264,3 Act: 239.020453901 MAE: 19,7768 RMSE:24,2402 MAPE:11,066
+Step: 704 Prediction:257,7462 Act: 250.037588652 MAE: 19,7596 RMSE:24,2247 MAPE:11,0547
+Step: 705 Prediction:250,0576 Act: 243.066787234 MAE: 19,7416 RMSE:24,209 MAPE:11,0431
+Step: 706 Prediction:243,2205 Act: 245.02970922 MAE: 19,7162 RMSE:24,192 MAPE:11,0285
+Step: 707 Prediction:235,8441 Act: 231.040822695 MAE: 19,6951 RMSE:24,1756 MAPE:11,0159
+Step: 708 Prediction:229,0434 Act: 221.047120567 MAE: 19,6786 RMSE:24,1604 MAPE:11,0055
+Step: 709 Prediction:223,8967 Act: 223.086333333 MAE: 19,6521 RMSE:24,1434 MAPE:10,9905
+Step: 710 Prediction:218,807 Act: 196.034375887 MAE: 19,6564 RMSE:24,1415 MAPE:10,9914
+Step: 711 Prediction:213,3838 Act: 197.075666667 MAE: 19,6517 RMSE:24,1323 MAPE:10,9875
+Step: 712 Prediction:207,8389 Act: 186.013475177 MAE: 19,6548 RMSE:24,1292 MAPE:10,9886
+Step: 713 Prediction:204,3984 Act: 190.095787234 MAE: 19,6473 RMSE:24,1182 MAPE:10,9837
+Step: 714 Prediction:200,531 Act: 182.093609929 MAE: 19,6456 RMSE:24,1112 MAPE:10,9825
+Step: 715 Prediction:195,7498 Act: 157.071496454 MAE: 19,6722 RMSE:24,1377 MAPE:11,0016
+Step: 716 Prediction:192,3736 Act: 149.061269504 MAE: 19,7052 RMSE:24,175 MAPE:11,0268
+Step: 717 Prediction:189,7647 Act: 167.002929078 MAE: 19,7094 RMSE:24,1731 MAPE:11,0304
+Step: 718 Prediction:187,0339 Act: 169.025276596 MAE: 19,707 RMSE:24,1656 MAPE:11,0299
+Step: 719 Prediction:183,4714 Act: 162.067574468 MAE: 19,7094 RMSE:24,162 MAPE:11,0329
+Step: 720 Prediction:161,4884 Act: 145.097858156 MAE: 19,7048 RMSE:24,153 MAPE:11,0333
+Step: 721 Prediction:161,2348 Act: 145.028765957 MAE: 19,7 RMSE:24,1438 MAPE:11,0335
+Step: 722 Prediction:159,6521 Act: 141.077858156 MAE: 19,6984 RMSE:24,137 MAPE:11,0364
+Step: 723 Prediction:157,6609 Act: 162.008113475 MAE: 19,6772 RMSE:24,1208 MAPE:11,0249
+Step: 724 Prediction:156,2227 Act: 143.046929078 MAE: 19,6682 RMSE:24,1091 MAPE:11,0224
+Step: 725 Prediction:156,5929 Act: 140.069638298 MAE: 19,6639 RMSE:24,1003 MAPE:11,0234
+Step: 726 Prediction:155,9703 Act: 131.049744681 MAE: 19,6711 RMSE:24,1015 MAPE:11,0344
+Step: 727 Prediction:154,9494 Act: 157.005056738 MAE: 19,6469 RMSE:24,0851 MAPE:11,0211
+Step: 728 Prediction:153,8979 Act: 147.041929078 MAE: 19,6294 RMSE:24,0699 MAPE:11,0123
+Step: 729 Prediction:153,3778 Act: 138.081175627 MAE: 19,6234 RMSE:24,06 MAPE:11,0124
+Step: 730 Prediction:153,3977 Act: 128.085777778 MAE: 19,6312 RMSE:24,0618 MAPE:11,0244
+Step: 731 Prediction:152,4077 Act: 125.046767025 MAE: 19,6418 RMSE:24,0666 MAPE:11,0392
+Step: 732 Prediction:150,714 Act: 121.029870968 MAE: 19,6555 RMSE:24,0752 MAPE:11,0576
+Step: 733 Prediction:152,3996 Act: 108.095075269 MAE: 19,6891 RMSE:24,1143 MAPE:11,0984
+Step: 734 Prediction:153,4787 Act: 121.025189964 MAE: 19,7064 RMSE:24,1276 MAPE:11,1198
+Step: 735 Prediction:156,1304 Act: 117.073433692 MAE: 19,7327 RMSE:24,1541 MAPE:11,15
+Step: 736 Prediction:158,234 Act: 120.067684588 MAE: 19,7577 RMSE:24,1786 MAPE:11,178
+Step: 737 Prediction:157,1338 Act: 105.047870968 MAE: 19,8015 RMSE:24,2382 MAPE:11,2301
+Step: 738 Prediction:156,4137 Act: 100.027462366 MAE: 19,8511 RMSE:24,3104 MAPE:11,2911
+Step: 739 Prediction:155,6237 Act: 116.02562724 MAE: 19,8777 RMSE:24,3376 MAPE:11,322
+Step: 740 Prediction:155,6876 Act: 115.057856631 MAE: 19,9057 RMSE:24,3669 MAPE:11,3544
+Step: 741 Prediction:154,361 Act: 138.039469534 MAE: 19,9009 RMSE:24,3579 MAPE:11,355
+Step: 742 Prediction:153,846 Act: 121.034666667 MAE: 19,9183 RMSE:24,3712 MAPE:11,3762
+Step: 743 Prediction:153,6804 Act: 132.008444444 MAE: 19,9206 RMSE:24,3678 MAPE:11,383
+Step: 744 Prediction:132,4605 Act: 116.061856631 MAE: 19,9159 RMSE:24,3588 MAPE:11,3867
+Step: 745 Prediction:133,5136 Act: 136.02353405 MAE: 19,8926 RMSE:24,3427 MAPE:11,3739
+Step: 746 Prediction:134,4556 Act: 143.027376344 MAE: 19,8774 RMSE:24,3284 MAPE:11,3667
+Step: 747 Prediction:135,9804 Act: 155.015197133 MAE: 19,8763 RMSE:24,3221 MAPE:11,3679
+Step: 748 Prediction:139,2121 Act: 161.082078853 MAE: 19,879 RMSE:24,319 MAPE:11,3708
+Step: 749 Prediction:143,0847 Act: 158.05678853 MAE: 19,8724 RMSE:24,3089 MAPE:11,3683
+Step: 750 Prediction:146,555 Act: 165.019075269 MAE: 19,8705 RMSE:24,3021 MAPE:11,3681
+Step: 751 Prediction:149,7807 Act: 168.095060932 MAE: 19,8685 RMSE:24,2951 MAPE:11,3674
+Step: 752 Prediction:153,2602 Act: 175.036035842 MAE: 19,871 RMSE:24,2919 MAPE:11,3689
+Step: 753 Prediction:158,9839 Act: 189.063677419 MAE: 19,8846 RMSE:24,3005 MAPE:11,3749
+Step: 754 Prediction:163,9555 Act: 200.031763441 MAE: 19,906 RMSE:24,3199 MAPE:11,3837
+Step: 755 Prediction:168,3032 Act: 206.053519713 MAE: 19,9296 RMSE:24,3425 MAPE:11,3929
+Step: 756 Prediction:173,1356 Act: 204.037448029 MAE: 19,9441 RMSE:24,3524 MAPE:11,3978
+Step: 757 Prediction:176,0279 Act: 193.077419355 MAE: 19,9403 RMSE:24,3442 MAPE:11,3945
+Step: 758 Prediction:179,7835 Act: 205.03809319 MAE: 19,9473 RMSE:24,3454 MAPE:11,3957
+Step: 759 Prediction:183,7058 Act: 215.068050179 MAE: 19,9623 RMSE:24,3559 MAPE:11,3999
+Step: 760 Prediction:187,6802 Act: 228.03944086 MAE: 19,9891 RMSE:24,3839 MAPE:11,4081
+Step: 761 Prediction:191,2463 Act: 234.026845878 MAE: 20,019 RMSE:24,4171 MAPE:11,4172
+Step: 762 Prediction:196,7574 Act: 249.053311828 MAE: 20,0613 RMSE:24,4744 MAPE:11,4297
+Step: 763 Prediction:201,9589 Act: 246.032767025 MAE: 20,0927 RMSE:24,5103 MAPE:11,4382
+Step: 764 Prediction:206,2916 Act: 270.098759857 MAE: 20,1499 RMSE:24,6027 MAPE:11,4541
+Step: 765 Prediction:211,1769 Act: 275.057304659 MAE: 20,207 RMSE:24,6947 MAPE:11,4695
+Step: 766 Prediction:216,21 Act: 295.05153405 MAE: 20,2834 RMSE:24,8423 MAPE:11,4894
+Step: 767 Prediction:221,9404 Act: 286.021089606 MAE: 20,3405 RMSE:24,9336 MAPE:11,5036
+Step: 768 Prediction:285,8585 Act: 294.045799283 MAE: 20,3246 RMSE:24,9191 MAPE:11,4923
+Step: 769 Prediction:288,5588 Act: 297.041849462 MAE: 20,3093 RMSE:24,9048 MAPE:11,481
+Step: 770 Prediction:289,9083 Act: 319.045297491 MAE: 20,3207 RMSE:24,9107 MAPE:11,478
+Step: 771 Prediction:293,4413 Act: 322.026637993 MAE: 20,3314 RMSE:24,9158 MAPE:11,4746
+Step: 772 Prediction:296,5461 Act: 331.079577061 MAE: 20,3498 RMSE:24,9307 MAPE:11,4733
+Step: 773 Prediction:299,5997 Act: 323.029777778 MAE: 20,3538 RMSE:24,9288 MAPE:11,4678
+Step: 774 Prediction:303,1383 Act: 326.079763441 MAE: 20,3571 RMSE:24,9263 MAPE:11,4621
+Step: 775 Prediction:307,3127 Act: 325.082043011 MAE: 20,3538 RMSE:24,9184 MAPE:11,4544
+Step: 776 Prediction:311,1007 Act: 345.021827957 MAE: 20,3712 RMSE:24,9321 MAPE:11,4523
+Step: 777 Prediction:315,5998 Act: 353.013892473 MAE: 20,3931 RMSE:24,9522 MAPE:11,4512
+Step: 778 Prediction:319,2345 Act: 353.088831541 MAE: 20,4104 RMSE:24,9656 MAPE:11,4488
+Step: 779 Prediction:322,159 Act: 351.078702509 MAE: 20,4213 RMSE:24,9711 MAPE:11,4447
+Step: 780 Prediction:324,94 Act: 349.01827957 MAE: 20,426 RMSE:24,97 MAPE:11,4389
+Step: 781 Prediction:325,4422 Act: 343.051455197 MAE: 20,4224 RMSE:24,9619 MAPE:11,4308
+Step: 782 Prediction:327,6549 Act: 344.025792115 MAE: 20,4172 RMSE:24,9529 MAPE:11,4223
+Step: 783 Prediction:327,6751 Act: 330.017677419 MAE: 20,3942 RMSE:24,9371 MAPE:11,4086
+Step: 784 Prediction:327,3539 Act: 331.058824373 MAE: 20,3729 RMSE:24,9215 MAPE:11,3955
+Step: 785 Prediction:324,5244 Act: 327.065340502 MAE: 20,3502 RMSE:24,9059 MAPE:11,382
+Step: 786 Prediction:322,509 Act: 339.072293907 MAE: 20,3454 RMSE:24,897 MAPE:11,3737
+Step: 787 Prediction:319,9736 Act: 339.022150538 MAE: 20,3438 RMSE:24,8905 MAPE:11,3664
+Step: 788 Prediction:317,968 Act: 322.080301075 MAE: 20,3232 RMSE:24,8751 MAPE:11,3537
+Step: 789 Prediction:315,1321 Act: 315.071189964 MAE: 20,2976 RMSE:24,8594 MAPE:11,3393
+Step: 790 Prediction:312,6282 Act: 312.055612903 MAE: 20,2726 RMSE:24,8437 MAPE:11,3252
+Step: 791 Prediction:310,4217 Act: 308.070430108 MAE: 20,25 RMSE:24,8281 MAPE:11,3119
+Step: 792 Prediction:306,9292 Act: 322.08344086 MAE: 20,2436 RMSE:24,8183 MAPE:11,3035
+Step: 793 Prediction:303,7788 Act: 325.048910394 MAE: 20,2449 RMSE:24,8141 MAPE:11,2975
+Step: 794 Prediction:299,3824 Act: 319.07088172 MAE: 20,2442 RMSE:24,8084 MAPE:11,2911
+Step: 795 Prediction:296,1692 Act: 281.050888889 MAE: 20,2377 RMSE:24,7986 MAPE:11,2837
+Step: 796 Prediction:291,5435 Act: 299.010566308 MAE: 20,2217 RMSE:24,7844 MAPE:11,2726
+Step: 797 Prediction:285,2647 Act: 286.034659498 MAE: 20,1973 RMSE:24,7689 MAPE:11,2589
+Step: 798 Prediction:278,0472 Act: 266.098967742 MAE: 20,187 RMSE:24,757 MAPE:11,2504
+Step: 799 Prediction:271,2834 Act: 282.083892473 MAE: 20,1753 RMSE:24,7445 MAPE:11,2411
+Step: 800 Prediction:265,7302 Act: 284.017777778 MAE: 20,1729 RMSE:24,7375 MAPE:11,2351
+Step: 801 Prediction:258,4795 Act: 266.015634409 MAE: 20,1572 RMSE:24,7235 MAPE:11,2246
+Step: 802 Prediction:251,7082 Act: 249.054258065 MAE: 20,1354 RMSE:24,7082 MAPE:11,212
+Step: 803 Prediction:244,8543 Act: 254.011634409 MAE: 20,1217 RMSE:24,695 MAPE:11,2025
+Step: 804 Prediction:238,1269 Act: 236.075154122 MAE: 20,0993 RMSE:24,6797 MAPE:11,1897
+Step: 805 Prediction:232,6316 Act: 222.037154122 MAE: 20,0875 RMSE:24,6673 MAPE:11,1817
+Step: 806 Prediction:225,9443 Act: 225.021698925 MAE: 20,0637 RMSE:24,652 MAPE:11,1684
+Step: 807 Prediction:219,9401 Act: 224.099275986 MAE: 20,044 RMSE:24,6372 MAPE:11,1568
+Step: 808 Prediction:213,4854 Act: 196.028537634 MAE: 20,0408 RMSE:24,6296 MAPE:11,1541
+Step: 809 Prediction:209,6872 Act: 208.054874552 MAE: 20,0181 RMSE:24,6144 MAPE:11,1413
+Step: 810 Prediction:205,4461 Act: 196.037017921 MAE: 20,005 RMSE:24,6015 MAPE:11,1334
+Step: 811 Prediction:199,7935 Act: 173.081139785 MAE: 20,0133 RMSE:24,6042 MAPE:11,1387
+Step: 812 Prediction:194,2392 Act: 190.089017921 MAE: 19,9938 RMSE:24,5895 MAPE:11,1277
+Step: 813 Prediction:191,2491 Act: 163.072645161 MAE: 20,0038 RMSE:24,5942 MAPE:11,1353
+Step: 814 Prediction:188,7706 Act: 161.052573477 MAE: 20,0133 RMSE:24,5983 MAPE:11,1427
+Step: 815 Prediction:185,9931 Act: 161.040351254 MAE: 20,0193 RMSE:24,5987 MAPE:11,1481
+Step: 816 Prediction:160,1003 Act: 177.089921147 MAE: 20,0156 RMSE:24,5908 MAPE:11,1462
+Step: 817 Prediction:159,4646 Act: 148.052501792 MAE: 20,0051 RMSE:24,5791 MAPE:11,142
+Step: 818 Prediction:157,8906 Act: 161.047333333 MAE: 19,9845 RMSE:24,5643 MAPE:11,1307
+Step: 819 Prediction:158,2119 Act: 147.001698925 MAE: 19,9738 RMSE:24,5524 MAPE:11,1265
+Step: 820 Prediction:156,5782 Act: 138.086910394 MAE: 19,972 RMSE:24,546 MAPE:11,1292
+Step: 821 Prediction:155,6522 Act: 146.063806452 MAE: 19,9594 RMSE:24,5333 MAPE:11,1237
+Step: 822 Prediction:154,3428 Act: 151.088594982 MAE: 19,9391 RMSE:24,5187 MAPE:11,1128
+Step: 823 Prediction:154,6473 Act: 140.03302509 MAE: 19,9326 RMSE:24,5091 MAPE:11,112
+Step: 824 Prediction:154,2738 Act: 123.050286738 MAE: 19,9463 RMSE:24,5183 MAPE:11,1292
+Step: 825 Prediction:153,4519 Act: 132.020817204 MAE: 19,9481 RMSE:24,5148 MAPE:11,1354
+Step: 826 Prediction:152,0119 Act: 131.075204301 MAE: 19,9493 RMSE:24,5108 MAPE:11,1413
+Step: 827 Prediction:150,3274 Act: 125.075268817 MAE: 19,9557 RMSE:24,5117 MAPE:11,1522
+Step: 828 Prediction:148,677 Act: 119.042021505 MAE: 19,9674 RMSE:24,5185 MAPE:11,1688
+Step: 829 Prediction:150,0417 Act: 120.060265233 MAE: 19,9795 RMSE:24,5258 MAPE:11,1854
+Step: 830 Prediction:152,0013 Act: 121.073326165 MAE: 19,9926 RMSE:24,5346 MAPE:11,2027
+Step: 831 Prediction:153,5269 Act: 125.062021505 MAE: 20,0028 RMSE:24,5397 MAPE:11,2166
+Step: 832 Prediction:155,0732 Act: 114.076874552 MAE: 20,028 RMSE:24,566 MAPE:11,2463
+Step: 833 Prediction:153,4206 Act: 119.0150681 MAE: 20,0453 RMSE:24,5802 MAPE:11,2674
+Step: 834 Prediction:151,5664 Act: 115.086387097 MAE: 20,065 RMSE:24,5979 MAPE:11,2919
+Step: 835 Prediction:150,8553 Act: 112.004681004 MAE: 20,0874 RMSE:24,6199 MAPE:11,3199
+Step: 836 Prediction:150,2933 Act: 114.067046595 MAE: 20,1067 RMSE:24,637 MAPE:11,3443
+Step: 837 Prediction:149,8927 Act: 113.038681004 MAE: 20,1267 RMSE:24,6552 MAPE:11,3697
+Step: 838 Prediction:148,5067 Act: 118.092336918 MAE: 20,139 RMSE:24,6628 MAPE:11,3868
+Step: 839 Prediction:147,8992 Act: 135.015075269 MAE: 20,1303 RMSE:24,6522 MAPE:11,3846
+Step: 840 Prediction:134,0582 Act: 120.001562724 MAE: 20,1231 RMSE:24,6423 MAPE:11,385
+Step: 841 Prediction:135,0896 Act: 133.076544803 MAE: 20,1016 RMSE:24,6277 MAPE:11,3733
+Step: 842 Prediction:136,1948 Act: 130.081892473 MAE: 20,085 RMSE:24,614 MAPE:11,3654
+Step: 843 Prediction:137,9986 Act: 119.043139785 MAE: 20,0837 RMSE:24,6081 MAPE:11,3708
+Step: 844 Prediction:139,8802 Act: 135.081405018 MAE: 20,0656 RMSE:24,5941 MAPE:11,3615
+Step: 845 Prediction:142,5716 Act: 130.014996416 MAE: 20,0567 RMSE:24,5833 MAPE:11,3595
+Step: 846 Prediction:146,0665 Act: 135.045232975 MAE: 20,046 RMSE:24,5717 MAPE:11,3557
+Step: 847 Prediction:149,3994 Act: 133.045734767 MAE: 20,0417 RMSE:24,5636 MAPE:11,3568
+Step: 848 Prediction:152,6517 Act: 165.004982079 MAE: 20,0326 RMSE:24,5528 MAPE:11,3523
+Step: 849 Prediction:157,8078 Act: 172.08990681 MAE: 20,0258 RMSE:24,5433 MAPE:11,3487
+Step: 850 Prediction:163,2588 Act: 174.0530681 MAE: 20,015 RMSE:24,5316 MAPE:11,3426
+Step: 851 Prediction:168,7401 Act: 192.090989247 MAE: 20,0189 RMSE:24,5303 MAPE:11,3436
+Step: 852 Prediction:173,4828 Act: 197.037655914 MAE: 20,0231 RMSE:24,5292 MAPE:11,3443
+Step: 853 Prediction:176,5759 Act: 203.061634409 MAE: 20,0306 RMSE:24,5316 MAPE:11,3463
+Step: 854 Prediction:180,0863 Act: 203.029311828 MAE: 20,034 RMSE:24,5298 MAPE:11,3462
+Step: 855 Prediction:183,9357 Act: 209.030057348 MAE: 20,0399 RMSE:24,5304 MAPE:11,347
+Step: 856 Prediction:188,3751 Act: 222.060523297 MAE: 20,0559 RMSE:24,5431 MAPE:11,3515
+Step: 857 Prediction:192,9052 Act: 237.036924731 MAE: 20,0839 RMSE:24,575 MAPE:11,3599
+Step: 858 Prediction:197,9771 Act: 239.028996416 MAE: 20,1083 RMSE:24,6006 MAPE:11,3667
+Step: 859 Prediction:202,464 Act: 238.004666667 MAE: 20,1263 RMSE:24,6162 MAPE:11,3709
+Step: 860 Prediction:208,0894 Act: 256.075541219 MAE: 20,1586 RMSE:24,6562 MAPE:11,3794
+Step: 861 Prediction:213,0291 Act: 248.005562724 MAE: 20,1758 RMSE:24,6706 MAPE:11,3826
+Step: 862 Prediction:218,9307 Act: 259.011268817 MAE: 20,1989 RMSE:24,6941 MAPE:11,3873
+Step: 863 Prediction:223,8344 Act: 246.041204301 MAE: 20,2012 RMSE:24,6913 MAPE:11,3846
+Step: 864 Prediction:249,7529 Act: 264.034107527 MAE: 20,1944 RMSE:24,6818 MAPE:11,3777
+Step: 865 Prediction:255,0301 Act: 291.012387097 MAE: 20,2126 RMSE:24,6978 MAPE:11,3788
+Step: 866 Prediction:260,9888 Act: 299.044695341 MAE: 20,2332 RMSE:24,7174 MAPE:11,3804
+Step: 867 Prediction:267,2473 Act: 286.042551971 MAE: 20,2315 RMSE:24,7114 MAPE:11,3748
+Step: 868 Prediction:272,9347 Act: 281.000286738 MAE: 20,2175 RMSE:24,6987 MAPE:11,365
+Step: 869 Prediction:278,7526 Act: 309.039899642 MAE: 20,2291 RMSE:24,7059 MAPE:11,3632
+Step: 870 Prediction:283,5491 Act: 322.025971326 MAE: 20,2501 RMSE:24,7261 MAPE:11,3639
+Step: 871 Prediction:288,0431 Act: 324.032544803 MAE: 20,2681 RMSE:24,7419 MAPE:11,3636
+Step: 872 Prediction:293,4112 Act: 347.053863799 MAE: 20,3063 RMSE:24,7943 MAPE:11,3683
+Step: 873 Prediction:300,5452 Act: 331.066609319 MAE: 20,318 RMSE:24,8016 MAPE:11,3659
+Step: 874 Prediction:307,0027 Act: 348.091548387 MAE: 20,3418 RMSE:24,8263 MAPE:11,3664
+Step: 875 Prediction:312,577 Act: 338.003777778 MAE: 20,3476 RMSE:24,827 MAPE:11,362
+Step: 876 Prediction:317,8237 Act: 351.021591398 MAE: 20,3622 RMSE:24,8382 MAPE:11,3598
+Step: 877 Prediction:320,0698 Act: 363.085032258 MAE: 20,388 RMSE:24,8664 MAPE:11,3603
+Step: 878 Prediction:322,4237 Act: 352.05502509 MAE: 20,3985 RMSE:24,8724 MAPE:11,357
+Step: 879 Prediction:323,6012 Act: 344.021584229 MAE: 20,3986 RMSE:24,8678 MAPE:11,3508
+Step: 880 Prediction:324,9742 Act: 343.030759857 MAE: 20,3959 RMSE:24,8611 MAPE:11,3439
+Step: 881 Prediction:323,357 Act: 359.02437276 MAE: 20,4132 RMSE:24,876 MAPE:11,3423
+Step: 882 Prediction:322,6453 Act: 336.017326165 MAE: 20,4052 RMSE:24,866 MAPE:11,334
+Step: 883 Prediction:322,1982 Act: 332.053175627 MAE: 20,3933 RMSE:24,8541 MAPE:11,3245
+Step: 884 Prediction:320,7782 Act: 323.060315412 MAE: 20,3728 RMSE:24,8402 MAPE:11,3125
+Step: 885 Prediction:317,7665 Act: 332.044451613 MAE: 20,366 RMSE:24,8308 MAPE:11,3046
+Step: 886 Prediction:314,8714 Act: 329.035741935 MAE: 20,359 RMSE:24,8214 MAPE:11,2967
+Step: 887 Prediction:312,0375 Act: 328.073247312 MAE: 20,3541 RMSE:24,8132 MAPE:11,2895
+Step: 888 Prediction:325,6099 Act: 316.024258065 MAE: 20,342 RMSE:24,8013 MAPE:11,2802
+Step: 889 Prediction:322,0071 Act: 310.078265233 MAE: 20,3325 RMSE:24,7906 MAPE:11,2719
+Step: 890 Prediction:318,3975 Act: 302.070637993 MAE: 20,328 RMSE:24,7827 MAPE:11,2653
+Step: 891 Prediction:312,5591 Act: 284.053842294 MAE: 20,3372 RMSE:24,7872 MAPE:11,2639
+Step: 892 Prediction:308,4919 Act: 273.059089606 MAE: 20,3541 RMSE:24,8017 MAPE:11,2658
+Step: 893 Prediction:301,2991 Act: 271.059455197 MAE: 20,3652 RMSE:24,8085 MAPE:11,2657
+Step: 894 Prediction:293,7814 Act: 269.053290323 MAE: 20,37 RMSE:24,8084 MAPE:11,2634
+Step: 895 Prediction:288,0031 Act: 247.079297491 MAE: 20,393 RMSE:24,8322 MAPE:11,2693
+Step: 896 Prediction:282,7166 Act: 247.089103943 MAE: 20,41 RMSE:24,8468 MAPE:11,2728
+Step: 897 Prediction:275,1158 Act: 225.085053763 MAE: 20,443 RMSE:24,8891 MAPE:11,285
+Step: 898 Prediction:267,2315 Act: 238.066917563 MAE: 20,4527 RMSE:24,8942 MAPE:11,2861
+Step: 899 Prediction:260,2473 Act: 229.047333333 MAE: 20,4646 RMSE:24,9021 MAPE:11,2887
+Step: 900 Prediction:252,7632 Act: 210.076458781 MAE: 20,4893 RMSE:24,9289 MAPE:11,2987
+Step: 901 Prediction:245,9512 Act: 189.014939068 MAE: 20,5297 RMSE:24,9871 MAPE:11,3196
+Step: 902 Prediction:239,9019 Act: 220.089526882 MAE: 20,5289 RMSE:24,9819 MAPE:11,317
+Step: 903 Prediction:234,1642 Act: 197.087139785 MAE: 20,5472 RMSE:24,9986 MAPE:11,3253
+Step: 904 Prediction:227,1314 Act: 185.008494624 MAE: 20,571 RMSE:25,0239 MAPE:11,3379
+Step: 905 Prediction:223,133 Act: 178.046229391 MAE: 20,5981 RMSE:25,0549 MAPE:11,3534
+Step: 906 Prediction:218,5124 Act: 189.00744086 MAE: 20,6079 RMSE:25,0603 MAPE:11,3581
+Step: 907 Prediction:212,6259 Act: 174.074544803 MAE: 20,6277 RMSE:25,0791 MAPE:11,3699
+Step: 908 Prediction:208,4053 Act: 172.092874552 MAE: 20,6449 RMSE:25,0943 MAPE:11,3807
+Step: 909 Prediction:203,9992 Act: 169.040157706 MAE: 20,6606 RMSE:25,1072 MAPE:11,3909
+Step: 910 Prediction:199,7919 Act: 171.041899642 MAE: 20,6695 RMSE:25,1115 MAPE:11,3968
+Step: 911 Prediction:195,6754 Act: 159.010774194 MAE: 20,6871 RMSE:25,1271 MAPE:11,4096
+Step: 912 Prediction:159,1951 Act: 168.072121864 MAE: 20,6741 RMSE:25,115 MAPE:11,4029
+Step: 913 Prediction:158,5619 Act: 165.069082437 MAE: 20,6586 RMSE:25,1022 MAPE:11,3947
+Step: 914 Prediction:158,2229 Act: 143.013835125 MAE: 20,6527 RMSE:25,0935 MAPE:11,3939
+Step: 915 Prediction:156,9829 Act: 142.091892473 MAE: 20,6464 RMSE:25,0847 MAPE:11,3929
+Step: 916 Prediction:155,1889 Act: 147.030523297 MAE: 20,6328 RMSE:25,0724 MAPE:11,3865
+Step: 917 Prediction:155,1128 Act: 130.094724014 MAE: 20,6375 RMSE:25,0724 MAPE:11,3951
+Step: 918 Prediction:154,8308 Act: 134.076172043 MAE: 20,6377 RMSE:25,0681 MAPE:11,3995
+Step: 919 Prediction:153,8513 Act: 149.087827957 MAE: 20,6204 RMSE:25,0549 MAPE:11,3906
+Step: 920 Prediction:151,9291 Act: 138.062637993 MAE: 20,6131 RMSE:25,0455 MAPE:11,3891
+Step: 921 Prediction:150,7981 Act: 140.074301075 MAE: 20,6024 RMSE:25,0344 MAPE:11,3851
+Step: 922 Prediction:149,8557 Act: 124.000709677 MAE: 20,608 RMSE:25,0353 MAPE:11,3953
+Step: 923 Prediction:148,4071 Act: 134.052215054 MAE: 20,6013 RMSE:25,0262 MAPE:11,3946
+Step: 924 Prediction:146,5841 Act: 110.069749104 MAE: 20,6185 RMSE:25,0415 MAPE:11,4181
+Step: 925 Prediction:148,7335 Act: 113.030207885 MAE: 20,6348 RMSE:25,0555 MAPE:11,4399
+Step: 926 Prediction:150,5752 Act: 102.050996416 MAE: 20,6649 RMSE:25,0926 MAPE:11,4789
+Step: 927 Prediction:152,6573 Act: 112.082193548 MAE: 20,6863 RMSE:25,1144 MAPE:11,5055
+Step: 928 Prediction:153,758 Act: 113.039483871 MAE: 20,7079 RMSE:25,1364 MAPE:11,5319
+Step: 929 Prediction:152,717 Act: 117.023591398 MAE: 20,724 RMSE:25,1502 MAPE:11,5523
+Step: 930 Prediction:151,5785 Act: 123.030946237 MAE: 20,7324 RMSE:25,1541 MAPE:11,5648
+Step: 931 Prediction:150,3168 Act: 116.017154122 MAE: 20,7469 RMSE:25,1656 MAPE:11,5841
+Step: 932 Prediction:149,5201 Act: 118.079878136 MAE: 20,7584 RMSE:25,1732 MAPE:11,6003
+Step: 933 Prediction:147,4665 Act: 107.09111828 MAE: 20,7794 RMSE:25,1944 MAPE:11,6282
+Step: 934 Prediction:146,1403 Act: 123.025010753 MAE: 20,7819 RMSE:25,1923 MAPE:11,6359
+Step: 935 Prediction:146,0425 Act: 109.089455197 MAE: 20,7992 RMSE:25,2078 MAPE:11,6596
+Step: 936 Prediction:111,1894 Act: 127.051261649 MAE: 20,7939 RMSE:25,1996 MAPE:11,6605
+Step: 937 Prediction:114,7293 Act: 122.061784946 MAE: 20,7796 RMSE:25,1873 MAPE:11,6545
+Step: 938 Prediction:117,3887 Act: 132.083634409 MAE: 20,7731 RMSE:25,1785 MAPE:11,6539
+Step: 939 Prediction:119,2737 Act: 126.074795699 MAE: 20,7582 RMSE:25,1661 MAPE:11,6473
+Step: 940 Prediction:121,7898 Act: 137.035326165 MAE: 20,7524 RMSE:25,1576 MAPE:11,6467
+Step: 941 Prediction:125,2356 Act: 130.031885305 MAE: 20,7354 RMSE:25,1447 MAPE:11,6382
+Step: 942 Prediction:128,1038 Act: 129.067577061 MAE: 20,7145 RMSE:25,1314 MAPE:11,6267
+Step: 943 Prediction:130,5972 Act: 145.098759857 MAE: 20,7079 RMSE:25,1225 MAPE:11,625
+Step: 944 Prediction:134,9663 Act: 149.064379928 MAE: 20,7009 RMSE:25,1134 MAPE:11,6227
+Step: 945 Prediction:140,8749 Act: 163.044845878 MAE: 20,7024 RMSE:25,1105 MAPE:11,6248
+Step: 946 Prediction:146,2297 Act: 171.049168459 MAE: 20,7068 RMSE:25,1102 MAPE:11,6278
+Step: 947 Prediction:152,0911 Act: 193.07572043 MAE: 20,7282 RMSE:25,1322 MAPE:11,6379
+Step: 948 Prediction:157,7856 Act: 173.067089606 MAE: 20,7224 RMSE:25,1239 MAPE:11,635
+Step: 949 Prediction:162,4677 Act: 186.023326165 MAE: 20,7254 RMSE:25,1223 MAPE:11,6361
+Step: 950 Prediction:166,864 Act: 224.050996416 MAE: 20,7638 RMSE:25,1774 MAPE:11,6507
+Step: 951 Prediction:171,3196 Act: 207.015326165 MAE: 20,7794 RMSE:25,1908 MAPE:11,6565
+Step: 952 Prediction:176,2859 Act: 220.061756272 MAE: 20,8036 RMSE:25,2175 MAPE:11,6652
+Step: 953 Prediction:181,7284 Act: 242.008172043 MAE: 20,845 RMSE:25,2797 MAPE:11,6791
+Step: 954 Prediction:187,2524 Act: 248.035591398 MAE: 20,8868 RMSE:25,3429 MAPE:11,6925
+Step: 955 Prediction:192,2536 Act: 259.084078853 MAE: 20,9348 RMSE:25,4217 MAPE:11,7072
+Step: 956 Prediction:197,8434 Act: 276.09418638 MAE: 20,9947 RMSE:25,534 MAPE:11,7246
+Step: 957 Prediction:202,3247 Act: 276.035928315 MAE: 21,0498 RMSE:25,6316 MAPE:11,7403
+Step: 958 Prediction:207,1877 Act: 254.096731183 MAE: 21,0767 RMSE:25,6629 MAPE:11,7473
+Step: 959 Prediction:211,0498 Act: 283.070301075 MAE: 21,1298 RMSE:25,7547 MAPE:11,7615
+Step: 960 Prediction:281,3839 Act: 267.005268817 MAE: 21,1228 RMSE:25,7454 MAPE:11,7549
+Step: 961 Prediction:283,353 Act: 291.037032258 MAE: 21,1088 RMSE:25,7333 MAPE:11,7454
+Step: 962 Prediction:285,6984 Act: 299.045569892 MAE: 21,1007 RMSE:25,7235 MAPE:11,7379
+Step: 963 Prediction:287,7694 Act: 295.027713262 MAE: 21,0864 RMSE:25,7112 MAPE:11,7282
+Step: 964 Prediction:289,2856 Act: 313.072573477 MAE: 21,0892 RMSE:25,7093 MAPE:11,724
+Step: 965 Prediction:292,232 Act: 294.059827957 MAE: 21,0692 RMSE:25,696 MAPE:11,7125
+Step: 966 Prediction:296,6614 Act: 290.018143369 MAE: 21,0543 RMSE:25,6836 MAPE:11,7027
+Step: 967 Prediction:300,8439 Act: 310.082860215 MAE: 21,0421 RMSE:25,6721 MAPE:11,6937
+Step: 968 Prediction:305,9737 Act: 323.095433692 MAE: 21,0381 RMSE:25,6647 MAPE:11,6871
+Step: 969 Prediction:311,1103 Act: 350.004301075 MAE: 21,0565 RMSE:25,6819 MAPE:11,6865
+Step: 970 Prediction:316,593 Act: 357.013111111 MAE: 21,0764 RMSE:25,7014 MAPE:11,6861
+Step: 971 Prediction:320,8115 Act: 347.076293907 MAE: 21,0817 RMSE:25,702 MAPE:11,6819
+Step: 972 Prediction:325,4225 Act: 362.088530466 MAE: 21,0978 RMSE:25,7157 MAPE:11,6803
+Step: 973 Prediction:328,1449 Act: 381.052265233 MAE: 21,1304 RMSE:25,7583 MAPE:11,6826
+Step: 974 Prediction:330,3319 Act: 393.084989247 MAE: 21,1731 RMSE:25,8234 MAPE:11,687
+Step: 975 Prediction:331,5721 Act: 373.006401434 MAE: 21,1939 RMSE:25,8442 MAPE:11,6864
+Step: 976 Prediction:332,6958 Act: 378.056143369 MAE: 21,2186 RMSE:25,8717 MAPE:11,6867
+Step: 977 Prediction:332,052 Act: 379.04716129 MAE: 21,245 RMSE:25,9021 MAPE:11,6874
+Step: 978 Prediction:330,3058 Act: 388.059820789 MAE: 21,2823 RMSE:25,9546 MAPE:11,6907
+Step: 979 Prediction:328,5099 Act: 381.003512545 MAE: 21,3141 RMSE:25,9955 MAPE:11,6928
+Step: 980 Prediction:326,4873 Act: 375.078695341 MAE: 21,3419 RMSE:26,0285 MAPE:11,6941
+Step: 981 Prediction:324,1062 Act: 360.043978495 MAE: 21,3568 RMSE:26,0405 MAPE:11,6924
+Step: 982 Prediction:321,8531 Act: 356.086845878 MAE: 21,3699 RMSE:26,0502 MAPE:11,6902
+Step: 983 Prediction:319,8434 Act: 352.059648746 MAE: 21,3809 RMSE:26,0572 MAPE:11,6877
+Step: 984 Prediction:347,3431 Act: 345.09362724 MAE: 21,3615 RMSE:26,0441 MAPE:11,6765
+Step: 985 Prediction:341,9486 Act: 346.004874552 MAE: 21,3439 RMSE:26,0312 MAPE:11,6658
+Step: 986 Prediction:336,1985 Act: 336.008229391 MAE: 21,3225 RMSE:26,018 MAPE:11,654
+Step: 987 Prediction:330,1071 Act: 340.061784946 MAE: 21,311 RMSE:26,0067 MAPE:11,6452
+Step: 988 Prediction:323,3055 Act: 329.053541219 MAE: 21,2952 RMSE:25,9942 MAPE:11,6352
+Step: 989 Prediction:314,371 Act: 316.04344086 MAE: 21,2754 RMSE:25,9812 MAPE:11,624
+Step: 990 Prediction:305,9682 Act: 300.084802867 MAE: 21,2599 RMSE:25,9687 MAPE:11,6142
+Step: 991 Prediction:296,9682 Act: 295.009017921 MAE: 21,2404 RMSE:25,9557 MAPE:11,6032
+Step: 992 Prediction:288,9616 Act: 272.040415771 MAE: 21,2361 RMSE:25,9482 MAPE:11,5978
+Step: 993 Prediction:278,6182 Act: 261.063075269 MAE: 21,2324 RMSE:25,9411 MAPE:11,5929
+Step: 994 Prediction:270,0859 Act: 243.070358423 MAE: 21,2382 RMSE:25,9422 MAPE:11,5924
+Step: 995 Prediction:261,6346 Act: 259.048301075 MAE: 21,2195 RMSE:25,9293 MAPE:11,5817
+Step: 996 Prediction:252,6349 Act: 240.007397849 MAE: 21,2109 RMSE:25,9194 MAPE:11,5754
+Step: 997 Prediction:244,4002 Act: 222.079376344 MAE: 21,212 RMSE:25,916 MAPE:11,5739
+Step: 998 Prediction:238,4106 Act: 225.074107527 MAE: 21,2041 RMSE:25,9065 MAPE:11,5682
+Step: 999 Prediction:231,4946 Act: 232.043462366 MAE: 21,1834 RMSE:25,8935 MAPE:11,5569
+Step: 1000 Prediction:224,2112 Act: 222.053949821 MAE: 21,1644 RMSE:25,8807 MAPE:11,5463
+Step: 1001 Prediction:218,878 Act: 196.036537634 MAE: 21,1661 RMSE:25,8778 MAPE:11,5464
+Step: 1002 Prediction:214,4702 Act: 203.078358423 MAE: 21,1563 RMSE:25,8674 MAPE:11,5405
+Step: 1003 Prediction:209,1192 Act: 216.087620072 MAE: 21,1422 RMSE:25,8555 MAPE:11,5322
+Step: 1004 Prediction:203,924 Act: 193.049103943 MAE: 21,132 RMSE:25,8449 MAPE:11,5264
+Step: 1005 Prediction:200,4183 Act: 196.041734767 MAE: 21,1153 RMSE:25,8324 MAPE:11,5171
+Step: 1006 Prediction:197,2455 Act: 201.045168459 MAE: 21,0981 RMSE:25,8199 MAPE:11,5076
+Step: 1007 Prediction:193,4134 Act: 171.012100358 MAE: 21,0994 RMSE:25,8167 MAPE:11,5091
+Step: 1008 Prediction:169,7094 Act: 170.099326165 MAE: 21,0789 RMSE:25,8039 MAPE:11,498
+Step: 1009 Prediction:169,2499 Act: 175.053992832 MAE: 21,0638 RMSE:25,7918 MAPE:11,4899
+Step: 1010 Prediction:167,8712 Act: 180.06655914 MAE: 21,055 RMSE:25,7819 MAPE:11,4852
+Step: 1011 Prediction:166,1164 Act: 177.035899642 MAE: 21,045 RMSE:25,7714 MAPE:11,4799
+Step: 1012 Prediction:164,7426 Act: 179.027870968 MAE: 21,0383 RMSE:25,7626 MAPE:11,4765
+Step: 1013 Prediction:163,4347 Act: 170.024222222 MAE: 21,0241 RMSE:25,7507 MAPE:11,469
+Step: 1014 Prediction:161,4938 Act: 154.081777778 MAE: 21,0107 RMSE:25,7391 MAPE:11,4624
+Step: 1015 Prediction:160,9252 Act: 158.09511828 MAE: 20,9928 RMSE:25,7266 MAPE:11,4529
+Step: 1016 Prediction:159,6344 Act: 146.033412186 MAE: 20,9855 RMSE:25,7175 MAPE:11,4508
+Step: 1017 Prediction:158,472 Act: 145.052200717 MAE: 20,9781 RMSE:25,7083 MAPE:11,4486
+Step: 1018 Prediction:156,311 Act: 156.007562724 MAE: 20,9578 RMSE:25,6957 MAPE:11,4376
+Step: 1019 Prediction:154,9263 Act: 162.012265233 MAE: 20,9442 RMSE:25,684 MAPE:11,4307
+Step: 1020 Prediction:152,1729 Act: 153.033376344 MAE: 20,9245 RMSE:25,6714 MAPE:11,42
+Step: 1021 Prediction:153,4433 Act: 129.02781362 MAE: 20,9279 RMSE:25,6702 MAPE:11,4274
+Step: 1022 Prediction:154,0311 Act: 126.007684588 MAE: 20,9349 RMSE:25,6727 MAPE:11,4379
+Step: 1023 Prediction:155,0706 Act: 135.081698925 MAE: 20,9339 RMSE:25,6677 MAPE:11,4412
+Step: 1024 Prediction:156,0443 Act: 147.091039427 MAE: 20,9223 RMSE:25,6567 MAPE:11,436
+Step: 1025 Prediction:154,7429 Act: 129.04572043 MAE: 20,9269 RMSE:25,6568 MAPE:11,4443
+Step: 1026 Prediction:153,8607 Act: 141.022193548 MAE: 20,919 RMSE:25,6474 MAPE:11,442
+Step: 1027 Prediction:152,7558 Act: 144.040064516 MAE: 20,9072 RMSE:25,6364 MAPE:11,4367
+Step: 1028 Prediction:151,9365 Act: 139.0470681 MAE: 20,8994 RMSE:25,627 MAPE:11,4346
+Step: 1029 Prediction:149,4767 Act: 140.059648746 MAE: 20,8882 RMSE:25,6163 MAPE:11,4301
+Step: 1030 Prediction:148,1145 Act: 121.029462366 MAE: 20,8942 RMSE:25,6177 MAPE:11,4407
+Step: 1031 Prediction:146,2331 Act: 129.065713262 MAE: 20,8906 RMSE:25,6109 MAPE:11,4425
+Step: 1032 Prediction:129,4769 Act: 135.084487455 MAE: 20,8758 RMSE:25,5991 MAPE:11,4354
+Step: 1033 Prediction:130,7948 Act: 132.082616487 MAE: 20,8569 RMSE:25,5868 MAPE:11,4253
+Step: 1034 Prediction:132,7408 Act: 148.074817204 MAE: 20,8515 RMSE:25,5788 MAPE:11,4243
+Step: 1035 Prediction:134,0867 Act: 148.042157706 MAE: 20,8449 RMSE:25,5702 MAPE:11,4223
+Step: 1036 Prediction:136,0419 Act: 147.034673835 MAE: 20,8354 RMSE:25,5601 MAPE:11,4185
+Step: 1037 Prediction:137,6186 Act: 153.045641577 MAE: 20,8302 RMSE:25,5523 MAPE:11,4172
+Step: 1038 Prediction:139,288 Act: 137.029261649 MAE: 20,8123 RMSE:25,5401 MAPE:11,4078
+Step: 1039 Prediction:141,7842 Act: 143.065340502 MAE: 20,7935 RMSE:25,5278 MAPE:11,3977
+Step: 1040 Prediction:144,3561 Act: 144.087448029 MAE: 20,7738 RMSE:25,5156 MAPE:11,387
+Step: 1041 Prediction:149,0213 Act: 147.057612903 MAE: 20,7558 RMSE:25,5034 MAPE:11,3773
+Step: 1042 Prediction:153,7985 Act: 146.073663082 MAE: 20,7433 RMSE:25,4923 MAPE:11,3715
+Step: 1043 Prediction:159,4822 Act: 171.084845878 MAE: 20,7345 RMSE:25,4826 MAPE:11,3671
+Step: 1044 Prediction:163,3397 Act: 191.020021505 MAE: 20,7412 RMSE:25,4848 MAPE:11,3701
+Step: 1045 Prediction:166,7551 Act: 199.089426523 MAE: 20,7522 RMSE:25,4922 MAPE:11,3747
+Step: 1046 Prediction:172,2775 Act: 196.071677419 MAE: 20,7551 RMSE:25,4907 MAPE:11,3755
+Step: 1047 Prediction:176,3332 Act: 196.052121864 MAE: 20,7542 RMSE:25,4858 MAPE:11,3742
+Step: 1048 Prediction:180,9975 Act: 226.054602151 MAE: 20,7773 RMSE:25,5116 MAPE:11,3824
+Step: 1049 Prediction:186,6642 Act: 240.047175627 MAE: 20,8084 RMSE:25,5526 MAPE:11,3927
+Step: 1050 Prediction:192,3813 Act: 253.057505376 MAE: 20,8463 RMSE:25,6089 MAPE:11,4047
+Step: 1051 Prediction:198,1901 Act: 255.00483871 MAE: 20,8805 RMSE:25,6566 MAPE:11,415
+Step: 1052 Prediction:204,7231 Act: 247.07865233 MAE: 20,9009 RMSE:25,6776 MAPE:11,4204
+Step: 1053 Prediction:210,3672 Act: 234.028057348 MAE: 20,9035 RMSE:25,6758 MAPE:11,4192
+Step: 1054 Prediction:214,3853 Act: 252.080910394 MAE: 20,9194 RMSE:25,6898 MAPE:11,4226
+Step: 1055 Prediction:219,7261 Act: 278.028903226 MAE: 20,9548 RMSE:25,7403 MAPE:11,4316
+Step: 1056 Prediction:276,9322 Act: 276.036616487 MAE: 20,9359 RMSE:25,7281 MAPE:11,4211
+Step: 1057 Prediction:279,3395 Act: 281.003082437 MAE: 20,9176 RMSE:25,716 MAPE:11,4109
+Step: 1058 Prediction:282,2523 Act: 295.020107527 MAE: 20,9099 RMSE:25,7068 MAPE:11,4042
+Step: 1059 Prediction:284,3763 Act: 316.002587814 MAE: 20,9201 RMSE:25,7131 MAPE:11,4028
+Step: 1060 Prediction:287,0385 Act: 313.007405018 MAE: 20,9248 RMSE:25,7133 MAPE:11,3999
+Step: 1061 Prediction:289,4294 Act: 324.053376344 MAE: 20,9377 RMSE:25,7232 MAPE:11,3992
+Step: 1062 Prediction:292,1305 Act: 329.093268817 MAE: 20,9528 RMSE:25,736 MAPE:11,3991
+Step: 1063 Prediction:295,6793 Act: 339.083333333 MAE: 20,9739 RMSE:25,7583 MAPE:11,4004
+Step: 1064 Prediction:299,892 Act: 316.064100358 MAE: 20,9694 RMSE:25,751 MAPE:11,3945
+Step: 1065 Prediction:306,9907 Act: 338.067204301 MAE: 20,9789 RMSE:25,7565 MAPE:11,3924
+Step: 1066 Prediction:313,7457 Act: 341.07334767 MAE: 20,9848 RMSE:25,758 MAPE:11,3893
+Step: 1067 Prediction:319,1716 Act: 332.093204301 MAE: 20,9773 RMSE:25,749 MAPE:11,3822
+Step: 1068 Prediction:324,9135 Act: 336.034458781 MAE: 20,968 RMSE:25,7392 MAPE:11,3747
+Step: 1069 Prediction:328,9813 Act: 325.081175627 MAE: 20,9521 RMSE:25,7275 MAPE:11,3652
+Step: 1070 Prediction:333,4152 Act: 332.000673835 MAE: 20,9338 RMSE:25,7155 MAPE:11,355
+Step: 1071 Prediction:336,0977 Act: 318.004064516 MAE: 20,9312 RMSE:25,7094 MAPE:11,3497
+Step: 1072 Prediction:338,9967 Act: 353.001971326 MAE: 20,9247 RMSE:25,701 MAPE:11,3428
+Step: 1073 Prediction:338,9702 Act: 338.099698925 MAE: 20,9061 RMSE:25,689 MAPE:11,3325
+Step: 1074 Prediction:339,7819 Act: 326.006344086 MAE: 20,8994 RMSE:25,6805 MAPE:11,3259
+Step: 1075 Prediction:340,2452 Act: 307.073727599 MAE: 20,9108 RMSE:25,6885 MAPE:11,3254
+Step: 1076 Prediction:340,2312 Act: 329.038050179 MAE: 20,9018 RMSE:25,6788 MAPE:11,318
+Step: 1077 Prediction:338,1249 Act: 316.004623656 MAE: 20,9029 RMSE:25,6758 MAPE:11,314
+Step: 1078 Prediction:336,0669 Act: 318.016953405 MAE: 20,9003 RMSE:25,6697 MAPE:11,3088
+Step: 1079 Prediction:334,0433 Act: 308.0010681 MAE: 20,9051 RMSE:25,6701 MAPE:11,3062
+Step: 1080 Prediction:308,9318 Act: 302.001670251 MAE: 20,8921 RMSE:25,6591 MAPE:11,2978
+Step: 1081 Prediction:308,6547 Act: 314.096021505 MAE: 20,8779 RMSE:25,6478 MAPE:11,289
+Step: 1082 Prediction:307,1548 Act: 330.006250896 MAE: 20,8797 RMSE:25,6453 MAPE:11,285
+Step: 1083 Prediction:306,3229 Act: 297.007870968 MAE: 20,869 RMSE:25,635 MAPE:11,2774
+Step: 1084 Prediction:304,7166 Act: 302.025383513 MAE: 20,8523 RMSE:25,6234 MAPE:11,2679
+Step: 1085 Prediction:299,6337 Act: 283.03502509 MAE: 20,8483 RMSE:25,6165 MAPE:11,2629
+Step: 1086 Prediction:293,6476 Act: 266.044236559 MAE: 20,8546 RMSE:25,6184 MAPE:11,2621
+Step: 1087 Prediction:288,2496 Act: 259.021935484 MAE: 20,8623 RMSE:25,622 MAPE:11,2621
+Step: 1088 Prediction:282,1039 Act: 266.028021505 MAE: 20,8579 RMSE:25,6148 MAPE:11,2573
+Step: 1089 Prediction:274,0785 Act: 283.003089606 MAE: 20,8469 RMSE:25,6045 MAPE:11,2499
+Step: 1090 Prediction:265,6886 Act: 251.096587814 MAE: 20,8412 RMSE:25,5966 MAPE:11,2449
+Step: 1091 Prediction:259,2365 Act: 240.059763441 MAE: 20,8397 RMSE:25,5914 MAPE:11,2419
+Step: 1092 Prediction:252,033 Act: 234.070250896 MAE: 20,837 RMSE:25,5855 MAPE:11,2386
+Step: 1093 Prediction:245,7333 Act: 218.020860215 MAE: 20,8433 RMSE:25,5875 MAPE:11,24
+Step: 1094 Prediction:240,2081 Act: 205.062982079 MAE: 20,8564 RMSE:25,5979 MAPE:11,2454
+Step: 1095 Prediction:235,5406 Act: 204.097476703 MAE: 20,866 RMSE:25,6038 MAPE:11,2492
+Step: 1096 Prediction:230,255 Act: 202.009111111 MAE: 20,8728 RMSE:25,6063 MAPE:11,2517
+Step: 1097 Prediction:225,6346 Act: 217.035519713 MAE: 20,8616 RMSE:25,596 MAPE:11,245
+Step: 1098 Prediction:221,6385 Act: 201.032896057 MAE: 20,8613 RMSE:25,5919 MAPE:11,2441
+Step: 1099 Prediction:218,4098 Act: 182.052301075 MAE: 20,8754 RMSE:25,6037 MAPE:11,252
+Step: 1100 Prediction:214,16 Act: 179.066387097 MAE: 20,8883 RMSE:25,614 MAPE:11,2596
+Step: 1101 Prediction:211,3725 Act: 194.008473118 MAE: 20,8851 RMSE:25,6077 MAPE:11,2575
+Step: 1102 Prediction:209,0405 Act: 171.041591398 MAE: 20,9007 RMSE:25,6216 MAPE:11,2675
+Step: 1103 Prediction:205,0078 Act: 162.06744086 MAE: 20,9206 RMSE:25,6426 MAPE:11,2813
+Step: 1104 Prediction:163,1929 Act: 182.05209319 MAE: 20,9188 RMSE:25,6373 MAPE:11,2804
+Step: 1105 Prediction:164,3316 Act: 159.057182796 MAE: 20,9046 RMSE:25,6262 MAPE:11,2732
+Step: 1106 Prediction:165,1965 Act: 155.02055914 MAE: 20,8949 RMSE:25,6164 MAPE:11,269
+Step: 1107 Prediction:165,5299 Act: 159.034594982 MAE: 20,8819 RMSE:25,6056 MAPE:11,2625
+Step: 1108 Prediction:166,3028 Act: 151.061835125 MAE: 20,8768 RMSE:25,5982 MAPE:11,2614
+Step: 1109 Prediction:166,6306 Act: 145.03697491 MAE: 20,8775 RMSE:25,5948 MAPE:11,2647
+Step: 1110 Prediction:165,738 Act: 158.02372043 MAE: 20,8656 RMSE:25,5844 MAPE:11,2589
+Step: 1111 Prediction:165,0994 Act: 142.039634409 MAE: 20,8676 RMSE:25,5822 MAPE:11,2634
+Step: 1112 Prediction:163,6543 Act: 154.017749104 MAE: 20,8575 RMSE:25,5723 MAPE:11,2589
+Step: 1113 Prediction:162,4396 Act: 141.012494624 MAE: 20,858 RMSE:25,5689 MAPE:11,2625
+Step: 1114 Prediction:162,0226 Act: 136.011369176 MAE: 20,8627 RMSE:25,5693 MAPE:11,2695
+Step: 1115 Prediction:161,9711 Act: 145.020688172 MAE: 20,8591 RMSE:25,5629 MAPE:11,2699
+Step: 1116 Prediction:161,3276 Act: 123.029849462 MAE: 20,8748 RMSE:25,5771 MAPE:11,2877
+Step: 1117 Prediction:163,0293 Act: 132.038802867 MAE: 20,8838 RMSE:25,5825 MAPE:11,2986
+Step: 1118 Prediction:164,3417 Act: 133.011448029 MAE: 20,8931 RMSE:25,5882 MAPE:11,3095
+Step: 1119 Prediction:166,0452 Act: 143.027232975 MAE: 20,895 RMSE:25,586 MAPE:11,3138
+Step: 1120 Prediction:168,113 Act: 143.021297491 MAE: 20,8988 RMSE:25,5856 MAPE:11,3193
+Step: 1121 Prediction:166,7262 Act: 137.018946237 MAE: 20,9066 RMSE:25,5895 MAPE:11,3286
+Step: 1122 Prediction:166,1805 Act: 131.050487455 MAE: 20,9193 RMSE:25,5996 MAPE:11,3424
+Step: 1123 Prediction:165,831 Act: 127.046673835 MAE: 20,9352 RMSE:25,6144 MAPE:11,3594
+Step: 1124 Prediction:165,3022 Act: 145.009096774 MAE: 20,9346 RMSE:25,6101 MAPE:11,3618
+Step: 1125 Prediction:163,5787 Act: 124.067448029 MAE: 20,9511 RMSE:25,6258 MAPE:11,38
+Step: 1126 Prediction:161,0279 Act: 131.044344086 MAE: 20,9591 RMSE:25,63 MAPE:11,3902
+Step: 1127 Prediction:159,5152 Act: 120.046293907 MAE: 20,9755 RMSE:25,6456 MAPE:11,4092
+Step: 1128 Prediction:122,5343 Act: 129.041971326 MAE: 20,9627 RMSE:25,635 MAPE:11,4036
+Step: 1129 Prediction:125,1795 Act: 125.094272401 MAE: 20,9443 RMSE:25,6236 MAPE:11,3935
+Step: 1130 Prediction:128,334 Act: 126.001433692 MAE: 20,9278 RMSE:25,6124 MAPE:11,3851
+Step: 1131 Prediction:131,5622 Act: 127.025268817 MAE: 20,9133 RMSE:25,6014 MAPE:11,3782
+Step: 1132 Prediction:133,899 Act: 145.04083871 MAE: 20,9047 RMSE:25,5923 MAPE:11,3749
+Step: 1133 Prediction:137,3748 Act: 136.014401434 MAE: 20,8875 RMSE:25,581 MAPE:11,3658
+Step: 1134 Prediction:139,2127 Act: 158.005397849 MAE: 20,8856 RMSE:25,5758 MAPE:11,3663
+Step: 1135 Prediction:141,2658 Act: 161.044602151 MAE: 20,8846 RMSE:25,5713 MAPE:11,3671
+Step: 1136 Prediction:143,5864 Act: 157.091290323 MAE: 20,8781 RMSE:25,5632 MAPE:11,3646
+Step: 1137 Prediction:147,3292 Act: 155.037125448 MAE: 20,8666 RMSE:25,553 MAPE:11,359
+Step: 1138 Prediction:150,7054 Act: 170.060580645 MAE: 20,8652 RMSE:25,5482 MAPE:11,359
+Step: 1139 Prediction:155,4702 Act: 191.021835125 MAE: 20,8781 RMSE:25,5587 MAPE:11,3654
+Step: 1140 Prediction:161,0482 Act: 203.087949821 MAE: 20,8967 RMSE:25,5778 MAPE:11,3736
+Step: 1141 Prediction:165,8792 Act: 212.019928315 MAE: 20,9188 RMSE:25,603 MAPE:11,3827
+Step: 1142 Prediction:170,039 Act: 209.058817204 MAE: 20,9346 RMSE:25,6178 MAPE:11,389
+Step: 1143 Prediction:173,8604 Act: 209.019297491 MAE: 20,9471 RMSE:25,6277 MAPE:11,3938
+Step: 1144 Prediction:179,3088 Act: 216.016050179 MAE: 20,9608 RMSE:25,6395 MAPE:11,3987
+Step: 1145 Prediction:185,2458 Act: 231.000243728 MAE: 20,9825 RMSE:25,6639 MAPE:11,406
+Step: 1146 Prediction:191,4517 Act: 215.044573477 MAE: 20,9847 RMSE:25,6622 MAPE:11,4056
+Step: 1147 Prediction:197,222 Act: 242.018408602 MAE: 21,0055 RMSE:25,685 MAPE:11,4118
+Step: 1148 Prediction:202,2008 Act: 235.076738351 MAE: 21,0158 RMSE:25,6922 MAPE:11,4141
+Step: 1149 Prediction:205,5061 Act: 236.024659498 MAE: 21,0241 RMSE:25,6968 MAPE:11,4154
+Step: 1150 Prediction:209,7551 Act: 246.060243728 MAE: 21,0373 RMSE:25,7079 MAPE:11,4183
+Step: 1151 Prediction:215,0991 Act: 269.07818638 MAE: 21,0659 RMSE:25,7459 MAPE:11,4258
+Step: 1152 Prediction:269,2156 Act: 261.069089606 MAE: 21,0547 RMSE:25,7358 MAPE:11,4186
+Step: 1153 Prediction:270,9415 Act: 277.060365591 MAE: 21,0418 RMSE:25,7253 MAPE:11,4106
+Step: 1154 Prediction:274,23 Act: 276.006967742 MAE: 21,0251 RMSE:25,7142 MAPE:11,4013
+Step: 1155 Prediction:278,0447 Act: 294.017419355 MAE: 21,0207 RMSE:25,7074 MAPE:11,3961
+Step: 1156 Prediction:281,2132 Act: 303.01781362 MAE: 21,0214 RMSE:25,7043 MAPE:11,3925
+Step: 1157 Prediction:286,0112 Act: 311.048551971 MAE: 21,0249 RMSE:25,7037 MAPE:11,3896
+Step: 1158 Prediction:291,4056 Act: 322.048107527 MAE: 21,0332 RMSE:25,7084 MAPE:11,388
+Step: 1159 Prediction:296,8004 Act: 310.043562724 MAE: 21,0265 RMSE:25,7002 MAPE:11,3818
+Step: 1160 Prediction:300,4913 Act: 310.066107527 MAE: 21,0166 RMSE:25,6907 MAPE:11,3747
+Step: 1161 Prediction:306,5808 Act: 324.035949821 MAE: 21,0135 RMSE:25,6848 MAPE:11,3696
+Step: 1162 Prediction:312,4475 Act: 329.074344086 MAE: 21,0098 RMSE:25,6783 MAPE:11,3641
+Step: 1163 Prediction:317,078 Act: 335.048523297 MAE: 21,0072 RMSE:25,6727 MAPE:11,359
+Step: 1164 Prediction:321,6971 Act: 333.008702509 MAE: 20,9988 RMSE:25,6638 MAPE:11,3521
+Step: 1165 Prediction:323,2608 Act: 335.035469534 MAE: 20,9909 RMSE:25,6551 MAPE:11,3454
+Step: 1166 Prediction:325,0989 Act: 325.038709677 MAE: 20,973 RMSE:25,6441 MAPE:11,3357
+Step: 1167 Prediction:325,9026 Act: 310.010688172 MAE: 20,9686 RMSE:25,6374 MAPE:11,3304
+Step: 1168 Prediction:328,8889 Act: 301.046752688 MAE: 20,9745 RMSE:25,6393 MAPE:11,3286
+Step: 1169 Prediction:328,1777 Act: 314.087010753 MAE: 20,9686 RMSE:25,6317 MAPE:11,3228
+Step: 1170 Prediction:326,7036 Act: 311.098817204 MAE: 20,9641 RMSE:25,6248 MAPE:11,3174
+Step: 1171 Prediction:324,3535 Act: 323.057949821 MAE: 20,9473 RMSE:25,6139 MAPE:11,3081
+Step: 1172 Prediction:323,5381 Act: 330.023569892 MAE: 20,9349 RMSE:25,6037 MAPE:11,3001
+Step: 1173 Prediction:320,9389 Act: 341.024587814 MAE: 20,9342 RMSE:25,5995 MAPE:11,2955
+Step: 1174 Prediction:318,746 Act: 338.015878136 MAE: 20,9328 RMSE:25,5948 MAPE:11,2907
+Step: 1175 Prediction:316,2787 Act: 336.049878136 MAE: 20,9318 RMSE:25,5904 MAPE:11,2861
+Step: 1176 Prediction:330,6206 Act: 318.02581362 MAE: 20,9247 RMSE:25,5821 MAPE:11,2799
+Step: 1177 Prediction:325,5746 Act: 311.086508961 MAE: 20,9193 RMSE:25,5748 MAPE:11,2743
+Step: 1178 Prediction:322,3452 Act: 293.037204301 MAE: 20,9264 RMSE:25,5782 MAPE:11,2732
+Step: 1179 Prediction:317,5175 Act: 303.005741935 MAE: 20,9209 RMSE:25,5708 MAPE:11,2677
+Step: 1180 Prediction:313,7639 Act: 275.086508961 MAE: 20,936 RMSE:25,5847 MAPE:11,2701
+Step: 1181 Prediction:306,3913 Act: 288.011419355 MAE: 20,9338 RMSE:25,5795 MAPE:11,2659
+Step: 1182 Prediction:298,7629 Act: 291.078050179 MAE: 20,9226 RMSE:25,5697 MAPE:11,2586
+Step: 1183 Prediction:291,1813 Act: 261.036953405 MAE: 20,9304 RMSE:25,5739 MAPE:11,2589
+Step: 1184 Prediction:284,7385 Act: 264.013820789 MAE: 20,9302 RMSE:25,5702 MAPE:11,256
+Step: 1185 Prediction:278,0328 Act: 254.037562724 MAE: 20,9328 RMSE:25,5689 MAPE:11,2545
+Step: 1186 Prediction:270,1751 Act: 241.062250896 MAE: 20,9397 RMSE:25,5721 MAPE:11,2552
+Step: 1187 Prediction:262,3442 Act: 226.011412186 MAE: 20,9527 RMSE:25,583 MAPE:11,2592
+Step: 1188 Prediction:254,6198 Act: 220.017713262 MAE: 20,9641 RMSE:25,592 MAPE:11,263
+Step: 1189 Prediction:247,3206 Act: 224.025498208 MAE: 20,9661 RMSE:25,5901 MAPE:11,2623
+Step: 1190 Prediction:240,1932 Act: 240.057498208 MAE: 20,9486 RMSE:25,5794 MAPE:11,2529
+Step: 1191 Prediction:233,378 Act: 227.042451613 MAE: 20,9364 RMSE:25,5693 MAPE:11,2458
+Step: 1192 Prediction:226,8835 Act: 217.034551971 MAE: 20,9271 RMSE:25,5602 MAPE:11,2401
+Step: 1193 Prediction:223,4674 Act: 192.070939068 MAE: 20,9358 RMSE:25,5656 MAPE:11,2444
+Step: 1194 Prediction:219,3617 Act: 195.096329749 MAE: 20,9386 RMSE:25,5646 MAPE:11,2454
+Step: 1195 Prediction:214,1854 Act: 183.006874552 MAE: 20,9472 RMSE:25,5698 MAPE:11,2502
+Step: 1196 Prediction:209,18 Act: 186.083612903 MAE: 20,949 RMSE:25,5678 MAPE:11,2512
+Step: 1197 Prediction:206,6583 Act: 177.060673835 MAE: 20,9562 RMSE:25,5714 MAPE:11,2558
+Step: 1198 Prediction:202,8583 Act: 165.015405018 MAE: 20,9703 RMSE:25,5841 MAPE:11,2655
+Step: 1199 Prediction:198,6248 Act: 167.075577061 MAE: 20,9791 RMSE:25,5897 MAPE:11,2719
+Step: 1200 Prediction:167,219 Act: 172.051512545 MAE: 20,9656 RMSE:25,5794 MAPE:11,2648
+Step: 1201 Prediction:166,6813 Act: 155.077010753 MAE: 20,9579 RMSE:25,5709 MAPE:11,2617
+Step: 1202 Prediction:165,3449 Act: 163.012193548 MAE: 20,9424 RMSE:25,5604 MAPE:11,2535
+Step: 1203 Prediction:164,4854 Act: 150.014637993 MAE: 20,937 RMSE:25,5532 MAPE:11,2522
+Step: 1204 Prediction:163,0194 Act: 153.091620072 MAE: 20,9279 RMSE:25,5442 MAPE:11,2482
+Step: 1205 Prediction:161,6073 Act: 151.040623656 MAE: 20,9193 RMSE:25,5354 MAPE:11,2447
+Step: 1206 Prediction:161,244 Act: 158.003577061 MAE: 20,9046 RMSE:25,525 MAPE:11,2371
+Step: 1207 Prediction:160,1287 Act: 149.093727599 MAE: 20,8965 RMSE:25,5164 MAPE:11,2339
+Step: 1208 Prediction:159,722 Act: 143.053870968 MAE: 20,893 RMSE:25,5103 MAPE:11,2342
+Step: 1209 Prediction:158,5588 Act: 148.071949821 MAE: 20,8844 RMSE:25,5016 MAPE:11,2308
+Step: 1210 Prediction:157,0246 Act: 143.087548387 MAE: 20,8786 RMSE:25,4942 MAPE:11,2296
+Step: 1211 Prediction:156,274 Act: 149.079770609 MAE: 20,8673 RMSE:25,4845 MAPE:11,2243
+Step: 1212 Prediction:153,9791 Act: 127.094896057 MAE: 20,8723 RMSE:25,4857 MAPE:11,2325
+Step: 1213 Prediction:156,2435 Act: 121.073240143 MAE: 20,8841 RMSE:25,4952 MAPE:11,2472
+Step: 1214 Prediction:158,147 Act: 117.083691756 MAE: 20,9007 RMSE:25,5119 MAPE:11,2668
+Step: 1215 Prediction:160,5282 Act: 122.067232975 MAE: 20,9151 RMSE:25,5253 MAPE:11,2834
+Step: 1216 Prediction:162,6061 Act: 127.018681004 MAE: 20,9272 RMSE:25,5352 MAPE:11,2972
+Step: 1217 Prediction:161,9076 Act: 119.052903226 MAE: 20,9452 RMSE:25,5542 MAPE:11,3174
+Step: 1218 Prediction:160,9783 Act: 133.045820789 MAE: 20,9509 RMSE:25,5562 MAPE:11,3254
+Step: 1219 Prediction:159,7722 Act: 139.002630824 MAE: 20,9508 RMSE:25,5527 MAPE:11,3283
+Step: 1220 Prediction:159,8821 Act: 123.077376344 MAE: 20,9637 RMSE:25,5639 MAPE:11,3436
+Step: 1221 Prediction:157,3107 Act: 126.026508961 MAE: 20,9722 RMSE:25,5691 MAPE:11,3546
+Step: 1222 Prediction:155,7131 Act: 130.048860215 MAE: 20,976 RMSE:25,5692 MAPE:11,3614
+Step: 1223 Prediction:153,5577 Act: 132.062236559 MAE: 20,9765 RMSE:25,5661 MAPE:11,3655
+Step: 1224 Prediction:132,0558 Act: 131.039103943 MAE: 20,9602 RMSE:25,5557 MAPE:11,3568
+Step: 1225 Prediction:132,852 Act: 131.095892473 MAE: 20,9445 RMSE:25,5453 MAPE:11,3486
+Step: 1226 Prediction:133,9126 Act: 140.075605735 MAE: 20,9324 RMSE:25,5355 MAPE:11,343
+Step: 1227 Prediction:134,3646 Act: 138.001756272 MAE: 20,9184 RMSE:25,5254 MAPE:11,3359
+Step: 1228 Prediction:136,0675 Act: 154.042164875 MAE: 20,916 RMSE:25,5201 MAPE:11,3362
+Step: 1229 Prediction:137,9648 Act: 150.07618638 MAE: 20,9088 RMSE:25,5121 MAPE:11,3335
+Step: 1230 Prediction:141,0271 Act: 164.059820789 MAE: 20,9105 RMSE:25,5102 MAPE:11,3357
+Step: 1231 Prediction:144,105 Act: 153.07865233 MAE: 20,9008 RMSE:25,5011 MAPE:11,3313
+Step: 1232 Prediction:146,6681 Act: 170.077240143 MAE: 20,9029 RMSE:25,4995 MAPE:11,3332
+Step: 1233 Prediction:150,3355 Act: 170.097318996 MAE: 20,902 RMSE:25,4953 MAPE:11,3335
+Step: 1234 Prediction:154,5935 Act: 174.000939068 MAE: 20,9007 RMSE:25,491 MAPE:11,3333
+Step: 1235 Prediction:159,9237 Act: 185.045913978 MAE: 20,9042 RMSE:25,4907 MAPE:11,3351
+Step: 1236 Prediction:165,21 Act: 171.097655914 MAE: 20,892 RMSE:25,4809 MAPE:11,3287
+Step: 1237 Prediction:169,9539 Act: 208.032781362 MAE: 20,9059 RMSE:25,4936 MAPE:11,3344
+Step: 1238 Prediction:174,4898 Act: 216.050272401 MAE: 20,9226 RMSE:25,5107 MAPE:11,3408
+Step: 1239 Prediction:178,3953 Act: 208.029928315 MAE: 20,9296 RMSE:25,5143 MAPE:11,3431
+Step: 1240 Prediction:182,5318 Act: 243.06181362 MAE: 20,9615 RMSE:25,5618 MAPE:11,354
+Step: 1241 Prediction:187,4715 Act: 250.074014337 MAE: 20,995 RMSE:25,6132 MAPE:11,365
+Step: 1242 Prediction:191,1139 Act: 244.053548387 MAE: 21,0207 RMSE:25,6469 MAPE:11,3733
+Step: 1243 Prediction:196,2443 Act: 254.006903226 MAE: 21,0503 RMSE:25,6888 MAPE:11,3825
+Step: 1244 Prediction:200,7001 Act: 251.091390681 MAE: 21,0738 RMSE:25,7182 MAPE:11,3895
+Step: 1245 Prediction:204,4825 Act: 244.007913978 MAE: 21,0886 RMSE:25,7322 MAPE:11,3933
+Step: 1246 Prediction:208,309 Act: 256.054401434 MAE: 21,11 RMSE:25,7574 MAPE:11,3991
+Step: 1247 Prediction:213,5232 Act: 267.017240143 MAE: 21,136 RMSE:25,7916 MAPE:11,4061
+Step: 1248 Prediction:266,8445 Act: 285.018781362 MAE: 21,1336 RMSE:25,7864 MAPE:11,402
+Step: 1249 Prediction:269,2304 Act: 293.075777778 MAE: 21,1358 RMSE:25,7849 MAPE:11,3994
+Step: 1250 Prediction:271,6724 Act: 279.085684588 MAE: 21,1248 RMSE:25,7754 MAPE:11,3924
+Step: 1251 Prediction:274,7824 Act: 272.004308244 MAE: 21,1101 RMSE:25,7653 MAPE:11,3841
+Step: 1252 Prediction:278,0561 Act: 278.039225806 MAE: 21,0933 RMSE:25,755 MAPE:11,3751
+Step: 1253 Prediction:282,309 Act: 296.078035842 MAE: 21,0875 RMSE:25,7477 MAPE:11,3697
+Step: 1254 Prediction:287,023 Act: 307.000845878 MAE: 21,0866 RMSE:25,7436 MAPE:11,3658
+Step: 1255 Prediction:290,6846 Act: 300.072229391 MAE: 21,0773 RMSE:25,7347 MAPE:11,3593
+Step: 1256 Prediction:294,1399 Act: 321.079390681 MAE: 21,0819 RMSE:25,7357 MAPE:11,3569
+Step: 1257 Prediction:299,9861 Act: 337.033283154 MAE: 21,0946 RMSE:25,7466 MAPE:11,3566
+Step: 1258 Prediction:305,6264 Act: 327.075290323 MAE: 21,0949 RMSE:25,7435 MAPE:11,3528
+Step: 1259 Prediction:310,9592 Act: 336.009770609 MAE: 21,0981 RMSE:25,743 MAPE:11,3497
+Step: 1260 Prediction:315,8433 Act: 326.020516129 MAE: 21,0894 RMSE:25,7343 MAPE:11,3432
+Step: 1261 Prediction:318,4755 Act: 324.060179211 MAE: 21,0771 RMSE:25,7246 MAPE:11,3356
+Step: 1262 Prediction:320,442 Act: 324.087075269 MAE: 21,0633 RMSE:25,7146 MAPE:11,3275
+Step: 1263 Prediction:321,1575 Act: 324.087082437 MAE: 21,049 RMSE:25,7046 MAPE:11,3192
+Step: 1264 Prediction:321,482 Act: 317.029505376 MAE: 21,0358 RMSE:25,6947 MAPE:11,3114
+Step: 1265 Prediction:319,9253 Act: 304.09455914 MAE: 21,0317 RMSE:25,6885 MAPE:11,3066
+Step: 1266 Prediction:318,627 Act: 300.079232975 MAE: 21,0298 RMSE:25,6836 MAPE:11,3025
+Step: 1267 Prediction:318,265 Act: 304.080731183 MAE: 21,0244 RMSE:25,6766 MAPE:11,2973
+Step: 1268 Prediction:318,3736 Act: 297.091318996 MAE: 21,0246 RMSE:25,6734 MAPE:11,294
+Step: 1269 Prediction:317,7771 Act: 304.066451613 MAE: 21,0188 RMSE:25,6662 MAPE:11,2887
+Step: 1270 Prediction:317,041 Act: 281.042917563 MAE: 21,0306 RMSE:25,6759 MAPE:11,2899
+Step: 1271 Prediction:316,2315 Act: 285.0770681 MAE: 21,0386 RMSE:25,6807 MAPE:11,2896
+Step: 1272 Prediction:286,2718 Act: 276.035992832 MAE: 21,0301 RMSE:25,6722 MAPE:11,2837
+Step: 1273 Prediction:285,9829 Act: 297.008594982 MAE: 21,0222 RMSE:25,664 MAPE:11,2777
+Step: 1274 Prediction:284,6504 Act: 291.030064516 MAE: 21,0107 RMSE:25,6545 MAPE:11,2706
+Step: 1275 Prediction:283,8968 Act: 291.004207885 MAE: 20,9998 RMSE:25,6453 MAPE:11,2637
+Step: 1276 Prediction:281,6403 Act: 275.052121864 MAE: 20,9886 RMSE:25,6359 MAPE:11,2567
+Step: 1277 Prediction:276,7735 Act: 270.056530466 MAE: 20,9774 RMSE:25,6265 MAPE:11,2499
+Step: 1278 Prediction:272,6002 Act: 288.088802867 MAE: 20,9731 RMSE:25,6202 MAPE:11,2453
+Step: 1279 Prediction:267,0821 Act: 279.041949821 MAE: 20,9661 RMSE:25,6124 MAPE:11,2398
+Step: 1280 Prediction:262,1175 Act: 256.071462366 MAE: 20,9544 RMSE:25,6029 MAPE:11,2329
+Step: 1281 Prediction:255,2813 Act: 247.005132616 MAE: 20,9445 RMSE:25,594 MAPE:11,2267
+Step: 1282 Prediction:248,2296 Act: 237.048795699 MAE: 20,9369 RMSE:25,5859 MAPE:11,2217
+Step: 1283 Prediction:241,1906 Act: 238.083870968 MAE: 20,923 RMSE:25,5761 MAPE:11,214
+Step: 1284 Prediction:234,2414 Act: 226.092179211 MAE: 20,9131 RMSE:25,5671 MAPE:11,208
+Step: 1285 Prediction:229,2331 Act: 213.029075269 MAE: 20,9094 RMSE:25,5612 MAPE:11,2052
+Step: 1286 Prediction:225,629 Act: 190.030774194 MAE: 20,9208 RMSE:25,5705 MAPE:11,2111
+Step: 1287 Prediction:221,5807 Act: 200.087326165 MAE: 20,9213 RMSE:25,5676 MAPE:11,2107
+Step: 1288 Prediction:217,0762 Act: 193.061956989 MAE: 20,9237 RMSE:25,5664 MAPE:11,2117
+Step: 1289 Prediction:212,8309 Act: 191.051971326 MAE: 20,9243 RMSE:25,5637 MAPE:11,2118
+Step: 1290 Prediction:209,1165 Act: 178.073569892 MAE: 20,9322 RMSE:25,5684 MAPE:11,2166
+Step: 1291 Prediction:205,0314 Act: 160.096229391 MAE: 20,9508 RMSE:25,5891 MAPE:11,2297
+Step: 1292 Prediction:201,1929 Act: 156.046702509 MAE: 20,9695 RMSE:25,61 MAPE:11,2434
+Step: 1293 Prediction:198,4361 Act: 181.008523297 MAE: 20,9667 RMSE:25,6047 MAPE:11,2421
+Step: 1294 Prediction:195,203 Act: 182.053462366 MAE: 20,9607 RMSE:25,5974 MAPE:11,239
+Step: 1295 Prediction:191,9971 Act: 171.006028674 MAE: 20,9607 RMSE:25,5941 MAPE:11,2398
+Step: 1296 Prediction:170,0919 Act: 154.02427957 MAE: 20,9569 RMSE:25,5882 MAPE:11,2392
+Step: 1297 Prediction:168,5768 Act: 152.06018638 MAE: 20,9535 RMSE:25,5824 MAPE:11,2389
+Step: 1298 Prediction:167,2156 Act: 160.010043011 MAE: 20,9429 RMSE:25,5733 MAPE:11,2337
+Step: 1299 Prediction:165,0714 Act: 158.067928315 MAE: 20,9322 RMSE:25,5642 MAPE:11,2285
+Step: 1300 Prediction:164,1488 Act: 152.090774194 MAE: 20,9254 RMSE:25,5566 MAPE:11,2259
+Step: 1301 Prediction:163,9481 Act: 138.05944086 MAE: 20,9292 RMSE:25,5569 MAPE:11,2317
+Step: 1302 Prediction:163,6718 Act: 150.007526882 MAE: 20,9236 RMSE:25,5499 MAPE:11,2301
+Step: 1303 Prediction:162,9058 Act: 132.07534767 MAE: 20,9312 RMSE:25,5543 MAPE:11,2394
+Step: 1304 Prediction:161,6838 Act: 132.095677419 MAE: 20,9379 RMSE:25,5577 MAPE:11,2479
+Step: 1305 Prediction:160,8504 Act: 136.076939068 MAE: 20,9408 RMSE:25,5571 MAPE:11,2533
+Step: 1306 Prediction:159,8671 Act: 140.080014337 MAE: 20,9399 RMSE:25,5531 MAPE:11,2555
+Step: 1307 Prediction:159,3943 Act: 131.015992832 MAE: 20,9456 RMSE:25,5554 MAPE:11,2634
+Step: 1308 Prediction:157,548 Act: 126.020358423 MAE: 20,9537 RMSE:25,5605 MAPE:11,2739
+Step: 1309 Prediction:159,0108 Act: 110.034286738 MAE: 20,9751 RMSE:25,5866 MAPE:11,2993
+Step: 1310 Prediction:160,0067 Act: 117.006853047 MAE: 20,9919 RMSE:25,6044 MAPE:11,3187
+Step: 1311 Prediction:161,2485 Act: 125.014831541 MAE: 21,0035 RMSE:25,6141 MAPE:11,3322
+Step: 1312 Prediction:162,7499 Act: 129.051598566 MAE: 21,0132 RMSE:25,6213 MAPE:11,3434
+Step: 1313 Prediction:161,199 Act: 109.077240143 MAE: 21,0368 RMSE:25,6519 MAPE:11,3712
+Step: 1314 Prediction:160,7897 Act: 110.031949821 MAE: 21,0594 RMSE:25,6803 MAPE:11,3976
+Step: 1315 Prediction:160,766 Act: 116.016544803 MAE: 21,0774 RMSE:25,7001 MAPE:11,4182
+Step: 1316 Prediction:159,7806 Act: 121.013713262 MAE: 21,0909 RMSE:25,7126 MAPE:11,4339
+Step: 1317 Prediction:157,7808 Act: 129.088315412 MAE: 21,0966 RMSE:25,715 MAPE:11,4421
+Step: 1318 Prediction:156,0899 Act: 140.010688172 MAE: 21,0928 RMSE:25,709 MAPE:11,4421
+Step: 1319 Prediction:154,8575 Act: 155.024415771 MAE: 21,077 RMSE:25,6993 MAPE:11,4335
+Step: 1320 Prediction:262,4399 Act: 144.074996416 MAE: 21,1506 RMSE:25,8952 MAPE:11,4871
+Step: 1321 Prediction:260,5725 Act: 149.0550681 MAE: 21,219 RMSE:26,0664 MAPE:11,535
+Step: 1322 Prediction:259,7309 Act: 156.009827957 MAE: 21,2813 RMSE:26,2122 MAPE:11,5765
+Step: 1323 Prediction:260,287 Act: 158.062071685 MAE: 21,3425 RMSE:26,3524 MAPE:11,6166
+Step: 1324 Prediction:262,0614 Act: 164.083433692 MAE: 21,4003 RMSE:26,4797 MAPE:11,6529
+Step: 1325 Prediction:264,4596 Act: 168.076946237 MAE: 21,4569 RMSE:26,6017 MAPE:11,6874
+Step: 1326 Prediction:267,2571 Act: 171.023240143 MAE: 21,5132 RMSE:26,7225 MAPE:11,721
+Step: 1327 Prediction:269,6962 Act: 173.062594982 MAE: 21,5698 RMSE:26,8438 MAPE:11,7542
+Step: 1328 Prediction:272,2138 Act: 172.034637993 MAE: 21,6289 RMSE:26,974 MAPE:11,7892
+Step: 1329 Prediction:276,1211 Act: 187.075849462 MAE: 21,6796 RMSE:27,0742 MAPE:11,8161
+Step: 1330 Prediction:280,578 Act: 206.059878136 MAE: 21,7193 RMSE:27,141 MAPE:11,8344
+Step: 1331 Prediction:284,6733 Act: 219.081455197 MAE: 21,7523 RMSE:27,1903 MAPE:11,848
+Step: 1332 Prediction:287,8745 Act: 222.049390681 MAE: 21,7853 RMSE:27,2398 MAPE:11,8613
+Step: 1333 Prediction:289,4214 Act: 207.043390681 MAE: 21,8307 RMSE:27,3228 MAPE:11,8822
+Step: 1334 Prediction:291,227 Act: 246.012258065 MAE: 21,8483 RMSE:27,3406 MAPE:11,8871
+Step: 1335 Prediction:292,4244 Act: 226.00702509 MAE: 21,8816 RMSE:27,3907 MAPE:11,9002
+Step: 1336 Prediction:294,2425 Act: 215.075125448 MAE: 21,9245 RMSE:27,4659 MAPE:11,9188
+Step: 1337 Prediction:295,3243 Act: 217.091397849 MAE: 21,9665 RMSE:27,5389 MAPE:11,9369
+Step: 1338 Prediction:297,1254 Act: 244.033677419 MAE: 21,9898 RMSE:27,5668 MAPE:11,9442
+Step: 1339 Prediction:298,1335 Act: 248.067426523 MAE: 22,0107 RMSE:27,5904 MAPE:11,9503
+Step: 1340 Prediction:298,1592 Act: 241.071003584 MAE: 22,0369 RMSE:27,6242 MAPE:11,9591
+Step: 1341 Prediction:297,429 Act: 254.064021505 MAE: 22,0528 RMSE:27,6392 MAPE:11,9629
+Step: 1342 Prediction:297,1074 Act: 250.031942652 MAE: 22,0714 RMSE:27,6588 MAPE:11,968
+Step: 1343 Prediction:296,6981 Act: 260.029641577 MAE: 22,0823 RMSE:27,6666 MAPE:11,9696
+Time taken for all:1223.333

@@ -1,0 +1,6 @@
+java -Xmx16384M -jar 2-150CutOff.jar > 2-150CutOff.txt
+java -Xmx16384M -jar 3-150CutOff.jar > 3-150CutOff.txt
+java -Xmx16384M -jar 4-150CutOff.jar > 4-150CutOff.txt
+java -Xmx16384M -jar 3-100CutOff.jar > 3-100CutOff.txt
+java -Xmx16384M -jar 3-75CutOff.jar > 3-75CutOff.txt
+java -Xmx16384M -jar 3-60CutOff.jar > 3-60CutOff.txt

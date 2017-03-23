@@ -271,6 +271,30 @@ def adjustTimeStamp(data):
 		newData += string
 		newData += "\n"
 	return newData
+def createDerivativeAttributes(data):
+	newData = ""
+	timeStamp = []
+	restOfFeatures = []
+	power_list = []
+	lines = data.readlines()
+	print "Lines no. in multiplyby100:" + str(len(lines))
+	for k in range(len(lines)):					#copying previous header
+		newData += lines[k]
+		if(lines[k] == "@data\n"):
+			break
+	for i in range(k+1, len(lines)):
+		timeStamp.append(lines[i][0:25])
+		power_list.append(float(lines[i][25:29]) * 100)
+		restOfFeatures.append(lines[i][29:-1])
+	for i in range(len(timeStamp)):
+		string = ""
+		string += timeStamp[i]
+		string += str(power_list[i])
+		string += restOfFeatures[i]
+		newData += string
+		newData += "\n"
+	return newData
+
 if __name__ == '__main__':
 	path = os.path.join(os.path.expanduser('~'), 
 		'workspace/wekaforecasting-new-features/dataSets','1year3months_1aggregate2_extraFeaturesx.arff')
