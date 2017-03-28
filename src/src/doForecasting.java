@@ -20,6 +20,7 @@ public class doForecasting {
     HashMap<Integer, Float> map = new HashMap<Integer, Float>();
     private Thread t;
     private String threadName;
+    public int threadNumber;
 
     public doForecasting() {
         resetOptions();
@@ -28,16 +29,17 @@ public class doForecasting {
     public void doForecast(Instances data) {
         try {
             //PrintWriter resultLog = new PrintWriter(new FileWriter("results.txt", true));
+            this.threadNumber = 6;
             long startTime = System.currentTimeMillis(), stopTime;
             List<String> overlayFields = new ArrayList<String>();
             MyHashMap hashMap = new MyHashMap();
             TSLagMaker tsLagMaker = new TSLagMaker();
             int lagLimit = 1392, lagInterval = 72, featureLimitFromInterval = 6, reliefFeatureCutOff = 150;
 
-            rankWithRelief(hashMap, data, lagInterval, lagLimit, featureLimitFromInterval);
+            /*rankWithRelief(hashMap, data, lagInterval, lagLimit, featureLimitFromInterval);
             hashMap.sortHashMapByValues();
-            String chosenLags = hashMap.printHashMapFeatures(reliefFeatureCutOff);
-            //String chosenLags = "1366, 1369, 1370, 1262, 1261, 1263, 1066, 1065, 1067, 1174, 1173, 1172, 870, 869, 871, 674, 675, 673, 494, 493, 492, 1334, 1335, 1333, 958, 959, 957, 965, 573, 602, 601, 1226, 1232, 1225, 1161, 994, 769, 993, 1269, 1162, 1190, 770, 797, 1298, 1270, 1073, 1138, 478, 1144, 1139, 479, 1030, 477, 1031, 1036, 1074, 1102, 377, 1377, 1378, 1379, 406, 405, 948, 942, 941, 877, 878, 681, 840, 834, 768, 835, 906, 762, 767, 682, 298, 297, 296, 683, 697, 572, 571, 570, 698, 726, 181, 644, 609, 643, 182, 210, 501, 502, 1, 503, 108, 98, 97, 376, 413, 375, 414, 305, 374, 448, 306, 217, 109, 307, 268, 2, 180, 218, 267, 219, 266, 179, 110, 178, 111, 3, 72, 37, 71";
+            String chosenLags = hashMap.printHashMapFeatures(reliefFeatureCutOff);*/
+            String chosenLags = "1366, 1369, 1370, 1262, 1261, 1263, 1066, 1065, 1067, 1174, 1173, 1172, 870, 869, 871, 674, 675, 673, 494, 493, 492, 1334, 1335, 1333, 958, 959, 957, 965, 573, 602, 601, 1226, 1232, 1225, 1161, 994, 769, 993, 1269, 1162, 1190, 770, 797, 1298, 1270, 1073, 1138, 478, 1144, 1139, 479, 1030, 477, 1031, 1036, 1074, 1102, 377, 1377, 1378, 1379, 406, 405, 948, 942, 941, 877, 878, 681, 840, 834, 768, 835, 906, 762, 767, 682, 298, 297, 296, 683, 697, 572, 571, 570, 698, 726, 181, 644, 609, 643, 182, 210, 501, 502, 1, 503, 108, 98, 97, 376, 413, 375, 414, 305, 374, 448, 306, 217, 109, 307, 268, 2, 180, 218, 267, 219, 266, 179, 110, 178, 111, 3, 72, 37, 71";
             System.out.println("Relief configuration, lagLimit:" + lagLimit
                     + " lagInterval:" + lagInterval + " featureLimitFromInterval:" + featureLimitFromInterval
             + " reliefFeatureCutOff:" + reliefFeatureCutOff);
@@ -64,10 +66,10 @@ public class doForecasting {
             //bestFirst.setOptions(weka.core.Utils.splitOptions("-D 2"));
             SimmulatedAnnealing simmulatedAnnealing = new SimmulatedAnnealing();
             RandomSearch randomSearch = new RandomSearch();
-
-            //randomSearch.search(laggedData, tsLagMaker, overlayFields);
+            randomSearch.setThreadNumber(threadNumber);
+            randomSearch.search(laggedData, tsLagMaker, overlayFields);
             //simmulatedAnnealing.search(laggedData, tsLagMaker, overlayFields);
-            bestFirst.search(laggedData, tsLagMaker, overlayFields);
+            //bestFirst.search(laggedData, tsLagMaker, overlayFields);
             stopTime = System.currentTimeMillis();
             System.out.println("Time taken for all:" + ((double) stopTime - startTime) / 1000);
         } catch (Exception e) {
@@ -78,7 +80,6 @@ public class doForecasting {
     public void rankWithRelief(MyHashMap hashMap, Instances data, int lagInterval, int lagLimit, int featureNumber) {
         int startLag = 1, endLag = startLag + lagInterval - 1;
         ArrayList<Thread> threadList = new ArrayList<Thread>();
-        int threadNumber = 6;
         if (lagLimit % threadNumber != 0)
             throw new ValueException("Lag limit has to be divisible with " + threadNumber + " because the lag intervals will be split to that number of threads!");
         int threadLagInterval = lagLimit / threadNumber;                          //each thread has a Interval of the whole lag range which will be assigned to it; this Interval will be calculated by the thread split again in the per parameter given Interval size

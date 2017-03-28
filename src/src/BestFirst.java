@@ -286,6 +286,11 @@ public class BestFirst {
      */
     protected static final int SELECTION_FORWARD = 1;
     /**
+     * for splitting the workload in threads
+     */
+    public int threadNumber;
+
+    /**
      * search direction: bidirectional
      */
     protected static final int SELECTION_BIDIRECTIONAL = 2;
@@ -463,6 +468,9 @@ public class BestFirst {
         m_debug = Utils.getFlag('Z', options);
     }
 
+    public void setThreadNumber(int threadNumber) {
+        this.threadNumber = threadNumber;
+    }
     /**
      * Set the maximum size of the evaluated subset cache (hashtable). This is
      * expressed as a multiplier for the number of attributes in the data set.
@@ -709,7 +717,7 @@ public class BestFirst {
         LinearRegression linearRegression = new LinearRegression();
         linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1 -R 1E-6"));
         tsWrapper.setM_BaseClassifier(linearRegression);
-        System.out.println("Using best First and " + tsWrapper.getM_BaseClassifier() + " as classifier.");
+        System.out.println("Using best First and linearReggression as classifier.");
         m_numAttribs = data.numAttributes();
         SubsetHandler subsetHandler = new SubsetHandler();
         subsetHandler.setM_numAttribs(m_numAttribs);
@@ -770,8 +778,8 @@ public class BestFirst {
         Object[] best = new Object[1];
         best[0] = best_group.clone();
         prioQueueList.addToList(best, best_merit);
-        String hashC = best_group.toString();
-        lookForExistingSubsets.put(hashC, new Double(best_merit));
+        String hashedGroup = best_group.toString();
+        lookForExistingSubsets.put(hashedGroup, new Double(best_merit));
         System.out.println("StartsetPercentage:" + startSetPercentage + ", maxStale:" + m_maxStale);
 
         while (stale < m_maxStale) {
@@ -817,9 +825,9 @@ public class BestFirst {
                          * if this subset has been seen before, then it is already in the
                          * list (or has been fully expanded)
                         */
-                        hashC = temp_group.toString();
+                        hashedGroup = temp_group.toString();
 
-                        if (lookForExistingSubsets.containsKey(hashC) == false) {
+                        if (lookForExistingSubsets.containsKey(hashedGroup) == false) {
                             //System.out.println("Before eval:" + temp_group);
                             merit = -tsWrapper.evaluateSubset(temp_group, tsLagMaker, overlayFields, false);
                             System.out.println("Merit: " + merit);
@@ -829,13 +837,13 @@ public class BestFirst {
                             System.out.println("\n");
                             m_totalEvals++;
 
-                            hashC = temp_group.toString();
-                            lookForExistingSubsets.put(hashC, new Double(merit));
+                            hashedGroup = temp_group.toString();
+                            lookForExistingSubsets.put(hashedGroup, new Double(merit));
                             insertCount++;
                             // insert this one in the list
 
                         } else
-                            merit = lookForExistingSubsets.get(hashC).doubleValue();
+                            merit = lookForExistingSubsets.get(hashedGroup).doubleValue();
                         Object[] add = new Object[1];
                         add[0] = temp_group.clone();
                         prioQueueList.addToList(add, merit);

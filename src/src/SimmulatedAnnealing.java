@@ -70,6 +70,13 @@ public class SimmulatedAnnealing {
      */
     protected boolean m_hasClass;
 
+
+
+    /**
+     * for splitting the workload in threads
+     */
+    public int threadNumber;
+
     /**
      * holds the class index
      */
@@ -202,6 +209,9 @@ public class SimmulatedAnnealing {
         if (size >= 0) {
             m_cacheSize = size;
         }
+    }
+    public void setThreadNumber(int threadNumber) {
+        this.threadNumber = threadNumber;
     }
 
     /**

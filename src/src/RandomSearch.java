@@ -55,6 +55,10 @@ public class RandomSearch{
     /** for debugging */
     protected boolean m_debug;
     /**
+     * for splitting the workload in threads
+     */
+    public int threadNumber;
+    /**
      * Attributes which should always be included in the subset list
      */
     protected ArrayList<Integer> listOfAttributesWhichShouldAlwaysBeThere = new ArrayList<Integer>();
@@ -169,6 +173,10 @@ public class RandomSearch{
                 + "(default = 1).";
     }
 
+    public void setThreadNumber(int threadNumber) {
+        this.threadNumber = threadNumber;
+    }
+
     /**
      * Returns the tip text for this property
      *
@@ -202,7 +210,7 @@ public class RandomSearch{
     public int[] search(Instances data, TSLagMaker tsLagMaker, List<String> overlayFields) throws Exception {
         long startTime = System.currentTimeMillis(), stopTime;
         m_totalEvals = 0;
-        int m_maxEvals = 550;
+        int m_maxEvals = 63;
         TSWrapper tsWrapper = new TSWrapper();
         tsWrapper.buildEvaluator(data);
         LinearRegression linearRegression = new LinearRegression();
@@ -226,7 +234,17 @@ public class RandomSearch{
         lookForExistingSubsets.put(subset_string, best_merit);
         System.out.println("Initial group with numAttribs: " + m_numAttribs + "/n");
         System.out.println("Merit: " + best_merit);
-        while(m_totalEvals < m_maxEvals){
+        RAContainer raContainer = new RAContainer(m_totalEvals, best_group, lookForExistingSubsets, subsetHandler, best_merit, tsLagMaker, overlayFields);
+        ArrayList<Thread> threadList = new ArrayList<Thread>();
+        threadNumber = 2;
+        int threadLagInterval = m_maxEvals/threadNumber;
+        for (int i = 0; i < threadNumber; i++)
+            threadList.add(i, new RAThread("Thread " + i, raContainer, m_maxEvals, subsetHandler, tsWrapper));
+        for (int i = 0; i < threadList.size(); i++)
+            threadList.get(i).start();
+        for (int i = 0; i < threadList.size(); i++)
+            threadList.get(i).join();
+        /*while(m_totalEvals < m_maxEvals){
             BitSet s_new = subsetHandler.changeBits((BitSet)best_group.clone(), 1);
             subset_string = s_new.toString();
             if(!lookForExistingSubsets.containsKey(subset_string)){
@@ -240,7 +258,7 @@ public class RandomSearch{
                     System.out.println("New best merit!");
                 }
             }
-        }
+        }*/
         System.out.println("Best merit:" + best_merit);
         System.out.println(m_totalEvals);
         stopTime = System.currentTimeMillis();
