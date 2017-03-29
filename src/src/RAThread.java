@@ -1,5 +1,6 @@
 package src;
 
+import weka.classifiers.Classifier;
 import weka.core.Instances;
 
 import java.util.BitSet;
@@ -19,12 +20,18 @@ public class RAThread extends Thread{
     private String subset_string;
     private RAContainer raContainer;
     public RAThread(String threadName, RAContainer raContainer, int m_maxEvals,
-                    SubsetHandler subsetHandler, TSWrapper tsWrapper){
+                    SubsetHandler subsetHandler, Classifier classifier, Instances data){
         this.threadName = threadName;
         this.raContainer = raContainer;
         this.m_maxEvals = m_maxEvals;
         this.subsetHandler = subsetHandler;
-        this.tsWrapper = tsWrapper;
+        this.tsWrapper = new TSWrapper();
+        this.tsWrapper.setM_BaseClassifier(classifier);
+        try {
+            this.tsWrapper.buildEvaluator(data);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
 
     }
     public void run(){
@@ -38,9 +45,8 @@ public class RAThread extends Thread{
                     incrementEvals();
                     System.out.println("New merit: " + s_new_merit);
                     raContainer.putInExistingSubsets(subset_string, s_new_merit);
-                    if (decisionFunction(raContainer.getBest_merit() - s_new_merit)) {
+                    if (decisionFunction(raContainer.getBest_merit() - s_new_merit))
                         raContainer.changeBestGroup(s_new, s_new_merit);
-                    }
                 }
             }
         }catch (Exception e){

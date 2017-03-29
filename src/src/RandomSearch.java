@@ -239,7 +239,7 @@ public class RandomSearch{
         threadNumber = 2;
         int threadLagInterval = m_maxEvals/threadNumber;
         for (int i = 0; i < threadNumber; i++)
-            threadList.add(i, new RAThread("Thread " + i, raContainer, m_maxEvals, subsetHandler, tsWrapper));
+            threadList.add(i, new RAThread("Thread " + i, raContainer, m_maxEvals, subsetHandler, linearRegression, data));
         for (int i = 0; i < threadList.size(); i++)
             threadList.get(i).start();
         for (int i = 0; i < threadList.size(); i++)
