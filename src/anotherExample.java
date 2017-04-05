@@ -25,11 +25,11 @@ public class anotherExample{
         try {
             PrintWriter errorLog = new PrintWriter(new FileWriter("bestFirst/BFerrorLog.txt", true));
             errorLog.println("Asd");
+
         }catch (Exception e){
             e.printStackTrace();
         }
     }
     public static void functionOne(){
-        System.out.println("asdasda");
     }
 }

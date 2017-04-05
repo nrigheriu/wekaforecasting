@@ -1,5 +1,6 @@
 package src;
 
+import com.sun.org.apache.xpath.internal.SourceTree;
 import weka.classifiers.evaluation.NumericPrediction;
 import weka.classifiers.timeseries.WekaForecaster;
 import weka.core.Instances;
@@ -22,7 +23,7 @@ public class TSCV {
         public TSCV(){
             resetOptions();
         }
-    public void crossValidateTS(Instances data, Classifier classifier, TSLagMaker tsLagMaker){
+    public void crossValidateTS(Instances data, Classifier classifier, TSLagMaker tsLagMaker, boolean testBestModel){
         try {
             actualValuesList.clear();
             forecastedValuesList.clear();
@@ -30,8 +31,16 @@ public class TSCV {
             forecaster.setTSLagMaker(tsLagMaker);
             forecaster.setFieldsToForecast(tsLagMaker.getFieldsToLagAsString());
             forecaster.setBaseForecaster(classifier);
-            int stepNumber = 24, trainingPercentage = 70;                           //stepNumber is how many steps in future it should be forecasted. 15 min * 24 =  6 hours
-            int numberOfUnitsToForecast = 28, numUnitsForecasted;               //this specifies how many times the stepNumber above should be evaluated with the same forecaster built.
+            int stepNumber = 24, trainingPercentage;                          //stepNumber is how many steps in future it should be forecasted. 15 min * 24 =  6 hours
+            int numberOfUnitsToForecast, numUnitsForecasted, daysToForecast;   //this specifies how many times the stepNumber above should be evaluated with the same forecaster built.
+            if(testBestModel){
+                trainingPercentage = 80;
+                daysToForecast = 36;
+            }else {
+                trainingPercentage = 70;
+                daysToForecast = 7;
+            }
+            numberOfUnitsToForecast = (daysToForecast * 24)/6;
             int startTestData = 0, endTestData = 0;
             Instances testData = null, trainData = null;
             List<List<NumericPrediction>> forecast = null;
@@ -63,45 +72,6 @@ public class TSCV {
             e.printStackTrace();
         }
     }
-    public void testBestModel(Instances data, Classifier classifier, TSLagMaker tsLagMaker){
-        try {
-            resetOptions();
-            WekaForecaster forecaster = new WekaForecaster();
-            forecaster.setTSLagMaker(tsLagMaker);
-            forecaster.setFieldsToForecast(tsLagMaker.getFieldsToLagAsString());
-            forecaster.setBaseForecaster(classifier);
-            int numberOfUnitsToForecast, numUnitsForecasted;               //this specifies how many times the stepNumber above should be evaluated with the same forecaster built.
-            int stepNumber = 24, trainingPercentage = 80;
-            int startTestData = 0, endTestData = 0;
-            Instances testData = null, trainData = null;
-            List<List<NumericPrediction>> forecast = null;
-            long sTime = System.currentTimeMillis();
-            numUnitsForecasted = 1;
-            numberOfUnitsToForecast = 56;
-            trainData = getSplittedData(data, trainingPercentage, true);
-            testData = getSplittedData(data, trainingPercentage, false);
-            forecaster.buildForecaster(trainData);
-            forecaster.primeForecaster(trainData);
-            while (numUnitsForecasted <= numberOfUnitsToForecast){
-                startTestData = (numUnitsForecasted-1)*(stepNumber);
-                endTestData = (int)testData.numInstances()-startTestData;
-                if(!forecaster.getTSLagMaker().getOverlayFields().isEmpty())                        //checking if any overlay fields are set
-                    forecast = forecaster.forecast(stepNumber, new Instances(testData, startTestData, endTestData));
-                else
-                    forecast = forecaster.forecast(stepNumber);
-                forecaster.primeForecaster(trainData);
-                addToValuesLists(forecast, new Instances(testData, startTestData, endTestData), stepNumber);
-                if(numUnitsForecasted < numberOfUnitsToForecast -1)                                     //check if this isn't the last iteration and where are priming for nothing
-                    for (int i = 0; i < stepNumber*numUnitsForecasted; i++)
-                        forecaster.primeForecasterIncremental(testData.get(i));
-                numUnitsForecasted++;
-            }
-                long eTime = System.currentTimeMillis();
-                System.out.println(("Time taken to evaluate final model:" + ((double)(eTime-sTime))/1000));
-        }catch (Exception e){
-            e.printStackTrace();
-            }
-        }
     public void addToValuesLists(List<List<NumericPrediction>> forecast, Instances testData, int stepNumber){
         for (int i = 0; i < stepNumber; i++) {
             actualValuesList.add(testData.get(i).value(1));
@@ -117,6 +87,7 @@ public class TSCV {
             return new Instances(data, trainSize, testSize);
     }
     public double calculateErrors (boolean printOutput, String evaluationMeasure){
+        //mode = 0 for wrapper, 1 for returning bias and 2 for testing best model
         double errorSum = 0;
         double piErrorSum = 0;
         double squaredErrorSum = 0;
@@ -125,18 +96,21 @@ public class TSCV {
         int i;
         for (i = 0; i < actualValuesList.size(); i++) {
             double actualValue = actualValuesList.get(i);
-            double error = Math.abs(forecastedValuesList.get(i) - actualValue);
+            double forecastedValue;
+            forecastedValue = forecastedValuesList.get(i);
+            double error = Math.abs(forecastedValue - actualValue);
             double piError = 100 * error / actualValue;
             piErrorSum += piError;
             errorSum += error;
             squaredErrorSum += error*error;
-            String errorOutput = "Step: " + i + " Prediction:" + df.format(forecastedValuesList.get(i)) +
-                    " Act: " + actualValue +
-                    " MAE: " + df.format(errorSum / (i + 1)) + " RMSE:" + df.format(Math.sqrt(squaredErrorSum / (i + 1))) +
+            String errorOutput = "Step: " + i + " Prediction: " + df.format(forecastedValue) +
+                    " Act:" + df.format(actualValue) +
+                    " MAE:" + df.format(errorSum / (i + 1)) + " RMSE:" + df.format(Math.sqrt(squaredErrorSum / (i + 1))) +
                     " MAPE:" + df.format(piErrorSum / (i + 1));
             if(printOutput)
                 System.out.println(errorOutput);
         }
+
         if(evaluationMeasure == "RMSE")
             getLastError = Math.sqrt(squaredErrorSum/ (i + 1));
         else if (evaluationMeasure == "MAPE")
@@ -154,3 +128,39 @@ public class TSCV {
         forecastedValuesList.clear();
     }
 }
+
+
+
+/*
+        Double sum = 0.;
+        if(mode == 2) {
+                System.out.println("No mean adjustment!");
+                for (i = 0; i < actualValuesList.size(); i++) {
+        double actualValue = actualValuesList.get(i);
+        double forecastedValue;
+        forecastedValue = forecastedValuesList.get(i);
+        double error = Math.abs(forecastedValue - actualValue);
+        double piError = 100 * error / actualValue;
+        piErrorSum += piError;
+        errorSum += error;
+        squaredErrorSum += error * error;
+        String errorOutput = "Step: " + i + " Prediction: " + df.format(forecastedValue) +
+        " Act:" + df.format(actualValue) +
+        " MAE:" + df.format(errorSum / (i + 1)) + " RMSE:" + df.format(Math.sqrt(squaredErrorSum / (i + 1))) +
+        " MAPE:" + df.format(piErrorSum / (i + 1));
+        if (printOutput)
+        System.out.println(errorOutput);
+        }
+        System.out.println("With mean adjustment:");
+        errorSum = 0;
+        piErrorSum = 0;
+        squaredErrorSum = 0;
+        getLastError = 0;
+        }
+         if(mode == 2){
+            sum = 0.;
+            for (int j = 0; j < actualValuesList.size(); j++)
+                sum += actualValuesList.get(j) - forecastedValuesList.get(j);
+            System.out.println("Sum @ end:" + sum);
+        }
+        */

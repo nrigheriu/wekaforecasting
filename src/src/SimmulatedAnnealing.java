@@ -281,9 +281,9 @@ public class SimmulatedAnnealing {
         subsetHandler.setM_numAttribs(m_numAttribs);
         BitSet best_group;
         best_group = subsetHandler.getStartSet(0);
-        double temperature = 0.17, initialTemp = temperature;
+        double temperature = 0.4, initialTemp = temperature;
         double best_merit;
-        int i = 0, changedAltoughWorseCounter = 0;
+        int changedAltoughWorseCounter = 0;
         Hashtable<String, Double> lookForExistingSubsets = new Hashtable<String, Double>();
         // evaluate the initial subset
         subsetHandler.printGroup(best_group);
@@ -294,10 +294,8 @@ public class SimmulatedAnnealing {
         System.out.println("Initial group with numAttribs: " + m_numAttribs + " temp: " + temperature + "/n");
         System.out.println("Merit: " + best_merit);
         TheVeryBest theVeryBest = new TheVeryBest((BitSet) best_group.clone(), best_merit);
-        boolean[] changedAlthoughWorse = new boolean[6];
-        for (int j = 0; j < changedAlthoughWorse.length; j++)
-            changedAlthoughWorse[j] = true;
-        while (temperature > 0.000006) {
+        ArrayList<Boolean> changedAlthoughWorse = new ArrayList<Boolean>();
+        while (temperature > 0.0000001) {
             changedAltoughWorseCounter = 0;
             BitSet s_new = subsetHandler.changeBits((BitSet) best_group.clone(), 1);
             subset_string = s_new.toString();
@@ -308,26 +306,20 @@ public class SimmulatedAnnealing {
                 lookForExistingSubsets.put(subset_string, s_new_merit);
                 if (decisionFunction(s_new_merit - best_merit, temperature, best_merit, initialTemp)) {
                     if (best_merit - s_new_merit > 0)                    //it means this is a worse set than the best set, and we still change the best set to it.
-                        changedAlthoughWorse[i++] = true;
+                        changedAlthoughWorse.add(true);
                     best_group = (BitSet) s_new.clone();
                     best_merit = s_new_merit;
-                    System.out.println(s_new_merit);
-                    System.out.println(temperature);
                 } else
-                    changedAlthoughWorse[i++] = false;
-                for (int j = 0; j < changedAlthoughWorse.length; j++)
-                    if (changedAlthoughWorse[j])
+                    changedAlthoughWorse.add(false);
+                for (int j = 0; j < changedAlthoughWorse.size(); j++)
+                    if (changedAlthoughWorse.get(j))
                         changedAltoughWorseCounter++;
-                System.out.println("Percentage of worse sets accepted: " + (float) changedAltoughWorseCounter * 100 / changedAlthoughWorse.length);
-                i = i % changedAlthoughWorse.length;
+                System.out.println("Percentage of worse sets accepted:"
+                        + (float) changedAltoughWorseCounter * 100 / changedAlthoughWorse.size()
+                        + " Arraylist size:" + changedAlthoughWorse.size() + " changedAlthoughworse counter:" + changedAltoughWorseCounter);
                 if (best_merit > theVeryBest.getMerit())                          //we have negative values for the scores, so bigger is better
                     theVeryBest.setNewSet((BitSet) best_group.clone(), best_merit);
-                if (temperature > 5)
-                    temperature = temperature / (float) (1 + 0.0002 * (m_totalEvals - 1));
-                    //temp *= 0.997;
-                else
-                    temperature = temperature / (float) (1 + 0.0002 * (m_totalEvals - 1));
-                // temp *= 0.97;
+                temperature = temperature / (float) (1 + 0.0003 * (m_totalEvals - 1));
             }
         }
         System.out.println("Best merit: " + theVeryBest.getMerit());
@@ -405,3 +397,9 @@ public class SimmulatedAnnealing {
         return RevisionUtils.extract("$Revision: 10396 $");
     }
 }
+
+/*for (int j = 0; j < changedAlthoughWorse.size(); j++)
+                    if (changedAlthoughWorse.get(i))
+                        changedAltoughWorseCounter++;
+                System.out.println("Percentage of worse sets accepted: " + (float) changedAltoughWorseCounter * 100 / changedAlthoughWorse.length);
+                i = i % changedAlthoughWorse.size();*/

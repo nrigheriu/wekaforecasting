@@ -26,7 +26,9 @@ import java.io.PrintWriter;
 import java.util.*;
 import java.util.Random;
 
+import weka.classifiers.Classifier;
 import weka.classifiers.functions.MLPRegressor;
+import weka.classifiers.lazy.IBk;
 import weka.filters.supervised.attribute.TSLagMaker;
 import weka.classifiers.functions.LinearRegression;
 import weka.core.*;
@@ -210,14 +212,15 @@ public class RandomSearch{
     public int[] search(Instances data, TSLagMaker tsLagMaker, List<String> overlayFields) throws Exception {
         long startTime = System.currentTimeMillis(), stopTime;
         m_totalEvals = 0;
-        int m_maxEvals = 63;
+        int m_maxEvals = 20;
         TSWrapper tsWrapper = new TSWrapper();
         tsWrapper.buildEvaluator(data);
-        LinearRegression linearRegression = new LinearRegression();
-        tsWrapper.setM_BaseClassifier(linearRegression);
-       /* MLPRegressor mlpRegressor = new MLPRegressor();
-        tsWrapper.setM_BaseClassifier(mlpRegressor);*/
-        System.out.println("Using RA and " + tsWrapper.getM_BaseClassifier() + " as classifier.");
+        /*LinearRegression linearRegression = new LinearRegression();
+        tsWrapper.setM_BaseClassifier(linearRegression);*/
+        Classifier classifer;
+        classifer = new LinearRegression();
+        tsWrapper.setM_BaseClassifier(classifer);
+        System.out.println("Using RA and LinReg as classifier.");
 
         m_numAttribs = data.numAttributes();
         SubsetHandler subsetHandler = new SubsetHandler();
@@ -228,23 +231,24 @@ public class RandomSearch{
         Hashtable<String, Double> lookForExistingSubsets = new Hashtable<String, Double>();
         // evaluate the initial subset
         subsetHandler.printGroup(best_group);
+        //mode = 0 for wrapper, 1 for returning bias and 2 for testing best model
         best_merit = tsWrapper.evaluateSubset(best_group, tsLagMaker, overlayFields, false);
         m_totalEvals++;
         String subset_string = best_group.toString();
         lookForExistingSubsets.put(subset_string, best_merit);
         System.out.println("Initial group with numAttribs: " + m_numAttribs + "/n");
         System.out.println("Merit: " + best_merit);
-        RAContainer raContainer = new RAContainer(m_totalEvals, best_group, lookForExistingSubsets, subsetHandler, best_merit, tsLagMaker, overlayFields);
+        /*RAContainer raContainer = new RAContainer(m_totalEvals, best_group, lookForExistingSubsets, subsetHandler, best_merit, tsLagMaker, overlayFields);        //Threading
         ArrayList<Thread> threadList = new ArrayList<Thread>();
-        threadNumber = 2;
+        threadNumber = 1;
         int threadLagInterval = m_maxEvals/threadNumber;
         for (int i = 0; i < threadNumber; i++)
             threadList.add(i, new RAThread("Thread " + i, raContainer, m_maxEvals, subsetHandler, linearRegression, data));
         for (int i = 0; i < threadList.size(); i++)
             threadList.get(i).start();
         for (int i = 0; i < threadList.size(); i++)
-            threadList.get(i).join();
-        /*while(m_totalEvals < m_maxEvals){
+            threadList.get(i).join();*/
+        while(m_totalEvals < m_maxEvals){
             BitSet s_new = subsetHandler.changeBits((BitSet)best_group.clone(), 1);
             subset_string = s_new.toString();
             if(!lookForExistingSubsets.containsKey(subset_string)){
@@ -258,7 +262,7 @@ public class RandomSearch{
                     System.out.println("New best merit!");
                 }
             }
-        }*/
+        }
         System.out.println("Best merit:" + best_merit);
         System.out.println(m_totalEvals);
         stopTime = System.currentTimeMillis();

@@ -733,6 +733,7 @@ public class BestFirst {
         double merit;
         boolean z;
         boolean added;
+        Double bias = 0.;
         Hashtable<String, Double> lookForExistingSubsets = new Hashtable<String, Double>();
         int insertCount = 0;
         LinkedList2 prioQueueList = new LinkedList2(m_maxStale);
@@ -902,7 +903,6 @@ public class BestFirst {
         stopTime = System.currentTimeMillis();
         System.out.println("Time taken for wrapper part:" + ((double) stopTime - startTime) / 1000);
         m_bestMerit = best_merit;
-        tsWrapper.evaluateSubset(best_group, tsLagMaker, overlayFields, true);
         subsetHandler.includesMoreThanXPercentOfFeatures(best_group, true, 0);
         tsWrapper.evaluateSubset(best_group, tsLagMaker, overlayFields, true);
         return attributeList(best_group);

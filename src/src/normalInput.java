@@ -10,7 +10,7 @@ import weka.core.Instances;
 public class normalInput {
     public static void main(String[] args) {
         try {
-            String pathToWholeData = "dataSets/3months_100aggregate_extraFeatures.arff";
+            String pathToWholeData = "dataSets/6months_allaggregate_extraFeatures.arff";
             //String pathToHugeData = "/home/cycle/workspace/wekaforecasting-new-features/dataSets/6months_1aggregate_extraFeatures.arff";
 
             // load the data
@@ -27,6 +27,7 @@ public class normalInput {
             //linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1 -R 1E-6"));
             //MLPRegressor mlpRegressor = new MLPRegressor();
             //mlpRegressor.setOptions(weka.core.Utils.splitOptions("-N 1"));
+            System.out.println("Data:" + pathToWholeData);
             doForecasting doForecasting = new doForecasting();
             doForecasting.doForecast(wholeData);
         } catch (Exception ex) {

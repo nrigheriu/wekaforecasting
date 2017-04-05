@@ -34,12 +34,12 @@ public class doForecasting {
             List<String> overlayFields = new ArrayList<String>();
             MyHashMap hashMap = new MyHashMap();
             TSLagMaker tsLagMaker = new TSLagMaker();
-            int lagLimit = 1392, lagInterval = 72, featureLimitFromInterval = 6, reliefFeatureCutOff = 150;
+            int lagLimit = 1392, lagInterval = 36, featureLimitFromInterval = 3, reliefFeatureCutOff = 150;
 
-            /*rankWithRelief(hashMap, data, lagInterval, lagLimit, featureLimitFromInterval);
+           /* rankWithRelief(hashMap, data, lagInterval, lagLimit, featureLimitFromInterval);
             hashMap.sortHashMapByValues();
             String chosenLags = hashMap.printHashMapFeatures(reliefFeatureCutOff);*/
-            String chosenLags = "1366, 1369, 1370, 1262, 1261, 1263, 1066, 1065, 1067, 1174, 1173, 1172, 870, 869, 871, 674, 675, 673, 494, 493, 492, 1334, 1335, 1333, 958, 959, 957, 965, 573, 602, 601, 1226, 1232, 1225, 1161, 994, 769, 993, 1269, 1162, 1190, 770, 797, 1298, 1270, 1073, 1138, 478, 1144, 1139, 479, 1030, 477, 1031, 1036, 1074, 1102, 377, 1377, 1378, 1379, 406, 405, 948, 942, 941, 877, 878, 681, 840, 834, 768, 835, 906, 762, 767, 682, 298, 297, 296, 683, 697, 572, 571, 570, 698, 726, 181, 644, 609, 643, 182, 210, 501, 502, 1, 503, 108, 98, 97, 376, 413, 375, 414, 305, 374, 448, 306, 217, 109, 307, 268, 2, 180, 218, 267, 219, 266, 179, 110, 178, 111, 3, 72, 37, 71";
+            String chosenLags = "768, 1340, 1, 1338, 1339, 766, 767, 1345, 1344, 1341, 1237, 672, 673, 1236, 962, 964, 961, 671, 1233, 844, 1041, 1040, 845, 864, 1045, 572, 1148, 1149, 1145, 769, 1144, 484, 571, 772, 570, 481, 479, 771, 1232, 1143, 1139, 1230, 1231, 573, 965, 576, 96, 968, 577, 95, 2, 948, 94, 969, 946, 189, 191, 190, 1161, 947, 1164, 465, 480, 6, 1163, 376, 287, 288, 286, 380, 377, 381, 1036, 877, 681, 1034, 1035, 180, 375, 880, 881, 840, 374, 1073, 1076, 684, 838, 1077, 839, 685, 1272, 1269, 179, 1273, 178, 730, 731, 732, 1381, 1380, 268, 1392, 109, 267, 644, 643, 266, 72, 642, 111, 110, 71, 70, 305, 308, 448, 447, 501, 309, 446, 504, 503, 252, 251, 250";
             System.out.println("Relief configuration, lagLimit:" + lagLimit
                     + " lagInterval:" + lagInterval + " featureLimitFromInterval:" + featureLimitFromInterval
             + " reliefFeatureCutOff:" + reliefFeatureCutOff);
