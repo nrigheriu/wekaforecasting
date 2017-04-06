@@ -33,41 +33,49 @@ public class TSCV {
             forecaster.setBaseForecaster(classifier);
             int stepNumber = 24, trainingPercentage;                          //stepNumber is how many steps in future it should be forecasted. 15 min * 24 =  6 hours
             int numberOfUnitsToForecast, numUnitsForecasted, daysToForecast;   //this specifies how many times the stepNumber above should be evaluated with the same forecaster built.
+            ArrayList<Integer> trainingPercentages = new ArrayList<Integer>();
             if(testBestModel){
+                for (int i = 80; i <= 97; i+=3) {       //3% of 1year and 3 months is 2 weeks
+                    trainingPercentages.add(i);
+                }
                 trainingPercentage = 80;
-                daysToForecast = 36;
+                daysToForecast = 14;
             }else {
+                trainingPercentages.add(70);
                 trainingPercentage = 70;
                 daysToForecast = 7;
             }
             numberOfUnitsToForecast = (daysToForecast * 24)/6;
-            int startTestData = 0, endTestData = 0;
-            Instances testData = null, trainData = null;
-            List<List<NumericPrediction>> forecast = null;
-            long sTime = System.currentTimeMillis();
-            numUnitsForecasted = 1;
-            trainData = getSplittedData(data, trainingPercentage, true);
-            testData = getSplittedData(data, trainingPercentage, false);
-            forecaster.buildForecaster(trainData);
-            forecaster.primeForecaster(trainData);
-            //numberOfUnitsToForecast = (int) Math.floor(testData.numInstances() / stepNumber);                                               //forecast until the end of the data set; can take a whole while longer
-            while (numUnitsForecasted <= numberOfUnitsToForecast){
-                startTestData = (numUnitsForecasted-1)*(stepNumber);
-                endTestData = (int)testData.numInstances()-startTestData;
-                if(!forecaster.getTSLagMaker().getOverlayFields().isEmpty())                        //checking if any overlay fields are set
-                    forecast = forecaster.forecast(stepNumber, new Instances(testData, startTestData, endTestData));
-                else
-                    forecast = forecaster.forecast(stepNumber);
+            //for (trainingPercentage:trainingPercentages){
+
+                int startTestData = 0, endTestData = 0;
+                Instances testData = null, trainData = null;
+                List<List<NumericPrediction>> forecast = null;
+                long sTime = System.currentTimeMillis();
+                numUnitsForecasted = 1;
+                trainData = getSplittedData(data, trainingPercentage, true);
+                testData = getSplittedData(data, trainingPercentage, false);
+                forecaster.buildForecaster(trainData);
                 forecaster.primeForecaster(trainData);
-                addToValuesLists(forecast, new Instances(testData, startTestData, endTestData), stepNumber);
-                if(numUnitsForecasted < numberOfUnitsToForecast -1)                                     //check if this isn't the last iteration and where are priming for nothing
-                    for (int i = 0; i < stepNumber*numUnitsForecasted; i++)
-                        forecaster.primeForecasterIncremental(testData.get(i));
-                numUnitsForecasted++;
-            }
+                //numberOfUnitsToForecast = (int) Math.floor(testData.numInstances() / stepNumber);                                               //forecast until the end of the data set; can take a whole while longer
+                while (numUnitsForecasted <= numberOfUnitsToForecast) {
+                    startTestData = (numUnitsForecasted - 1) * (stepNumber);
+                    endTestData = (int) testData.numInstances() - startTestData;
+                    if (!forecaster.getTSLagMaker().getOverlayFields().isEmpty())                        //checking if any overlay fields are set
+                        forecast = forecaster.forecast(stepNumber, new Instances(testData, startTestData, endTestData));
+                    else
+                        forecast = forecaster.forecast(stepNumber);
+                    forecaster.primeForecaster(trainData);
+                    addToValuesLists(forecast, new Instances(testData, startTestData, endTestData), stepNumber);
+                    if (numUnitsForecasted < numberOfUnitsToForecast - 1)                                     //check if this isn't the last iteration and where are priming for nothing
+                        for (int i = 0; i < stepNumber * numUnitsForecasted; i++)
+                            forecaster.primeForecasterIncremental(testData.get(i));
+                    numUnitsForecasted++;
+                }
                 long eTime = System.currentTimeMillis();
-                System.out.println(("Time taken to evaluate again:" + ((double)(eTime-sTime))/1000));
-            buildErrorGraph.buildErrorGraph(new Instances(testData, startTestData, endTestData), forecaster, forecast, stepNumber);
+                System.out.println(("Time taken to evaluate again:" + ((double) (eTime - sTime)) / 1000));
+            //}
+            //buildErrorGraph.buildErrorGraph(new Instances(testData, startTestData, endTestData), forecaster, forecast, stepNumber);
         } catch (Exception e){
             e.printStackTrace();
         }
