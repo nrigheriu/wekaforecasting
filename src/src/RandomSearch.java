@@ -212,9 +212,12 @@ public class RandomSearch{
     public int[] search(Instances data, TSLagMaker tsLagMaker, List<String> overlayFields) throws Exception {
         long startTime = System.currentTimeMillis(), stopTime;
         m_totalEvals = 0;
-        int m_maxEvals = 20;
+        int m_maxEvals = 400;
         TSWrapper tsWrapper = new TSWrapper();
         tsWrapper.buildEvaluator(data);
+        String m_EvaluationMeasure = "RMSE";
+        tsWrapper.setM_EvaluationMeasure(m_EvaluationMeasure);
+        System.out.println("Using " + m_EvaluationMeasure + " as a evaluation Measure");
         /*LinearRegression linearRegression = new LinearRegression();
         tsWrapper.setM_BaseClassifier(linearRegression);*/
         Classifier classifer;

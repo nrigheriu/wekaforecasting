@@ -19,7 +19,6 @@ import java.util.List;
 public class TSCV {
         private List<Double> actualValuesList = new ArrayList<>();
         private List<Double> forecastedValuesList = new ArrayList<>();
-        private String searchMethod = "";
         public TSCV(){
             resetOptions();
         }
@@ -35,9 +34,8 @@ public class TSCV {
             int numberOfUnitsToForecast, numUnitsForecasted, daysToForecast;   //this specifies how many times the stepNumber above should be evaluated with the same forecaster built.
             ArrayList<Integer> trainingPercentages = new ArrayList<Integer>();
             if(testBestModel){
-                for (int i = 80; i <= 97; i+=3) {       //3% of 1year and 3 months is 2 weeks
+                for (int i = 80; i <= 97; i+=3)      //3% of 1year and 3 months is 2 weeks
                     trainingPercentages.add(i);
-                }
                 trainingPercentage = 80;
                 daysToForecast = 14;
             }else {
@@ -46,11 +44,11 @@ public class TSCV {
                 daysToForecast = 7;
             }
             numberOfUnitsToForecast = (daysToForecast * 24)/6;
-            //for (trainingPercentage:trainingPercentages){
-
-                int startTestData = 0, endTestData = 0;
-                Instances testData = null, trainData = null;
+            for (int i = 0; i < trainingPercentages.size(); i++){
+                trainingPercentage = trainingPercentages.get(i);
                 List<List<NumericPrediction>> forecast = null;
+                Instances testData = null, trainData = null;
+                int startTestData = 0, endTestData = 0;
                 long sTime = System.currentTimeMillis();
                 numUnitsForecasted = 1;
                 trainData = getSplittedData(data, trainingPercentage, true);
@@ -68,14 +66,15 @@ public class TSCV {
                     forecaster.primeForecaster(trainData);
                     addToValuesLists(forecast, new Instances(testData, startTestData, endTestData), stepNumber);
                     if (numUnitsForecasted < numberOfUnitsToForecast - 1)                                     //check if this isn't the last iteration and where are priming for nothing
-                        for (int i = 0; i < stepNumber * numUnitsForecasted; i++)
-                            forecaster.primeForecasterIncremental(testData.get(i));
+                        for (int j = 0; j < stepNumber * numUnitsForecasted; j++)
+                            forecaster.primeForecasterIncremental(testData.get(j));
                     numUnitsForecasted++;
                 }
+                if(i == trainingPercentages.size() - 1 && testBestModel)
+                    buildErrorGraph.buildErrorGraph(new Instances(testData, startTestData, endTestData), forecaster, forecast, stepNumber);
                 long eTime = System.currentTimeMillis();
                 System.out.println(("Time taken to evaluate again:" + ((double) (eTime - sTime)) / 1000));
-            //}
-            //buildErrorGraph.buildErrorGraph(new Instances(testData, startTestData, endTestData), forecaster, forecast, stepNumber);
+            }
         } catch (Exception e){
             e.printStackTrace();
         }
@@ -124,12 +123,6 @@ public class TSCV {
         else if (evaluationMeasure == "MAPE")
             getLastError = piErrorSum/(i+1);
         return getLastError;
-    }
-    public String getSearchMethod() {
-        return searchMethod;
-    }
-    public void setSearchMethod(String searchMethod) {
-        this.searchMethod = searchMethod;
     }
     protected void resetOptions(){
         actualValuesList.clear();

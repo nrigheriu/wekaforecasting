@@ -714,6 +714,9 @@ public class BestFirst {
         long startTime = System.currentTimeMillis(), stopTime;
         TSWrapper tsWrapper = new TSWrapper();
         tsWrapper.buildEvaluator(data);
+        String m_EvaluationMeasure = "RMSE";
+        tsWrapper.setM_EvaluationMeasure(m_EvaluationMeasure);
+        System.out.println("Using " + m_EvaluationMeasure + " as a evaluation Measure");
         LinearRegression linearRegression = new LinearRegression();
         linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1 -R 1E-6"));
         tsWrapper.setM_BaseClassifier(linearRegression);

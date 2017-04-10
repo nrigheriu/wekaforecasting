@@ -27,17 +27,17 @@ public class TSWrapper {
     private int m_classIndex;
     public static final int EVAL_RMSE = 1;
     public static final int EVAL_MAPE = 2;
-    private SimmulatedAnnealing search = new SimmulatedAnnealing();
 
     public String getM_EvaluationMeasure() {
         return m_EvaluationMeasure;
     }
 
     public void setM_EvaluationMeasure(String m_EvaluationMeasure) throws Exception{
-        if(m_EvaluationMeasure !="RMSE" || m_EvaluationMeasure !="MAPE")
-            throw new TypeMismatchException();
-        else
+        System.out.println("evalmeasure: " + m_EvaluationMeasure);
+        if(m_EvaluationMeasure == "RMSE" || m_EvaluationMeasure == "MAPE")
             this.m_EvaluationMeasure = m_EvaluationMeasure;
+        else
+            throw new TypeMismatchException();
     }
 
     public TSWrapper(){
@@ -97,7 +97,7 @@ public class TSWrapper {
         tsLagMaker.setOverlayFields(newOverlayFields);
         TSCV tscv = new TSCV();
         tscv.crossValidateTS(trainCopy, m_BaseClassifier, tsLagMaker, testBestModel);
-        returnValue = tscv.calculateErrors(testBestModel,  "MAPE");
+        returnValue = tscv.calculateErrors(testBestModel,  m_EvaluationMeasure);
         return returnValue;
     }
     public void buildEvaluator(Instances data) throws Exception{
