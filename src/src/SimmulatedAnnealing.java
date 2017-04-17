@@ -27,6 +27,7 @@ import java.util.*;
 import java.util.Random;
 
 import weka.classifiers.functions.LinearRegression;
+import weka.classifiers.functions.MLPRegressor;
 import weka.core.*;
 import weka.filters.supervised.attribute.TSLagMaker;
 
@@ -277,14 +278,16 @@ public class SimmulatedAnnealing {
         System.out.println("Using " + m_EvaluationMeasure + " as a evaluation Measure");
         LinearRegression linearRegression = new LinearRegression();
         linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1 -R 1E-6"));
-        tsWrapper.setM_BaseClassifier(linearRegression);
-        System.out.println("Using SA and " + tsWrapper.getM_BaseClassifier() + " as classifier.");
+        MLPRegressor mlpRegressor = new MLPRegressor();
+        mlpRegressor.setOptions(weka.core.Utils.splitOptions("-P 4 -E 4 -N 2"));
+        tsWrapper.setM_BaseClassifier(mlpRegressor);
+        System.out.println("Using SA and MLPRegressor as classifier.");
         m_numAttribs = data.numAttributes();
         SubsetHandler subsetHandler = new SubsetHandler();
         subsetHandler.setM_numAttribs(m_numAttribs);
         BitSet best_group;
         best_group = subsetHandler.getStartSet(0);
-        double temperature = 0.4, initialTemp = temperature;
+        double temperature = 0.4, initialTemp = temperature, dropRate = 0.00012, limit = 0.0000001;
         double best_merit;
         int changedAltoughWorseCounter = 0;
         Hashtable<String, Double> lookForExistingSubsets = new Hashtable<String, Double>();
@@ -294,11 +297,11 @@ public class SimmulatedAnnealing {
         m_totalEvals++;
         String subset_string = best_group.toString();
         lookForExistingSubsets.put(subset_string, best_merit);
-        System.out.println("Initial group with numAttribs: " + m_numAttribs + " temp: " + temperature + "/n");
+        System.out.println("Initial group w/ numAttribs: " + m_numAttribs + " temp: " + temperature + " drop rate:" + dropRate + " limit:" + limit);
         System.out.println("Merit: " + best_merit);
         TheVeryBest theVeryBest = new TheVeryBest((BitSet) best_group.clone(), best_merit);
         ArrayList<Boolean> changedAlthoughWorse = new ArrayList<Boolean>();
-        while (temperature > 0.0000001) {
+        while (temperature > limit) {
             changedAltoughWorseCounter = 0;
             BitSet s_new = subsetHandler.changeBits((BitSet) best_group.clone(), 1);
             subset_string = s_new.toString();
@@ -322,7 +325,7 @@ public class SimmulatedAnnealing {
                         + " Arraylist size:" + changedAlthoughWorse.size() + " changedAlthoughworse counter:" + changedAltoughWorseCounter);
                 if (best_merit > theVeryBest.getMerit())                          //we have negative values for the scores, so bigger is better
                     theVeryBest.setNewSet((BitSet) best_group.clone(), best_merit);
-                temperature = temperature / (float) (1 + 0.0003 * (m_totalEvals - 1));
+                temperature = temperature / (float) (1 + dropRate * (m_totalEvals - 1));
             }
         }
         System.out.println("Best merit: " + theVeryBest.getMerit());

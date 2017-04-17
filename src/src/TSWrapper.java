@@ -25,8 +25,6 @@ public class TSWrapper {
     private double m_threshold;
     private String m_EvaluationMeasure;
     private int m_classIndex;
-    public static final int EVAL_RMSE = 1;
-    public static final int EVAL_MAPE = 2;
 
     public String getM_EvaluationMeasure() {
         return m_EvaluationMeasure;

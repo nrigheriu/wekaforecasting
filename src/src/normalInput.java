@@ -19,15 +19,6 @@ public class normalInput {
             //Instances hugeData = new Instances(new BufferedReader((new FileReader(pathToHugeData))));
 
             wholeData.setClassIndex(1);
-            //hugeData.setClassIndex(1);
-            //select_Attributes(airlineData);
-            //AttributeSelectedClassifier attributeSelectedClassifier = applyMetaClassifier.applyMetaClassifier(airlineData);
-            //AttributeSelectedClassifier attributeSelectedClassifier2 = new AttributeSelectedClassifier();
-            //IBk iBk = new IBk();
-            //LinearRegression linearRegression = new LinearRegression();
-            //linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1 -R 1E-6"));
-            //MLPRegressor mlpRegressor = new MLPRegressor();
-            //mlpRegressor.setOptions(weka.core.Utils.splitOptions("-N 1"));
             System.out.println("Data:" + pathToWholeData);
             HashMap<String, String> lagsHashMap = new HashMap<>();
             lagsHashMap.put("dataSets/1year3months_1aggregate1_extraFeatures.arff", "1, 872, 873, 871, 964, 1340, 1233, 1251, 1248, 1337, 1341, 1338, 1344, 1343, 1145, 768, 1144, 672, 1146, 1056, 1147, 1055, 673, 1037, 769, 671, 572, 573, 1143, 2, 1140, 181, 767, 765, 484, 948, 576, 575, 377, 192, 96, 1232, 191, 770, 965, 569, 571, 97, 3, 480, 479, 771, 95, 465, 1036, 1161, 947, 1231, 376, 945, 1229, 378, 288, 476, 379, 287, 286, 966, 1035, 967, 1033, 681, 1162, 375, 1163, 373, 180, 1269, 1073, 877, 682, 840, 1270, 1271, 683, 1074, 179, 1075, 878, 839, 178, 879, 838, 109, 268, 1377, 644, 1378, 1379, 267, 501, 305, 266, 643, 110, 642, 72, 697, 111, 502, 503, 732, 71, 698, 306, 70, 448, 307, 447, 446, 217, 252, 218");
@@ -46,7 +37,10 @@ public class normalInput {
             lagsHashMap.put("dataSets/1year3months_allaggregate_extraFeatures.arff", "1269, 1304, 1303, 1073, 1108, 1107, 1232, 1231, 1197, 1144, 1161, 1143, 1196, 1142, 1036, 1162, 1035, 1340, 1392, 1377, 1391, 1001, 1339, 1338, 877, 912, 948, 911, 947, 946, 965, 1000, 1341, 1376, 966, 1342, 840, 697, 839, 732, 805, 731, 1268, 1233, 1267, 1145, 1180, 964, 1146, 963, 876, 1072, 962, 1037, 681, 875, 1071, 841, 716, 682, 644, 769, 609, 643, 804, 770, 501, 536, 502, 768, 767, 766, 572, 680, 573, 571, 679, 570, 678, 608, 574, 413, 448, 500, 465, 447, 499, 377, 305, 484, 412, 378, 483, 306, 376, 482, 340, 375, 374, 217, 1, 252, 109, 218, 304, 269, 303, 110, 268, 111, 267, 180, 181, 216, 266, 2, 179, 182, 108, 178, 107, 106, 3, 72, 37, 71");
 
             String chosenLags = lagsHashMap.get(pathToWholeData);
-
+            if(chosenLags == "" || chosenLags == null){
+                System.out.println("File path and lags ranked by relief do not match! Setting default ones");
+                chosenLags = "1, 872, 873, 871, 964, 1340, 1233, 1251, 1248, 1337, 1341, 1338, 1344, 1343, 1145, 768, 1144, 672, 1146, 1056, 1147, 1055, 673, 1037, 769, 671, 572, 573, 1143, 2, 1140, 181, 767, 765, 484, 948, 576, 575, 377, 192, 96, 1232, 191, 770, 965, 569, 571, 97, 3, 480, 479, 771, 95, 465, 1036, 1161, 947, 1231, 376, 945, 1229, 378, 288, 476, 379, 287, 286, 966, 1035, 967, 1033, 681, 1162, 375, 1163, 373, 180, 1269, 1073, 877, 682, 840, 1270, 1271, 683, 1074, 179, 1075, 878, 839, 178, 879, 838, 109, 268, 1377, 644, 1378, 1379, 267, 501, 305, 266, 643, 110, 642, 72, 697, 111, 502, 503, 732, 71, 698, 306, 70, 448, 307, 447, 446, 217, 252, 218";
+            }
             doForecasting doForecasting = new doForecasting();
             doForecasting.doForecast(wholeData, chosenLags);
         } catch (Exception ex) {

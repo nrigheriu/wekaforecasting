@@ -27,6 +27,7 @@ import java.io.Serializable;
 import java.util.*;
 
 import weka.classifiers.functions.LinearRegression;
+import weka.classifiers.functions.MLPRegressor;
 import weka.core.Instances;
 import weka.core.Option;
 import weka.core.Range;
@@ -719,8 +720,11 @@ public class BestFirst {
         System.out.println("Using " + m_EvaluationMeasure + " as a evaluation Measure");
         LinearRegression linearRegression = new LinearRegression();
         linearRegression.setOptions(weka.core.Utils.splitOptions("-S 1 -R 1E-6"));
-        tsWrapper.setM_BaseClassifier(linearRegression);
-        System.out.println("Using best First and linearReggression as classifier.");
+
+        MLPRegressor mlpRegressor = new MLPRegressor();
+        mlpRegressor.setOptions(weka.core.Utils.splitOptions("-P 5 -E 5 -N 2"));
+        tsWrapper.setM_BaseClassifier(mlpRegressor);
+        System.out.println("Using best First and MLPReg as classifier.");
         m_numAttribs = data.numAttributes();
         SubsetHandler subsetHandler = new SubsetHandler();
         subsetHandler.setM_numAttribs(m_numAttribs);

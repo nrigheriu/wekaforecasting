@@ -112,6 +112,7 @@ public class SubsetHandler {
         listOfAttributesWhichShouldAlwaysBeThere.add(6);
         listOfAttributesWhichShouldAlwaysBeThere.add(8);
         listOfAttributesWhichShouldAlwaysBeThere.add(9);
+
         /*listOfAttributesWhichShouldAlwaysBeThere.add(5);
         listOfAttributesWhichShouldAlwaysBeThere.add(7);*/
     }

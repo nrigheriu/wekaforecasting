@@ -28,6 +28,8 @@ import java.util.Random;
 
 import weka.classifiers.Classifier;
 import weka.classifiers.functions.MLPRegressor;
+import weka.classifiers.functions.SMOreg;
+import weka.classifiers.functions.supportVector.RBFKernel;
 import weka.classifiers.lazy.IBk;
 import weka.filters.supervised.attribute.TSLagMaker;
 import weka.classifiers.functions.LinearRegression;
@@ -220,10 +222,10 @@ public class RandomSearch{
         System.out.println("Using " + m_EvaluationMeasure + " as a evaluation Measure");
         /*LinearRegression linearRegression = new LinearRegression();
         tsWrapper.setM_BaseClassifier(linearRegression);*/
-        Classifier classifer;
-        classifer = new LinearRegression();
-        tsWrapper.setM_BaseClassifier(classifer);
-        System.out.println("Using RA and LinReg as classifier.");
+        MLPRegressor mlpRegressor = new MLPRegressor();
+        mlpRegressor.setOptions(weka.core.Utils.splitOptions("-P 4 -E 4 -N 2"));
+        tsWrapper.setM_BaseClassifier(mlpRegressor);
+        System.out.println("Using RA and MLPReg as classifier.");
 
         m_numAttribs = data.numAttributes();
         SubsetHandler subsetHandler = new SubsetHandler();
