@@ -105,16 +105,19 @@ public class SubsetHandler {
     }
 
     public SubsetHandler() { //TODO change this back after manual set
-        listOfAttributesWhichShouldAlwaysBeThere.add(0);                    //time stamp and best overlay fields.
+       /* listOfAttributesWhichShouldAlwaysBeThere.add(0);                    //time stamp and best overlay fields according to own experiments;
         listOfAttributesWhichShouldAlwaysBeThere.add(1);
         listOfAttributesWhichShouldAlwaysBeThere.add(2);
         listOfAttributesWhichShouldAlwaysBeThere.add(3);
         listOfAttributesWhichShouldAlwaysBeThere.add(6);
         listOfAttributesWhichShouldAlwaysBeThere.add(8);
-        listOfAttributesWhichShouldAlwaysBeThere.add(9);
+        listOfAttributesWhichShouldAlwaysBeThere.add(9);*/
 
-        /*listOfAttributesWhichShouldAlwaysBeThere.add(5);
-        listOfAttributesWhichShouldAlwaysBeThere.add(7);*/
+       listOfAttributesWhichShouldAlwaysBeThere.add(0);
+       listOfAttributesWhichShouldAlwaysBeThere.add(1);
+       listOfAttributesWhichShouldAlwaysBeThere.add(2);
+       listOfAttributesWhichShouldAlwaysBeThere.add(5);                          //manual feature sets
+        listOfAttributesWhichShouldAlwaysBeThere.add(7);
     }
 
 }
